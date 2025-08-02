@@ -9,6 +9,11 @@ This tool generates importable n8n workflows from plain English descriptions, us
 - **Flexible Storage**: Uses local Chroma DB or Chroma Cloud for vector storage.
 - **Provider Support**: OpenAI, Anthropic, Gemini, and OpenAI-compatible endpoints.
 
+## Example:
+<img width="1318" height="673" alt="image" src="https://github.com/user-attachments/assets/d7227c04-f2fe-4805-8627-c5ee006318be" />
+<img width="1329" height="640" alt="image" src="https://github.com/user-attachments/assets/33f7d754-ad67-4ded-9390-7c1e39d757c1" />
+<img width="956" height="271" alt="image" src="https://github.com/user-attachments/assets/793db97b-c184-4fcf-90a3-44a5d19fc89d" />
+
 ## Project Structure
 ```
 .
@@ -19,7 +24,7 @@ This tool generates importable n8n workflows from plain English descriptions, us
 ├─ ui/                    # Static UI files (served at /ui)
 ├─ data/                  # Directory for chunked data
 │  └─ chunks/             # Contains generated chunks
-├─ chroma_db/             # Local Chroma DB (if used)
+├─ chroma_db/             # Local Chroma DB (not checked in)
 ├─ Dockerfile
 ├─ docker-compose.yml
 └─ .env                   # Configuration file (not committed)
@@ -28,6 +33,7 @@ This tool generates importable n8n workflows from plain English descriptions, us
 ## Requirements
 - Docker and Docker Compose
 - API key for one of the supported providers (e.g., OpenAI, Anthropic, etc.)
+- (Optional) A Chroma Cloud account/token if you prefer cloud indexing.
 
 ## Configuration
 Create a `.env` file in the project root with your settings. Example configurations:
