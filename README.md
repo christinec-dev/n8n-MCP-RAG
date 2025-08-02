@@ -100,7 +100,7 @@ RUN_INDEX_ON_START=false
 - Protect sensitive endpoints with strong tokens and consider using a reverse proxy for production.
 
 ## License
-MIT (Add your preferred license here)
+MIT 
 
 ## Quick Start
 1. Clone the repository and copy the `.env.example` to `.env`.
