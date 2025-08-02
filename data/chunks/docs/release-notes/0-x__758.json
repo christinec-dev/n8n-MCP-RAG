@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 758,
+  "content": "### Bug fixes\n\n* [GetResponse Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.getresponsetrigger.md) Fixed an issue with error handling\n* [GitHub Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.githubtrigger.md) Fixed an issue with error handling\n* [GitLab Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.gitlabtrigger.md) Fixed an issue with error handling\n* [Google Sheets:](/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/index.md) Fixed an issue with the Lookup operation for returning empty rows\n* Orbit: Fixed issues with the Post resource\n* [Redis:](/integrations/builtin/app-nodes/n8n-nodes-base.redis.md) Fixed an issue with the node not returning an error\n* [Xero:](/integrations/builtin/app-nodes/n8n-nodes-base.xero.md) Fixed an issue with the Create operation for the Contact resource"
+}

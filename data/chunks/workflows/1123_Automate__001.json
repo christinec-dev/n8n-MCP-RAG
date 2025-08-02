@@ -1,0 +1,12 @@
+{
+  "source": "1123_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Mock Data\",\n      \"type\": \"n8n-nodes-base.function\",\n      \"position\": [\n        550,\n        300\n      ],\n      \"parameters\": {\n        \"functionCode\": \"return [{json:[\\\"item-1\\\", \\\"item-2\\\", \\\"item-3\\\", \\\"item-4\\\"]}];\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Function\",\n      \"type\": \"n8n-nodes-base.function\",\n      \"position\": [\n        750,\n        300\n      ],\n      \"parameters\": {\n        \"functionCode\": \"return items[0].json.map(item => {\\n  return {\\n    json: {\\n      data:item\\n    },\\n  }\\n});\\n\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Mock Data\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Function\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.function",
+      "n8n-nodes-base.function"
+    ],
+    "trigger": null
+  }
+}

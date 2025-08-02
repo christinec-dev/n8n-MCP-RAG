@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 496,
+  "content": "### Core Functionality\n\n- Fixed a bug preventing the binary data preview from using the full available height and width.\n- Fixed a build problem by pinning chokidar version 3.5.2.\n- Prevent workflow activation when no trigger is presentand introduced a modal explaining production data handling.\n- Fixed *Filter by tags* placeholder text used in the Open Workflow modal."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.stripe.md",
+  "index": 3,
+  "content": "## Operations\n\n* Balance\n    * Get a balance\n* Charge\n    * Create a charge\n    * Get a charge\n    * Get all charges\n    * Update a charge\n* Coupon\n    * Create a coupon\n    * Get all coupons\n* Customer\n    * Create a customer\n    * Delete a customer\n    * Get a customer\n    * Get all customers\n    * Update a customer\n* Customer Card\n    * Add a customer card\n    * Get a customer card\n    * Remove a customer card\n* Source\n    * Create a source\n    * Delete a source\n    * Get a source\n* Token\n    * Create a token"
+}

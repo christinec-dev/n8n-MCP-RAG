@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/troubleshooting.md",
+  "index": 4,
+  "content": "## Prevent loading community nodes on n8n cloud\n\nIf your n8n cloud instance crashes and fails to start, you can prevent installed community nodes from loading on instance startup. Visit the [Cloud Admin Panel](/manage-cloud/cloud-admin-dashboard.md) > **Manage** and toggle **Disable all community nodes** to **`true`**. This toggle is only visible when you allow community node installation."
+}

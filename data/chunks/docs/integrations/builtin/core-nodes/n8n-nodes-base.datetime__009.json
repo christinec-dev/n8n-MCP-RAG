@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 9,
+  "content": "### Format a Date options\n\nThis operation includes these options:\n\n* **Include Input Fields**: If you'd like to include all of the input fields in the output, turn this option on. If turned off, only the **Output Field Name** and its contents are output.\n* **From Date Format**: If the node isn't recognizing the **Date** format correctly, enter the format for that **Date** here so the node can process it properly. Use Luxon's [special tokens](https://moment.github.io/luxon/#/formatting?id=table-of-tokens) to enter the format. Tokens are case-sensitive\n* **Use Workflow Timezone**: Whether to use the input's time zone (turned off) or the workflow's timezone (turned on)."
+}

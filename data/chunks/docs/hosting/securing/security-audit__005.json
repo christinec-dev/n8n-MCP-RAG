@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/security-audit.md",
+  "index": 5,
+  "content": "### API\n\nMake a `POST` call to the `/audit` endpoint. You must authenticate as the instance owner."
+}

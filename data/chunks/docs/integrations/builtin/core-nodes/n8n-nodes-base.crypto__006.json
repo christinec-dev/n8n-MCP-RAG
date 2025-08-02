@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.crypto.md",
+  "index": 6,
+  "content": "### Hash parameters\n\n* **Type**: Select the hash type to use. Choose from:\n\t* **MD5**\n\t* **SHA256**\n\t* **SHA3-256**\n\t* **SHA3-384**\n\t* **SHA3-512**\n\t* **SHA385**\n\t* **SHA512**\n* **Binary File**: Turn this parameter on if the data you want to hash is from a binary file.\n\t* **Value**: If you turn off **Binary File**, enter the value you want to hash.\n\t* **Binary Property Name**: If you turn on **Binary File**, enter the name of the binary property that contains the data you want to hash.\n* **Property Name**: Enter the name of the property you want to write the hash to.\n* **Encoding**: Select the encoding type to use. Choose from:\n\t* **BASE64**\n\t* **HEX**"
+}

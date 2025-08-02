@@ -1,0 +1,13 @@
+{
+  "source": "1449_Manual_Webhook_Automate_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"FDl4Ho3KYiA7MIxR\",\n  \"meta\": {\n    \"instanceId\": \"f6d3344846b38f0c35c069a91b2450f6527b26bb735b6301a692ce1cca2b2682\"\n  },\n  \"name\": \"NetSuite Rest API workflow\",\n  \"tags\": [],\n  \"nodes\": [\n    {\n      \"id\": \"f7f90fb4-e29f-4bbf-a99d-ee2fde45cd06\",\n      \"name\": \"When clicking ‘Test workflow’\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        -380,\n        -40\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"9fcc1ce7-e9bf-4592-8bcd-7c77272a9c59\",\n      \"name\": \"NetSuite\",\n      \"type\": \"n8n-nodes-netsuite.netsuite\",\n      \"position\": [\n        -40,\n        -180\n      ],\n      \"parameters\": {\n        \"query\": \"={{ $json.query.suiteql }}\",\n        \"options\": {},\n        \"operation\": \"runSuiteQL\"\n      },\n      \"credentials\": {\n        \"netsuite\": {\n          \"id\": \"ro6Rl1oWY4KkFUYn\",\n          \"name\": \"NetSuite account\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"1d615309-2cb0-4383-9698-2f80da0d4bf5\",\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        -380,\n        -280\n      ],\n      \"webhookId\": \"249328cc-587a-4269-b266-96fe60cfaeb9\",\n      \"parameters\": {\n        \"path\": \"249328cc-587a-4269-b266-96fe60cfaeb9\",\n        \"options\": {},\n        \"responseData\": \"allEntries\",\n        \"responseMode\": \"lastNode\"\n      },\n      \"typeVersion\": 2\n    }\n  ],\n  \"active\": true,\n  \"pinData\": {},\n  \"settings\": {\n    \"executionOrder\": \"v1\"\n  },\n  \"versionId\": \"d6823e59-8e07-44a6-b4af-b029da620523\",\n  \"connections\": {\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"NetSuite\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"NetSuite\": {\n      \"main\": [\n        []\n      ]\n    },\n    \"When clicking ‘Test workflow’\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"NetSuite\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-netsuite.netsuite",
+      "n8n-nodes-base.webhook"
+    ],
+    "trigger": null
+  }
+}

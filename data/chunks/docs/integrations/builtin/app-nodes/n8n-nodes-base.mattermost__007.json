@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mattermost.md",
+  "index": 7,
+  "content": "## Find the channel ID\n\nTo find the channel ID in Mattermost:\n\n1. Select the channel from the left sidebar.\n2. Select the channel name at the top.\n3. Select **View Info**."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 782,
+  "content": "### Enhanced nodes\n\n* [Google Drive:](/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/index.md) Added support for creating folders for shared drives\n* [Google Sheets:](/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/index.md) Added Create and Remove operation to the Sheet resource\n* [Harvest:](/integrations/builtin/app-nodes/n8n-nodes-base.harvest.md) Added Update operation to the Task resource\n* [Jira:](/integrations/builtin/app-nodes/n8n-nodes-base.jira.md) Added Reporter field to the Issue resource\n* [Postgres:](/integrations/builtin/app-nodes/n8n-nodes-base.postgres/index.md) Added support for type casting"
+}

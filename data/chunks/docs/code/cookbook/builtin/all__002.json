@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/builtin/all.md",
+  "index": 2,
+  "content": "# `(\"<node-name>\").all(branchIndex?: number, runIndex?: number)`\n\nThis gives access to all the items of the current or parent nodes. If you don't supply any parameters, it returns all the items of the current node."
+}

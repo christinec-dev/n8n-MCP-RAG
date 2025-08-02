@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.splitinbatches.md",
+  "index": 10,
+  "content": "### Check that the node has processed all items\n\nTo check if the node still has items to process, use the following expression: `{{$node[\"Loop Over Items\"].context[\"noItemsLeft\"]}}`. This expression returns a boolean value. If the node still has data to process, the expression returns `false`, otherwise it returns `true`."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.postbin.md",
+  "index": 5,
+  "content": "## Send requests\n\nTo send requests to a PostBin bin:\n\n1. Go to [PostBin](https://www.toptal.com/developers/postbin/) and follow the steps to generate a new bin. PostBin gives you a unique URL, including a bin ID.\n2. In the PostBin node, select the **Request** resource.\n3. Choose the type of **Operation** you want to perform.\n4. Enter your bin ID in **Bin ID**."
+}

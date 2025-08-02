@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 29,
+  "content": "## Entity Relationship Diagram (ERD)\n\n![\"n8n ERD\"](/_images/hosting/architecture/n8n-database-diagram.png)\n\n<!-- vale on -->"
+}

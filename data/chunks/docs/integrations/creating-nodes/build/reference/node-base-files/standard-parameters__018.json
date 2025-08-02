@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 18,
+  "content": "### Additional fields objects\n\nThese objects define optional parameters. n8n displays them under **Additional Fields** in the GUI. Users can choose which parameters to set.\n\nThe objects must include:\n\n```js\ndisplayName: 'Additional Fields',\nname: 'additionalFields',\n// The UI element type\ntype: ''\nplaceholder: 'Add Field',\ndefault: {},\ndisplayOptions: {\n  // Set which resources and operations this field is available for\n  show: {\n    resource: [\n      // Resource names\n    ],\n    operation: [\n      // Operation names\n    ]\n  },\n}\n```\n\nFor more information about UI element types, refer to [UI elements](/integrations/creating-nodes/build/reference/ui-elements.md)."
+}

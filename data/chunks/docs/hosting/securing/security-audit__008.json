@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/security-audit.md",
+  "index": 8,
+  "content": "### Credentials\n\nThis report shows:\n\n* Credentials not used in a workflow.\n* Credentials not used in an active workflow.\n* Credentials not use in a recently active workflow."
+}

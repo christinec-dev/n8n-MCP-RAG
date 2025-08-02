@@ -1,0 +1,13 @@
+{
+  "source": "0306_HTTP_Respondtowebhook_Import_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"id\": \"0357b17f-9fcf-4725-8311-28bd9c76c37c\",\n      \"name\": \"On GET request\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        820,\n        400\n      ],\n      \"webhookId\": \"454eb4ea-e460-4196-b31c-284abf234fc3\",\n      \"parameters\": {\n        \"path\": \"download-pdf\",\n        \"options\": {},\n        \"responseMode\": \"responseNode\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"21d8c543-33c2-45eb-b392-2cb7139344c6\",\n      \"name\": \"Fetch binary file\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        1040,\n        400\n      ],\n      \"parameters\": {\n        \"url\": \"https://www.deutschebahn.com/resource/blob/8813300/bdf106f07186f66e4448f95aca02bd4a/Faktenblatt-ICE-L_Mai23-data.pdf\",\n        \"options\": {\n          \"response\": {\n            \"response\": {\n              \"responseFormat\": \"file\"\n            }\n          }\n        }\n      },\n      \"typeVersion\": 4.1\n    },\n    {\n      \"id\": \"3ced3067-d82c-4bb4-b5fe-53a8d79c2177\",\n      \"name\": \"Respond with attachment\",\n      \"type\": \"n8n-nodes-base.respondToWebhook\",\n      \"position\": [\n        1260,\n        400\n      ],\n      \"parameters\": {\n        \"options\": {\n          \"responseHeaders\": {\n            \"entries\": [\n              {\n                \"name\": \"content-disposition\",\n                \"value\": \"=attachment; filename=\\\"my_document_{{ $now.toFormat('yyyy-MM-dd') }}.pdf\\\"\"\n              }\n            ]\n          }\n        },\n        \"respondWith\": \"binary\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"On GET request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Fetch binary file\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Fetch binary file\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Respond with attachment\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.respondToWebhook"
+    ],
+    "trigger": null
+  }
+}

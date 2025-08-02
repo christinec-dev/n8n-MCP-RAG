@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 275,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### n8n node\n\nThe [n8n node](/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md) allows you to consume the n8n API in your workflows.\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### WhatsApp Business Platform node\n\nThe [WhatsApp Business Platform](/integrations/builtin/app-nodes/n8n-nodes-base.whatsapp/index.md) node allows you to use the WhatsApp Business Platform Cloud API in your workflows.\n\n</div>"
+}

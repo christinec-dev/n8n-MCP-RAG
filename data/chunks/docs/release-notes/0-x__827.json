@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 827,
+  "content": "## n8n@0.85.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.84.4...n8n@0.85.0) for this version.<br />\n**Release date:** 2020-09-30\n\n- Enhanced nodes\n- Postgres: Added Schema parameter for the Update operation\n- Bug Fixes\n- Jira: Fixed a bug with the Issue Type field\n- Pipedrive Trigger: Fixed issues with the credentials\n- Changed the bcrypt library to `bcrypt.js` to make it compatible with Windows\n- The OAuth callback URLs are now generated in the backend"
+}

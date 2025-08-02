@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 630,
+  "content": "### Bug fixes\n\n* [FTP:](/integrations/builtin/core-nodes/n8n-nodes-base.ftp.md) Fixed issue where incorrect paths were displayed when using the node.\n* [Wait:](/integrations/builtin/core-nodes/n8n-nodes-base.wait.md) Fixed issue when receiving multiple files using On Webhook Call operation.\n* [Webhook:](/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md) Fixed issue when receiving multiple files."
+}

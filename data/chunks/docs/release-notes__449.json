@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 449,
+  "content": "## n8n@1.1.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.0.5...n8n@1.1.0) for this version.<br />\n**Release date:** 2023-07-26\n\nThis release contains new features, bug fixes, and node enhancements.\n\n/// warning | Breaking changes\nPlease note that this version contains breaking changes if upgrading from a `0.x.x` version. For full details, refer to the [n8n v1.0 migration guide](/1-0-migration-checklist.md).\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/blocklist.md",
+  "index": 2,
+  "content": "# n8n community node blocklist\n\nn8n maintains a blocklist of community nodes. You can't install any node on this list.\n\nn8n may add community nodes to the blocklist for a range of reasons, including:\n\n* The node is intentionally malicious\n* It's low quality (low enough to be harmful)\n\n<!-- vale off -->\n\nIf you are a community node creator whose node is on the blocklist, and you believe this is a mistake, contact [hello@n8n.io](mailto: hello@n8n.io).\n\n<!-- vale on -->"
+}

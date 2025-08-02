@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/security-audit.md",
+  "index": 9,
+  "content": "### Database\n\nThis report shows:\n\n* Expressions used in **Execute Query** fields in SQL nodes.\n* Expressions used in **Query Parameters** fields in SQL nodes.\n* Unused **Query Parameters** fields in SQL nodes."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/isolation.md",
+  "index": 2,
+  "content": "# Isolate n8n\n\nBy default, a self-hosted n8n instance sends data to n8n's servers. It notifies users about available updates, workflow templates, and diagnostics. \n\nTo prevent your n8n instance from connecting to n8n's servers, set these environment variables to false: \n\n```\nN8N_DIAGNOSTICS_ENABLED=false\nN8N_VERSION_NOTIFICATIONS_ENABLED=false\nN8N_TEMPLATES_ENABLED=false\n```\n\nUnset n8n's diagnostics configuration:\n\n```\nEXTERNAL_FRONTEND_HOOKS_URLS=\nN8N_DIAGNOSTICS_CONFIG_FRONTEND=\nN8N_DIAGNOSTICS_CONFIG_BACKEND=\n```\n\nRefer to [Environment variables reference](/hosting/configuration/environment-variables/deployment.md) for more information on these variables."
+}

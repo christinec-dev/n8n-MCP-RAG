@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 19,
+  "content": "or **Append**\n    * Add something inside of a resource.\n    * Use `insert` for database nodes.\n    * Description: `Insert <CHILD_ELEMENT>(s) in a <RESOURCE>`\n* **Insert or Update** or **Append or Update**\n    * Add or update something inside of a resource.\n    * Use `insert` for database nodes.\n    * Description: `Insert <CHILD_ELEMENT>(s) or update an existing one(s) (upsert)`\n* **Update**\n    * You can use \"Update\" in two different ways:\n        1. Update a resource:\n            * Description: `Update one or more <RESOURCE>s`\n        2. Update something **inside** of a resource (for example, a row):\n            * In this case, **always specify the object of the operation**: for example, `Update Rows` or `Update Records`.\n            * Description: `Update <CHILD_ELEMENT>(s) inside a <RESOURCE>`"
+}

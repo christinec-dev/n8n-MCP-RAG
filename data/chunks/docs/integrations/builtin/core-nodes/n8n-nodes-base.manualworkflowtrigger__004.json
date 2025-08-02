@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.manualworkflowtrigger.md",
+  "index": 4,
+  "content": "### Only one 'Manual Trigger' node is allowed in a workflow\n<!-- vale on -->\n\nThis error displays if you try to add a Manual Trigger node to a workflow which already includes a Manual Trigger node.\n\nRemove your existing Manual Trigger or edit your workflow to connect that trigger to a different node."
+}

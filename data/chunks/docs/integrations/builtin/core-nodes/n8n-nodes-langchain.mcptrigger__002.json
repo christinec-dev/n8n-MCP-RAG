@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger.md",
+  "index": 2,
+  "content": "# MCP Server Trigger node\n\nUse the MCP Server Trigger node to allow n8n to act as a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server, making n8n tools and workflows available to MCP clients.\n\n///  note  | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/httprequest.md).\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.azurestorage.md",
+  "index": 2,
+  "content": "# Azure Storage node\n\nThe Azure Storage node has built-in support for a wide range of features, which includes creating, getting, and deleting blobs and containers. Use this node to automate work within the Azure Storage service or integrate it with other services in your workflow.\n\nOn this page, you'll find a list of operations the Azure Storage node supports, and links to more resources.\n\n///  note  | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/azurestorage.md).\n///"
+}

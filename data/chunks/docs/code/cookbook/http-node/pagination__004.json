@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/http-node/pagination.md",
+  "index": 4,
+  "content": "## Use a URL from the response to get the next page using `$response`\n\nIf the API returns the URL of the next page in its response:\n\n1. Set **Pagination Mode** to **Response Contains Next URL**. n8n displays the parameters for this option.\n1. In **Next URL**, use an [expression](/glossary.md#expression-n8n) to set the URL. The exact expression depends on the data returned by your API. For example, if the API includes a parameter called `next-page` in the response body:\n\t```javascript\n\t{{ $response.body[\"next-page\"] }}\n\t```"
+}

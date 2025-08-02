@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.respondtowebhook.md",
+  "index": 2,
+  "content": "# Respond to Webhook\n\nUse the Respond to Webhook node to control the response to incoming webhooks. This node works with the [Webhook](/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md) node.\n\n/// note | Runs once for the first data item\nThe Respond to Webhook node runs once, using the first incoming data item. Refer to [Return more than one data item](#return-more-than-one-data-item-deprecated) for more information.\n///"
+}

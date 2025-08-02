@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.textsplittercharactertextsplitter.md",
+  "index": 5,
+  "content": "## Related resources\n\nRefer to [LangChain's text splitter documentation](https://js.langchain.com/docs/concepts/text_splitters) and [LangChain's API documentation for character text splitting](https://v03.api.js.langchain.com/classes/langchain.text_splitter.CharacterTextSplitter.html) for more information about the service.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-overview-link.md\"\n--8<-- \"_glossary/ai-glossary.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.rerankercohere.md",
+  "index": 2,
+  "content": "# Reranker Cohere\n\nThe Reranker Cohere node allows you to [rerank](/glossary.md#ai-reranking) the resulting chunks from a [vector store](/glossary.md#ai-vector-store). You can connect this node to a vector store.\n\nThe reranker reorders the list of documents retrieved from a vector store for a given query in order of descending relevance.\n\nOn this page, you'll find the node parameters for the Reranker Cohere node, and links to more resources.\n\n///  note  | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/cohere.md).\n///\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

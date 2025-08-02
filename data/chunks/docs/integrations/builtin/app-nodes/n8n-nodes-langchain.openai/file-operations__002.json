@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/file-operations.md",
+  "index": 2,
+  "content": "# OpenAI File operations\n\nUse this operation to create, delete, list, message, or update a file in OpenAI. Refer to [OpenAI](/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/index.md) for more information on the OpenAI node itself."
+}

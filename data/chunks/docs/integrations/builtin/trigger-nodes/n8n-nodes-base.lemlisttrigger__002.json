@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.lemlisttrigger.md",
+  "index": 2,
+  "content": "# Lemlist Trigger node\n\n[Lemlist](https://Lemlist.com) is an email outreach platform that allows you to automatically generate personalized images and videos and send personalized cold emails.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/lemlist.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Lemlist Trigger integrations](https://n8n.io/integrations/lemlist-trigger/) page.\n///"
+}

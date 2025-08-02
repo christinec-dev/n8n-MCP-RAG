@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.profitwell.md",
+  "index": 3,
+  "content": "## Operations\n\n* Company\n    * Get your company's ProfitWell account settings\n* Metric\n    * Retrieve financial metric broken down by day for either the current month or the last"
+}

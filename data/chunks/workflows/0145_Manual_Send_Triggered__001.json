@@ -1,0 +1,13 @@
+{
+  "source": "0145_Manual_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        240,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Extract domain name\",\n      \"type\": \"n8n-nodes-base.function\",\n      \"position\": [\n        700,\n        300\n      ],\n      \"parameters\": {\n        \"functionCode\": \"// Take email and extract the domain name \\nvar email = ($json[\\\"email\\\"]);\\nvar name   = email.substring(0, email.lastIndexOf(\\\"@\\\"));\\nvar domain = email.substring(email.lastIndexOf(\\\"@\\\") +1);\\n\\n//To display the final domain name. (result)\\n\\nreturn [{\\n  json: { domain }\\n}]\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Sample email\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        460,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"email\",\n              \"value\": \"email@domain2.com\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Sample email\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Extract domain name\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Sample email\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.function",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

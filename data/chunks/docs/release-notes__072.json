@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 72,
+  "content": "### Insights enhancements for Enterprise\n\nTwo weeks after the launch of [Insights](/insights.md), we’re releasing some enhancements designed for enterprise users.\n\n- **Expanded time ranges**. You can now filter insights over a variety of time periods, from the last 24 hours up to 1 year. Pro users are limited to 7 day and 14 day views.  \n- **Hourly granularity**. Drill down into the last 24 hours of production executions with hourly granularity, making it easier to analyze workflows and quickly identify issues.  \n\nThese updates provide deeper visibility into workflow history, helping you uncover trends over longer periods and detect problems sooner with more precise reporting.\n\n<br> \n<figure markdown=\"span\">\n    ![Filter insights](/_images/release-notes/Insights-drill-down.png)\n    <figcaption>Filter insights</figcaption>\n</figure>\n<br>"
+}

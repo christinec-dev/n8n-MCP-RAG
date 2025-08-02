@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.sendy.md",
+  "index": 3,
+  "content": "## Operations\n\n* Campaign\n    * Create a campaign\n* Subscriber\n    * Add a subscriber to a list\n    * Count subscribers\n    * Delete a subscriber from a list\n    * Unsubscribe user from a list\n    * Get the status of subscriber"
+}

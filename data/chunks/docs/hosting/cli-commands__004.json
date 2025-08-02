@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/cli-commands.md",
+  "index": 4,
+  "content": "## Start a workflow\n\nYou can start workflows directly using the CLI.\n\nExecute a saved workflow by its ID:\n\n```bash\nn8n execute --id <ID>\n```"
+}

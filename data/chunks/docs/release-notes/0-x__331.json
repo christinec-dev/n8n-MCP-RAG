@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 331,
+  "content": "## n8n@0.188.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.187.2...n8n@0.188.0) for this version.<br />\n**Release date:** 2022-07-27\n\nThis release contains a new node for Metabase, bug fixes, and node and product enhancements."
+}

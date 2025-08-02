@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/heroku.md",
+  "index": 2,
+  "content": "# Hosting n8n on Heroku\n\nThis hosting guide shows you how to self-host n8n on Heroku. It uses:\n\n\n- [Docker Compose](https://docs.docker.com/compose/) to create and define the application components and how they work together.\n- [Heroku's PostgreSQL service](https://devcenter.heroku.com/categories/heroku-postgres) to host n8n's data storage.\n- A **Deploy to Heroku** button offering a one click, with minor configuration, deployment.\n\n--8<-- \"_snippets/self-hosting/warning.md\"\n\n--8<-- \"_snippets/self-hosting/installation/latest-next-version.md\""
+}

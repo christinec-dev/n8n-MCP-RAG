@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/digital-ocean.md",
+  "index": 3,
+  "content": "## Create a Droplet\n\n1. [Log in](https://cloud.digitalocean.com/login) to DigitalOcean. \n2. Select the project to host the Droplet, or [create a new project](https://docs.digitalocean.com/products/projects/how-to/create/).\n3. In your project, select **Droplets** from the **Manage** menu. \n4. [Create a new Droplet](https://docs.digitalocean.com/products/droplets/how-to/create/) using the [Docker image](https://marketplace.digitalocean.com/apps/docker) available on the **Marketplace** tab.\n\n/// note | Droplet resources\nWhen creating the Droplet, DigitalOcean asks you to choose a plan. For most usage levels, a basic shared CPU plan is enough.\n///\n/// note | SSH key or Password\nDigitalOcean lets you choose between SSH key and password-based authentication. SSH keys are considered more secure.\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.vero.md",
+  "index": 3,
+  "content": "## Operations\n\n* User\n    * Create or update a user profile\n    * Change a users identifier\n    * Unsubscribe a user.\n    * Resubscribe a user.\n    * Delete a user.\n    * Adds a tag to a users profile.\n    * Removes a tag from a users profile.\n* Event\n    * Track an event for a specific customer"
+}

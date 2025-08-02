@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/sticky-notes.md",
+  "index": 6,
+  "content": "## Sticky Note positioning\n\nYou can:\n\n* Drag a Sticky Note anywhere on the canvas.\n* Drag Sticky Notes behind nodes. You can use this to visually group nodes.\n* Resize Sticky Notes by hovering over the edge of the note and dragging to resize.\n* Change the color: select **Options** <span class=\"inline-image\">![Options icon](/_images/common-icons/three-dot-options-menu.png){.off-glb}</span> to open the color selector."
+}

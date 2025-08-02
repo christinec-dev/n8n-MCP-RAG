@@ -1,0 +1,14 @@
+{
+  "source": "0455_Manual_Gsuiteadmin_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"215\",\n  \"name\": \"Create, update, and get a user using the G Suite Admin node\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        240,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"G Suite Admin\",\n      \"type\": \"n8n-nodes-base.gSuiteAdmin\",\n      \"position\": [\n        440,\n        300\n      ],\n      \"parameters\": {\n        \"domain\": \"n8n.io\",\n        \"lastName\": \"Nat\",\n        \"password\": \"sjhdjsdhbajshdb\",\n        \"username\": \"nat\",\n        \"firstName\": \"Nathan\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"gSuiteAdminOAuth2Api\": \"Google\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"G Suite Admin1\",\n      \"type\": \"n8n-nodes-base.gSuiteAdmin\",\n      \"position\": [\n        640,\n        300\n      ],\n      \"parameters\": {\n        \"userId\": \"={{$node[\\\"G Suite Admin\\\"].json[\\\"id\\\"]}}\",\n        \"operation\": \"update\",\n        \"updateFields\": {\n          \"lastName\": \"Nate\"\n        }\n      },\n      \"credentials\": {\n        \"gSuiteAdminOAuth2Api\": \"Google\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"G Suite Admin2\",\n      \"type\": \"n8n-nodes-base.gSuiteAdmin\",\n      \"position\": [\n        840,\n        300\n      ],\n      \"parameters\": {\n        \"userId\": \"={{$node[\\\"G Suite Admin\\\"].json[\\\"id\\\"]}}\",\n        \"options\": {},\n        \"operation\": \"get\"\n      },\n      \"credentials\": {\n        \"gSuiteAdminOAuth2Api\": \"Google\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"G Suite Admin\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"G Suite Admin1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"G Suite Admin1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"G Suite Admin2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"G Suite Admin\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.gSuiteAdmin",
+      "n8n-nodes-base.gSuiteAdmin",
+      "n8n-nodes-base.gSuiteAdmin"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 63,
+  "content": "### Faster ways to open sub-workflows\n\nWe’ve added several new ways to navigate your multi-workflow automations faster.\n\nFrom any workflow with a sub-workflow node:\n\n🖱️ Right-click on a sub-workflow node and select `Open sub-workflow` from the context menu\n\n⌨️ Keyboard shortcuts\n\n- **Windows:** `CTRL + SHIFT + O` or `CTRL + Double Click`\n- **Mac:** `CMD + SHIFT + O` or `CMD + Double Click`\n\nThese options will bring your sub-workflow up in a new tab."
+}

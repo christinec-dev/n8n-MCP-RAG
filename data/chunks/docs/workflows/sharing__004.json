@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/sharing.md",
+  "index": 4,
+  "content": "## View shared workflows\n\nYou can browse and search workflows on the **Workflows** list. The workflows in the list depend on the project:\n\n* **Overview** lists all workflows you can access. This includes:\n\t* Your own workflows.\n\t* Workflows shared with you.\n\t* Workflows in projects you're a member of.\n\t* If you log in as the instance owner or admin: all workflows in the instance.\n* Other projects: all workflows in the project."
+}

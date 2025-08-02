@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudrealtimedatabase.md",
+  "index": 3,
+  "content": "## Operations\n\n* Write data to a database\n* Delete data from a database\n* Get a record from a database\n* Append to a list of data\n* Update item on a database"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/logging.md",
+  "index": 9,
+  "content": "### Log levels\n\nn8n uses standard log levels to report:\n\n- `silent`: outputs nothing at all\n- `error`: outputs only errors and nothing else\n- `warn`: outputs errors and warning messages\n- `info`: contains useful information about progress\n- `debug`: the most verbose output. n8n outputs a lot of information to help you debug issues."
+}

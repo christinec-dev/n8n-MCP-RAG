@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ldap.md",
+  "index": 9,
+  "content": "### Search options\n\nYou can also configure this operation using these options:\n\n* **Attribute Names or IDs**: Enter a comma-separated list of attributes to return. Choose from the list or specify IDs using an expression.\n* **Page Size**: Enter the maximum number of results to request at one time. Set to 0 to disable paging.\n* **Scopes**: The set of entries at or below the **Base DN** to search for potential matches. Select from:\n    * **Base Tree**: Often referred to as subordinateSubtree or just \"subordinates,\" selecting this option will search the subordinates of the **Base DN** entry but not the **Base DN** entry itself.\n    * **Single Level**: Often referred to as \"one,\" selecting this option will search only the immediate children of the **Base DN** entry.\n    * **Whole Subtree**: Often referred to as \"sub,\" selecting this option will search the **Base DN** entry and all its subordinates to any depth.\n\nRefer to [The LDAP Search Operation](https://ldap.com/the-ldap-search-operation/) for more information on search scopes."
+}

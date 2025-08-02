@@ -1,0 +1,13 @@
+{
+  "source": "0803_Manual_Customerio_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"32\",\n  \"name\": \"Create a customer and add them to a segment in Customer.io\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        440,\n        260\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"CustomerIo\",\n      \"type\": \"n8n-nodes-base.customerIo\",\n      \"position\": [\n        650,\n        260\n      ],\n      \"parameters\": {\n        \"id\": \"2\",\n        \"additionalFields\": {\n          \"customProperties\": {\n            \"customProperty\": [\n              {\n                \"key\": \"Name\",\n                \"value\": \"n8n\"\n              }\n            ]\n          }\n        }\n      },\n      \"credentials\": {\n        \"customerIoApi\": \"cust\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"CustomerIo1\",\n      \"type\": \"n8n-nodes-base.customerIo\",\n      \"position\": [\n        840,\n        260\n      ],\n      \"parameters\": {\n        \"resource\": \"segment\",\n        \"customerIds\": \"={{$node[\\\"CustomerIo\\\"].json[\\\"id\\\"]}}\"\n      },\n      \"credentials\": {\n        \"customerIoApi\": \"cust\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"CustomerIo\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"CustomerIo1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"CustomerIo\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.customerIo",
+      "n8n-nodes-base.customerIo"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "source": "1045_Manual_Renamekeys_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        320\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        450,\n        320\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"key\",\n              \"value\": \"somevalue\"\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Rename Keys\",\n      \"type\": \"n8n-nodes-base.renameKeys\",\n      \"position\": [\n        650,\n        320\n      ],\n      \"parameters\": {\n        \"keys\": {\n          \"key\": [\n            {\n              \"newKey\": \"newkey\",\n              \"currentKey\": \"key\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Rename Keys\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.renameKeys"
+    ],
+    "trigger": null
+  }
+}

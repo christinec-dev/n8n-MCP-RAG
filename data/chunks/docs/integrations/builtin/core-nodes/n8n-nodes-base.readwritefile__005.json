@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md",
+  "index": 5,
+  "content": "### Read File(s) From Disk options\n\nYou can also configure this operation with these **Options**:\n\n* **File Extension**: Enter the extension for the file in the node output.\n* **File Name**: Enter the name for the file in the node output.\n* **MIME Type**: Enter the file's MIME type in the node output. Refer to [Common MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types) for a list of file extensions and their MIME types.\n* **Put Output File in Field**: Enter the name of the field in the output data to contain the file."
+}

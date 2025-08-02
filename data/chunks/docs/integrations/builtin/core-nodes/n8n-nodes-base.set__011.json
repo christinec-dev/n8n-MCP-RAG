@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.set.md",
+  "index": 11,
+  "content": "### Support Dot Notation\n\nBy default, n8n supports dot notation.\n\nFor example, when using manual mapping, the node follows the dot notation for the **Name** field. That means if you set the name in the **Name** field as `number.one` and the value in the **Value** field as `20`, the resulting JSON is:\n\n```json\n{ \"number\": { \"one\": 20} }\n```\n\nYou can prevent this behavior by selecting **Add Option** > **Support Dot Notation**, and setting the **Dot Notion** field to off. Now the resulting JSON is:\n\n```json\n{ \"number.one\": 20 }\n```"
+}

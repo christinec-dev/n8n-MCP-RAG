@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 796,
+  "content": "## n8n@0.104.2\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.104.1...n8n@0.104.2) for this version.<br />\n**Release date:** 2021-01-27\n\n- Fixed an issue with the credentials parameters that have the same name"
+}

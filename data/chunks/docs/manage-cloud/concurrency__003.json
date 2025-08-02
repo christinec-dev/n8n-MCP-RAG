@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/concurrency.md",
+  "index": 3,
+  "content": "## Concurrency limits\n\nn8n limits the number of concurrent executions for Cloud instances according to their plan:\n\n* Starter and Trial: 5\n* Pro (10k workflow executions, 15 active workflows): 20\n* Pro (50k workflow executions, 50 active workflows): 50\n* Enterprise (in regular mode): 200\n\nYou can view the number of active executions and your plan's concurrency limit at the top of a project's or workflow's executions tab."
+}

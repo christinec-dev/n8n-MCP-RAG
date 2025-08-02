@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 667,
+  "content": "### Core Functionality\n- Added Continue-on-fail support to all nodes.\n- Added new version notifications.\n- Added Refresh List for remote options lists.\n- Added `$position` expression variable to return the index of an item within a list."
+}

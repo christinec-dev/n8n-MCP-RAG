@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.notiontrigger.md",
+  "index": 2,
+  "content": "# Notion Trigger node\n\n[Notion](https://notion.so) is an all-in-one workspace for your notes, tasks, wikis, and databases.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/notion.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Notion Trigger integrations](https://n8n.io/integrations/notion-trigger-beta/) page.\n///"
+}

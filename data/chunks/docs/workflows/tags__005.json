@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/tags.md",
+  "index": 5,
+  "content": "## Manage tags\n\nYou can edit existing tags. Instance owners can delete tags.\n\n1. Select **Manage tags**. This is available from **Filters** > **Tags** on the **Workflows** page, or in the **+ Add tag** modal in your workflow.\n2. Hover over the tag you want to change.\n3. Select **Edit** <span class=\"inline-image\">![Add node icon](/_images/common-icons/edit.png){.off-glb}</span> to rename it, or **Delete** <span class=\"inline-image\">![Add node icon](/_images/common-icons/delete.png){.off-glb}</span> to delete it.\n\n/// warning | Global tags\nTags are global. If you edit or delete a tag, this affects all users of your n8n instance.\n///"
+}

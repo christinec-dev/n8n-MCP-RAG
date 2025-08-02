@@ -1,0 +1,12 @@
+{
+  "source": "1193_Manual_Intercom_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"91\",\n  \"name\": \"Create a new user in Intercom\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        600,\n        250\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Intercom\",\n      \"type\": \"n8n-nodes-base.intercom\",\n      \"position\": [\n        800,\n        250\n      ],\n      \"parameters\": {\n        \"idValue\": \"\",\n        \"identifierType\": \"email\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"intercomApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Intercom\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.intercom"
+    ],
+    "trigger": null
+  }
+}

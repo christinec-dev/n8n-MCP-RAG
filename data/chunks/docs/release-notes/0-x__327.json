@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 327,
+  "content": "### New nodes\n\n[Sendinblue node](/integrations/builtin/app-nodes/n8n-nodes-base.brevo.md) and Sendinblue Trigger node: introducing n8n's [Sendinblue](https://www.sendinblue.com/) integration."
+}

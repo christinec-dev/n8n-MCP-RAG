@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.removeduplicates/index.md",
+  "index": 3,
+  "content": "## Operation modes\n\nThe remove duplication node works differently depending on the value of the **operation** parameter:\n\n* **[Remove Items Repeated Within Current Input](#remove-items-repeated-within-current-input)**: Identify and remove duplicate items in the current input across all fields or a subset of fields.\n* **[Remove Items Processed in Previous Executions](#remove-items-processed-in-previous-executions)**: Compare items in the current input to items from previous executions and remove duplicates.\n* **[Clear Deduplication History](#clear-deduplication-history)**: Wipe the memory of items from previous executions."
+}

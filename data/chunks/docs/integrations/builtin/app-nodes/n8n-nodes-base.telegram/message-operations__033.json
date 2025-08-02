@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/message-operations.md",
+  "index": 33,
+  "content": "### Reply Keyboard parameters\n\nIf you select **Reply Markup > Reply Keyboard**, use the **Reply Keyboard** section to define the buttons and rows in your Reply Keyboard.\n\nUse the **Reply Keyboard Options** to further refine the keyboard's behavior:\n\n* **Resize Keyboard**: Choose whether to request the Telegram client to resize the keyboard vertically for optimal fit (turned on) or whether to use the same height as the app's standard keyboard (turned off).\n* **One Time Keyboard**: Choose whether the Telegram client should hide the keyboard as soon as a user uses it (turned on) or to keep displaying it (turned off).\n* **Selective**: Turn this on if you want to show the keyboard to these users only:\n    * Users that are `@mentioned` in the text of the message.\n    * The sender of the original message, if this Send Animation message is a reply to a message.\n\nRefer to [ReplyKeyboardMarkup](https://core.telegram.org/bots/api#replykeyboardmarkup) for more information."
+}

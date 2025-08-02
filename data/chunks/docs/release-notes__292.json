@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 292,
+  "content": "### Node updates\n- New node added: [Vector Store Tool](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolvectorstore.md) for the AI Agent\n- Enhanced nodes: Zep Cloud Memory, Copper, Embeddings Cohere, GitHub, Merge, Zammad\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 829,
+  "content": "## n8n@0.84.3\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.84.2...n8n@0.84.3) for this version.<br />\n**Release date:** 2020-09-23\n\n- Fixed an issue with the build by setting `jwks-rsa` to an older version"
+}

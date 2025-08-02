@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 205,
+  "content": "### Node updates\n\n- [AI Transform](/integrations/builtin/core-nodes/n8n-nodes-base.aitransform.md): Improved usability  \n- [Anthropic Chat Model Node](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatanthropic.md): Added Haiku 3.5 support  \n- [Convert to File](/integrations/builtin/core-nodes/n8n-nodes-base.converttofile.md): Added delimiter option for writing to CSV  \n- [Gmail Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.gmailtrigger/index.md): Added option to filter for draft messages  \n- [Intercom](/integrations/builtin/app-nodes/n8n-nodes-base.intercom.md): Credential can now be used in the HTTP Request node  \n- [Rapid7 InsightVM](/integrations/builtin/credentials/rapid7insightvm.md): Added credential support  \n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/monitoring.md",
+  "index": 7,
+  "content": "# healthz\nQUEUE_HEALTH_CHECK_ACTIVE=true\n```\n\nRefer to [Configuration methods](/hosting/configuration/configuration-methods.md) for more information on how to configure your instance using environment variables."
+}

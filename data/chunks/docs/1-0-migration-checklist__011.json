@@ -1,0 +1,5 @@
+{
+  "source": "docs/1-0-migration-checklist.md",
+  "index": 11,
+  "content": "### Workflow failures due to expression errors\n\nWorkflow executions may fail due to syntax or runtime errors in expressions, such as those that reference non-existent nodes. While expressions already throw errors on the frontend, this change ensures that n8n also throws errors on the backend, where they were previously silently ignored. To receive notifications of failing workflows, n8n recommends setting up an \"error workflow\" under workflow settings.\n\n[PR #6352](https://github.com/n8n-io/n8n/pull/6352)"
+}

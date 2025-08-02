@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mysql/common-issues.md",
+  "index": 4,
+  "content": "## Can't connect to a local MySQL server when using Docker\n\nWhen you run either n8n or MySQL in Docker, you need to configure the network so that n8n can connect to MySQL.\n\nThe solution depends on how you're hosting the two components."
+}

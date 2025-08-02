@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/subworkflows.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ncontentType: howto\ndescription: Call workflows from other workflows, and split large workflows into smaller components.\n---"
+}

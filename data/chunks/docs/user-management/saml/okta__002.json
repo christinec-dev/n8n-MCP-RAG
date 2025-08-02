@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/saml/okta.md",
+  "index": 2,
+  "content": "# Okta Workforce Identity SAML setup\n\nSet up SAML SSO in n8n with Okta.\n\n/// note | Workforce Identity and Customer Identity\nThis guide covers setting up Workforce Identity. This is the original Okta product. Customer Identity is Okta's name for Auth0, which they've acquired.\n///"
+}

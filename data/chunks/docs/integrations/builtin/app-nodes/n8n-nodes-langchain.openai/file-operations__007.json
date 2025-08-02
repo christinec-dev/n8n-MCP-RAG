@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/file-operations.md",
+  "index": 7,
+  "content": "### Options\n\n- **Purpose**: Enter the intended purpose of the uploaded file. Use **Assistants** for files associated with Assistants and Message operations. Use **Fine-Tune** for [Fine-tuning](https://platform.openai.com/docs/api-reference/fine-tuning).\n\nRefer to [Upload file | OpenAI](https://platform.openai.com/docs/api-reference/files/create) documentation for more information."
+}

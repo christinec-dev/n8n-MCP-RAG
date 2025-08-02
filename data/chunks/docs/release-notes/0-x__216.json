@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 216,
+  "content": "### Bug fixes\n\n* Core: make expression resolution improvements.\n* Editor: schema unit test stub for Font Awesome icons.\n* Remove unnecessary console message."
+}

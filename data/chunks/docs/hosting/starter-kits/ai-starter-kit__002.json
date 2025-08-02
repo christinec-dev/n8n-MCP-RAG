@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/starter-kits/ai-starter-kit.md",
+  "index": 2,
+  "content": "# Self-hosted AI Starter Kit\n\nThe Self-hosted AI Starter Kit is an open, docker compose template that bootstraps a fully featured Local AI and Low Code development environment.\n\nCurated by [n8n](https://github.com/n8n-io), it combines the self-hosted n8n platform with a list of compatible AI products and components to get you started building self-hosted AI workflows."
+}

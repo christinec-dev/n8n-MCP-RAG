@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sort.md",
+  "index": 6,
+  "content": "### Code\n\nInput custom JavaScript code to perform the sort operation. This is a good option if a simple sort won't meet your needs.\n\nEnter your custom JavaScript code in the **Code** input field."
+}

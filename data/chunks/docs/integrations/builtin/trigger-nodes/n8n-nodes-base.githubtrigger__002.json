@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.githubtrigger.md",
+  "index": 2,
+  "content": "# GitHub Trigger node\n\n[GitHub](https://github.com/) provides hosting for software development and version control using Git. It offers the distributed version control and source code management (SCM) functionality of Git, access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/github.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [GitHub Trigger integrations](https://n8n.io/integrations/github-trigger/) page.\n///"
+}

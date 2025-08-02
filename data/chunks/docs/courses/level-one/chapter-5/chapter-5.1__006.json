@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.1.md",
+  "index": 6,
+  "content": "## What's next?\n\n**Nathan 🙋**: This is great! You already automated an important part of my job with only one node. Now instead of manually accessing the data every time I need it, I can use the HTTP Request Node to automatically get the information.\n\n**You 👩‍🔧**: Exactly! In the next step, I'll help you one step further and insert the data you retrieved into Airtable."
+}

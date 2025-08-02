@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 288,
+  "content": "## n8n@0.194.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.193.5...n8n@0.194.0) for this version.<br />\n**Release date:** 2022-09-15\n\nThis release includes new nodes: a Gmail trigger, Google Cloud Storage, and Adalo. It also contains major overhauls of the Gmail and Merge nodes."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.pushcut.md",
+  "index": 2,
+  "content": "# Pushcut node\n\nUse the Pushcut node to automate work in Pushcut, and integrate Pushcut with other applications. n8n supports sending notifications with Pushcut.\n\nOn this page, you'll find a list of operations the Pushcut node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Pushcut credentials](/integrations/builtin/credentials/pushcut.md) for guidance on setting up authentication. \n///"
+}

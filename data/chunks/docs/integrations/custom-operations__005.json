@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/custom-operations.md",
+  "index": 5,
+  "content": "### Credential scopes\n\nSome existing credential types have specific scopes: endpoints that they work with. n8n warns you about this when you select the credential type.\n\nFor example, follow the steps in [Using predefined credential types](#using-predefined-credential-types), and select **Google Calendar OAuth2 API** as your **Credential Type**. n8n displays a box listing the two endpoints you can use this credential type with:\n\n![The scopes box](/_images/integrations/custom-operations/scopes.png)"
+}

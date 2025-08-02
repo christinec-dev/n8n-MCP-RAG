@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/index.md",
+  "index": 3,
+  "content": "## Setup guides\n<!-- vale off -->\nThis section contains most usage information for user management, and the [Cloud setup guide](/user-management/cloud-setup.md). If you self-host n8n, there are extra steps to configure your n8n instance. Refer to the [Self-hosted guide](/hosting/configuration/user-management-self-hosted.md).\n<!-- vale on -->\nThis section includes guides to configuring [LDAP](/user-management/ldap.md) and [SAML](/user-management/saml/index.md) in n8n."
+}

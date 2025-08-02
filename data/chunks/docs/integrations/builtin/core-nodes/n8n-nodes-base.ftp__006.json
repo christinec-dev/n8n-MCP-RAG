@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ftp.md",
+  "index": 6,
+  "content": "## Download\n\nConfigure this operation with these parameters:\n\n* **Path**: Enter the remote path that you would like to connect to.\n* **Put Output File in Field**: Enter the name of the output binary field to put the file in."
+}

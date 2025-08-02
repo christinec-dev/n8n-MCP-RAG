@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gsuiteadmin.md",
+  "index": 3,
+  "content": "## Operations\n\n* ChromeOS Device\n\t* Get a ChromeOS device\n\t* Get many ChromeOS devices\n\t* Update a ChromeOS device\n\t* Change the status of a ChromeOS device\n* Group\n    * Create a group\n    * Delete a group\n    * Get a group\n    * Get many groups\n    * Update a group\n* User\n\t* Add an existing user to a group\n    * Create a user\n    * Delete a user\n    * Get a user\n    * Get many users\n\t* Remove a user from a group\n    * Update a user"
+}

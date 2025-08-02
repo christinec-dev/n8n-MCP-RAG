@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-1.md",
+  "index": 6,
+  "content": "## Referencing node data with the Code node\n\nJust like you can use [expressions](/code/expressions.md) to reference data from other nodes, you can also use some [methods and variables](/code/builtin/overview.md) in the **Code node**.\n\nPlease make sure you read these pages before continuing to the next exercise."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/binary-data.md",
+  "index": 3,
+  "content": "## Working with binary data in your workflows\n\nYou can process binary data in n8n workflows. n8n provides nodes to help you work with binary data. You can also use code."
+}

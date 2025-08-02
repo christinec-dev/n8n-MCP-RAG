@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.zendesk.md",
+  "index": 3,
+  "content": "## Operations\n\n* Ticket\n    * Create a ticket\n    * Delete a ticket\n    * Get a ticket\n    * Get all tickets\n    * Recover a suspended ticket\n    * Update a ticket\n* Ticket Field\n    * Get a ticket field\n    * Get all system and custom ticket fields\n* User\n    * Create a user\n    * Delete a user\n    * Get a user\n    * Get all users\n    * Get a user's organizations\n    * Get data related to the user\n    * Search users\n    * Update a user\n* Organization\n    * Create an organization\n    * Delete an organization\n    * Count organizations\n    * Get an organization\n    * Get all organizations\n    * Get data related to the organization\n    * Update a organization"
+}

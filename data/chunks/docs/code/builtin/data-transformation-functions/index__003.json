@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/builtin/data-transformation-functions/index.md",
+  "index": 3,
+  "content": "## Usage\n\nData transformation functions are available in the expressions editor.\n\nThe syntax is:\n\n```js\n{{ dataItem.function() }}\n```\n\nFor example, to check if a string is an email:\n\n```js\n{{ \"example@example.com\".isEmail() }}\n\n// Returns true\n```"
+}

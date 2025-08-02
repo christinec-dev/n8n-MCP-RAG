@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 593,
+  "content": "### Core Functionality\n- Fixed overlapping buttons when viewing on mobile.\n- Fixed issue with partial workflow executions when Wait node was last.\n- Fixed issue with broken non-JSON requests.\n- Node errors now only displayed for executing nodes, not disconnected nodes.\n- Automatic save when executing new workflows with Webhook node.\n- Fixed an issue with how arrays were serialized for certain nodes.\n- Fixed an issue where executions could not be cancelled when running in Main mode.\n- Duplicated workflows now open in a new window."
+}

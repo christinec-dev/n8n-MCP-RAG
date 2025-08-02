@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ftp.md",
+  "index": 7,
+  "content": "## List\n\nConfigure this operation with these parameters:\n\n* **Path**: Enter the remote path that you would like to connect to.\n* **Recursive**: Select whether to return an object representing all directories / objects recursively found within the FTP/SFTP server (turned on) or not (turned off)."
+}

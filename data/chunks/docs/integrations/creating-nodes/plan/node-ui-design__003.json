@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/plan/node-ui-design.md",
+  "index": 3,
+  "content": "## Design guidance\n\nAll node's use n8n's [node UI elements](/integrations/creating-nodes/build/reference/ui-elements.md), so you don't need to consider style details such as colors, borders, and so on. However, it's still useful to go through a basic design process:\n\n* Review the documentation for the API you're integrating. Ask yourself:\n    * What can you leave out? \n    * What can you simplify?\n    * Which parts of the API are confusing? How can you help users understand them?\n* Use a wireframe tool to try out your field layout. If you find your node has a lot of fields and is getting confusing, consider n8n's guidance on [showing and hiding fields](#showing-and-hiding-fields)."
+}

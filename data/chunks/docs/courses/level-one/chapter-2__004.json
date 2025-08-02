@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-2.md",
+  "index": 4,
+  "content": "## 2. Add the Hacker News node\n\nSelect the **+** icon to the right of the Manual Trigger node to open the nodes panel.\n\nThen:\n\n1. Search for the **Hacker News** node.\n2. Select it when it appears in the search.\n3. In the **Actions** section, select **Get many items**.\n\nn8n adds the node to your canvas and the node window opens to display its configuration details."
+}

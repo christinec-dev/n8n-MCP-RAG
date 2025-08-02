@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolvectorstore.md",
+  "index": 7,
+  "content": "## Related resources\n\nView [example workflows and related content](https://n8n.io/integrations/vector-store-tool/) on n8n's website.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/tools-link.md\"\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-overview-link.md\"\n--8<-- \"_glossary/ai-glossary.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 731,
+  "content": "### Core Functionality\n- Changed `bcrypt` library from `@node-rs/bcrypt` to `bcryptjs`\n- Fixed an issue with optional parameters that have the same name\n- Added the functionality to tag workflows\n- Fixed errors in the Expression Editor\n- Fixed an issue with nodes that only get connected to the second input. This solves the issue of copying and pasting the workflows where only one output of the IF node gets connected to a node"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/saml/managing.md",
+  "index": 3,
+  "content": "## Exempt users from SAML\n\nYou can allow users to log in without using SAML. To do this:\n\n1. Go to **Settings** > **Users**.\n2. Select the menu icon by the user you want to exempt from SAML.\n3. Select **Allow Manual Login**."
+}

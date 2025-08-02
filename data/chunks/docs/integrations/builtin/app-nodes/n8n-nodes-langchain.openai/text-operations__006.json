@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/text-operations.md",
+  "index": 6,
+  "content": "### Options\n\n- **Use Stable Model**: Turn on to use the stable version of the model instead of the latest version, accuracy may be slightly lower.\n\nRefer to [Moderations | OpenAI](https://platform.openai.com/docs/api-reference/moderations) documentation for more information."
+}

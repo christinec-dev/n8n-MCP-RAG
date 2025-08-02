@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 594,
+  "content": "### Bug fixes\n\n* [HTTP Request:](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) Fixed 'Ignore response code' flag.\n* [Rundeck:](/integrations/builtin/app-nodes/n8n-nodes-base.rundeck.md) Fixed issue with async loading of credentials.\n* [SeaTable:](/integrations/builtin/app-nodes/n8n-nodes-base.seatable.md) Fixed issue when entering a Baser URI with a trailing slash."
+}

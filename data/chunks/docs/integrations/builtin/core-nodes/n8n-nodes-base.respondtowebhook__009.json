@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.respondtowebhook.md",
+  "index": 9,
+  "content": "## Workflow behavior\n\nWhen using the Respond to Webhook node, workflows behave as follows:\n\n- The workflow finishes without executing the Respond to Webhook node: it returns a standard message with a 200 status.\n- The workflow errors before the first Respond to Webhook node executes: the workflow returns an error message with a 500 status.\n- A second Respond to Webhook node executes after the first one: the workflow ignores it.\n- A Respond to Webhook node executes but there was no webhook: the workflow ignores the Respond to Webhook node."
+}

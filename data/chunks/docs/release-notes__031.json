@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 31,
+  "content": "### Project admins can now commit to Git within environments\n\nProject admins now have the ability to commit workflow and credential changes directly to Git through the environments feature. This update streamlines the workflow deployment process by giving project-level admins direct control over committing their changes. It also ensures that the those who know their workflows best can review and commit updates themselves, without needing to involve instance-level admins.\n\n[Learn more about source control environments](/source-control-environments/index.md)"
+}

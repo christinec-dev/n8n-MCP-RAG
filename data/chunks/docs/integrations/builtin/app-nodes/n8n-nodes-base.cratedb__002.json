@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.cratedb.md",
+  "index": 2,
+  "content": "# CrateDB node\n\nUse the CrateDB node to automate work in CrateDB, and integrate CrateDB with other applications. n8n has built-in support for a wide range of CrateDB features, including executing, inserting, and updating rows in the database.\n\nOn this page, you'll find a list of operations the CrateDB node supports and links to more resources.\n\n/// note | Credentials\nRefer to [CrateDB credentials](/integrations/builtin/credentials/cratedb.md) for guidance on setting up authentication. \n///"
+}

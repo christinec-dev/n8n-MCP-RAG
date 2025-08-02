@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 43,
+  "content": "### Deprecations\n\nThis release deprecates the following:\n\n* The `EXECUTIONS_PROCESS` environment variable.\n* Running n8n in own mode. Main mode is now the default. Use [Queue mode](/hosting/scaling/queue-mode.md) if you need full execution isolation.\n* The `WEBHOOK_TUNNEL_URL` flag. Replaced by `WEBHOOK_URL`.\n* Support for MySQL and MariaDB as n8n backend databases. n8n will remove support completely in version 1.0. n8n recommends using PostgreSQL instead."
+}

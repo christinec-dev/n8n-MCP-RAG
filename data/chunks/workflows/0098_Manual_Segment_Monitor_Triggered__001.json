@@ -1,0 +1,12 @@
+{
+  "source": "0098_Manual_Segment_Monitor_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"122\",\n  \"name\": \"Track an event in Segment\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Segment\",\n      \"type\": \"n8n-nodes-base.segment\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"event\": \"\",\n        \"resource\": \"track\"\n      },\n      \"credentials\": {\n        \"segmentApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Segment\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.segment"
+    ],
+    "trigger": null
+  }
+}

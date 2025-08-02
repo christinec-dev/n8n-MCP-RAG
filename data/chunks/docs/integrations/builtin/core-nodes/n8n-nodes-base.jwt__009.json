@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.jwt.md",
+  "index": 9,
+  "content": "### JWT ID\n\nThe **JWT ID** or `jti` claim provides a unique identifier for the JWT.\n\nRefer to [\"jti\" (JWT ID) Claim](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.7) for more information."
+}

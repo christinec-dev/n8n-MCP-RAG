@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.facebooktrigger/permissions.md",
+  "index": 4,
+  "content": "## Related resources\n\nRefer to Meta's [Permissions](https://developers.facebook.com/docs/graph-api/webhooks/reference/permissions/) Graph API reference for more information."
+}

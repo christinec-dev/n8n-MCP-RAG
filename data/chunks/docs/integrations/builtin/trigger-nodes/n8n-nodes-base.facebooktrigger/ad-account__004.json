@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.facebooktrigger/ad-account.md",
+  "index": 4,
+  "content": "## Related resources\n\nRefer to [Webhooks for Ad Accounts](https://developers.facebook.com/docs/graph-api/webhooks/getting-started/webhooks-for-ad-accounts) and Meta's [Ad Account](https://developers.facebook.com/docs/graph-api/webhooks/reference/ad-account/) Graph API reference for more information."
+}

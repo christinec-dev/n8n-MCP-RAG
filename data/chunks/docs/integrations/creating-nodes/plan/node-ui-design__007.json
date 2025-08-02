@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/plan/node-ui-design.md",
+  "index": 7,
+  "content": "### Node naming conventions\n\n| Convention | Correct | Incorrect |\n| ---------- | ------- | --------- |\n| If a node is a trigger node, <br>the displayed name should have 'Trigger' at the end, <br>with a space before. | Shopify Trigger | ShopifyTrigger, Shopify trigger |\n| Don't include 'node' in the name. | Asana | Asana Node, Asana node |"
+}

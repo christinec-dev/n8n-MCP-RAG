@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreinmemory.md",
+  "index": 15,
+  "content": "### Get Many parameters\n<!-- vale from-write-good.Weasel = YES -->\n\n* **Memory Key**: Select or create the key containing the vector memory you want to query.\n* **Prompt**: Enter the search query.\n* **Limit**: Enter how many results to retrieve from the vector store. For example, set this to `10` to get the ten best results."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.rssfeedreadtrigger.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Poll Times**: Select a poll **Mode** to set how often to trigger the poll. Your **Mode** selection will add or remove relevant fields. Refer to the sections below to configure the parameters for each mode type.\n* **Feed URL**: Enter the URL of the RSS feed to poll.\n\n--8<-- \"_snippets/integrations/builtin/poll-modes.md\""
+}

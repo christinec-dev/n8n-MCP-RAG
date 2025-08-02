@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/hetzner.md",
+  "index": 16,
+  "content": "## Stop n8n and Caddy\n\nYou can stop n8n and Caddy with the following command:\n\n```shell\nsudo docker compose stop\n```"
+}

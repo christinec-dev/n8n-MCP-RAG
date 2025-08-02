@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 424,
+  "content": "## LangChain in n8n (beta)\n\n**Release date:** 2023-10-04\n\nThis release introduces support for building with LangChain in n8n.\n\nWith n8n's LangChain nodes you can build AI-powered functionality within your workflows. The LangChain nodes are configurable, meaning you can choose your preferred agent, LLM, memory, and other components. Alongside the LangChain nodes, you can connect any n8n node as normal: this means you can integrate your LangChain logic with other data sources and services.\n\nRead more:\n\n* This is a beta release, and not yet available in the main product. Follow the instructions in [Access LangChain in n8n](/advanced-ai/langchain/overview.md) to try it out. Self-hosted and Cloud options are available.\n* Learn how LangChain concepts map to n8n nodes in [LangChain concepts in n8n](/advanced-ai/langchain/langchain-n8n.md).\n* Browse n8n's new [Cluster nodes](/integrations/builtin/cluster-nodes/index.md). This is a new set of node types that allows for multiple nodes to work together to configure each other."
+}

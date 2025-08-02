@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/configuration.md",
+  "index": 10,
+  "content": "### Backend hook functions\n\nA hook or a hook file can contain multiple hook functions, with all functions executed one after another.\n\nIf the parameters of the hook function are objects, it's possible to change the data of that parameter to change the behavior of n8n.\n\nYou can also access the database in any hook function using `this.dbCollections` (refer to the code sample in [Backend hook files](#backend-hook-files)."
+}

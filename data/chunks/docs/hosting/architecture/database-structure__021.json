@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 21,
+  "content": "### tag_entity\n\nAll workflow tags created in the n8n instance. This table lists the tags. [workflows_tags](#workflows_tags) records which workflows have which tags."
+}

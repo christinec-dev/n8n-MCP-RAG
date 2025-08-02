@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.supabase/index.md",
+  "index": 3,
+  "content": "## Operations\n\n* Row\n    * Create a new row\n    * Delete a row\n    * Get a row\n    * Get all rows\n    * Update a row"
+}

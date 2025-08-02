@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gotowebinar.md",
+  "index": 2,
+  "content": "# GoToWebinar node\n\nUse the GoToWebinar node to automate work in GoToWebinar, and integrate GoToWebinar with other applications. n8n has built-in support for a wide range of GoToWebinar features, including creating, getting, and deleting attendees, organizers, and registrants.\n\nOn this page, you'll find a list of operations the GoToWebinar node supports and links to more resources.\n\n/// note | Credentials\nRefer to [GoToWebinar credentials](/integrations/builtin/credentials/gotowebinar.md) for guidance on setting up authentication. \n///"
+}

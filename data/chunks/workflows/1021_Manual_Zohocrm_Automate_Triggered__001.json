@@ -1,0 +1,12 @@
+{
+  "source": "1021_Manual_Zohocrm_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Zoho CRM\",\n      \"type\": \"n8n-nodes-base.zohoCrm\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"operation\": \"getAll\"\n      },\n      \"credentials\": {\n        \"zohoOAuth2Api\": \"zoho_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Zoho CRM\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.zohoCrm"
+    ],
+    "trigger": null
+  }
+}

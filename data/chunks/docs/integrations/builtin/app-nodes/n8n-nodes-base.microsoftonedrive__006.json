@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftonedrive.md",
+  "index": 6,
+  "content": "## Find the folder ID\n\nTo perform operations on folders, you need to supply the ID. You can find this:\n\n* In the URL of the folder\n* By searching for it using the node. You need to do this if using MS 365 (where OneDrive uses SharePoint behind the scenes):\n\t1. Select **Resource** > **Folder**.\n\t2. Select **Operation** > **Search**.\n\t3. In **Query**, enter the folder name.\n\t4. Select **Execute step**. n8n runs the query and returns data about the folder, including an `id` field containing the folder ID."
+}

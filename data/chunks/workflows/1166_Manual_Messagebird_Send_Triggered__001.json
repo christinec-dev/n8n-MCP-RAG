@@ -1,0 +1,12 @@
+{
+  "source": "1166_Manual_Messagebird_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"85\",\n  \"name\": \"Sending an SMS with MessageBird\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"MessageBird\",\n      \"type\": \"n8n-nodes-base.messageBird\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"message\": \"\",\n        \"originator\": \"\",\n        \"recipients\": \"\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"messageBirdApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"MessageBird\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.messageBird"
+    ],
+    "trigger": null
+  }
+}

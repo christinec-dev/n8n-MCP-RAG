@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/execution-data.md",
+  "index": 3,
+  "content": "## Reduce saved data\n\n/// note | Configuration at workflow level\nYou can also configure these settings on an individual workflow basis using the [workflow settings](/workflows/settings.md).\n///\nYou can select which executions data n8n saves. For example, you can save only executions that result in an `Error`.\n\n```sh"
+}

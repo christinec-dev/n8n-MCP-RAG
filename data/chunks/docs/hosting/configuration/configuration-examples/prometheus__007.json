@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/prometheus.md",
+  "index": 7,
+  "content": "# TYPE n8n_scaling_mode_queue_jobs_completed counter\nn8n_scaling_mode_queue_jobs_completed 0"
+}

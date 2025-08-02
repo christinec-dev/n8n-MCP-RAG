@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-file-structure.md",
+  "index": 7,
+  "content": "## A best-practice example for programmatic nodes\n\nn8n's built-in [Airtable node](https://github.com/n8n-io/n8n/tree/master/packages/nodes-base/nodes/Airtable) implements a modular structure and versioning, following recommended patterns."
+}

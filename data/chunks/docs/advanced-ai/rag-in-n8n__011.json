@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/rag-in-n8n.md",
+  "index": 11,
+  "content": "### How do I choose the right embedding model?\n<!-- vale from-microsoft.FirstPerson = YES -->\n\nThe right embedding model differs from case to case.\n\nIn general, smaller models (for example, `text-embedding-ada-002`) are faster and cheaper and thus ideal for short, general-purpose documents or lightweight RAG workflows. Larger models (for example, `text-embedding-3-large`) offer better semantic understanding. These are best for long documents, complex topics, or when accuracy is critical.\n\n<!-- vale from-microsoft.FirstPerson = NO -->"
+}

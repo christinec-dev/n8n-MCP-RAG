@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 635,
+  "content": "### Core Functionality\n\n- Added expression support for credentials.\n- Fixed performance issues when loading credentials."
+}

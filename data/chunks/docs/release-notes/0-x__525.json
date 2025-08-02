@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 525,
+  "content": "### Core Functionality\n\n- Added support for internationalization (i18n). This functionality is currently in alpha status and breaking changes are to be expected."
+}

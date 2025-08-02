@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.sentimentanalysis.md",
+  "index": 11,
+  "content": "### Basic Sentiment Analysis\n\n1. Connect a data source (for example, RSS Feed, HTTP Request) to the Sentiment Analysis node.\n2. Set the \"Text to Analyze\" field to the relevant item property (for example, `{{ $json.content }}` for blog post content).\n3. Keep the default sentiment categories.\n4. Connect the node's outputs to separate paths for processing positive, neutral, and negative sentiments differently."
+}

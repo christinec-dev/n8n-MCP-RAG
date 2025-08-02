@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/common-issues.md",
+  "index": 4,
+  "content": "## Error in sub-node Simple Memory\n\nThis error displays when n8n runs into an issue with the [Simple Memory](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorybufferwindow/index.md) sub-node.\n\nIt most often occurs when your workflow or the workflow template you copied uses an older version of the Simple memory node (previously known as \"Window Buffer Memory\").\n\nTry removing the Simple Memory node from your workflow and re-adding it, which will guarantee you're using the latest version of the node."
+}

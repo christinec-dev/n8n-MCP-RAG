@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.asana.md",
+  "index": 3,
+  "content": "## Operations\n\n* Project\n    * Create a new project\n    * Delete a project\n    * Get a project\n    * Get all projects\n    * Update a project\n* Subtask\n    * Create a subtask\n    * Get all subtasks\n* Task\n    * Create a task\n    * Delete a task\n    * Get a task\n    * Get all tasks\n    * Move a task\n    * Search for tasks\n    * Update a task\n* Task Comment\n    * Add a comment to a task\n    * Remove a comment from a task\n* Task Tag\n    * Add a tag to a task\n    * Remove a tag from a task\n* Task Project\n    * Add a task to a project\n    * Remove a task from a project\n* User\n    * Get a user\n    * Get all users"
+}

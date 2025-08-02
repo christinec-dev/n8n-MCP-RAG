@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.marketstack.md",
+  "index": 3,
+  "content": "## Operations\n\n* End-of-Day Data\n    * Get All\n* Exchange\n    * Get\n* Ticker\n    * Get"
+}

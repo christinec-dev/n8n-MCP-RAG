@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 258,
+  "content": "### Bug fixes\n\n* Editor: change the initial position of the Start node.\n* Editor: align JSON view properties with their values.\n* Editor: fix `BASE_PATH` for Vite dev mode.\n* Editor: fix data pinning success source."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 369,
+  "content": "### Node enhancements\n\n* [Twilio node](/integrations/builtin/app-nodes/n8n-nodes-base.twilio.md): added the ability to make a voice call using TTS.\n* [Wise node](/integrations/builtin/app-nodes/n8n-nodes-base.wise.md): added support for downloading statements as JSON, CSV, or PDF."
+}

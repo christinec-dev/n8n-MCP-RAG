@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 826,
+  "content": "## n8n@0.86.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.85.0...n8n@0.86.0) for this version.<br />\n**Release date:** 2020-10-05\n\n- New nodes\n- Clockify\n- CoinGecko\n- G Suite Admin\n- Mindee\n- Wufoo Trigger\n- Enhanced nodes\n- Slack: Added User Profile resource\n- Mattermost: Added Create and Invite operations for the User resource\n- Bug Fixes\n- S3: Fixed issue with uploading files\n- Webhook ID gets refreshed on node duplication"
+}

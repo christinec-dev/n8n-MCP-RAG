@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 276,
+  "content": "### Node enhancements\n\n* HTTP Request node: a major overhaul. It's now much simpler to build a custom API request. Refer to the [HTTP Request node documentation](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) for more information.\n* RabbitMQ Trigger node: now automatically reconnects on disconnect.\n* Slack node: add the 'get many' operation for users."
+}

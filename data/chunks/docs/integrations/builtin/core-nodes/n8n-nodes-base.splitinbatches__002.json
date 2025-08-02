@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.splitinbatches.md",
+  "index": 2,
+  "content": "# Loop Over Items\n\nThe Loop Over Items node helps you loop through data when needed.\n\nThe node saves the original incoming data, and with each iteration, returns a predefined amount of data through the **loop** output.\n\nWhen the node execution completes, it combines all of the processed data and returns it through the **done** output."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mailerlite.md",
+  "index": 2,
+  "content": "# MailerLite node\n\nUse the MailerLite node to automate work in MailerLite, and integrate MailerLite with other applications. n8n has built-in support for a wide range of MailerLite features, including creating, updating, deleting, and getting subscribers.\n\nOn this page, you'll find a list of operations the MailerLite node supports and links to more resources.\n\n/// note | Credentials\nRefer to [MailerLite credentials](/integrations/builtin/credentials/mailerlite.md) for guidance on setting up authentication. \n///"
+}

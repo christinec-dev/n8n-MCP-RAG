@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.crypto.md",
+  "index": 3,
+  "content": "## Actions\n\n* [**Generate** a random string](#generate-parameters)\n* [**Hash** a text or file](#hash-parameters) in a specified format\n* [**Hmac** a text or file](#hmac-parameters) in a specified format\n* [**Sign** a string](#sign-parameters) using a private key"
+}

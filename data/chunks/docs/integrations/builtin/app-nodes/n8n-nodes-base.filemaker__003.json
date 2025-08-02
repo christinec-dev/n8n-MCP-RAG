@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.filemaker.md",
+  "index": 3,
+  "content": "## Operations\n\n- Find Records\n- Get Records\n- Get Records by Id\n- Perform Script\n- Create Record\n- Edit Record\n- Duplicate Record\n- Delete Record"
+}

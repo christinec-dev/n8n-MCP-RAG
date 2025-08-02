@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/code-node/console-log.md",
+  "index": 3,
+  "content": "## console.log (JavaScript)\n\nFor technical information on `console.log()`, refer to the [MDN developer docs](https://developer.mozilla.org/en-US/docs/Web/API/Console/log).\n\nFor example, copy the following code into a Code node, then open your console and run the node:\n\n```js\nlet a = \"apple\";\nconsole.log(a);\n```"
+}

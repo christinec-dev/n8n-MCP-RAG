@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 220,
+  "content": "### Bug fixes\n\n* Core: fix linter error.\n* Core: fix partial execution with pinned data on child node run.\n* Core: OAuth2 scopes now save.\n* Enable source-maps on WorkflowRunnerProcess in own mode.\n* Handle error when workflow doesn'texist or is inaccessible.\n* Make nodes.exclude and nodes.include work with lazy-loaded nodes.\n* Code Node: restore `pairedItem` to required n8n item keys.\n* Execute Workflow Node: update Execute Workflow node info notice text.\n* Gmail Trigger Node: trigger node missing some emails.\n* Local File Trigger Node: fix issue that causes a crash if the ignore field is empty."
+}

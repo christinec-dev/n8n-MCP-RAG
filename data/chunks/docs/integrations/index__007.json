@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/index.md",
+  "index": 7,
+  "content": "## Where to go next\n\n* If you want to create your own node, head over to the [Creating Nodes](/integrations/creating-nodes/overview.md) section.\n* Check out [Community nodes](/integrations/community-nodes/usage.md) to learn about installing and managing community-built nodes.\n* If you'd like to learn more about the different nodes in n8n, their functionalities and example usage, check out n8n's node libraries: [Core nodes](/integrations/builtin/core-nodes/index.md), [Actions](/integrations/builtin/app-nodes/index.md), and [Triggers](/integrations/builtin/trigger-nodes/index.md).\n* If you'd like to learn how to add the credentials for the different nodes, head over to the [Credentials](/integrations/builtin/credentials/index.md) section."
+}

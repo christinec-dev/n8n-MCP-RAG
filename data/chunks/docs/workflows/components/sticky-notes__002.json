@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/sticky-notes.md",
+  "index": 2,
+  "content": "# Sticky Notes\n\nSticky Notes allow you to annotate and comment on your workflows.\n\nn8n recommends using Sticky Notes heavily, especially on [template workflows](/glossary.md#template-n8n), to help other users understand your workflow.\n\n![Screenshot of a basic workflow with an example sticky note](/_images/workflows/components/stickies/example-sticky-note.png)"
+}

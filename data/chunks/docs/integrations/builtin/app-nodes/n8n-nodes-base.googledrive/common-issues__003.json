@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/common-issues.md",
+  "index": 3,
+  "content": "## Google hasn't verified this app\n\n--8<-- \"_snippets/integrations/builtin/credentials/google/unverified-app.md\""
+}

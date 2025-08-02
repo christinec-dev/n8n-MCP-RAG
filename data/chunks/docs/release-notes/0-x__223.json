@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 223,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Expressions editor usability overhaul\n\nThis release contains usability enhancements for the expressions editor. The editor now includes color signals to indicate when syntax is valid or invalid, and better error messages and tips.\n\n</div>"
+}

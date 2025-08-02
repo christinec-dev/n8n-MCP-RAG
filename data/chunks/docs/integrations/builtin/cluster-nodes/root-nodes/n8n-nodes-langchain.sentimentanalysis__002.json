@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.sentimentanalysis.md",
+  "index": 2,
+  "content": "# Sentiment Analysis node\n\nUse the Sentiment Analysis node to analyze the sentiment of incoming text data.\n\nThe language model uses the [**Sentiment Categories**](#node-options) in the node options to determine each item's sentiment."
+}

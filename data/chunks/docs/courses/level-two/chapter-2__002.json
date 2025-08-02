@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-2.md",
+  "index": 2,
+  "content": "# Processing different data types\n\nIn this chapter, you will learn how to process different types of data using [n8n core nodes](/workflows/components/nodes.md)."
+}

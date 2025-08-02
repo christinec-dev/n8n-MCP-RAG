@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-5/chapter-5.0.md",
+  "index": 4,
+  "content": "## Workflow prerequisites\n\nTo build the workflows, you will need the following:\n\n* An [Airtable](https://airtable.com/) account and [credentials](/integrations/builtin/credentials/airtable.md).\n* A [Google](https://www.google.com/account/about/) account and [credentials](/integrations/builtin/credentials/google/index.md) to access Gmail.\n* A [Discord](https://discord.com/) account and webhook URL (you receive this using email when you sign up for this course).\n\nNext, you will build these three workflows with step-by-step instructions."
+}

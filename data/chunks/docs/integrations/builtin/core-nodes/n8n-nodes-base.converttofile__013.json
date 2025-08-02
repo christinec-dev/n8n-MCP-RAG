@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.converttofile.md",
+  "index": 13,
+  "content": "### Move Base64 String to File\n\nEnter the name of the **Base64 Input Field** that contains the Base64 string to convert to a file. Use dot-notation for deep fields, for example `level1.level2.currentKey`.\n\n#### Move Base64 String to File options\n\nYou can also configure this operation with these **Options**:\n\n* **File Name**: Enter the file name for the generated output file.\n* **MIME Type**: Enter the MIME type of the output file. Refer to [Common MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types) for a list of common MIME types and the file extensions they relate to."
+}

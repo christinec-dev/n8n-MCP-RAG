@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sendemail.md",
+  "index": 20,
+  "content": "### Free Text parameters and options\n\nWhen using the Free Text response type, the following options are available:\n\n* **Message Button Label**: The label to use for message button. The default choice is `Respond`.\n* **Response Form Title**: The title of the form where users provide their response.\n* **Response Form Description**: A description for the form where users provide their response.\n* **Response Form Button Label**: The label for the button on the form to submit their response. The default choice is `Submit`.\n* **Limit Wait Time**: Whether the workflow will automatically resume execution after a specified time limit. This can be an interval or a specific wall time.\n* **Append n8n Attribution**: Set whether to include the phrase `This email was sent automatically with n8n` at the end of the email (turned on) or not (turned off)."
+}

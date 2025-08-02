@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.elasticsecurity.md",
+  "index": 2,
+  "content": "# Elastic Security node\n\nUse the Elastic Security node to automate work in Elastic Security, and integrate Elastic Security with other applications. n8n's has built-in support for a wide range of Elastic Security features, including creating, updating, deleting, retrieving, and getting cases.\n\nOn this page, you'll find a list of operations the Elastic Security node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Elastic Security credentials](/integrations/builtin/credentials/elasticsecurity.md) for guidance on setting up authentication. \n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/concurrency-control.md",
+  "index": 3,
+  "content": "## Comparison to queue mode\n\nIn queue mode, you can control how many jobs a worker may run concurrently using the [`--concurrency` flag](/hosting/scaling/queue-mode.md#configure-worker-concurrency).\n\nConcurrency control in queue mode is a separate mechanism from concurrency control in regular mode, but the environment variable `N8N_CONCURRENCY_PRODUCTION_LIMIT` controls both of them. In queue mode, n8n takes the limit from this variable if set to a value other than `-1`, falling back to the `--concurrency` flag or its default."
+}

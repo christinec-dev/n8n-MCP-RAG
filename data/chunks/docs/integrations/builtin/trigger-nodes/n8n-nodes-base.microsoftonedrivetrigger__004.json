@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.microsoftonedrivetrigger.md",
+  "index": 4,
+  "content": "## Related resources\n\nn8n provides an app node for Microsoft OneDrive. You can find the node docs [here](/integrations/builtin/app-nodes/n8n-nodes-base.microsoftonedrive.md).\n\nView [example workflows and related content](https://n8n.io/integrations/microsoft-onedrive-trigger/) on n8n's website.\n\nRefer to [Microsoft's OneDrive API documentation](https://learn.microsoft.com/en-us/onedrive/developer/rest-api/) for more information about the service."
+}

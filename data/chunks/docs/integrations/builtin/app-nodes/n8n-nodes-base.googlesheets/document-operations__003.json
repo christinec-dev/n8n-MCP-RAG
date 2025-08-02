@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/document-operations.md",
+  "index": 3,
+  "content": "## Create a spreadsheet\n\nUse this operation to create a new spreadsheet.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [Google Sheets credentials](/integrations/builtin/credentials/google/index.md).\n- **Resource**: Select **Document**.\n- **Operation**: Select **Create**.\n- **Title**: Enter the title of the new spreadsheet you want to create.\n- **Sheets**: Add the **Title(s)** of the sheet(s) you want to create within the spreadsheet. \n<!-- vale off -->"
+}

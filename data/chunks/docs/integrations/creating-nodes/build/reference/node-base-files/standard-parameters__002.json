@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 2,
+  "content": "# Standard parameters\n\nThese are the standard parameters for the [node base file](/integrations/creating-nodes/build/reference/node-base-files/index.md). They're the same for all node types."
+}

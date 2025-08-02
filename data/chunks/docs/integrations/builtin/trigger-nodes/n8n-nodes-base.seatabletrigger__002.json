@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.seatabletrigger.md",
+  "index": 2,
+  "content": "# SeaTable Trigger node\n\n[SeaTable](https://seatable.io/en) is a collaborative database application with a spreadsheet interface.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/seatable.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [SeaTable Trigger integrations](https://n8n.io/integrations/seatable-trigger/) page.\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.evaluationtrigger.md",
+  "index": 2,
+  "content": "# Evaluation Trigger node\n\nUse the Evaluation Trigger node when setting up [evaluations](/advanced-ai/evaluations/overview.md) to validate your AI workflow reliability. During evaluation, the Evaluation Trigger node reads your evaluation dataset from Google Sheets, sending the items through the workflow one at a time, in sequence.\n\nOn this page, you'll find the Evaluation Trigger node parameters and \n\n/// note | Requires Google Sheets\nThe Evaluation Trigger node uses Google Sheets to store the test dataset. To use evaluations, you must configure a [Google Sheets credential](/integrations/builtin/credentials/google/index.md).\n///"
+}

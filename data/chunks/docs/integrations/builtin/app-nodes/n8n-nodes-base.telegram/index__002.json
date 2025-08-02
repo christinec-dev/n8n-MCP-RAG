@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/index.md",
+  "index": 2,
+  "content": "# Telegram node\n\nUse the Telegram node to automate work in [Telegram](https://telegram.org/) and integrate Telegram with other applications. n8n has built-in support for a wide range of Telegram features, including getting files as well as deleting and editing messages. \n\nOn this page, you'll find a list of operations the Telegram node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Telegram credentials](/integrations/builtin/credentials/telegram.md) for guidance on setting up authentication. \n///"
+}

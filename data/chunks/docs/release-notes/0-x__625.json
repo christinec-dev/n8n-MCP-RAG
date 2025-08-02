@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 625,
+  "content": "### Bug fixes\n\n* [HubSpot:](/integrations/builtin/app-nodes/n8n-nodes-base.hubspot.md) Fixed issue with 'RequestAllItems' API.\n* [WordPress:](/integrations/builtin/app-nodes/n8n-nodes-base.wordpress.md) Fixed issue with 'RequestAllItems' API only returning the first 10 items."
+}

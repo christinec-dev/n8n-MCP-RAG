@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mqtt.md",
+  "index": 3,
+  "content": "## Operations\n\nUse the MQTT node to send a message. You can set the message topic, and choose whether to send the node input data as part of the message."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/azure.md",
+  "index": 5,
+  "content": "## Open the Azure Kubernetes Service\n\nFrom [the Azure portal](https://portal.azure.com/) select **Kubernetes services**."
+}

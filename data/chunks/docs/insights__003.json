@@ -1,0 +1,5 @@
+{
+  "source": "docs/insights.md",
+  "index": 3,
+  "content": "## Insights summary banner\n\nn8n collects several metrics for both the insights summary banner and dashboard. They include:\n\n- Total production executions (not including sub-workflow executions or manual executions)\n- Total failed production executions\n- Production execution failure rate\n- Time saved (when set on at least one or more active workflows)\n- Run time average (including wait time from any wait nodes)"
+}

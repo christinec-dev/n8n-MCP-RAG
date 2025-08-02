@@ -1,0 +1,11 @@
+{
+  "source": "1023_Keap_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Keap Trigger\",\n      \"type\": \"n8n-nodes-base.keapTrigger\",\n      \"position\": [\n        440,\n        320\n      ],\n      \"webhookId\": \"1df33e6f-7e5c-4d70-b90d-d5666aaf63e7\",\n      \"parameters\": {\n        \"eventId\": \"contact.add\"\n      },\n      \"credentials\": {\n        \"keapOAuth2Api\": \"keap_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.keapTrigger"
+    ],
+    "trigger": "keap trigger"
+  }
+}

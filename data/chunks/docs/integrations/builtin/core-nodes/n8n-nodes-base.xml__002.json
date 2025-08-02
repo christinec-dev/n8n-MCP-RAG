@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.xml.md",
+  "index": 2,
+  "content": "# XML\n\nUse the XML node to convert data from and to XML.\n\n/// note | Binary files\nIf your XML is within a binary file, use the [Extract from File](/integrations/builtin/core-nodes/n8n-nodes-base.extractfromfile.md) node to convert it to text first.\n///"
+}

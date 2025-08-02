@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 546,
+  "content": "### Bug fixes\n\n\n* [Edit Image:](/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md) Fixed an issue preventing the Composite operation from working correctly in some cases."
+}

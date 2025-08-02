@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/verification-guidelines.md",
+  "index": 6,
+  "content": "## No access to environment variables or file system\n\n* The code **must not** interact with environment variables or attempt to read/write files.\n* Pass all necessary data through node parameters."
+}

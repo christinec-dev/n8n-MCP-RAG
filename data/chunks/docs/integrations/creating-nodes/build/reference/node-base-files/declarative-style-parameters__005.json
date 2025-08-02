@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/declarative-style-parameters.md",
+  "index": 5,
+  "content": "### routing.output\n\ninclude postReceive actions, including ability to dynamically disable - see DOC-400"
+}

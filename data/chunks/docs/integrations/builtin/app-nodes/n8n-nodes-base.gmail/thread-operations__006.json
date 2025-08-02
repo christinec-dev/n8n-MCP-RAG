@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/thread-operations.md",
+  "index": 6,
+  "content": "### Get thread options\n\nUse these options to further refine the node's behavior:\n\n* **Return Only Messages**: Choose whether to return only thread messages (turned on).\n\nRefer to the [Gmail API Method: users.threads.get](https://developers.google.com/gmail/api/reference/rest/v1/users.threads/get) documentation for more information.\n\n<!-- vale off -->"
+}

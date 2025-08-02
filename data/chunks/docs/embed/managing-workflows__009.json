@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/managing-workflows.md",
+  "index": 9,
+  "content": "## Single workflow\n\nThere are four steps to follow to implement this method:\n\n* Obtain the credentials for each user, and any additional parameters that may be required based on the workflow. See [Obtain user credentials](#1-obtain-user-credentials) above.\n* Create the n8n credentials for this user. See [Create user credentials](#2-create-user-credentials) above.\n* Create the workflow.\n* Call the workflow as needed."
+}

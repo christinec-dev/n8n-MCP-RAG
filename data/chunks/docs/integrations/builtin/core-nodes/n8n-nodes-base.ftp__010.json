@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ftp.md",
+  "index": 10,
+  "content": "## Upload\n\nConfigure this operation with these parameters:\n\n* **Path**: Enter the remote path that you would like to connect to.\n* **Binary File**: Select whether you'll upload a binary file (turned on) or enter text content to be uploaded (turned off). Other parameters depend on your selection in this field.\n    * **Input Binary Field**: Displayed if you turn on **Binary File**. Enter the name of the input binary field that contains the file you'll upload in this field.\n    * **File Content**: Displayed if you turn off **Binary File** Enter the text content of the file you'll upload in this field.\n\n/// note | Uploading files\nTo attach a file for upload, you'll need to use an extra node such as the [Read/Write Files from Disk](/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md) node or the [HTTP Request](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) node to pass the file as a data property.\n///"
+}

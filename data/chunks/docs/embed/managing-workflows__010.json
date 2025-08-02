@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/managing-workflows.md",
+  "index": 10,
+  "content": "### Create the workflow\n\nThe details and scope of this workflow will vary greatly according to the individual use case, however there are a few design implementations to keep in mind:\n\n* This workflow must be triggered by a [Webhook](/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md) node.\n* The incoming webhook call must contain the user’s credentials and any other workflow parameters required.\n* Each node where the user’s credentials are needed should use an [expression](/code/expressions.md) so that the node’s credential field reads the credential provided in the webhook call.\n* Save and activate the workflow, ensuring the production URL is selected for the Webhook node. Refer to [webhook node](/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md) for more information."
+}

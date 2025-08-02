@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 838,
+  "content": "## n8n@0.79.3\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.79.2...n8n@0.79.3) for this version.<br />\n**Release date:** 2020-08-30\n\n- The bug that caused the workflows to not get activated correctly has been fixed"
+}

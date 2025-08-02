@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.grafana.md",
+  "index": 3,
+  "content": "## Operations\n\n* Dashboard\n    * Create a dashboard\n    * Delete a dashboard\n    * Get a dashboard\n    * Get all dashboards\n    * Update a dashboard\n* Team\n    * Create a team\n    * Delete a team\n    * Get a team\n    * Retrieve all teams\n    * Update a team\n* Team Member\n    * Add a member to a team\n    * Retrieve all team members\n    * Remove a member from a team\n* User\n    * Delete a user from the current organization\n    * Retrieve all users in the current organization\n    * Update a user in the current organization"
+}

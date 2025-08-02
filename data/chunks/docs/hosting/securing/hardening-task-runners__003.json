@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/hardening-task-runners.md",
+  "index": 3,
+  "content": "## Run task runners as sidecars in external mode\n\nTo increase the isolation between the core n8n process and code in the Code node, run task runners in [external mode](/hosting/configuration/task-runners.md#setting-up-external-mode). External task runners launch as separate containers, providing a fully isolated environment to execute the JavaScript defined in the Code node."
+}

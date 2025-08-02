@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 20,
+  "content": "## 5. Create local files directory\n\nInside your project directory, create a directory called `local-files` for sharing files between the n8n instance and the host system (for example, using the [Read/Write Files from Disk node](/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md)):\n\n```bash\nmkdir local-files\n```\n\nThe Docker Compose file below can automatically create this directory, but doing it manually ensures that it's created with the right ownership and permissions."
+}

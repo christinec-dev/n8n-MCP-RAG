@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.misp.md",
+  "index": 3,
+  "content": "## Operations\n\n* Attribute\n    * Create\n    * Delete\n    * Get\n    * Get All\n\t* Search\n    * Update\n* Event\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Publish\n\t* Search\n    * Unpublish\n    * Update\n* Event Tag\n    * Add\n    * Remove\n* Feed\n    * Create\n    * Disable\n    * Enable\n    * Get\n    * Get All\n    * Update\n* Galaxy\n    * Delete\n    * Get\n    * Get All\n* Noticelist\n    * Get\n    * Get All\n* Object\n\t* Search\n* Organisation\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Tag\n    * Create\n    * Delete\n    * Get All\n    * Update\n* User\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Warninglist\n    * Get\n    * Get All"
+}

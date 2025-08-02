@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/index.md",
+  "index": 7,
+  "content": "## How do I complete the course?\n\nThere are two milestones in this course that test your knowledge of what you have learned in the lessons:\n\n- [x] Building the [main workflow](/courses/level-two/chapter-5/chapter-5.0.md)\n- [x] Passing the [quiz](https://n8n-community.typeform.com/to/r9hDbytg) at the end of the course\n\nYou can always **check your progress** throughout the course by entering your unique ID [here](https://internal.users.n8n.cloud/webhook/course-level-2/verify).\n\nIf you successfully complete the milestones above, you will get [**a badge and an avatar**](https://community.n8n.io/badges/105/completed-n8n-course-level-2) in your forum profile. You can then share your profile and course verification ID to showcase your n8n skills to others.\n\n[Let's get started!](/courses/level-two/chapter-1.md){ .md-button }"
+}

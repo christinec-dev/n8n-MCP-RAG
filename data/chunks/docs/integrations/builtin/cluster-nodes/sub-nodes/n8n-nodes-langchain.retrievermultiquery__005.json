@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.retrievermultiquery.md",
+  "index": 5,
+  "content": "## Related resources\n\nRefer to [LangChain's retriever conceptual documentation](https://js.langchain.com/docs/concepts/retrievers) and [LangChain's multiquery retriever API documentation](https://v03.api.js.langchain.com/classes/langchain.retrievers_multi_query.MultiQueryRetriever.html) for more information about the service.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-overview-link.md\"\n--8<-- \"_glossary/ai-glossary.md\""
+}

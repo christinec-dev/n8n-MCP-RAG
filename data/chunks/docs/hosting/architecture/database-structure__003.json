@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 3,
+  "content": "## Database and query technology\n\nBy default, n8n uses SQLite as the database. If you are using another database the structure will be similar, but the data-types may be different depending on the database.\n\nn8n uses [TypeORM](https://github.com/typeorm/typeorm) for queries and migrations.\n\nTo inspect the n8n database, you can use [DBeaver](https://dbeaver.io), which is an open-source universal database tool."
+}

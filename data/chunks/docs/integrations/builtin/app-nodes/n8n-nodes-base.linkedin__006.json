@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.linkedin.md",
+  "index": 6,
+  "content": "## Related resources\n\nRefer to [LinkedIn's API documentation](https://learn.microsoft.com/en-us/linkedin/) for more information about the service.\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/operation-not-supported.md\""
+}

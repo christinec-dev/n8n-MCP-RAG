@@ -1,0 +1,12 @@
+{
+  "source": "0105_Netlify_Slack_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Netlify Trigger\",\n      \"type\": \"n8n-nodes-base.netlifyTrigger\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"webhookId\": \"0654820c-1960-4c8b-80fc-c0a66ab96577\",\n      \"parameters\": {\n        \"event\": \"deployFailed\",\n        \"siteId\": \"ab52947e-a696-4498-a5a1-fae7fbe30c84\"\n      },\n      \"credentials\": {\n        \"netlifyApi\": \"Netlify account\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Slack\",\n      \"type\": \"n8n-nodes-base.slack\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"text\": \"=🚨 Deploy Failed 🚨\\nDeploy for the site {{$json[\\\"name\\\"]}} failed.\\nError Message: {{$json[\\\"error_message\\\"]}}\\nYou can find more information here: https://app.netlify.com/sites/{{$json[\\\"name\\\"]}}/deploys/{{$json[\\\"id\\\"]}}\",\n        \"channel\": \"general\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"slackApi\": \"read-history\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Netlify Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Slack\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.netlifyTrigger",
+      "n8n-nodes-base.slack"
+    ],
+    "trigger": "netlify trigger"
+  }
+}

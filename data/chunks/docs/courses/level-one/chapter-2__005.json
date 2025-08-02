@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-2.md",
+  "index": 5,
+  "content": "## 3. Configure the Hacker News node\n\nWhen you add a new node to the Editor UI, the node is automatically activated. The node details will open in a window with several options:\n\n- **Parameters**: Adjust parameters to refine and control the node's functionality.\n- **Settings**: Adjust settings to control the node's design and executions.\n- **Docs**: Open the n8n documentation for this node in a new window.\n\n\n/// note | Parameters vs. Settings\n* **Parameters** are different for each node, depending on its functionality.\n* **Settings** are the same for all nodes.\n///"
+}

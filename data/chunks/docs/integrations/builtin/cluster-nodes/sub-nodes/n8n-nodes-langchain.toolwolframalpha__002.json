@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolwolframalpha.md",
+  "index": 2,
+  "content": "# Wolfram|Alpha tool node\n\nUse the Wolfram|Alpha tool node to connect your [agents](/glossary.md#ai-agent) and [chains](/glossary.md#ai-chain) to Wolfram|Alpha's computational intelligence engine.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/wolframalpha.md).\n///\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-1.md",
+  "index": 4,
+  "content": "## Editor UI settings\n\nThe editor UI is the web interface where you build [workflows](/workflows/index.md). You can access all your workflows and [credentials](/glossary.md#credential-n8n), as well as support pages, from the Editor UI."
+}

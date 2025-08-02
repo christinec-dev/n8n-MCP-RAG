@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.errortrigger.md",
+  "index": 5,
+  "content": "## Related resources\n\nYou can use the [Stop And Error](/integrations/builtin/core-nodes/n8n-nodes-base.stopanderror.md) node to send custom messages to the Error Trigger.\n\nRead more about [Error workflows](/flow-logic/error-handling.md) in n8n workflows."
+}

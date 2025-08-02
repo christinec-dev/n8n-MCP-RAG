@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmopenhuggingfaceinference.md",
+  "index": 4,
+  "content": "## Node options\n\n* **Custom Inference Endpoint**: Enter a custom inference endpoint URL.\n* **Frequency Penalty**: Use this option to control the chances of the model repeating itself. Higher values reduce the chance of the model repeating itself.\n* **Maximum Number of Tokens**: Enter the maximum number of tokens used, which sets the completion length.\n* **Presence Penalty**: Use this option to control the chances of the model talking about new topics. Higher values increase the chance of the model talking about new topics.\n* **Sampling Temperature**: Use this option to control the randomness of the sampling process. A higher temperature creates more diverse sampling, but increases the risk of hallucinations.\n* **Top K**: Enter the number of token choices the model uses to generate the next token.\n* **Top P**: Use this option to set the probability the completion should use. Use a lower value to ignore less probable options."
+}

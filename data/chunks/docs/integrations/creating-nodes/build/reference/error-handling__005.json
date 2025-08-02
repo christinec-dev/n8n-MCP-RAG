@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/error-handling.md",
+  "index": 5,
+  "content": "## NodeOperationError\n\nUse `NodeOperationError` for:\n\n * operational errors\n * validation failures\n * configuration issues that aren't related to external API calls\n * input validation errors\n * missing required parameters\n * data transformation errors\n * workflow logic errors\n \n Initialize new `NodeOperationError` instances using the following pattern:\n\n```typescript\nnew NodeOperationError(node: INode, error: Error | string | JsonObject, options?: NodeOperationErrorOptions)\n```"
+}

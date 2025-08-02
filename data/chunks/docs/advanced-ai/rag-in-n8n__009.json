@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/rag-in-n8n.md",
+  "index": 9,
+  "content": "### Using the node directly\n\n1. Add your vector store node to the canvas and choose the **Get Many** operation.\n2. Enter a query or prompt:\n\t* Set a **limit** for how many chunks to return.\n\t* Enable **Include Metadata** if needed."
+}

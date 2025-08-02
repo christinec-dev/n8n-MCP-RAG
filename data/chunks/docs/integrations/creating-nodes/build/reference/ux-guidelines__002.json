@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 2,
+  "content": "# UX guidelines for community nodes\n\nYour node's UI must conform to these guidelines to be a [verified community node](/integrations/creating-nodes/deploy/submit-community-nodes.md#submit-your-node-for-verification-by-n8n) candidate."
+}

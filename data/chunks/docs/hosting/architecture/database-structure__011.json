@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 11,
+  "content": "### execution_metadata\n\nStores [Custom executions data](/workflows/executions/custom-executions-data.md)."
+}

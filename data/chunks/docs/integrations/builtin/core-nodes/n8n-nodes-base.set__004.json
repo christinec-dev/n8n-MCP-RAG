@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.set.md",
+  "index": 4,
+  "content": "### Mode\n\nYou can either use **Manual Mapping** to edit fields using the GUI or **JSON Output** to write JSON that n8n adds to the input data."
+}

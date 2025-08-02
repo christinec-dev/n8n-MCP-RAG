@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftonedrive.md",
+  "index": 2,
+  "content": "# Microsoft OneDrive node\n\nUse the Microsoft OneDrive node to automate work in Microsoft OneDrive, and integrate Microsoft OneDrive with other applications. n8n has built-in support for a wide range of Microsoft OneDrive features, including creating, updating, deleting, and getting files, and folders.\n\nOn this page, you'll find a list of operations the Microsoft OneDrive node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Microsoft credentials](/integrations/builtin/credentials/microsoft.md) for guidance on setting up authentication.\n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

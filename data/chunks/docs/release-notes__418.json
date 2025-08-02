@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 418,
+  "content": "## n8n@1.11.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.10.1...n8n@1.11.0) for this version.<br />\n**Release date:** 2023-10-11\n\n\nThis release contains new features and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### External storage for binary files\n\nSelf-hosted users can now use an external service to store binary data. Learn more in [External storage](/hosting/scaling/external-storage.md).\n\nIf you're using n8n Cloud and are interested in this feature, please [contact n8n](https://n8n-community.typeform.com/to/y9X2YuGa).\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Item Lists node supports binary data\n\nThe Item Lists node now supports splitting and concatenating binary data inputs. This means you no longer need to use code to split a collection of files into multiple items.\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

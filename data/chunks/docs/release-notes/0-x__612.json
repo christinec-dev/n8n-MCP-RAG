@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 612,
+  "content": "### Core Functionality\n- Updated node design to include support for versioned nodes."
+}

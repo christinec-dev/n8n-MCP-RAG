@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.clickup.md",
+  "index": 2,
+  "content": "# ClickUp node\n\nUse the ClickUp node to automate work in ClickUp, and integrate ClickUp with other applications. n8n has built-in support for a wide range of ClickUp features, including creating, getting, deleting, and updating folders, checklists, tags, comments, and goals.\n\nOn this page, you'll find a list of operations the ClickUp node supports and links to more resources.\n\n/// note | Credentials\nRefer to [ClickUp credentials](/integrations/builtin/credentials/clickup.md) for guidance on setting up authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

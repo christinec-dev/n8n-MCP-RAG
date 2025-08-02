@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/time-zone.md",
+  "index": 2,
+  "content": "# Set the self-hosted instance timezone\n\nThe default timezone is America/New_York. For instance, the Schedule node uses it to know at what time the workflow should start. To set a different default timezone, set `GENERIC_TIMEZONE` to the appropriate value. For example, if you want to set the timezone to Berlin (Germany):\n\n```bash\nexport GENERIC_TIMEZONE=Europe/Berlin\n```\n\nYou can find the name of your timezone [here](https://momentjs.com/timezone/).\n\nRefer to [Environment variables reference](/hosting/configuration/environment-variables/timezone-localization.md) for more information on this variable."
+}

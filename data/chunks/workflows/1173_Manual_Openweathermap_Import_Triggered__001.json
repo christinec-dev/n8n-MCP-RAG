@@ -1,0 +1,12 @@
+{
+  "source": "1173_Manual_Openweathermap_Import_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"88\",\n  \"name\": \"Get the current weather data for a city\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"OpenWeatherMap\",\n      \"type\": \"n8n-nodes-base.openWeatherMap\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"cityName\": \"berlin,de\"\n      },\n      \"credentials\": {\n        \"openWeatherMapApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"OpenWeatherMap\": {\n      \"main\": [\n        []\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"OpenWeatherMap\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.openWeatherMap"
+    ],
+    "trigger": null
+  }
+}

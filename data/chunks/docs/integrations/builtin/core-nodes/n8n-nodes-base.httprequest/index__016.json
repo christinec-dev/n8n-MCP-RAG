@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md",
+  "index": 16,
+  "content": "### Response\n\nUse this option to set some details about the expected API response, including:\n\n* **Include Response Headers and Status**: By default, the node returns only the body. Turn this option on to return the full response (headers and response status code) as well as the body.\n* **Never Error**: By default, the node returns success only when the response returns with a 2xx code. Turn this option on to return success regardless of the code returned.\n* **Response Format**: Select the format in which the data gets returned. Choose from:\n    * **Autodetect** (default): The node detects and formats the response based on the data returned.\n    * **File**: Select this option to put the response into a file. Enter the field name where you want the file returned in **Put Output in Field**.\n    * **JSON**: Select this option to format the response as JSON.\n    * **Text**: Select this option to format the response as plain text. Enter the field name where you want the file returned in **Put Output in Field**."
+}

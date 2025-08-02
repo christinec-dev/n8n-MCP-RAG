@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/http-node/pagination.md",
+  "index": 6,
+  "content": "## Navigate pagination through body parameters\n\nIf the API you're using allows you to paginate through the body parameters:\n\n1. Set the HTTP Request Method to **POST**\n1. Set **Pagination Mode** to **Update a Parameter in Each Request**.\n1. Select **Body** in the **Type** parameter.\n1. Enter the **Name** of the body parameter. This depends on the API you're using. `page` is a common key name.\n1. Hover over **Value** and toggle **Expression** on.\n1. Enter `{{ $pageCount + 1 }}`"
+}

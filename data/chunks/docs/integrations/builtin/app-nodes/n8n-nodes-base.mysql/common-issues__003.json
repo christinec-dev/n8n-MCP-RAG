@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mysql/common-issues.md",
+  "index": 3,
+  "content": "## Update rows by composite key\n\nThe MySQL node's **Update** operation lets you to update rows in a table by providing a **Column to Match On** and a value. This works for tables where single column values can uniquely identify individual rows.\n\nYou can't use this pattern for tables that use [composite keys](https://en.wikipedia.org/wiki/Composite_key), where you need multiple columns to uniquely identify a row. A example of this is MySQL's [`user` table](https://mariadb.com/kb/en/mysql-user-table/) in the `mysql` database, where you need both the `user` and `host` columns to uniquely identify rows.\n\nTo update tables with composite keys, write the query manually with the **Execute SQL** operation instead. There, you can match on multiple values, like in this example which matches on both `customer_id` and `product_id`: \n\n```sql\nUPDATE orders SET quantity = 3 WHERE customer_id = 538 AND product_id = 800;\n```"
+}

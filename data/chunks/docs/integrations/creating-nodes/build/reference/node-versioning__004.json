@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-versioning.md",
+  "index": 4,
+  "content": "## Full versioning\n\nThis isn't available for declarative-style nodes.\n\nAs an example, refer to the [Mattermost node](https://github.com/n8n-io/n8n/tree/master/packages/nodes-base/nodes/Mattermost).\n\nFull versioning summary:\n\n- The base node file should extend `NodeVersionedType` instead of `INodeType`.\n- The base node file should contain a description including the `defaultVersion` (usually the latest), other basic node metadata such as name, and a list of versions. It shouldn't contain any node functionality.\n- n8n recommends using `v1`, `v2`, and so on, for version folder names."
+}

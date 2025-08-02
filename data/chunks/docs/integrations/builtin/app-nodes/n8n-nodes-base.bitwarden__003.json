@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.bitwarden.md",
+  "index": 3,
+  "content": "## Operations\n\n* Collection\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Event\n    * Get All\n* Group\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Get Members\n    * Update\n    * Update Members\n* Member\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Get Groups\n    * Update\n    * Update Groups"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatollama/index.md",
+  "index": 2,
+  "content": "# Ollama Chat Model node\n\nThe Ollama Chat Model node allows you use local Llama 2 models with conversational [agents](/glossary.md#ai-agent).\n\nOn this page, you'll find the node parameters for the Ollama Chat Model node, and links to more resources.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/ollama.md).\n///\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

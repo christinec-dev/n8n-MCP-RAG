@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/aws.md",
+  "index": 3,
+  "content": "## Hosting options\n\nAWS offers several ways suitable for hosting n8n, including EC2 (virtual machines), and EKS (containers running with Kubernetes).\n\nThis guide uses [EKS](https://aws.amazon.com/eks/) as the hosting option. Using Kubernetes requires some additional complexity and configuration, but is the best method for scaling n8n as demand changes."
+}

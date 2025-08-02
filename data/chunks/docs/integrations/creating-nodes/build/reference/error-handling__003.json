@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/error-handling.md",
+  "index": 3,
+  "content": "## NodeApiError\n\nUse `NodeApiError` when dealing with external API calls and HTTP requests. This error class is specifically designed to handle API response errors and provides enhanced features for parsing and presenting API-related failures such as:\n\n * HTTP request failures\n * external API errors\n * authentication/authorization failures\n * rate limiting errors\n * service unavailable errors\n \nInitialize new `NodeApiError` instances using the following pattern:\n\n```typescript\nnew NodeApiError(node: INode, errorResponse: JsonObject, options?: NodeApiErrorOptions)\n```"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 437,
+  "content": "### Bug fixes\n\n* **core:** Add logs and error catches for possible failures in queue mode.<br>\n* [AWS Lambda Node:](/integrations/builtin/app-nodes/n8n-nodes-base.awslambda.md) Fix Invocation Type > Continue Workflow.\n* [Supabase Node:](/integrations/builtin/app-nodes/n8n-nodes-base.supabase/index.md) Send token also using Authorization Bearer; fix Row > Get operation.\n* [Xero Node:](/integrations/builtin/app-nodes/n8n-nodes-base.xero.md) Fix some operations and add support for setting address and phone number.\n* [Wise Node:](/integrations/builtin/app-nodes/n8n-nodes-base.wise.md) Fix issue when executing a transfer."
+}

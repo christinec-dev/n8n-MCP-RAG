@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 420,
+  "content": "### Bug fixes\n\n* **core**: make the email for user management case insensitive.\n* **core**: add `rawBody` for XML requests.\n* **editor**: fix a glitch that caused dropdowns to break after adding expressions.\n* **editor**: reset text input value when closed with `Esc`.\n* [Discourse node](/integrations/builtin/app-nodes/n8n-nodes-base.discourse.md): fix an issue that was causing incomplete results when getting posts. Added a credentials test.\n* [Zendesk Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.zendesktrigger.md): remove deprecated targets, replace with webhooks.\n* [Zoho node](/integrations/builtin/app-nodes/n8n-nodes-base.zohocrm.md): fix pagination issue."
+}

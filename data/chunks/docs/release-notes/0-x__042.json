@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 42,
+  "content": "### Node enhancements\n\n* An overhaul of the Microsoft Excel 365 node, improve the UI making it easier to configure, improve error handling, and fix issues."
+}

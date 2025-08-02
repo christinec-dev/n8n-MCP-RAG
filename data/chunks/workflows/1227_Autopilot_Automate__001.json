@@ -1,0 +1,14 @@
+{
+  "source": "1227_Autopilot_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Autopilot\",\n      \"type\": \"n8n-nodes-base.autopilot\",\n      \"position\": [\n        470,\n        320\n      ],\n      \"parameters\": {\n        \"name\": \"n8n-docs\",\n        \"resource\": \"list\"\n      },\n      \"credentials\": {\n        \"autopilotApi\": \"Autopilot API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Autopilot1\",\n      \"type\": \"n8n-nodes-base.autopilot\",\n      \"position\": [\n        670,\n        320\n      ],\n      \"parameters\": {\n        \"email\": \"\",\n        \"additionalFields\": {\n          \"autopilotList\": \"={{$json[\\\"list_id\\\"]}}\"\n        }\n      },\n      \"credentials\": {\n        \"autopilotApi\": \"Autopilot API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Autopilot2\",\n      \"type\": \"n8n-nodes-base.autopilot\",\n      \"position\": [\n        870,\n        320\n      ],\n      \"parameters\": {\n        \"email\": \"={{$node[\\\"Autopilot1\\\"].parameter[\\\"email\\\"]}}\",\n        \"additionalFields\": {\n          \"Company\": \"n8n\"\n        }\n      },\n      \"credentials\": {\n        \"autopilotApi\": \"Autopilot API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Autopilot3\",\n      \"type\": \"n8n-nodes-base.autopilot\",\n      \"position\": [\n        1070,\n        320\n      ],\n      \"parameters\": {\n        \"listId\": \"={{$node[\\\"Autopilot\\\"].json[\\\"list_id\\\"]}}\",\n        \"resource\": \"contactList\",\n        \"operation\": \"getAll\",\n        \"returnAll\": true\n      },\n      \"credentials\": {\n        \"autopilotApi\": \"Autopilot API Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Autopilot\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Autopilot1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Autopilot1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Autopilot2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Autopilot2\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Autopilot3\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.autopilot",
+      "n8n-nodes-base.autopilot",
+      "n8n-nodes-base.autopilot",
+      "n8n-nodes-base.autopilot"
+    ],
+    "trigger": null
+  }
+}

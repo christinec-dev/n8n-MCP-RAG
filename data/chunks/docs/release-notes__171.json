@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 171,
+  "content": "### Overhauled Code node editing experience\nWe added a ton of new helpers to the Code node, making edits of your code much faster and more comfortable. You get:\n\n- TypeScript autocomplete  \n- TypeScript linting  \n- TypeScript hover tips  \n- Search and replace  \n- New keyboard shortcuts based on the VSCode keymap  \n- Auto-formatting using prettier (Alt+Shift+F)  \n- Remember folded regions and history after refresh  \n- Multi cursor  \n- Type function in the Code node using JSDoc types  \n- Drag and drop for all Code node modes  \n- Indentation markers  \n\nWe build this on a web worker architecture so you won't have to suffer from performance degradation while typing. <br>\n<br>\nTo get the full picture, check out our Studio update with Max and Elias, where they discuss and demo the new editing experience. 👇 <br>\n\n[![Studio](/_images/release-notes/The_Studio_thumbnail_Code_node.jpg)](https://youtu.be/De1E58MPaMQ?t=645)\n<figure markdown=\"span\">\n    <figcaption>[Studio Update #04](https://youtu.be/De1E58MPaMQ?t=645)</figcaption>\n</figure>\n\n</div>"
+}

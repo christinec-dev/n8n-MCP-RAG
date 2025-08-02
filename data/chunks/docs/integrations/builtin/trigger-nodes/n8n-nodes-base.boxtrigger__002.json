@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.boxtrigger.md",
+  "index": 2,
+  "content": "# Box Trigger node\n\n[Box](https://www.box.com/) is a cloud computing company which provides file sharing, collaborating, and other tools for working with files uploaded to its servers.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/box.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Box Trigger integrations](https://n8n.io/integrations/box-trigger/) page.\n///"
+}

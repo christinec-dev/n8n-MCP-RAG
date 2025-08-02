@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md",
+  "index": 11,
+  "content": "### Array Format in Query Parameters\n\n/// note | Option availability\nThis option is only available when you turn on **Send Query Parameters**.\n///\n\nUse this option to control the format for arrays included in query parameters. Choose from these options:\n\n* **No Brackets**: Arrays will format as the name=value for each item in the array, for example: `foo=bar&foo=qux`.\n* **Brackets Only**: The node adds square brackets after each array name, for example: `foo[]=bar&foo[]=qux`.\n* **Brackets with Indices**: The node adds square brackets with an index value after each array name, for example: `foo[0]=bar&foo[1]=qux`.\n\nRefer to your service's API documentation for guidance on which option to use."
+}

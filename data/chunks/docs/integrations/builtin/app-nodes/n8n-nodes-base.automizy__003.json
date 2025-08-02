@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.automizy.md",
+  "index": 3,
+  "content": "## Operations\n\n* Contact\n    * Create a contact\n    * Delete a contact\n    * Get a contact\n    * Get all contacts\n    * Update a contact\n* List\n    * Create a list\n    * Delete a list\n    * Get a list\n    * Get all lists\n    * Update a list"
+}

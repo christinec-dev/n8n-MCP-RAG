@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 844,
+  "content": "## n8n@0.75.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.74.0...n8n@0.75.0) for this version.<br />\n**Release date:** 2020-07-26\n\n- New nodes\n- Box\n- Box Trigger\n- CrateDB\n- Jira Trigger\n- Enhanced nodes\n- GitLab\n- Nextcloud\n- Pipedrive\n- QuestDB\n- Webhooks now support OPTIONS request"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/hetzner.md",
+  "index": 5,
+  "content": "## Install Docker Compose\n\nThe Hetzner Docker app image doesn't have Docker compose installed. Install it with the following commands:\n\n```shell\napt update && apt -y upgrade\napt install docker-compose-plugin\n```"
+}

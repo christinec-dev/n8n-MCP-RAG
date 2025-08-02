@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 16,
+  "content": "## n8n@0.234.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.233.1...n8n@0.234.0) for this version.<br />\n**Release date:** 2023-06-22\n\nThis release contains new features, new nodes, node enhancements, and bug fixes.\t\n\n/// warning | Unstable version\nThis version is (as of 4th July 2023) considered unstable. n8n recommends upgrading directly to 0.234.1.\t\n///\n/// warning | Irreversible database migration\nThis version contains a database migration that changes credential and workflow IDs to use nanoId strings, This migration may take a while to complete in some environments. This change doesn't break anything using the older numeric IDs.\n\nIf you upgrade to 0.234.0, you can't roll back to an earlier version.\n///\n\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

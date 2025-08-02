@@ -1,0 +1,12 @@
+{
+  "source": "0039_Calendly_Notion_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Calendly Trigger\",\n      \"type\": \"n8n-nodes-base.calendlyTrigger\",\n      \"position\": [\n        490,\n        320\n      ],\n      \"webhookId\": \"d932d43a-511e-4e54-9a8d-c8da6f6ab7c2\",\n      \"parameters\": {\n        \"events\": [\n          \"invitee.created\"\n        ]\n      },\n      \"credentials\": {\n        \"calendlyApi\": \"Calendly API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Notion\",\n      \"type\": \"n8n-nodes-base.notion\",\n      \"position\": [\n        690,\n        320\n      ],\n      \"parameters\": {\n        \"blockUi\": {\n          \"blockValues\": []\n        },\n        \"resource\": \"databasePage\",\n        \"databaseId\": \"b40628ca-9000-4576-ab2c-4ed3c37e6ee4\",\n        \"propertiesUi\": {\n          \"propertyValues\": [\n            {\n              \"key\": \"Name|title\",\n              \"title\": \"={{$json[\\\"payload\\\"][\\\"invitee\\\"][\\\"name\\\"]}}\",\n              \"peopleValue\": [],\n              \"relationValue\": [\n                \"\"\n              ],\n              \"multiSelectValue\": []\n            },\n            {\n              \"key\": \"Email|email\",\n              \"emailValue\": \"={{$json[\\\"payload\\\"][\\\"invitee\\\"][\\\"email\\\"]}}\",\n              \"peopleValue\": [],\n              \"relationValue\": [\n                \"\"\n              ],\n              \"multiSelectValue\": []\n            },\n            {\n              \"key\": \"Status|select\",\n              \"peopleValue\": [],\n              \"selectValue\": \"6ad3880b-260a-4d12-999f-5b605e096c1c\",\n              \"relationValue\": [\n                \"\"\n              ],\n              \"multiSelectValue\": []\n            }\n          ]\n        }\n      },\n      \"credentials\": {\n        \"notionApi\": \"Notion API Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Calendly Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Notion\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.calendlyTrigger",
+      "n8n-nodes-base.notion"
+    ],
+    "trigger": "calendly trigger"
+  }
+}

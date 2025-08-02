@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md",
+  "index": 17,
+  "content": "### Get many workflows filters\n\nYou can further configure this operation with these **Filters**:\n\n* **Return Only Active Workflows**: Select whether to return only active workflows (turned on) or active and inactive workflows (turned off).\n* **Tags**: Enter a comma-separated list of tags the returned workflows must have."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md",
+  "index": 15,
+  "content": "## Create workflow\n\nConfigure this operation with this parameter:\n\n* **Workflow Object**: Enter a valid JSON object with the new workflow's details. The object requires these fields:\n\t* `name`\n\t* `nodes`\n\t* `connections`\n\t* `settings`\n\nRefer to [n8n API reference](/api/api-reference.md) for more information."
+}

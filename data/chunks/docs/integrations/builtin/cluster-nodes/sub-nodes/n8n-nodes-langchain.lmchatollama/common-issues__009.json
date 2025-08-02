@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatollama/common-issues.md",
+  "index": 9,
+  "content": "### If Ollama and n8n are running in the same Docker container\n\nIf Ollama and n8n are running in the same Docker container, the `localhost` address doesn't need any special configuration. You can configure Ollama to listen on localhost and configure the base URL in the [Ollama credentials in n8n](/integrations/builtin/credentials/ollama.md) to use localhost: `http://localhost:11434`.\n\n<!-- vale from-microsoft.HeadingColons = NO -->"
+}

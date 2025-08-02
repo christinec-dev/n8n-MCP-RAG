@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/intro-tutorial.md",
+  "index": 2,
+  "content": "# Build an AI chat agent with n8n\n\nWelcome to the introductory tutorial for building AI workflows with n8n. Whether you have used n8n before, or this is your first time, we will show you how the building blocks of AI workflows fit together and construct a working AI-powered chat agent which you can easily customize for your own purposes.\n\n![\"Screenshot of the completed workflow\"](/_images/advanced-ai/ai-intro01.png)\n\nMany people find it easier to take in new information in video format. This tutorial is based on one of n8n's popular videos, linked below. Watch the video or read the steps here, or both!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yzvLfHb0nqE?si=7ruaUEycFcoQbYsD\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+}

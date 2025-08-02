@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.5.md",
+  "index": 2,
+  "content": "# 5. Calculating Booked Orders\n\nIn this step of the workflow you will learn how n8n structures data and how to add custom JavaScript code to perform calculations using the Code node. After this step, your workflow should look like this:\n\n[[ workflowDemo(\"file:////courses/level-one/chapter-5/chapter-5.5.json\") ]]\n\nThe next step in Nathan's workflow is to calculate two values from the booked orders:\n\n- The total number of booked orders\n- The total value of all booked orders\n\nTo calculate data and add more functionality to your workflows you can use the Code node, which lets you write custom JavaScript code."
+}

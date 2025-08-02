@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-5/chapter-5.0.md",
+  "index": 3,
+  "content": "## Workflow design\n\nNow that we know what Nathan wants to automate, let's list the steps he needs to take to achieve this:\n\n1. Get and combine data from all necessary sources.\n2. Sort the data and format the dates.\n3. Write binary files.\n4. Send notifications using email and Discord.\n\nn8n provides [core nodes](/integrations/builtin/node-types.md#core-nodes) for all these steps. This use case is somewhat complex. We should build it from three separate workflows:\n\n1. A workflow that merges the company data with external information.\n2. A workflow that generates the reports.\n3. A workflow that monitors errors in the second workflow."
+}

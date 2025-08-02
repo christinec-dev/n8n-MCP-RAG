@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/rbac/projects.md",
+  "index": 6,
+  "content": "## Using external secrets in projects\n\nTo use [external secrets](/external-secrets.md) in a project, you must have an [instance owner or instance admin](/user-management/account-types.md) as a member of the project."
+}

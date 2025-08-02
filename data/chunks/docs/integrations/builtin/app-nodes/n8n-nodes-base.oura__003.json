@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.oura.md",
+  "index": 3,
+  "content": "## Operations\n\n* Profile\n    * Get the user's personal information.\n* Summary\n    * Get the user's activity summary.\n    * Get the user's readiness summary.\n    * Get the user's sleep summary"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-1.md",
+  "index": 7,
+  "content": "### Exercise\n\nLet's build on the previous exercise, in which you used the Code node to create a data set of two contacts with their names and emails. Now, connect a second Code node to the first one. In the new node, write code to create a new column named `workEmail` that references the work email of the first contact.\n\n??? note \"Show me the solution\"\n\tIn the **Code node**, in the JavaScript Code field you have to write the following code:\n\n\t```javascript\n\tlet items = $input.all();\n\titems[0].json.workEmail = items[0].json.email['work'];\n\treturn items;\n\t```\n\n\tWhen you execute the **Code node**, the result should look like this:\n\n\t<figure><img src=\"/_images/courses/level-two/chapter-one/exercise_function_reference.png\" alt=\"\" style=\"width:100%\"><figcaption align = \"center\"><i>Code node reference</i></figcaption></figure>"
+}

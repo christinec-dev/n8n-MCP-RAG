@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/programmatic-style-parameters.md",
+  "index": 3,
+  "content": "## `defaultVersion`\n\n_Number_ | _Optional_\n\nUse `defaultVersion` when using the full versioning approach.\n\nn8n support two methods of node versioning. Refer to [Node versioning](/integrations/creating-nodes/build/reference/node-versioning.md) for more information."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/ai-code.md",
+  "index": 10,
+  "content": "## Fixing the code\n\nThe AI-generated code may work without any changes, but you may have to edit it. You need to be aware of n8n's [Data structure](/data/data-structure.md). You may also find n8n's built-in methods and variables useful."
+}

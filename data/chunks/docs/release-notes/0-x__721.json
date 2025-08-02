@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 721,
+  "content": "### Core Functionality\n- Fixed error messages for the text area field\n- Added the missing `winston` dependency\n- Fixed an issue with adding values using the Variable selector. The deleted values don't reappear\n- Fixed an issue with the Error Workflows not getting executed in the queue mode"
+}

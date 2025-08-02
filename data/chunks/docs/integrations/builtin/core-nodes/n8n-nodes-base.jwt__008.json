@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.jwt.md",
+  "index": 8,
+  "content": "### Issuer\n\nThe **Issuer** or `iss` claim identifies the principal that issued the JWT.\n\nRefer to [\"iss\" (Issuer) Claim](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.1) for more information."
+}

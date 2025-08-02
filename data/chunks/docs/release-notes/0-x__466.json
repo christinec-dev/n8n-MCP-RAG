@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 466,
+  "content": "### Bug fixes\n\n\n* Orbit: Fixed a bug causing API requests to use an incorrect workspace identifier.\n* [TheHive:](/integrations/builtin/app-nodes/n8n-nodes-base.thehive.md)  Fixed a bug causing the Ignore SSL Issues option to be applied incorrectly."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.kobotoolbox.md",
+  "index": 3,
+  "content": "## Operations\n\n* File\n\t* Create\n\t* Delete\n\t* Get\n\t* Get Many\n* Form\n    * Get\n    * Get Many\n\t\t* Redeploy\n* Hook\n    * Get\n    * Get Many\n    * Logs\n    * Retry All\n    * Retry One\n* Submission\n    * Delete\n    * Get\n    * Get Many\n    * Get Validation Status\n    * Update Validation Status"
+}

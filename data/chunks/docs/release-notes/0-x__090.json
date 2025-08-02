@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 90,
+  "content": "### New features\n\n* Core: n8n now augments data rather than copying it in the Code node. This is a performance improvement.\n* Editor: you can now move the canvas by holding `Space` and dragging with the mouse, or by holding the middle mouse button and dragging.\n* Editor: add authentication type recommendations in the credentials modal.\n* Editor: add the SSO login button."
+}

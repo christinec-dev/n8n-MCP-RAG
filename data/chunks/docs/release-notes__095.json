@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 95,
+  "content": "### Node updates\n\n- Added a node for Azure Cosmos DB  \n- Added a node for Milvus Vector Store  \n- Updated the Email Trigger (IMAP) node"
+}

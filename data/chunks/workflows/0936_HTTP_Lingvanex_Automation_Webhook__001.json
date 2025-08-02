@@ -1,0 +1,14 @@
+{
+  "source": "0936_HTTP_Lingvanex_Automation_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"3\",\n  \"name\": \"Daily poems in Telegram\",\n  \"nodes\": [\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        -250,\n        400\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"hour\": 10\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Telegram\",\n      \"type\": \"n8n-nodes-base.telegram\",\n      \"position\": [\n        350,\n        400\n      ],\n      \"parameters\": {\n        \"text\": \"=✒️ Poem of the day:\\n{{$node[\\\"HTTP Request\\\"].json[\\\"0\\\"][\\\"title\\\"]}} by {{$node[\\\"HTTP Request\\\"].json[\\\"0\\\"][\\\"poet\\\"][\\\"name\\\"]}}\\n\\n{{$node[\\\"HTTP Request\\\"].json[\\\"0\\\"][\\\"content\\\"]}}\\n☁️\",\n        \"chatId\": \"123456789\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"telegramApi\": \"telegram_bot\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        -50,\n        400\n      ],\n      \"parameters\": {\n        \"url\": \"https://www.poemist.com/api/v1/randompoems\",\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"LingvaNex\",\n      \"type\": \"n8n-nodes-base.lingvaNex\",\n      \"position\": [\n        150,\n        400\n      ],\n      \"parameters\": {\n        \"text\": \"={{$node[\\\"HTTP Request\\\"].json[\\\"0\\\"][\\\"content\\\"]}}\",\n        \"options\": {},\n        \"translateTo\": \"en_GB\"\n      },\n      \"credentials\": {\n        \"lingvaNexApi\": \"lingvanex_API\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"LingvaNex\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Telegram\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"HTTP Request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"LingvaNex\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.telegram",
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.lingvaNex"
+    ],
+    "trigger": null
+  }
+}

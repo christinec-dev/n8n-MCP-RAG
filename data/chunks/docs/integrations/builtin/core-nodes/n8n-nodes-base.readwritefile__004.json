@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md",
+  "index": 4,
+  "content": "## Read File(s) From Disk\n\nConfigure this operation with these parameters:\n\n* **File(s) Selector**: Enter the path of the file you want to read.\n\t- To enter multiple files, enter a page path pattern. You can use these characters to define a path pattern:\n\t\t- `*`: Matches any character zero or more times, excluding path separators.\n\t\t- `**`: Matches any character zero or more times, include path separators.\n\t\t- `?`: Matches any character except for path separators one time.\n\t\t- `[]`: Matches any characters inside the brackets. For example, `[abc]` would match the characters `a`, `b`, or `c`, and nothing else.\n\nRefer to [Picomatch's Basic globbing](https://github.com/micromatch/picomatch#basic-globbing) documentation for more information on these characters and their expected behavior."
+}

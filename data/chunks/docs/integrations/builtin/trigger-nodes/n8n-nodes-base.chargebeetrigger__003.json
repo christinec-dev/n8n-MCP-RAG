@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.chargebeetrigger.md",
+  "index": 3,
+  "content": "## Add webhook URL in Chargebee\n\nTo add a Webhook URL in Chargebee:\n\n1. Open your Chargebee dashboard.\n2. Go to **Settings** > **Configure Chargebee**.\n4. Scroll down and select **Webhooks**.\n5. Select the **Add Webhook** button.\n6. Enter the **Webhook Name** and the **Webhook URL**.\n7. Select **Create**."
+}

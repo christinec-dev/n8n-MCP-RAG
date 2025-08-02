@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 21,
+  "content": "## Notice\n\nDisplay a yellow box with a hint or extra info. Refer to [Node UI design](/integrations/creating-nodes/plan/node-ui-design.md) for guidance on writing good hints and info text.\n\n```js\n{\n  displayName: 'Your text here',\n  name: 'notice',\n  type: 'notice',\n  default: '',\n},\n```\n![Notice](/_images/integrations/creating-nodes/notice.png)"
+}

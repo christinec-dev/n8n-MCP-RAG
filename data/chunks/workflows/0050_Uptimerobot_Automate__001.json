@@ -1,0 +1,13 @@
+{
+  "source": "0050_Uptimerobot_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"UptimeRobot2\",\n      \"type\": \"n8n-nodes-base.uptimeRobot\",\n      \"position\": [\n        890,\n        320\n      ],\n      \"parameters\": {\n        \"id\": \"={{$json[\\\"id\\\"]}}\",\n        \"resource\": \"monitor\",\n        \"operation\": \"get\"\n      },\n      \"credentials\": {\n        \"uptimeRobotApi\": \"UptimeRobot API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"UptimeRobot\",\n      \"type\": \"n8n-nodes-base.uptimeRobot\",\n      \"position\": [\n        490,\n        320\n      ],\n      \"parameters\": {\n        \"url\": \"https://n8n.io\",\n        \"type\": 1,\n        \"resource\": \"monitor\",\n        \"operation\": \"create\",\n        \"friendlyName\": \"n8n\"\n      },\n      \"credentials\": {\n        \"uptimeRobotApi\": \"UptimeRobot API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"UptimeRobot1\",\n      \"type\": \"n8n-nodes-base.uptimeRobot\",\n      \"position\": [\n        690,\n        320\n      ],\n      \"parameters\": {\n        \"id\": \"={{$json[\\\"id\\\"]}}\",\n        \"resource\": \"monitor\",\n        \"operation\": \"update\",\n        \"updateFields\": {\n          \"friendly_name\": \"n8n website\"\n        }\n      },\n      \"credentials\": {\n        \"uptimeRobotApi\": \"UptimeRobot API Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"UptimeRobot\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"UptimeRobot1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"UptimeRobot1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"UptimeRobot2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.uptimeRobot",
+      "n8n-nodes-base.uptimeRobot",
+      "n8n-nodes-base.uptimeRobot"
+    ],
+    "trigger": null
+  }
+}

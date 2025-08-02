@@ -1,0 +1,12 @@
+{
+  "source": "0192_Manual_Openthesaurus_Import_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"157\",\n  \"name\": \"Get synonyms of a German word\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        550,\n        260\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"OpenThesaurus\",\n      \"type\": \"n8n-nodes-base.openThesaurus\",\n      \"position\": [\n        750,\n        260\n      ],\n      \"parameters\": {\n        \"text\": \"Hallo\",\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"OpenThesaurus\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.openThesaurus"
+    ],
+    "trigger": null
+  }
+}

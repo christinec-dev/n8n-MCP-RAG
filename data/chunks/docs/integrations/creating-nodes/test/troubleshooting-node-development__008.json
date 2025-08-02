@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/test/troubleshooting-node-development.md",
+  "index": 8,
+  "content": "### Node icon doesn't fit\n\n- If you use an SVG file, make sure the canvas size is square. You can find instructions to change the canvas size of an SVG file using GIMP [here](https://docs.gimp.org/2.10/en/gimp-image-resize.html).\n- If you use a PNG file, make sure that it's 60x60 pixels."
+}

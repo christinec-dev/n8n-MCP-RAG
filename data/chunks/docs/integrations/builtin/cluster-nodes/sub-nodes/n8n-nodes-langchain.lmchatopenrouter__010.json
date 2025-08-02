@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatopenrouter.md",
+  "index": 10,
+  "content": "### Sampling Temperature\n\nUse this option to control the randomness of the sampling process. A higher temperature creates more diverse sampling, but increases the risk of hallucinations."
+}

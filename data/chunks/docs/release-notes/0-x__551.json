@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 551,
+  "content": "### Bug fixes\n\n\n* [HTTP Request:](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) Fixed an issue causing the wrong Content-Type header to be set when downloading a file.\n* [ServiceNow:](/integrations/builtin/app-nodes/n8n-nodes-base.servicenow.md) Fixed incorrect mapping of incident urgency and impact values.\n* [Start:](/integrations/builtin/core-nodes/n8n-nodes-base.manualworkflowtrigger.md) Fixed an issue causing the node to be disabled in a new workflow.\n* [Xero:](/integrations/builtin/app-nodes/n8n-nodes-base.xero.md) Fixed an issue causing the node to only fetch the first page when querying the Xero API."
+}

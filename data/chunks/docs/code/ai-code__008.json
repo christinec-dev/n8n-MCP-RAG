@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/ai-code.md",
+  "index": 8,
+  "content": "### Reference incoming node data explicitly\n\nIf your incoming data contains nested fields, using dot notation to reference them can help the AI understand what data you want.\n\n![\"Screenshot of an n8n code node, highlighting how to reference data with dot notation in an AI query\"](/_images/code/ai-code/reference-data-dot-notation.png)\n\nTo try the example yourself, [download the example workflow](/_workflows/ai-code/reference-incoming-data-explicitly.json) and import it into n8n.\n\nIn the second Code node, enter this prompt:\n\n> The data in \"Mock data\" represents a list of people. For each person, return a new item containing personal_info.first_name and work_info.job_title.\n\nThis is the JavaScript you need:\n\n```js\nconst items = $input.all();\nconst newItems = items.map((item) => {\n  const firstName = item.json.personal_info.first_name;\n  const jobTitle = item.json.work_info.job_title;\n  return {\n    json: {\n      firstName,\n      jobTitle,\n    },\n  };\n});\nreturn newItems;\n```"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-file-structure.md",
+  "index": 5,
+  "content": "## Versioning\n\nIf your node has more than one version, and you're using full versioning, this makes the file structure more complex. You need a directory for each version, along with a base file that sets the default version. Refer to [Node versioning](/integrations/creating-nodes/build/reference/node-versioning.md) for more information on working with versions, including types of versioning."
+}

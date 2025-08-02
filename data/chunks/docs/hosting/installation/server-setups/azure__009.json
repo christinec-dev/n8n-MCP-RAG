@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/azure.md",
+  "index": 9,
+  "content": "## Configure Postgres\n\nFor larger scale n8n deployments, Postgres provides a more robust database backend than SQLite."
+}

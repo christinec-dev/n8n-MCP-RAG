@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatazureopenai.md",
+  "index": 2,
+  "content": "# Azure OpenAI Chat Model node\n\nUse the Azure OpenAI Chat Model node to use OpenAI's chat models with conversational [agents](/glossary.md#ai-agent).\n\nOn this page, you'll find the node parameters for the Azure OpenAI Chat Model node, and links to more resources.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/azureopenai.md).\n///\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

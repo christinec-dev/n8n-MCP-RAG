@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.wait.md",
+  "index": 4,
+  "content": "### After Time Interval\n\nWait for a certain amount of time.\n\nThis parameter includes two more fields:\n\n* **Wait Amount**: Enter the amount of time to wait.\n* **Wait Unit**: Select the unit of measure for the **Wait Amount**. Choose from:\n\t* **Seconds**\n\t* **Minutes**\n\t* **Hours**\n\t* **Days**\n\nRefer to [Time-based operations](#time-based-operations) for more detail on how these intervals work and the timezone used."
+}

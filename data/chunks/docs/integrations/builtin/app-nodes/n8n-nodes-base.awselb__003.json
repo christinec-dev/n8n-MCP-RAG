@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.awselb.md",
+  "index": 3,
+  "content": "## Operations\n\n* Listener Certificate\n\t* Add\n\t* Get Many\n\t* Remove\n* Load Balancer\n\t* Create\n\t* Delete\n\t* Get\n\t* Get Many\n\nThis node supports creating and managing application and network load balancers. It doesn't currently support gateway load balancers."
+}

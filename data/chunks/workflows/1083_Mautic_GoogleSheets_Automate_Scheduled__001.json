@@ -1,0 +1,14 @@
+{
+  "source": "1083_Mautic_GoogleSheets_Automate_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"GS Read Data2\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"position\": [\n        240,\n        750\n      ],\n      \"parameters\": {\n        \"range\": \"Data!A:P\",\n        \"options\": {\n          \"valueRenderMode\": \"FORMATTED_VALUE\"\n        },\n        \"sheetId\": \"1jKYwPE9DMFOYf1AeDuTvQ3GSM2GqaEJhGYNoisxSLpM\"\n      },\n      \"credentials\": {\n        \"googleApi\": \"n8n API\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mautic\",\n      \"type\": \"n8n-nodes-base.mautic\",\n      \"position\": [\n        450,\n        750\n      ],\n      \"parameters\": {\n        \"email\": \"={{$node[\\\"GS Read Data2\\\"].json[\\\"email\\\"]}}\",\n        \"options\": {},\n        \"firstName\": \"={{$node[\\\"GS Read Data2\\\"].json[\\\"firstname\\\"]}}\",\n        \"additionalFields\": {\n          \"mobile\": \"={{$node[\\\"GS Read Data2\\\"].json[\\\"mobile\\\"]}}\"\n        }\n      },\n      \"credentials\": {\n        \"mauticApi\": \"MauticAPI\"\n      },\n      \"notesInFlow\": false,\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"GS Read Data2\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"position\": [\n        240,\n        750\n      ],\n      \"parameters\": {\n        \"range\": \"Data!A:P\",\n        \"options\": {\n          \"valueRenderMode\": \"FORMATTED_VALUE\"\n        },\n        \"sheetId\": \"1jKYwPE9DMFOYf1AeDuTvQ3GSM2GqaEJhGYNoisxSLpM\"\n      },\n      \"credentials\": {\n        \"googleApi\": \"n8n API\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        40,\n        750\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"mode\": \"everyX\",\n              \"unit\": \"minutes\",\n              \"value\": 5\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"GS Read Data2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"GS Read Data2\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mautic\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.googleSheets",
+      "n8n-nodes-base.mautic",
+      "n8n-nodes-base.googleSheets",
+      "n8n-nodes-base.cron"
+    ],
+    "trigger": null
+  }
+}

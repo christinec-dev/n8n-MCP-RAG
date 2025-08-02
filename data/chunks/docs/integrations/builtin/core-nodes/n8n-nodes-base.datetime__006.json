@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 6,
+  "content": "## Extract Part of a Date\n\nConfigure the node for this operation using these parameters:\n\n* **Date**: Enter the date you want to round or extract part of.\n* **Part**: Select the part of the date you want to extract. Choose from:\n    * **Year**\n    * **Month**\n    * **Week**\n    * **Day**\n    * **Hour**\n    * **Minute**\n    * **Second**\n* **Output Field Name**: Enter the name of the field to output the extracted date part to."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 8,
+  "content": "## Boolean\n\nThe `boolean` type adds a toggle for entering true or false.\n\n```typescript\n{\n\tdisplayName: 'Wait for Image',\n\tname: 'waitForImage',\n\ttype: 'boolean',\n\tdefault: true, // Initial state of the toggle\n\tdescription: 'Whether to wait for the image or not',\n\tdisplayOptions: { // the resources and operations to display this element with\n\t\tshow: {\n\t\t\tresource: [\n\t\t\t\t// comma-separated list of resource names\n\t\t\t],\n\t\t\toperation: [\n\t\t\t\t// comma-separated list of operation names\n\t\t\t]\n\t\t}\n\t},\n}\n```\n\n![Boolean](/_images/integrations/creating-nodes/boolean.png)"
+}

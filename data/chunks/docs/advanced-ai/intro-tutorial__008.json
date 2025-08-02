@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/intro-tutorial.md",
+  "index": 8,
+  "content": "## 3. Add an AI Agent Node\n\nThe AI Agent node is the core of adding AI to your workflows.\n\n 1. Select the **Add node** <span class=\"inline-image\">![Add node icon](/_images/try-it-out/add-node-small.png){.off-glb}</span> connector on the trigger node to bring up the node search.\n\n 1. Start typing \"AI\" and choose the **AI agent** node to add it.\n\n 1. The editing view of the **AI agent** will now be displayed. \n \n 1. There are some fields which can be changed. As we're using the **Chat Trigger** node, the default setting for the source and specification of the prompt don't need to be changed.\n\n[[ workflowDemo(\"file:////advanced-ai/tutorials/chat_02.json\") ]]"
+}

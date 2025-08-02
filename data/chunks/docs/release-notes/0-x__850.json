@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 850,
+  "content": "## n8n@0.70.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.69.1...n8n@0.70.0) for this version.<br />\n**Release date:** 2020-06-13\n\n- Enhanced nodes\n- GitHub\n- Mautic Trigger\n- Monday.com\n- MongoDB\n- Fixed the issue with multiuser-setup\n\n<!-- vale on -->"
+}

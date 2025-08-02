@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 236,
+  "content": "### New features\n\n* API: report unhandled app crashes using Sentry.\n* API: set up error tracking using Sentry.\n* Core: Add ownership, sharing and credential details to `GET /workflows` in n8n's internal API.\n* Editor: when building nodes, you can now add a property with type `notice` to your credentials `properties`.This was previously available in nodes but not credentials. Refer to [Node UI elements](/integrations/creating-nodes/build/reference/ui-elements.md) for more information."
+}

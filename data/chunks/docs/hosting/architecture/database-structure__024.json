@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 24,
+  "content": "### webhook_entity\n\nRecords the active webhooks in your n8n instance's workflows. This isn't just webhooks uses in the Webhook node. It includes all active webhooks used by any trigger node."
+}

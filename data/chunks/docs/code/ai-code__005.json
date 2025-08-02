@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/ai-code.md",
+  "index": 5,
+  "content": "## Feature limits\n\nThe ChatGPT implementation in n8n has the following limitations:\n\n* The AI writes code that manipulates data from the n8n workflow. You can't ask it to pull in data from other sources.\n* The AI doesn't know your data, just the schema, so you need to tell it things like how to find the data you want to extract, or how to check for null.\n* Nodes before the Code node must execute and deliver data to the Code node before you run your AI query.\n* Doesn't work with large incoming data schemas.\n* May have issues if there are a lot of nodes before the code node."
+}

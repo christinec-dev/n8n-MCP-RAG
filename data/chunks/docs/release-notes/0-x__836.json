@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 836,
+  "content": "## n8n@0.81.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.80.0...n8n@0.81.0) for this version.<br />\n**Release date:** 2020-09-09\n\n- New nodes\n- Sentry.io\n- Enhanced nodes\n- Asana\n- ClickUp\n- Clockify\n- Google Contacts\n- Salesforce\n- Segment\n- Telegram\n- Telegram Trigger"
+}

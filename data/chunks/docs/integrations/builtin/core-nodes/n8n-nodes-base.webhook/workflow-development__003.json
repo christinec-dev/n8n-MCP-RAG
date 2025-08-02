@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/workflow-development.md",
+  "index": 3,
+  "content": "## Build and test workflows\n\nWhile building or testing a workflow, use the **Test** webhook URL.\n\nUsing a test webhook ensures that you can view the incoming data in the editor UI, which is useful for debugging. Select **Listen for test event** to register the webhook before sending the data to the test webhook. The test webhook stays active for 120 seconds.\n\nWhen using the Webhook node on localhost on a [self-hosted](/hosting/index.md) n8n instance, run n8n in tunnel mode:\n\n* [npm with tunnel](/hosting/installation/npm.md#n8n-with-tunnel)\n* [Docker with tunnel](/hosting/installation/docker.md#n8n-with-tunnel)\n\n<video src=\"/_video/integrations/builtin/core-nodes/webhook/webhook-node-intro.mp4\" controls width=\"100%\"></video>"
+}

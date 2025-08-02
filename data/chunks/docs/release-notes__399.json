@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 399,
+  "content": "## n8n@1.17.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.16.0...n8n@1.17.0) for this version.<br />\n**Release date:** 2023-11-15\n\n\n\nThis release contains node enhancements and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Sticky Note Colors\n\nYou can now select background colors for sticky notes.\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Discord Node Overhaul\n\nAn overhaul of the Discord node, improving the UI making it easier to configure, improving error handling, and fixing issues.\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

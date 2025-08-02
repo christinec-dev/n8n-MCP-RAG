@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/splitting.md",
+  "index": 2,
+  "content": "# Splitting workflows with conditional nodes\n\nSplitting uses the [IF](/integrations/builtin/core-nodes/n8n-nodes-base.if.md) or [Switch](/integrations/builtin/core-nodes/n8n-nodes-base.switch.md) nodes. It turns a single-branch workflow into a multi-branch workflow. This is a key piece of representing complex logic in n8n.\n\nCompare these workflows:\n\n![\"Diagram representing two workflows. One has three steps and follows a linear process, with a user submitting a bug, and the workflow emailing a support team. The second workflow starts the same way, but then splits depending on whether the user marked the issue as urgent. It then splits again depending on the user's support plan\"](/_images/flow-logic/splitting/single-multi-branch-workflow.png)\n\nThis is the power of splitting and conditional nodes in n8n.\n\nRefer to the [IF](/integrations/builtin/core-nodes/n8n-nodes-base.if.md) or [Switch](/integrations/builtin/core-nodes/n8n-nodes-base.switch.md) documentation for usage details."
+}

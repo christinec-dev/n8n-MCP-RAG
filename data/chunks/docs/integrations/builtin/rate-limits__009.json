@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/rate-limits.md",
+  "index": 9,
+  "content": "### Paginate results\n\nAPIs paginate their results when they need to send more data than they can handle in a single response. For more information on pagination in the HTTP Request node, refer to [HTTP Request node | Pagination](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md#pagination)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparserautofixing.md",
+  "index": 2,
+  "content": "# Auto-fixing Output Parser node\n\nThe Auto-fixing Output Parser node wraps another output parser. If the first one fails, it calls out to another LLM to fix any errors.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

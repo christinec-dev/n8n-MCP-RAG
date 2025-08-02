@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/google-cloud.md",
+  "index": 9,
+  "content": "## Clone configuration repository\n\nKubernetes and n8n require a series of configuration files. You can clone these from [this repository](https://github.com/n8n-io/n8n-kubernetes-hosting/tree/gcp) locally. The following steps explain the file configuration and how to add your information.\n\nClone the repository with the following command:\n\n```shell\ngit clone https://github.com/n8n-io/n8n-kubernetes-hosting.git -b gcp\n```\n\nAnd change directory to the root of the repository you cloned:\n\n```shell\ncd n8n-kubernetes-hosting\n```"
+}

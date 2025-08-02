@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparserstructured/common-issues.md",
+  "index": 4,
+  "content": "## Adding the structured output parser node to AI nodes\n\nYou can attach output parser nodes to select [AI root nodes](/integrations/builtin/cluster-nodes/root-nodes/index.md).\n\nTo add the Structured Output Parser to a node, enable the **Require Specific Output Format** option in the AI root node you wish to format. Once the option is enabled, a new **output parser** attachment point is displayed. Click the **output parser** attachment point to add the Structured Output Parser node to the node."
+}

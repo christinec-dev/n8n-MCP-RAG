@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 541,
+  "content": "### Bug fixes\n\n\n* [Google BigQuery:](/integrations/builtin/app-nodes/n8n-nodes-base.googlebigquery.md) Fixed a bug preventing pagination from working as expected when the Return All option is enabled.\n* [RabbitMQ Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.rabbitmqtrigger.md) Added Trigger to the name of the trigger node.\n* [Salesforce:](/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md) Fixed a typo affecting the Type field of the Opportunity resource."
+}

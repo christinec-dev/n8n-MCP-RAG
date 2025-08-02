@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/merging.md",
+  "index": 3,
+  "content": "## Merge data from different data streams\n\nIf your workflow [splits](/flow-logic/splitting.md), you combine the separate streams back into one stream.\n\nHere's an [example workflow](https://n8n.io/workflows/1747-joining-different-datasets/) showing different types of merging: appending data sets, keeping only new items, and keeping only existing items. The [Merge node](/integrations/builtin/core-nodes/n8n-nodes-base.merge.md) documentation contains details on each of the merge operations.\n\n[[ workflowDemo(\"https://api.n8n.io/workflows/templates/1747\") ]]"
+}

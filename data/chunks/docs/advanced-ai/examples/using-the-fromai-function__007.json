@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/using-the-fromai-function.md",
+  "index": 7,
+  "content": "### Templates\n\nYou can see the `$fromAI()` function in action in the following [templates](/glossary.md#template-n8n):\n\n* [Angie, Personal AI Assistant with Telegram Voice and Text](https://n8n.io/workflows/2462-angie-personal-ai-assistant-with-telegram-voice-and-text/)\n* [Automate Customer Support Issue Resolution using AI Text Classifier](https://n8n.io/workflows/2468-automate-customer-support-issue-resolution-using-ai-text-classifier/)\n* [Scale Deal Flow with a Pitch Deck AI Vision, Chatbot and QDrant Vector Store](https://n8n.io/workflows/2464-scale-deal-flow-with-a-pitch-deck-ai-vision-chatbot-and-qdrant-vector-store/)"
+}

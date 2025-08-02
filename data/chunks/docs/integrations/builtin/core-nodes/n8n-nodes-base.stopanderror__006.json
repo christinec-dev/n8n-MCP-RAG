@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.stopanderror.md",
+  "index": 6,
+  "content": "### Error Object parameters\n\nThe Error Object Error Type adds one parameter, the **Error Object**. Enter a JSON object that contains the error properties you'd like to throw."
+}

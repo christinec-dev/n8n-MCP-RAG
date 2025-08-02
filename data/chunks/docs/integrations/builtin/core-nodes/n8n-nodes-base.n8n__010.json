@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md",
+  "index": 10,
+  "content": "## Get many executions\n\nConfigure this operation with these parameters:\n\n* **Return All**: Set whether to return all results (turned on) or whether to limit the results to the entered **Limit** (turned on).\n* **Limit**: Set the number of results to return if the **Return All** control is turned off."
+}

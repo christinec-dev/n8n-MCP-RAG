@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 13,
+  "content": "### Improved instance user list with more visibility\n\nThe instance user list has been updated with a new table layout and additional details to help admins manage access more easily.\n\nYou can now:\n\n- See total users and filter by name or email\n- View which projects each user has access to\n- Whether a user has enabled 2FA and sort based on that\n- See the last active date for each user\n\nThis makes it easier to audit user activity, identify inactive accounts, and understand how access is distributed across your instance.\n<br> \n<figure markdown=\"span\">\n    ![Improved instance user list with more visbility screenshot](/_images/release-notes/instance_user_list.png)\n</figure>\n<br>"
+}

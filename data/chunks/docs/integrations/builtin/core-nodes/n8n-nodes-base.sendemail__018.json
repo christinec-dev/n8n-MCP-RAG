@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sendemail.md",
+  "index": 18,
+  "content": "### Response Type\n\nYou can choose between the following types of waiting and approval actions:\n\n* **Approval**: Users can approve or disapprove from within the message.\n* **Free Text**: Users can submit a response with a form.\n* **Custom Form**: Users can submit a response with a custom form.\n\nDifferent options are available depending on which type you choose."
+}

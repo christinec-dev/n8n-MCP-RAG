@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 263,
+  "content": "### Node enhancements\n\n* Citrix ADC node: add Certificate Install operation.\n* Kafka node: add a **Use key** option for messages.\n* MySQL node: use the resource locator component for table parameters, making it easier for users to browse and select their database fields from within n8n."
+}

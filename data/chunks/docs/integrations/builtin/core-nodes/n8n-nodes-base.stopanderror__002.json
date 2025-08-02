@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.stopanderror.md",
+  "index": 2,
+  "content": "# Stop And Error\n\nUse the Stop And Error node to display custom error messages, cause executions to fail under certain conditions, and send custom error information to error workflows."
+}

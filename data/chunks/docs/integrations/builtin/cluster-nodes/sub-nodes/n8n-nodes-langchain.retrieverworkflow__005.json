@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.retrieverworkflow.md",
+  "index": 5,
+  "content": "### Workflow values\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-sub-nodes/workflow-values.md\""
+}

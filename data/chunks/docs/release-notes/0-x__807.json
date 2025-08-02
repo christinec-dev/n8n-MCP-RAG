@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 807,
+  "content": "## n8n@0.97.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.96.0...n8n@0.97.0) for this version.<br />\n**Release date:** 2020-12-10\n\n- New nodes\n- Ghost\n- NASA\n- Snowflake\n- Twist\n- Enhanced nodes\n- Automizy: Added options to add and remove tabs for the Update operation of the Contact resource\n- Pipedrive: Added label field to Person, Organization, and Deal resources. Also added Update operation for the Organization resource\n- Bug fixes\n- Fixed a bug that caused OAuth1 requests to break\n- Fixed Docker user mount path"
+}

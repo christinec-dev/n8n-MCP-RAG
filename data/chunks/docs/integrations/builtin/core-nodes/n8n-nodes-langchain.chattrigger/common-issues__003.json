@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/common-issues.md",
+  "index": 3,
+  "content": "## Pass data from a website to an embedded Chat Trigger node\n\nWhen [embedding](https://www.npmjs.com/package/@n8n/chat) the Chat Trigger node in a website, you might want to pass extra information to the Chat Trigger. For example, passing a user ID stored in a site cookie.\n\nTo do this, use the `metadata` field in the JSON object you pass to the `createChat` function in your embedded chat window:\n\n```javascript\ncreateChat({\n\twebhookUrl: 'YOUR_PRODUCTION_WEBHOOK_URL',\n\tmetadata: {\n\t\t'YOUR_KEY': 'YOUR_DATA'\n\t};\n});\n```\n\nThe `metadata` field can contain arbitrary data that will appear in the Chat Trigger output alongside other output data. From there, you can query and process the data from downstream nodes as usual using\tn8n's [data processing features](/data/index.md)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.cloudflare.md",
+  "index": 3,
+  "content": "## Operations\n\n* Zone Certificate\n\t* Delete\n\t* Get\n\t* Get Many\n\t* Upload"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/cli-commands.md",
+  "index": 11,
+  "content": "### Credentials\n\nImport credentials from a specific file:\n\n```bash\nn8n import:credentials --input=file.json\n```\n\nImport all the credentials files as JSON from the specified directory:\n\n```bash\nn8n import:credentials --separate --input=backups/latest/\n```"
+}

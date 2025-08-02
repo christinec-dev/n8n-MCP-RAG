@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.jiratrigger.md",
+  "index": 2,
+  "content": "# Jira Trigger node\n\n[Jira](https://www.atlassian.com/software/jira) is a proprietary issue tracking product developed by Atlassian that allows bug tracking and agile project management.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/jira.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Jira trigger integrations](https://n8n.io/integrations/jira-trigger/) page.\n///"
+}

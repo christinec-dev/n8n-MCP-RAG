@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/looping.md",
+  "index": 5,
+  "content": "## Creating loops\n\nn8n typically handles the iteration for all incoming items. However, there are certain scenarios where you will have to create a loop to iterate through all items. Refer to [Node exceptions](#node-exceptions) for a list of nodes that don't automatically iterate over all incoming items."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/file-operations.md",
+  "index": 8,
+  "content": "### Options\n\n- **Delete Permanently**: Choose whether to delete the file now instead of moving it to the trash.\n\nRefer to the [Method: files.delete | Google Drive](https://developers.google.com/drive/api/reference/rest/v2/files/delete) API documentation for more information."
+}

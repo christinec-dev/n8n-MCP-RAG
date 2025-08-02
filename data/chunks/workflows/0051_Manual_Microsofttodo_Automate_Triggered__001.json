@@ -1,0 +1,14 @@
+{
+  "source": "0051_Manual_Microsofttodo_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        200\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Microsoft To Do\",\n      \"type\": \"n8n-nodes-base.microsoftToDo\",\n      \"position\": [\n        450,\n        200\n      ],\n      \"parameters\": {\n        \"title\": \"Document Microsoft To Do node\",\n        \"operation\": \"create\",\n        \"taskListId\": \"AQMkADAwATNiZmYAZC0zOTkAMy02ZWZjLTAwAi0wMAoALgAAA3i1fHMTrftIhQBzhywL64UBAFB0wRiJW1FJmmlvlAkVFQA-AAACARIAAAA=\",\n        \"additionalFields\": {\n          \"importance\": \"high\"\n        }\n      },\n      \"credentials\": {\n        \"microsoftToDoOAuth2Api\": \"Microsoft OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Microsoft To Do1\",\n      \"type\": \"n8n-nodes-base.microsoftToDo\",\n      \"position\": [\n        650,\n        200\n      ],\n      \"parameters\": {\n        \"taskId\": \"={{$json[\\\"id\\\"]}}\",\n        \"operation\": \"update\",\n        \"taskListId\": \"={{$node[\\\"Microsoft To Do\\\"].parameter[\\\"taskListId\\\"]}}\",\n        \"updateFields\": {\n          \"status\": \"inProgress\"\n        }\n      },\n      \"credentials\": {\n        \"microsoftToDoOAuth2Api\": \"Microsoft OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Microsoft To Do2\",\n      \"type\": \"n8n-nodes-base.microsoftToDo\",\n      \"position\": [\n        850,\n        200\n      ],\n      \"parameters\": {\n        \"taskId\": \"={{$json[\\\"id\\\"]}}\",\n        \"taskListId\": \"={{$node[\\\"Microsoft To Do\\\"].parameter[\\\"taskListId\\\"]}}\"\n      },\n      \"credentials\": {\n        \"microsoftToDoOAuth2Api\": \"Microsoft OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Microsoft To Do\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Microsoft To Do1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Microsoft To Do1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Microsoft To Do2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Microsoft To Do\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.microsoftToDo",
+      "n8n-nodes-base.microsoftToDo",
+      "n8n-nodes-base.microsoftToDo"
+    ],
+    "trigger": null
+  }
+}

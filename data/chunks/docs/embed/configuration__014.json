@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/configuration.md",
+  "index": 14,
+  "content": "### Frontend hook files\n\nFrontend external hook files are regular JavaScript files which have the following format:\n\n```js\nwindow.n8nExternalHooks = {\n  nodeView: {\n    mount: [\n      function (store, meta) {\n        // do something\n      },\n    ],\n    createNodeActiveChanged: [\n      function (store, meta) {\n        // do something\n      },\n      function (store, meta) {\n        // do something else\n      },\n    ],\n    addNodeButton: [\n      function (store, meta) {\n        // do something\n      },\n    ],\n  },\n};\n```"
+}

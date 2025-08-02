@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md",
+  "index": 12,
+  "content": "### Get many execution options\n\nYou can further configure this operation with this **Option**:\n\n* **Include Execution Details**: Use this control to set whether to include the detailed execution data (turned on) or not (turned off)."
+}

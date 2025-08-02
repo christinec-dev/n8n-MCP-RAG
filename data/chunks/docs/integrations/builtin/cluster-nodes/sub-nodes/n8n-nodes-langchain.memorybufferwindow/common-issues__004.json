@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorybufferwindow/common-issues.md",
+  "index": 4,
+  "content": "## Managing the Session ID\n\nIn most cases, the `sessionId` is automatically retrieved from the **On Chat Message** trigger. But you may run into an error with the phrase `No sessionId`.\n\nIf you have this error, first check the output of your Chat trigger to ensure it includes a `sessionId`.\n\nIf you're not using the **On Chat Message** trigger, you'll need to manage sessions manually.\n\nFor testing purposes, you can use a static key like `my_test_session`. If you use this approach, be sure to set up proper session management before activating the workflow to avoid potential issues in a live environment."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 401,
+  "content": "### Bug fixes\n\n* **core**: a fix for filtering the executions list by waiting status.\n* **core**: improved webhook error messages.\n* [Edit Image node](/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md): node now works correctly with the binary-data-mode 'filesystem'."
+}

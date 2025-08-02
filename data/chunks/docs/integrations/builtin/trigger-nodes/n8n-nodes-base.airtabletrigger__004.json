@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.airtabletrigger.md",
+  "index": 4,
+  "content": "## Related resources\n\nn8n provides an app node for Airtable. You can find the node docs [here](/integrations/builtin/app-nodes/n8n-nodes-base.airtable/index.md).\n\nView [example workflows and related content](https://n8n.io/integrations/airtable-trigger/) on n8n's website.\n\nRefer to [Airtable's documentation](https://airtable.com/developers/web/api/introduction) for details about their API."
+}

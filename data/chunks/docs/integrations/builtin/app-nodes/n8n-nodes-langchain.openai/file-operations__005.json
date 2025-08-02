@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/file-operations.md",
+  "index": 5,
+  "content": "### Options\n\n- **Purpose**: Use this to only return files with the given purpose. Use **Assistants** to return only files related to Assistants and Message operations. Use **Fine-Tune** for files related to [Fine-tuning](https://platform.openai.com/docs/api-reference/fine-tuning).\n\nRefer to [List files | OpenAI](https://platform.openai.com/docs/api-reference/files/list) documentation for more information."
+}

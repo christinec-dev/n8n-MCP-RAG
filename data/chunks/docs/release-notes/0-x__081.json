@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 81,
+  "content": "### New nodes\n\nThis release introduces the [Filter](/integrations/builtin/core-nodes/n8n-nodes-base.filter.md) node. The node allows you to filter items based on a condition. If the item meets the condition, the Filter node passes it on to the next node in the Filter node output. If the item doesn't meet the condition, the Filter node omits the item from its output."
+}

@@ -1,0 +1,12 @@
+{
+  "source": "1068_GitHub_Slack_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"5ec2322573f7590007802e1f\",\n  \"name\": \"Extranet Releases\",\n  \"nodes\": [\n    {\n      \"name\": \"Slack\",\n      \"type\": \"n8n-nodes-base.slack\",\n      \"position\": [\n        560,\n        550\n      ],\n      \"parameters\": {\n        \"text\": \"=New release is available in {{$node[\\\"Github Trigger\\\"].json[\\\"body\\\"][\\\"repository\\\"][\\\"full_name\\\"]}} !\\n{{$node[\\\"Github Trigger\\\"].json[\\\"body\\\"][\\\"release\\\"][\\\"tag_name\\\"]}} Details:\\n{{$node[\\\"Github Trigger\\\"].json[\\\"body\\\"][\\\"release\\\"][\\\"body\\\"]}}\\n\\nLink: {{$node[\\\"Github Trigger\\\"].json[\\\"body\\\"][\\\"release\\\"][\\\"html_url\\\"]}}\",\n        \"as_user\": true,\n        \"channel\": \"extranet-md\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"slackApi\": \"Extranet-md\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Github Trigger\",\n      \"type\": \"n8n-nodes-base.githubTrigger\",\n      \"position\": [\n        350,\n        550\n      ],\n      \"parameters\": {\n        \"owner\": \"Mesdocteurs\",\n        \"events\": [\n          \"release\"\n        ],\n        \"repository\": \"mda-admin-partner-api\"\n      },\n      \"credentials\": {\n        \"githubApi\": \"Github API\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": true,\n  \"settings\": {},\n  \"connections\": {\n    \"Github Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Slack\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.slack",
+      "n8n-nodes-base.githubTrigger"
+    ],
+    "trigger": "github trigger"
+  }
+}

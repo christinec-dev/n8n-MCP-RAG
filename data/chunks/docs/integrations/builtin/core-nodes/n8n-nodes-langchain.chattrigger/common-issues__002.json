@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/common-issues.md",
+  "index": 2,
+  "content": "# Chat Trigger node common issues\n\nHere are some common errors and issues with the [Chat Trigger node](/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md) and steps to resolve or troubleshoot them."
+}

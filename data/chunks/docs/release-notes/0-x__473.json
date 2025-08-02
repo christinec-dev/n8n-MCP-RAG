@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 473,
+  "content": "### Core Functionality\n\n- Added new database indices to improve the performance when querying past executions.\n- Fixed a bug causing the base portion of a URL not to be prepended as expected in some scenarios.\n- Fixed a bug cuasing expressions to resolve incorrectly when referencing non-existent nodes or parameters."
+}

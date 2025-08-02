@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 94,
+  "content": "### MCP Client Tool\nThe MCP Client Tool node is a MCP client, allowing you to use the tools exposed by an external MCP server. You can connect the MCP Client Tool node to your models to call external tools with n8n agents. In this regard it is similar to using a n8n tool with your AI agent. One advantage is that the MCP Client Tool can access multiple tools on the MCP server at once, keeping your canvas cleaner and easier to understand. \n\n<figure markdown=\"span\">\n    ![MCP Client Tool](/_images/release-notes/MCP-Client-Tool.png)\n    <figcaption>MCP Client Tools</figcaption>\n</figure>\n\n[Explore the MCP Client Tool docs](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp.md)\n\n</div>"
+}

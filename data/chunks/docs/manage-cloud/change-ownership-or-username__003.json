@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/change-ownership-or-username.md",
+  "index": 3,
+  "content": "## Change instance username\n\nIt's not currently possible to change usernames.\n\nIf you want your instance to have a different name you will need to create a new account and transfer your work into it. [The import/export documentation](https://docs.n8n.io/workflows/export-import/) explains how you can transfer your work to a new n8n instance."
+}

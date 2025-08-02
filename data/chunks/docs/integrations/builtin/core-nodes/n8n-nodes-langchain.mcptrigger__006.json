@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger.md",
+  "index": 6,
+  "content": "### Authentication\n\nYou can require authentication for clients connecting to your MCP URL. Choose from these authentication methods:\n\n- Bearer auth\n- Header auth\n\nRefer to the [HTTP request credentials](/integrations/builtin/credentials/httprequest.md) for more information on setting up each credential type."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreweaviate.md",
+  "index": 11,
+  "content": "### Retrieve Documents (As Vector Store for Chain/Tool) parameters\n\n* **Weaviate Collection**: Enter the name of the Weaviate collection to use."
+}

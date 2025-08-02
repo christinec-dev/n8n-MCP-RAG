@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.segment.md",
+  "index": 3,
+  "content": "## Operations\n\n* Group\n    * Add a user to a group\n* Identify\n    * Create an identity\n* Track\n    * Record the actions your users perform. Every action triggers an event, which can also have associated properties.\n    * Record page views on your website, along with optional extra information about the page being viewed."
+}

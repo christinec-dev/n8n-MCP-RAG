@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 14,
+  "content": "### Rotate parameters\n\n* **Property Name**: Enter the name of the binary property that stores the image data.\n* **Rotate**: Enter the number of degrees to rotate the image, from --360 to 360.\n* **Background Color**: Set the background color for the image. You can either enter a hex or select the color swatch to open a color picker. This color is used to fill in the empty background whenever the image is rotated by multiples of 90 degrees. If multipled of 90 degrees are used for the **Rotate** field, the background color isn't used.\n\nRefer to [Node options](#node-options) for optional configuration options."
+}

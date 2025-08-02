@@ -1,0 +1,13 @@
+{
+  "source": "1128_Manual_HTTP_Automation_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"77\",\n  \"name\": \"Extract information from an image of a receipt\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        340\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mindee\",\n      \"type\": \"n8n-nodes-base.mindee\",\n      \"position\": [\n        650,\n        340\n      ],\n      \"parameters\": {},\n      \"credentials\": {\n        \"mindeeReceiptApi\": \"mindee\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        450,\n        340\n      ],\n      \"parameters\": {\n        \"url\": \"https://miro.medium.com/max/1400/0*1T9GkAb93w5NSMsf\",\n        \"options\": {},\n        \"responseFormat\": \"file\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"HTTP Request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mindee\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.mindee",
+      "n8n-nodes-base.httpRequest"
+    ],
+    "trigger": null
+  }
+}

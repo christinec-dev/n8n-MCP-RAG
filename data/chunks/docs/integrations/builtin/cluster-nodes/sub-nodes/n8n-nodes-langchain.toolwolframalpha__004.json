@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolwolframalpha.md",
+  "index": 4,
+  "content": "## Related resources\n\nRefer to [Wolfram|Alpha's documentation](https://products.wolframalpha.com/api) for more information about the service. You can also view [LangChain's documentation on their WolframAlpha Tool](https://js.langchain.com/docs/integrations/tools/wolframalpha/).\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-overview-link.md\"\n\n--8<-- \"_glossary/ai-glossary.md\""
+}

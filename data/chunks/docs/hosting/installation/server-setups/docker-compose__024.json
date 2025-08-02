@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 24,
+  "content": "## 8. Done\n\nYou can now reach n8n using the subdomain + domain combination you defined in your `.env` file configuration. The above example would result in `https://n8n.example.com`.\n\nn8n is only accessible using secure HTTPS, not over plain HTTP."
+}

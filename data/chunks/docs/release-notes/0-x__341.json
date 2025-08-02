@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 341,
+  "content": "### Node enhancements\n\n* [ERPNext node](/integrations/builtin/app-nodes/n8n-nodes-base.erpnext.md): add credential tests, and add support for unauthorized certs.\n* [Google Drive node](/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/index.md): add support for move to trash.\n* [Mindee node](/integrations/builtin/app-nodes/n8n-nodes-base.mindee.md): support new version.\n* [Notion node](/integrations/builtin/app-nodes/n8n-nodes-base.notion/index.md): support ignoring the Notion URL property if empty.\n* [Shopify node](/integrations/builtin/app-nodes/n8n-nodes-base.shopify.md): add OAuth support."
+}

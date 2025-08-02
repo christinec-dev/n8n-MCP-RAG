@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/cloud-admin-dashboard.md",
+  "index": 4,
+  "content": "## Access the dashboard if the app is offline\n\nIf your instance is down, you can still access the admin dashboard. When you log in to the app, n8n will ask you if you want a magic link to access your dashboard. Select **Send magic link**, then check your email for the link."
+}

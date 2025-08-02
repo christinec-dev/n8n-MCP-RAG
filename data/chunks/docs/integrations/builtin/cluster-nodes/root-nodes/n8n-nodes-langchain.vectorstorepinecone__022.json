@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorepinecone.md",
+  "index": 22,
+  "content": "### Find your Pinecone index and namespace\n\nYour Pinecone index and namespace are available in your Pinecone account.\n\n![Screenshot of a Pinecone account, with the Pinecone index labelled](/_images/integrations/builtin/cluster-nodes/vectorstorepinecone/pinecone-index-namespace.png)\n--8<-- \"_glossary/ai-glossary.md\""
+}

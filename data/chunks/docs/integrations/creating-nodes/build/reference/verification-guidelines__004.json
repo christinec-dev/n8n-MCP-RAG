@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/verification-guidelines.md",
+  "index": 4,
+  "content": "## No external dependencies\n\n* Ensure that your package does **not** include any external dependencies to keep it lightweight and easy to maintain."
+}

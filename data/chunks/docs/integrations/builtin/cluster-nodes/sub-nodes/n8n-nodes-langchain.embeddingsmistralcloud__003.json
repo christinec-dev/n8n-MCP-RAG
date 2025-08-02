@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsmistralcloud.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Model**: Select the model to use to generate the embedding.\n\nLearn more about available models in [Mistral's models documentation](https://docs.mistral.ai/platform/pricing/)."
+}

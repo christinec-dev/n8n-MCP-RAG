@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 17,
+  "content": "### Transparent parameters\n\n* **Property Name**: Enter the name of the binary property that stores the image data.\n* **Color**: Set the color to make transparent. You can either enter a hex or select the color swatch to open a color picker.\n\nRefer to [Node options](#node-options) for optional configuration options."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md",
+  "index": 9,
+  "content": "## File locations\n\nIf you run n8n in Docker, your command runs in the n8n container and not the Docker host.\n\nThis node looks for files relative to the n8n install path. n8n recommends using absolute file paths to prevent any errors."
+}

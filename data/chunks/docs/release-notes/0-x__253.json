@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 253,
+  "content": "### Node enhancements\n\n* HubSpot node: you can now use your HubSpot credentials in the HTTP Request node to make a [custom API call](/integrations/custom-operations.md).\n* Rundeck node: you can now use your Rundeck credentials in the HTTP Request node to make a [custom API call](/integrations/custom-operations.md)."
+}

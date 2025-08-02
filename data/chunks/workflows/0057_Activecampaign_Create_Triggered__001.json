@@ -1,0 +1,11 @@
+{
+  "source": "0057_Activecampaign_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"112\",\n  \"name\": \"Receive updates when a new account is added by an admin in ActiveCampaign\",\n  \"nodes\": [\n    {\n      \"name\": \"ActiveCampaign Trigger\",\n      \"type\": \"n8n-nodes-base.activeCampaignTrigger\",\n      \"position\": [\n        700,\n        250\n      ],\n      \"parameters\": {\n        \"events\": [\n          \"account_add\"\n        ],\n        \"sources\": [\n          \"admin\"\n        ]\n      },\n      \"credentials\": {\n        \"activeCampaignApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.activeCampaignTrigger"
+    ],
+    "trigger": "activecampaign trigger"
+  }
+}

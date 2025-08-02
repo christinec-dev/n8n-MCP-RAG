@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.crowddev.md",
+  "index": 3,
+  "content": "## Operations\n\n* Activity\n\t* Create or Update with a Member\n\t* Create\n* Automation\n\t* Create\n\t* Destroy\n\t* Find\n\t* List\n\t* Update\n* Member\n\t* Create or Update\n\t* Delete\n\t* Find\n\t* Update\n* Note\n\t* Create\n\t* Delete\n\t* Find\n\t* Update\n* Organization\n\t* Create\n\t* Delete\n\t* Find\n\t* Update\n* Task\n\t* Create\n\t* Delete\n\t* Find\n\t* Update"
+}

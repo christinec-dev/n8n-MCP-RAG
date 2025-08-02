@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/sheet-operations.md",
+  "index": 8,
+  "content": "## Create a new sheet\n\nUse this operation to create a new sheet. \n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [Google Sheets credentials](/integrations/builtin/credentials/google/index.md).\n- **Resource**: Select **Sheet Within Document**.\n- **Operation**: Select **Create**.\n- **Document**: Choose a spreadsheet in which you want to create a new sheet. \n    - Select **From list** to choose the spreadsheet title from the dropdown list, **By URL** to enter the url of the spreadsheet, or **By ID** to enter the `spreadsheetId`. \n    - You can find the `spreadsheetId` in a Google Sheets URL: `https://docs.google.com/spreadsheets/d/spreadsheetId/edit#gid=0`.\n- **Title**: Enter the title for your new sheet."
+}

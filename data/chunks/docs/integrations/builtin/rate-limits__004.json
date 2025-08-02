@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/rate-limits.md",
+  "index": 4,
+  "content": "## Handle rate limits for integrations\n\nThere are two ways to handle rate limits in n8n's integrations: using the Retry On Fail setting, or using a combination of the [Loop Over Items](/integrations/builtin/core-nodes/n8n-nodes-base.splitinbatches.md) and [Wait](/integrations/builtin/core-nodes/n8n-nodes-base.wait.md) nodes: \n\n* Retry On Fail adds a pause between API request attempts.\n* With Loop Over Items and Wait you can break you request data into smaller chunks, as well as pausing between requests."
+}

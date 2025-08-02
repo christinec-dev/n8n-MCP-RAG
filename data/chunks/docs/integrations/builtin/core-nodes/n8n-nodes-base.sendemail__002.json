@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sendemail.md",
+  "index": 2,
+  "content": "# Send Email\n\nThe Send Email node sends emails using an SMTP email server.\n\n/// note | Credential\nYou can find authentication information for this node [here](/integrations/builtin/credentials/sendemail/index.md).\n///"
+}

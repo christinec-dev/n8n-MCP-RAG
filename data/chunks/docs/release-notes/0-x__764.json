@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 764,
+  "content": "### Bug fixes\n\n* [Google Sheets:](/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/index.md) Fixed an issue with the Lookup operation for returning multiple empty rows\n* [Intercom:](/integrations/builtin/app-nodes/n8n-nodes-base.intercom.md) Fixed an issue with the User operation in the Company resource\n* [Mautic:](/integrations/builtin/app-nodes/n8n-nodes-base.mautic.md) Fixed an issue with sending the lastActive parameter"
+}

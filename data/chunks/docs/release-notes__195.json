@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 195,
+  "content": "### Node updates\n- We added credential support for [Zabbix](/integrations/builtin/credentials/zabbix.md) to the HTTP request node  \n- We added new OAuth2 credentials for [Microsoft SharePoint](/integrations/builtin/credentials/microsoft.md)\n- The [Slack node](/integrations/builtin/app-nodes/n8n-nodes-base.slack.md#operations) now uses markdown for the approval message when using the `Send and Wait for Approval` operation"
+}

@@ -1,0 +1,12 @@
+{
+  "source": "1000_Manual_Travisci_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"52\",\n  \"name\": \"Trigger a build using the TravisCI node\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        510,\n        350\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"TravisCI\",\n      \"type\": \"n8n-nodes-base.travisCi\",\n      \"position\": [\n        710,\n        350\n      ],\n      \"parameters\": {\n        \"slug\": \"\",\n        \"branch\": \"\",\n        \"operation\": \"trigger\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"travisCiApi\": \"travisCI\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"TravisCI\": {\n      \"main\": [\n        []\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"TravisCI\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.travisCi"
+    ],
+    "trigger": null
+  }
+}

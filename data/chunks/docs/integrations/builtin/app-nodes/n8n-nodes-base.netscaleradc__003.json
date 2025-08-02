@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.netscaleradc.md",
+  "index": 3,
+  "content": "## Operations\n\n* Certificate\n\t* Create\n\t* Install\n* File\n\t* Delete\n\t* Download\n\t* Upload"
+}

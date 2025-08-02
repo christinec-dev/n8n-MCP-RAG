@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.splitout.md",
+  "index": 9,
+  "content": "### Include Binary\n\nChoose whether to include binary data from the input in the new output (turned on) or not (turned off)."
+}

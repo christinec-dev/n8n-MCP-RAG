@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-methods.md",
+  "index": 7,
+  "content": "### npm\n\nSet the path to the JSON configuration file using the environment variable `N8N_CONFIG_FILES`:\n\n```shell"
+}

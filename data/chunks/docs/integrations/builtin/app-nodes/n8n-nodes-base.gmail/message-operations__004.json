@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/message-operations.md",
+  "index": 4,
+  "content": "## Delete a message\n\nUse this operation to immediately and permanently delete a message.\n\n/// note | Permanent deletion\nThis operation can't be undone. For recoverable deletions, use the [Thread Trash operation](/integrations/builtin/app-nodes/n8n-nodes-base.gmail/thread-operations.md#trash-a-thread) instead.\n///\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Message**.\n* **Operation**: Select **Delete**.\n* **Message ID**: Enter the ID of the message you want to delete.\n\nRefer to the [Gmail API Method: users.messages.delete](https://developers.google.com/gmail/api/reference/rest/v1/users.messages/delete) documentation for more information."
+}

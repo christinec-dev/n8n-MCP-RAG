@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 521,
+  "content": "### Enhanced nodes\n\n\n* [GitLab Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.gitlabtrigger.md) Added new trigger events: Confidential Issue, Confidential Comment, Deployment, Release.\n* [Google Drive:](/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/index.md) Added support for downloading and converting native Google files.\n* [Kitemaker:](/integrations/builtin/app-nodes/n8n-nodes-base.kitemaker.md) Added Space ID field to Create operation of Work Item resource.\n* [Raindrop:](/integrations/builtin/app-nodes/n8n-nodes-base.raindrop.md) Added Parse Metadata option to Create, Update operations of the Bookmark resource."
+}

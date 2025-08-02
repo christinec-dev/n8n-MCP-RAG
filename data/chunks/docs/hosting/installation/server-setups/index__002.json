@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/index.md",
+  "index": 2,
+  "content": "# Server setups\n\nSelf-host with Docker Compose:\n\n* [Digital Ocean](/hosting/installation/server-setups/digital-ocean.md)\n* [Heroku](/hosting/installation/server-setups/heroku.md)\n* [Hetzner Cloud](/hosting/installation/server-setups/hetzner.md)\n\nStarting points for a Kubernetes setup:\n\n* [AWS](/hosting/installation/server-setups/aws.md)\n* [Azure](/hosting/installation/server-setups/azure.md)\n* [Google Cloud Platform](/hosting/installation/server-setups/google-cloud.md)\n\nConfiguration guides to help you get started on other platforms:\n\n* [Docker Compose](/hosting/installation/server-setups/docker-compose.md)"
+}

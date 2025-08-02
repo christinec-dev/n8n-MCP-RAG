@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 92,
+  "content": "### Bug fixes\n\n* Core: ensure n8n calls available error workflows in main mode recovery.\n* Core: fix telemetry execution status for manual workflows executions.\n* Core: return SAML attributes after connection test.\n* Editor: disable mapping tooltip for display modes that don't support mapping.\n* Editor: fix execution list item selection.\n* Editor: fix for large notifications being cut off.\n* Editor: fix redo in code and expression editor.\n* Editor: fix the canvas node distance when automatically injecting manual trigger.\n* HTTP Request Node: fix AWS credentials to automatically deconstruct the URL.\n* Split In Batches Node: roll back changes in v1 and create v2."
+}

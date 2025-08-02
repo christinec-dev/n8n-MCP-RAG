@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.salesforcetrigger.md",
+  "index": 2,
+  "content": "# Salesforce Trigger node\n\nUse the Salesforce Trigger node to respond to events in [Salesforce](https://login.salesforce.com/) and integrate Salesforce with other applications. n8n has built-in support for a wide range of Salesforce events.\n\nOn this page, you'll find a list of events the Salesforce Trigger node can respond to, and links to more resources.\n\n///  note  | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/salesforce.md).\n///\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Salesforce trigger integrations](https://n8n.io/integrations/salesforce-trigger/) page.\n///"
+}

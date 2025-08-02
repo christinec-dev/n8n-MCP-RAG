@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/document-operations.md",
+  "index": 5,
+  "content": "## Delete a spreadsheet\n\nUse this operation to delete an existing spreadsheet.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [Google Sheets credentials](/integrations/builtin/credentials/google/index.md).\n- **Resource**: Select **Document**.\n- **Operation**: Select **Delete**.\n- **Document**: Choose a spreadsheet you want to delete. \n    - Select **From list** to choose the title from the dropdown list, **By URL** to enter the url of the spreadsheet, or **By ID** to enter the `spreadsheetId`. \n    - You can find the `spreadsheetId` in a Google Sheets URL: `https://docs.google.com/spreadsheets/d/spreadsheetId/edit#gid=0`.\n\nRefer to the [Method: files.delete | Google Drive](https://developers.google.com/drive/api/reference/rest/v2/files/delete) API documentation for more information."
+}

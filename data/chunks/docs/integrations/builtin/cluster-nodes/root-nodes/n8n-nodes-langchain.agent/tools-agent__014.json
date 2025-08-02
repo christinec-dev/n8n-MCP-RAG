@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/tools-agent.md",
+  "index": 14,
+  "content": "### Automatically Passthrough Binary Images\n<!-- vale on -->\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-root-nodes/binary-images.md\""
+}

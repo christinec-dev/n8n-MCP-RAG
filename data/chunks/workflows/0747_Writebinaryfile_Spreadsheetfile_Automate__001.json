@@ -1,0 +1,13 @@
+{
+  "source": "0747_Writebinaryfile_Spreadsheetfile_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Run Query\",\n      \"type\": \"n8n-nodes-base.postgres\",\n      \"position\": [\n        450,\n        450\n      ],\n      \"parameters\": {\n        \"query\": \"SELECT name, ean FROM product\",\n        \"operation\": \"executeQuery\"\n      },\n      \"credentials\": {\n        \"postgres\": \"postgres\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Spreadsheet File\",\n      \"type\": \"n8n-nodes-base.spreadsheetFile\",\n      \"position\": [\n        600,\n        450\n      ],\n      \"parameters\": {\n        \"operation\": \"toFile\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Write Binary File\",\n      \"type\": \"n8n-nodes-base.writeBinaryFile\",\n      \"position\": [\n        750,\n        450\n      ],\n      \"parameters\": {\n        \"fileName\": \"spreadsheet.xls\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Run Query\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Spreadsheet File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Spreadsheet File\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Write Binary File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.postgres",
+      "n8n-nodes-base.spreadsheetFile",
+      "n8n-nodes-base.writeBinaryFile"
+    ],
+    "trigger": null
+  }
+}

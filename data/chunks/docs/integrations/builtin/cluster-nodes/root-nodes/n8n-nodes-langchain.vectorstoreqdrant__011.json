@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreqdrant.md",
+  "index": 11,
+  "content": "### Insert Documents parameters\n\n* **Qdrant collection name**: Enter the name of the Qdrant collection to use.\n\nThis Operation Mode includes one **Node option**:\n\n* **Collection Config**: Enter JSON options for creating a Qdrant collection creation configuration. Refer to the Qdrant [Collections](https://qdrant.tech/documentation/concepts/collections/) documentation for more information."
+}

@@ -1,0 +1,14 @@
+{
+  "source": "0019_Manual_Uproc_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"103\",\n  \"name\": \"verify email\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        440,\n        510\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Create Email Item\",\n      \"type\": \"n8n-nodes-base.functionItem\",\n      \"position\": [\n        640,\n        510\n      ],\n      \"parameters\": {\n        \"functionCode\": \"item.email = \\\"mcolomer@gmail.com\\\";\\nreturn item;\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Check Email Exists\",\n      \"type\": \"n8n-nodes-base.uproc\",\n      \"position\": [\n        850,\n        510\n      ],\n      \"parameters\": {\n        \"tool\": \"checkEmailExists\",\n        \"email\": \"={{$node[\\\"Create Email Item\\\"].json[\\\"email\\\"]}}\",\n        \"additionalOptions\": {}\n      },\n      \"credentials\": {\n        \"uprocApi\": \"miquel-uproc\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Email Exists?\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        1050,\n        510\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"string\": [\n            {\n              \"value1\": \"={{$node[\\\"Check Email Exists\\\"].json[\\\"message\\\"][\\\"response\\\"]}}\",\n              \"value2\": \"deliverable\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Create Email Item\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Check Email Exists\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Check Email Exists\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Email Exists?\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Create Email Item\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.functionItem",
+      "n8n-nodes-base.uproc",
+      "n8n-nodes-base.if"
+    ],
+    "trigger": null
+  }
+}

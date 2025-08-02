@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 9,
+  "content": "### Sorting options\n\n* You can enhance certain \"Get Many\" operations by providing users with sorting options.\n* Add sorting in a dedicated collection (below the \"Options\" collection). Follow the example of [Airtable Record:Search](https://github.com/n8n-io/n8n/blob/92e2a8e61a4189025e5d4bac8be81576b624fe85/packages/nodes-base/nodes/Airtable/v2/actions/record/search.operation.ts#L85-L135)."
+}

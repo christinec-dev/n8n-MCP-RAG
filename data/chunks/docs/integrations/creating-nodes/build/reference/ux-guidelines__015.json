@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 15,
+  "content": "### Terminology\n\n* **Use the third-party service terminology:** Try to use the same terminology as the service you're interfacing with (for example, Notion 'blocks', not Notion 'paragraphs').\n* **Use the terminology used in the UI:** Stick to the terminology used in the user interface of the service, rather than that used in the APIs or technical documentation (for example, in Trello you \"archive\" cards, but in the API they show up as \"closed\". In this case, you might want to use \"archive\").\n* **No tech jargon:** Don't use technical jargon where simple words will do. For example, use \"field\" instead of \"key\".\n* **Consistent naming:** Choose one term for something and stick to it. For example, don't mix \"directory\" and \"folder\"."
+}

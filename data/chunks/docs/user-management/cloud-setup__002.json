@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/cloud-setup.md",
+  "index": 2,
+  "content": "# Set up user management on n8n Cloud\n\nTo access user management, upgrade to version 0.195.0 or newer.\n\n/// warning | Irreversible upgrade\nOnce you upgrade your Cloud instance to an n8n version with user management, you can't downgrade your version.\n///"
+}

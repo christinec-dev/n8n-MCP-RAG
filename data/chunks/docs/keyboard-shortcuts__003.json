@@ -1,0 +1,5 @@
+{
+  "source": "docs/keyboard-shortcuts.md",
+  "index": 3,
+  "content": "## Workflow controls\n \n - **Ctrl** + **Alt** + **n**: create new workflow\n - **Ctrl** + **o**: open workflow\n - **Ctrl** + **s**: save the current workflow \n - **Ctrl** + **z**: undo\n - **Ctrl** + **shift** + **z**: redo\n - **Ctrl** + **Enter**: execute workflow"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.coda.md",
+  "index": 3,
+  "content": "## Operations\n\n* Control\n    * Get a control\n    * Get all controls\n* Formula\n    * Get a formula\n    * Get all formulas\n* Table\n    * Create/Insert a row\n    * Delete one or multiple rows\n    * Get all columns\n    * Get all the rows\n    * Get a column\n    * Get a row\n    * Pushes a button\n* View\n    * Delete view row\n    * Get a view\n    * Get all views\n    * Get all views columns\n    * Get all views rows\n    * Update row\n    * Push view button"
+}

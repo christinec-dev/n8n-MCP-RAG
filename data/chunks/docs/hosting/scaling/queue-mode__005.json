@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/queue-mode.md",
+  "index": 5,
+  "content": "### Set encryption key\n\nn8n automatically generates an encryption key upon first startup. You can also provide your own custom key using [environment variable](/hosting/configuration/environment-variables/index.md) if desired.\n\nThe encryption key of the main n8n instance must be shared with all worker and webhooks processor nodes to ensure these worker nodes are able to access credentials stored in the database.\n\nSet the encryption key for each worker node in a [configuration file](/hosting/configuration/configuration-methods.md) or by setting the corresponding environment variable:\n\n```bash\nexport N8N_ENCRYPTION_KEY=<main_instance_encryption_key>\n```"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "0014_Manual_Coda_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"102\",\n  \"name\": \"Insert data into a new row for a table in Coda\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Coda\",\n      \"type\": \"n8n-nodes-base.coda\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"docId\": \"\",\n        \"options\": {},\n        \"tableId\": \"\"\n      },\n      \"credentials\": {\n        \"codaApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"Column 1\",\n              \"value\": \"This is column 1 data\"\n            },\n            {\n              \"name\": \"Column 2\",\n              \"value\": \"This is column 2 data\"\n            },\n            {\n              \"name\": \"Column 3\",\n              \"value\": \"This is column 3 data\"\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Coda\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.coda",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

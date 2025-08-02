@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md",
+  "index": 14,
+  "content": "## Activate, deactivate, delete, and get workflow\n\nThe **Activate**, **Deactivate**, **Delete**, and **Get** workflow operations all include the same parameter for you to select the **Workflow** you want to perform the operation on. Options include:\n\n* **From list**: Select the workflow from the list.\n* **By URL**: Enter the URL of the workflow.\n* **By ID**: Enter the ID of the workflow."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.homeassistant.md",
+  "index": 5,
+  "content": "## Related resources\n\nRefer to [Home Assistant's documentation](https://developers.home-assistant.io/docs/api/rest/) for more information about the service."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/glossary.md",
+  "index": 3,
+  "content": "nodes connected to a root node. Sub nodes extend the functionality of the root node, providing access to specific services or resources or offering specific types of dedicated processing, like calculator functionality, for example.\n\n#### template (n8n)\n\nn8n templates are pre-built workflows designed by n8n and community members that you can import into your n8n instance. When using templates, you may need to fill in credentials and adjust the configuration to suit your needs.\n\n#### trigger node (n8n)\n\nA trigger node is a special node responsible for executing the workflow in response to certain conditions. All production workflows need at least one trigger to determine when the workflow should run.\n\n#### workflow (n8n)\n\nAn n8n workflow is a collection of nodes that automate a process. Workflows begin execution when a trigger condition occurs and execute sequentially to achieve complex tasks.\n\n<!-- To do\n#### OAuth\n#### pagination\n#### Role-based access control (RBAC)\n#### SAML/SSO\n#### two-factor authentication (2FA)\n#### webhook\n-->"
+}

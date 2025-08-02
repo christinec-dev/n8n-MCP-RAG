@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-file-structure.md",
+  "index": 2,
+  "content": "# Node file structure\n\nFollowing best practices and standards in your node structure makes your node easier to maintain. It's helpful if other people need to work with the code.\n\nThe file and directory structure of your node depends on:\n\n* Your node's complexity.\n* Whether you use node versioning.\n* How many nodes you include in the npm package."
+}

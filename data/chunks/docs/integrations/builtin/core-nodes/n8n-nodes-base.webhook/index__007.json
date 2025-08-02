@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md",
+  "index": 7,
+  "content": "### Path\n\nBy default, this field contains a randomly generated webhook URL path, to avoid conflicts with other webhook nodes. \n\nYou can manually specify a URL path, including adding route parameters. For example, you may need to do this if you use n8n to prototype an API and want consistent endpoint URLs.\n\nThe **Path** field can take the following formats:\n\n- `/:variable`\n- `/path/:variable`\n- `/:variable/path`\n- `/:variable1/path/:variable2`\n- `/:variable1/:variable2`"
+}

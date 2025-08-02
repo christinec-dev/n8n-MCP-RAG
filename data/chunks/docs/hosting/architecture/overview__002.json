@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/overview.md",
+  "index": 2,
+  "content": "# Architecture\n\nUnderstanding n8n's underlying architecture is helpful if you need to:\n\n* Embed n8n\n* Customize n8n's default databases\n\nThis section is a work in progress. If you have questions, please try the [forum](https://community.n8n.io/) and let n8n know which architecture documents would be useful for you."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/rag-in-n8n.md",
+  "index": 12,
+  "content": "### What is the best text splitting for my use case?\n<!-- vale from-microsoft.FirstPerson = YES -->\n\nThis again depends a lot on your data:\n\n* Small chunks (for example, 200 to 500 tokens) are good for fine-grained retrieval.\n* Large chunks may carry more context but can become diluted or noisy.\n\nUsing the right overlap size is important for the AI to understand the context of the chunk. That's also why using the Markdown or Code Block splitting can often help to make chunks better.\n\nAnother good approach is to add more context to it (for example, about the document where the chunk came from). If you want you can read more about this, you can check out [this great article from Anthropic](https://www.anthropic.com/news/contextual-retrieval)."
+}

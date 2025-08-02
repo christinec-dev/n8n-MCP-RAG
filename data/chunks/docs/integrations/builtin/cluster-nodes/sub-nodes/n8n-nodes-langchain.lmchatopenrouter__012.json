@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatopenrouter.md",
+  "index": 12,
+  "content": "### Max Retries\n\nEnter the maximum number of times to retry a request."
+}

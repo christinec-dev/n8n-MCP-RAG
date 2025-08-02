@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 65,
+  "content": "### New nodes\n\nThis release introduces the [TOTP](/integrations/builtin/core-nodes/n8n-nodes-base.totp.md) node. This is a new core node. It provides a way to generate a TOTP (time-based one-time password) within your workflow."
+}

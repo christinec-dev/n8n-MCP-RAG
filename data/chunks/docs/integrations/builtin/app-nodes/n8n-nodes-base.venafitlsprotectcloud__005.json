@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.venafitlsprotectcloud.md",
+  "index": 5,
+  "content": "## Related resources\n\nRefer to [Venafi's REST API documentation](https://docs.venafi.cloud/api/vaas-rest-api/) for more information on this service.\n\nn8n also provides:\n<!-- vale off -->\n* A [trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.venafitlsprotectcloudtrigger.md) for Venafi TLS Protect Cloud.\n* A [node](/integrations/builtin/app-nodes/n8n-nodes-base.venafitlsprotectdatacenter.md) for Venafi TLS Protect Datacenter.\n<!-- vale on -->\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/operation-not-supported.md\""
+}

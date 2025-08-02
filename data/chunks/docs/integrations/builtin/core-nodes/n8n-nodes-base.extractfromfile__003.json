@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.extractfromfile.md",
+  "index": 3,
+  "content": "## Operations\n\nUse the **Operations** drop-down to select the format of the source file to extract data from.\n\n- **Extract From CSV**: The \"Comma Separated Values\" file type is commonly used for tabulated data.\n- **Extract From HTML**: Extract fields from standard web page HTML format files.\n- **Extract From JSON**: Extract JSON data from a binary file.\n- **Extract From ICS**: Extract fields from iCalendar format files.\n- **Extract From ODS**: Extract fields from ODS spreadsheet files.\n- **Extract From PDF**: Extract fields from Portable Document Format files.\n- **Extract From RTF**: Extract fields from Rich Text Format files.\n- **Extract From Text File**: Extract fields from a standard text file format.\n- **Extract From XLS**: Extract fields from a Microsoft Excel file (older format).\n- **Extract From XLSX**: Extract fields from a Microsoft Excel file.\n- **Move File to Base64 String**: Converts binary data to a text-friendly [base64][] format."
+}

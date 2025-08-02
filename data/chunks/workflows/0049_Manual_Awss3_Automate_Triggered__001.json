@@ -1,0 +1,13 @@
+{
+  "source": "0049_Manual_Awss3_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        190,\n        160\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"AWS Transcribe\",\n      \"type\": \"n8n-nodes-base.awsTranscribe\",\n      \"position\": [\n        590,\n        160\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"mediaFileUri\": \"=s3://{{$node[\\\"AWS S3\\\"].parameter[\\\"bucketName\\\"]}}/{{$json[\\\"Key\\\"]}}\",\n        \"detectLanguage\": true,\n        \"transcriptionJobName\": \"={{$json[\\\"Key\\\"].replace(/\\\\s/g,'-')}}\"\n      },\n      \"credentials\": {\n        \"aws\": \"AWS Transcribe Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"AWS S3\",\n      \"type\": \"n8n-nodes-base.awsS3\",\n      \"position\": [\n        390,\n        160\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"operation\": \"getAll\",\n        \"returnAll\": true,\n        \"bucketName\": \"n8n-docs\"\n      },\n      \"credentials\": {\n        \"aws\": \"AWS S3 Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"AWS S3\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"AWS Transcribe\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"AWS S3\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.awsTranscribe",
+      "n8n-nodes-base.awsS3"
+    ],
+    "trigger": null
+  }
+}

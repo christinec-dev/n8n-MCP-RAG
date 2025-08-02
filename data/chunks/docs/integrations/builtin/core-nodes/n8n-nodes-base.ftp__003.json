@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ftp.md",
+  "index": 3,
+  "content": "## Operations\n\n- [**Delete**](#delete) a file or folder\n- [**Download**](#download) a file\n- [**List**](#list) folder content\n- [**Rename**](#rename) or move a file or folder\n- [**Upload**](#upload) a file\n\n/// note | Uploading files\nTo attach a file for upload, you'll need to use an extra node such as the [Read/Write Files from Disk](/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md) node or the [HTTP Request](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) node to pass the file as a data property.\n///"
+}

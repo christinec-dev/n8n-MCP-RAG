@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/google-cloud.md",
+  "index": 11,
+  "content": "### Create a volume for persistent storage\n\nTo maintain data between pod restarts, the Postgres deployment needs a persistent volume. Running Postgres on GCP requires a specific Kubernetes Storage Class. You can read [this guide](https://cloud.google.com/architecture/deploying-highly-available-postgresql-with-gke) for specifics, but the `storage.yaml` manifest creates it for you. You may want to change the regions to create the storage in under the `allowedTopologies` > `matchedLabelExpressions` > `values` key. By default, they're set to `us-central`.\n\n```yaml\n…\nallowedTopologies:\n  - matchLabelExpressions:\n      - key: failure-domain.beta.kubernetes.io/zone\n        values:\n          - us-central1-b\n          - us-central1-c\n```"
+}

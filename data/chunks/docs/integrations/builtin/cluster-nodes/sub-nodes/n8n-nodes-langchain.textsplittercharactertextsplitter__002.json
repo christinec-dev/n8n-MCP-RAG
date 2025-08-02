@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.textsplittercharactertextsplitter.md",
+  "index": 2,
+  "content": "# Character Text Splitter node\n\nUse the Character Text Splitter node to split document data based on characters.\n\nOn this page, you'll find the node parameters for the Character Text Splitter node, and links to more resources.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

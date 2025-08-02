@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/node-types.md",
+  "index": 3,
+  "content": "## Core nodes\n\nCore nodes can be actions or [triggers](/glossary.md#trigger-node-n8n). Whereas most nodes connect to a specific external service, core nodes provide functionality such as logic, scheduling, or generic API calls."
+}

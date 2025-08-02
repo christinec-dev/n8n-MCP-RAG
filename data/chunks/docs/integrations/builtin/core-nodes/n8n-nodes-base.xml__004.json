@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.xml.md",
+  "index": 4,
+  "content": "## Node options\n\nThese options are available regardless of the **Mode** you select:\n\n- **Attribute Key**: Enter the prefix used to access the attributes. Default is `$`.\n- **Character Key**: Enter the prefix used to access the character content. Default is `_`.\n\nAll other options depend on the selected **Mode**."
+}

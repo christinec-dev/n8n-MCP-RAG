@@ -1,0 +1,12 @@
+{
+  "source": "0342_Manual_GoogleCalendar_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"1\",\n  \"name\": \"Add a event to Calender\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        410,\n        320\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Google Calendar\",\n      \"type\": \"n8n-nodes-base.googleCalendar\",\n      \"position\": [\n        830,\n        320\n      ],\n      \"parameters\": {\n        \"end\": \"2020-06-27T07:00:00.000Z\",\n        \"start\": \"2020-06-25T07:00:00.000Z\",\n        \"calendar\": \"shaligramshraddha@gmail.com\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"googleCalendarOAuth2Api\": \"new one\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Calendar\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.googleCalendar"
+    ],
+    "trigger": null
+  }
+}

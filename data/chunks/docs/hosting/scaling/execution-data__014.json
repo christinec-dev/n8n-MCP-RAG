@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/execution-data.md",
+  "index": 14,
+  "content": "# Number of hours after execution that n8n deletes data\nexport EXECUTIONS_DATA_MAX_AGE=168"
+}

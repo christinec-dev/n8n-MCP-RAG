@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mistralai.md",
+  "index": 6,
+  "content": "## Related resources\n\n<!-- add a link to the service's documentation. This should usually go direct to the API docs -->\nRefer to [Mistral AI's documentation](https://docs.mistral.ai/api/) for more information about the service.\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/operation-not-supported.md\""
+}

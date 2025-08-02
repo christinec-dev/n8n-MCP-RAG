@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 391,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Credential reuse for custom API operations\n\nn8n supplies hundreds of nodes, allowing you to create workflows that link multiple products. However, some nodes don't include all the possible operations supported by a product's API. You can work around this by making a custom API call using the HTTP Request node.\n\nOne of the most complex parts of setting up API calls is managing authentication. To simplify this, n8n now provides a way to use existential credential types (credentials associated with n8n nodes) in the HTTP Request node.\n\nFor more information, refer to [Custom API operations](/integrations/custom-operations.md).\n\n#### Node details view\n\nAn improved node view, showing more detail about node inputs.\n\n</div>"
+}

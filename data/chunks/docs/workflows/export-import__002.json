@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/export-import.md",
+  "index": 2,
+  "content": "# Export and import workflows\n\nn8n saves workflows in JSON format. You can export your workflows as JSON files or import JSON files into your n8n library. \nYou can export and import workflows in several ways. \n\n--8<-- \"_snippets/workflows/sharing-credentials.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 242,
+  "content": "### Bug fixes\n\n* Core: fix wokflow hashing for MySQL.\n* Core: make `deepCopy` backward compatible.\n* Editor: ensure `displayOptions` received the value from the resource locator component.\n* Editor: disable the settings link in executions view for unsaved workflows.\n* Editor: ensure forms reliably save.\n* Editor: fix issues with interim updates in executions view.\n* Editor: fix for node creator search.\n* Editor: limit columns in table view to prevent the UI becoming unresponsive in the node details view."
+}

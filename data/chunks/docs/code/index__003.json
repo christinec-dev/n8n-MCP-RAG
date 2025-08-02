@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/index.md",
+  "index": 3,
+  "content": "## Code in your workflows\n\nThere are two places in your workflows where you can use code:\n\n<div class=\"grid-cards-vertical cards\" markdown>\n\n- __Expressions__\n\n\tUse [expressions](/glossary.md#expression-n8n) to transform [data](/data/index.md) in your nodes. You can use JavaScript in expressions, as well as n8n's [Built-in methods and variables](/code/builtin/overview.md) and [Data transformation functions](/code/builtin/data-transformation-functions/index.md).\n\n\t[:octicons-arrow-right-24: Expressions](/code/expressions.md)\n\n- __Code node__\n\n\tUse the Code node to add JavaScript or Python to your workflow.\n\n\t[:octicons-arrow-right-24: Code node](/code/code-node.md)\n\n</div>"
+}

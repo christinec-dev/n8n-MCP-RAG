@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.homeassistant.md",
+  "index": 3,
+  "content": "## Operations\n\n* Camera Proxy\n    * Get the camera screenshot\n* Config\n    * Get the configuration\n    * Check the configuration\n* Event\n    * Create an event\n    * Get all events\n* Log\n    * Get a log for a specific entity\n    * Get all logs\n* Service\n    * Call a service within a specific domain\n    * Get all services\n* State\n    * Create a new record, or update the current one if it already exists (upsert)\n    * Get a state for a specific entity\n    * Get all states\n* Template\n    * Create a template"
+}

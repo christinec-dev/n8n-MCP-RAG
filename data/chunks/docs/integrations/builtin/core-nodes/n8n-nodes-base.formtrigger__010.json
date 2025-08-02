@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.formtrigger.md",
+  "index": 10,
+  "content": "### Form Title\n\nEnter the title for your form. n8n displays the **Form Title** as the webpage title and main `h1` title on the form."
+}

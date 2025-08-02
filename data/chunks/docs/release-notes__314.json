@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 314,
+  "content": "### Other highlights\n\n* Improved [memory support for OpenAI assistants](/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/index.md)."
+}

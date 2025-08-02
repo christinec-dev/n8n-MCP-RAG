@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/understand-vector-databases.md",
+  "index": 4,
+  "content": "## Demonstrating the power of similarity search\n\nQdrant provides [vector search demos](https://qdrant.tech/demo/) to help users understand the power of vector databases. The [food discovery demo](https://food-discovery.qdrant.tech/) shows how a vector store can help match pictures based on visual similarities.\n\n> This demo uses data from Delivery Service. Users may like or dislike the photo of a dish, and the app will recommend more similar meals based on how they look. It's also possible to choose to view results from the restaurants within the delivery radius. ([source](https://qdrant.tech/demo/))\n\nFor full technical details, refer to the [Qdrant demo-food-discovery GitHub repository](https://github.com/qdrant/demo-food-discovery)."
+}

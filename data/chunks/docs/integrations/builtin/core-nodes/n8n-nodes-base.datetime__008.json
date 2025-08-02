@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 8,
+  "content": "## Format a Date\n\nConfigure the node for this operation using these parameters:\n\n* **Date**: Enter the date you want to format.\n* **Format**: Select the format you want to change the date to. Choose from:\n    * **Custom Format**: Enter your own custom format using Luxon's [special tokens](https://moment.github.io/luxon/#/formatting?id=table-of-tokens). Tokens are case-sensitive.\n    * **MM/DD/YYYY**: For `4 September 1986`, this formats the date as `09/04/1986`.\n    * **YYYY/MM/DD**: For `4 September 1986`, this formats the date as `1986/09/04`.\n    * **MMMM DD YYYY**: For `4 September 1986`, this formats the date as `September 04 1986`.\n    * **MM-DD-YYYY**: For `4 September 1986`, this formats the date as `09-04-1986`.\n    * **YYYY-MM-DD**: For `4 September 1986`, this formats the date as `1986-09-04`.\n* **Output Field Name**: Enter the name of the field to output the formatted date to."
+}

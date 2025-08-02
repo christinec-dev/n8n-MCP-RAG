@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflowtrigger.md",
+  "index": 3,
+  "content": "## Usage\n\nThis node runs in response to a call from the [Execute Sub-workflow](/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflow.md) or [Call n8n Workflow Tool](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolworkflow.md) nodes.\n\n--8<-- \"_snippets/flow-logic/subworkflow-usage.md\""
+}

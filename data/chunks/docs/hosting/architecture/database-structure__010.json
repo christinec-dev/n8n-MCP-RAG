@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 10,
+  "content": "### execution_entity\n\nStores all saved workflow executions. Workflow settings can affect which executions n8n saves."
+}

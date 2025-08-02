@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.form.md",
+  "index": 12,
+  "content": "### Build and test workflows\n\nWhile building or testing a workflow, use the **Test URL** in the [n8n Form Trigger](/integrations/builtin/core-nodes/n8n-nodes-base.formtrigger.md). Using a test URL ensures that you can view the incoming data in the editor UI, which is useful for debugging. \n\nThere are two ways to test:\n\n- Select **Execute Step**. n8n opens the form. When you submit the form, n8n runs the node and any previous nodes, but not the rest of the workflow.\n- Select **Execute Workflow**. n8n opens the form. When you submit the form, n8n runs the workflow."
+}

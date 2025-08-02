@@ -1,0 +1,14 @@
+{
+  "source": "0208_Manual_Iterable_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"165\",\n  \"name\": \"Create, update and get a user from Iterable\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        310,\n        340\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Iterable\",\n      \"type\": \"n8n-nodes-base.iterable\",\n      \"position\": [\n        510,\n        340\n      ],\n      \"parameters\": {\n        \"value\": \"\",\n        \"identifier\": \"email\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"iterableApi\": \"Iterable\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Iterable1\",\n      \"type\": \"n8n-nodes-base.iterable\",\n      \"position\": [\n        710,\n        340\n      ],\n      \"parameters\": {\n        \"value\": \"={{$node[\\\"Iterable\\\"].parameter[\\\"value\\\"]}}\",\n        \"identifier\": \"email\",\n        \"additionalFields\": {\n          \"dataFieldsUi\": {\n            \"dataFieldValues\": [\n              {\n                \"key\": \"Name\",\n                \"value\": \"\"\n              }\n            ]\n          }\n        }\n      },\n      \"credentials\": {\n        \"iterableApi\": \"Iterable\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Iterable2\",\n      \"type\": \"n8n-nodes-base.iterable\",\n      \"position\": [\n        910,\n        340\n      ],\n      \"parameters\": {\n        \"email\": \"={{$node[\\\"Iterable\\\"].parameter[\\\"value\\\"]}}\",\n        \"operation\": \"get\"\n      },\n      \"credentials\": {\n        \"iterableApi\": \"Iterable\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Iterable\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Iterable1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Iterable1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Iterable2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Iterable\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.iterable",
+      "n8n-nodes-base.iterable",
+      "n8n-nodes-base.iterable"
+    ],
+    "trigger": null
+  }
+}

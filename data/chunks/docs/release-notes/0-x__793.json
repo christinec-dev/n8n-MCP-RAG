@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 793,
+  "content": "## n8n@0.107.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.106.0...n8n@0.107.0) for this version.<br />\n**Release date:** 2021-02-08\n\n- New nodes\n- AWS Comprehend\n- GetResponse Trigger\n- Peekalink\n- Stackby\n- Enhanced nodes\n- AWS SES: Added Custom Verification Email resource\n- Microsoft Teams: Added Task resource\n- Twitter: Added Delete operation to the Tweet resource\n- Bug fixes\n- Google Drive: Fixed an issue with the Delete and Share operations\n- FileMaker: Fixed an issue with the script list parsing\n- Updated Node.js version of Docker images to `14.15`\n- Added a shortcut `CTRL + scroll` to zoom"
+}

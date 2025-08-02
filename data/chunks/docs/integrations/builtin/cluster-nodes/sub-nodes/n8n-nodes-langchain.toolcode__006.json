@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolcode.md",
+  "index": 6,
+  "content": "### JavaScript / Python box\n\nWrite the code here.\n\nYou can access the tool input using `query`. For example, to take the input string and lowercase it:\n\n```js\nlet myString = query;\nreturn myString.toLowerCase();\n```"
+}

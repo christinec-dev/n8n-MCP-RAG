@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflow.md",
+  "index": 6,
+  "content": "### Mode\n\nUse this parameter to control the execution mode for the node. Choose from these options:\n\n- **Run once with all items**: Pass all input items into a single execution of the node.\n- **Run once for each item**: Execute the node once for each input item in turn."
+}

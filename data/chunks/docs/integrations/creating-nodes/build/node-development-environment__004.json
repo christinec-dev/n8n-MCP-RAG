@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/node-development-environment.md",
+  "index": 4,
+  "content": "## Editor setup\n\nn8n recommends using [VS Code](https://code.visualstudio.com/) as your editor.\n\nInstall these extensions:\n\n* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)\n* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)\n* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)\n\nBy using VS Code and these extensions, you get access to the n8n node linter's warnings as you code."
+}

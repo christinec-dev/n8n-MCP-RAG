@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.airtable/index.md",
+  "index": 10,
+  "content": "### Filter records when using the List operation\n\nTo filter records from your Airtable base, use the **Filter By Formula** option. For example, if you want to return all the users that belong to the organization `n8n`, follow the steps mentioned below:\n\n1. Select 'List' from the **Operation** dropdown list.\n2. Enter the base ID and the table name in the **Base ID** and **Table** field, respectively.\n3. Click on **Add Option** and select 'Filter By Formula' from the dropdown list.\n4. Enter the following formula in the **Filter By Formula** field: `{Organization}='n8n'`.\n\nSimilarly, if you want to return all the users that don't belong to the organization `n8n`, use the following formula: `NOT({Organization}='n8n')`.\n\nRefer to the Airtable [documentation](https://support.airtable.com/hc/en-us/articles/203255215-Formula-Field-Reference) to learn more about the formulas."
+}

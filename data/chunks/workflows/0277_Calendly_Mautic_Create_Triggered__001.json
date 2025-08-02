@@ -1,0 +1,13 @@
+{
+  "source": "0277_Calendly_Mautic_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"meta\": {\n    \"instanceId\": \"237600ca44303ce91fa31ee72babcdc8493f55ee2c0e8aa2b78b3b4ce6f70bd9\"\n  },\n  \"nodes\": [\n    {\n      \"id\": \"40216649-af2c-44df-83c6-75afe75dcdaf\",\n      \"name\": \"On new event\",\n      \"type\": \"n8n-nodes-base.calendlyTrigger\",\n      \"position\": [\n        400,\n        240\n      ],\n      \"webhookId\": \"28087fc9-e623-48fe-949e-e002cbc7a817\",\n      \"parameters\": {\n        \"events\": [\n          \"invitee.created\"\n        ]\n      },\n      \"credentials\": {\n        \"calendlyApi\": {\n          \"id\": \"38\",\n          \"name\": \"[UPDATE ME]\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"46914a34-984e-4736-b2a3-6e97555b73c7\",\n      \"name\": \"Create/update contact\",\n      \"type\": \"n8n-nodes-base.mautic\",\n      \"position\": [\n        620,\n        240\n      ],\n      \"parameters\": {\n        \"email\": \"={{$node[\\\"On new event\\\"].json[\\\"payload\\\"][\\\"email\\\"]}}\",\n        \"options\": {},\n        \"firstName\": \"={{$json[\\\"payload\\\"][\\\"name\\\"]}}\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"mauticApi\": {\n          \"id\": \"34\",\n          \"name\": \"[UPDATE ME]\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"df809a8d-7b05-4ecc-a022-7bb12842b4bc\",\n      \"name\": \"Note\",\n      \"type\": \"n8n-nodes-base.stickyNote\",\n      \"position\": [\n        -20,\n        180\n      ],\n      \"parameters\": {\n        \"width\": 313,\n        \"height\": 229,\n        \"content\": \"### Create/update Mautic contact on a new Calendly event\\n1. `On new event` triggers on new Calendly events.\\n2. `Create/update contact` will create a contact in Mautic or update the contact's first name. If the contact's email is already in Mautic, then the first name will be overwritten to the new first name.\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"On new event\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Create/update contact\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.calendlyTrigger",
+      "n8n-nodes-base.mautic",
+      "n8n-nodes-base.stickyNote"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/insights.md",
+  "index": 9,
+  "content": "### Which executions do n8n use to calculate the values in the insights banner and dashboard?\n\nn8n insights only collects data from production executions (for example, those from active workflows triggered on a schedule or a webhook) from the main (parent) workflow. This means that it doesn't count manual (test) executions or executions from sub-workflows or error workflows."
+}

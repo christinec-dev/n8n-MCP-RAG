@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/index.md",
+  "index": 4,
+  "content": "## Execution lists\n\nn8n provides two execution lists:\n\n* [Workflow-level executions](/workflows/executions/single-workflow-executions.md): this execution list shows the executions for a single workflow.\n* [All executions](/workflows/executions/all-executions.md): this list shows all executions for all your workflows.\n\nn8n supports [adding custom data to executions](/workflows/executions/custom-executions-data.md)."
+}

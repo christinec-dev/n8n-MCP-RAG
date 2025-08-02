@@ -1,0 +1,13 @@
+{
+  "source": "0822_Cron_Postgres_Automation_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"33\",\n  \"name\": \"Postgres Data Ingestion\",\n  \"nodes\": [\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        300,\n        250\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"mode\": \"everyMinute\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Function\",\n      \"type\": \"n8n-nodes-base.function\",\n      \"position\": [\n        500,\n        250\n      ],\n      \"parameters\": {\n        \"functionCode\": \"var today = new Date();\\nvar date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();\\nvar time = today.getHours() + \\\":\\\" + today.getMinutes() + \\\":\\\" + today.getSeconds();\\nvar dateTime = date+' '+time;\\n\\nitems[0].json.sensor_id = 'humidity01';\\nitems[0].json.value = Math.ceil(Math.random()*100);\\nitems[0].json.time_stamp = dateTime;\\nitems[0].json.notification = false;\\n\\nreturn items;\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Postgres\",\n      \"type\": \"n8n-nodes-base.postgres\",\n      \"position\": [\n        680,\n        250\n      ],\n      \"parameters\": {\n        \"table\": \"n8n\",\n        \"columns\": \"sensor_id,value,time_stamp,notification\"\n      },\n      \"credentials\": {\n        \"postgres\": \"Postgres\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": true,\n  \"settings\": {},\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Function\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Function\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Postgres\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.function",
+      "n8n-nodes-base.postgres"
+    ],
+    "trigger": null
+  }
+}

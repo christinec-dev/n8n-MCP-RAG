@@ -1,0 +1,12 @@
+{
+  "source": "0002_Manual_Totp_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"0wfomsVO0TQtQkwU\",\n  \"meta\": {\n    \"instanceId\": \"2e75c9fb3cdcf631da470c0180f0739986baa0ee860de53281e9edc3491b82a3\"\n  },\n  \"name\": \"Complete Guide to Setting Up and Generating TOTP Codes in n8n 🔐\",\n  \"tags\": [],\n  \"nodes\": [\n    {\n      \"id\": \"0fe95b9a-be2b-4022-829e-8b6c801e5baf\",\n      \"name\": \"When clicking ‘Test workflow’\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        -280,\n        -340\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"02fee6b5-7770-4889-b9bb-89bface8872d\",\n      \"name\": \"TOTP\",\n      \"type\": \"n8n-nodes-base.totp\",\n      \"position\": [\n        -40,\n        -340\n      ],\n      \"parameters\": {\n        \"options\": {}\n      },\n      \"credentials\": {\n        \"totpApi\": {\n          \"id\": \"9487Zco8UqMQWnpf\",\n          \"name\": \"TOTP account Mars55\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"pinData\": {},\n  \"settings\": {\n    \"timezone\": \"Asia/Tehran\",\n    \"callerPolicy\": \"workflowsFromSameOwner\",\n    \"executionOrder\": \"v1\"\n  },\n  \"versionId\": \"d7a5fff3-3fcd-45cd-ba06-564097567ff5\",\n  \"connections\": {\n    \"When clicking ‘Test workflow’\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"TOTP\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.totp"
+    ],
+    "trigger": null
+  }
+}

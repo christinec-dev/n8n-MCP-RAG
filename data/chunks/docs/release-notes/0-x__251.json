@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 251,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### New workflow experience\n\nThis release brings a collection of UI changes, aimed at improving the workflow experience for users. This includes:\n\n* Removing the Start node, and adding help to guide users to find a trigger node.\n* Improved node search.\n* New nodes: Manual Trigger and Execute Workflow Trigger.\n\n</div>\n\n* Core: block workflow updates on interim changes.\n* Core: enable sending client credentials in the body of API calls.\n* Editor: add automatic credential selection for new nodes."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 26,
+  "content": "### workflow_history\n\nStore previous versions of workflows."
+}

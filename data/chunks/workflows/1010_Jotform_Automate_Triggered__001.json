@@ -1,0 +1,11 @@
+{
+  "source": "1010_Jotform_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"JotForm Trigger\",\n      \"type\": \"n8n-nodes-base.jotFormTrigger\",\n      \"position\": [\n        870,\n        400\n      ],\n      \"webhookId\": \"8ee760f3-f18a-4060-bf41-b583ef4d7bfe\",\n      \"parameters\": {\n        \"form\": \"202012795501445\"\n      },\n      \"credentials\": {\n        \"jotFormApi\": \"jotform_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.jotFormTrigger"
+    ],
+    "trigger": "jotform trigger"
+  }
+}

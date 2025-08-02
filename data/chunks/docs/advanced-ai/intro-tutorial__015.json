@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/intro-tutorial.md",
+  "index": 15,
+  "content": "## Congratulations!\n\nYou have taken your first steps in building useful and effective workflows with AI. In this tutorial we have investigated the basic building blocks of an AI workflow, added an **AI Agent** and a chat model, and adjusted the prompt to get the kind of output we wanted. We also added memory so the chat could retain context between messages.\n\n[[ workflowDemo(\"file:////advanced-ai/tutorials/chat_complete.json\") ]]"
+}

@@ -1,0 +1,14 @@
+{
+  "source": "0776_Manual_Mailerlite_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"30\",\n  \"name\": \"Receive updates when a subscriber is added to a group and strore the information in Airtable\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"disabled\": true,\n      \"position\": [\n        110,\n        600\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"MailerLite Trigger\",\n      \"type\": \"n8n-nodes-base.mailerLiteTrigger\",\n      \"position\": [\n        530,\n        300\n      ],\n      \"webhookId\": \"dd15d919-18b3-4af7-a5c9-c4583cdda9f5\",\n      \"parameters\": {\n        \"event\": \"subscriber.add_to_group\"\n      },\n      \"credentials\": {\n        \"mailerLiteApi\": \"mailerlite\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        730,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"Name\",\n              \"value\": \"={{$node[\\\"MailerLite Trigger\\\"].json[\\\"data\\\"][\\\"subscriber\\\"][\\\"name\\\"]}}\"\n            },\n            {\n              \"name\": \"Email\",\n              \"value\": \"={{$node[\\\"MailerLite Trigger\\\"].json[\\\"data\\\"][\\\"subscriber\\\"][\\\"email\\\"]}}\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Airtable\",\n      \"type\": \"n8n-nodes-base.airtable\",\n      \"position\": [\n        930,\n        300\n      ],\n      \"parameters\": {\n        \"table\": \"Data\",\n        \"options\": {},\n        \"operation\": \"append\",\n        \"application\": \"\"\n      },\n      \"credentials\": {\n        \"airtableApi\": \"airtable-harshil\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Airtable\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"MailerLite Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        []\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.mailerLiteTrigger",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.airtable"
+    ],
+    "trigger": "mailerlite trigger"
+  }
+}

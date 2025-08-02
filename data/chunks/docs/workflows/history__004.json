@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/history.md",
+  "index": 4,
+  "content": "## View workflow history\n\nTo view a workflow's history:\n\n1. Open the workflow.\n1. Select **Workflow history** <span class=\"inline-image\">![Workflow history icon](/_images/common-icons/workflow-history.png){.off-glb}</span>. n8n opens a menu showing the saved workflow versions, and a canvas with a preview of the selected version."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.pipedrivetrigger.md",
+  "index": 2,
+  "content": "# Pipedrive Trigger node\n\n[Pipedrive](https://www.pipedrive.com/) is a cloud-based sales software company that aims to improve the productivity of businesses through the use of their software.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/pipedrive.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Pipedrive Trigger integrations](https://n8n.io/integrations/pipedrive-trigger/) page.\n///"
+}

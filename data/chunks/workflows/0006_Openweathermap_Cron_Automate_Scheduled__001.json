@@ -1,0 +1,13 @@
+{
+  "source": "0006_Openweathermap_Cron_Automate_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Plivo\",\n      \"type\": \"n8n-nodes-base.plivo\",\n      \"position\": [\n        1030,\n        400\n      ],\n      \"parameters\": {\n        \"message\": \"=Hey! The temperature outside is {{$node[\\\"OpenWeatherMap\\\"].json[\\\"main\\\"][\\\"temp\\\"]}}°C.\"\n      },\n      \"credentials\": {\n        \"plivoApi\": \"Plivo API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"OpenWeatherMap\",\n      \"type\": \"n8n-nodes-base.openWeatherMap\",\n      \"position\": [\n        830,\n        400\n      ],\n      \"parameters\": {\n        \"cityName\": \"berlin\"\n      },\n      \"credentials\": {\n        \"openWeatherMapApi\": \"owm\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        630,\n        400\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"hour\": 9\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"OpenWeatherMap\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"OpenWeatherMap\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Plivo\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.plivo",
+      "n8n-nodes-base.openWeatherMap",
+      "n8n-nodes-base.cron"
+    ],
+    "trigger": null
+  }
+}

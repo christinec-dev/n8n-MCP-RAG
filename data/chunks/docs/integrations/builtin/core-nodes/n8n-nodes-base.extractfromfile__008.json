@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.extractfromfile.md",
+  "index": 8,
+  "content": "## Templates and examples\n\n<!-- see https://www.notion.so/n8n/Pull-in-templates-for-the-integrations-pages-37c716837b804d30a33b47475f6e3780 -->\n[[ templatesWidget(page.title, 'extract-from-file') ]]\n\n[HTTP Request Node]: /integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md\n[Webhook Node]: /integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md\n[base64]: https://datatracker.ietf.org/doc/html/rfc4648#section-4"
+}

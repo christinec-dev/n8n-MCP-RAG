@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/tips-and-common-issues.md",
+  "index": 6,
+  "content": "## Multiple evaluations in the same workflow\n\nYou can only have one evaluation set up per workflow. In other words, you can only have one evaluation trigger per workflow.\n\nEven so, you can still test different parts of your workflow with different evaluations by putting those parts in [sub-workflows](/flow-logic/subworkflows.md) and evaluating each sub-workflow."
+}

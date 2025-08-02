@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.invoiceninja.md",
+  "index": 3,
+  "content": "## Operations\n\n* Client\n    * Create a new client\n    * Delete a client\n    * Get data of a client\n    * Get data of all clients\n* Expense\n    * Create a new expense\n    * Delete an expense\n    * Get data of an expense\n    * Get data of all expenses\n* Invoice\n    * Create a new invoice\n    * Delete a invoice\n    * Email an invoice\n    * Get data of a invoice\n    * Get data of all invoices\n* Payment\n    * Create a new payment\n    * Delete a payment\n    * Get data of a payment\n    * Get data of all payments\n* Quote\n    * Create a new quote\n    * Delete a quote\n    * Email an quote\n    * Get data of a quote\n    * Get data of all quotes\n* Task\n    * Create a new task\n    * Delete a task\n    * Get data of a task\n    * Get data of all tasks"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatollama/index.md",
+  "index": 4,
+  "content": "## Node options\n\n* **Sampling Temperature**: Use this option to control the randomness of the sampling process. A higher temperature creates more diverse sampling, but increases the risk of hallucinations.\n* **Top K**: Enter the number of token choices the model uses to generate the next token.\n* **Top P**: Use this option to set the probability the completion should use. Use a lower value to ignore less probable options."
+}

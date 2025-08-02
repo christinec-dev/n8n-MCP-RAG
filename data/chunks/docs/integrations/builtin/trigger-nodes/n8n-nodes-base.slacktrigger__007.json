@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.slacktrigger.md",
+  "index": 7,
+  "content": "## Required scopes\n\nTo use this node, you need to create an application in Slack and enable event subscriptions. Refer to [Slack credentials | Slack Trigger configuration](/integrations/builtin/credentials/slack.md#slack-trigger-configuration) for more information.\n\nYou must add the appropriate scopes to your Slack app for this trigger node to work.\n\nThe node requires scopes for the [conversations.list](https://api.slack.com/methods/conversations.list) and [users.list](https://api.slack.com/methods/users.list) methods at minimum. Check out the [Scopes | Slack credentials](/integrations/builtin/credentials/slack.md#scopes) list for a more complete list of scopes."
+}

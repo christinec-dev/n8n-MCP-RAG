@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/workflow-templates.md",
+  "index": 3,
+  "content": "## Disable workflow templates\n\n--8<-- \"_snippets/workflows/templates/disable-templates.md\""
+}

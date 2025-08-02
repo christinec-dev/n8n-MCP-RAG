@@ -1,0 +1,13 @@
+{
+  "source": "1202_Getresponse_Airtable_Import_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Airtable\",\n      \"type\": \"n8n-nodes-base.airtable\",\n      \"position\": [\n        1090,\n        340\n      ],\n      \"parameters\": {\n        \"table\": \"Table 1\",\n        \"options\": {},\n        \"operation\": \"append\",\n        \"application\": \"\"\n      },\n      \"credentials\": {\n        \"airtableApi\": \"Airtable Credentials n8n\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        890,\n        340\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"Name\",\n              \"value\": \"={{$json[\\\"contact_name\\\"]}}\"\n            },\n            {\n              \"name\": \"Email\",\n              \"value\": \"={{$json[\\\"contact_email\\\"]}}\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"GetResponse Trigger\",\n      \"type\": \"n8n-nodes-base.getResponseTrigger\",\n      \"position\": [\n        690,\n        340\n      ],\n      \"webhookId\": \"4bdfc1fa-44bc-4293-987c-fb512327e845\",\n      \"parameters\": {\n        \"events\": [\n          \"subscribe\"\n        ],\n        \"listIds\": [\n          \"qtPk7\"\n        ],\n        \"options\": {}\n      },\n      \"credentials\": {\n        \"getResponseApi\": \"GetResponse API Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Airtable\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"GetResponse Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.airtable",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.getResponseTrigger"
+    ],
+    "trigger": "getresponse trigger"
+  }
+}

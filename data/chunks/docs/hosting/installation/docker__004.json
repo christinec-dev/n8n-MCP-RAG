@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/docker.md",
+  "index": 4,
+  "content": "## Starting n8n\n\nFrom your terminal, run:\n\n```sh\ndocker volume create n8n_data\n\ndocker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n\n```\n\nThis command creates a volume to store persistent data, downloads the required n8n image, and starts your container, exposed on port `5678`. To save your work between container restarts, it also mounts a docker volume, `n8n_data`, to persist your data locally.\n\nOnce running, you can access n8n by opening:\n[http://localhost:5678](http://localhost:5678)"
+}

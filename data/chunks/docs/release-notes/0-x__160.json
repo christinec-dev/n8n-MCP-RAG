@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 160,
+  "content": "### New features\n\nThis release adds experimental support for more Prometheus metrics. Self-hosting users can configure Prometheus using [environment variables](/hosting/configuration/environment-variables/index.md)."
+}

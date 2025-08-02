@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 789,
+  "content": "## n8n@0.110.3\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.110.0...n8n@0.110.3) for this version.<br />\n**Release date:** 2021-03-04\n\n- Bug fixes\n- APITemplate.io: Fixed an issue with the naming of the node"
+}

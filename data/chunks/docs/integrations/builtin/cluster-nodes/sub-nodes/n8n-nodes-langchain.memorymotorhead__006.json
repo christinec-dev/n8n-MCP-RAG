@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorymotorhead.md",
+  "index": 6,
+  "content": "## Related resources\n\nRefer to [LangChain's Motorhead documentation](https://js.langchain.com/docs/integrations/memory/motorhead_memory) for more information about the service.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-overview-link.md\""
+}

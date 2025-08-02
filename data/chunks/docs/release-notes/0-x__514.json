@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 514,
+  "content": "### Core Functionality\n\n- Fixed a bug where not all nodes could use the new binary data handling."
+}

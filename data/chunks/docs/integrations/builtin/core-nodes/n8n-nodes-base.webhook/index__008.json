@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md",
+  "index": 8,
+  "content": "### Supported authentication methods\n\nYou can require authentication for any service calling your webhook URL. Choose from these authentication methods:\n\n- Basic auth\n- Header auth\n- JWT auth\n- None\n\nRefer to [Webhook credentials](/integrations/builtin/credentials/webhook.md) for more information on setting up each credential type."
+}

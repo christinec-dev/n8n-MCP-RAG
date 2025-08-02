@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.extractfromfile.md",
+  "index": 7,
+  "content": "### Destination Output Field\n\nEnter the name of the field in the node output that will contain the extracted data.\n\nThis parameter is only available for these operations:\n\n- Extract From JSON\n- Extract From ICS\n- Extract From Text File\n- Move File to Base64 String"
+}

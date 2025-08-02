@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-structure.md",
+  "index": 3,
+  "content": "## Data item processing\n\n--8<-- \"_snippets/flow-logic/data-flow-nodes.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/api/authentication.md",
+  "index": 8,
+  "content": "## Delete an API key\n\n1. Log in to n8n.\n2. Go to **Settings** > **n8n API**.\n3. Select **Delete** next to the key you want to delete.\n4. Confirm the delete by selecting **Delete Forever**."
+}

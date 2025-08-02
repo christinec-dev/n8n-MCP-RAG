@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 385,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### PostBin node\n\nPostBin serves as a wrapper for standard HTTP libraries which can be used to test arbitrary API/Webhooks by sending requests and providing more advanced ways to analyze the responses.\n\n</div>"
+}

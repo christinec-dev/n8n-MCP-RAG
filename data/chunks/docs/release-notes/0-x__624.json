@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 624,
+  "content": "### Core Functionality\n\n- Added execution ID to logs of queue processes.\n- Added description to operation errors.\n- Added ability for webhook processes to wake waiting executions."
+}

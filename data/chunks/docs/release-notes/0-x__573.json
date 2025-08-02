@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 573,
+  "content": "### Bug fixes\n\n\n* [HTTP Request:](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) Fixed an issue with the Full Response option not taking effect when used with the Ignore Response Code option."
+}

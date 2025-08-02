@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/message-operations.md",
+  "index": 32,
+  "content": "### Inline Keyboard parameters\n\nIf you select **Reply Markup > Inline Keyboard**, define the inline keyboard buttons you want to display using the **Add Button** option. To add more rows to your keyboard, use **Add Keyboard Row**.\n\nRefer to [InlineKeyboardMarkup](https://core.telegram.org/bots/api#inlinekeyboardmarkup) and [InlineKeyboardButtons](https://core.telegram.org/bots/api#inlinekeyboardbutton) for more information."
+}

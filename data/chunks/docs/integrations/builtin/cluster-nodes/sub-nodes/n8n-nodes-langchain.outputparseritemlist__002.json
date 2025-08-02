@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparseritemlist.md",
+  "index": 2,
+  "content": "# Item List Output Parser node\n\nUse the Item List Output Parser node to return a list of items with a specific length and separator.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

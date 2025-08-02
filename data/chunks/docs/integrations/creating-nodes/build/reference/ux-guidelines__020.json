@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 20,
+  "content": "### Referring to parameter and field name\n\nWhen you need to refer to parameter names or field names in copy, wrap them in single quotation marks (for example, \"Please fill the `'name'` parameter)."
+}

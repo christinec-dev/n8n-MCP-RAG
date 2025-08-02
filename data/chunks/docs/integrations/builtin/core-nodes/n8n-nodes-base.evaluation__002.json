@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.evaluation.md",
+  "index": 2,
+  "content": "# Evaluation node\n\nThe Evaluation node performs various operations related to [evaluations](/advanced-ai/evaluations/overview.md) to validate your AI workflow reliability. You can use the Evaluation node to conditionally execute logic based on whether the workflow is under evaluation, to write evaluation outcomes back to a Google Sheet dataset, or to log scoring metrics for your evaluation performance to n8n's evaluations tab.\n\n/// note | Credentials\nThe Evaluation node's **Set Outputs** operation uses Google Sheets to record evaluation outcomes. To use that operation, you must configure a [Google Sheets credential](/integrations/builtin/credentials/google/index.md).\n///"
+}

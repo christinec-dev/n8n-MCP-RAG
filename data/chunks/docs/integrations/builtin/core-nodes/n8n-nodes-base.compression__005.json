@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.compression.md",
+  "index": 5,
+  "content": "### Decompress\n\n- **Put Output File in Field**: Enter the name of the fields in the input data that contain the binary files you want to decompress. To decompress more than one file, use a comma-separated list.\n- **Output Prefix**: Enter a prefix to add to the output file name."
+}

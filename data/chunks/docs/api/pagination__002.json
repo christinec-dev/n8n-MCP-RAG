@@ -1,0 +1,5 @@
+{
+  "source": "docs/api/pagination.md",
+  "index": 2,
+  "content": "# API pagination\n\nThe default page size is 100 results. You can change the page size limit. The maximum permitted size is 250.\n\nWhen a response contains more than one page, it includes a cursor, which you can use to request the next pages.\n\nFor example, say you want to get all active workflows, 150 at a time.\n\nGet the first page:\n\n```shell"
+}

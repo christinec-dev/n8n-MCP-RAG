@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 30,
+  "content": "### Support for OIDC (OpenID Connect) authentication\n\nYou can now use OIDC (OpenID Connect) as an authentication method for Single Sign-On (SSO).\n\nThis gives enterprise teams more flexibility to integrate n8n with their existing identity providers using a widely adopted and easy-to-manage standard. OIDC is now available alongside SAML, giving Enterprises the choice to select what best fits their internal needs."
+}

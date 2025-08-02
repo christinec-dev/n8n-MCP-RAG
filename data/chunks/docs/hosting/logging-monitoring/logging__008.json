@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/logging.md",
+  "index": 8,
+  "content": "# Set 60 as the maximum number of log files to be kept\nexport N8N_LOG_FILE_MAXCOUNT=60\n```"
+}

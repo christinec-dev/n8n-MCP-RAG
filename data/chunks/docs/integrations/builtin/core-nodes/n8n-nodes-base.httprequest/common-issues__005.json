@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/common-issues.md",
+  "index": 5,
+  "content": "## JSON parameter need to be an valid JSON\n\nThis error displays when you've passed a parameter as JSON and it's not formatted as valid JSON.\n\nTo resolve, review the JSON you've entered for these issues:\n\n* Test your JSON in a JSON checker or syntax parser to find errors like missing quotation marks, extra or missing commas, incorrectly formatted arrays, extra or missing square brackets or curly brackets, and so on.\n* If you've used an **Expression** in the node, be sure you've wrapped the entire JSON in double curly brackets, for example:\n    ```\n    {{\n        {\n        \"myjson\":\n        {\n            \"name1\": \"value1\",\n            \"name2\": \"value2\",\n            \"array1\":\n                [\"value1\",\"value2\"]\n        }\n        }\n    }}\n    ```"
+}

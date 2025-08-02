@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-2.md",
+  "index": 10,
+  "content": "## 5. Save the workflow\n\nOnce you're finished editing the node, select **Back to canvas** to return to the main canvas.\n\nBy default, your workflow is automatically saved as \"My workflow.\"\n\nFor this lesson, rename the workflow to be \"Hacker News workflow.\"\n\n/// note | Reminder\nYou can rename a workflow by clicking on the workflow's name at the top of the Editor UI.\n///\n\nOnce you've renamed the workflow, be sure to save it.\n\nThere are two ways in which you can save a workflow:\n\n- From the Canvas in Editor UI, click **Ctrl + S** or **Cmd + S** on your keyboard.\n- Select the **Save** button in the top right corner of the Editor UI. You may need to leave the node editor first by clicking outside the dialog.\n\nIf you see a grey **Saved** text instead of the **Save** button, your workflow was automatically saved."
+}

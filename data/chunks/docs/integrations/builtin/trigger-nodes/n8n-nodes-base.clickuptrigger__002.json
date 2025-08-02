@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.clickuptrigger.md",
+  "index": 2,
+  "content": "# ClickUp Trigger node\n\n[ClickUp](https://clickup.com/) is a cloud-based collaboration and project management tool suitable for businesses of all sizes and industries. Features include communication and collaboration tools, task assignments and statuses, alerts and a task toolbar.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/clickup.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [ClickUp Trigger integrations](https://n8n.io/integrations/clickup-trigger/) page.\n///"
+}

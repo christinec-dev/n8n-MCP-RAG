@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/declarative-style-node.md",
+  "index": 13,
+  "content": "## Test your node\n\n--8<-- \"_snippets/integrations/creating-nodes/testing.md\""
+}

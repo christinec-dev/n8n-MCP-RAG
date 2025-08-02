@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.msg91.md",
+  "index": 5,
+  "content": "## Find your Sender ID\n\n1. Log in to your MSG91 dashboard.\n2. Select **Sender Id** in the left panel.\n3. If you don't already have one, select **Add Sender Id +**, fill in the details, and select **Save Sender Id**."
+}

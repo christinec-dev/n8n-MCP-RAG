@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolcalculator.md",
+  "index": 2,
+  "content": "# Calculator node\n\nThe Calculator node is a [tool](/glossary.md#ai-tool) that allows an [agent](/glossary.md#ai-agent) to run mathematical calculations.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

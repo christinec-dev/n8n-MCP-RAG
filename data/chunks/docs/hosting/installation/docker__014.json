@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/docker.md",
+  "index": 14,
+  "content": "# Start the container\ndocker run --name=<container_name> [options] -d docker.n8n.io/n8nio/n8n\n```"
+}

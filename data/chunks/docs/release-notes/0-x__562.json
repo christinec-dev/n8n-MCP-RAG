@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 562,
+  "content": "### Bug fixes\n\n\n* [Stripe:](/integrations/builtin/app-nodes/n8n-nodes-base.stripe.md) Fixed an issue where setting additional Metadata fields would not have the expected effect. Also fixed an issue where pagination would not work as expected.\n* [Zendesk:](/integrations/builtin/app-nodes/n8n-nodes-base.zendesk.md) Fixed an issue preventing the additional field External ID from being evaulated correctly."
+}

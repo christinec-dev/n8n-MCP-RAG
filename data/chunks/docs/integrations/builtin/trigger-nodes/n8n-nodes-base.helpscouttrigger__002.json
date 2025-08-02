@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.helpscouttrigger.md",
+  "index": 2,
+  "content": "# Help Scout Trigger node\n\n[Help Scout](https://www.helpscout.com/) is a help desk software that provides an email-based customer support platform, knowledge base tool, and an embeddable search/contact widget for customer service professionals.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/helpscout.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Help Scout Trigger integrations](https://n8n.io/integrations/helpscout-trigger/) page.\n///"
+}

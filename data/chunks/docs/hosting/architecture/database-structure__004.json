@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 4,
+  "content": "## Tables\n\nThese are the tables n8n creates during setup.\n<!-- vale off -->"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.uproc.md",
+  "index": 15,
+  "content": "### Security\n\n- Check if a Luhn number is valid\n- Check if a password is strong\n- Check if a UUID number is valid\n- Get blacklists for a domain\n- Get blacklists for an IP address"
+}

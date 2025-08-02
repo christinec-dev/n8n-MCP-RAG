@@ -1,0 +1,5 @@
+{
+  "source": "docs/api/authentication.md",
+  "index": 2,
+  "content": "# API authentication\n\nn8n uses API keys to authenticate API calls.\n\n/// info | Feature availability \nThe n8n API isn't available during the free trial. Please upgrade to access this feature.\n///"
+}

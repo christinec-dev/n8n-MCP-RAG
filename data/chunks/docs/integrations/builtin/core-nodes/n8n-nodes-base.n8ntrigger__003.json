@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.n8ntrigger.md",
+  "index": 3,
+  "content": "## Node parameters\n\nThe node includes a single parameter to identify the **Events** that should trigger it. Choose from these events:\n\n- **Active Workflow Updated**: If you select this event, the node triggers when this workflow is updated.\n- **Instance started**: If you select this event, the node triggers when the n8n instance starts or restarts.\n- **Workflow Activated**: If you select this event, the node triggers when this workflow is activated.\n\nYou can select one or more of these events."
+}

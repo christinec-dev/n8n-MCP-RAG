@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.ghost.md",
+  "index": 4,
+  "content": "### Admin API\n\n* **Post**\n    * Create a post\n    * Delete a post\n    * Get a post\n    * Get all posts\n    * Update a post"
+}

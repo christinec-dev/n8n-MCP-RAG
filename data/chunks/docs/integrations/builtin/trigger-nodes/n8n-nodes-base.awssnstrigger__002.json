@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.awssnstrigger.md",
+  "index": 2,
+  "content": "# AWS SNS Trigger node\n\n[AWS SNS](https://aws.amazon.com/sns/) is a notification service provided as part of Amazon Web Services. It provides a low-cost infrastructure for the mass delivery of messages, predominantly to mobile users.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/aws.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [AWS SNS Trigger integrations](https://n8n.io/integrations/aws-sns-trigger/) page.\n///"
+}

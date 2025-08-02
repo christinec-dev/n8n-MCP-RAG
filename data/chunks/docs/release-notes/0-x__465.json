@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 465,
+  "content": "### Core functionality\n\n- Added support for workflow templates.\n- Fixed a bug causing credentials tests to fail for versioned nodes.\n- Fixed a build problem by addind dependencies `@types/lodash.set` to the `workflow` package and `@types/uuid` to the `core` package.\n- Fixed an error causing some resources to ignore a non-standard `N8N_PATH` value.\n- Fixed an error preventing the placeholder text from being shown when entering credentials.\n- Improved error handling for telemetry-related errors."
+}

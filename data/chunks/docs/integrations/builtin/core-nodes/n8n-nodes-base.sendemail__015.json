@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sendemail.md",
+  "index": 15,
+  "content": "### Ignore SSL Issues\n\nSet whether n8n should ignore failures with TLS/SSL certificate validation (turned on) or enforce them (turned off)."
+}

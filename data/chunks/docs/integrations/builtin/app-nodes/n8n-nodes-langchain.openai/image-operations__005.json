@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/image-operations.md",
+  "index": 5,
+  "content": "## Generate an Image\n\nUse this operation to create an image from a text prompt.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [OpenAI credential](/integrations/builtin/credentials/openai.md).\n- **Resource**: Select **Image**.\n- **Operation**: Select **Generate an Image**.\n- **Model**: Select the model you want to use to generate an image. \n- **Prompt**: Enter the text description of the desired image(s). The maximum length is 1000 characters for `dall-e-2` and 4000 characters for `dall-e-3`."
+}

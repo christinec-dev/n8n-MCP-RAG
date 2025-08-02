@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.box.md",
+  "index": 3,
+  "content": "## Operations\n\n* File\n    * Copy a file\n    * Delete a file\n    * Download a file\n    * Get a file\n    * Search files\n    * Share a file\n    * Upload a file\n* Folder\n    * Create a folder\n    * Get a folder\n    * Delete a folder\n    * Search files\n    * Share a folder\n    * Update folder"
+}

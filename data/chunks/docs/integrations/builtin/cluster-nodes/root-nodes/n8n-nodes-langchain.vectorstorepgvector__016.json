@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorepgvector.md",
+  "index": 16,
+  "content": "### Column Names\n\nThe following options specify the names of the columns to store the vectors and corresponding information in:\n\n* **ID Column Name**\n* **Vector Column Name**\n* **Content Column Name**\n* **Metadata Column Name**"
+}

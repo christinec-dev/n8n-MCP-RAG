@@ -1,0 +1,14 @@
+{
+  "source": "0217_Manual_Ghost_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"170\",\n  \"name\": \"Create, update, and get a post in Ghost\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        310,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Ghost\",\n      \"type\": \"n8n-nodes-base.ghost\",\n      \"position\": [\n        510,\n        300\n      ],\n      \"parameters\": {\n        \"title\": \"Running ghost with n8n!\",\n        \"source\": \"adminApi\",\n        \"content\": \"<p>In this article, you will learn how to automate your Ghost site with n8n!</p>\",\n        \"operation\": \"create\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"ghostAdminApi\": \"Ghost Admin API\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Ghost1\",\n      \"type\": \"n8n-nodes-base.ghost\",\n      \"position\": [\n        710,\n        300\n      ],\n      \"parameters\": {\n        \"postId\": \"={{$node[\\\"Ghost\\\"].json[\\\"id\\\"]}}\",\n        \"source\": \"adminApi\",\n        \"operation\": \"update\",\n        \"updateFields\": {\n          \"status\": \"published\"\n        }\n      },\n      \"credentials\": {\n        \"ghostAdminApi\": \"Ghost Admin API\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Ghost2\",\n      \"type\": \"n8n-nodes-base.ghost\",\n      \"position\": [\n        910,\n        300\n      ],\n      \"parameters\": {\n        \"by\": \"id\",\n        \"source\": \"adminApi\",\n        \"options\": {},\n        \"identifier\": \"={{$node[\\\"Ghost\\\"].json[\\\"id\\\"]}}\"\n      },\n      \"credentials\": {\n        \"ghostAdminApi\": \"Ghost Admin API\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Ghost\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Ghost1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Ghost1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Ghost2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Ghost\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.ghost",
+      "n8n-nodes-base.ghost",
+      "n8n-nodes-base.ghost"
+    ],
+    "trigger": null
+  }
+}

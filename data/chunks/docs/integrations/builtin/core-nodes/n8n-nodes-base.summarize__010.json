@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.summarize.md",
+  "index": 10,
+  "content": "## Ignore items without valid fields to group by\n\nSet whether to ignore input items that don't contain the **Fields to Split By** (turned on) or not (turned off)."
+}

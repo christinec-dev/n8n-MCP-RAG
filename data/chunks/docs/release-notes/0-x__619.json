@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 619,
+  "content": "### Bug fixes\n\n* [Lemlist:](/integrations/builtin/app-nodes/n8n-nodes-base.lemlist.md) Fixed issue where events were not sent in the correct property.\n* [Notion:](/integrations/builtin/app-nodes/n8n-nodes-base.notion/index.md) Fixed issue listed unnamed databases."
+}

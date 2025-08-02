@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 264,
+  "content": "### Bug fixes\n\n* Core, Editor: prevent overlap between running and pinning data.\n* Core: expression evaluation of processes now respects `N8N_BLOCK_ENV_ACCESS_IN_NODE`.\n* Editor: ensure the Axios base URL still works when hosted in a subfolder.\n* Editor: fixes for horizontal scrollbar rendering.\n* Editor: ensure the menu closes promptly when loading a credentials page.\n* Editor: menu UI fixes.\n* Box node: fix an issue that was causing the Create Folder operation to show extra items.\n* GSuite Admin node: resolve issue that was causing the User Update operation to fail.\n* GitLab Trigger node: ensure this node activates reliably.\n* HTTP Request node: ensure OAuth credentials work properly with predefined credentials.\n* KoboToolbox node: fix the hook logs.\n* SeaTable node: ensure link items show in response.\n* Zoom node: resolve an issue that was causing missing output items."
+}

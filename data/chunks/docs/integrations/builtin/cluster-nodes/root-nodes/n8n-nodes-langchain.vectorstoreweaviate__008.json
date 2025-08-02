@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreweaviate.md",
+  "index": 8,
+  "content": "## Node parameters\n\n/// note | Multitenancy\nYou can separate your data into isolated tenants for the same collection (for example, for different customers). For that, you must always provide a [Tenant Name](#tenant-name) both when inserting and retrieving objects. [Read more about multi tenancy in Weaviate docs](https://docs.weaviate.io/weaviate/manage-collections/multi-tenancy).\n///\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/vector-store-mode.md\"\n\n<!-- vale from-write-good.Weasel = NO -->"
+}

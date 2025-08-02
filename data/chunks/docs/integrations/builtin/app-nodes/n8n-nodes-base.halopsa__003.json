@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.halopsa.md",
+  "index": 3,
+  "content": "## Operations\n\n* Client\n    * Create a client\n    * Delete a client\n    * Get a client\n    * Get all clients\n    * Update a client\n* Site\n    * Create a site\n    * Delete a site\n    * Get a site\n    * Get all sites\n    * Update a site\n* Ticket\n    * Create a ticket\n    * Delete a ticket\n    * Get a ticket\n    * Get all tickets\n    * Update a ticket\n* User\n    * Create a user\n    * Delete a user\n    * Get a user\n    * Get all users\n    * Update a user"
+}

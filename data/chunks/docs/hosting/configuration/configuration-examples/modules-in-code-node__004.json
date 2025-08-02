@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/modules-in-code-node.md",
+  "index": 4,
+  "content": "# Allows usage of only crypto\nexport NODE_FUNCTION_ALLOW_BUILTIN=crypto"
+}

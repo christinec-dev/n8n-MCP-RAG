@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.respondtochat.md",
+  "index": 4,
+  "content": "### Message\n\nThe message to send to the chat."
+}

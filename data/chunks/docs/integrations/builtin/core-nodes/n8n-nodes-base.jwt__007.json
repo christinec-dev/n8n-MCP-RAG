@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.jwt.md",
+  "index": 7,
+  "content": "### Expires In\n\nThe **Expires In** or `exp` claim identifies the time after which the JWT expires and must not be accepted for processing.\n\nRefer to [\"exp\" (Expiration Time) Claim](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4) for more information."
+}

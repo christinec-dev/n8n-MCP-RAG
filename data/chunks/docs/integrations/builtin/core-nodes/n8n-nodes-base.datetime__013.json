@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 13,
+  "content": "### Get Time Between Dates options\n\nThe Get Time Between Dates operation includes the **Include Input Fields** option as well as an **Output as ISO String** option. If you leave this option off, each unit you selected will return its own time difference calculation, for example:\n\n    timeDifference\n    years : 1\n    months : 3\n    days : 13\n\nIf you turn on the **Output as ISO String** option, the node formats the output as a single ISO duration string, for example: `P1Y3M13D`.\n\nISO duration format displays a format as `P<n>Y<n>M<n>DT<n>H<n>M<n>S`. `<n>` is the number for the unit after it.\n\n* P = period (duration). It begins all ISO duration strings.\n* Y = years\n* M = months\n* W = weeks\n* D = days\n* T = delineator between dates and times, used to avoid confusion between months and minutes\n* H = hours\n* M = minutes\n* S = seconds\n\nMilliseconds don't get their own unit, but instead are decimal seconds. For example, 2.1 milliseconds is `0.0021S`."
+}

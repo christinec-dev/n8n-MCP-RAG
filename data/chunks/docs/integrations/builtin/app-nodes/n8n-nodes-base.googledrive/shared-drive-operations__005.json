@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/shared-drive-operations.md",
+  "index": 5,
+  "content": "## Delete a shared drive\n\nUse this operation to delete a shared drive.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [Google Drive credentials](/integrations/builtin/credentials/google/index.md).\n- **Resource**: Select **Shared Drive**.\n- **Operation**: Select **Delete**.\n- **Shared Drive**: Choose the shared drive want to delete. \n    - Select **From list** to choose the title from the dropdown list, **By URL** to enter the URL of the drive, or **By ID** to enter the `driveId`. \n    - You can find the `driveId` in the URL for the shared Google Drive: `https://drive.google.com/drive/u/0/folders/driveID`.\n\nRefer to the [Method: drives.delete | Google Drive](https://developers.google.com/drive/api/reference/rest/v2/drives/delete) API documentation for more information."
+}

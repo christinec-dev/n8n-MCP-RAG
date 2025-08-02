@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 47,
+  "content": "### API support for assigning users to projects\n\nYou can now use the API to add and update users within projects. This includes:\n\n- Assigning existing or pending users to a project with a specific role\n- Updating a user’s role within a project\n- Removing users from one or more projects\n\nThis update now allows you to use the API to add users to both the instance and specific projects, removing the need to manually assign them in the UI."
+}

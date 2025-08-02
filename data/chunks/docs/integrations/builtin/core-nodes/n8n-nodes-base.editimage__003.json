@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 3,
+  "content": "## Operations\n\n- Add a **Blur** to the image to reduce sharpness\n- Add a **Border** to the image\n- **Composite** an image on top of another image\n- **Create** a new image\n- **Crop** the image\n- **Draw** on an image\n- **Get Information** about the image\n- **Multi Step** perform multiple operations on the image\n- **Resize**: Change the size of the image\n- **Rotate** the image\n- **Shear** image along the X or Y axis\n- Add **Text** to the image\n- Make a color in image **Transparent**"
+}

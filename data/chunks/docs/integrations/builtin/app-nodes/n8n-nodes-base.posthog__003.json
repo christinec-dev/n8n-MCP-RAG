@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.posthog.md",
+  "index": 3,
+  "content": "## Operations\n\n* Alias\n    * Create an alias\n* Event\n    * Create an event\n* Identity\n    * Create\n* Track\n    * Track a page\n    * Track a screen"
+}

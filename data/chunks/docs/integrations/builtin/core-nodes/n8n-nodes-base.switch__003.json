@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.switch.md",
+  "index": 3,
+  "content": "## Node parameters\n\nSelect the **Mode** the node should use:\n\n* **Rules**: Select this mode to build a matching rule for each output.\n* **Expression**: Select this mode to write an expression to return the output index programmatically.\n\nNode configuration depends on the **Mode** you select."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md",
+  "index": 4,
+  "content": "### Method\n\nSelect the method to use for the request:\n\n- DELETE\n- GET\n- HEAD\n- OPTIONS\n- PATCH\n- POST\n- PUT"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "0036_Gmail_GoogleDrive_Import.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Gmail1\",\n      \"type\": \"n8n-nodes-base.gmail\",\n      \"position\": [\n        -34.5,\n        449.5\n      ],\n      \"parameters\": {\n        \"resource\": \"message\",\n        \"operation\": \"getAll\",\n        \"additionalFields\": {\n          \"format\": \"resolved\",\n          \"labelIds\": [\n            \"Label_1819449526183990002\"\n          ]\n        }\n      },\n      \"credentials\": {\n        \"gmailOAuth2\": \"Gmail\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Upload File1\",\n      \"type\": \"n8n-nodes-base.googleDrive\",\n      \"position\": [\n        115.5,\n        449.5\n      ],\n      \"parameters\": {\n        \"name\": \"={{$binary.attachment_0.fileName}}\",\n        \"parents\": [\n          \"1I-tBNWFhH2FwcyiKeBOcGseWktF-nXBr\"\n        ],\n        \"binaryData\": true,\n        \"resolveData\": true,\n        \"authentication\": \"oAuth2\",\n        \"binaryPropertyName\": \"attachment_0\"\n      },\n      \"credentials\": {\n        \"googleDriveOAuth2Api\": \"Google Drive OAuth2 API\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Get attachment Link\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        280,\n        450\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"mp4_attachment\",\n              \"value\": \"={{$json[\\\"webViewLink\\\"]}}\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Gmail1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Upload File1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Upload File1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Get attachment Link\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.gmail",
+      "n8n-nodes-base.googleDrive",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

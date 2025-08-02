@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/metric-based-evaluations.md",
+  "index": 5,
+  "content": "### 1. Set up light evaluation\n\nFollow the [setup instructions](/advanced-ai/evaluations/light-evaluations.md) to create a dataset and wire it up to your workflow, writing outputs back to the dataset.\n\nThe following steps use the same support ticket classification workflow from the light evaluation docs:\n\n![Light evaluation workflow](/_images/advanced-ai/evaluations/light-evaluation-workflow.png)"
+}

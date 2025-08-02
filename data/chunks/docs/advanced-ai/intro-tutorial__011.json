@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/intro-tutorial.md",
+  "index": 11,
+  "content": "## 6. Test the node\n\nNow that the node is connected to the **Chat Trigger** and a chat model, we can test this part of the workflow.\n\n1. Click on the 'Chat' button near the bottom of the canvas. This opens up a local chat window on the left and the AI agent logs on the right.\n\n1. Type in a message and press ++enter++. You will now see the response from the chat model appear below your message.\n\n1. The log window displays the inputs to and outputs from the AI Agent.\n   ![image showing a chat session in progress](/_images/advanced-ai/ai-intro-chat.png)\n\n??? explanation \"Accessing the logs...\"\n    You can access the logs for the AI node even when you aren't using the chat interface. Open up the **AI Agent** node and click on the **Logs** tab in the right hand panel.\n\t![screenshot showing the Logs tab in the AIAgent](/_images/advanced-ai/ai-intro-logs.png)"
+}

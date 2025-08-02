@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.npm.md",
+  "index": 3,
+  "content": "## Operations\n\n* Package\n\t* Get Package Metadata\n\t* Get Package Versions\n\t* Search for Packages\n* Distribution Tag\n\t* Get All Tags\n\t* Update a Tag"
+}

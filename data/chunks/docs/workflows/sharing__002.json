@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/sharing.md",
+  "index": 2,
+  "content": "# Workflow sharing\n\n/// info | Feature availability\nAvailable on Pro and Enterprise Cloud plans, and Enterprise self-hosted plans.\n///\n\nWorkflow sharing allows you to share workflows between users of the same n8n instance.\n\nUsers can share workflows they created. Instance owners, and users with the admin role, can view and share all workflows in the instance. Refer to [Account types](/user-management/account-types.md) for more information about owners and admins."
+}

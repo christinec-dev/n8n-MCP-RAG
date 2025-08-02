@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/execution-data.md",
+  "index": 7,
+  "content": "# Don't save node progress for each execution\nexport EXECUTIONS_DATA_SAVE_ON_PROGRESS=false"
+}

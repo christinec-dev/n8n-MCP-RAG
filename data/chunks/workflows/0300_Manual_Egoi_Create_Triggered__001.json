@@ -1,0 +1,14 @@
+{
+  "source": "0300_Manual_Egoi_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"189\",\n  \"name\": \"Create, update, and get a subscriber using the e-goi node\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        270,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"e-goi\",\n      \"type\": \"n8n-nodes-base.egoi\",\n      \"position\": [\n        470,\n        300\n      ],\n      \"parameters\": {\n        \"list\": 1,\n        \"email\": \"nathan@testmail.com\",\n        \"additionalFields\": {\n          \"first_name\": \"Nathan\"\n        }\n      },\n      \"credentials\": {\n        \"egoiApi\": \"e-goi Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"e-goi1\",\n      \"type\": \"n8n-nodes-base.egoi\",\n      \"position\": [\n        670,\n        300\n      ],\n      \"parameters\": {\n        \"list\": \"={{$node[\\\"e-goi\\\"].parameter[\\\"list\\\"]}}\",\n        \"contactId\": \"={{$node[\\\"e-goi\\\"].json[\\\"base\\\"][\\\"contact_id\\\"]}}\",\n        \"operation\": \"update\",\n        \"updateFields\": {\n          \"first_name\": \"Nat\"\n        }\n      },\n      \"credentials\": {\n        \"egoiApi\": \"e-goi Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"e-goi2\",\n      \"type\": \"n8n-nodes-base.egoi\",\n      \"position\": [\n        870,\n        300\n      ],\n      \"parameters\": {\n        \"list\": \"={{$node[\\\"e-goi\\\"].parameter[\\\"list\\\"]}}\",\n        \"contactId\": \"={{$node[\\\"e-goi1\\\"].json[\\\"base\\\"][\\\"contact_id\\\"]}}\",\n        \"operation\": \"get\"\n      },\n      \"credentials\": {\n        \"egoiApi\": \"e-goi Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"e-goi\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"e-goi1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"e-goi1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"e-goi2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"e-goi\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.egoi",
+      "n8n-nodes-base.egoi",
+      "n8n-nodes-base.egoi"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/expressions/index.md",
+  "index": 2,
+  "content": "# Expressions cookbook\n\nThis section contains examples and recipes for tasks you can do with [expressions](/glossary.md#expression-n8n).\n\n/// note | Python support\nYou can use Python in the Code node. It isn't available in expressions.\n///\n[[% import \"_macros/section-toc.html\" as sectionToc %]]\n\n[[ sectionToc.sectionToc(page) ]]"
+}

@@ -1,0 +1,14 @@
+{
+  "source": "1196_Manual_Securityscorecard_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"SecurityScorecard\",\n      \"type\": \"n8n-nodes-base.securityScorecard\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"report\": \"full-scorecard-json\",\n        \"resource\": \"report\",\n        \"operation\": \"generate\",\n        \"scorecardIdentifier\": \"n8n.io\"\n      },\n      \"credentials\": {\n        \"securityScorecardApi\": \"SecurityScorecard Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"SecurityScorecard1\",\n      \"type\": \"n8n-nodes-base.securityScorecard\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"limit\": 1,\n        \"resource\": \"report\"\n      },\n      \"credentials\": {\n        \"securityScorecardApi\": \"SecurityScorecard Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"SecurityScorecard2\",\n      \"type\": \"n8n-nodes-base.securityScorecard\",\n      \"position\": [\n        850,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"={{$json[\\\"download_url\\\"]}}\",\n        \"resource\": \"report\",\n        \"operation\": \"download\"\n      },\n      \"credentials\": {\n        \"securityScorecardApi\": \"SecurityScorecard Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"SecurityScorecard\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"SecurityScorecard1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"SecurityScorecard1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"SecurityScorecard2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"SecurityScorecard\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.securityScorecard",
+      "n8n-nodes-base.securityScorecard",
+      "n8n-nodes-base.securityScorecard"
+    ],
+    "trigger": null
+  }
+}

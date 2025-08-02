@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 497,
+  "content": "### Bug fixes\n\n\n* [HTTP Request:](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) Fixed a bug causing custom headers from being ignored.\n* [Mautic:](/integrations/builtin/app-nodes/n8n-nodes-base.mautic.md) Fixed a bug preventing all items from being returned in some situations.\n* [Microsoft OneDrive:](/integrations/builtin/app-nodes/n8n-nodes-base.microsoftonedrive.md) Fixed a bug preventing more than 200 items from being returned.\n* [Spotify:](/integrations/builtin/app-nodes/n8n-nodes-base.spotify.md) Fixed a bug causing the execution to fail if there are more than 1000 search results, also fixed a bug preventing the Get New Releases operation of the Album resource from working as expected."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/sql-agent.md",
+  "index": 7,
+  "content": "### Ignored Tables\n\nIf you'd like the node to ignore any tables from the database, enter a comma-separated list of tables you'd like it to ignore.\n\nIf left empty, the agent doesn't ignore any tables."
+}

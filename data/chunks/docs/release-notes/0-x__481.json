@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 481,
+  "content": "### Bug fixes\n\n\n* [Function:](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) Fixed a bug leaving the code editor size unchanged after resizing the window.\n* [Function Item:](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) Fixed a bug leaving the code editor size unchanged after resizing the window.\n* [IF:](/integrations/builtin/core-nodes/n8n-nodes-base.if.md) Removed the empty sections left after removing a condition.\n* Item Lists: Fixed an erroneous placeholder text."
+}

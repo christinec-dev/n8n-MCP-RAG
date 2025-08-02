@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-mapping/data-mapping-expressions.md",
+  "index": 3,
+  "content": "## Access the linked item in a previous node's output\n\nWhen you use this, n8n works back up the item linking chain, to find the parent item in the given node.\n\n```js\n// Returns the linked item\n{{$(\"<node-name>\").item}}\n```\n\nAs a longer example, consider a scenario where a node earlier in the workflow has the following output data:\n\n```json\n[\n  {\n    \"id\": \"23423532\",\n    \"name\": \"Jay Gatsby\",\n  },\n  {\n    \"id\": \"23423533\",\n    \"name\": \"José Arcadio Buendía\",\n  },\n  {\n    \"id\": \"23423534\",\n    \"name\": \"Max Sendak\",\n  },\n  {\n    \"id\": \"23423535\",\n    \"name\": \"Zaphod Beeblebrox\",\n  },\n  {\n    \"id\": \"23423536\",\n    \"name\": \"Edmund Pevensie\",\n  }\n]\n```\n\nTo extract the name, use the following expression:\n\n```js\n{{$(\"<node-name>\").item.json.name}}\n```"
+}

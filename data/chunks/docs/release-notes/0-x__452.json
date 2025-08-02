@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 452,
+  "content": "### Core functionality\n\n- Added support for [Luxon](https://moment.github.io/luxon/#/) and [JMESPath](https://jmespath.org/).\n- Added two new expressions variables, `$now` and `$today`.\n- Added more negative operations for numbers and strings.\n- Added a link to the course from the help menu."
+}

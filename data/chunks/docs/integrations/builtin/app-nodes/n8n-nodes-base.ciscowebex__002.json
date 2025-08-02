@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.ciscowebex.md",
+  "index": 2,
+  "content": "# Webex by Cisco node\n\nUse the Webex by Cisco node to automate work in Webex, and integrate Webex with other applications. n8n has built-in support for a wide range of Webex features, including creating, getting, updating, and deleting meetings and messages.\n\nOn this page, you'll find a list of operations the Webex node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Webex credentials](/integrations/builtin/credentials/ciscowebex.md) for guidance on setting up authentication. \n///\n/// note | Examples and Templates\nFor usage examples and templates to help you get started, take a look at n8n's [Webex integrations](https://n8n.io/integrations/webex-by-cisco/) list.\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.emailimap.md",
+  "index": 5,
+  "content": "### Credential to connect with\n\nSelect or create an [IMAP credential](/integrations/builtin/credentials/imap/index.md) to connect to the server with."
+}

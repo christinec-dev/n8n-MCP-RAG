@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorezep.md",
+  "index": 10,
+  "content": "### Insert Documents parameters\n\n* **Collection Name**: Enter the collection name to store the data in.\n\n<!-- vale from-write-good.Weasel = NO -->"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.storyblok.md",
+  "index": 2,
+  "content": "# Storyblok node\n\nUse the Storyblok node to automate work in Storyblok, and integrate Storyblok with other applications. n8n has built-in support for a wide range of Storyblok features, including getting, deleting, and publishing stories. \n\nOn this page, you'll find a list of operations the Storyblok node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Storyblok credentials](/integrations/builtin/credentials/storyblok.md) for guidance on setting up authentication. \n///"
+}

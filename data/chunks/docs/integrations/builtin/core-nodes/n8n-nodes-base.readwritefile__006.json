@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md",
+  "index": 6,
+  "content": "## Write File to Disk\n\nConfigure this operation with these parameters:\n\n* **File Path and Name**: Enter the destination for the file, the file's name, and the file's extension.\n* **Input Binary Field**: Enter the name of the field in the node input data that will contain the binary file."
+}

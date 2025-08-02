@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/docker.md",
+  "index": 11,
+  "content": "# Find your container ID\ndocker ps -a"
+}

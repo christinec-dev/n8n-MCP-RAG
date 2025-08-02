@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/overview.md",
+  "index": 2,
+  "content": "# n8n Cloud\n\nn8n Cloud is n8n's hosted solution. It provides:\n\n- No technical set up or maintenance for your n8n instance\n- Continual uptime monitoring\n- Managed OAuth for authentication\n- One-click upgrades to the newest n8n versions\n\n[Sign up for n8n Cloud](https://www.n8n.io/)\n\n/// note | Russia and Belarus\nn8n Cloud isn't available in Russia and Belarus. Refer to this blog post: [Update on n8n cloud accounts in Russia and Belarus](https://blog.n8n.io/update-on-n8n-cloud-accounts-in-russia-and-belarus/) for more information.\n///"
+}

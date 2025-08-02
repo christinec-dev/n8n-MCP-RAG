@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/index.md",
+  "index": 3,
+  "content": "## Available courses\n\n- [Level 1: Beginner course](/courses/level-one/index.md)\n- [Level 2: Intermediate course](/courses/level-two/index.md)"
+}

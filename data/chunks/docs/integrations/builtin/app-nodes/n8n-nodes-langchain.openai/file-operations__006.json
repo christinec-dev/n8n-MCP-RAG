@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/file-operations.md",
+  "index": 6,
+  "content": "## Upload a File\n\nUse this operation to upload a file. This can be used across various operations. \n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [OpenAI credential](/integrations/builtin/credentials/openai.md).\n- **Resource**: Select **File**.\n- **Operation**: Select **Upload a File**.\n- **Input Data Field Name**: Defaults to `data`. Enter the name of the binary property which contains the file. The size of individual files can be a maximum of 512 MB or 2 million tokens for Assistants."
+}

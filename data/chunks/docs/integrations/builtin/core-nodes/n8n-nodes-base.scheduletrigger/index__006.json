@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/index.md",
+  "index": 6,
+  "content": "### Hours trigger interval\n\n* **Hours Between Triggers**: Enter the number of hours between each workflow trigger.\n* **Trigger at Minute**: Enter the minute past the hour to trigger the node when it runs, from `0` to `59`.\n\nFor example, if you enter `6` **Hours Between Triggers** and `30` **Trigger at Minute**, the node will run every six hours at 30 minutes past the hour."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.sendgrid.md",
+  "index": 2,
+  "content": "# SendGrid node\n\nUse the SendGrid node to automate work in SendGrid, and integrate SendGrid with other applications. n8n has built-in support for a wide range of SendGrid features, including creating, updating, deleting, and getting contacts, and lists, as well as sending emails. \n\nOn this page, you'll find a list of operations the SendGrid node supports and links to more resources.\n\n/// note | Credentials\nRefer to [SendGrid credentials](/integrations/builtin/credentials/sendgrid.md) for guidance on setting up authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

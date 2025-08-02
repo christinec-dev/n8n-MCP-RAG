@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.quickbooks.md",
+  "index": 3,
+  "content": "## Operations\n\n* Bill\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Customer\n    * Create\n    * Get\n    * Get All\n    * Update\n* Employee\n    * Create\n    * Get\n    * Get All\n    * Update\n* Estimate\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Send\n    * Update\n* Invoice\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Send\n    * Update\n    * Void\n* Item\n    * Get\n    * Get All\n* Payment\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Send\n    * Update\n    * Void\n* Purchase\n    * Get\n    * Get All\n* Transaction\n    * Get Report\n* Vendor\n    * Create\n    * Get\n    * Get All\n    * Update"
+}

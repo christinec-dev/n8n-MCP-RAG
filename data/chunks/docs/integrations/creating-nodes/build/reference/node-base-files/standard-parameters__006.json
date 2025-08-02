@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 6,
+  "content": "## `group`\n\n_Array of strings_ | _Required_\n\nTells n8n how the node behaves when the workflow runs. Options are:\n\n* `trigger`: node waits for a trigger.\n* `schedule`: node waits for a timer to expire.\n* `input`, `output`, `transform`: these currently have no effect.\n* An empty array, `[]`. Use this as the default option if you don't need `trigger` or `schedule`."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/rag-in-n8n.md",
+  "index": 7,
+  "content": "### Querying your data\n\nYou can query the data in two main ways: using an agent or directly through a node."
+}

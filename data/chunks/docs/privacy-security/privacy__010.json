@@ -1,0 +1,5 @@
+{
+  "source": "docs/privacy-security/privacy.md",
+  "index": 10,
+  "content": "### Data collection in n8n Cloud\n\nn8n Cloud collects everything listed in [Data collection in self-hosted n8n](#data-collection-in-self-hosted-n8n).\n\nAdditionally, in n8n Cloud, n8n uses [PostHog](https://posthog.com/) to track events and visualise usage, including using session recordings. Session recordings comprise the data seen by a user on screen, with the exception of credential values. n8n's product team uses this data to improve the product. All recordings are deleted after 21 days."
+}

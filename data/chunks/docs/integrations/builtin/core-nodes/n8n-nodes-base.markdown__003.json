@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.markdown.md",
+  "index": 3,
+  "content": "## Operations\n\nThis node's operations are **Modes**:\n\n* **Markdown to HTML**: Use this mode to convert from Markdown to HTML.\n* **HTML to Markdown**: Use this mode to convert from HTML to Markdown."
+}

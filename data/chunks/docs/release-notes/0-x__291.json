@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 291,
+  "content": "### Node enhancements\n\n* Gmail node: this release includes an overhaul of the [Gmail node](/integrations/builtin/app-nodes/n8n-nodes-base.gmail/index.md), with updated resources and operations.\n* Merge node: a major overhaul. Merge mode's have new names, and have been simplified. Refer to the [Merge node documentation](/integrations/builtin/core-nodes/n8n-nodes-base.merge.md) to learn more.\n* MongoDB node: updated the Mongo driver to 4.9.1."
+}

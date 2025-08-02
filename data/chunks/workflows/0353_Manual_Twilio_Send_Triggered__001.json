@@ -1,0 +1,13 @@
+{
+  "source": "0353_Manual_Twilio_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"1\",\n  \"name\": \"Send SMS to numbers stored in Airtable with Twilio\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Airtable\",\n      \"type\": \"n8n-nodes-base.airtable\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"table\": \"\",\n        \"operation\": \"list\",\n        \"application\": \"\",\n        \"additionalOptions\": {}\n      },\n      \"credentials\": {\n        \"airtableApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Twilio\",\n      \"type\": \"n8n-nodes-base.twilio\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"to\": \"={{$node[\\\"Airtable\\\"].json[\\\"fields\\\"][\\\"Number\\\"]}}\",\n        \"from\": \"\",\n        \"message\": \"=Hello, {{$node[\\\"Airtable\\\"].json[\\\"fields\\\"][\\\"Name\\\"]}}!\\nSending this SMS from n8n!\"\n      },\n      \"credentials\": {\n        \"twilioApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Twilio\": {\n      \"main\": [\n        []\n      ]\n    },\n    \"Airtable\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twilio\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Airtable\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.airtable",
+      "n8n-nodes-base.twilio"
+    ],
+    "trigger": null
+  }
+}

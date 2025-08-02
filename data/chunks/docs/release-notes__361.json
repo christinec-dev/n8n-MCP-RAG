@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 361,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### OpenAI node overhaul\n\nThis release includes a new version of the [OpenAI node](/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/index.md), adding more operations, including support for working with assistants.\n\n</div>\n\nOther highlights:\n\n* Support for AI events in [log streaming](/log-streaming.md).\n* Added support for workflow tags in the [public API](/api/index.md)."
+}

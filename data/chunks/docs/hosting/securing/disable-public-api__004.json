@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/disable-public-api.md",
+  "index": 4,
+  "content": "## Related resources\n\nRefer to [Deployment environment variables](/hosting/configuration/environment-variables/deployment.md) for more information on these environment variables.\n\nRefer to [Configuration](/hosting/configuration/configuration-methods.md) for more information on setting environment variables."
+}

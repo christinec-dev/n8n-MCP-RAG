@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.actionnetwork.md",
+  "index": 3,
+  "content": "## Operations\n\n* Attendance\n    * Create\n    * Get\n    * Get All\n* Event\n    * Create\n    * Get\n    * Get All\n* Person\n    * Create\n    * Get\n    * Get All\n    * Update\n* Person Tag\n    * Add\n    * Remove\n* Petition\n    * Create\n    * Get\n    * Get All\n    * Update\n* Signature\n    * Create\n    * Get\n    * Get All\n    * Update\n* Tag\n    * Create\n    * Get\n    * Get All"
+}

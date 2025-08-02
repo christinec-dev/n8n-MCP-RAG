@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.evaluation.md",
+  "index": 3,
+  "content": "## Operations\n\nThe Evaluation node offers the following operations:\n\n* [**Set Outputs**](#set-outputs): Write the results of an evaluation back to a Google Sheet dataset.\n* [**Set Metrics**](#set-metrics): Record metrics scoring the evaluation performance to n8n's **Evaluations** tab.\n* [**Check If Evaluating**](#check-if-evaluating): Branches the workflow execution logic depending on whether the current execution is an evaluation.\n\nThe parameters and options available depend on the operation you select."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.if.md",
+  "index": 2,
+  "content": "# If\n\nUse the If node to split a workflow conditionally based on comparison operations."
+}

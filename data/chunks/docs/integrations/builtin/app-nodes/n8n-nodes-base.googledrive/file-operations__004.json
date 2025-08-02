@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/file-operations.md",
+  "index": 4,
+  "content": "### Options\n\n- **Copy Requires Writer Permissions**: Select whether to enable readers and commenters to copy, print, or download the new file.\n- **Description**: A short description of the file.\n\nRefer to the [Method: files.copy | Google Drive](https://developers.google.com/drive/api/reference/rest/v2/files/copy) API documentation for more information."
+}

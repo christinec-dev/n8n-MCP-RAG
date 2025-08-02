@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/common-issues.md",
+  "index": 3,
+  "content": "## Bad request - please check your parameters\n\nThis error displays when the node receives a 400 error indicating a bad request. This error most often occurs because:\n\n* You're using an invalid name or value in a **Query Parameter**.\n* You're passing array values in a **Query Parameter** but the array isn't formatted correctly. Try using the [**Array Format in Query Parameters**](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md#array-format-in-query-parameters) option.\n\nReview the API documentation for your service to format your query parameters.\n\n<!-- vale off -->"
+}

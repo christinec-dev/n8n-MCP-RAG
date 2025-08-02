@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.4.md",
+  "index": 6,
+  "content": "## What's next?\n\n**Nathan 🙋**: You've already automated half of my work! Now I still need to calculate the booked orders for my colleagues. Can we automate that as well?\n\n**You 👩‍🔧**: Yes! In the next step, I'll use some JavaScript code in a node to calculate the booked orders."
+}

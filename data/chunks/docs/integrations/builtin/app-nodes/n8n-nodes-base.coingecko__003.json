@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.coingecko.md",
+  "index": 3,
+  "content": "## Operations\n\n* Coin\n    * Get a candlestick open-high-low-close chart for the selected currency\n    * Get current data for a coin\n    * Get all coins\n    * Get historical data (name, price, market, stats) at a given date for a coin\n    * Get prices and market related data for all trading pairs that match the selected currency\n    * Get historical market data include price, market cap, and 24h volume (granularity auto)\n    * Get the current price of any cryptocurrencies in any other supported currencies that you need\n    * Get coin tickers\n* Event\n    * Get all events"
+}

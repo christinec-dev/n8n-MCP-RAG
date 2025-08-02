@@ -1,0 +1,14 @@
+{
+  "source": "1205_Manual_Tapfiliate_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Tapfiliate2\",\n      \"type\": \"n8n-nodes-base.tapfiliate\",\n      \"position\": [\n        870,\n        300\n      ],\n      \"parameters\": {\n        \"resource\": \"programAffiliate\",\n        \"programId\": \"testing-program-5\",\n        \"affiliateId\": \"={{$node[\\\"Tapfiliate\\\"].json[\\\"id\\\"]}}\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"tapfiliateApi\": \"Tapfiliate API credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Tapfiliate1\",\n      \"type\": \"n8n-nodes-base.tapfiliate\",\n      \"position\": [\n        670,\n        300\n      ],\n      \"parameters\": {\n        \"resource\": \"affiliateMetadata\",\n        \"metadataUi\": {\n          \"metadataValues\": [\n            {\n              \"key\": \"tag\",\n              \"value\": \"n8n\"\n            }\n          ]\n        },\n        \"affiliateId\": \"={{$json[\\\"id\\\"]}}\"\n      },\n      \"credentials\": {\n        \"tapfiliateApi\": \"Tapfiliate API credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Tapfiliate\",\n      \"type\": \"n8n-nodes-base.tapfiliate\",\n      \"position\": [\n        470,\n        300\n      ],\n      \"parameters\": {\n        \"email\": \"n8ndocsburner@gmail.com\",\n        \"lastname\": \"Ryan\",\n        \"firstname\": \"Jack\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"tapfiliateApi\": \"Tapfiliate API credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        270,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Tapfiliate\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Tapfiliate1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Tapfiliate1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Tapfiliate2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Tapfiliate\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.tapfiliate",
+      "n8n-nodes-base.tapfiliate",
+      "n8n-nodes-base.tapfiliate",
+      "n8n-nodes-base.manualTrigger"
+    ],
+    "trigger": null
+  }
+}

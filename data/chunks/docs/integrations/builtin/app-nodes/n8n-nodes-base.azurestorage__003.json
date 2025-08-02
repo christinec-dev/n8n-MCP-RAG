@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.azurestorage.md",
+  "index": 3,
+  "content": "## Operations\n\n* **Blob**\n\t* **Create blob**: Create a new blob or replace an existing one.\n\t* **Delete blob**: Delete an existing blob.\n\t* **Get blob**: Retrieve data for a specific blob.\n\t* **Get many blobs**: Retrieve a list of blobs.\n* **Container**\n\t* **Create container**: Create a new container.\n\t* **Delete container**: Delete an existing container.\n\t* **Get container**: Retrieve data for a specific container.\n\t* **Get many containers**: Retrieve a list of containers."
+}

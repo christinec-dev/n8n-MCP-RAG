@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreweaviate.md",
+  "index": 10,
+  "content": "### Insert Documents parameters\n\n* **Weaviate Collection**: Enter the name of the Weaviate collection to use.\n* **Embedding Batch Size**: The number of documents to embed in a single batch. The default is 200 documents."
+}

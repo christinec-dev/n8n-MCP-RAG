@@ -1,0 +1,12 @@
+{
+  "source": "0949_Manual_Twilio_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"name\": \"A workflow with the Twilio node\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Twilio\",\n      \"type\": \"n8n-nodes-base.twilio\",\n      \"position\": [\n        430,\n        300\n      ],\n      \"parameters\": {},\n      \"credentials\": {\n        \"twilioApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twilio\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.twilio"
+    ],
+    "trigger": null
+  }
+}

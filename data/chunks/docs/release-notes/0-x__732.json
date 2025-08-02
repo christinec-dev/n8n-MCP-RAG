@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 732,
+  "content": "### Bug fixes\n\n* [Google Drive:](/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/index.md) Fixed an issue with the Drive resource\n* [Notion:](/integrations/builtin/app-nodes/n8n-nodes-base.notion/index.md) Fixed an issue with the filtering fields type and fixed an issue with the link option\n* [Switch:](/integrations/builtin/core-nodes/n8n-nodes-base.switch.md) Fixed an issue with the Expression mode"
+}

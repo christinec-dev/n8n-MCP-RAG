@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.uplead.md",
+  "index": 2,
+  "content": "# UpLead node\n\nUse the UpLead node to automate work in UpLead, and integrate UpLead with other applications. n8n supports several UpLead operations, including getting company information. \n\nOn this page, you'll find a list of operations the UpLead node supports and links to more resources.\n\n/// note | Credentials\nRefer to [UpLead credentials](/integrations/builtin/credentials/uplead.md) for guidance on setting up authentication. \n///"
+}

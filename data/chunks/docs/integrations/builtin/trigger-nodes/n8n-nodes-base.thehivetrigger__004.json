@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.thehivetrigger.md",
+  "index": 4,
+  "content": "## Related resources\n\nn8n provides an app node for TheHive. You can find the node docs [here](/integrations/builtin/app-nodes/n8n-nodes-base.thehive.md).\n\nView [example workflows and related content](https://n8n.io/integrations/thehive-trigger/) on n8n's website.\n\nRefer to TheHive's documentation for more information about the service:\n\n* [Version 3](https://docs.thehive-project.org/thehive/legacy/thehive3/api/)\n* [Version 4](https://docs.thehive-project.org/cortex/api/api-guide/)"
+}

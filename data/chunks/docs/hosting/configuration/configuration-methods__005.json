@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-methods.md",
+  "index": 5,
+  "content": "### Docker\n\nIn Docker you can use the `-e` flag from the command line:\n\n```bash\ndocker run -it --rm \\\n --name n8n \\\n -p 5678:5678 \\\n -e N8N_TEMPLATES_ENABLED=\"false\" \\\n docker.n8n.io/n8nio/n8n\n```"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.switch.md",
+  "index": 2,
+  "content": "# Switch\n\nUse the Switch node to route a workflow conditionally based on comparison operations. It's similar to the [IF](/integrations/builtin/core-nodes/n8n-nodes-base.if.md) node, but supports multiple output routes."
+}

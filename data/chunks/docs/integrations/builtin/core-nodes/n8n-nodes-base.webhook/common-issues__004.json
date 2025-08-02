@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/common-issues.md",
+  "index": 4,
+  "content": "## Use the HTTP Request node to trigger the Webhook node\n\nThe [HTTP Request](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) node makes HTTP requests to the URL you specify.\n\n1. Create a new workflow.\n2. Add the HTTP Request node to the workflow.\n3. Select a method from the **Request Method** dropdown list. For example, if you select GET as the **HTTP method** in your Webhook node, select GET as the request method in the HTTP Request node.\n4. Copy the URL from the Webhook node, and paste it in the **URL** field in the HTTP Request node.\n5. If using the test URL for the webhook node: execute the workflow with the Webhook node.\n6. Execute the HTTP Request node."
+}

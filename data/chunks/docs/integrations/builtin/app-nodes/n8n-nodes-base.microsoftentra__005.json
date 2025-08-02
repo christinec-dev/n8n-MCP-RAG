@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftentra.md",
+  "index": 5,
+  "content": "## Related resources\n\n<!-- vale from-microsoft.We = NO -->\nRefer to [Microsoft Entra ID's documentation](https://learn.microsoft.com/en-us/graph/api/resources/identity-network-access-overview?view=graph-rest-1.0) for more information about the service.\n<!-- vale from-microsoft.We = YES -->\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/operation-not-supported.md\""
+}

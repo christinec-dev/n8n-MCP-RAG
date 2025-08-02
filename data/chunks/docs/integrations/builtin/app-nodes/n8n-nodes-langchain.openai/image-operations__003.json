@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/image-operations.md",
+  "index": 3,
+  "content": "## Analyze Image\n\nUse this operation to take in images and answer questions about them.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [OpenAI credential](/integrations/builtin/credentials/openai.md).\n- **Resource**: Select **Image**.\n- **Operation**: Select **Analayze Image**.\n- **Model**: Select the model you want to use to generate an image. \n- **Text Input**: Ask a question about the image.\n- **Input Type**: Select how you'd like to input the image. Options include:\n    - **Image URL(s)**: Enter the **URL(s)** of the image(s) to analyze. Add multiple URLs in a comma-separated list.\n    - **Binary File(s)**: Enter the name of the binary property which contains the image(s) in the **Input Data Field Name**."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/error-handling.md",
+  "index": 4,
+  "content": "## Error data\n\n--8<-- \"_snippets/integrations/builtin/core-nodes/error-trigger/error-data.md\""
+}

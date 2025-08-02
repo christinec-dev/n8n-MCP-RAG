@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmollama/common-issues.md",
+  "index": 7,
+  "content": "### If only n8n is in Docker\n\nIf only n8n is running in Docker, configure Ollama to listen on all interfaces by binding to `0.0.0.0` on the host.\n\nIf you are running n8n in Docker on **Linux**, use the `--add-host` flag to map `host.docker.internal` to `host-gateway` when you start the container. For example:\n\n```shell\ndocker run -it --rm --add-host host.docker.internal:host-gateway --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n\n```\n\nIf you are using Docker Desktop, this is automatically configured for you.\n\nWhen configuring [Ollama credentials](/integrations/builtin/credentials/ollama.md), use `host.docker.internal` as the host address instead of `localhost`. For example, to bind to the default port 11434, you could set the base URL to `http://host.docker.internal:11434`."
+}

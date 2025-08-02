@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.phantombuster.md",
+  "index": 3,
+  "content": "## Operations\n\n* Agent\n    * Delete an agent by ID.\n    * Get an agent by ID.\n    * Get all agents of the current user's organization.\n    * Get the output of the most recent container of an agent.\n    * Add an agent to the launch queue."
+}

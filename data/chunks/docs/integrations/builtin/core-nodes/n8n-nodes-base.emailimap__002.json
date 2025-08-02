@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.emailimap.md",
+  "index": 2,
+  "content": "# Email Trigger (IMAP) node\n\nUse the IMAP Email node to receive emails using an IMAP email server. This node is a trigger node.\n\n/// note | Credential\nYou can find authentication information for this node [here](/integrations/builtin/credentials/imap/index.md).\n///"
+}

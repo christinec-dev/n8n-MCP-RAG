@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/security-audit.md",
+  "index": 6,
+  "content": "### n8n node\n\nAdd the [n8n node](/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md) to your workflow. Select **Resource** > **Audit** and **Operation** > **Generate**."
+}

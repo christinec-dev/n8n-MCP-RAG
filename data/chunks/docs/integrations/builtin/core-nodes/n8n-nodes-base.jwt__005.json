@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.jwt.md",
+  "index": 5,
+  "content": "## Payload Claims\n\nThe node only displays payload claims if you select the **Sign** operation. What you see depends on what you select for **Use JSON to Build Payload**:\n\n* If you select **Use JSON to Build Payload**, this section displays a JSON editor where you can construct the claims.\n* If you don't select **Use JSON to Build Payload**, this section prompts you to **Add Claim**.\n\nYou can add the following claims."
+}

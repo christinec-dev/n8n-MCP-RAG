@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/builtin/data-transformation-functions/numbers.md",
+  "index": 2,
+  "content": "# Numbers\n\nA reference document listing built-in convenience functions to support data transformation in [expressions](/glossary.md#expression-n8n) for numbers.\n\n/// note | JavaScript in expressions\nYou can use any JavaScript in expressions. Refer to [Expressions](/code/expressions.md) for more information.\n///\n[[% import \"_macros/data-functions.html\" as dataFunctions %]]\n\n[[% for func in df_number %]]\n[[ dataFunctions.dataFunctions(\"number\", func.funcName, func.returns, func.description, func.args, func.examples ) ]]\n[[% endfor %]]"
+}

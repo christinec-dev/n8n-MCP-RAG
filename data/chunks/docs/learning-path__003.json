@@ -1,0 +1,5 @@
+{
+  "source": "docs/learning-path.md",
+  "index": 3,
+  "content": "## Set up your n8n\n\nIf you don't have an account yet, sign up to a [free trial on n8n Cloud](https://app.n8n.cloud/register) or install n8n's community edition with [Docker](/hosting/installation/docker.md) (recommended) or [npm](/hosting/installation/npm.md). See [Choose your n8n](/choose-n8n.md) for more details."
+}

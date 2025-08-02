@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 28,
+  "content": "### workflows_tags\n\nMaps tags to workflows. [tag_entity](#tag_entity) contains tag details."
+}

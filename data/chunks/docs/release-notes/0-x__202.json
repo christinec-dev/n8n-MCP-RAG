@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 202,
+  "content": "### Bug fixes\n\n* Editor: Correctly display trigger nodes without actions and with related regular node in the \"On App Events\" category.\n* Fix stickies resize.\n* Hide trigger tooltip for nodes with static test output.\n* Keep expression when dropping mapped value.\n* Prevent keyboard shortcuts in expression editor modal.\n* Redirect home to workflows always.\n* Update mapping GIFs.\n* Upgrade amqplib to address CVE-2022-0686.\n* View option for binary-data shouldn't download the file on Chrome/Edge."
+}

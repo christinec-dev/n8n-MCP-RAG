@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.bamboohr.md",
+  "index": 3,
+  "content": "## Operations\n\n* Company Report\n    * Get a company report\n* Employee\n    * Create an employee\n    * Get an employee\n    * Get all employees\n    * Update an employee\n* Employee Document\n    * Delete an employee document\n    * Download an employee document\n    * Get all employee document\n    * Update an employee document\n    * Upload an employee document\n* File\n    * Delete a company file\n    * Download a company file\n    * Get all company files\n    * Update a company file\n    * Upload a company file"
+}

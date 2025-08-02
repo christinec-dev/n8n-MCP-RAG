@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 802,
+  "content": "## n8n@0.101.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.100.0...n8n@0.101.0) for this version.<br />\n**Release date:** 2021-01-07\n\n- New nodes\n- Google Analytics\n- PhantomBuster\n- Enhanced nodes\n- AWS: Added support for custom endpoints\n- Gmail: Added an option to send messages formatted as HTML\n- Philips Hue: Added Room/Group name to Light name to make it easier to identify lights\n- Slack: Added ephemeral message option\n- Telegram: Removed the Bot resource as the endpoint is no longer supported\n- Bug fixes\n- E-goi: Fixed the name of the node\n- Edit Image: Fixed an issue with the Border operation\n- HTTP Request: Fixed batch sizing to work when `batchSize = 1`\n- PayPal: Fixed a typo in the Environment field\n- Split In Batches: Fixed a typo in the description\n- Telegram: Fixed an issue with the Send Audio operation\n- Based on your settings, vacuum runs on SQLite on startup\n- Updated Axios to version `0.21.1`"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsmistralcloud.md",
+  "index": 6,
+  "content": "## Related resources\n\nRefer to [Langchain's Mistral embeddings documentation](https://js.langchain.com/docs/integrations/text_embedding/mistralai) for more information about the service.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-overview-link.md\"\n--8<-- \"_glossary/ai-glossary.md\""
+}

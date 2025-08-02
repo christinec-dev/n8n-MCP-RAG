@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 25,
+  "content": "### Add a dynamic hint to a programmatic-style node\n\nIn programmatic-style nodes you can create a dynamic message that includes information from the node execution. As it relies on the node output data, you can't display this type of hint until after execution.\n\n```ts\nif (operation === 'select' && items.length > 1 && !node.executeOnce) {\n    // Expects two parameters: NodeExecutionData and an array of hints\n\treturn new NodeExecutionOutput(\n\t\t[returnData],\n\t\t[\n\t\t\t{\n\t\t\t\tmessage: `This node ran ${items.length} times, once for each input item. To run for the first item only, enable <b>Execute once</b> in the node settings.`,\n\t\t\t\tlocation: 'outputPane',\n\t\t\t},\n\t\t],\n\t);\n}\nreturn [returnData];\n```\n\nFor a live example of a dynamic hint in a programmatic-style node, view the [Split Out node code](https://github.com/n8n-io/n8n/blob/master/packages/nodes-base/nodes/Transform/SplitOut/SplitOut.node.ts#L266)."
+}

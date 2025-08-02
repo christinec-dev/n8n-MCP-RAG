@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 322,
+  "content": "### Bug fixes\n\n* Core: fix a crash caused by parallel calls to test webhooks.\n* Core: fix an issue preventing static data being saved for poll triggers.\n* Public API: fix a pagination issue.\n* GitHub Trigger: typo fix."
+}

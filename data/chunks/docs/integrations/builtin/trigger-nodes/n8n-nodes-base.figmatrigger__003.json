@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.figmatrigger.md",
+  "index": 3,
+  "content": "## Events\n\n- **File Commented**: Triggers when someone comments on a file.\n- **File Deleted**: Triggers when someone deletes an individual file, but not when someone deletes an entire folder with all files.\n- **File Updated**: Triggers when someone saves or deletes a file. A save occurs when someone closes a file within 30 seconds after making changes.\n- **File Version Updated**: Triggers when someone creates a named version in the version history of a file.\n- **Library Publish**: Triggers when someone publishes a library file."
+}

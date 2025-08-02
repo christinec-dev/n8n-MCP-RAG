@@ -1,0 +1,5 @@
+{
+  "source": "docs/api/authentication.md",
+  "index": 5,
+  "content": "## Call the API using your key\n\nSend the API key in your API call as a header named `X-N8N-API-KEY`. \n\nFor example, say you want to get all active workflows. Your curl request will look like this:\n\n```shell"
+}

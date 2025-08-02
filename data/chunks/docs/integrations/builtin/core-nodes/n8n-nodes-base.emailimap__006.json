@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.emailimap.md",
+  "index": 6,
+  "content": "### Mailbox Name\n\nEnter the mailbox from which you want to receive emails."
+}

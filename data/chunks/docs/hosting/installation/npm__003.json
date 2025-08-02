@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/npm.md",
+  "index": 3,
+  "content": "## Try n8n with npx\n\nYou can try n8n without installing it using npx.\n\n\nFrom the terminal, run:\n\n```bash\nnpx n8n\n```\n\nThis command will download everything that's needed to start n8n. You can then access n8n and start building workflows by opening [http://localhost:5678](http://localhost:5678)."
+}

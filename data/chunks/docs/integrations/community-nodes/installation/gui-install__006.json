@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/installation/gui-install.md",
+  "index": 6,
+  "content": "### Upgrade to the latest version\n\nYou can upgrade community nodes to the latest version from the node list in **Settings** > **community nodes**.\n\nWhen a new version of a community node is available, n8n displays an **Update** button on the node. Click the button to upgrade to the latest version."
+}

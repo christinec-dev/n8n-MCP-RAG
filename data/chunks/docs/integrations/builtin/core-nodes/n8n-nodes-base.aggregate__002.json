@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.aggregate.md",
+  "index": 2,
+  "content": "# Aggregate\n\nUse the Aggregate node to take separate items, or portions of them, and group them together into individual items."
+}

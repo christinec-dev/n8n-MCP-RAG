@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreinmemory.md",
+  "index": 4,
+  "content": "### Vector store data isn't persistent\n\nThis node stores data in memory only. All data is lost when n8n restarts and may also be purged in low-memory conditions."
+}

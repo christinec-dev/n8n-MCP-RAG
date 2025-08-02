@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/managing-workflows.md",
+  "index": 3,
+  "content": "## Workflow per user\n\nThere are three general steps to follow:\n\n* Obtain the credentials for each user, and any additional parameters that may be required based on the workflow.\n* Create the [n8n credentials](/glossary.md#credential-n8n) for this user.\n* Create the workflow."
+}

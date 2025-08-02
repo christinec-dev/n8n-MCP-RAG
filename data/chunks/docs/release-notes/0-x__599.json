@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 599,
+  "content": "### New nodes\n\n* [Grist](/integrations/builtin/app-nodes/n8n-nodes-base.grist.md)\n* [SeaTable](/integrations/builtin/app-nodes/n8n-nodes-base.seatable.md)\n* [SeaTable Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.seatabletrigger.md)\n* [urlscan.io](/integrations/builtin/app-nodes/n8n-nodes-base.urlscanio.md)"
+}

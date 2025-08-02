@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 13,
+  "content": "## Assignment collection (drag and drop)\n\nUse the drag and drop component when you want users to pre-fill name and value parameters with a single drag interaction.\n\n```typescript\n{\n\tdisplayName: 'Fields to Set',\n\tname: 'assignments',\n\ttype: 'assignmentCollection',\n\tdefault: {},\n},\n```\n\nYou can see an example in n8n's [Edit Fields (Set) node](https://github.com/n8n-io/n8n/tree/0faeab1228e26d69a2a93bdb2f89523cca1e4036/packages/nodes-base/nodes/Set/v2):\n\n![A gif showing the drag and drop action, as well as changing a field to fixed](/_images/integrations/builtin/core-nodes/set/drag-drop-fixed-toggle.gif)"
+}

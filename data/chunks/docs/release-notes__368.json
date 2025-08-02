@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 368,
+  "content": "## n8n@1.27.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.26.0...n8n@1.27.0) for this version.<br />\n**Release date:** 2024-01-31\n\n/// warning | Breaking change\nThis release removes `own` mode for self-hosted n8n. You must now use `EXECUTIONS_MODE` and set to either `regular` or `queue`. Refer to [Queue mode](/hosting/scaling/queue-mode.md) for information on configuring queue mode.\n///\n\n/// note | Skip this release\nPlease upgrade directly to 1.27.1.\n///\n\nThis release contains node enhancements and bug fixes.\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.converttofile.md",
+  "index": 2,
+  "content": "# Convert to File\n\nUse the Convert to File node to take input data and output it as a file. This converts the input JSON data into a binary format.\n\n/// note | Extract From File\nTo extract data from a file and convert it to JSON, use the [Extract from File](/integrations/builtin/core-nodes/n8n-nodes-base.extractfromfile.md) node.\n///"
+}

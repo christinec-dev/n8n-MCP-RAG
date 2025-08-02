@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/common-issues.md",
+  "index": 7,
+  "content": "### Variables not working as expected\n\nWhile variables can be used in the scheduled trigger, their values only get evaluated when the workflow is activated. After activating the worfklow, you can alter a variable's value in the settings but it won't change how often the workflow runs. To work around this, you must stop and then re-activate the workflow to apply the updated variable value."
+}

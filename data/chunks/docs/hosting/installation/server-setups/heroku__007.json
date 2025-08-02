@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/heroku.md",
+  "index": 7,
+  "content": "### The Dockerfile\n\nBy default the Dockerfile pulls the latest n8n image, if you want to use a different or fixed version, then update the image tag on the top line of the `Dockerfile`."
+}

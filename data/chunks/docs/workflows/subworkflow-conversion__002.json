@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/subworkflow-conversion.md",
+  "index": 2,
+  "content": "# Sub-workflow conversion\n\n/// info | Feature availability\nAvailable on all plans from n8n version 1.97.0.\n///\n\nUse sub-workflow conversion to refactor your workflows into reusable parts. Expressions referencing other nodes are automatically updated and added as parameters in the [Execute Workflow Trigger](/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflowtrigger.md) node.\n\nSee [sub-workflows](/flow-logic/subworkflows.md) for a general introduction to the concept."
+}

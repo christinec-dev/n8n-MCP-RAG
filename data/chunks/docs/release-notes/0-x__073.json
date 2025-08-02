@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 73,
+  "content": "### Bug fixes\n\n* Core: Fix broken API permissions in public API.\n* Editor: Fix an issue that was preventing typing certain characters in the UI on devices with touchscreen."
+}

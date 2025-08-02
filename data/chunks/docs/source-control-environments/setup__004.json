@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/setup.md",
+  "index": 4,
+  "content": "## Step 1: Set up your repository and branches\n\nFor a new setup:\n\n1. Create a new repository for use with n8n. \n1. Create the branches you need. For example, if you plan to have different environments for test and production, set up a branch for each.\n\nTo help decide what branches you need for your use case, refer to [Branch patterns](/source-control-environments/understand/patterns.md)."
+}

@@ -1,0 +1,15 @@
+{
+  "source": "0358_HTTP_Discord_Monitor_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"1\",\n  \"name\": \"Website check\",\n  \"nodes\": [\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        400,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"\",\n        \"options\": {},\n        \"responseFormat\": \"string\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        550,\n        300\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"string\": [\n            {\n              \"value1\": \"={{$node[\\\"HTTP Request\\\"].json[\\\"data\\\"]}}\",\n              \"value2\": \"Out Of Stock\",\n              \"operation\": \"contains\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Discord\",\n      \"type\": \"n8n-nodes-base.discord\",\n      \"position\": [\n        700,\n        300\n      ],\n      \"parameters\": {\n        \"text\": \"value found\",\n        \"webhookUri\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Discord1\",\n      \"type\": \"n8n-nodes-base.discord\",\n      \"position\": [\n        700,\n        450\n      ],\n      \"parameters\": {\n        \"text\": \"value not found\",\n        \"webhookUri\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        210,\n        300\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"mode\": \"everyHour\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {\n    \"timezone\": \"America/Los_Angeles\"\n  },\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [],\n        [\n          {\n            \"node\": \"Discord1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"HTTP Request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.discord",
+      "n8n-nodes-base.discord",
+      "n8n-nodes-base.cron"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 5,
+  "content": "# Install prereq packages\nsudo apt-get update\nsudo apt-get install ca-certificates curl"
+}

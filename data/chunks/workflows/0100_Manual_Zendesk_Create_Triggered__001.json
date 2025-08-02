@@ -1,0 +1,12 @@
+{
+  "source": "0100_Manual_Zendesk_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"123\",\n  \"name\": \"Create a ticket in Zendesk\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Zendesk\",\n      \"type\": \"n8n-nodes-base.zendesk\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"description\": \"\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"zendeskApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Zendesk\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.zendesk"
+    ],
+    "trigger": null
+  }
+}

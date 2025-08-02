@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/index.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: n8n Integrations Documentation and Guides\ndescription: Access n8n integrations documentation and guides. Find comprehensive resources to help you master app integrations using different types of nodes to improve your automation workflows.\ncontentType: overview\nhide:\n  - feedback\n---"
+}

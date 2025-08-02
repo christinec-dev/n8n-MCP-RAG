@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/supported-databases-settings.md",
+  "index": 2,
+  "content": "# Supported databases\n\nBy default, n8n uses SQLite to save credentials, past executions, and workflows. n8n also supports PostgresDB."
+}

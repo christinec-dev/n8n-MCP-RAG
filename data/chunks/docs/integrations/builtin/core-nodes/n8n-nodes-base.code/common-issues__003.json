@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.code/common-issues.md",
+  "index": 3,
+  "content": "## Code doesn't return items properly\n<!-- vale on -->\n\nThis error occurs when the code in your Code node doesn't return data in the expected format.\n\nIn n8n, all data passed between nodes is an array of objects. Each of these objects wraps another object with the `json` key:\n\n```javascript\n[\n  {\n    \"json\": {\n\t  // your data goes here\n\t}\n  }\n]\n```\n\nTo troubleshoot this error, check the following:\n\n* Read the [data structure](/data/data-structure.md) to understand the data you receive in the Code node and the requirements for outputting data from the node.\n* Understand how data items work and how to connect data items from previous nodes with [item linking](/data/data-mapping/data-item-linking/index.md).\n\n<!-- vale off -->"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 386,
+  "content": "### Node enhancements\n\n* [RabbitMQ Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.rabbitmqtrigger.md): Made message acknowledgement and parallel processing configurable.\n* [ServiceNow node](/integrations/builtin/app-nodes/n8n-nodes-base.servicenow.md): Added support for attachments.\n* [Todoist node](/integrations/builtin/app-nodes/n8n-nodes-base.todoist.md): Added support for specifying the parent task when adding and listing tasks."
+}

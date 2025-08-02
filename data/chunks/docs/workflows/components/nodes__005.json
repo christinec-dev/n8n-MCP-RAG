@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/nodes.md",
+  "index": 5,
+  "content": "### Add a node to an existing workflow\n\nSelect the **Add node** <span class=\"inline-image\">![Add node icon](/_images/try-it-out/add-node-small.png){.off-glb}</span> connector. n8n opens the nodes panel, where you can search or browse all nodes.\n\n--8<-- \"_snippets/integrations/builtin/node-operations.md\""
+}

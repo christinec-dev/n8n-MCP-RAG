@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/verification-guidelines.md",
+  "index": 7,
+  "content": "## Follow n8n best practices\n\n* Maintain a clear and consistent coding style.\n* Use **TypeScript** and follow n8n's [**node development guidelines**](/integrations/creating-nodes/overview.md).\n* Ensure proper error handling and validation.\n* Make sure the linter passes (in other words, make sure running `npx @n8n/scan-community-package n8n-nodes-PACKAGE` passes)."
+}

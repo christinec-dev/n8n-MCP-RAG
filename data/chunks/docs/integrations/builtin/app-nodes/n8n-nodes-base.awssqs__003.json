@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.awssqs.md",
+  "index": 3,
+  "content": "## Operations\n\n* Send a message to a queue."
+}

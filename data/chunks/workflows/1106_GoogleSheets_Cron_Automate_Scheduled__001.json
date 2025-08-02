@@ -1,0 +1,14 @@
+{
+  "source": "1106_GoogleSheets_Cron_Automate_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Read Sheet\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"position\": [\n        700,\n        300\n      ],\n      \"parameters\": {\n        \"range\": \"Data!A:G\",\n        \"rawData\": true\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        500,\n        300\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"mode\": \"custom\",\n              \"cronExpression\": \"0 */2 * * * *\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Write Sheet 2\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"position\": [\n        900,\n        400\n      ],\n      \"parameters\": {\n        \"range\": \"={{$node[\\\"Read Sheet\\\"].parameter[\\\"range\\\"]}}\",\n        \"rawData\": true,\n        \"operation\": \"update\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Write Sheet 1\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"position\": [\n        900,\n        200\n      ],\n      \"parameters\": {\n        \"range\": \"={{$node[\\\"Read Sheet\\\"].parameter[\\\"range\\\"]}}\",\n        \"rawData\": true,\n        \"operation\": \"update\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Read Sheet\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Read Sheet\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Write Sheet 2\",\n            \"type\": \"main\",\n            \"index\": 0\n          },\n          {\n            \"node\": \"Write Sheet 1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.googleSheets",
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.googleSheets",
+      "n8n-nodes-base.googleSheets"
+    ],
+    "trigger": null
+  }
+}

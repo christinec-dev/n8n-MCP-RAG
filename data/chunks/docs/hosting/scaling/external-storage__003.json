@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/external-storage.md",
+  "index": 3,
+  "content": "## Storing n8n's binary data in S3\n\nn8n supports [AWS S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) as an external store for binary data produced by workflow executions. You can use other S3-compatible services like Cloudflare R2 and Backblaze B2, but n8n doesn't officially support these.\n\n/// info | Enterprise-tier feature\nYou will need an [Enterprise license key](/license-key.md) for external storage. If your license key expires and you remain on S3 mode, the instance will be able to read from, but not write to, the S3 bucket.\n///"
+}

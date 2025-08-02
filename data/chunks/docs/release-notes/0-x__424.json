@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 424,
+  "content": "### Node enhancements\n<br>\n[Magento 2 Node:](/integrations/builtin/app-nodes/n8n-nodes-base.magento2.md) Added credential tests.\n[PayPal Node:](/integrations/builtin/app-nodes/n8n-nodes-base.paypal.md) Added credential tests and updated the API URL."
+}

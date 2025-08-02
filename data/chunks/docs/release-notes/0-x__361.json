@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 361,
+  "content": "## n8n@0.183.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.182.1...n8n@0.183.0) for this version.<br />\n**Release date:** 2022-06-21\n\nThis release contains node enhancements and bug fixes, as well as an improved trigger nodes panel."
+}

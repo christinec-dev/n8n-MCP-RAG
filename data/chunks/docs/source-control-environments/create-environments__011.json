@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/create-environments.md",
+  "index": 11,
+  "content": "## Push work from development\n\nIn your development instance, create a few workflows, tags, variables, and credentials.\n\n--8<-- \"_snippets/source-control-environments/push.md\""
+}

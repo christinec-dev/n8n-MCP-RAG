@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/nodes.md",
+  "index": 4,
+  "content": "### Add a node to an empty workflow\n\n1. Select **Add first step**. n8n opens the nodes panel, where you can search or browse [trigger nodes](/glossary.md#trigger-node-n8n).\n2. Select the trigger you want to use.\n\n    /// note | Choose the correct app event\n\tIf you select **On App Event**, n8n shows a list of all the supported services. Use this list to browse n8n's integrations and trigger a workflow in response to an event in your chosen service. Not all integrations have triggers. To see which ones you can use as a trigger, select the node. If a trigger is available, you'll see it at the top of the available operations list.\n\n\tFor example, this is the trigger for Asana:\n\n\t![Screenshot of the Asana node operations list, showing the Recommended section at the top of the list](/_images/workflows/components/nodes/recommended-trigger.png)\n\t///"
+}

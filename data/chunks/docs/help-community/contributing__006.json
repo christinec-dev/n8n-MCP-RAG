@@ -1,0 +1,5 @@
+{
+  "source": "docs/help-community/contributing.md",
+  "index": 6,
+  "content": "## Build a node\n\nCreate an integration for a third party service. Check out [the node creation docs](/integrations/creating-nodes/overview.md) for guidance on how to create and publish a community node."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.2.md",
+  "index": 5,
+  "content": "## Test the Airtable node\n\nOnce you've finished configuring the Airtable node, execute it by selecting **Execute step**. This might take a moment to process, but you can follow the progress by viewing the base in Airtable.\n\nYour results should look like this:\n\n<figure><img src=\"/_images/courses/level-one/chapter-five/l1-c5-2-airtable-node.png\" alt=\"Airtable node results\" style=\"width:100%\"><figcaption align = \"center\"><i>Airtable node results</i></figcaption></figure>\n\nAll 30 data records will now appear in the orders table in Airtable:\n\n<figure><img src=\"/_images/courses/level-one/chapter-five/l1-c5-2-airtable-records.png\" alt=\"Imported records in the orders table\" style=\"width:100%\"><figcaption align = \"center\"><i>Imported records in the orders table</i></figcaption></figure>"
+}

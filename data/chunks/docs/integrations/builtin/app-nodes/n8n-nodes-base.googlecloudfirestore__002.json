@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudfirestore.md",
+  "index": 2,
+  "content": "# Google Cloud Firestore node\n\nUse the Google Cloud Firestore node to automate work in Google Cloud Firestore, and integrate Google Cloud Firestore with other applications. n8n has built-in support for a wide range of Google Cloud Firestore features, including creating, deleting, and getting documents. \n\nOn this page, you'll find a list of operations the Google Cloud Firestore node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Google credentials](/integrations/builtin/credentials/google/index.md) for guidance on setting up authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

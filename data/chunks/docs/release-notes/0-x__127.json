@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 127,
+  "content": "### New features\n\n* Add workflow and credential sharing access e2e tests.\n* Editor: add correct credential owner contact details for readonly credentials.\n* Editor: add most important native properties and methods to autocomplete.\n* Editor: update to personalization survey v4.\n* Update telemetry API endpoints."
+}

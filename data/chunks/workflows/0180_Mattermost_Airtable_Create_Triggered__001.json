@@ -1,0 +1,12 @@
+{
+  "source": "0180_Mattermost_Airtable_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"151\",\n  \"name\": \"Receive a Mattermost message when new data gets added to Airtable\",\n  \"nodes\": [\n    {\n      \"name\": \"Airtable Trigger\",\n      \"type\": \"n8n-nodes-base.airtableTrigger\",\n      \"position\": [\n        550,\n        340\n      ],\n      \"parameters\": {\n        \"baseId\": \"\",\n        \"tableId\": \"Data\",\n        \"pollTimes\": {\n          \"item\": [\n            {\n              \"mode\": \"everyMinute\"\n            }\n          ]\n        },\n        \"triggerField\": \"Created\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"airtableApi\": \"Airtable Credentials n8n\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mattermost\",\n      \"type\": \"n8n-nodes-base.mattermost\",\n      \"position\": [\n        750,\n        340\n      ],\n      \"parameters\": {\n        \"message\": \"=New Data was added to Airtable.\\nID:{{$node[\\\"Airtable Trigger\\\"].json[\\\"fields\\\"][\\\"id\\\"]}}\\nName: {{$node[\\\"Airtable Trigger\\\"].json[\\\"fields\\\"][\\\"name\\\"]}}\",\n        \"channelId\": \"\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"mattermostApi\": \"mattermost\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Airtable Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mattermost\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.airtableTrigger",
+      "n8n-nodes-base.mattermost"
+    ],
+    "trigger": "airtable trigger"
+  }
+}

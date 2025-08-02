@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 302,
+  "content": "### Bug fixes\n\n* CLI: only initialize the mailer if the connection can be verified.\n* Core: fix an issue with disabled parent outputs in partial executions.\n* Nodes: remove duplicate wrapping of paired item data."
+}

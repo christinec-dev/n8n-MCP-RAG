@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 22,
+  "content": "## Hints\n\nThere are two types of hints: parameter hints and node hints:\n\n* Parameter hints are small lines of text below a user input field.\n* Node hints are a more powerful and flexible option than [Notice](#notice). Use them to display longer hints, in the input panel, output panel, or node details view."
+}

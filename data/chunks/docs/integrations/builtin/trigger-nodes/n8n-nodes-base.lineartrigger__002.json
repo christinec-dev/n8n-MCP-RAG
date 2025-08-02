@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.lineartrigger.md",
+  "index": 2,
+  "content": "# Linear Trigger node\n\n[Linear](https://linear.app/) is a SaaS issue tracking tool.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/linear.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Linear Trigger integrations](https://n8n.io/integrations/linear-trigger/) page.\n///"
+}

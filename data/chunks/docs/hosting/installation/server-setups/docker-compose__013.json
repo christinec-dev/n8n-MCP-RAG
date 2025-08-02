@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 13,
+  "content": "# DOMAIN_NAME and SUBDOMAIN together determine where n8n will be reachable from"
+}

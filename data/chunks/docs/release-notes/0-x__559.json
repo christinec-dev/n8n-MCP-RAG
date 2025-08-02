@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 559,
+  "content": "### New nodes\n\n\n* [Dropcontact](/integrations/builtin/app-nodes/n8n-nodes-base.dropcontact.md)\n* [Respond to Webhook](/integrations/builtin/core-nodes/n8n-nodes-base.respondtowebhook.md)"
+}

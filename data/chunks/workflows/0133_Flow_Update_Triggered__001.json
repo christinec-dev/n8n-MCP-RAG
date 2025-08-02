@@ -1,0 +1,11 @@
+{
+  "source": "0133_Flow_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"133\",\n  \"name\": \"Receive updates for specified tasks in Flow\",\n  \"nodes\": [\n    {\n      \"name\": \"Flow Trigger\",\n      \"type\": \"n8n-nodes-base.flowTrigger\",\n      \"position\": [\n        650,\n        250\n      ],\n      \"parameters\": {\n        \"taskIds\": \"\",\n        \"resource\": \"task\"\n      },\n      \"credentials\": {\n        \"flowApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.flowTrigger"
+    ],
+    "trigger": "flow trigger"
+  }
+}

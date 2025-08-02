@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 486,
+  "content": "### Bug fixes\n\n\n* [XML:](/integrations/builtin/core-nodes/n8n-nodes-base.xml.md) Fixed a bug causing the node to alter incoming data."
+}

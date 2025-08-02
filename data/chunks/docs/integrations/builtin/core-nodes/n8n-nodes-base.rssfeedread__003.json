@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.rssfeedread.md",
+  "index": 3,
+  "content": "## Node parameters\n\n- **URL**: Enter the URL for the RSS publication you want to read."
+}

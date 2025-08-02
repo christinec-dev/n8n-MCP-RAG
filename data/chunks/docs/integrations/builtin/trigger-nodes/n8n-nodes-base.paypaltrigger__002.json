@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.paypaltrigger.md",
+  "index": 2,
+  "content": "# PayPal Trigger node\n\n[PayPal](https://paypal.com) is a digital payment service that supports online fund transfers that customers can use when shopping online.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/paypal.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [PayPal Trigger integrations](https://n8n.io/integrations/paypal-trigger/) page.\n///"
+}

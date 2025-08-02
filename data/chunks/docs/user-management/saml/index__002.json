@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/saml/index.md",
+  "index": 2,
+  "content": "# Security Assertion Markup Language (SAML)\n\n--8<-- \"_snippets/user-management/saml-overview.md\""
+}

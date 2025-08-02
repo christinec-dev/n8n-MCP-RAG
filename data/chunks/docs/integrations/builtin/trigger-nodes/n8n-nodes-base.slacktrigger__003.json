@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.slacktrigger.md",
+  "index": 3,
+  "content": "## Events\n\n* **Any Event**: The node triggers on any event in Slack.\n* **Bot / App Mention**: The node triggers when your bot or app is [mentioned](https://slack.com/help/articles/205240127-Use-mentions-in-Slack) in a channel the app is in.\n* **File Made Public**: The node triggers when a file is [made public](https://slack.com/help/articles/4412651915539-Manage-public-file-sharing).\n* **File Shared**: The node triggers when a file is [shared](https://slack.com/help/articles/201330736-Add-files-to-Slack) in a channel the app is in.\n* **New Message Posted to Channel**: The node triggers when a new message is posted to a channel the app is in.\n* **New Public Channel Created**: The node triggers when a new [public channel](https://slack.com/help/articles/360017938993-What-is-a-channel) is created.\n* **New User**: The node triggers when a new user is added to Slack.\n* **Reaction Added**: The node triggers when a [reaction](https://slack.com/help/articles/202931348-Use-emoji-and-reactions) is added to a message the app is added to."
+}

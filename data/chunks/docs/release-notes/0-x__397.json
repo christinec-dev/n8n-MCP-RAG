@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 397,
+  "content": "### Bug fixes\n\n* **core:** Fix call to `/executions-current` with unsaved workflow.\n* **core:** Fix issue with fixedCollection having all default values.\n* [Edit Image Node](/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md): Fix font selection.\n* [Ghost Node](/integrations/builtin/app-nodes/n8n-nodes-base.ghost.md): Fix post tags and add credential tests.\n* [Google Calendar Node](/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/index.md): Make it work with public calendars and clean up.\n* [KoBoToolbox Node](/integrations/builtin/app-nodes/n8n-nodes-base.kobotoolbox.md): Fix query and sort + use question name in attachments.\n* [Mailjet Trigger Node](/integrations/builtin/app-nodes/n8n-nodes-base.mailjet.md): Fix issue that node couldn't get activated.\n* [Pipedrive Node](/integrations/builtin/app-nodes/n8n-nodes-base.pipedrive.md): Fix resolve properties when using multi option field."
+}

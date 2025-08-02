@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/concurrency.md",
+  "index": 2,
+  "content": "# Cloud concurrency\n\n/// info | Only for n8n Cloud\nThis document discusses concurrency in n8n Cloud. Read [self-hosted n8n concurrency control](/hosting/scaling/concurrency-control.md) to learn how concurrency works with self-hosted n8n instances.\n///\n\nToo many concurrent executions can cause performance degradation and unresponsiveness. To prevent this and improve instance stability, n8n sets concurrency limits for production executions in regular mode.\n\nAny executions beyond the limits queue for later processing. These executions remain in the queue until concurrency capacity frees up, and are then processed in FIFO order."
+}

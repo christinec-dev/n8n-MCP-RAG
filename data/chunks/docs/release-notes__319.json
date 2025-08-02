@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 319,
+  "content": "## n8n@1.42.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.41.0...n8n@1.42.0) for this version.<br />\n**Release date:** 2024-05-15\n\n\n\nThis release contains new features, node enhancements, and bug fixes.\n\nNote that this release removes the AI error debugger. We're working on a new and improved version.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### New feature: Tools Agent\n\nThis release adds a new option to the Agent node: the [Tools Agent](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/tools-agent.md).\n\nThis agent has an enhanced ability to work with tools, and can ensure a standard output format. This is now the recommended default agent.\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

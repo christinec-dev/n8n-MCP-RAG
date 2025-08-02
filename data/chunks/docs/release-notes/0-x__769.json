@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 769,
+  "content": "### New nodes\n\n* [Google BigQuery](/integrations/builtin/app-nodes/n8n-nodes-base.googlebigquery.md)\n* [Webflow](/integrations/builtin/app-nodes/n8n-nodes-base.webflow.md)"
+}

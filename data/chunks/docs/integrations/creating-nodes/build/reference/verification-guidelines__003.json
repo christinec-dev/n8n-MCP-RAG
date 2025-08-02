@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/verification-guidelines.md",
+  "index": 3,
+  "content": "## Package source verification\n\n* Verify that your npm package repository URL matches the expected GitHub (or other platform) repository.\n* Confirm that the package author / maintainer matches between npm and the repository.\n* Confirm that the git link in npm works and that the repository is public.\n* Make sure your package has proper documentation (README, usage examples, etc.).\n* Make sure your package license is MIT."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolwikipedia.md",
+  "index": 2,
+  "content": "# Wikipedia node\n\nThe Wikipedia node is a [tool](/glossary.md#ai-tool) that allows an [agent](/glossary.md#ai-agent) to search and return information from Wikipedia.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

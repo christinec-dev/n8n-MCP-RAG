@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/user-folder.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: Specify user folder path\ndescription: Specify location of the folder that stores user-specific data. \ncontentType: howto\n---"
+}

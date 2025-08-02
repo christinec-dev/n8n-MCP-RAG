@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/google-cloud.md",
+  "index": 7,
+  "content": "## Create a cluster\n\nFrom the [GKE service page](https://console.cloud.google.com/kubernetes/list/overview), select **Clusters** > **CREATE**. Make sure you select the \"Standard\" cluster option, n8n doesn't work with an \"Autopilot\" cluster. You can leave the cluster configuration on defaults unless there's anything specifically you need to change, such as location."
+}

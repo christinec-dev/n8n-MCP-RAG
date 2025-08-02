@@ -1,0 +1,11 @@
+{
+  "source": "0967_Asana_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"47\",\n  \"name\": \"Receive updates when an event occurs in Asana\",\n  \"nodes\": [\n    {\n      \"name\": \"Asana-Trigger\",\n      \"type\": \"n8n-nodes-base.asanaTrigger\",\n      \"position\": [\n        1490,\n        860\n      ],\n      \"webhookId\": \"0de3b493-efb6-472c-9deb-80d28c89d28d\",\n      \"parameters\": {\n        \"resource\": \"Tweets\",\n        \"workspace\": \"Engineering\"\n      },\n      \"credentials\": {\n        \"asanaApi\": \"asana\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.asanaTrigger"
+    ],
+    "trigger": "asana-trigger"
+  }
+}

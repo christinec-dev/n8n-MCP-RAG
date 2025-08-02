@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 8,
+  "content": "## `defaults`\n\n_Object_ | _Required_\n\nContains essential brand and name settings.\n\nThe object can include:\n\n* `name`: String. Used as the node name on the canvas if the `displayName` is too long.\n* `color`: String. Hex color code. Provide the brand color of the integration for use in n8n."
+}

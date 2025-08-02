@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.limit.md",
+  "index": 4,
+  "content": "### Max Items\n\nEnter the maximum number of items that n8n should keep. If the input data contains more than this value, n8n removes the items."
+}

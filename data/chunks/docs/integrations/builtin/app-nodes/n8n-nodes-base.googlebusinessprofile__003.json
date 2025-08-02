@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlebusinessprofile.md",
+  "index": 3,
+  "content": "## Operations\n\n* Post\n\t* Create\n\t* Delete\n\t* Get\n\t* Get Many\n\t* Update\n* Review\n\t* Delete Reply\n\t* Get\n\t* Get Many\n\t* Reply"
+}

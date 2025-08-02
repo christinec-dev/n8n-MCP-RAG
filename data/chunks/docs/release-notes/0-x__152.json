@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 152,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### HTML node\n\nn8n has a new [HTML node](/integrations/builtin/core-nodes/n8n-nodes-base.html.md). This replaces the HTML Extract node, and adds new functionality to generate HTML templates.\n\n</div>"
+}

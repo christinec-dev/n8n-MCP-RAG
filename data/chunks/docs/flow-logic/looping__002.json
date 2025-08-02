@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/looping.md",
+  "index": 2,
+  "content": "# Looping in n8n\n\nLooping is useful when you want to process multiple items or perform an action repeatedly, such as sending a message to every contact in your address book. n8n handles this repetitive processing automatically, meaning you don't need to specifically build loops into your workflows. There are [some nodes](#node-exceptions) where this isn't true."
+}

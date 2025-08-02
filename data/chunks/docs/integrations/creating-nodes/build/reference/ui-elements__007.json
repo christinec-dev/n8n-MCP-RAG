@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 7,
+  "content": "## DateTime\n\nThe `dateTime` type provides a date picker.\n\n```typescript\n{\n\tdisplayName: 'Modified Since',\n\tname: 'modified_since',\n\ttype: 'dateTime',\n\tdefault: '',\n\tdescription: 'The date and time when the file was last modified',\n\tdisplayOptions: { // the resources and operations to display this element with\n\t\tshow: {\n\t\t\tresource: [\n\t\t\t\t// comma-separated list of resource names\n\t\t\t],\n\t\t\toperation: [\n\t\t\t\t// comma-separated list of operation names\n\t\t\t]\n\t\t}\n\t},\n}\n```\n\n![DateTime](/_images/integrations/creating-nodes/datetime.png)"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/index.md",
+  "index": 4,
+  "content": "## Sub-nodes\n\nEach root node can have one or more [sub-nodes](/glossary.md#sub-node-n8n) attached to it."
+}

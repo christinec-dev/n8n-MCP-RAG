@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 555,
+  "content": "### Core Functionality\n\n- Fixed an issue causing an error message to be thrown when executing a workflow through the CLI.\n- Improved expression security by limiting the available process properties.\n- Improved the behaviour of internal tests executed through the CLI.\n- Updated the owner of the node user's home directory in the custom docker image."
+}

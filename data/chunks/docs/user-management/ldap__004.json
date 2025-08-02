@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/ldap.md",
+  "index": 4,
+  "content": "## Merging n8n and LDAP accounts\n\nIf n8n finds matching accounts (matching emails) for email users and LDAP users, the user must sign in with their LDAP account. n8n instance owner accounts are excluded from this: n8n never converts owner accounts to LDAP users."
+}

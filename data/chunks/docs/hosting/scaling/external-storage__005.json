@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/external-storage.md",
+  "index": 5,
+  "content": "### Usage\n\nAfter you enable S3, n8n writes and reads any new binary data to and from the S3 bucket. n8n writes binary data to your S3 bucket in this format:\n\n```\nworkflows/{workflowId}/executions/{executionId}/binary_data/{binaryFileId}\n```\n\nn8n continues to read older binary data stored in the filesystem from the filesystem, if `filesystem` remains listed as an option in `N8N_AVAILABLE_BINARY_DATA_MODES`.\n\nIf you store binary data in S3 and later switch to filesystem mode, the instance continues to read any data stored in S3, as long as `s3` remains listed in `N8N_AVAILABLE_BINARY_DATA_MODES` and your S3 credentials remain valid.\n\n--8<-- \"_snippets/self-hosting/scaling/binary-data-pruning.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/1-0-migration-checklist.md",
+  "index": 8,
+  "content": "### EXECUTIONS_PROCESS and \"own\" mode\n\nPreviously, you could use the `EXECUTIONS_PROCESS` environment variable to specify whether executions should run in the `main` process or in their `own` processes. This option and `own` mode are now deprecated and will be removed in a future version of n8n. This is because it led to increased code complexity while offering marginal benefits. Starting from n8n 1.0, `main` will be the new default.\n\nNote that executions start much faster in `main` mode than in `own` mode. However, if a workflow consumes more memory than is available, it might crash the entire n8n application instead of just the worker thread. To mitigate this, make sure to allocate enough system resources or configure [queue mode](/hosting/scaling/queue-mode.md) to distribute executions among multiple workers.\n\n[PR #6196](https://github.com/n8n-io/n8n/pull/6196)"
+}

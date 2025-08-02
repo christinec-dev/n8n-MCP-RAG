@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 220,
+  "content": "### New node: Gong\n  \nThe new node for [Gong](/integrations/builtin/app-nodes/n8n-nodes-base.gong.md) allows you to get users and calls to process them further in n8n. Very useful for sales related workflows. \n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

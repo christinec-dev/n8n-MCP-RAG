@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 2,
+  "content": "# Date & Time\n\nThe Date & Time node manipulates date and time data and convert it to different formats.\n\n--8<-- \"_snippets/integrations/builtin/core-nodes/schedule/timezone-settings.md\"\n\n/// note | Date and time in other nodes\nYou can work with data and time in the Code node, and in expressions in any node. n8n supports Luxon to help work with date and time in JavaScript. Refer to [Date and time with Luxon](/code/cookbook/luxon.md) for more information.\n///"
+}

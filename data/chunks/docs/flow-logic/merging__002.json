@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/merging.md",
+  "index": 2,
+  "content": "# Merging data\n\nMerging brings multiple data streams together. You can achieve this using different nodes depending on your workflow requirements.\n\n- Merge data from different data streams or nodes: Use the [Merge](/integrations/builtin/core-nodes/n8n-nodes-base.merge.md) node to combine data from various sources into one.\n- Merge data from multiple node executions: Use the [Code](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) node for complex scenarios where you need to merge data from multiple executions of a node or multiple nodes. \n- Compare and merge data: Use the [Compare Datasets](/integrations/builtin/core-nodes/n8n-nodes-base.comparedatasets.md) node to compare, merge, and output data streams based on the comparison.\n\nExplore each method in more detail in the sections below."
+}

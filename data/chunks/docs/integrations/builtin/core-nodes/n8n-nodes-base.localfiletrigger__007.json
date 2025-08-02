@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.localfiletrigger.md",
+  "index": 7,
+  "content": "### Examples for Ignore\n\nIgnore a single file:\n\n```sh\n**/<fileName>.<suffix>"
+}

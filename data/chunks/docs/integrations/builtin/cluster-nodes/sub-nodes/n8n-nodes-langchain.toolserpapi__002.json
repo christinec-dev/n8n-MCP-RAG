@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolserpapi.md",
+  "index": 2,
+  "content": "# SerpApi (Google Search) node\n\nThe SerpAPI node allows an [agent](/glossary.md#ai-agent) in your workflow to call Google's Search API.\n\nOn this page, you'll find the node parameters for the SerpAPI node, and links to more resources.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/serp.md).\n///\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

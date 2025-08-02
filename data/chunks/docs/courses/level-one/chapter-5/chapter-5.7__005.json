@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.7.md",
+  "index": 5,
+  "content": "## Connect the Schedule Trigger node\n\nReturn to the canvas and connect your Schedule Trigger node to the HTTP Request node by dragging the arrow from it to the HTTP Request node.\n\nYour full workflow should look like this:\n\n[[ workflowDemo(\"file:////courses/level-one/finished.json\") ]]"
+}

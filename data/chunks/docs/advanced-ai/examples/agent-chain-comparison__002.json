@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/agent-chain-comparison.md",
+  "index": 2,
+  "content": "# Demonstration of key differences between agents and chains\n\nIn this workflow you can choose whether your chat query goes to an [agent](/glossary.md#ai-agent) or [chain](/glossary.md#ai-chain). It shows some of the ways that agents are more powerful than chains.\n\n[[ workflowDemo(\"file:///advanced-ai/examples/agents_vs_chains.json\") ]]"
+}

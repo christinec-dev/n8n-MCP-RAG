@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/execution-data.md",
+  "index": 16,
+  "content": "# Docker\ndocker run -it --rm \\\n --name n8n \\\n -p 5678:5678 \\\n -e EXECUTIONS_DATA_PRUNE=true \\\n -e EXECUTIONS_DATA_MAX_AGE=168 \\\n docker.n8n.io/n8nio/n8n\n```\n\n```yaml"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 189,
+  "content": "### New features\n\nEditor: pressing **=** in an empty parameter input switches to expression mode."
+}

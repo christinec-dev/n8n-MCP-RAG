@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 750,
+  "content": "### Bug fixes\n\n* [Google Cloud Firestore:](/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudfirestore.md) Fixed an issue with parsing null value\n* [Google Sheets:](/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/index.md) Fixed an issue with the Key Row parameter\n* [HubSpot:](/integrations/builtin/app-nodes/n8n-nodes-base.zohocrm.md) Fixed an issue with the authentication"
+}

@@ -1,0 +1,12 @@
+{
+  "source": "1125_Create.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Mock Data\",\n      \"type\": \"n8n-nodes-base.function\",\n      \"position\": [\n        802,\n        307\n      ],\n      \"parameters\": {\n        \"functionCode\": \"return [\\n  {\\n    json: {\\n      id: 1,\\n      name: \\\"Jim\\\"\\n    }\\n  },\\n  {\\n    json: {\\n      id: 2,\\n      name: \\\"Stefan\\\"\\n    }\\n  },\\n  {\\n    json: {\\n      id: 3,\\n      name: \\\"Hans\\\"\\n    }\\n  }\\n];\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Create an array of objects\",\n      \"type\": \"n8n-nodes-base.function\",\n      \"position\": [\n        1052,\n        307\n      ],\n      \"parameters\": {\n        \"functionCode\": \"return [\\n  {\\n    json: {\\n      data_object: items.map(item => item.json),\\n    },\\n  }\\n];\\n\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Mock Data\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Create an array of objects\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.function",
+      "n8n-nodes-base.function"
+    ],
+    "trigger": null
+  }
+}

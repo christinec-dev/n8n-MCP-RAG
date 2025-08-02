@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.lemlist.md",
+  "index": 3,
+  "content": "## Operations\n\n<!-- vale from-write-good.Weasel = NO -->\n<!-- vale from-write-good.TooWordy = NO -->\n* Activity\n    * Get Many: Get many activities\n* Campaign\n    * Get Many: Get many campaigns\n    * Get Stats: Get campaign stats\n* Enrichment\n\t* Get: Fetches a previously completed enrichment\n\t* Enrich Lead: Enrich a lead using an email or LinkedIn URL\n\t* Enrich Person: Enrich a person using an email or LinkedIn URL\n* Lead\n    * Create: Create a new lead\n    * Delete: Delete an existing lead\n    * Get: Get an existing lead\n    * Unsubscribe: Unsubscribe an existing lead\n* Team\n    * Get: Get an existing team\n\t* Get Credits: Get an existing team's credits\n* Unsubscribe\n    * Add: Add an email to an unsubscribe list\n    * Delete: Delete an email from an unsubscribe list\n    * Get Many: Get many unsubscribed emails\n<!-- vale from-write-good.TooWordy = YES -->\n<!-- vale from-write-good.Weasel = YES -->"
+}

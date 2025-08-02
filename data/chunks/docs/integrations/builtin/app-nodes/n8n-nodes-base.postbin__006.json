@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.postbin.md",
+  "index": 6,
+  "content": "## Create and manage bins\n\nYou can create and manage PostBin bins using the PostBin node. \n\n1. In **Resource**, select **Bin**.\n2. Choose an **Operation**. You can create, delete, or get a bin."
+}

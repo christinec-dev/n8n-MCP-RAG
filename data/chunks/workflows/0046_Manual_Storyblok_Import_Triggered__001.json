@@ -1,0 +1,13 @@
+{
+  "source": "0046_Manual_Storyblok_Import_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"110\",\n  \"name\": \"Get all the stories starting with `release` and publish them\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Storyblok\",\n      \"type\": \"n8n-nodes-base.storyblok\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"space\": 96940,\n        \"source\": \"managementApi\",\n        \"filters\": {\n          \"starts_with\": \"release\"\n        },\n        \"operation\": \"getAll\"\n      },\n      \"credentials\": {\n        \"storyblokManagementApi\": \"storyblok-tanay\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Storyblok1\",\n      \"type\": \"n8n-nodes-base.storyblok\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"space\": \"={{$node[\\\"Storyblok\\\"].parameter[\\\"space\\\"]}}\",\n        \"source\": \"managementApi\",\n        \"options\": {},\n        \"storyId\": \"={{$node[\\\"Storyblok\\\"].json[\\\"id\\\"]}}\",\n        \"operation\": \"publish\"\n      },\n      \"credentials\": {\n        \"storyblokManagementApi\": \"storyblok-tanay\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Storyblok\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Storyblok1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Storyblok\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.storyblok",
+      "n8n-nodes-base.storyblok"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md",
+  "index": 7,
+  "content": "### Write File to Disk options\n\nYou can also configure this operation with these **Options**:\n\nThis operation includes a single option, whether to **Append** data to an existing file instead of creating a new one (turned on) or to create a new file instead of appending to existing (turned off)."
+}

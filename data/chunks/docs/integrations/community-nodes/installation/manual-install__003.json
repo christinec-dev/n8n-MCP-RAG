@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/installation/manual-install.md",
+  "index": 3,
+  "content": "## Install a community node\n\nAccess your Docker shell:\n\n```sh\ndocker exec -it n8n sh\n```\n\nCreate `~/.n8n/nodes` if it doesn't already exist, and navigate into it:\n\n```sh\nmkdir ~/.n8n/nodes\ncd ~/.n8n/nodes\n```\n\nInstall the node:\n\n```sh\nnpm i n8n-nodes-nodeName\n```\nThen restart n8n."
+}

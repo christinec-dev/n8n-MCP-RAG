@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 578,
+  "content": "### Core Functionality\n\n- Changed `vm2` library version from `3.9.3` to `3.9.5`.\n- Fixed an issue with ignoring the response code.\n- Fixed an issue with overwriting credentials using environment variables.\n- Fixed an issue with using query strings combined with the `x-www-form-urlencoded` content type.\n- Introduced telemetry."
+}

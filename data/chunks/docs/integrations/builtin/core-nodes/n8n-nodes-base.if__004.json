@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.if.md",
+  "index": 4,
+  "content": "### Combining conditions\n\nYou can choose to keep data:\n\n* When it meets all conditions: Create two or more conditions and select **AND** in the dropdown between them.\n* When it meets any of the conditions: Create two or more conditions and select **OR** in the dropdown between them."
+}

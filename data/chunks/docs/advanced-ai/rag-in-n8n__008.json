@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/rag-in-n8n.md",
+  "index": 8,
+  "content": "### Using agents\n\n1. Add an [agent](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/index.md) to your workflow.\n2. Add the vector store as a **tool** and give it a **description** to help the agent understand when to use it:\n\t* Set the **limit** to define how many chunks to return.\n\t* Enable **Include Metadata** to provide extra context for each chunk.\n3. Add the same **embedding model** you used when inserting the data.\n\n/// tip | Pro tip\nTo save tokens on an expensive model, you can first use the [Vector Store Question Answer tool](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolvectorstore.md) to retrieve relevant data, and only then pass the result to the Agent. To see this in action, check out [this template](https://n8n.io/workflows/5011-save-costs-in-rag-workflows-using-the-qanda-tool-with-multiple-models).\n///"
+}

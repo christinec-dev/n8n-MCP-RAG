@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.postgres/index.md",
+  "index": 3,
+  "content": "## Operations\n\n* [**Delete**](#delete): Delete an entire table or rows in a table\n* [**Execute Query**](#execute-query): Execute an SQL query\n* [**Insert**](#insert): Insert rows in a table\n* [**Insert or Update**](#insert-or-update): Insert or update rows in a table\n* [**Select**](#select): Select rows from a table\n* [**Update**](#update): Update rows in a table"
+}

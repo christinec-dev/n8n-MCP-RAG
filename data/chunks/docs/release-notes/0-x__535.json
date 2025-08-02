@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 535,
+  "content": "### Bug fixes\n\n\n* [APITemplate.io:](/integrations/builtin/app-nodes/n8n-nodes-base.apitemplateio.md) Fixed a bug where the Create operation on the Image resource would fail when the Download option isn't enabled.\n* [HubSpot:](/integrations/builtin/app-nodes/n8n-nodes-base.hubspot.md) Fixed authentication for new HubSpot applications by using granular scopes when authenticating against the HubSpot OAuth2 API.\n* [HubSpot Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.hubspottrigger.md) Fixed authentication for new HubSpot applications by using granular scopes when authenticating against the HubSpot Developer API.\n* [Jira Software:](/integrations/builtin/app-nodes/n8n-nodes-base.jira.md) Fixed an issue where the Reporter field would not work as expected on Jira Server instances.\n* [Salesforce:](/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md) Fixed a typo preventing the value in the amount field of from being saved."
+}

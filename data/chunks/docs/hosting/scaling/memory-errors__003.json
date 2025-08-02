@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/memory-errors.md",
+  "index": 3,
+  "content": "## Identifying out of memory situations\n\nn8n provides error messages that warn you in some out of memory situations. For example, messages such as **Execution stopped at this node (n8n may have run out of memory while executing it)**.\n\nError messages including **Problem running workflow**, **Connection Lost**, or **503 Service Temporarily Unavailable** suggest that an n8n instance has become unavailable. \n\nWhen self-hosting n8n, you may also see error messages such as **Allocation failed - JavaScript heap out of memory** in your server logs. \n\nOn n8n Cloud, or when using n8n's Docker image, n8n restarts automatically when encountering such an issue. However, when running n8n with npm you might need to restart it manually."
+}

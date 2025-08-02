@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 534,
+  "content": "### Core Functionality\n\n- Added frontend for value surveys\n- Fixed an issue preventing the recommendation logic from working as expected after selecting a work area\n- Fixed an issue where a wrong exit code was sent when running n8n on an unsupported version of Node.js\n- Fixed an issue where node options would disappear on hovering when a node isn't selected\n- Fixed an issue where the execution id was missing when running n8n in queue mode\n- Fixed an issue where execution data was missing when waiting for a webhook in queue mode\n- Improved error handling when the n8n port is already in use\n- Improved diagnostic events\n- Removed toast notification on webhook deletion, added toast notification after node is copied\n- Removed default trigger tooltip for polling trigger nodes"
+}

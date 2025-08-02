@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.matrix.md",
+  "index": 3,
+  "content": "## Operations\n\n* Account\n    * Get current user's account information\n* Event\n    * Get single event by ID\n* Media\n    * Send media to a chat room\n* Message\n    * Send a message to a room\n    * Gets all messages from a room\n* Room\n    * New chat room with defined settings\n    * Invite a user to a room\n    * Join a new room\n    * Kick a user from a room\n    * Leave a room\n* Room Member\n    * Get all members"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlebooks.md",
+  "index": 3,
+  "content": "## Operations\n\n* Bookshelf\n    * Retrieve a specific bookshelf resource for the specified user\n    * Get all public bookshelf resource for the specified user\n* Bookshelf Volume\n    * Add a volume to a bookshelf\n    * Clears all volumes from a bookshelf\n    * Get all volumes in a specific bookshelf for the specified user\n    * Moves a volume within a bookshelf\n    * Removes a volume from a bookshelf\n* Volume\n    * Get a volume resource based on ID\n    * Get all volumes filtered by query"
+}

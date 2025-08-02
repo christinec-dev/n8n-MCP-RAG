@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.totp.md",
+  "index": 3,
+  "content": "## Node parameters\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\"\n\nConfigure this node with these parameters."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/custom-certificate-authority.md",
+  "index": 5,
+  "content": "### Docker Compose\n\n```yaml\nname: n8n\nservices:\n    n8n:\n        volumes:\n            - ./pki:/opt/custom-certificates\n        container_name: n8n\n        ports:\n            - 5678:5678\n        image: docker.n8n.io/n8nio/n8n\n```\n\nYou should also give the right permissions to the imported certs. You can do this once the container is running (assuming n8n as the container name):\n\n```bash\ndocker exec --user 0 n8n chown -R 1000:1000 /opt/custom-certificates\n```"
+}

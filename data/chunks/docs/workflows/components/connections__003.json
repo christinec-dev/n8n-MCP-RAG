@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/connections.md",
+  "index": 3,
+  "content": "## Create a connection\n\nTo create a connection between two nodes, select the grey dot or **Add node** <span class=\"inline-image\">![Add node icon](/_images/try-it-out/add-node-small.png){.off-glb}</span> on the right side of a node and slide the arrow to the grey rectangle on the left side of the following node."
+}

@@ -1,0 +1,12 @@
+{
+  "source": "1011_Manual_Xero_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Xero\",\n      \"type\": \"n8n-nodes-base.xero\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"operation\": \"getAll\",\n        \"organizationId\": \"ab7e9014-5d01-418f-a64c-dbb6bf5ba2ea\"\n      },\n      \"credentials\": {\n        \"xeroOAuth2Api\": \"n8n_xero\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Xero\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.xero"
+    ],
+    "trigger": null
+  }
+}

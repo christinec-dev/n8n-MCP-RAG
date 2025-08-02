@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.code/keyboard-shortcuts.md",
+  "index": 9,
+  "content": "## Indentation\n\n=== \"Windows\"\n\n    | Action      | Shortcut                                      |\n    |-------------|-----------------------------------------------|\n    | Indent more | ++tab++ **or** ++control+bracket-right++      |\n    | Indent less | ++shift+tab++ **or** ++control+bracket-left++ |\n\n=== \"macOS\"\n\n    | Action      | Shortcut                  |\n    |-------------|---------------------------|\n    | Indent more | ++command+bracket-right++ |\n    | Indent less | ++command+bracket-left++  |\n\n=== \"Linux\"\n\n    | Action      | Shortcut                                      |\n    |-------------|-----------------------------------------------|\n    | Indent more | ++tab++ **or** ++control+bracket-right++      |\n    | Indent less | ++shift+tab++ **or** ++control+bracket-left++ |"
+}

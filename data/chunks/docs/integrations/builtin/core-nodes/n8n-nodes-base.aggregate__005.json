@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.aggregate.md",
+  "index": 5,
+  "content": "### All Item Data\n\n* **Put Output in Field**: Enter the name of the field to output the data in.\n* **Include**: Select which fields to include in the output. Choose from:\n\t* **All fields**: The output includes data from all fields with no further parameters.\n\t* **Specified Fields**: If you select this option, enter a comma-separated list of fields the output should include data from in the **Fields To Include** parameter. The output will include only the fields in this list.\n\t* **All Fields Except**: If you select this option, enter a comma-separated list of fields the output should exclude data from in the **Fields To Exclude** parameter. The output will include all fields not in this list.\n\nRefer to [Node options](#node-options) for more configuration options."
+}

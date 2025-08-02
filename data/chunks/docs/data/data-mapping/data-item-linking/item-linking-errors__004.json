@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-mapping/data-item-linking/item-linking-errors.md",
+  "index": 4,
+  "content": "### Fix for 'Multiple matching items for expression'\n\nThis is the error message:\n\n> ERROR: Multiple matching items for expression\n\nSometimes n8n uses multiple items to create a single item. Examples include the Summarize, Aggregate, and Merge nodes. These nodes can combine information from multiple items.\n\nWhen you use `.item` and there are multiple possible matches, n8n doesn't know which one to use. To solve this you can either:\n\n- Use `.first()`, `.last()` or `.all()[index]` instead. Refer to [Built in methods and variables | Output of other nodes](/code/builtin/output-other-nodes.md) for more detail on these methods.\n- Reference a different node that contains the same information, but doesn't have multiple matching items."
+}

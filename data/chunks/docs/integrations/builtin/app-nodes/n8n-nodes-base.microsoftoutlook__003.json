@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftoutlook.md",
+  "index": 3,
+  "content": "## Operations\n\n* Calendar\n\t* Create\n\t* Delete\n\t* Get\n\t* Get Many\n\t* Update\n* Contact\n\t* Create\n\t* Delete\n\t* Get\n\t* Get Many\n\t* Update\n* Draft\n\t* Create\n\t* Delete\n\t* Get\n\t* Send\n\t* Update\n* Event\n\t* Create\n\t* Delete\n\t* Get\n\t* Get Many\n\t* Update\n* Folder\n\t* Create\n\t* Delete\n\t* Get\n\t* Get Many\n\t* Update\n* Folder Message\n    * Get Many\n* Message\n\t* Delete\n\t* Get\n\t* Get Many\n\t* Move\n\t* Reply\n\t* Send\n\t* Send and Wait for Response\n\t* Update\n* Message Attachment\n\t* Add\n\t* Download\n\t* Get\n\t* Get Many\n\n--8<-- \"_snippets/integrations/builtin/send-and-wait-operation.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-editing.md",
+  "index": 3,
+  "content": "## Edit output data\n\nTo edit output data:\n\n1. Run the node to load data.\n2. In the **OUTPUT** view, select **JSON** to switch to JSON view.\n3. Select **Edit** <span class=\"inline-image\">![Edit data icon](/_images/data/data-pinning/edit-data.png){.off-glb}</span>.\n4. Edit your data.\n5. Select **Save**. n8n saves your data changes and pins your data."
+}

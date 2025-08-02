@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 8,
+  "content": "### Create parameters\n\n* **Property Name**: Enter the name of the binary property that stores the image data.\n* **Background Color**: Set the background color for the image. You can either enter a hex or select the color swatch to open a color picker.\n* **Image Width**: Enter the width of the image.\n* **Image Height**: Enter the height of the image.\n\nRefer to [Node options](#node-options) for optional configuration options."
+}

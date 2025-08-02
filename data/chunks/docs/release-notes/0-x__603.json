@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 603,
+  "content": "### New nodes\n\n* [Splunk](/integrations/builtin/app-nodes/n8n-nodes-base.splunk.md)"
+}

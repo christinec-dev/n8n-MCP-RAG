@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/white-labelling.md",
+  "index": 3,
+  "content": "## Prerequisites\n\nYou need the following installed on your development machine:\n\n--8<-- \"_snippets/integrations/creating-nodes/prerequisites.md\"\n\nCreate a fork of [n8n's repository](https://github.com/n8n-io/n8n) and clone your new repository.\n\n```shell\ngit clone https://github.com/<your-organization>/n8n.git n8n\ncd n8n\n```\n\nInstall all dependencies, build and start n8n.\n\n```shell\nnpm install\nnpm run build\nnpm run start\n```\n\nWhenever you make changes you need to rebuild and restart n8n. While developing you can use `npm run dev` to automatically rebuild and restart n8n anytime you make code changes."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreqdrant.md",
+  "index": 12,
+  "content": "### Retrieve Documents (As Vector Store for Chain/Tool) parameters\n\n* **Qdrant Collection**: Enter the name of the Qdrant collection to use.\n\nThis Operation Mode includes one **Node option**, the [Metadata Filter](#metadata-filter)."
+}

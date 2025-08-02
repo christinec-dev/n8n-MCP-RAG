@@ -1,0 +1,16 @@
+{
+  "source": "0262_Typeform_Spreadsheetfile_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Typeform Trigger\",\n      \"type\": \"n8n-nodes-base.typeformTrigger\",\n      \"position\": [\n        500,\n        520\n      ],\n      \"parameters\": {\n        \"formId\": \"\"\n      },\n      \"credentials\": {\n        \"typeformApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NextCloud\",\n      \"type\": \"n8n-nodes-base.nextCloud\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"path\": \"examples/Problems.xls\",\n        \"operation\": \"download\"\n      },\n      \"credentials\": {\n        \"nextCloudApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Spreadsheet File\",\n      \"type\": \"n8n-nodes-base.spreadsheetFile\",\n      \"position\": [\n        800,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Merge\",\n      \"type\": \"n8n-nodes-base.merge\",\n      \"position\": [\n        1000,\n        470\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Spreadsheet File1\",\n      \"type\": \"n8n-nodes-base.spreadsheetFile\",\n      \"position\": [\n        1150,\n        470\n      ],\n      \"parameters\": {\n        \"operation\": \"toFile\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NextCloud1\",\n      \"type\": \"n8n-nodes-base.nextCloud\",\n      \"position\": [\n        1300,\n        470\n      ],\n      \"parameters\": {\n        \"path\": \"={{$node[\\\"NextCloud\\\"].parameter[\\\"path\\\"]}}\",\n        \"binaryDataUpload\": true\n      },\n      \"credentials\": {\n        \"nextCloudApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Merge\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Spreadsheet File1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"NextCloud\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Spreadsheet File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Spreadsheet File\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Merge\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Typeform Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Merge\",\n            \"type\": \"main\",\n            \"index\": 1\n          }\n        ]\n      ]\n    },\n    \"Spreadsheet File1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"NextCloud1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.typeformTrigger",
+      "n8n-nodes-base.nextCloud",
+      "n8n-nodes-base.spreadsheetFile",
+      "n8n-nodes-base.merge",
+      "n8n-nodes-base.spreadsheetFile",
+      "n8n-nodes-base.nextCloud"
+    ],
+    "trigger": "typeform trigger"
+  }
+}

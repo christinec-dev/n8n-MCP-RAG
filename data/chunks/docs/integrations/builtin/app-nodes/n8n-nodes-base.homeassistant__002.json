@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.homeassistant.md",
+  "index": 2,
+  "content": "# Home Assistant node\n\nUse the Home Assistant node to automate work in Home Assistant, and integrate Home Assistant with other applications. n8n has built-in support for a wide range of Home Assistant features, including getting, creating, and checking camera proxies, configurations, logs, services, and templates. \n\nOn this page, you'll find a list of operations the Home Assistant node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Home Assistant credentials](/integrations/builtin/credentials/homeassistant.md) for guidance on setting up authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

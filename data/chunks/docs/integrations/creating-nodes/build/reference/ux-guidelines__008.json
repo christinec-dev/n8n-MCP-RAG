@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 8,
+  "content": "### Consistency with other nodes\n\n* Maintain UX consistency: n8n tries to keep its UX consistent. This means following existing UX patterns, in particular, those used in the latest new or overhauled nodes.\n* Check similar nodes: For example, if you're working on a database node, it's worth checking the Postgres node."
+}

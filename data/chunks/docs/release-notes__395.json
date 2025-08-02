@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 395,
+  "content": "## n8n@1.19.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.18.0...n8n@1.19.0) for this version.<br />\n**Release date:** 2023-11-29\n\n/// note | Upgrade directly to 1.19.4\nDue to issues with this release, upgrade directly to 1.19.4.\n///\n\nThis release contains new features, node enhancements, and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### LangChain general availability\n\nThis release adds LangChain support to the main n8n version. Refer to [LangChain](/advanced-ai/langchain/overview.md) for more information on how to build AI tools in n8n, the new nodes n8n has introduced, and related learning resources.\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Show avatars of users working on the same workflow\n\nThis release improves the experience of users collaborating on workflows. You can now see who else is editing at the same time as you.\n\n</div>"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-methods.md",
+  "index": 11,
+  "content": "# Note that setting scope (Process, User, Machine) has no effect on Unix systems\n[Environment]::SetEnvironmentVariable('N8N_CONFIG_FILES', '<path-to-config>\\config.json', 'User')\n```\n\nExample file:\n\n```json\n{\n \"executions\": {\n  \"saveDataOnSuccess\": \"none\"\n },\n \"generic\": {\n  \"timezone\": \"Europe/Berlin\"\n },\n \"nodes\": {\n  \"exclude\": \"[\\\"n8n-nodes-base.executeCommand\\\",\\\"n8n-nodes-base.writeBinaryFile\\\"]\"\n }\n}\n```\n\n/// note | Formatting as JSON\nYou can't always work out the correct JSON from the [Environment variables reference](/hosting/configuration/environment-variables/index.md). For example, to set `N8N_METRICS` to `true`, you need to do:\n\n```json\n{\n\t\"endpoints\": {\n\t\t\"metrics\": {\n\t\t\t\"enable\": true\n\t\t}\n\t}\n}\n```\n\nRefer to the [Schema file in the source code](https://github.com/n8n-io/n8n/blob/master/packages/cli/src/config/schema.ts) for full details of the expected settings.\n///"
+}

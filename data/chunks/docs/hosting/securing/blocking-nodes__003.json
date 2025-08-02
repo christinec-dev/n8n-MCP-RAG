@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/blocking-nodes.md",
+  "index": 3,
+  "content": "## Exclude nodes\n\nUpdate your `NODES_EXCLUDE` environment variable to include an array of strings containing any nodes you want to block your users from using.\n\nFor example, setting the variable this way:\n\n```\nNODES_EXCLUDE: \"[\\\"n8n-nodes-base.executeCommand\\\", \\\"n8n-nodes-base.readWriteFile\\\"]\"\n```\n\nBlocks the [Execute Command](/integrations/builtin/core-nodes/n8n-nodes-base.executecommand/index.md) and [Read/Write Files from Disk](/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md) nodes.\n\nYour n8n users won't be able to search for or use these nodes."
+}

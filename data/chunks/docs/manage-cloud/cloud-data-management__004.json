@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/cloud-data-management.md",
+  "index": 4,
+  "content": "## How to reduce memory consumption in your workflow\n\nThe way you build workflows affects how much data they consume when executed. Although these guidelines aren't applicable to all cases, they provide a baseline of best practices to avoid exceeding instance memory.\n\n--8<-- \"_snippets/self-hosting/scaling/reduce-memory-consumption.md\"\n\nNote that n8n itself consumes memory to run. On average, the software alone uses around 180MiB RAM.\n\nInteractions with the UI also consume memory. Playing around with the workflow UI while it performs heavy executions could also push the memory capacity over the limit."
+}

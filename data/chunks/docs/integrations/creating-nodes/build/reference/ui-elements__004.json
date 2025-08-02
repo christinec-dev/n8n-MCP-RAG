@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 4,
+  "content": "### Support drag and drop for data keys\n\nUsers can drag and drop data values to map them to fields. Dragging and dropping creates an [expression](/glossary.md#expression-n8n) to load the data value. n8n supports this automatically.\n\nYou need to add an extra configuration option to support dragging and dropping data keys:\n\n* `requiresDataPath: 'single'`: for fields that require a single string.\n* `requiresDataPath: 'multiple'`: for fields that can accept a comma-separated list of string.\n\nThe [Compare Datasets node code](https://github.com/n8n-io/n8n/blob/master/packages/nodes-base/nodes/CompareDatasets/CompareDatasets.node.ts) has examples."
+}

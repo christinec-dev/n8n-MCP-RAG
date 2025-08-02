@@ -1,0 +1,13 @@
+{
+  "source": "0103_Netlify_Airtable_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Netlify Trigger\",\n      \"type\": \"n8n-nodes-base.netlifyTrigger\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"webhookId\": \"df7efc17-09bb-4409-9f6f-09bd5e59546e\",\n      \"parameters\": {\n        \"event\": \"submissionCreated\",\n        \"formId\": \"615ad58f9f491e00070abac5\",\n        \"siteId\": \"b585059c-a19a-487c-831f-c57af6f13bd1\"\n      },\n      \"credentials\": {\n        \"netlifyApi\": \"Netlify account\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"Name\",\n              \"value\": \"={{$json[\\\"name\\\"]}}\"\n            },\n            {\n              \"name\": \"Email\",\n              \"value\": \"={{$json[\\\"email\\\"]}}\"\n            },\n            {\n              \"name\": \"Role\",\n              \"value\": \"={{$json[\\\"role\\\"][0]}}\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Airtable\",\n      \"type\": \"n8n-nodes-base.airtable\",\n      \"position\": [\n        850,\n        300\n      ],\n      \"parameters\": {\n        \"table\": \"Table 1\",\n        \"options\": {},\n        \"operation\": \"append\",\n        \"application\": \"apphwBsFxzjDPDBA8\"\n      },\n      \"credentials\": {\n        \"airtableApi\": \"Airtable Credentials @n8n\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Airtable\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Netlify Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.netlifyTrigger",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.airtable"
+    ],
+    "trigger": "netlify trigger"
+  }
+}

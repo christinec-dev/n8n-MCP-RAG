@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.airtabletrigger.md",
+  "index": 12,
+  "content": "### Additional Fields\n\nUse the **Add Field** button to add the following parameters:\n\n* **Fields**: A comma-separated list of fields to include in the output. If you don't specify anything here, the output will contain only the **Trigger Field**.\n* **Formula**: An [Airtable formula](https://support.airtable.com/docs/formula-field-reference) to further filter the results. You can use this to add further constraints to the events that trigger the workflow. Note that formula values aren't taken into account for manual executions, only for production polling.\n* **View ID**: The name or ID of a table view. When defined, only returns records available in the given view."
+}

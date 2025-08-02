@@ -1,0 +1,11 @@
+{
+  "source": "0953_Webflow_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"42\",\n  \"name\": \"Receive updates when a form submission occurs in your Webflow website\",\n  \"nodes\": [\n    {\n      \"name\": \"Webflow Trigger\",\n      \"type\": \"n8n-nodes-base.webflowTrigger\",\n      \"position\": [\n        514,\n        217\n      ],\n      \"webhookId\": \"ce934229-1396-4920-8bfe-10579aa6f9dd\",\n      \"parameters\": {\n        \"site\": \"5f4e2d2bbdf69039816428f7\",\n        \"authentication\": \"oAuth2\"\n      },\n      \"credentials\": {\n        \"webflowOAuth2Api\": \"webflow\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.webflowTrigger"
+    ],
+    "trigger": "webflow trigger"
+  }
+}

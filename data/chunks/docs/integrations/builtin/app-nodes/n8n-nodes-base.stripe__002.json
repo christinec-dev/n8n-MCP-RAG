@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.stripe.md",
+  "index": 2,
+  "content": "# Stripe node\n\nUse the Stripe node to automate work in Stripe, and integrate Stripe with other applications. n8n has built-in support for a wide range of Stripe features, including getting balance, creating charge, and deleting customers. \n\nOn this page, you'll find a list of operations the Stripe node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Stripe credentials](/integrations/builtin/credentials/stripe.md) for guidance on setting up authentication. \n///"
+}

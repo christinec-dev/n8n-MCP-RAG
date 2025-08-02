@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.2.md",
+  "index": 6,
+  "content": "## What's next?\n\n**Nathan 🙋**: Wow, this automation is already so useful! But this inserts all collected data from the HTTP Request node into Airtable. Remember that I actually need to insert only processing orders in the table and calculate the price of booked orders?\n\n**You 👩‍🔧**: Sure, no problem. As a next step, I'll use a new node to filter the orders based on their status."
+}

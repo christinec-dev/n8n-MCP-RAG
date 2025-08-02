@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolvectorstore.md",
+  "index": 6,
+  "content": "## How n8n populates the tool description\n\nn8n uses the node name (select the name to edit) and **Description of Data** parameter to populate the tool description for AI agents using the following format:\n\n> Useful for when you need to answer questions about [node name]. Whenever you need information about [Description of Data], you should ALWAYS use this. Input should be a fully formed question.\n\nSpaces in the node name are converted to underscores in the tool description.\n\n/// warning | Avoid special characters in node names\nUsing special characters in the node name will cause errors when the agent runs:\n\n![model errors from special characters](/_images/integrations/builtin/cluster-nodes/toolvectorstore/name-characters-error.png)\n\nUse only alphanumeric characters, spaces, dashes, and underscores in node names.\n///"
+}

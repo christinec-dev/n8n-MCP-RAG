@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/assistant-operations.md",
+  "index": 10,
+  "content": "## Update an Assistant\n\nUse this operation to update the details of an existing assistant.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [OpenAI credential](/integrations/builtin/credentials/openai.md).\n- **Resource**: Select **Assistant**.\n- **Operation**: Select **Update an Assistant**.\n- **Assistant**: Select the assistant you want to update."
+}

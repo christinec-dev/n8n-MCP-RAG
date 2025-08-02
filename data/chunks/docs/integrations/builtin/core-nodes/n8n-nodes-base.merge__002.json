@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.merge.md",
+  "index": 2,
+  "content": "# Merge\n\nUse the Merge node to combine data from multiple streams, once data of all streams is available.\n\n/// note | Major changes in 0.194.0\nThe n8n team overhauled this node in n8n 0.194.0. This document reflects the latest version of the node. If you're using an older version of n8n, you can find the previous version of this document [here](https://github.com/n8n-io/n8n-docs/blob/4ff688642cc9ee7ca7d00987847bf4e4515da59d/docs/integrations/builtin/core-nodes/n8n-nodes-base.merge.md).\n///\n\n/// note | Minor changes in 1.49.0\nn8n version 1.49.0 introduced the option to add more than two inputs. Older versions only support up to two inputs. If you're running an older version and want to combine multiple inputs in these versions, use the [Code node](https://deploy-preview-2225--n8n-docs.netlify.app/code/code-node/).\n\nThe **Mode > SQL Query** feature was also added in n8n version 1.49.0 and isn't available in older versions.\n///"
+}

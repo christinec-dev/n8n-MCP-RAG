@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/starter-kits/ai-starter-kit.md",
+  "index": 5,
+  "content": "## Get the kit\n\n<!-- vale off -->\nHead to [the GitHub repository](https://github.com/n8n-io/self-hosted-ai-starter-kit) to clone the repo and get started!\n<!-- vale on -->\n\n/// note | For testing only\nn8n designed this kit to help you get started with self-hosted AI workflows. While it’s not fully optimized for production environments, it combines robust components that work well together for proof-of-concept projects. Customize it to meet your needs. Secure and harden it before using in production.\n///"
+}

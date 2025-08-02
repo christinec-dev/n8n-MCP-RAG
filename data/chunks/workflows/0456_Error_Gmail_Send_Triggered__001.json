@@ -1,0 +1,14 @@
+{
+  "source": "0456_Error_Gmail_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"id\": \"dee0969b-e780-400c-a8d2-383a392b9432\",\n      \"name\": \"On Error\",\n      \"type\": \"n8n-nodes-base.errorTrigger\",\n      \"position\": [\n        880,\n        900\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"018f4497-2a68-4de7-a59a-b6714d9211af\",\n      \"name\": \"Sticky Note3\",\n      \"type\": \"n8n-nodes-base.stickyNote\",\n      \"position\": [\n        800,\n        700\n      ],\n      \"parameters\": {\n        \"color\": 5,\n        \"width\": 424.4907862645661,\n        \"height\": 154.7766688696994,\n        \"content\": \"### 👨‍🎤 Setup\\n1. Add your Gmail creds\\n2. Add your target email\\n2. Add this error workflow to other workflows\\nhttps://docs.n8n.io/flow-logic/error-handling/#create-and-set-an-error-workflow\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"b5d560c0-1de1-4e6c-be4d-0fef1dd42e9e\",\n      \"name\": \"Sticky Note\",\n      \"type\": \"n8n-nodes-base.stickyNote\",\n      \"position\": [\n        1140,\n        1080\n      ],\n      \"parameters\": {\n        \"width\": 241,\n        \"height\": 80,\n        \"content\": \"### 👆🏽 Set target email here\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"f1a73854-5b24-407e-9584-0448ae66f7a0\",\n      \"name\": \"Gmail\",\n      \"type\": \"n8n-nodes-base.gmail\",\n      \"position\": [\n        1120,\n        900\n      ],\n      \"parameters\": {\n        \"sendTo\": \"SET YOUR EMAIL HERE\",\n        \"message\": \"=⚠️ Workflow `{{$json[\\\"workflow\\\"][\\\"name\\\"]}}` failed to run!\\nYou can find the execution here: {{ $json.execution.url }}\\n\\nerror message from node {{ $json.execution.lastNodeExecuted }}: {{ $json.execution.error.message }}\\n\\n {{ $json.execution.error.stack }}\",\n        \"options\": {},\n        \"subject\": \"=🚨 Error in workflow: {{ $json.workflow.name }}\",\n        \"emailType\": \"text\"\n      },\n      \"credentials\": {\n        \"gmailOAuth2\": {\n          \"id\": \"8\",\n          \"name\": \"Work Gmail account\"\n        }\n      },\n      \"typeVersion\": 2.1\n    }\n  ],\n  \"pinData\": {},\n  \"connections\": {\n    \"On Error\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Gmail\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.errorTrigger",
+      "n8n-nodes-base.stickyNote",
+      "n8n-nodes-base.stickyNote",
+      "n8n-nodes-base.gmail"
+    ],
+    "trigger": null
+  }
+}

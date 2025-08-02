@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/digital-ocean.md",
+  "index": 10,
+  "content": "## Configure n8n\n\nn8n needs some environment variables set to pass to the application running in the Docker container. The example `.env` file contains placeholders you need to replace with values of your own.\n\nOpen the file with the following command:\n\n```shell\nnano .env\n```\n\nThe file contains inline comments to help you know what to change.\n\nRefer to [Environment variables](/hosting/configuration/environment-variables/index.md) for n8n environment variables details."
+}

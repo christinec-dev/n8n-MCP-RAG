@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 527,
+  "content": "### Enhanced nodes\n\n\n* [Plivo:](/integrations/builtin/app-nodes/n8n-nodes-base.plivo.md) Added user agent to all API requests."
+}

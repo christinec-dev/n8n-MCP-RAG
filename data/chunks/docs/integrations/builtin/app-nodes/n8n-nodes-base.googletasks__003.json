@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googletasks.md",
+  "index": 3,
+  "content": "## Operations\n\n* Task\n    * Add a task to task list\n    * Delete a task\n    * Retrieve a task\n    * Retrieve all tasks from a task list\n    * Update a task"
+}

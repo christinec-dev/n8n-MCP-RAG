@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.humanticai.md",
+  "index": 2,
+  "content": "# Humantic AI node\n\nUse the Humantic AI node to automate work in Humantic AI, and integrate Humantic AI with other applications. n8n has built-in support for a wide range of Humantic AI features, including creating, retrieving, and updating profiles. \n\nOn this page, you'll find a list of operations the Humantic AI node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Humantic AI credentials](/integrations/builtin/credentials/humanticai.md) for guidance on setting up authentication. \n///"
+}

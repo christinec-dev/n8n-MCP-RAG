@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/overview.md",
+  "index": 3,
+  "content": "## Prerequisites\n\nThis section assumes the following:\n\n* Some familiarity with JavaScript and TypeScript.\n* Ability to manage your own development environment, including git.\n* Knowledge of npm, including creating and submitting packages.\n* Familiarity with n8n, including a good understanding of [data structures](/data/data-structure.md) and [item linking](/data/data-mapping/data-item-linking/index.md)."
+}

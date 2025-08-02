@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 188,
+  "content": "### Bug fixes\n\n* Editor: add sticky note without manual trigger.\n* Editor: display default missing value in table view as undefined.\n* Editor: fix displaying of some trigger nodes in the creator panel.\n* Editor: fix trigger node type identification on add to canvas.\n* Editor: add the usage and plans page to Desktop."
+}

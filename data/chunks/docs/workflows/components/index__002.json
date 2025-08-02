@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/index.md",
+  "index": 2,
+  "content": "# Workflow components\n\nThis section contains:\n\n* [Nodes](/workflows/components/nodes.md): integrations and operations.\n* [Connections](/workflows/components/connections.md): node connectors.\n* [Sticky notes](/workflows/components/sticky-notes.md): document your workflows."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 460,
+  "content": "### Highlights\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Python support\n\nAlthough JavaScript remains the default language, you can now also select Python as an option in the [Code node](/code/code-node.md) and even make use of [many Python modules](https://pyodide.org/en/stable/usage/packages-in-pyodide.html#packages-in-pyodide). Note that Python is unavailable in Code nodes added to a workflow before v1.0.\n\n</div>"
+}

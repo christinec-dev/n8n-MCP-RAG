@@ -1,0 +1,5 @@
+{
+  "source": "docs/sustainable-use-license.md",
+  "index": 2,
+  "content": "# Sustainable Use License\n\n/// note | Proprietary licenses for Enterprise\nProprietary licenses are available for enterprise customers. [Get in touch](mailto:license@n8n.io) for more information.\n///\n\nn8n's [Sustainable Use License](https://github.com/n8n-io/n8n/blob/master/LICENSE.md) and [n8n Enterprise License](https://github.com/n8n-io/n8n/blob/master/LICENSE_EE.md) are based on the [fair-code](https://faircode.io/) model."
+}

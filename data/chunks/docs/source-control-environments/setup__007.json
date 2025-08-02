@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/setup.md",
+  "index": 7,
+  "content": "## Step 4: Connect n8n and configure your instance\n\n1. In **Settings** > **Environments** in n8n, select **Connect**. n8n connects to your Git repository.\n1. Under **Instance settings**, choose which branch you want to use for the current n8n instance.\n1. **Optional**: select **Protected instance** to prevent users editing workflows in this instance. This is useful for protecting production instances.\n1. **Optional**: choose a custom color for the instance. This will appear in the menu next to the source control push and pull buttons. It helps users know which instance they're in.\n1. Select **Save settings**."
+}

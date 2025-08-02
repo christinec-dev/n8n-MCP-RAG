@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/index.md",
+  "index": 2,
+  "content": "# Root nodes\n\nRoot nodes are the foundational nodes within a group of cluster nodes.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/cluster-nodes-summary.md\"\n--8<-- \"_glossary/ai-glossary.md\""
+}

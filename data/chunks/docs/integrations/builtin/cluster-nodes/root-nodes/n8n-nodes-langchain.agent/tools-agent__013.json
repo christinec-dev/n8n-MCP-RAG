@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/tools-agent.md",
+  "index": 13,
+  "content": "### Return Intermediate Steps\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-root-nodes/return-intermediate-steps.md\"\n\n<!-- vale off -->"
+}

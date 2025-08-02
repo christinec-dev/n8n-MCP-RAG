@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md",
+  "index": 8,
+  "content": "## Get execution\n\nConfigure this operation with this parameter:\n\n* **Execution ID**: Enter the ID of the execution you want to retrieve."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.slacktrigger.md",
+  "index": 6,
+  "content": "## Related resources\n\nn8n provides an app node for Slack. You can find the node docs [here](/integrations/builtin/app-nodes/n8n-nodes-base.slack.md).\n\nView [example workflows and related content](https://n8n.io/integrations/slack-trigger/) on n8n's website.\n\nRefer to [Slack's documentation](https://api.slack.com/apis/connections/events-api) for details about their API."
+}

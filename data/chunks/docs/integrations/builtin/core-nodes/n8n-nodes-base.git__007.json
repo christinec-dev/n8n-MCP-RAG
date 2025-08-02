@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.git.md",
+  "index": 7,
+  "content": "## Clone\n\nConfigure this operation with these parameters:\n\n* **Repository Path**: Enter the local path of the git repository.\n* **Authentication**: Select **Authenticate** to pass credentials in. Select **None** to not use authentication.\n    * **Credential for Git**: If you select **Authenticate**, you must select or create credentials for the node to use. Refer to [Git credential](/integrations/builtin/credentials/git.md) for more information.\n* **New Repository Path**: Enter the local path where you'd like to locate the cloned repository.\n* **Source Repository**: Enter the URL or path of the repository you want to clone."
+}

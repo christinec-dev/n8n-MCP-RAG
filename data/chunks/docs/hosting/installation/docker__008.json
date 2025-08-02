@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/docker.md",
+  "index": 8,
+  "content": "# Pull latest (stable) version\ndocker pull docker.n8n.io/n8nio/n8n"
+}

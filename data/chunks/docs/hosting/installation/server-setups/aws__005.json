@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/aws.md",
+  "index": 5,
+  "content": "## Create a cluster\n\nUse the eksctl tool to create a cluster specifying a name and a region with the following command:\n\n```shell\neksctl create cluster --name n8n --region <your-aws-region>\n```\n\nThis can take a while to create the cluster.\n\n\nOnce the cluster is created, eksctl automatically sets the kubectl context to the cluster."
+}

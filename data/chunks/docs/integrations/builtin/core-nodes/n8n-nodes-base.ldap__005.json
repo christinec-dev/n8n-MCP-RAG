@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ldap.md",
+  "index": 5,
+  "content": "## Create\n\nConfigure this operation using these parameters:\n\n* **Credential to connect with**: Select or create an [LDAP credential](/integrations/builtin/credentials/ldap.md) to connect with.\n* **DN**: Enter the Distinguished Name (DN) of the entry to create.\n* **Attributes**: Add the **Attribute ID**/**Value** pairs you'd like to create."
+}

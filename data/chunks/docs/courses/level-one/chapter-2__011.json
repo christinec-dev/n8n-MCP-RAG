@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-2.md",
+  "index": 11,
+  "content": "## Summary\n\nCongratulations, you just built your first workflow! In this lesson, you learned how to use actions in app nodes, configure their parameters and settings, and save and execute your workflow.\n\nIn the next lesson, you'll meet your new client, Nathan, who needs to automate his sales reporting work. You will build a more complex workflow for his use case, helping him become more productive at work."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/test/troubleshooting-node-development.md",
+  "index": 6,
+  "content": "### Error message: 'There was a problem loading init data: API-Server can not be reached. It's probably down'\n<!-- vale on -->\n\n- Check that the names of the node file, node folder, and class match the path added to `packages/nodes-base/package.json`.\n- Check that the names used in the `displayOptions` property are names used by UI elements in the node.\n\n<!-- vale off -->"
+}

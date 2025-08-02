@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.taigatrigger.md",
+  "index": 2,
+  "content": "# Taiga Trigger node\n\n[Taiga](https://www.taiga.io/) is a free and open-source project management platform for startups, agile developers, and designers.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/taiga.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Taiga Trigger integrations](https://n8n.io/integrations/taiga-trigger/) page.\n///"
+}

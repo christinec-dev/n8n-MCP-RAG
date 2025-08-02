@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/thread-operations.md",
+  "index": 7,
+  "content": "## Get Many threads\n<!-- vale on -->\n\nUse this operation to get two or more threads.\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Thread**.\n* **Operation**: Select **Get Many**.\n* **Return All**: Choose whether the node returns all threads (turned on) or only up to a set limit (turned off).\n* **Limit**: Enter the maximum number of threads to return. Only used if you've turned off **Return All**.\n\n<!-- vale off -->"
+}

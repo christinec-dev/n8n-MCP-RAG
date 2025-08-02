@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.workabletrigger.md",
+  "index": 4,
+  "content": "## Related resources\n\nView [example workflows and related content](https://n8n.io/integrations/workable-trigger/) on n8n's website.\n\nRefer to [Workable's API documentation](https://developers.workable.com/) for details about using the service."
+}

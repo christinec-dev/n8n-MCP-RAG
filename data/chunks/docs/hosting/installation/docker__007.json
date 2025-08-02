@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/docker.md",
+  "index": 7,
+  "content": "## Updating\n\nTo update n8n, in Docker Desktop, navigate to the **Images** tab and select **Pull** from the context menu to download the latest n8n image:\n\n![Docker Desktop](/_images/hosting/installation/docker/docker_desktop.png)\n\nYou can also use the command line to pull the latest, or a specific version:\n\n```sh"
+}

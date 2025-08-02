@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 269,
+  "content": "### API update\nOur [public REST API](/api/index.md) now supports additional operations:\n\n- Create, delete, and edit roles for users\n- Create, read, update and delete projects\n\nFind the details in the [API reference](/api/api-reference.md)."
+}

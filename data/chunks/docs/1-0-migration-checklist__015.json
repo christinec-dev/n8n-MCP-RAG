@@ -1,0 +1,5 @@
+{
+  "source": "docs/1-0-migration-checklist.md",
+  "index": 15,
+  "content": "### Date transformation functions\n\nn8n provides various transformation functions that operate on dates. These functions may return either a JavaScript `Date` or a Luxon `DateTime` object. With the new behavior, the return type always matches the input. If you call a date transformation function on a `Date`, it returns a `Date`. Similarly, if you call it on a `DateTime` object, it returns a `DateTime` object.\n\nTo identify any workflows and nodes that might be impacted by this change, you can use this [utility workflow](https://n8n.io/workflows/1929-v1-helper-find-params-with-affected-expressions/).\n\nFor more information about date transformation functions, please refer to the [official documentation](/code/builtin/data-transformation-functions/dates.md).\n\n[PR #6435](https://github.com/n8n-io/n8n/pull/6435)"
+}

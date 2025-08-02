@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/message-operations.md",
+  "index": 5,
+  "content": "## Get a message\n\nUse this operation to get a single message.\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Message**.\n* **Operation**: Select **Get**.\n* **Message ID**: Enter the ID of the message you wish to retrieve.\n* **Simplify**: Choose whether to return a simplified version of the response (turned on) or the raw data (turned off). Default is on.\n    * This is the same as setting the `format` for the API call to `metadata`, which returns email message IDs, labels, and email headers, including: From, To, CC, BCC, and Subject.\n\nRefer to the [Gmail API Method: users.messages.get](https://developers.google.com/gmail/api/reference/rest/v1/users.messages/get) documentation for more information.\n\n<!-- vale off -->"
+}

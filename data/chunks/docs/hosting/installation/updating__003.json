@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/updating.md",
+  "index": 3,
+  "content": "# Update self-hosted n8n\n\nIt's important to keep your n8n version up to date. This ensures you get the latest features and fixes.\n\nSome tips when updating:\n\n--8<-- \"_snippets/manage-cloud/updating-best-practices.md\"\n\nFor instructions on how to update, refer to the documentation for your installation method:\n\n* [Installed with npm](/hosting/installation/npm.md)\n* [Installed with Docker](/hosting/installation/docker.md)"
+}

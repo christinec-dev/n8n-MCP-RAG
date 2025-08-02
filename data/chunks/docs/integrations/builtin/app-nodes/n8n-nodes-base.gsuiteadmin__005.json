@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gsuiteadmin.md",
+  "index": 5,
+  "content": "## How to control which custom fields to fetch for a user\n\nThere are three different ways to control which custom fields to retrieve when getting a user's information. Use the **Custom Fields** parameter to select one of the following:\n\n- **Don't Include**: Doesn't include any custom fields.\n- **Custom**: Includes the custom fields from schemas in **Custom Schema Names or IDs**.\n- **Include All**: Include all the fields associated with the user.\n\nTo include custom fields, follow these steps:\n\n1. Select **Custom** from the **Custom Fields** dropdown list.\n2. Select the schema names you want to include in the **Custom Schema Names or IDs** dropdown list."
+}

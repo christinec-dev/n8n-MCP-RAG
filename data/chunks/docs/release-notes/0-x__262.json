@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 262,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Code node\n\nThis release introduces the Code node. This node replaces both the Function and Function Item nodes. Refer to the [Code node](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) documentation for more information.\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Venafi TLS Protect Cloud Trigger node\n\nStart a workflow in response to events in your Venafi Cloud service.\n\n</div>"
+}

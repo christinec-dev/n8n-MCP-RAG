@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/using/push-pull.md",
+  "index": 7,
+  "content": "## What gets committed\n\nn8n commits the following to Git:\n\n* Workflows, including their tags and the email address of the workflow owner. You can choose which workflows to push.\n* Credential stubs (ID, name, type)\n* Variable stubs (ID and name)\n* Projects\n* Folders"
+}

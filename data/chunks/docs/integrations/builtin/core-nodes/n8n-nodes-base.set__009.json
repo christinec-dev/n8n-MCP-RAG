@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.set.md",
+  "index": 9,
+  "content": "### Include Binary Data\n\nIf the input data includes binary data, choose whether to include it in the Edit Fields node's output data."
+}

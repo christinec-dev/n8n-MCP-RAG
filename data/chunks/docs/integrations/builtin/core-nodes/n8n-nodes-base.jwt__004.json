@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.jwt.md",
+  "index": 4,
+  "content": "## Node parameters\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\"\n\n* **Credential to connect with**: Select or create a [JWT credential](/integrations/builtin/credentials/jwt.md) to connect with.\n* **Token**: Enter the token to **Verify** or **Decode**.\n* If you select the **Sign** operation, you'll also have this parameter:\n    * **Use JSON to Build Payload**: When turned on, the node uses JSON to build the claims. The selection here influences what appears in the Payload Claims section."
+}

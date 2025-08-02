@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/logging.md",
+  "index": 13,
+  "content": "## Front-end logs\n\nAs of now, front-end logs aren't available. Using `Logger` or `LoggerProxy` would yield errors in the `editor-ui` package. This functionality will get implemented in the future versions."
+}

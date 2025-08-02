@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolcode.md",
+  "index": 2,
+  "content": "# Custom Code Tool node\n\nUse the Custom Code Tool node to write code that an [agent](/glossary.md#ai-agent) can run.\n\nOn this page, you'll find the node parameters for the Custom Code Tool node and links to more resources.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

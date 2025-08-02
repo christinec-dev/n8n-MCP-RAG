@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 320,
+  "content": "### Bug fixes\n\n* CLI: fix the community node tests on Postgres and MySQL.\n* Core: fix an issue preventing child workflow executions from displaying.\n* Editor: handle errors when opening settings and executions.\n* Editor: improve expression and parameters performance.\n* Public API: fix executions pagination for n8n instances using Postgres and MySQL."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.graphql.md",
+  "index": 6,
+  "content": "### Endpoint\n\nEnter the GraphQL Endpoint you'd like to hit."
+}

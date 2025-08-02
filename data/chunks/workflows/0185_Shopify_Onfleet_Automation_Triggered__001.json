@@ -1,0 +1,12 @@
+{
+  "source": "0185_Shopify_Onfleet_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"name\": \"Updating Shopify tags on Onfleet events\",\n  \"nodes\": [\n    {\n      \"name\": \"Onfleet Trigger\",\n      \"type\": \"n8n-nodes-base.onfleetTrigger\",\n      \"position\": [\n        460,\n        300\n      ],\n      \"webhookId\": \"6d6a2bee-f83e-4ebd-a1d5-8708c34393dc\",\n      \"parameters\": {\n        \"triggerOn\": \"taskDelayed\",\n        \"additionalFields\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Shopify\",\n      \"type\": \"n8n-nodes-base.shopify\",\n      \"position\": [\n        680,\n        300\n      ],\n      \"parameters\": {\n        \"operation\": \"update\",\n        \"updateFields\": {\n          \"tags\": \"\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Onfleet Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Shopify\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.onfleetTrigger",
+      "n8n-nodes-base.shopify"
+    ],
+    "trigger": "onfleet trigger"
+  }
+}

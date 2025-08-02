@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.formtrigger.md",
+  "index": 11,
+  "content": "### Form Description\n\nEnter the description for your form. n8n displays the **Form Description** as a subtitle below the main `h1` title on the form. Use `\\n` or `<br>` to add a line break."
+}

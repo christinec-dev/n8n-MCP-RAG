@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/configuration.md",
+  "index": 8,
+  "content": "### Registering hooks\n\nSet hooks by registering a hook file that contains the hook functions.\nTo register a hook, set the environment variable `EXTERNAL_HOOK_FILES`.\n\nYou can set the variable to a single file:\n\n`EXTERNAL_HOOK_FILES=/data/hook.js`\n\nOr to contain multiple files separated by a semicolon:\n\n`EXTERNAL_HOOK_FILES=/data/hook1.js;/data/hook2.js`"
+}

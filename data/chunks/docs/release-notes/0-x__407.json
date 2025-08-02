@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 407,
+  "content": "### Node enhancements\n\n* [Google Sheets node](/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/index.md): n8n now handles header names formatted as JSON paths.\n* [Microsoft Dynamics CRM node](/integrations/builtin/app-nodes/n8n-nodes-base.microsoftdynamicscrm.md): add support for regions other than North America.\n* [Telegram node](/integrations/builtin/app-nodes/n8n-nodes-base.telegram/index.md): add support for querying chat administrators."
+}

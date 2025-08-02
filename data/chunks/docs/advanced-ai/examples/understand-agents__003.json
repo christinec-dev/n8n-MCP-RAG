@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/understand-agents.md",
+  "index": 3,
+  "content": "## Agents in n8n\n\nn8n provides one Agent node, which can act as different types of agent depending on the settings you choose. Refer to the [Agent node documentation](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/index.md) for details on the available agent types.\n\nWhen execute a workflow containing an agent, the agent runs multiple times. For example, it may do an initial setup, followed by a run to call a tool, then another run to evaluate the tool response and respond to the user."
+}

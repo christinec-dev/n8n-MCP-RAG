@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/light-evaluations.md",
+  "index": 3,
+  "content": "## What are light evaluations?\n\nWhen building your workflow, you often want to test it with a handful of examples to get a sense of how it performs and make improvements. At this stage of workflow development, looking over workflow outputs for each example is often enough. The benefits of setting up more [formal scoring or metrics](/advanced-ai/evaluations/metric-based-evaluations.md) don't yet justify the effort.\n\nLight evaluation allows you to run the examples in a test dataset through your workflow one-by-one, writing the outputs back to your dataset. You can then examine those outputs next to each other, and visually compare them to the expected outputs (if you have them)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/code-node/console-log.md",
+  "index": 2,
+  "content": "# Output to the browser console with `console.log()` or `print()` in the Code node\n\nYou can use `console.log()` or `print()` in the Code node to help when writing and debugging your code.\n\nFor help opening your browser console, refer to [this guide by Balsamiq](https://balsamiq.com/support/faqs/browserconsole/)."
+}

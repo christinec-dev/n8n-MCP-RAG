@@ -1,0 +1,11 @@
+{
+  "source": "0998_Gitlab_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Gitlab Trigger\",\n      \"type\": \"n8n-nodes-base.gitlabTrigger\",\n      \"position\": [\n        460,\n        480\n      ],\n      \"webhookId\": \"0e855b27-6465-42be-9610-c61b2e09cef9\",\n      \"parameters\": {\n        \"owner\": \"n8n-io\",\n        \"events\": [\n          \"*\"\n        ],\n        \"repository\": \"n8n-docs\"\n      },\n      \"credentials\": {\n        \"gitlabApi\": \"gitlab_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.gitlabTrigger"
+    ],
+    "trigger": "gitlab trigger"
+  }
+}

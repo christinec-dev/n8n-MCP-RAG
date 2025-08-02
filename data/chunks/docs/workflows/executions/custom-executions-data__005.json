@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/custom-executions-data.md",
+  "index": 5,
+  "content": "### Access the custom data object during execution\n\nYou can retrieve the custom data object, or a specific value in it, during an execution:\n\n<!-- vale off -->\n=== \"JavaScript\"\n\t```js\n\t// Access the current state of the object during the execution\n\tconst customData = $execution.customData.getAll();\n\n\t// Access a specific value set during this execution\n\tconst customData = $execution.customData.get(\"key\");\n\t```\n=== \"Python\"\n\t```python\n\t# Access the current state of the object during the execution\n\tcustomData = _execution.customData.getAll();\n\n\t# Access a specific value set during this execution\n\tcustomData = _execution.customData.get(\"key\");\n\t```\n<!-- vale on -->"
+}

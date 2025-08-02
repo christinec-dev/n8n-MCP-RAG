@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.rssfeedreadtrigger.md",
+  "index": 2,
+  "content": "# RSS Feed Trigger node\n\nThe RSS Feed Trigger node allows you to start an n8n workflow when a new RSS feed item has been published.\n\nOn this page, you'll find a list of operations the RSS Feed Trigger node supports, and links to more resources."
+}

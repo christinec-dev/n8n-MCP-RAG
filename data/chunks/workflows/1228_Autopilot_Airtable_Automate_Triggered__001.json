@@ -1,0 +1,13 @@
+{
+  "source": "1228_Autopilot_Airtable_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Autopilot Trigger\",\n      \"type\": \"n8n-nodes-base.autopilotTrigger\",\n      \"position\": [\n        470,\n        200\n      ],\n      \"webhookId\": \"d7aa9691-49cb-4b01-8ecc-9a38fd708cf2\",\n      \"parameters\": {\n        \"event\": \"contactAdded\"\n      },\n      \"credentials\": {\n        \"autopilotApi\": \"Autopilot API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        670,\n        200\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"First Name\",\n              \"value\": \"={{$json[\\\"contact\\\"][\\\"FirstName\\\"]}}\"\n            },\n            {\n              \"name\": \"Last Name\",\n              \"value\": \"={{$json[\\\"contact\\\"][\\\"LastName\\\"]}}\"\n            },\n            {\n              \"name\": \"Email\",\n              \"value\": \"={{$json[\\\"contact\\\"][\\\"Email\\\"]}}\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Airtable\",\n      \"type\": \"n8n-nodes-base.airtable\",\n      \"position\": [\n        870,\n        200\n      ],\n      \"parameters\": {\n        \"table\": \"Table 1\",\n        \"options\": {},\n        \"operation\": \"append\",\n        \"application\": \"appflT9EkWRGsSFM2\"\n      },\n      \"credentials\": {\n        \"airtableApi\": \"Airtable Credentials n8n\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Airtable\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Autopilot Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.autopilotTrigger",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.airtable"
+    ],
+    "trigger": "autopilot trigger"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/common-issues.md",
+  "index": 5,
+  "content": "## Use curl to trigger the Webhook node\n\nYou can use [curl](https://curl.se/) to make HTTP requests that trigger the Webhook node. \n\n/// note\nIn the examples, replace `<https://your-n8n.url/webhook/path>` with your webhook URL.  \nThe examples make GET requests. You can use whichever HTTP method you set in **HTTP Method**.\n///\n\nMake an HTTP request without any parameters:\n\n```sh\ncurl --request GET <https://your-n8n.url/webhook/path>\n```\n\nMake an HTTP request with a body parameter:\n\n```sh\ncurl --request GET <https://your-n8n.url/webhook/path> --data 'key=value'\n```\n\nMake an HTTP request with header parameter:\n\n```sh\ncurl --request GET <https://your-n8n.url/webhook/path> --header 'key=value'\n```\n\nMake an HTTP request to send a file:\n\n```sh\ncurl --request GET <https://your-n8n.url/webhook/path> --from 'key=@/path/to/file'\n```\nReplace `/path/to/file` with the path of the file you want to send."
+}

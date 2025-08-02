@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 145,
+  "content": "### Bug fixes\n\n* Editor: fix an issue with mapping to empty expression input.\n* Editor: fix merge node connectors.\n* Editor: fix multiple-output endpoints success style after connection is detached."
+}

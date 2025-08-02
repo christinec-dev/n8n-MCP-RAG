@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.facebooktrigger/index.md",
+  "index": 4,
+  "content": "## Related resources\n\nView [example workflows and related content](https://n8n.io/integrations/facebook-trigger/) on n8n's website.\n\nRefer to Meta's [Graph API documentation](https://developers.facebook.com/docs/graph-api/webhooks/reference) for details about their API."
+}

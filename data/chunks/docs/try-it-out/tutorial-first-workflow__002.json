@@ -1,0 +1,5 @@
+{
+  "source": "docs/try-it-out/tutorial-first-workflow.md",
+  "index": 2,
+  "content": "# Your first workflow\n\nThis guide will show you how to construct a [workflow](/glossary.md#workflow-n8n) in n8n, explaining key concepts along the way. You will:\n\n* Create a workflow from scratch. \n* Understand key concepts and skills, including:\n    * Starting workflows with trigger nodes\n    * Configuring [credentials](/glossary.md#credential-n8n)\n    * Processing data\n    * Representing logic in an n8n workflow\n    * Using [expressions](/glossary.md#expression-n8n)\n\n![\"Screenshot of the completed workflow\"](/_images/try-it-out/tutorial-first.png)\n\nThis quickstart uses [n8n Cloud](/manage-cloud/overview.md), which is recommended for new users. A free trial is available - if you haven't already done so, [sign up](https://app.n8n.cloud/register) for an account now."
+}

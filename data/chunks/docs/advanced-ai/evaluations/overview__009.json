@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/overview.md",
+  "index": 9,
+  "content": "## Learn more\n\n* [Light evaluations](/advanced-ai/evaluations/light-evaluations.md): Perfect for evaluating your AI workflows against hand-selected test cases during development.\n* [Metric-based evaluations](/advanced-ai/evaluations/metric-based-evaluations.md): Advanced evaluations to maintain performance and correctness in production by using scoring and metrics with large datasets.\n* [Tips and common issues](/advanced-ai/evaluations/tips-and-common-issues.md): Learn how to set up specific evaluation use cases and work around common issues."
+}

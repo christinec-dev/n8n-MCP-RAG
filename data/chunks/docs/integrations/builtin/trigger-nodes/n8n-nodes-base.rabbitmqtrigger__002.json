@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.rabbitmqtrigger.md",
+  "index": 2,
+  "content": "# RabbitMQ Trigger node\n\n[RabbitMQ](https://www.rabbitmq.com) is an open-source message broker that accepts and forwards messages.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/rabbitmq.md).\n///\n\n/// note | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Rabbit MQ Trigger integrations](https://n8n.io/integrations/rabbitmq-trigger/) page.\n///"
+}

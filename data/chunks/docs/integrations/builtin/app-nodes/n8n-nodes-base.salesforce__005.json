@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md",
+  "index": 5,
+  "content": "## Working with Salesforce custom fields\n\nTo add custom fields to your request:\n\n1. Select **Additional Fields** > **Add Field**.\n2. In the dropdown, select **Custom Fields**.\n\nYou can then find and add your custom fields."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/insights.md",
+  "index": 7,
+  "content": "## Disable or configure insights metrics collection\n\nIf you self-host n8n, you can disable or configure insights and metrics collection using [environment variables](/hosting/configuration/environment-variables/insights.md)."
+}

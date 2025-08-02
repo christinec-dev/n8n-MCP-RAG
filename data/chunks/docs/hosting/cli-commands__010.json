@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/cli-commands.md",
+  "index": 10,
+  "content": "### Workflows\n\nImport workflows from a specific file:\n\n```bash\nn8n import:workflow --input=file.json\n```\n\nImport all the workflow files as JSON from the specified directory:\n\n```bash\nn8n import:workflow --separate --input=backups/latest/\n```"
+}

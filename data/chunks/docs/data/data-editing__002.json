@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-editing.md",
+  "index": 2,
+  "content": "# Data editing\n\nn8n allows you to edit [pinned data](/data/data-pinning.md). This means you can check different scenarios without setting up each scenario and sending the relevant data from your external system. It makes it easier to test edge cases.\n\n/// note | For development only\nData editing isn't available for production workflow executions. It's a feature to help test workflows during development.\n///"
+}

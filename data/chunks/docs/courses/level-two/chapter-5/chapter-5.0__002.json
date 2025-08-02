@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-5/chapter-5.0.md",
+  "index": 2,
+  "content": "# Automating a business workflow\n\nRemember [our friend Nathan](/courses/level-one/chapter-3.md)?\n\n**Nathan 🙋:** Hello, it's me again. My manager was so impressed with my first workflow automation solution that she entrusted me with more responsibility.<br/>\n**You 👩‍🔧:** More work and responsibility. Congratulations, I guess. What do you need to do now?<br/>\n**Nathan 🙋:** I got access to all our sales data and I'm now responsible for creating two reports: one for regional sales and one for orders prices. They're based on data from different sources and come in different formats.<br/>\n**You 👩‍🔧:** Sounds like a lot of manual work, but the kind that can be automated. Let's do it!"
+}

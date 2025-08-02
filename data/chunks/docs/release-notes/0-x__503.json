@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 503,
+  "content": "### Enhanced nodes\n\n\n* [GraphQL:](/integrations/builtin/core-nodes/n8n-nodes-base.graphql.md) Added support for additional authentication methods Basic Auth, Digest Auth, OAuth1, OAuth2, and Query Auth."
+}

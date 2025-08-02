@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/task-runners.md",
+  "index": 2,
+  "content": "# Task runners\n\nTask runners are a generic mechanism to execute tasks in a secure and performant way. They're used to execute user-provided JavaScript code in the [Code node](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md).\n\nThis document describes how task runners work and how you can configure them."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/heroku.md",
+  "index": 5,
+  "content": "### Deploy n8n\n\nSelect **Deploy app**.\n\nAfter Heroku builds and deploys the app it provides links to **Manage App** or **View** the application.\n\n/// note | Heroku and DNS\nRefer to the [Heroku documentation](https://devcenter.heroku.com/categories/networking-dns) to find out how to connect your domain to a Heroku application.\n///"
+}

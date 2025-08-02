@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger.md",
+  "index": 9,
+  "content": "### Integrating with Claude Desktop\n\nYou can connect to the MCP Server Trigger node from [Claude Desktop](https://claude.ai/download) by running a gateway to proxy SSE messages to stdio-based servers.\n\nTo do so, add the following to your Claude Desktop configuration:\n\n```json\n{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"mcp-remote\",\n        \"<MCP_URL>\",\n        \"--header\",\n        \"Authorization: Bearer ${AUTH_TOKEN}\"\n      ],\n      \"env\": {\n        \"AUTH_TOKEN\": \"<MCP_BEARER_TOKEN>\"\n      }\n    }\n  }\n}\n```\n\nBe sure to replace the `<MCP_URL>` and `<MCP_BEARER_TOKEN>` placeholders with the values from your MCP Server Trigger node parameters and credentials."
+}

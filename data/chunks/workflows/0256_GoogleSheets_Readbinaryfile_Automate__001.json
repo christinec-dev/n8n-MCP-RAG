@@ -1,0 +1,13 @@
+{
+  "source": "0256_GoogleSheets_Readbinaryfile_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Google Sheets1\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"notes\": \"Append data to sheet\",\n      \"position\": [\n        980,\n        -120\n      ],\n      \"parameters\": {\n        \"range\": \"A:C\",\n        \"options\": {\n          \"usePathForKeyRow\": true\n        },\n        \"sheetId\": \"qwertz\",\n        \"operation\": \"append\",\n        \"authentication\": \"oAuth2\"\n      },\n      \"credentials\": {\n        \"googleSheetsOAuth2Api\": {\n          \"id\": \"2\",\n          \"name\": \"google_sheets_oauth\"\n        }\n      },\n      \"notesInFlow\": true,\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"read json file\",\n      \"type\": \"n8n-nodes-base.readBinaryFile\",\n      \"position\": [\n        620,\n        -120\n      ],\n      \"parameters\": {\n        \"filePath\": \"/username/users_spreadsheet.json\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"move binary data 2\",\n      \"type\": \"n8n-nodes-base.moveBinaryData\",\n      \"position\": [\n        800,\n        -120\n      ],\n      \"parameters\": {\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"read json file\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"move binary data 2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"move binary data 2\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Sheets1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.googleSheets",
+      "n8n-nodes-base.readBinaryFile",
+      "n8n-nodes-base.moveBinaryData"
+    ],
+    "trigger": null
+  }
+}

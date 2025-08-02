@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.highlevel.md",
+  "index": 3,
+  "content": "## Operations\n\n* Contact\n\t* Create or update\n\t* Delete\n\t* Get\n\t* Get many\n\t* Update\n* Opportunity\n\t* Create\n\t* Delete\n\t* Get\n\t* Get many\n\t* Update\n* Task\n\t* Create\n\t* Delete\n\t* Get\n\t* Get many\n\t* Update\n* Calendar\n\t* Book an appointment\n\t* Get free slots"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.netlify.md",
+  "index": 3,
+  "content": "## Operations\n\n* Deploy\n    * Cancel a deployment\n    * Create a new deployment\n    * Get a deployment\n    * Get all deployments\n* Site\n    * Delete a site\n    * Get a site\n    * Returns all sites"
+}

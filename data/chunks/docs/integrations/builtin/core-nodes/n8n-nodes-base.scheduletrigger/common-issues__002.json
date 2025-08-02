@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/common-issues.md",
+  "index": 2,
+  "content": "# Schedule Trigger node common issues\n\nHere are some common errors and issues with the [Schedule Trigger node](/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/index.md) and steps to resolve or troubleshoot them."
+}

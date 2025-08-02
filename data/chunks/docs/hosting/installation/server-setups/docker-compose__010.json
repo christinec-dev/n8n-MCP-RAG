@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 10,
+  "content": "# Register the `docker` group memebership with current session without changing your primary group\nexec sg docker newgrp\n```\n\nTo grant access to a different user, type the following, substituting `<USER_TO_RUN_DOCKER>` with the appropriate username:\n\n```bash\nsudo usermod -aG docker <USER_TO_RUN_DOCKER>\n```\n\nYou will need to run `exec sg docker newgrp` from any of that user's existing sessions for it to access the new group permissions.\n\nYou can verify that your current session recognizes the `docker` group by typing:\n\n```bash\ngroups\n```"
+}

@@ -1,0 +1,12 @@
+{
+  "source": "1066_Manual_GitHub_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"5\",\n  \"name\": \"new\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        540,\n        350\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Github\",\n      \"type\": \"n8n-nodes-base.github\",\n      \"position\": [\n        790,\n        350\n      ],\n      \"parameters\": {\n        \"owner\": \"n8n-io\",\n        \"resource\": \"repository\",\n        \"operation\": \"getProfile\",\n        \"repository\": \"n8n\"\n      },\n      \"credentials\": {\n        \"githubApi\": \"shraddha\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Github\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.github"
+    ],
+    "trigger": null
+  }
+}

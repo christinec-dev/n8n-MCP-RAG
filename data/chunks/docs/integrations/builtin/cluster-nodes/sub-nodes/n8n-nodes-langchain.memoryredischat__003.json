@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memoryredischat.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Session Key**: Enter the key to use to store the memory in the workflow data.\n* **Session Time To Live**: Use this parameter to make the session expire after a given number of seconds.\n* **Context Window Length**: Enter the number of previous interactions to consider for context."
+}

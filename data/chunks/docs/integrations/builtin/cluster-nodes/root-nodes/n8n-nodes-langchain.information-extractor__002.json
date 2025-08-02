@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.information-extractor.md",
+  "index": 2,
+  "content": "# Information Extractor node\n\nUse the Information Extractor node to extract structured information from incoming data.\n\nOn this page, you'll find the node parameters for the Information Extractor node,\nand links to more resources."
+}

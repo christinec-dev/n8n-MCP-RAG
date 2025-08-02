@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 346,
+  "content": "### New features\n\n* Add item information to more node errors.\n* Update multiple credentials with tests, and add support for custom operations."
+}

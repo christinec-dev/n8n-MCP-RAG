@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.airtable/index.md",
+  "index": 7,
+  "content": "### Get the Record ID\n\nTo fetch data for a particular record, you need the Record ID. There are two ways to get the Record ID."
+}

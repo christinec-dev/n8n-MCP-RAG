@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.demio.md",
+  "index": 3,
+  "content": "## Operations\n\n* Event\n    * Get an event\n    * Get all events\n    * Register someone to an event\n* Report\n    * Get an event report"
+}

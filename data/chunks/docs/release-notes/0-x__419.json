@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 419,
+  "content": "### Node enhancements\n\n* [Discord node](/integrations/builtin/app-nodes/n8n-nodes-base.discord/index.md): additional fields now available when sending a message to Discord.\n* [GoogleBigQuery](/integrations/builtin/app-nodes/n8n-nodes-base.googlebigquery.md): added support for service account authentication.\n* [Google Cloud Realtime Database node](/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudrealtimedatabase.md): you can now select a region.\n* [PagerDuty node](/integrations/builtin/app-nodes/n8n-nodes-base.pagerduty.md): now supports more detail in incidents.\n* [Slack node](/integrations/builtin/app-nodes/n8n-nodes-base.slack.md): added support for blocks in Slack message update."
+}

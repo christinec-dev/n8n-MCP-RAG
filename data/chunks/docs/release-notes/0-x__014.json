@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 14,
+  "content": "## n8n@0.235.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.234.0...n8n@0.235.0) for this version.<br />\n**Release date:** 2023-06-28\n\nThis release contains new features, new nodes, node enhancements, and bug fixes.\n\n/// warning | Unstable version\nThis version is (as of 4th July 2023) considered unstable. n8n recommends against upgrading.\n///\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

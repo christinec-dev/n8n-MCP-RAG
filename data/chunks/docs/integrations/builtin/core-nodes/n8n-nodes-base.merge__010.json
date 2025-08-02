@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.merge.md",
+  "index": 10,
+  "content": "## Branch execution with If and Merge nodes\n\n--8<-- \"_snippets/integrations/builtin/core-nodes/merge/if-merge-branch-execution.md\""
+}

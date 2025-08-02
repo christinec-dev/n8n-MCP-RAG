@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/monitoring.md",
+  "index": 4,
+  "content": "## metrics\n\nThe `/metrics` endpoint provides more detailed information about the current status of the instance.\n\nAccess the endpoint:\n\n```\n<your-instance-url>/metrics\n```\n\n/// info | Feature availability\nThe `/metrics` endpoint isn't available on n8n Cloud.\n///\n<!-- vale off -->"
+}

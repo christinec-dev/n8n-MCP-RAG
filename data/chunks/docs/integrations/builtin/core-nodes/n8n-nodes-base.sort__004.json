@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sort.md",
+  "index": 4,
+  "content": "### Simple\n\nPerforms an ascending or descending sort using the selected fields.\n\nWhen you select this **Type**:\n\n* Use the **Add Field To Sort By** button to input the **Field Name**.\n* Select whether to use **Ascending** or **Descending** order.\n\n#### Simple options\n\nWhen you select **Simple** as the **Type**, you have the option to **Disable Dot Notation**. By default, n8n enables dot notation to reference child fields in the format `parent.child`. Use this option to disable dot notation (turned on) or to continue using dot (turned off)."
+}

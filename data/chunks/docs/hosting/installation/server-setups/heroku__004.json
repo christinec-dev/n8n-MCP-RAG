@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/heroku.md",
+  "index": 4,
+  "content": "### Configure environment variables\n\nHeroku pre-fills the configuration options defined in the `env` section of the `app.json` file, which also sets default values for the environment variables n8n uses.\n\nYou can change any of these values to suit your needs. You must change the following values:\n\n- **N8N_ENCRYPTION_KEY**, which n8n uses to [encrypt user account details](/hosting/configuration/environment-variables/deployment.md) before saving to the database.\n- **WEBHOOK_URL** should match the application name you create to ensure that webhooks have the correct URL."
+}

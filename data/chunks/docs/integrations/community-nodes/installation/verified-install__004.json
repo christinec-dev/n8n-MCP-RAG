@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/installation/verified-install.md",
+  "index": 4,
+  "content": "## Uninstall a community node\n\nTo uninstall a community node:\n\n1. Go to **Settings** > **Community nodes**.\n2. On the node you want to install, select **Options** <span class=\"inline-image\">![Three dots options menu](/_images/common-icons/three-dot-options-menu.png){.off-glb}</span>.\n3. Select **Uninstall package**.\n4. Select **Uninstall Package** in the confirmation modal."
+}

@@ -1,0 +1,11 @@
+{
+  "source": "0992_Mqtt_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"51\",\n  \"name\": \"Receive messages for a MQTT queue\",\n  \"nodes\": [\n    {\n      \"name\": \"MQTT Trigger\",\n      \"type\": \"n8n-nodes-base.mqttTrigger\",\n      \"position\": [\n        690,\n        260\n      ],\n      \"parameters\": {\n        \"options\": {}\n      },\n      \"credentials\": {\n        \"mqtt\": \"mqtt\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.mqttTrigger"
+    ],
+    "trigger": "mqtt trigger"
+  }
+}

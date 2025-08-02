@@ -1,0 +1,12 @@
+{
+  "source": "0995_Manual_Mailgun_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mailgun\",\n      \"type\": \"n8n-nodes-base.mailgun\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"text\": \"This is a test message \",\n        \"subject\": \"This is a Subject\",\n        \"toEmail\": \"user2@example.com\",\n        \"fromEmail\": \"user@example.com\"\n      },\n      \"credentials\": {\n        \"mailgunApi\": \"mailgun-creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mailgun\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.mailgun"
+    ],
+    "trigger": null
+  }
+}

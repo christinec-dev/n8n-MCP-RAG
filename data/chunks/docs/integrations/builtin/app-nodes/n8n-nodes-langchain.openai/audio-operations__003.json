@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/audio-operations.md",
+  "index": 3,
+  "content": "## Generate Audio\n\nUse this operation to create audio from a text prompt. \n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [OpenAI credential](/integrations/builtin/credentials/openai.md).\n- **Resource**: Select **Audio**.\n- **Operation**: Select **Generate Audio**.\n- **Model**: Select the model you want to use to generate the audio. Refer to [TTS | OpenAI](https://platform.openai.com/docs/models/tts) for more information.\n    - **TTS-1**: Use this to optimize for speed.\n    - **TTS-1-HD**:\tUse this to optimize for quality.\n- **Text Input**: Enter the text to generate the audio for. The maximum length is 4096 characters.\n- **Voice**: Select a voice to use when generating the audio. Listen to the previews of the voices in [Text to speech guide | OpenAI](https://platform.openai.com/docs/guides/text-to-speech/quickstart)."
+}

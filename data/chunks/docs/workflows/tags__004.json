@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/tags.md",
+  "index": 4,
+  "content": "## Filter by tag\n\nWhen browsing the workflows on your instance, you can filter by tag.\n\n1. On the **Workflows** page, select **Filters**.\n2. Select **Tags**.\n3. Select the tag or tags you want to filter by. n8n lists the workflows with that tag."
+}

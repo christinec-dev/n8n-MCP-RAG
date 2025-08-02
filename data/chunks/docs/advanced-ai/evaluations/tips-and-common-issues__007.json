@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/tips-and-common-issues.md",
+  "index": 7,
+  "content": "## Dealing with inconsistent results\n\nMetrics can often have noise: they may be different across evaluation runs of the exact same workflow. This is because the workflow itself may return different results, or any LLM-based metrics might have natural variation in them.\n\nYou can compensate for this by duplicating the rows of your dataset, so that each row appears more than once in the dataset. Since this means that each input will effectively be running multiple times, it will smooth out any variations."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 16,
+  "content": "### Text parameters\n\n* **Property Name**: Enter the name of the binary property that stores the image data.\n* **Text**: Enter the text you'd like to write on the image.\n* **Font Size**: Select the font size for the text.\n* **Font Color**: Set the font color. You can either enter a hex or select the color swatch to open a color picker.\n* **Position X**: Enter the x axis position (horizontal) to begin the text at.\n* **Position Y**: Enter the y axis position (vertical) to begin the text at.\n* **Max Line Length**: Enter the maximum amount of characters in a line before adding a line break.\n\nRefer to [Node options](#node-options) for optional configuration options."
+}

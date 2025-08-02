@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 839,
+  "content": "## n8n@0.79.2\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.79.1...n8n@0.79.2) for this version.<br />\n**Release date:** 2020-08-28\n\n- Added missing rawBody for \"application/x-www-form-urlencoded\""
+}

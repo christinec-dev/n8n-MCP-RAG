@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sort.md",
+  "index": 3,
+  "content": "## Node parameters\n\nConfigure this node using the **Type** parameter.\n\nUse the dropdown to select how you want to input the sorting from these options."
+}

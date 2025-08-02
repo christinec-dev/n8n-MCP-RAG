@@ -1,0 +1,11 @@
+{
+  "source": "1031_Box_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Box Trigger\",\n      \"type\": \"n8n-nodes-base.boxTrigger\",\n      \"position\": [\n        1027,\n        368\n      ],\n      \"webhookId\": \"0e56bb0c-8e81-42de-a902-c0ab31834bd8\",\n      \"parameters\": {\n        \"events\": [\n          \"FOLDER.MOVED\",\n          \"FOLDER.DOWNLOADED\"\n        ],\n        \"targetId\": \"118847708963\",\n        \"targetType\": \"file\"\n      },\n      \"credentials\": {\n        \"boxOAuth2Api\": \"box_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.boxTrigger"
+    ],
+    "trigger": "box trigger"
+  }
+}

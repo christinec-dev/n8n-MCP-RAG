@@ -1,0 +1,12 @@
+{
+  "source": "1086_Manual_Contentful_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"name\": \"\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        150,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Contentful\",\n      \"type\": \"n8n-nodes-base.contentful\",\n      \"position\": [\n        350,\n        300\n      ],\n      \"parameters\": {\n        \"operation\": \"getAll\",\n        \"returnAll\": true,\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"contentfulApi\": \"contentful\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Contentful\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.contentful"
+    ],
+    "trigger": null
+  }
+}

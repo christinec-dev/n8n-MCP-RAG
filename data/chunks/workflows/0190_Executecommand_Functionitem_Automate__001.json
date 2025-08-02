@@ -1,0 +1,13 @@
+{
+  "source": "0190_Executecommand_Functionitem_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Execute Command\",\n      \"type\": \"n8n-nodes-base.executeCommand\",\n      \"position\": [\n        600,\n        350\n      ],\n      \"parameters\": {\n        \"command\": \"echo \\\"{ \\\\\\\"value1\\\\\\\": true, \\\\\\\"value2\\\\\\\": 1 }\\\"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        800,\n        450\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"boolean\": [\n            {\n              \"value1\": \"={{JSON.parse($node[\\\"Execute Command\\\"].data[\\\"stdout\\\"]).value1}}\",\n              \"value2\": true\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"To Flow Data\",\n      \"type\": \"n8n-nodes-base.functionItem\",\n      \"position\": [\n        800,\n        250\n      ],\n      \"parameters\": {\n        \"functionCode\": \"item = JSON.parse(item.stdout);\\nreturn item;\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Execute Command\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"To Flow Data\",\n            \"type\": \"main\",\n            \"index\": 0\n          },\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.executeCommand",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.functionItem"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/plan/node-ui-design.md",
+  "index": 5,
+  "content": "### UI text style\n\n| Element | Style |\n| ------- | ----- |\n| Drop-down value | Title case |\n| Hint | Sentence case |\n| Info box | Sentence case. Don't use a period (`.`) for one-sentence information. Always use a period if there's more than one sentence. This field can include links, which should open in a new tab. |\n| Node name | Title case |\n| Parameter name | Title case |\n| Subtitle | Title case |\n| Tooltip | Sentence case. Don't use a period (`.`) for one-sentence tooltips. Always use a period if there's more than one sentence. This field can include links, which should open in a new tab. |"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/variables.md",
+  "index": 5,
+  "content": "## Use variables in workflows\n\nYou can access variables in the Code node and in [expressions](/glossary.md#expression-n8n):\n\n```javascript\n// Access a variable\n$vars.<variable-name>\n```\n\nAll variables are strings.\n\nDuring workflow execution, n8n replaces the variables with the variable value. If the variable has no value, n8n treats its value as `undefined`. Workflows don't automatically fail in this case.\n\nVariables are read-only. You must use the UI to change the values. If you need to set and access custom data within your workflow, use [Workflow static data](/code/cookbook/builtin/get-workflow-static-data.md)."
+}

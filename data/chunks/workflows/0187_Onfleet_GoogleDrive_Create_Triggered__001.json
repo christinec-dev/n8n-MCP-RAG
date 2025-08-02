@@ -1,0 +1,12 @@
+{
+  "source": "0187_Onfleet_GoogleDrive_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"name\": \"Create an Onfleet task when a file in Google Drive is updated\",\n  \"nodes\": [\n    {\n      \"name\": \"Google Drive Trigger\",\n      \"type\": \"n8n-nodes-base.googleDriveTrigger\",\n      \"position\": [\n        460,\n        300\n      ],\n      \"parameters\": {\n        \"pollTimes\": {\n          \"item\": [\n            {\n              \"mode\": \"everyMinute\"\n            }\n          ]\n        },\n        \"triggerOn\": \"specificFile\",\n        \"fileToWatch\": \"<some_id>\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Onfleet\",\n      \"type\": \"n8n-nodes-base.onfleet\",\n      \"position\": [\n        680,\n        300\n      ],\n      \"parameters\": {\n        \"operation\": \"create\",\n        \"additionalFields\": {}\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Google Drive Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Onfleet\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.googleDriveTrigger",
+      "n8n-nodes-base.onfleet"
+    ],
+    "trigger": "google drive trigger"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/prometheus.md",
+  "index": 2,
+  "content": "# Enable Prometheus metrics \n\nTo collect and expose metrics, n8n uses the [prom-client](https://www.npmjs.com/package/prom-client) library.\n\nThe `/metrics` endpoint is disabled by default, but it's possible to enable it using the `N8N_METRICS` environment variable.\n\n```bash\nexport N8N_METRICS=true\n```\n\nRefer to the respective [Environment Variables](/hosting/configuration/environment-variables/endpoints.md) (`N8N_METRICS_INCLUDE_*`) for configuring which metrics and labels should get exposed.\n\nBoth `main` and `worker` instances are able to expose metrics."
+}

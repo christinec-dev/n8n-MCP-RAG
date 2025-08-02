@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.onesimpleapi.md",
+  "index": 3,
+  "content": "## Operations\n\n* Information\n    * Convert a value between currencies\n    * Retrieve image metadata from a URL\n* Social Profile\n    * Get details about an Instagram profile\n    * Get details about a Spotify Artist\n* Utility\n    * Expand a shortened url\n    * Generate a QR Code\n    * Validate an email address\n* Website\n    * Generate a PDF from a webpage\n    * Get SEO information from website\n    * Create a screenshot from a webpage"
+}

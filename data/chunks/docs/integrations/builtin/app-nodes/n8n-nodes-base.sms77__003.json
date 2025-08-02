@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.sms77.md",
+  "index": 3,
+  "content": "## Operations\n\n* SMS\n    * Send SMS\n* Voice Call\n    * Converts text to voice and calls a given number"
+}

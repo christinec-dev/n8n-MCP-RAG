@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 241,
+  "content": "## n8n@1.60.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.59.3...n8n@1.60.0) for this version.<br />\n**Release date:** 2024-09-18\n\nThis release contains new features, node enhancements and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Queue metrics for workers\n\nYou can now [expose and consume metrics from your workers](https://docs.n8n.io/hosting/configuration/configuration-examples/prometheus/). The worker instances have the same metrics available as the main instance(s) and can be configured with [environment variables](/hosting/configuration/environment-variables/endpoints.md).\n\n</div>\n\nYou can now customize the maximum file size when uploading files within forms to webhooks. The [environment variable to set](/hosting/configuration/environment-variables/endpoints.md) for this is `N8N_FORMDATA_FILE_SIZE_MAX`. The default setting is 200MiB."
+}

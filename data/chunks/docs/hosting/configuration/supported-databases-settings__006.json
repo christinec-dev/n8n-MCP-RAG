@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/supported-databases-settings.md",
+  "index": 6,
+  "content": "### Required permissions\n\nn8n needs to create and modify the schemas of the tables it uses.\n\nRecommended permissions:\n\n```sql\nCREATE DATABASE n8n-db;\nCREATE USER n8n-user WITH PASSWORD 'random-password';\nGRANT ALL PRIVILEGES ON DATABASE n8n-db TO n8n-user;\n```"
+}

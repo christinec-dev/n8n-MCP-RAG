@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.airtabletrigger.md",
+  "index": 8,
+  "content": "### Table\n\nThe [Airtable table](https://support.airtable.com/docs/tables-overview) within the Airtable base that you want to check for updates on. You can provide the table's URL or [table ID](https://support.airtable.com/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls)."
+}

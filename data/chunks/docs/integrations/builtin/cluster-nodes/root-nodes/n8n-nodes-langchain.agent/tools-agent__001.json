@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/tools-agent.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: Tools AI Agent node documentation\ndescription: Learn how to use the Tools Agent of the AI Agent node in n8n. Follow technical documentation to integrate the Tools Agent into your workflows.\ncontentType: [integration, reference]\npriority: critical\n---"
+}

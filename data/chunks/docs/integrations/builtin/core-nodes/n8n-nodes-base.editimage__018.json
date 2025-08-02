@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 18,
+  "content": "## Node options\n\n- **File Name**: Enter the filename of the output file.\n- **Format**: Enter the image format of the output file. Choose from:\n\t- **bmp**\n\t- **gif**\n\t- **jpeg**\n\t- **png**\n\t- **tiff**\n\t- **WebP**\n\nThe **Text** operation also includes the option for **Font Name or ID**. Select the text font from the dropdown or specify an ID using an [expression](/code/expressions.md)."
+}

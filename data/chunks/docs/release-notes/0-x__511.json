@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 511,
+  "content": "### Bug fixes\n\n\n* [Edit Image:](/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md) Fixed a bug causing two items to be returned.\n* [iCalendar:](/integrations/builtin/core-nodes/n8n-nodes-base.converttofile.md) Fixed a bug preventing dates in January from working as expected.\n* [Merge:](/integrations/builtin/core-nodes/n8n-nodes-base.merge.md) Fixed causing empty binary data to overwrite other binary data on merge."
+}

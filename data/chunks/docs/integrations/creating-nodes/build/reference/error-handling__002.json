@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/error-handling.md",
+  "index": 2,
+  "content": "# Error handling in n8n nodes\n\nProper error handling is crucial for creating robust n8n nodes that provide clear feedback to users when things go wrong. n8n provides two specialized error classes to handle different types of failures in node implementations:\n\n- [**`NodeApiError`**](#nodeapierror): For API-related errors and external service failures\n- [**`NodeOperationError`**](#nodeoperationerror): For operational errors, validation failures, and configuration issues"
+}

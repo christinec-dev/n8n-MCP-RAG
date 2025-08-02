@@ -1,0 +1,14 @@
+{
+  "source": "0144_HTTP_Twitter_Automation_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Request blablagues\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        750,\n        250\n      ],\n      \"parameters\": {\n        \"url\": \"https://api.blablagues.net/?rub=images\",\n        \"options\": {},\n        \"responseFormat\": \"string\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Recup image\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        1000,\n        250\n      ],\n      \"parameters\": {\n        \"url\": \"={{$node[\\\"Request blablagues\\\"].json[\\\"data\\\"][\\\"data\\\"][\\\"content\\\"][\\\"media\\\"]}}\",\n        \"options\": {},\n        \"responseFormat\": \"file\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"At 17H image jokes\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        500,\n        250\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"hour\": 17\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Tweet image jokes\",\n      \"type\": \"n8n-nodes-base.twitter\",\n      \"position\": [\n        1250,\n        250\n      ],\n      \"parameters\": {\n        \"text\": \"={{$node[\\\"Request blablagues\\\"].json[\\\"data\\\"][\\\"data\\\"][\\\"content\\\"][\\\"text\\\"]}}\",\n        \"additionalFields\": {\n          \"attachments\": \"data\"\n        }\n      },\n      \"credentials\": {\n        \"twitterOAuth1Api\": {\n          \"id\": \"\",\n          \"name\": \"\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Recup image\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Tweet image jokes\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"At 17H image jokes\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Request blablagues\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Request blablagues\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Recup image\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.twitter"
+    ],
+    "trigger": null
+  }
+}

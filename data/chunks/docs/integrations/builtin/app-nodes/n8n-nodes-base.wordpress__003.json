@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.wordpress.md",
+  "index": 3,
+  "content": "## Operations\n\n* Post\n    * Create a post\n    * Get a post\n    * Get all posts\n    * Update a post\n* Pages\n    * Create a page\n    * Get a page\n    * Get all pages\n    * Update a page\n* User\n    * Create a user\n    * Get a user\n    * Get all users\n    * Update a user"
+}

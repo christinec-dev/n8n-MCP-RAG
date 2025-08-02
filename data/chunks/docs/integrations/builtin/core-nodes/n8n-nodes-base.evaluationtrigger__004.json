@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.evaluationtrigger.md",
+  "index": 4,
+  "content": "## Filters\n\nOptionally filter the evaluation dataset based on column values.\n\n* **Column**: Choose a sheet column you want to filter by. Select **From list** to choose the column name from the dropdown list, or **By ID** to specify an ID using an [expression](/code/expressions.md).\n* **Value**: The column value you want to filter by. The evaluation will only process rows with the given value for the selected column."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.twilio.md",
+  "index": 5,
+  "content": "## Related resources\n\nRefer to [Twilio's documentation](https://www.twilio.com/docs/usage/api) for more information about the service.\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/operation-not-supported.md\""
+}

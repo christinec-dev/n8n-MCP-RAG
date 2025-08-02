@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.airtable/common-issues.md",
+  "index": 3,
+  "content": "## Forbidden - perhaps check your credentials\n\nThis error displays when trying to perform actions not permitted by your current level of access. The full text looks something like this:\n\n```\nThere was a problem loading the parameter options from server: \"Forbidden - perhaps check your credentials?\"\n```\n\nThe error most often displays when the credential you're using doesn't have the scopes it requires on the resources you're attempting to manage.\n\nRefer to the [Airtable credentials](/integrations/builtin/credentials/airtable.md) and [Airtables scopes documentation](https://airtable.com/developers/web/api/scopes) for more information."
+}

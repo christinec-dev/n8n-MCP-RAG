@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 749,
+  "content": "### Core Functionality\n- Implemented timeout for subworkflows\n- Removed the deregistration webhooks functionality from the webhook process"
+}

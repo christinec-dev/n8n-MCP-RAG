@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 381,
+  "content": "### Node enhancements\n\n* [GitHub node](/integrations/builtin/app-nodes/n8n-nodes-base.github.md): add the Get All operation to the Organization resource.\n* [QuickBooks node](/integrations/builtin/app-nodes/n8n-nodes-base.quickbooks.md): add a new optional field for tax items."
+}

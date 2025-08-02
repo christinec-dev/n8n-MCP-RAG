@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.3.md",
+  "index": 3,
+  "content": "## Add If node before the Airtable node\n\nFirst, let's add an If node between the connection from the HTTP Request node to the Airtable node:\n\n1. Hover over the arrow connection the **HTTP Request** node and the **Airtable** node.\n2. Select the **+** sign between the HTTP Request node and the Airtable node."
+}

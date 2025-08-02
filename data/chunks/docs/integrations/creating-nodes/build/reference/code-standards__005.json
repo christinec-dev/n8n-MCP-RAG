@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/code-standards.md",
+  "index": 5,
+  "content": "## Write in TypeScript\n\nAll n8n code is TypeScript. Writing your nodes in TypeScript can speed up development and reduce bugs."
+}

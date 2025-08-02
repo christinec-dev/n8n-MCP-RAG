@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.respondtowebhook.md",
+  "index": 10,
+  "content": "## Output the response sent to the webhook\n\nBy default, the Respond to Webhook node has a single output branch that contains the node's input data.\n\nYou can optionally enable a second output branch containing the response sent to the webhook. To enable this secondary output, open the Respond to Webhook node on the canvas and select the **Settings** tab. Activate the **Enable Response Output Branch** option.\n\nThe node will now have two outputs:\n\n* **Input Data**: The original output, passing on the node's input.\n* **Response**: The response object sent to the webhook."
+}

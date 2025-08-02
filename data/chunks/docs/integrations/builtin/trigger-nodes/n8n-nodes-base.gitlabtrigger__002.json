@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.gitlabtrigger.md",
+  "index": 2,
+  "content": "# GitLab Trigger node\n\n[GitLab](https://gitlab.com/) is a web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking, and continuous integration/continuous installation pipeline features.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/gitlab.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [GitLab Trigger integrations](https://n8n.io/integrations/gitlab-trigger/) page.\n///"
+}

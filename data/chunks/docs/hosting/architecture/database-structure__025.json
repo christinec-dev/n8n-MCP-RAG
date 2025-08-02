@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 25,
+  "content": "### workflow_entity\n\nYour n8n instance's saved workflows."
+}

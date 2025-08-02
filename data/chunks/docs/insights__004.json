@@ -1,0 +1,5 @@
+{
+  "source": "docs/insights.md",
+  "index": 4,
+  "content": "## Insights dashboard\n\nThose on the Pro and Enterprise plans can access the **Insights** section from the side navigation. Each metric from the summary banner is also clickable, taking you to the corresponding chart.\n\nThe insights dashboard also has a table showing individual insights from each workflow including total production executions, failed production executions, failure rate, time saved, and run time average."
+}

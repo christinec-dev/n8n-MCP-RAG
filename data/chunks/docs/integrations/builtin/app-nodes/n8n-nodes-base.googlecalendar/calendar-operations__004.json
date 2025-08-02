@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/calendar-operations.md",
+  "index": 4,
+  "content": "### Options\n\n- **Output Format**: Select the format for the availability information:\n\t- **Availability**: Returns if there are already events overlapping with the given time slot or not.\n\t- **Booked Slots**: Returns the booked slots.\n\t- **RAW**: Returns the RAW data from the API.\n- **Timezone**: The timezone used in the response. By default, uses the n8n timezone.\n\nRefer to the [Freebusy: query | Google Calendar](https://developers.google.com/calendar/api/v3/reference/freebusy/query) API documentation for more information."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 176,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Typeahead for expressions\n\nWhen using [expressions](/code/expressions.md), n8n will now offer you suggestions as you type.\n\n![\"Animated GIF showing typeahead in action\"](/_images/reference/release-notes/0.210.2-expressions-type-ahead.gif)\n\n</div>"
+}

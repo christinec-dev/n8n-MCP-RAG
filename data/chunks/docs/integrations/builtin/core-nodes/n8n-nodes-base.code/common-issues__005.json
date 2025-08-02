@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.code/common-issues.md",
+  "index": 5,
+  "content": "## Code doesn't return an object\n\nThis error may occur when your Code node doesn't return anything or if it returns an unexpected result.\n\nTo resolve this, ensure that your Code node returns the [expected data structure](/data/data-structure.md):\n\n```javascript\n[\n  {\n    \"json\": {\n\t  // your data goes here\n\t}\n  }\n]\n```\n\nThis error may also occur if the code you provided returns `'undefined'` instead of the expected result. In that case, ensure that the data you are referencing in your Code node exists in each execution and that it has the structure your code expects."
+}

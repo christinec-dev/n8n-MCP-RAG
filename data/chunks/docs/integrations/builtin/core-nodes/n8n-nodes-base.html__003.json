@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.html.md",
+  "index": 3,
+  "content": "## Operations\n\n* [**Generate HTML template**](#generate-html-template): Use this operation to create an HTML template. This allows you to take data from your workflow and output it as HTML.\n* [**Extract HTML content**](#extract-html-content): Extract contents from an HTML-formatted source. The source can be in JSON or a binary file (`.html`).\n* [**Convert to HTML Table**](#convert-to-html-table): Convert content to an HTML table.\n\nThe node parameters and options depend on the operation you select. Refer to the sections below for more details on configuring each operation."
+}

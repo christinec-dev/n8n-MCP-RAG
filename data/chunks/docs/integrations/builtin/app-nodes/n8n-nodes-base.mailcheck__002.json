@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mailcheck.md",
+  "index": 2,
+  "content": "# Mailcheck node\n\nUse the Mailcheck node to automate work in Mailcheck, and integrate Mailcheck with other applications. n8n has built-in support for a wide range of Mailcheck features, including checking emails. \n\nOn this page, you'll find a list of operations the Mailcheck node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Mailcheck credentials](/integrations/builtin/credentials/mailcheck.md) for guidance on setting up authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

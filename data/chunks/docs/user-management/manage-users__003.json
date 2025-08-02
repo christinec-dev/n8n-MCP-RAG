@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/manage-users.md",
+  "index": 3,
+  "content": "## Delete a user\n\n1. Select the menu icon by the user you want to delete.\n2. Confirm you want to delete them.\n3. If they're an active user, choose whether to copy their workflow data and credentials to a new user, or permanently delete their workflows and credentials."
+}

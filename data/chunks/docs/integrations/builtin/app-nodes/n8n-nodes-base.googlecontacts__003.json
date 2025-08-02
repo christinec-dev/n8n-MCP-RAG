@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecontacts.md",
+  "index": 3,
+  "content": "## Operations\n\n* Contact\n    * Create a contact\n    * Delete a contact\n    * Get a contact\n    * Retrieve all contacts\n    * Update a contact"
+}

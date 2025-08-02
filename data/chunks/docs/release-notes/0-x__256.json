@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 256,
+  "content": "## n8n@0.198.2\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.198.1...n8n@0.198.2) for this version.<br />\n**Release date:** 2022-10-14\n\nThis release fixes a bug affecting scrolling through parameter lists."
+}

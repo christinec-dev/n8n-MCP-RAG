@@ -1,0 +1,13 @@
+{
+  "source": "1971_Manual_HTTP_Automate_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"rLoXUoKSZ4a9XUAv\",\n  \"meta\": {\n    \"instanceId\": \"7599ed929ea25767a019b87ecbc83b90e16a268cb51892887b450656ac4518a2\"\n  },\n  \"name\": \"My workflow 6\",\n  \"tags\": [],\n  \"nodes\": [\n    {\n      \"id\": \"dad32e79-af45-4255-90d9-845a5357395a\",\n      \"name\": \"When clicking ‘Test workflow’\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        -580,\n        920\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"1cadea33-7c6a-4282-be84-e127fc7437c2\",\n      \"name\": \"Extract Pages From PDF1\",\n      \"type\": \"@custom-js/n8n-nodes-pdf-toolkit.ExtractPages\",\n      \"position\": [\n        -140,\n        920\n      ],\n      \"parameters\": {\n        \"pageRange\": \"2-3\",\n        \"field_name\": \"=data\"\n      },\n      \"credentials\": {\n        \"customJsApi\": {\n          \"id\": \"h29wo2anYKdANAzm\",\n          \"name\": \"CustomJS account\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"a8554e6b-6e2d-4a26-909c-25e74e618480\",\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        -360,\n        920\n      ],\n      \"parameters\": {\n        \"url\": \"https://www.sldttc.org/allpdf/21583473018.pdf\",\n        \"options\": {}\n      },\n      \"typeVersion\": 4.2\n    }\n  ],\n  \"active\": false,\n  \"pinData\": {},\n  \"settings\": {\n    \"executionOrder\": \"v1\"\n  },\n  \"versionId\": \"82cbb24e-e907-419a-97d6-bdb577269927\",\n  \"connections\": {\n    \"HTTP Request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Extract Pages From PDF1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"When clicking ‘Test workflow’\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "@custom-js/n8n-nodes-pdf-toolkit.ExtractPages",
+      "n8n-nodes-base.httpRequest"
+    ],
+    "trigger": null
+  }
+}

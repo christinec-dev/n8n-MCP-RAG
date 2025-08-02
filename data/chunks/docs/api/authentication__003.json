@@ -1,0 +1,5 @@
+{
+  "source": "docs/api/authentication.md",
+  "index": 3,
+  "content": "## API Scopes\n\nUsers of [enterprise instances](https://n8n.io/enterprise/) can limit which resources and actions a key can access with scopes. API key scopes allow you specify the exact level of access a key needs for its intended purpose.\n\nNon-enterprise API keys have full access to all the account's resources and capabilities."
+}

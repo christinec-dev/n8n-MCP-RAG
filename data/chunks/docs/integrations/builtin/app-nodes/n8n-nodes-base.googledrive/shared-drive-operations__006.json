@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/shared-drive-operations.md",
+  "index": 6,
+  "content": "## Get a shared drive\n\nUse this operation to get a shared drive.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [Google Drive credentials](/integrations/builtin/credentials/google/index.md).\n- **Resource**: Select **Shared Drive**.\n- **Operation**: Select **Get**.\n- **Shared Drive**: Choose the shared drive want to get. \n    - Select **From list** to choose the title from the dropdown list, **By URL** to enter the URL of the drive, or **By ID** to enter the `driveId`. \n    - You can find the `driveId` in the URL for the shared Google Drive: `https://drive.google.com/drive/u/0/folders/driveID`."
+}

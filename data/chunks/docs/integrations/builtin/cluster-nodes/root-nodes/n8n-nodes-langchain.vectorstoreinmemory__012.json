@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreinmemory.md",
+  "index": 12,
+  "content": "### Configuration Options\n\nYou can control memory usage with these environment variables:\n\n | Variable                      | Type   | Default | Description                                                                         |\n |-------------------------------|--------|---------|-------------------------------------------------------------------------------------|\n | `N8N_VECTOR_STORE_MAX_MEMORY` | Number | -1      | Maximum memory in MB allowed for all vector stores combined (-1 to disable limits). |\n | `N8N_VECTOR_STORE_TTL_HOURS`  | Number | -1      | Hours of inactivity after which a store gets removed (-1 to disable TTL).           |\n\nOn n8n Cloud, these values are preset to 100MB (about 8,000 documents, depending on document size and metadata) and 7 days respectively. For self-hosted instances, both values default to -1(no memory limits or time-based cleanup)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/common-issues.md",
+  "index": 4,
+  "content": "## Forbidden - perhaps check your credentials\n\nThis error displays next to certain dropdowns in the node, like the **Label Names or IDs** dropdown. The full text looks something like this:\n\n```\nThere was a problem loading the parameter options from server: \"Forbidden - perhaps check your credentials?\"\n```\n\nThe error most often displays when you're using a Google Service Account as the credential and the credential doesn't have **Impersonate a User** turned on.\n\nRefer to [Google Service Account: Finish your n8n credential](/integrations/builtin/credentials/google/service-account.md#finish-your-n8n-credential) for more information."
+}

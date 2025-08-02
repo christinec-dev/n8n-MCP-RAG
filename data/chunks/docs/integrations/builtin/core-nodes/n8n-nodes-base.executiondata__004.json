@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.executiondata.md",
+  "index": 4,
+  "content": "## Data to Save\n\nAdd a **Saved Field** for each key/value pair of metadata you'd like to save."
+}

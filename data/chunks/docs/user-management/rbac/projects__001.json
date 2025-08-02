@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/rbac/projects.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: RBAC projects\ndescription: Understand how n8n uses project for RBAC. Learn how to create and manage projects.\ncontentType: howto\n---\n\n/// info | Feature availability\nRBAC is available on all plans except the Community edition. Different plans have different numbers of projects and roles. Refer to n8n's [pricing page](https://n8n.io/pricing/) for plan details.\n///\n\nn8n uses projects to group workflows and [credentials](/glossary.md#credential-n8n), and assigns [roles](/user-management/rbac/role-types.md) to users in each project. This means that a single user can have different roles in different projects, giving them different levels of access."
+}

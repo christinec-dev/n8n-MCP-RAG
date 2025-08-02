@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-methods.md",
+  "index": 6,
+  "content": "## Set environment variables using a file\n\nYou can also configure n8n using a configuration file.\n\nOnly define the values that need to be different from the default in your configuration file. You can use multiple files. For example, you can have a file with generic base settings, and files with specific values for different environments."
+}

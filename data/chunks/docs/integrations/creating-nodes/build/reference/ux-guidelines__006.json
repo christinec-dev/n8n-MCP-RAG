@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 6,
+  "content": "### Operations to include\n\nTry to include **CRUD** operations for each resource type.\n\nTry to include common operations in nodes for each resource. n8n uses some CRUD operations to keep the experience consistent and allow users to perform basic operations on the resource. The suggested operations are:\n\n* **Create**\n* **Create or Update (Upsert)**\n* **Delete**\n* **Get**\n* **Get Many:** also used when some filtering or search is available\n* **Update**\n\nNotes:\n\n1. These operations can apply to the resource itself or an entity inside of the resource (for example, a row inside a Google Sheet). When operating on an entity inside of the resource, you must specify the **name of the entity** in the operations name.\n2. The naming could change depending on the node and the resource. Check the following guidelines for details."
+}

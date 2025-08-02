@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.formtrigger.md",
+  "index": 7,
+  "content": "### Authentication\n\n- **Basic Auth**\n- **None**\n\n#### Using basic auth\n\nTo configure this credential, you'll need:\n\n- The **Username** you use to access the app or service your HTTP Request is targeting.\n- The **Password** that goes with that username."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.asana.md",
+  "index": 2,
+  "content": "# Asana node\n\nUse the Asana node to automate work in Asana, and integrate Asana with other applications. n8n has built-in support for a wide range of Asana features, including creating, updating, deleting, and getting users, tasks, projects, and subtasks.\n\nOn this page, you'll find a list of operations the Asana node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Asana credentials](/integrations/builtin/credentials/asana.md) for guidance on setting up authentication.\n///\n\n/// note | Update to 1.22.2 or above\nDue to changes in Asana's API, some operations in this node stopped working on 17th January 2023. Upgrade to n8n 1.22.2 or above.\n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

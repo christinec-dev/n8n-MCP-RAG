@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/using/push-pull.md",
+  "index": 6,
+  "content": "## Send your work to Git\n\n/// note | n8n roles control which users can push changes\nYou must be an instance owner, instance admin, or project admin to push changes to git.\n///\n\n--8<-- \"_snippets/source-control-environments/push.md\""
+}

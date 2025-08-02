@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 794,
+  "content": "## n8n@0.106.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.105.0...n8n@0.106.0) for this version.<br />\n**Release date:** 2021-02-05\n\n- New nodes\n- Reddit\n- Tapfiliate\n- Enhanced nodes\n- Airtable Trigger: Added Download Attachment option\n- HubSpot: Added Custom Properties option to the Create and Update operations of the Company resource\n- MySQL: Added Connection Timeout parameter to the credentials\n- Telegram: Added Pin Chat Message and Unpin Chat Message operations for the Message resource\n- Bug fixes\n- Typeform: Fixed an issue with the OAuth2 authentication method\n- Added support for `s` and `u` flags for regex in the IF node and the Switch node"
+}

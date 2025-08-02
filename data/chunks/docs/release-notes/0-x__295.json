@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 295,
+  "content": "### Bug fixes\n\n* Editor: prevent editing in the Function nodes in executions view.\n* Editor: ensure button widths are correct.\n* Editor: fix a popup title.\n* Gmail node: fix an issue introduced due to incorrect automatic data formatting."
+}

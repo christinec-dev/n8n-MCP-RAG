@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorepinecone.md",
+  "index": 17,
+  "content": "### Pinecone Namespace \n\nAnother segregation option for how to store your data within the index."
+}

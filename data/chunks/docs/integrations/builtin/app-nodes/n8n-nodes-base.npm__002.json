@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.npm.md",
+  "index": 2,
+  "content": "# npm node\n\nUse the npm node to automate work in npm, and integrate npm with other applications.\n\nOn this page, you'll find a list of operations the npm node supports and links to more resources.\n\n/// note | Credentials\nRefer to [npm credentials](/integrations/builtin/credentials/npm.md) for guidance on setting up authentication. \n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.postgrestrigger.md",
+  "index": 3,
+  "content": "## Events\n\nYou can configure how the node listens for events.\n\n* Select **Listen and Create Trigger Rule**, then choose the events to listen for:\n\t* Insert\n\t* Update\n\t* Delete\n* Select **Listen to Channel**, then enter a channel name that the node should monitor."
+}

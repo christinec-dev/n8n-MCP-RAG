@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/ai-assistant.md",
+  "index": 3,
+  "content": "## Current capabilities\n\nThe AI Assistant offers a range of tools to support you:\n\n- **Debug helper**: Identify and troubleshoot node execution issues in your workflows to keep them running without issues.\n- **Answer n8n questions**: Get instant answers to your n8n-related questions, whether they're about specific features or general functionality.\n- **Coding support**: Receive guidance on coding, including SQL and JSON, to optimize your nodes and data processing.\n- **Expression assistance**: Learn how to create and refine [expressions](/code/expressions.md) to get the most out of your workflows.\n- **Credential setup tips**: Find out how to set up and manage node [credentials](/integrations/builtin/credentials/index.md) securely and efficiently."
+}

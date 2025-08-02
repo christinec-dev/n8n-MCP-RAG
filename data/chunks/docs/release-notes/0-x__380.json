@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 380,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Cal.com trigger\n\nThis release adds a new trigger node for Cal.com. Refer to the [Cal Trigger documentation](/integrations/builtin/trigger-nodes/n8n-nodes-base.caltrigger.md) for more guidance.\n\n</div>"
+}

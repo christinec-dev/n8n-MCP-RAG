@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/docker.md",
+  "index": 13,
+  "content": "# Remove the container with the `<container_id>`\ndocker rm <container_id>"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 443,
+  "content": "### Other improvements\n\n- Add support for reading IDs from file with executeBatch command."
+}

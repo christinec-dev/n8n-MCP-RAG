@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/performance-benchmarking.md",
+  "index": 4,
+  "content": "## Run your own benchmarking\n\nTo get an accurate estimate for your use case, run n8n's [benchmarking framework](https://github.com/n8n-io/n8n/tree/master/packages/%40n8n/benchmark). The repository contains more information about the benchmarking."
+}

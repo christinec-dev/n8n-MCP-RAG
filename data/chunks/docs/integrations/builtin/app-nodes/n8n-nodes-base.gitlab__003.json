@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gitlab.md",
+  "index": 3,
+  "content": "## Operations\n\n* File\n\t* Create\n\t* Delete\n\t* Edit\n\t* Get\n\t* List\n* Issue\n    * Create a new issue\n    * Create a new comment on an issue\n    * Edit an issue\n    * Get the data of a single issue\n    * Lock an issue\n* Release\n    * Create a new release\n    * Delete a new release\n    * Get a new release\n    * Get all releases\n    * Update a new release\n* Repository\n    * Get the data of a single repository\n    * Returns issues of a repository\n* User\n    * Returns the repositories of a user"
+}

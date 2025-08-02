@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 367,
+  "content": "## n8n@0.182.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.181.2...n8n@0.182.0) for this version.<br />\n**Release date:** 2022-06-14\n\nThis release contains enhancements to the Twilio and Wise integrations, and adds support for a new grant type for OAuth2. It also includes some bug fixes."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparserstructured/common-issues.md",
+  "index": 2,
+  "content": "# Structured Output Parser node common issues\n\nHere are some common errors and issues with the [Structured Output Parser node](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparserstructured/index.md) and steps to resolve or troubleshoot them."
+}

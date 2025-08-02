@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.hubspottrigger.md",
+  "index": 2,
+  "content": "# HubSpot Trigger node\n\n[HubSpot](https://www.hubspot.com/) provides tools for social media marketing, content management, web analytics, landing pages, customer support, and search engine optimization.\n\n/// warning | Webhooks\nIf you activate a second trigger, the previous trigger stops working. This is because the trigger registers a new webhook with HubSpot when activated. HubSpot only allows one webhook at a time. \n///\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/hubspot.md).\n///\n\n/// note | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [HubSpot Trigger integrations](https://n8n.io/integrations/hubspot-trigger/) page.\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.redis.md",
+  "index": 3,
+  "content": "## Operations\n\n* Delete a key from Redis.\n* Get the value of a key from Redis.\n* Returns generic information about the Redis instance.\n* Atomically increments a key by 1. Creates the key if it doesn't exist.\n* Returns all the keys matching a pattern.\n* Set the value of a key in Redis.\n* Publish message to Redis channel."
+}

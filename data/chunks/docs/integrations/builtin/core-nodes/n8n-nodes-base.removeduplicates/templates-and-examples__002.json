@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.removeduplicates/templates-and-examples.md",
+  "index": 2,
+  "content": "# Templates and examples\n\nHere are some templates and examples for the [Remove Duplicates node](/integrations/builtin/core-nodes/n8n-nodes-base.removeduplicates/index.md).\n\n/// note | Continuous examples\nThe examples included in this section are a sequence. Follow from one to another to avoid unexpected results.\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 771,
+  "content": "### Core Functionality\n\n- Changed `bcrypt` library from `bcryptjs` to `@node-rs/bcrypt`\n- Improved node error handling. Status codes and error messages in API responses have been standardized\n- Added global timeout setting for all HTTP requests (except HTTP Request node)\n- Implemented timeout for workers and corrected timeout for sub workflows"
+}

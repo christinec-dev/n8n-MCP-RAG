@@ -1,0 +1,5 @@
+{
+  "source": "docs/learning-path.md",
+  "index": 6,
+  "content": "### Video courses\n\nLearn key concepts and n8n features, while building examples as you go.\n\n- The [Beginner](https://www.youtube.com/playlist?list=PLlET0GsrLUL59YbxstZE71WszP3pVnZfI) course covers the basics of n8n.\n- The [Advanced](https://www.youtube.com/playlist?list=PLlET0GsrLUL5bxmx5c1H1Ms_OtOPYZIEG) course covers more complex workflows, more technical nodes, and enterprise features"
+}

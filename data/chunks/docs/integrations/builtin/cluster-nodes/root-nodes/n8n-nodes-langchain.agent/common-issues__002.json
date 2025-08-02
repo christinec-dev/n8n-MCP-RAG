@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/common-issues.md",
+  "index": 2,
+  "content": "# AI Agent node common issues\n\nHere are some common errors and issues with the [AI Agent node](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/index.md) and steps to resolve or troubleshoot them."
+}

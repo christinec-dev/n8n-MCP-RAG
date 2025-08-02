@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/google-cloud.md",
+  "index": 15,
+  "content": "### Pod resources\n\n[Kubernetes lets you](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/) optionally specify the minimum resources application containers need and the limits they can run to. The example YAML files cloned above contain the following in the `resources` section of the `n8n-deployment.yaml` and `postgres-deployment.yaml` files:\n\n```yaml\n…\nresources:\n  requests:\n    memory: \"250Mi\"\n  limits:\n    memory: \"500Mi\"\n…    \n```\n\nThis defines a minimum of 250mb per container, a maximum of 500mb, and lets Kubernetes handle CPU. You can change these values to match your own needs. As a guide, here are the resources values for the n8n cloud offerings:\n\n--8<-- \"_snippets/self-hosting/installation/suggested-pod-resources.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 350,
+  "content": "## n8n@1.33.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.32.1...n8n@1.33.0) for this version.<br />\n**Release date:** 2024-03-13\n\nThis release contains new features, node enhancements, and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Support for Claude 3\n\nThis release adds support for Claude 3 to the [Anthropic Chat Model](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatanthropic.md) node.\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

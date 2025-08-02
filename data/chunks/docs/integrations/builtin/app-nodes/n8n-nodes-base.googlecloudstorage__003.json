@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudstorage.md",
+  "index": 3,
+  "content": "## Operations\n\n* Bucket\n\t* Create\n\t* Delete\n\t* Get\n\t* Get Many\n\t* Update\n* Object\n\t* Create\n\t* Delete\n\t* Get\n\t* Get Many\n\t* Update"
+}

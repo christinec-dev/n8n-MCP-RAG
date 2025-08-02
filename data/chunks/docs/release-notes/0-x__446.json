@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 446,
+  "content": "## n8n@0.168.2\n\nFor a comprehensive list of changes, view the [commits](https://github.com/n8n-io/n8n/compare/n8n%400.168.1...n8n@0.168.2) for this version.<br />\n**Release date:** 2022-03-16\n\nThis release contains an important bug fix for 0.168.0. Users on 0.168.0 or 0.168.1 should upgrade to this."
+}

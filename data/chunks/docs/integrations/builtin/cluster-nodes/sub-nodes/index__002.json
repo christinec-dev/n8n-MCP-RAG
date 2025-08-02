@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/index.md",
+  "index": 2,
+  "content": "# Sub nodes\n\nSub nodes attach to root nodes within a group of cluster nodes. They configure the overall functionality of the cluster.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/cluster-nodes-summary.md\"\n--8<-- \"_glossary/ai-glossary.md\""
+}

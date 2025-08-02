@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.converttofile.md",
+  "index": 12,
+  "content": "### Convert to XLSX\n\nConfigure the node for this operation with the **Put Output File in Field** parameter. Enter the name of the field in the output data to contain the file.\n\n#### Convert to XLSX options\n\nYou can also configure this operation with these **Options**:\n\n* **File Name**: Enter the file name for the generated output file.\n* **Compression**: Choose whether to compress and reduce the file's output size.\n* **Header Row**: Turn on if the first row of the file contains header names.\n* **Sheet Name**: Enter the Sheet Name to create in the spreadsheet."
+}

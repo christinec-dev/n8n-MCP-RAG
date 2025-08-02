@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 529,
+  "content": "### Bug fixes\n\n\n* [Todoist:](/integrations/builtin/app-nodes/n8n-nodes-base.todoist.md) Fixed a bug where using the additional field Due Date Time on the Task resource would cause the Create operation to fail."
+}

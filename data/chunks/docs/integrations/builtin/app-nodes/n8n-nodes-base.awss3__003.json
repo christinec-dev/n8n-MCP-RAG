@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.awss3.md",
+  "index": 3,
+  "content": "## Operations\n\n* Bucket\n    * Create a bucket\n    * Delete a bucket\n    * Get all buckets\n    * Search within a bucket\n* File\n    * Copy a file\n    * Delete a file\n    * Download a file\n    * Get all files\n    * Upload a file\n* Folder\n    * Create a folder\n    * Delete a folder\n    * Get all folders"
+}

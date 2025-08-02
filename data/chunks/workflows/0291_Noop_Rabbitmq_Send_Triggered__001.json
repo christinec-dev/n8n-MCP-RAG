@@ -1,0 +1,14 @@
+{
+  "source": "0291_Noop_Rabbitmq_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"186\",\n  \"name\": \"Receive messages from a queue via RabbitMQ and send an SMS\",\n  \"nodes\": [\n    {\n      \"name\": \"RabbitMQ\",\n      \"type\": \"n8n-nodes-base.rabbitmqTrigger\",\n      \"position\": [\n        520,\n        220\n      ],\n      \"parameters\": {\n        \"queue\": \"temp\",\n        \"options\": {\n          \"onlyContent\": true,\n          \"jsonParseBody\": true\n        }\n      },\n      \"credentials\": {\n        \"rabbitmq\": \"RabbitMQ Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        720,\n        220\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"number\": [\n            {\n              \"value1\": \"={{$node[\\\"RabbitMQ\\\"].json[\\\"temp\\\"]}}\",\n              \"value2\": 50,\n              \"operation\": \"larger\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Vonage\",\n      \"type\": \"n8n-nodes-base.vonage\",\n      \"position\": [\n        930,\n        120\n      ],\n      \"parameters\": {\n        \"message\": \"=Alert!\\nThe value of temp is {{$node[\\\"RabbitMQ\\\"].json[\\\"temp\\\"]}}.\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"vonageApi\": \"vonage\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NoOp\",\n      \"type\": \"n8n-nodes-base.noOp\",\n      \"position\": [\n        920,\n        370\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Vonage\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ],\n        [\n          {\n            \"node\": \"NoOp\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"RabbitMQ\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.rabbitmqTrigger",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.vonage",
+      "n8n-nodes-base.noOp"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/sql-agent.md",
+  "index": 9,
+  "content": "### Included Tables\n\nIf you'd only like to include specific tables from the database, enter a comma-separated list of tables to include.\n\nIf left empty, the agent includes all tables."
+}

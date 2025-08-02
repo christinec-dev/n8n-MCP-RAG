@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 85,
+  "content": "### Bug fixes\n\n* Code node: Update vm2 to address CVE-2023-29017.\n* Core: Update xml2js to address CVE-2023-0842."
+}

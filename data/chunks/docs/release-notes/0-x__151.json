@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 151,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### LDAP\n\nThis release introduces support for LDAP on Self-hosted Enterprise and Cloud Enterprise plans. Refer to [LDAP](/user-management/ldap.md) for more information on this feature.\n\n</div>\n\n* Simplify the Node Details View by moving authentication details to the Credentials modal.\n* Improve workflow list performance."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.wekan.md",
+  "index": 3,
+  "content": "## Operations\n\n* Board\n    * Create a new board\n    * Delete a board\n    * Get the data of a board\n    * Get all user boards\n* Card\n    * Create a new card\n    * Delete a card\n    * Get a card\n    * Get all cards\n    * Update a card\n* Card Comment\n    * Create a comment on a card\n    * Delete a comment from a card\n    * Get a card comment\n    * Get all card comments\n* Checklist\n    * Create a new checklist\n    * Delete a checklist\n    * Get the data of a checklist\n    * Returns all checklists for the card\n* Checklist Item\n    * Delete a checklist item\n    * Get a checklist item\n    * Update a checklist item\n* List\n    * Create a new list\n    * Delete a list\n    * Get the data of a list\n    * Get all board lists"
+}

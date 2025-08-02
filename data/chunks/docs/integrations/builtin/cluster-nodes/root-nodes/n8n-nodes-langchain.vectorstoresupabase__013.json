@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoresupabase.md",
+  "index": 13,
+  "content": "### Retrieve Documents (As Vector Store for Chain/Tool) parameters\n\n* **Table Name**: Enter the Supabase table to use."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sendemail.md",
+  "index": 4,
+  "content": "### Credential to connect with\n\nSelect or create an [SMTP account credential](/integrations/builtin/credentials/sendemail/index.md) for the node to use."
+}

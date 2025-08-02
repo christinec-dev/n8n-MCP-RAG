@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 604,
+  "content": "### Enhanced nodes\n\n* [Telegram:](/integrations/builtin/app-nodes/n8n-nodes-base.telegram/index.md) Added binary data support to the Send Animation, Send Audio, Send Document, Send Photo, Send Video, and Send Sticker operations."
+}

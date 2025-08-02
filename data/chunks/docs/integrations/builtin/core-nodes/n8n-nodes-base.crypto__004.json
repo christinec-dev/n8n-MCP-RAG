@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.crypto.md",
+  "index": 4,
+  "content": "## Node parameters\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\"\n\nNode parameters depend on the action you select."
+}

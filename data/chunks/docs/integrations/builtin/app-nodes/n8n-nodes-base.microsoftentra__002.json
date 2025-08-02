@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftentra.md",
+  "index": 2,
+  "content": "# Microsoft Entra ID node\n\nUse the Microsoft Entra ID node to automate work in Microsoft Entra ID and integrate Microsoft Entra ID with other applications. n8n has built-in support for a wide range of Microsoft Entra ID features, which includes creating, getting, updating, and deleting users and groups, as well as adding users to and removing them from groups.\n\nOn this page, you'll find a list of operations the Microsoft Entra ID node supports, and links to more resources.\n\n///  note  | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/microsoftentra.md).\n///"
+}

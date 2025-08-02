@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 182,
+  "content": "### Node updates\n\n- [AI Transform](/integrations/builtin/core-nodes/n8n-nodes-base.aitransform.md): The `maximum context length` error now retries with reduced payload size\n- [Redis](/integrations/builtin/app-nodes/n8n-nodes-base.redis.md): Added support for `continue on fail`"
+}

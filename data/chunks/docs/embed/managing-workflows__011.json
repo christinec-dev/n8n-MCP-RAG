@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/managing-workflows.md",
+  "index": 11,
+  "content": "### Call the workflow\n\nFor each new user, or for any existing user as may be needed, call the webhook defined as the workflow trigger and provide the necessary credentials (and any other workflow parameters)."
+}

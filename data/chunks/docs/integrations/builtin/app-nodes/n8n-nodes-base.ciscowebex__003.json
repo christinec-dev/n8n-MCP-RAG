@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.ciscowebex.md",
+  "index": 3,
+  "content": "## Operations\n\n* Meeting\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Message\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update"
+}

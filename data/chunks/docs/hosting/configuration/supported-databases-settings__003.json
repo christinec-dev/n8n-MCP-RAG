@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/supported-databases-settings.md",
+  "index": 3,
+  "content": "## Shared settings\n\nThe following environment variables get used by all databases:\n\n - `DB_TABLE_PREFIX` (default: -) - Prefix for table names"
+}

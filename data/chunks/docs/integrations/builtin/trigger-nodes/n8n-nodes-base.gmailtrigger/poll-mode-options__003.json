@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.gmailtrigger/poll-mode-options.md",
+  "index": 3,
+  "content": "## Poll mode options\n\nRefer to the sections below for details on using each **Mode**.\n\n--8<-- \"_snippets/integrations/builtin/poll-modes.md\""
+}

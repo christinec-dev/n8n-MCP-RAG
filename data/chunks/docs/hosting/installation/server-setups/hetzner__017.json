@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/hetzner.md",
+  "index": 17,
+  "content": "## Updating\n\n--8<-- \"_snippets/self-hosting/installation/docker-compose-updating.md\""
+}

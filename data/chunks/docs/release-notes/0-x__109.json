@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 109,
+  "content": "### Bug fixes\n\n* Core: fix issue with execution pruning queries.\n* Core: fix for workflow filtering by tag.\n* Core: revert isPending check on the user entity."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.spotify.md",
+  "index": 2,
+  "content": "# Spotify node\n\nUse the Spotify node to automate work in Spotify, and integrate Spotify with other applications. n8n has built-in support for a wide range of Spotify features, including getting album and artist information. \n\nOn this page, you'll find a list of operations the Spotify node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Spotify credentials](/integrations/builtin/credentials/spotify.md) for guidance on setting up authentication. \n///"
+}

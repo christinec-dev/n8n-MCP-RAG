@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 637,
+  "content": "### Core Functionality\n- Fixed an issue where if n8n was shutdown during database migration while upgrading versions, errors would result upon next startup."
+}

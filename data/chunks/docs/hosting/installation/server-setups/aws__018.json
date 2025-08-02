@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/aws.md",
+  "index": 18,
+  "content": "## Delete resources\n\nIf you need to delete the setup, you can remove the resources created by the manifests with the following command:\n\n```shell\nkubectl delete -f .\n```"
+}

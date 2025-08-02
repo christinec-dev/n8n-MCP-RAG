@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 54,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\nThis release introduces [Variables](/code/variables.md). You can now create variables that allows you to store and reuse values in n8n workflows. This is the first phase of a larger project to support [Environments](/source-control-environments/index.md) in n8n.\n\n</div>\n\n* Core: Add support for Google Service account authentication in the HTTP Request node.\n* GitLab Node: Add **Additional Parameters** for the file list operation.\n* MySQL Node: This node has been overhauled."
+}

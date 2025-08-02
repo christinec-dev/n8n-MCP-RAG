@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 231,
+  "content": "### New features\n\n* Add duplicate workflow error handler.\n* Add workflow data reset action.\n* Add credential runtime checks and prevent tampering during a manual run."
+}

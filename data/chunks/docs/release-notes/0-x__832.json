@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 832,
+  "content": "## n8n@0.84.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.83.0...n8n@0.84.0) for this version.<br />\n**Release date:** 2020-09-23\n\n- Enhanced nodes\n- Twitter: Added support for auto mention of users in reply tweets\n- Bug Fixes\n- Google Sheets: Fixed issue with non-Latin sheet names\n- HubSpot: Fixed naming of credentials\n- Microsoft: Fixed naming of credentials\n- Mandrill: Fixed attachments with JSON parameters\n- Expressions now use short variables when selecting input data for the current node\n- Fixed issue with renaming credentials for active workflows"
+}

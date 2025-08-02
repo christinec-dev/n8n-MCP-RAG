@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/using/copy-work.md",
+  "index": 5,
+  "content": "## Automatically send changes to n8n\n\nYou can automate parts of the process of copying work, using the `/source-control/pull` API endpoint. Call the API after merging the changes:\n\n```curl\ncurl --request POST \\\n\t--location '<YOUR-INSTANCE-URL>/api/v1/source-control/pull' \\\n\t--header 'Content-Type: application/json' \\\n\t--header 'X-N8N-API-KEY: <YOUR-API-KEY>' \\\n\t--data '{\"force\": true}'\n```\n\nThis means you can use a GitHub Action or GitLab CI/CD to automatically pull changes to the production instance on merge.\n\n--8<-- \"_snippets/source-control-environments/github-action.md\""
+}

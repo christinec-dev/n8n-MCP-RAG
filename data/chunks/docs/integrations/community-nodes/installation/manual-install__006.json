@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/installation/manual-install.md",
+  "index": 6,
+  "content": "### Upgrade to the latest version\n\nAccess your Docker shell:\n\n```sh\ndocker exec -it n8n sh\n```\n\nRun npm update:\n\n```sh\nnpm update n8n-nodes-nodeName\n```"
+}

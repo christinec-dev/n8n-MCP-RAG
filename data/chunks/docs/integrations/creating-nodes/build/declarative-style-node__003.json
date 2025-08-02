@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/declarative-style-node.md",
+  "index": 3,
+  "content": "## Prerequisites\n\nYou need the following installed on your development machine:\n\n--8<-- \"_snippets/integrations/creating-nodes/prerequisites.md\"\n\nYou need some understanding of:\n\n- JavaScript/TypeScript\n- REST APIs\n- git"
+}

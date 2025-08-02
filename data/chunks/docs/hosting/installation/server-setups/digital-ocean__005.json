@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/digital-ocean.md",
+  "index": 5,
+  "content": "## Clone configuration repository\n\nDocker Compose, n8n, and Caddy require a series of folders and configuration files. You can clone these from [this repository](https://github.com/n8n-io/n8n-docker-caddy) into the home folder of the logged-in user on your Droplet. The following steps will tell you which file to change and what changes to make.\n\nClone the repository with the following command:\n\n```shell\ngit clone https://github.com/n8n-io/n8n-docker-caddy.git\n```\n\nAnd change directory to the root of the repository you cloned:\n\n```shell\ncd n8n-docker-caddy\n```"
+}

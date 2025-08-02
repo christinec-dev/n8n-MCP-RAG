@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md",
+  "index": 22,
+  "content": "## Import curl command\n\n[curl](https://curl.se/) is a command line tool and library for transferring data with URLs.\n\nYou can use curl to call REST APIs. If the API documentation of the service you want to use provides curl examples, you can copy them out of the documentation and into n8n to configure the HTTP Request node.\n\nImport a curl command:\n\n1. From the HTTP Request node's **Parameters** tab, select **Import cURL**. The **Import cURL command** modal opens.\n2. Paste your curl command into the text box.\n3. Select **Import**. n8n loads the request configuration into the node fields. This overwrites any existing configuration."
+}

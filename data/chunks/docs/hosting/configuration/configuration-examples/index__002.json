@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/index.md",
+  "index": 2,
+  "content": "# Configuration examples\n\nThis section contains examples for how to configure n8n to solve particular use cases.\n\n[[% import \"_macros/section-toc.html\" as sectionToc %]]\n\n[[ sectionToc.sectionToc(page) ]]"
+}

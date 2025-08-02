@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 137,
+  "content": "### Improved partial executions\nThe new execution engine for partial executions ensures that testing parts of a workflow in the builder closely mirrors production behaviour. This makes iterating with updated run-data faster and more reliable, particularly for complex workflows.\n\nBefore, user would test parts of a workflow in the builder that didn't consistently reflect production behaviour, leading to unexpected results during development.\n\nThis update aligns workflow execution in the builder with production behavior.\n\nHere is an example for loops:\n\nBefore\n<br>\n\n<video src=\"/_video/release-notes/Partial-execution-loop-before.mp4\" controls width=\"100%\"></video>\n<br>\nAfter\n<br>\n\n<video src=\"/_video/release-notes/Partial-execution-loop-after.mp4\" controls width=\"100%\"></video>\n\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 823,
+  "content": "## n8n@0.87.1\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.87.0...n8n@0.87.1) for this version.<br />\n**Release date:** 2020-10-15\n\n- Bug Fixes\n- Gmail: Fixed an issue with the Message ID\n- HTTP Request: Fixed an issue with the GET Request\n- Added `HMAC-SHA512` signature method for OAuth 1.0"
+}

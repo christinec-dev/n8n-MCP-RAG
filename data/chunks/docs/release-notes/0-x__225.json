@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 225,
+  "content": "### Bug fixes\n\n* Core: ensure executions list is properly filtered for all users.\n* Core: fix `$items().length` in Execute Once mode.\n* Core: mark binary data to be deleted when pruning executions.\n* Core: OAuth2 scope saved to database fix.\n* Editor: fix slots rendering of NodeCreator's NoResults component.\n* Editor: JSON view values can be mapped like keys.\n* AWS SNS Node: fix a pagination issue.\n* Google Sheets Node: fix exception if no matching rows are found.\n* Google Sheets Node: fix for append operation if no empty rows in sheet.\n* Microsoft Outlook Node: fix binary attachment upload.\n* Pipedrive Node: resolve properties not working.\n* Lazy load nodes for credentials testing.\n* Credential overwrites should take precedence over credential default values.\n* Remove background for resource ownership selector.\n* Update padding for resource filters dropdown.\n* Update size of select components in filters dropdown.\n* Update workflow save button type and design and share button type."
+}

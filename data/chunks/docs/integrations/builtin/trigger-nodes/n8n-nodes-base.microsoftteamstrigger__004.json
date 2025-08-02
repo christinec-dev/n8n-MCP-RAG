@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.microsoftteamstrigger.md",
+  "index": 4,
+  "content": "## Related resources\n\nn8n provides an app node for Microsoft Teams. You can find the node docs [here](/integrations/builtin/app-nodes/n8n-nodes-base.microsoftteams.md).\n\n<!-- add a link to the node page on n8n's website. For example: https://n8n.io/integrations/356-gmail/ -->\nView [example workflows and related content](https://n8n.io/integrations/microsoft-teams-trigger/) on n8n's website.\n\n<!-- add a link to the service's documentation. This should usually go direct to the API docs -->\nRefer to the [Microsoft Teams documentation](https://learn.microsoft.com/en-us/graph/api/resources/teams-api-overview?view=graph-rest-1.0) for details about their API."
+}

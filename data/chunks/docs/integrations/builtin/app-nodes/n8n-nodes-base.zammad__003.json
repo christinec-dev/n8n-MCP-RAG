@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.zammad.md",
+  "index": 3,
+  "content": "## Operations\n\n* Group\n    * Create\n    * Delete\n    * Get\n    * Get many\n    * Update\n* Organization\n    * Create\n    * Delete\n    * Get\n    * Get many\n    * Update\n* Ticket\n    * Create\n    * Delete\n    * Get\n    * Get many\n* User\n    * Create\n    * Delete\n    * Get\n    * Get many\n\t* Get self\n    * Update"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/1-0-migration-checklist.md",
+  "index": 20,
+  "content": "## Updating to n8n 1.0\n\n1. Create a full backup of n8n.\n2. n8n recommends updating to the latest n8n 0.x release before updating to n8n 1.x. This will allow you to pinpoint any potential issues to the correct release. Once you have verified that n8n 0.x starts up without any issues, proceed to the next step.\n3. Carefully read the [Deprecations](#deprecations) and [Breaking Changes](#breaking-changes) sections above to assess how they may affect your setup.\n4. Update to n8n 1.0:\n\t* During beta (before July 24th 2023): If using Docker, pull the `next` Docker image.\n\t* After July 24th 2023: If using Docker, pull the `latest` Docker image.\n5. If you encounter any issues, redeploy the previous n8n version and restore the backup."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.wait.md",
+  "index": 5,
+  "content": "### At Specified Time\n\nWait until a specific date and time to continue. Use the date and time picker to set the **Date and Time**.\n\nRefer to [Time-based operations](#time-based-operations) for more detail on the timezone used."
+}

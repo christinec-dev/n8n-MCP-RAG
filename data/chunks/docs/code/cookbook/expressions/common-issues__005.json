@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/expressions/common-issues.md",
+  "index": 5,
+  "content": "## Invalid syntax\n\nThis error occurs when you use an expression that has a syntax error.\n\nFor example, the expression in this JSON includes a trailing period, which results in an invalid syntax error:\n\n```jsx\n{\n  \"my_field_1\": \"value\",\n  \"my_field_2\": {{ $('If').item.json. }}\n}\n\n```\n\nTo resolve this error, check your [expression syntax](https://www.notion.so/code/expressions/) to make sure they follow the expected format."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 400,
+  "content": "### Node enhancements\n\n* [Pipedrive node](/integrations/builtin/app-nodes/n8n-nodes-base.pipedrive.md): adds support for filters to the Organization: Get All operation.\n* [Pushover node](/integrations/builtin/app-nodes/n8n-nodes-base.pushover.md): adds an HTML formatting option, and a credential test.\n* [UProc node](/integrations/builtin/app-nodes/n8n-nodes-base.uproc.md): adds new tools."
+}

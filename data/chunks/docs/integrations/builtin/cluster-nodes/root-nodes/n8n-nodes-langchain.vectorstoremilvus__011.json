@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoremilvus.md",
+  "index": 11,
+  "content": "### Insert Documents parameters\n\n* **Milvus Collection**: Select or enter the Milvus Collection to use.\n* **Clear Collection**: Specify whether to clear the collection before inserting new documents."
+}

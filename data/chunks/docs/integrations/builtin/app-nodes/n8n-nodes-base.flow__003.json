@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.flow.md",
+  "index": 3,
+  "content": "## Operations\n\n* Task\n    * Create a new task\n    * Update a task\n    * Get a task\n    * Get all the tasks"
+}

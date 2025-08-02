@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 107,
+  "content": "### Bug fixes\n\n* Core: fix execution pruning queries.\n* Core: fix filtering workflow by tags.\n* Core: revert isPending check on the user entity.\n* Fix issues with nodes missing in nodes panel.\n* Fix mapping paths when appending to empty expression.\n* Item Lists Node: tweak item list summarize field naming.\n* Prevent executions from displaying as running forever.\n* Show Execute Workflow node in the nodes panel.\n* Show RabbitMQ node in the nodes panel.\n* Stop showing mapping hint after mapping."
+}

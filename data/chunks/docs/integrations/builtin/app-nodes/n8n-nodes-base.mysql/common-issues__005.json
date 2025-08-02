@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mysql/common-issues.md",
+  "index": 5,
+  "content": "### If only MySQL is in Docker\n\nIf only MySQL is running in Docker, configure MySQL to listen on all interfaces by binding to `0.0.0.0` inside of the container (the official images are already configured this way).\n\nWhen running the container, [publish the port](https://docs.docker.com/get-started/docker-concepts/running-containers/publishing-ports/) with the `-p` flag. By default, MySQL runs on port 3306, so your Docker command should look like this:\n\n```shell\ndocker run -p 3306:3306 --name my-mysql -d mysql:latest\n```\n\nWhen configuring [MySQL credentials](/integrations/builtin/credentials/mysql.md), the `localhost` address should work without a problem (set the **Host** to `localhost`)."
+}

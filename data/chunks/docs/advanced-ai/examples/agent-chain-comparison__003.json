@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/agent-chain-comparison.md",
+  "index": 3,
+  "content": "## Key features\n\nThis workflow uses:\n\n* [Chat Trigger](/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md): start your workflow and respond to user chat interactions. The node provides a customizable chat interface.\n* [Switch node](/integrations/builtin/core-nodes/n8n-nodes-base.switch.md): directs your query to either the agent or chain, depending on which you specify in your query. If you say \"agent\" it sends it to the agent. If you say \"chain\" it sends it to the chain.\n* [Agent](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/index.md): the Agent node interacts with other components of the workflow and makes decisions about what [tools](/glossary.md#ai-tool) to use.\n* [Basic LLM Chain](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainllm.md): the Basic LLM Chain node supports chatting with a connected LLM, but doesn't support [memory](/glossary.md#ai-memory) or tools."
+}

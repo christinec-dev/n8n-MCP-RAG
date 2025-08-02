@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 730,
+  "content": "### Enhanced nodes\n\n* [DeepL:](/integrations/builtin/app-nodes/n8n-nodes-base.deepl.md) Added support for Free API\n* [Function:](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) Added the functionality to log console.log messages to the browser console\n* [Function Item:](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) Added the functionality to log console.log messages to the browser console"
+}

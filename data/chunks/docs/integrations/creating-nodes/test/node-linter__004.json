@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/test/node-linter.md",
+  "index": 4,
+  "content": "## Usage\n\nYou can use the linter in a community package or in the main n8n repository."
+}

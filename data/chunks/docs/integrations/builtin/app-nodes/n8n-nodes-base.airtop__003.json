@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.airtop.md",
+  "index": 3,
+  "content": "## Operations\n\n* Session\n    * Create session\n    * Save profile on termination\n    * Terminate session\n* Window\n    * Create a new browser window\n    * Load URL\n    * Take screenshot\n    * Close window\n* Extraction\n    * Query page\n    * Query page with pagination\n    * Smart scrape page\n* Interaction\n    * Click an element\n    * Hover on an element\n    * Type"
+}

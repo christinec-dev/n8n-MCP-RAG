@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.quickbooks.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: QuickBooks Online node documentation\ndescription: Learn how to use the QuickBooks Online node in n8n. Follow technical documentation to integrate QuickBooks Online node into your workflows.\ncontentType: [integration, reference]\n---"
+}

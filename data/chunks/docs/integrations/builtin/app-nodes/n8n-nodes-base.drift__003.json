@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.drift.md",
+  "index": 3,
+  "content": "## Operations\n\n* Contact\n    * Create a contact\n    * Get custom attributes\n    * Delete a contact\n    * Get a contact\n    * Update a contact"
+}

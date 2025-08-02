@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 229,
+  "content": "## n8n@1.63.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.62.3...n8n@1.63.0) for this version.<br />\n**Release date:** 2024-10-09\n\n/// warning | [Breaking change](https://github.com/n8n-io/n8n/blob/master/packages/cli/BREAKING-CHANGES.md)\nWhat changed?\n\n- The worker server used to bind to IPv6 by default. It now binds to IPv4 by default.  \n- The worker server's `/healthz` used to report healthy status based on database and Redis checks. It now reports healthy status regardless of database and Redis status, and the database and Redis checks are part of `/healthz/readiness`.  \n\nWhen is action necessary?\n\n- If you experience a port conflict error when starting a worker server using its default port, set a different port for the worker server with `QUEUE_HEALTH_CHECK_PORT`.  \n- If you are relying on database and Redis checks for worker health status, switch to checking `/healthz/readiness` instead of `/healthz`.  \n///\n\nThis release contains new features, node enhancements and bug fixes."
+}

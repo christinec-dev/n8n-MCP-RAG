@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/thread-operations.md",
+  "index": 10,
+  "content": "## Reply to a message\n\nUse this operation to reply to a message.\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Thread**.\n* **Operation**: Select **Reply**.\n* **Thread ID**: Enter the ID of the thread you want to reply to.\n* **Message Snippet or ID**: Select the Message you want to reply to or enter an expression to specify its ID. The dropdown populates based on the **Credential** you selected.\n* Select the **Email Type**. Choose from **Text** or **HTML**.\n* **Message**: Enter the email message body."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/test/troubleshooting-node-development.md",
+  "index": 9,
+  "content": "### Node doesn't show up in the Add Node menu\n\nCheck that you registered the node in the `package.json` file in your project.\n\n<!-- vale off -->"
+}

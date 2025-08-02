@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 453,
+  "content": "### Nodes\n\n\n* [Facebook Graph API:](/integrations/builtin/app-nodes/n8n-nodes-base.facebookgraphapi.md) Added suport for Facebook Graph API 13.\n* [HubSpot:](/integrations/builtin/app-nodes/n8n-nodes-base.hubspot.md) Added suport for private app token authentication.\n* [MongoDB:](/integrations/builtin/app-nodes/n8n-nodes-base.mongodb.md) Added the aggregate operation.\n* [Redis Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.redistrigger.md) Added a Redis Trigger node.\n* [Redis:](/integrations/builtin/app-nodes/n8n-nodes-base.redis.md) Added support for publish operations.\n* [Strapi:](/integrations/builtin/app-nodes/n8n-nodes-base.strapi.md) Added support for Strapi 4.\n* [WordPress:](/integrations/builtin/app-nodes/n8n-nodes-base.wordpress.md) Added status as an option to getAll post requests."
+}

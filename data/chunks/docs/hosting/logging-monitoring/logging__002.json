@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/logging.md",
+  "index": 2,
+  "content": "# Logging in n8n\n\nLogging is an important feature for debugging. n8n uses the [winston](https://www.npmjs.com/package/winston) logging library.\n\n/// note | Log streaming\nn8n Self-hosted Enterprise tier includes [Log streaming](/log-streaming.md), in addition to the logging options described in this document.\n///"
+}

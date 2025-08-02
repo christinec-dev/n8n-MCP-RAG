@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.1.md",
+  "index": 5,
+  "content": "## Get the data\n\nSelect the **Execute step** button in the HTTP Request node window. The table view of the HTTP request results should look like this:\n\n<figure><img src=\"/_images/courses/level-one/chapter-five/l1-c5-5-1-http-request-node-window.png\" alt=\"HTTP Request node output\" style=\"width:100%\"><figcaption align = \"center\"><i>HTTP Request node output</i></figcaption></figure>\n\nThis view should be familiar to you from the [Building a mini-workflow](/courses/level-one/chapter-2.md) page.\n\nThis is the data from ABCorp's data warehouse that Nathan needs to work with. This data set includes sales information from 30 customers with five columns:\n\n- `orderID`: The unique id of each order.\n- `customerID`: The unique id of each customer.\n- `employeeName`: The name of Nathan's colleague responsible for the customer.\n- `orderPrice`: The total price of the customer's order.\n- `orderStatus`: Whether the customer's order status is `booked` or still in `processing`."
+}

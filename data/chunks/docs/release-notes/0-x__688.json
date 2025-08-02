@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 688,
+  "content": "### Core Functionality\n- Added a workflow testing framework using a new CLI command to execute all desired workflows. Run `n8n executeBatch --help` for details.\n- Added support to display binary video content in Editor UI."
+}

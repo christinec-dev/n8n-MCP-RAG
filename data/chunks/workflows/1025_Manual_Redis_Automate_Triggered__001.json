@@ -1,0 +1,12 @@
+{
+  "source": "1025_Manual_Redis_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        270,\n        320\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Redis\",\n      \"type\": \"n8n-nodes-base.redis\",\n      \"position\": [\n        470,\n        320\n      ],\n      \"parameters\": {\n        \"key\": \"hello\",\n        \"options\": {},\n        \"operation\": \"get\"\n      },\n      \"credentials\": {\n        \"redis\": \"redis-docker_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Redis\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.redis"
+    ],
+    "trigger": null
+  }
+}

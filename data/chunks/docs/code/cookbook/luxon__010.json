@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/luxon.md",
+  "index": 10,
+  "content": "### Get the time between two dates\n\nTo get the time between two dates, use Luxon's diffs feature. This subtracts one date from another and returns a duration.\n\nFor example, get the number of months between two dates:\n\n=== \"Expressions (JavaScript)\"\n\n\t```js\n\t{{DateTime.fromISO('2019-06-23').diff(DateTime.fromISO('2019-05-23'), 'months').toObject()}}\n\t```\n\n\tThis returns `[Object: {\"months\":1}]`.\n\n=== \"Code node (JavaScript)\"\n\n\t```js\n\tlet monthsBetweenDates = DateTime.fromISO('2019-06-23').diff(DateTime.fromISO('2019-05-23'), 'months').toObject()\n\t```\n\n\tThis returns `{\"months\":1}`.\n\nRefer to Luxon's [Diffs](https://moment.github.io/luxon/#/math?id=diffs) for more information."
+}

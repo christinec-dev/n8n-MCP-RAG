@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/best-practices.md",
+  "index": 4,
+  "content": "## Self-hosted\n\nIf you run n8n behind a reverse proxy, set the following environment variables so that n8n generates emails with the correct URL:\n\n* `N8N_HOST`\n* `N8N_PORT`\n* `N8N_PROTOCOL`\n* `N8N_EDITOR_BASE_URL`  \n\nMore information on these variables is available in [Environment variables](/hosting/configuration/environment-variables/index.md)."
+}

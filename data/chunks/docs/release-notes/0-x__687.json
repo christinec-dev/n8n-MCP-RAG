@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 687,
+  "content": "### Enhanced nodes\n\n* [Airtable:](/integrations/builtin/app-nodes/n8n-nodes-base.airtable/index.md) Added Bulk Size option to all Operations.\n* [Box:](/integrations/builtin/app-nodes/n8n-nodes-base.box.md) Added Share operation to File and Folder resources.\n* [Salesforce:](/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md) Added Last Name field to Update operation on Contact resource.\n* [Zoho CRM:](/integrations/builtin/app-nodes/n8n-nodes-base.zohocrm.md) Added Account, Contact, Deal, Invoice, Product, Purchase, Quote, Sales Order, and Vendor resources."
+}

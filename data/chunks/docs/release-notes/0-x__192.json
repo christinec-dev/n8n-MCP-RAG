@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 192,
+  "content": "### New features\n\nEditor: Improve UX for brace completion in the inline expressions editor."
+}

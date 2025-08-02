@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 325,
+  "content": "### Bug fixes\n\nFixed an issue with MySQL and MariaDB migrations."
+}

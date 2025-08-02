@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/cli-commands.md",
+  "index": 6,
+  "content": "## Export workflows and credentials\n\nYou can export your workflows and credentials from n8n using the CLI.\n\nCommand flags:\n\n| Flag | Description |\n|-------------|-------|\n| --help | Help prompt. |\n| --all | Exports all workflows/credentials. |\n| --backup | Sets --all --pretty --separate for backups. You can optionally set --output. |\n| --id | The ID of the workflow to export. |\n| --output | Outputs file name or directory if using separate files. |\n| --pretty | Formats the output in an easier to read fashion. |\n| --separate | Exports one file per workflow (useful for versioning). Must set a directory using --output. |\n| --decrypted | Exports the credentials in a plain text format. |"
+}

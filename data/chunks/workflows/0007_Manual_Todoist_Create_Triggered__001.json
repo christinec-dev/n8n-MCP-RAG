@@ -1,0 +1,12 @@
+{
+  "source": "0007_Manual_Todoist_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"100\",\n  \"name\": \"Create a new task in Todoist\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        550,\n        250\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Todoist\",\n      \"type\": \"n8n-nodes-base.todoist\",\n      \"position\": [\n        750,\n        250\n      ],\n      \"parameters\": {\n        \"content\": \"\",\n        \"options\": {}\n      },\n      \"credentials\": {\n        \"todoistApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Todoist\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.todoist"
+    ],
+    "trigger": null
+  }
+}

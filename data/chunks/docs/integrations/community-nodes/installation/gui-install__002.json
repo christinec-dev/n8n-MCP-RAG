@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/installation/gui-install.md",
+  "index": 2,
+  "content": "# Install community nodes from npm in the n8n app\n\n/// note | Only for instance owners of self-hosted n8n instances\nOnly the n8n instance owner of a self-hosted n8n instance can install and manage community nodes from npm. The instance owner is the person who sets up and manages user management.\n\nAdmin accounts can also uninstall any community node, verified or unverified. This helps them remove problematic nodes that may affect the instance's health and functionality.\n///"
+}

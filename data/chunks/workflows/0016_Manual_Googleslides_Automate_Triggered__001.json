@@ -1,0 +1,13 @@
+{
+  "source": "0016_Manual_Googleslides_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        270,\n        280\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Google Slides\",\n      \"type\": \"n8n-nodes-base.googleSlides\",\n      \"position\": [\n        470,\n        280\n      ],\n      \"parameters\": {\n        \"operation\": \"getSlides\",\n        \"returnAll\": true,\n        \"authentication\": \"oAuth2\",\n        \"presentationId\": \"11myCBTn3IT-Iww01WMz43L7HUmQdL6cCR6NCtpsZer0\"\n      },\n      \"credentials\": {\n        \"googleSlidesOAuth2Api\": \"Google Slides Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Google Slides1\",\n      \"type\": \"n8n-nodes-base.googleSlides\",\n      \"position\": [\n        670,\n        280\n      ],\n      \"parameters\": {\n        \"download\": true,\n        \"resource\": \"page\",\n        \"operation\": \"getThumbnail\",\n        \"pageObjectId\": \"={{$json[\\\"objectId\\\"]}}\",\n        \"authentication\": \"oAuth2\",\n        \"presentationId\": \"={{$node[\\\"Google Slides\\\"].parameter[\\\"presentationId\\\"]}}\"\n      },\n      \"credentials\": {\n        \"googleSlidesOAuth2Api\": \"Google Slides Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Google Slides\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Slides1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Slides\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.googleSlides",
+      "n8n-nodes-base.googleSlides"
+    ],
+    "trigger": null
+  }
+}

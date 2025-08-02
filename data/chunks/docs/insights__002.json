@@ -1,0 +1,5 @@
+{
+  "source": "docs/insights.md",
+  "index": 2,
+  "content": "# Insights\n\nInsights gives instance owners and admins visibility into how workflows perform over time. This feature consists of three parts:\n\n- [**Insights summary banner**](#insights-summary-banner): Shows key metrics about your instance from the last 7 days at the top of the overview space.\n- [**Insights dashboard**](#insights-dashboard): A more detailed visual breakdown with per-workflow metrics and historical comparisons.\n- [**Time saved (Workflow ROI)**](#setting-the-time-saved-by-a-workflow): For each workflow, you can set the number of minutes of work that each production execution saves you.\n\n/// info | Feature availability\nThe insights summary banner displays activity from the last 7 days for all plans. The insights dashboard is only available on Pro (with limited date ranges) and Enterprise plans. \n///"
+}

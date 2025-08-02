@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsawsbedrock.md",
+  "index": 2,
+  "content": "# Embeddings AWS Bedrock node\n\nUse the Embeddings AWS Bedrock node to generate [embeddings](/glossary.md#ai-embedding) for a given text.\n\nOn this page, you'll find the node parameters for the Embeddings AWS Bedrock node, and links to more resources.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/aws.md).\n///\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

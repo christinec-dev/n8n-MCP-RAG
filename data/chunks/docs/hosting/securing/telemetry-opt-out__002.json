@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/telemetry-opt-out.md",
+  "index": 2,
+  "content": "# Data collection\n\nn8n collects some anonymous data from self-hosted n8n installations. Use the instructions below to opt out of data telemetry collection."
+}

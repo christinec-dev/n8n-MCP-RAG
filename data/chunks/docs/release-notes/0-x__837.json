@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 837,
+  "content": "## n8n@0.80.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.79.0...n8n@0.80.0) for this version.<br />\n**Release date:** 2020-09-02\n\n- New nodes\n- Customer.io\n- MQTT Trigger\n- S3\n- Enhanced nodes\n- Acuity Scheduling\n- AWS S3\n- ClickUp\n- FTP\n- Telegram Trigger\n- Zendesk"
+}

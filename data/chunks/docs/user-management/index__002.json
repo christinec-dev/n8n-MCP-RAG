@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/index.md",
+  "index": 2,
+  "content": "# User management\n\nUser management in n8n allows you to invite people to work in your n8n instance. It includes:\n\n* Login and password management\n* Adding and removing users\n* Three [account types](/user-management/account-types.md): **Owner** and **Member** (and **Admin** for Pro & Enterprise plans)\n\n/// note | Privacy\nThe user management feature doesn't send personal information, such as email or username, to n8n.\n///"
+}

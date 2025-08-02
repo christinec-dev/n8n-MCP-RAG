@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/intro-tutorial.md",
+  "index": 4,
+  "content": "### What you will learn\n\n- AI concepts in n8n\n- How to use the AI Agent node\n- Working with Chat input\n- Connecting with AI models\n- Customising input\n- Observing the conversation\n- Adding persistence"
+}

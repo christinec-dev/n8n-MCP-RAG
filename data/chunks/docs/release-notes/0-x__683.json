@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 683,
+  "content": "### Core Functionality\n- Performance improvement for loading of historical executions (> 3mil) when using Postgres.\n- Fixed error handling for unending workflows and display of \"unknown\" workflow status.\n- Fixed format of Workflow ID when downloading from UI Editor to enable compatibility with importing from CLI."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 382,
+  "content": "### Bug fixes\n\n* Restore support for `window` in expressions.\n* Fix to the `user-management:reset` command.\n* Resolve crashes in queue mode.\n* Correct delete button hover spacing.\n* Resolve a bug causing stuck loading states.\n* [EmailReadImap node](/integrations/builtin/core-nodes/n8n-nodes-base.emailimap.md): improve error handling.\n* [HubSpot node](/integrations/builtin/app-nodes/n8n-nodes-base.hubspot.md): fix contact loading."
+}

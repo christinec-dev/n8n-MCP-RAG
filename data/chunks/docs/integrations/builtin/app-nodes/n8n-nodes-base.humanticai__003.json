@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.humanticai.md",
+  "index": 3,
+  "content": "## Operations\n\n* Profile\n    * Create a profile\n    * Retrieve a profile\n    * Update a profile"
+}

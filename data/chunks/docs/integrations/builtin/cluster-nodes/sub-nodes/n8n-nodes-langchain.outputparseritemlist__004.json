@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparseritemlist.md",
+  "index": 4,
+  "content": "## Templates and examples\n\n<!-- see https://www.notion.so/n8n/Pull-in-templates-for-the-integrations-pages-37c716837b804d30a33b47475f6e3780 -->\n[[ templatesWidget(page.title, 'item-list-output-parser') ]]"
+}

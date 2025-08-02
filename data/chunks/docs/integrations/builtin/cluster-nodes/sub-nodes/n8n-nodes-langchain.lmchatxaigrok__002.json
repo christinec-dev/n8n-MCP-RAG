@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatxaigrok.md",
+  "index": 2,
+  "content": "# xAI Grok Chat Model node\n\nUse the xAI Grok Chat Model node to access xAI Grok's large language models for conversational AI and text generation tasks.\n\nOn this page, you'll find the node parameters for the xAI Grok Chat Model node, and links to more resources.\n\n/// note | Credentials \nYou can find authentication information for this node [here](/integrations/builtin/credentials/xai.md).\n///\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

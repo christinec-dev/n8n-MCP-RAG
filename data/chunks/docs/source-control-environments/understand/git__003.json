@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/understand/git.md",
+  "index": 3,
+  "content": "## Git overview\n\n[Git](https://git-scm.com/) is a tool for managing, tracking, and collaborating on multiple versions of documents. It's the basis for widely used platforms such as [GitHub](https://github.com/) and [GitLab](https://about.gitlab.com/)."
+}

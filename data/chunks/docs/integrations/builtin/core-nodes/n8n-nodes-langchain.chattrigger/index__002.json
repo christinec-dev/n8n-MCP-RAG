@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md",
+  "index": 2,
+  "content": "# Chat Trigger node\n\nUse the Chat Trigger node when building AI workflows for chatbots and other chat interfaces. You can configure how users access the chat, using one of n8n's provided interfaces, or your own. You can add authentication.\n\nYou must connect either an agent or chain [root node](/integrations/builtin/cluster-nodes/root-nodes/index.md).\n\n/// warning | Workflow execution usage\nEvery message to the Chat Trigger executes your workflow. This means that one conversation where a user sends 10 messages uses 10 executions from your execution allowance. Check your payment plan for details of your allowance.\n///\n\n/// note | Manual Chat trigger\nThis node replaces the Manual Chat Trigger node from version 1.24.0.\n///"
+}

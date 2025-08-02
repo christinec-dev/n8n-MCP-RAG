@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 13,
+  "content": "## `credentials`\n\n_Array of objects_ | _Required_  \n\nThis parameter tells n8n the credential options. Each object defines an authentication type.\n\nThe object must include:\n\n<!-- vale Vale.Spelling[\"asanaApi\"] = NO -->\n* `name`: the credential name. Must match the `name` property in the credential file. For example, `name: 'asanaApi'`  in [`Asana.node.ts`](https://github.com/n8n-io/n8n/blob/master/packages/nodes-base/nodes/Asana/Asana.node.ts) links to `name = 'asanaApi'` in [`AsanaApi.credential.ts`](https://github.com/n8n-io/n8n/blob/master/packages/nodes-base/credentials/AsanaApi.credentials.ts).\n* `required`: Boolean. Specify whether authentication is required to use this node.\n<!-- vale Vale.Spelling[\"asanaApi\"] = YES -->"
+}

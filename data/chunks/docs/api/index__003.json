@@ -1,0 +1,5 @@
+{
+  "source": "docs/api/index.md",
+  "index": 3,
+  "content": "## Learn about REST APIs\n\nThe API documentation assumes you are familiar with REST APIs. If you're not, these resources may be helpful:\n\n* [KnowledgeOwl's guide to working with APIs](https://support.knowledgeowl.com/help/working-with-apis): a basic introduction, including examples of how to call REST APIs.\n* [IBM Cloud Learn Hub - What is an Application Programming Interface (API)](https://www.ibm.com/cloud/learn/api): this gives a general, but technical, introduction to APIs.\n* [IBM Cloud Learn Hub - What is a REST API?](https://www.ibm.com/cloud/learn/rest-apis): more detailed information about REST APIs.\n* [MDN web docs - An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview): REST APIs work over HTTP and use HTTP verbs, or methods, to specify the action to perform.\n\n/// tip | Use the API playground (self-hosted n8n only)\nTrying out the API in the [playground](/api/using-api-playground.md) can help you understand how APIs work. If you're worried about changing live data, consider setting up a test workflow, or test n8n instance, to explore safely.\n///"
+}

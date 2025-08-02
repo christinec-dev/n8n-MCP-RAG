@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 20,
+  "content": "## HTML\n\nThe HTML editor allows users to create HTML templates in their workflows. The editor supports standard HTML, CSS in `<style>` tags, and expressions wrapped in `{{}}`. Users can add `<script>` tags to pull in additional JavaScript. n8n doesn't run this JavaScript during workflow execution.\n\n```js\n{\n\tdisplayName: 'HTML Template', // The value the user sees in the UI\n\tname: 'html', // The name used to reference the element UI within the code\n\ttype: 'string',\n\ttypeOptions: {\n\t\teditor: 'htmlEditor',\n\t},\n\tdefault: placeholder, // Loads n8n's placeholder HTML template\n\tnoDataExpression: true, // Prevent using an expression for the field\n\tdescription: 'HTML template to render',\n},\n```\n\nRefer to [`Html.node.ts`](https://github.com/n8n-io/n8n/blob/master/packages/nodes-base/nodes/Html/Html.node.ts) for a live example."
+}

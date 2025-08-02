@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.autopilot.md",
+  "index": 3,
+  "content": "## Operations\n\n* Contact\n    * Create/Update a contact\n    * Delete a contact\n    * Get a contact\n    * Get all contacts\n* Contact Journey\n    * Add contact to list\n* Contact List\n    * Add contact to list\n    * Check if contact is on list\n    * Get all contacts on list\n    * Remove a contact from a list\n* List\n    * Create a list\n    * Get all lists"
+}

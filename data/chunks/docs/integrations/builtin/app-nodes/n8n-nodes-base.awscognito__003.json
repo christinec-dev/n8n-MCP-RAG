@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.awscognito.md",
+  "index": 3,
+  "content": "## Operations\n\n* Group:\n\t* Create: Create a new group.\n\t* Delete: Delete an existing group.\n\t* Get: Retrieve details about an existing group.\n\t* Get Many: Retrieve a list of groups.\n\t* Update: Update an existing group.\n* User:\n\t* Add to Group: Add an existing user to a group.\n\t* Create: Create a new user.\n\t* Delete: Delete a user.\n\t* Get: Retrieve information about an existing user.\n\t* Get Many: Retrieve a list of users.\n\t* Remove From Group: Remove a user from a group.\n\t* Update: Update an existing user.\n* User Pool:\n\t* Get: Retrieve information about an existing user pool."
+}

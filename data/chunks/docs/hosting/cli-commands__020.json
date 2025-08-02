@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/cli-commands.md",
+  "index": 20,
+  "content": "### Credentials\n\nUninstall a community node credential:\n\n```sh\nn8n community-node --uninstall --credential <CREDENTIAL_TYPE> --userId <ID>\n```\n\nFor example, to uninstall the [Evolution API community node credential](https://www.npmjs.com/package/n8n-nodes-evolution-api), visit the [repository](https://github.com/oriondesign2015/n8n-nodes-evolution-api) and navigate to the [`credentials.ts` file](https://github.com/oriondesign2015/n8n-nodes-evolution-api/blob/main/credentials/EvolutionApi.credentials.ts) to find the `name`:\n\n```sh\nn8n community-node --uninstall --credential evolutionApi --userId 1234\n```"
+}

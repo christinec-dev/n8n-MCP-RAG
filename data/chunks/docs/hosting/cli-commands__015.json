@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/cli-commands.md",
+  "index": 15,
+  "content": "## User management\n\nYou can reset user management using the n8n CLI. This returns user management to its pre-setup state. It removes all user accounts.\n\nUse this if you forget your password, and don't have SMTP set up to do password resets by email.\n\n```sh\nn8n user-management:reset\n```"
+}

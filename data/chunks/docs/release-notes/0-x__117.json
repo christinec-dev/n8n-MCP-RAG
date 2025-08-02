@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 117,
+  "content": "### Bug fixes\n\nCore: don't remove empty output connections arrays in PurgeInvalidWorkflowConnections migration."
+}

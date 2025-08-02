@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 97,
+  "content": "### Bug fixes\n\n* Core: initialize license and LDAP in the correct order.\n* Editor: display correct error message for `$env` access.\n* Editor: fix autocomplete for complex expressions.\n* Editor: fix owner set-up checkbox wording.\n* Editor: properly handle mapping of dragged expression if it contains hyphen.\n* Metabase Node: fix issue with question results not correctly being returned."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.stravatrigger.md",
+  "index": 2,
+  "content": "# Strava Trigger node\n\n[Strava](https://www.strava.com/) is an internet service for tracking human exercise which incorporates social network features.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/strava.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Strava Trigger integrations](https://n8n.io/integrations/strava-trigger/) page.\n///"
+}

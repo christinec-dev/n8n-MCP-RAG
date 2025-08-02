@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/code-node/console-log.md",
+  "index": 4,
+  "content": "## print (Python)\n\nFor technical information on `print()`, refer to the [Real Python's guide](https://realpython.com/python-print/).\n\nFor example, set your Code node **Language** to **Python**, copy the following code into the node, then open your console and run the node:\n\n```python\na = \"apple\"\nprint(a)\n```"
+}

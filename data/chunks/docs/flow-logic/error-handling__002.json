@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/error-handling.md",
+  "index": 2,
+  "content": "# Error handling\n\nWhen designing your flow logic, it's a good practice to consider potential errors, and set up methods to handle them gracefully. With an error workflow, you can control how n8n responds to a workflow execution failure.\n\n/// note | Investigating errors\nTo investigate failed executions, you can:\n\n* Review your [Executions](/workflows/executions/index.md), for a [single workflow](/workflows/executions/single-workflow-executions.md) or [all workflows you have access to](/workflows/executions/all-executions.md). You can [load data from previous execution](/workflows/executions/debug.md) into your current workflow.\n* Enable [Log streaming](/log-streaming.md).\n///"
+}

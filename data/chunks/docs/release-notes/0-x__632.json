@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 632,
+  "content": "### Core Functionality\n- Fixed Canvas UI inconsistencies when duplicating workflows.\n- Added log message during upgrade to indicate database migration has started.\n- General improvements to parameter labels and tooltips."
+}

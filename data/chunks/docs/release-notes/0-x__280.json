@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 280,
+  "content": "## n8n@0.195.4\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.195.3...n8n@0.195.4) for this version.<br />\n**Release date:** 2022-09-22\n\nThis release:\n\n* Adds the ability to resize the main node panel.\n* Resolves an issue with resource locator in expressions."
+}

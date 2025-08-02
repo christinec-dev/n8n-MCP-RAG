@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/calendar-operations.md",
+  "index": 2,
+  "content": "# Google Calendar Calendar operations\n<!-- vale from-write-good.Illusions = YES -->\n<!-- vale Vale.Repetition = YES -->\n\nUse this operation to check availability in a calendar in Google Calendar. Refer to [Google Calendar](/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/index.md) for more information on the Google Calendar node itself."
+}

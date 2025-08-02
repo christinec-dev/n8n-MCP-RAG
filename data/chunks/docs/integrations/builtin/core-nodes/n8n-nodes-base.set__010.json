@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.set.md",
+  "index": 10,
+  "content": "### Ignore Type Conversion Errors\n\nManual Mapping only.\n\nEnabling this allows n8n to ignore some data type errors when mapping fields."
+}

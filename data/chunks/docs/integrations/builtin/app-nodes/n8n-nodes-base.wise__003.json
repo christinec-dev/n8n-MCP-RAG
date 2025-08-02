@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.wise.md",
+  "index": 3,
+  "content": "## Operations\n\n* Account\n    * Retrieve balances for all account currencies of this user.\n    * Retrieve currencies in the borderless account of this user.\n    * Retrieve the statement for the borderless account of this user.\n* Exchange Rate\n    * Get\n* Profile\n    * Get\n    * Get All\n* Recipient\n    * Get All\n* Quote\n    * Create\n    * Get\n* Transfer\n    * Create\n    * Delete\n    * Execute\n    * Get\n    * Get All"
+}

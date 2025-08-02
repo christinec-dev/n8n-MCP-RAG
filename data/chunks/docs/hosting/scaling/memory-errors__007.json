@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/memory-errors.md",
+  "index": 7,
+  "content": "### Reduce memory consumption\n\nThis approach is more complex and means re-building the workflows causing the issue. This section provides some guidelines on how to reduce memory consumption. Not all suggestions are applicable to all workflows.\n\n--8<-- \"_snippets/self-hosting/scaling/reduce-memory-consumption.md\""
+}

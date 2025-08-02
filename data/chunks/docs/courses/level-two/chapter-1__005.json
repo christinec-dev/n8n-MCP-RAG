@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-1.md",
+  "index": 5,
+  "content": "### Exercise\n\nIn a Code node, create an array of objects named `myContacts` that contains the properties `name` and `email`, and the `email` property is further split into `personal` and `work`.\n\n??? note \"Show me the solution\"\n\n\tIn the **Code node**, in the JavaScript Code field you have to write the following code:\n\n\t```javascript\n\tvar myContacts = [\n\t\t{\n\t\t\tjson: {\n\t\t\t\tname: 'Alice',\n\t\t\t\temail: {\n\t\t\t\t\tpersonal: 'alice@home.com',\n\t\t\t\t\twork: 'alice@wonderland.org'\n\t\t\t\t},\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\tjson: {\n\t\t\t\tname: 'Bob',\n\t\t\t\temail: {\n\t\t\t\t\tpersonal: 'bob@mail.com',\n\t\t\t\t\twork: 'contact@thebuilder.com'\n\t\t\t\t\t},\n\t\t\t}\n\t\t},\n\t];\n\n\treturn myContacts;\n\t```\n\n\tWhen you execute the **Code node**, the result should look like this:\n\n\t<figure><img src=\"/_images/courses/level-two/chapter-one/exercise_function.png\" alt=\"\" style=\"width:100%\"><figcaption align = \"center\"><i>Result of Code node</i></figcaption></figure>"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/export-import.md",
+  "index": 3,
+  "content": "## Copy-Paste\n\nYou can copy and paste a workflow or parts of it by selecting the nodes you want to copy to the clipboard (`Ctrl + c` or `cmd +c`) and pasting it (`Ctrl + v` or `cmd + v`) into the Editor UI.\n\nTo select all nodes or a group of nodes, click and drag:\n  ![Select a group of nodes](/_images/workflows/export-import/selectingnodes.gif)"
+}

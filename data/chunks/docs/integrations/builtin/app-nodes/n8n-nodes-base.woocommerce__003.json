@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.woocommerce.md",
+  "index": 3,
+  "content": "## Operations\n\n* Customer\n    * Create a customer\n    * Delete a customer\n    * Retrieve a customer\n    * Retrieve all customers\n    * Update a customer\n* Order\n    * Create a order\n    * Delete a order\n    * Get a order\n    * Get all orders\n    * Update an order\n* Product\n    * Create a product\n    * Delete a product\n    * Get a product\n    * Get all products\n    * Update a product"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmollama/common-issues.md",
+  "index": 6,
+  "content": "### If only Ollama is in Docker\n\nIf only Ollama is running in Docker, configure Ollama to listen on all interfaces by binding to `0.0.0.0` inside of the container (the official images are already configured this way).\n\nWhen running the container, [publish the ports](https://docs.docker.com/get-started/docker-concepts/running-containers/publishing-ports/) with the `-p` flag. By default, Ollama runs on port 11434, so your Docker command should look like this:\n\n```shell\ndocker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama\n```\n\nWhen configuring [Ollama credentials](/integrations/builtin/credentials/ollama.md), the `localhost` address should work without a problem (set the **base URL** to `http://localhost:11434`)."
+}

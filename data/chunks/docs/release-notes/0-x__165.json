@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 165,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Google Sheets Trigger node\n\nThis release adds a new [Google Sheets Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.googlesheetstrigger/index.md). You can now start workflows in response to row changes or new rows in a Google Sheet.\n\n</div>"
+}

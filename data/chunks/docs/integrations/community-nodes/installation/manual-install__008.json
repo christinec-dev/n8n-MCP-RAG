@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/installation/manual-install.md",
+  "index": 8,
+  "content": "# Replace 2.1.0 with your version number\nnpm install n8n-nodes-nodeName@2.1.0\n```"
+}

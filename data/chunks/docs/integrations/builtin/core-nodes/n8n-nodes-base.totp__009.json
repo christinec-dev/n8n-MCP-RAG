@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.totp.md",
+  "index": 9,
+  "content": "### Period\n\nEnter how many seconds the TOTP is valid for. Default is `30`."
+}

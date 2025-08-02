@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 284,
+  "content": "## n8n@0.195.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.194.0...n8n@0.195.0) for this version.<br />\n**Release date:** 2022-09-21\n\nThis release introduces user management and credential sharing for n8n's Cloud platform. It also contains other enhancements and bug fixes."
+}

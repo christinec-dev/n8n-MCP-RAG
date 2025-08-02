@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/prerequisites.md",
+  "index": 4,
+  "content": "## Database considerations\n\nn8n uses its database to store [credentials](/glossary.md#credential-n8n), past executions, and workflows.\n\nA core feature of n8n is the flexibility to choose a database. All the supported databases have different advantages and disadvantages, which you have to consider individually and pick the one that best suits your needs. By default n8n creates an SQLite database if no database exists at the given location.\n\nn8n recommends that every n8n instance have a dedicated database. This helps to prevent dependencies and potential performance degradation. If it isn't possible to provide a dedicated database for every n8n instance, n8n recommends making use of Postgres's schema feature.\n\nFor Postgres, the database must already exist on the DB-instance. The database user for the n8n process needs to have full permissions on all tables that they're using or creating. n8n creates and maintains the database schema."
+}

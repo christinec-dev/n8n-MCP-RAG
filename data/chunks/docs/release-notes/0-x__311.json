@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 311,
+  "content": "### Bug fixes\n\n* Editor: fix the feature flag check when PostHog is unavailable.\n* Editor: fix for a mapping bug that occured when value is null."
+}

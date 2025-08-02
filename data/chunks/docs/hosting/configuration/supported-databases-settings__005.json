@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/supported-databases-settings.md",
+  "index": 5,
+  "content": "# optional:\nexport DB_POSTGRESDB_SSL_CA=$(pwd)/ca.crt\nexport DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED=false\n\nn8n start\n```"
+}

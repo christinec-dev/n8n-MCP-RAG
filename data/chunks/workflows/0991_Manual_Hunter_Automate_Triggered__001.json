@@ -1,0 +1,12 @@
+{
+  "source": "0991_Manual_Hunter_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Hunter\",\n      \"type\": \"n8n-nodes-base.hunter\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"email\": \"user@example.com\",\n        \"operation\": \"emailVerifier\"\n      },\n      \"credentials\": {\n        \"hunterApi\": \"hunter api creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Hunter\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.hunter"
+    ],
+    "trigger": null
+  }
+}

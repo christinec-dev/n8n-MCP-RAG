@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 745,
+  "content": "### Bug fixes\n\n* [Clockify Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.clockifytrigger.md) Fixed an issue that occurred when the node returned an empty array\n* [Google Cloud Firestore:](/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudfirestore.md) Fixed an issue with parsing empty document, and an issue with the detection of date\n* [HubSpot:](/integrations/builtin/app-nodes/n8n-nodes-base.hubspot.md) Fixed an issue with the Return All option"
+}

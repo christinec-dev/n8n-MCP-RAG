@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/rbac/role-types.md",
+  "index": 4,
+  "content": "## Project Editor\n\nA Project Editor can view, create, update, and delete any workflows, credentials, or executions within a project."
+}

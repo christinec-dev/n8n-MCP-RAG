@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.linkedin.md",
+  "index": 2,
+  "content": "# LinkedIn node\n\nUse the LinkedIn node to automate work in LinkedIn, and integrate LinkedIn with other applications. n8n supports creating posts.\n\nOn this page, you'll find a list of operations the LinkedIn node supports and links to more resources.\n\n/// note | Credentials\nRefer to [LinkedIn credentials](/integrations/builtin/credentials/linkedin.md) for guidance on setting up authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

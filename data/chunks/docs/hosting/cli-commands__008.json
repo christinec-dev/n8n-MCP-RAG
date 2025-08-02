@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/cli-commands.md",
+  "index": 8,
+  "content": "### Credentials\n\nExport all your credentials to the standard output (terminal):\n\n```bash\nn8n export:credentials --all\n```\n\nExport credentials by their ID and specify the output file name:\n\n```bash\nn8n export:credentials --id=<ID> --output=file.json\n```\n\nExport all credentials to a specific directory in a single file:\n\n```bash\nn8n export:credentials --all --output=backups/latest/file.json\n```\n\nExport all the credentials to a specific directory using the `--backup` flag (details above):\n\n```bash\nn8n export:credentials --backup --output=backups/latest/\n```\n\nExport all the credentials in plain text format. You can use this to migrate from one installation to another that has a different secret key in the configuration file.\n\n/// warning | Sensitive information\nAll sensitive information is visible in the files.\n///\n\n```bash\nn8n export:credentials --all --decrypted --output=backups/decrypted.json\n```"
+}

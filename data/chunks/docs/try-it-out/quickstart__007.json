@@ -1,0 +1,5 @@
+{
+  "source": "docs/try-it-out/quickstart.md",
+  "index": 7,
+  "content": "## Next steps\n\n* Read n8n's [longer try it out tutorial](/try-it-out/tutorial-first-workflow.md) for a more complex workflow, and an introduction to more features and n8n concepts.\n* Take the [text courses](/courses/index.md) or [video courses](/video-courses.md)."
+}

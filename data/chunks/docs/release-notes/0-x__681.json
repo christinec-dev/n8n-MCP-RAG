@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 681,
+  "content": "### New nodes\n\n* [Home Assistant](/integrations/builtin/app-nodes/n8n-nodes-base.homeassistant.md)\n* [Stripe](/integrations/builtin/app-nodes/n8n-nodes-base.stripe.md)"
+}

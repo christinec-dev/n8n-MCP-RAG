@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/disable-public-api.md",
+  "index": 3,
+  "content": "## Disable the API playground\n\nTo disable the [API playground](/api/using-api-playground.md), set the `N8N_PUBLIC_API_SWAGGERUI_DISABLED` environment variable to `true`, for example:\n\n```bash\nexport N8N_PUBLIC_API_SWAGGERUI_DISABLED=true\n```"
+}

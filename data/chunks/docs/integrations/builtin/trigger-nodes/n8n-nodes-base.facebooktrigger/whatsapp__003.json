@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.facebooktrigger/whatsapp.md",
+  "index": 3,
+  "content": "## Prerequisites\n\nThis Object requires some configuration in your app and WhatsApp account before you can use the trigger:\n\n1. Subscribe your app under your WhatsApp business account. You must subscribe an app owned by your business. Apps shared with your business can't receive webhook notifications.\n1. If you are working as a Solution Partner, make sure your app has completed App Review and requested the `whatsapp_business_management` permission."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/blocking-nodes.md",
+  "index": 4,
+  "content": "## Suggested nodes to block\n\nThe nodes that can pose security risks vary based on your use case and user profile. Here are some nodes you might want to start with:\n\n* [Execute Command](/integrations/builtin/core-nodes/n8n-nodes-base.executecommand/index.md)\n* [Read/Write Files from Disk](/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md)"
+}

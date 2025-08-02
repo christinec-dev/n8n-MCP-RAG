@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.mailchimptrigger.md",
+  "index": 2,
+  "content": "# Mailchimp Trigger node\n\n[Mailchimp](https://mailchimp.com/) is an integrated marketing platform that allows business owners to automate their email campaigns and track user engagement.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/mailchimp.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Mailchimp Trigger integrations](https://n8n.io/integrations/mailchimp-trigger/) page.\n///"
+}

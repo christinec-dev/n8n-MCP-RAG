@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 842,
+  "content": "## n8n@0.78.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.76.0...n8n@0.78.0) for this version.<br />\n**Release date:** 2020-08-18\n\n- New nodes\n- Gmail\n- Google Contacts\n- Unleashed Software\n- YouTube\n- Enhanced nodes\n- AMQP\n- AMQP Trigger\n- Bitly\n- Function Item\n- Google Sheets\n- Shopify\n- Todoist\n- Enhanced support for [JWT based authentication](/integrations/builtin/core-nodes/n8n-nodes-base.jwt.md)\n- Added an option to execute a node once, using data of only the first item"
+}

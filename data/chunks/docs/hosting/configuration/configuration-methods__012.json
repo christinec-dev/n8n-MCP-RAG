@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-methods.md",
+  "index": 12,
+  "content": "### Docker\n\nIn Docker, you can set your environment variables in the `n8n: environment:` element of your `docker-compose.yaml` file.\n\nFor example:\n\n```yaml\nn8n:\n    environment:\n      - N8N_TEMPLATES_ENABLED=false\n```"
+}

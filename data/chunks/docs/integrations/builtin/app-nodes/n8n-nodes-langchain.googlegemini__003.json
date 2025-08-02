@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.googlegemini.md",
+  "index": 3,
+  "content": "## Operations\n\n* Audio:\n\t* Analyze Audio: Take in audio and answer questions about it.\n\t* Transcribe a Recording: Transcribes audio into text.\n* Document:\n\t* Analyze Document: Take in documents and answer questions about them.\n* File:\n\t* Upload File: Upload a file to the Google Gemini API for later user.\n* Image:\n\t* Analyze Image: Take in images and answer questions about them.\n\t* Generate an Image: Creates an image from a text prompt.\n* Text:\n\t* Message a Model: Create a completion with a Google Gemini model.\n* Video:\n\t* Analyze Video: Take in videos and answer questions about them.\n\t* Generate a Video: Creates a video from a text prompt.\n\t* Download Video: Download a generated video from the Google Gemini API using a URL."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/execution-data.md",
+  "index": 6,
+  "content": "# Save successful executions\nexport EXECUTIONS_DATA_SAVE_ON_SUCCESS=all"
+}

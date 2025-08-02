@@ -1,0 +1,13 @@
+{
+  "source": "0278_Shopify_Mautic_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"meta\": {\n    \"instanceId\": \"237600ca44303ce91fa31ee72babcdc8493f55ee2c0e8aa2b78b3b4ce6f70bd9\"\n  },\n  \"nodes\": [\n    {\n      \"id\": \"a5f74e05-acea-4ff4-b3b2-5997850be036\",\n      \"name\": \"On new customer\",\n      \"type\": \"n8n-nodes-base.shopifyTrigger\",\n      \"position\": [\n        180,\n        420\n      ],\n      \"webhookId\": \"8efd263c-73fb-481b-90d8-8ae0db929548\",\n      \"parameters\": {\n        \"topic\": \"customers/create\",\n        \"authentication\": \"accessToken\"\n      },\n      \"credentials\": {\n        \"shopifyAccessTokenApi\": {\n          \"id\": \"37\",\n          \"name\": \"[UPDATE ME]\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"5b4a9e71-3aa7-40d8-a439-79a504c60a46\",\n      \"name\": \"Create contact\",\n      \"type\": \"n8n-nodes-base.mautic\",\n      \"position\": [\n        400,\n        420\n      ],\n      \"parameters\": {\n        \"email\": \"={{$node[\\\"On new customer\\\"].json[\\\"email\\\"]}}\",\n        \"options\": {},\n        \"lastName\": \"={{$node[\\\"On new customer\\\"].json[\\\"last_name\\\"]}}\",\n        \"firstName\": \"={{$node[\\\"On new customer\\\"].json[\\\"first_name\\\"]}}\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"mauticApi\": {\n          \"id\": \"34\",\n          \"name\": \"[UPDATE ME]\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"4b7b306e-1b4c-464f-b8f0-373167ded16f\",\n      \"name\": \"Note\",\n      \"type\": \"n8n-nodes-base.stickyNote\",\n      \"position\": [\n        400,\n        600\n      ],\n      \"parameters\": {\n        \"width\": 332,\n        \"height\": 116,\n        \"content\": \"### Add more fields to Mautic\\nBy default, the first name, last name and email are pushed to Mautic. If you require more fields, add it in the `Create contact` node.\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"On new customer\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Create contact\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.shopifyTrigger",
+      "n8n-nodes-base.mautic",
+      "n8n-nodes-base.stickyNote"
+    ],
+    "trigger": null
+  }
+}

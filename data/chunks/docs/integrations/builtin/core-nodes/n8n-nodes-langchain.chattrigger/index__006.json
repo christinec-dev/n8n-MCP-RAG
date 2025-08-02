@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md",
+  "index": 6,
+  "content": "### Authentication\n\nChoose whether and how to restrict access to the chat. Select from:\n\n* **None**: The chat doesn't use authentication. Anyone can use the chat.\n* **Basic Auth**: The chat uses basic authentication.\n\t* Select or create a **Credential for Basic Auth** with a username and password. All users must use the same username and password.\n* **n8n User Auth**: Only users logged in to an n8n account can use the chat."
+}

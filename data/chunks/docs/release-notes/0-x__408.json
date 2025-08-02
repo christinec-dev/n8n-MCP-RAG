@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 408,
+  "content": "### Bug fixes\n\n* **core**: fixed an issue that was causing n8n to apply authentication checks, even when user management was disabled.\n* **core**: n8n now skips credentials checks for disabled nodes.\n* **editor**: fix a bug affecting touchscreen monitors.\n* [HubSpot node](/integrations/builtin/app-nodes/n8n-nodes-base.hubspot.md): fix for search operators.\n* [SendGrid node](/integrations/builtin/app-nodes/n8n-nodes-base.sendgrid.md): fixed an issue with sending attachments.\n* [Wise node](/integrations/builtin/app-nodes/n8n-nodes-base.wise.md): respect the time parameter on `get: exchangeRate`."
+}

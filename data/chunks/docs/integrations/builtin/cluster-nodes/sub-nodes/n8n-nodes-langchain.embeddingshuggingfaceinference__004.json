@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingshuggingfaceinference.md",
+  "index": 4,
+  "content": "## Node options\n\n* **Custom Inference Endpoint**: Enter the URL of your deployed model, hosted by HuggingFace. If you set this, n8n ignores the **Model Name**.\n\nRefer to [HuggingFace's guide to inference](https://huggingface.co/inference-endpoints) for more information."
+}

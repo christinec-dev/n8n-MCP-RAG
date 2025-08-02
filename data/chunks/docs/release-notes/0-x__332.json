@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 332,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Metabase\n\nThis release includes a new [Metabase node](/integrations/builtin/app-nodes/n8n-nodes-base.metabase.md). [Metabase](https://www.metabase.com/) is a business data analysis tool.\n\n</div>"
+}

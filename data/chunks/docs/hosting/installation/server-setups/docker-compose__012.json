@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 12,
+  "content": "## 4. Create an `.env` file\n\nCreate a project directory to store your n8n environment configuration and Docker Compose files and navigate inside:\n\n```bash\nmkdir n8n-compose\ncd n8n-compose\n```\n\nInside the `n8n-compose` directory, create an `.env` file to customize your n8n instance's details. Change it to match your own information:\n\n```bash title=\".env file\""
+}

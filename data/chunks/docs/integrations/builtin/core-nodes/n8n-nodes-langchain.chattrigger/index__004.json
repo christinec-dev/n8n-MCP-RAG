@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md",
+  "index": 4,
+  "content": "### Make Chat Publicly Available\n\nSet whether the chat should be publicly available (turned on) or only available through the manual chat interface (turned off).\n\nLeave this turned off while you're building the workflow. Turn it on when you're ready to activate the workflow and allow users to access the chat."
+}

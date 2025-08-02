@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/variables.md",
+  "index": 3,
+  "content": "## Create variables\n\nTo create a new variable:\n\n1. On the **Variables** page, select **Add Variable**.\n2. Enter a **Key** and **Value**. The maximum key length is 50 characters, and the maximum value length is 220 characters. n8n limits the characters you can use in the key and value to lowercase and uppercase letters, numbers, and underscores (`A-Z`, `a-z`, `0-9`, `_`).\n3. Select **Save**. The variable is now available for use in all workflows in the n8n instance."
+}

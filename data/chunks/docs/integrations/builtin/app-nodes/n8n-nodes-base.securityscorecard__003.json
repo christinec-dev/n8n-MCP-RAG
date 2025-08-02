@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.securityscorecard.md",
+  "index": 3,
+  "content": "## Operations\n\n* Company\n    * Get company factor scores and issue counts\n    * Get company's historical factor scores\n    * Get company's historical scores\n    * Get company information and summary of their scorecard\n    * Get company's score improvement plan\n* Industry\n    * Get Factor Scores\n    * Get Historical Factor Scores\n    * Get Score\n* Invite\n    * Create an invite for a company/user\n* Portfolio\n    * Create a portfolio\n    * Delete a portfolio\n    * Get all portfolios\n    * Update a portfolio\n* Portfolio Company\n    * Add a company to portfolio\n    * Get all companies in a portfolio\n    * Remove a company from portfolio\n* Report\n    * Download a generated report\n    * Generate a report\n    * Get list of recently generated report"
+}

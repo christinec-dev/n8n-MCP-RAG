@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/cloud-free-trial.md",
+  "index": 6,
+  "content": "## Enterprise trial\n\nYou can contact the sales team if you want to test the [Enterprise plan](https://n8n.io/pricing/), which includes features such as:\n\n- SSO SAML and LDAP\n- Different environments\n- External secret store integration\n- Log streaming\n- Version control using Git\n\nClick the **Contact** button on the [n8n website](https://n8n.io/pricing/)."
+}

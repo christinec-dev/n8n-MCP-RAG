@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 835,
+  "content": "## n8n@0.82.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.81.0...n8n@0.82.0) for this version.<br />\n**Release date:** 2020-09-14\n\n- New nodes\n- Microsoft Teams\n- Enhanced nodes\n- Freshdesk: Added Freshdesk contact resource\n- HTTP Request: Run parallel requests in HTTP Request Node\n- Bug Fixes\n- Philips Hue: Added `APP ID` to Philips Hue node credentials\n- Postmark Trigger: Fixed parameters for the node\n- The default space between nodes has been increased to two units\n- Expression support has been added to the credentials\n- Passwords for your n8n instance can now be hashed"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.localfiletrigger.md",
+  "index": 3,
+  "content": "## Node parameters\n\nYou can choose what event to watch for using the **Trigger On** parameter."
+}

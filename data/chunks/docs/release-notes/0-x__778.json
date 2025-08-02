@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 778,
+  "content": "### Bug fixes\n\n* [Jira:](/integrations/builtin/app-nodes/n8n-nodes-base.jira.md) Fixed an issue with loading issue types with classic project type\n* [RabbitMQ Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.rabbitmqtrigger.md) Fixed an issue with the node reusing the same item\n* [SendGrid:](/integrations/builtin/app-nodes/n8n-nodes-base.sendgrid.md) Fixed an issue with the dynamic field generation"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/folder-operations.md",
+  "index": 5,
+  "content": "## Delete a folder\n\nUse this operation to delete a folder from a drive.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [Google Drive credentials](/integrations/builtin/credentials/google/index.md).\n- **Resource**: Select **Folder**.\n- **Operation**: Select **Delete**.\n- **Folder**: Choose a folder you want to delete. \n    - Select **From list** to choose the folder from the dropdown list, **By URL** to enter the URL of the folder, or **By ID** to enter the `folderId`. \n    - You can find the `folderId` in a Google Drive folder URL: `https://drive.google.com/drive/u/0/folders/folderID`."
+}

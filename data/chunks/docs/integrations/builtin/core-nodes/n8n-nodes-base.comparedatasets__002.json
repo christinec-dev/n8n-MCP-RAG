@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.comparedatasets.md",
+  "index": 2,
+  "content": "# Compare Datasets\n\nThe Compare Datasets node helps you compare data from two input streams."
+}

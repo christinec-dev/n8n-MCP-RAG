@@ -1,0 +1,12 @@
+{
+  "source": "0272_Notion_GoogleDrive_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"meta\": {\n    \"instanceId\": \"237600ca44303ce91fa31ee72babcdc8493f55ee2c0e8aa2b78b3b4ce6f70bd9\"\n  },\n  \"nodes\": [\n    {\n      \"id\": \"fa143713-0a54-465b-bfeb-cfb180871ab4\",\n      \"name\": \"On file upload\",\n      \"type\": \"n8n-nodes-base.googleDriveTrigger\",\n      \"position\": [\n        240,\n        480\n      ],\n      \"parameters\": {\n        \"event\": \"fileCreated\",\n        \"options\": {},\n        \"pollTimes\": {\n          \"item\": [\n            {\n              \"mode\": \"everyMinute\"\n            }\n          ]\n        },\n        \"triggerOn\": \"specificFolder\",\n        \"folderToWatch\": \"1_vYi00lSdzU2p6wGrnW_IqsOblOL-3zG\"\n      },\n      \"credentials\": {\n        \"googleDriveOAuth2Api\": {\n          \"id\": \"16\",\n          \"name\": \"[UPDATE ME]\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"78fe0319-e8bf-4c37-8d49-2cd1d6d084e6\",\n      \"name\": \"Create database page\",\n      \"type\": \"n8n-nodes-base.notion\",\n      \"position\": [\n        440,\n        480\n      ],\n      \"parameters\": {\n        \"title\": \"={{$node[\\\"On file upload\\\"].json[\\\"name\\\"]}}\",\n        \"resource\": \"databasePage\",\n        \"databaseId\": \"d637c796-d33b-4768-b955-55c66a0966b7\",\n        \"propertiesUi\": {\n          \"propertyValues\": [\n            {\n              \"key\": \"File|files\",\n              \"fileUrls\": {\n                \"fileUrl\": [\n                  {\n                    \"url\": \"={{ $json[\\\"webViewLink\\\"] }}\",\n                    \"name\": \"={{ $node[\\\"On file upload\\\"].json[\\\"name\\\"] }}\"\n                  }\n                ]\n              }\n            }\n          ]\n        }\n      },\n      \"credentials\": {\n        \"notionApi\": {\n          \"id\": \"9\",\n          \"name\": \"[UPDATE ME]\"\n        }\n      },\n      \"typeVersion\": 2\n    }\n  ],\n  \"connections\": {\n    \"On file upload\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Create database page\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.googleDriveTrigger",
+      "n8n-nodes-base.notion"
+    ],
+    "trigger": null
+  }
+}

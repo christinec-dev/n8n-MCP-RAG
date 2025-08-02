@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/dirty-nodes.md",
+  "index": 5,
+  "content": "## Resolving dirty nodes\n\nExecuting a node again clears its dirty status. You can do this manually by triggering the whole workflow, or by running a [partial execution](/workflows/executions/manual-partial-and-production-executions.md#partial-executions) with **Execute step** on the individual node or any node which follows it."
+}

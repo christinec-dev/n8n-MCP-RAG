@@ -1,0 +1,12 @@
+{
+  "source": "1207_Typeform_Demio_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Typeform Trigger\",\n      \"type\": \"n8n-nodes-base.typeformTrigger\",\n      \"position\": [\n        510,\n        260\n      ],\n      \"webhookId\": \"1cbca674-78fb-402e-b225-2aa6f92b5338\",\n      \"parameters\": {\n        \"formId\": \"\"\n      },\n      \"credentials\": {\n        \"typeformApi\": \"Typeform Burner Account\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Demio\",\n      \"type\": \"n8n-nodes-base.demio\",\n      \"position\": [\n        710,\n        260\n      ],\n      \"parameters\": {\n        \"email\": \"={{$json[\\\"What's your email address?\\\"]}}\",\n        \"eventId\": 357191,\n        \"firstName\": \"={{$json[\\\"Let's start with your name.\\\"]}}\",\n        \"operation\": \"register\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"demioApi\": \"Demio API Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Typeform Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Demio\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.typeformTrigger",
+      "n8n-nodes-base.demio"
+    ],
+    "trigger": "typeform trigger"
+  }
+}

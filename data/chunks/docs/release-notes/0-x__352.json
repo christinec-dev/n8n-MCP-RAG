@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 352,
+  "content": "### New nodes\n\n[Google Ads node](/integrations/builtin/app-nodes/n8n-nodes-base.googleads.md): n8n now provides a Google Ads node, allowing you to get data from Google Ad campaigns."
+}

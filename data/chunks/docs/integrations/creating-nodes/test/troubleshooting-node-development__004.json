@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/test/troubleshooting-node-development.md",
+  "index": 4,
+  "content": "### Error message: 'Credentials of type \"*\" aren't known'\n<!-- vale on -->\n\nCheck that the name in the credentials array matches the name used in the property name of the credentials' class.\n\n![Troubleshooting credentials](/_images/integrations/creating-nodes/troubleshooting-credentials-1.png)\n\n<!-- vale off -->"
+}

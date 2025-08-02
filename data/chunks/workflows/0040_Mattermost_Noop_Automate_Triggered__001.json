@@ -1,0 +1,14 @@
+{
+  "source": "0040_Mattermost_Noop_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Notion Trigger\",\n      \"type\": \"n8n-nodes-base.notionTrigger\",\n      \"position\": [\n        270,\n        350\n      ],\n      \"parameters\": {\n        \"event\": \"pageAddedToDatabase\",\n        \"pollTimes\": {\n          \"item\": [\n            {\n              \"mode\": \"everyHour\"\n            }\n          ]\n        },\n        \"databaseId\": \"6ea34c0d-67e8-4614-ad5c-68c665a34763\"\n      },\n      \"credentials\": {\n        \"notionApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        470,\n        350\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"string\": [\n            {\n              \"value1\": \"={{$json[\\\"Team\\\"]}}\",\n              \"value2\": \"Marketing\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mattermost\",\n      \"type\": \"n8n-nodes-base.mattermost\",\n      \"position\": [\n        670,\n        250\n      ],\n      \"parameters\": {\n        \"message\": \"=New meeting notes were added.\\nAgenda: {{$json[\\\"Agenda\\\"]}}\\nDate: {{$json[\\\"Date\\\"][\\\"start\\\"]}}\\nLink: https://notion.so/{{$json[\\\"id\\\"].replace(/-/g,'')}}\",\n        \"channelId\": \"64cae1bh6pggtcupfd4ztwby4r\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"mattermostApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NoOp\",\n      \"type\": \"n8n-nodes-base.noOp\",\n      \"position\": [\n        668,\n        495\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mattermost\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ],\n        [\n          {\n            \"node\": \"NoOp\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Notion Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.notionTrigger",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.mattermost",
+      "n8n-nodes-base.noOp"
+    ],
+    "trigger": "notion trigger"
+  }
+}

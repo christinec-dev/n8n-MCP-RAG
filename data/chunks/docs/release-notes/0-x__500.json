@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 500,
+  "content": "### Core Functionality\n\n- Temporarily removed debug logging for Axios requests."
+}

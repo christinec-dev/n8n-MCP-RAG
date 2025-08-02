@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorepgvector.md",
+  "index": 12,
+  "content": "### Retrieve Documents parameters (As Vector Store for Chain/Tool)\n\n* **Table name**: Enter the name of the table you want to query."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/configuration.md",
+  "index": 9,
+  "content": "### Backend hook files\n\nHook files are regular JavaScript files that have the following format:\n\n```js\nmodule.exports = {\n    \"frontend\": {\n        \"settings\": [\n            async function (settings) {\n                settings.oauthCallbackUrls.oauth1 = 'https://n8n.example.com/oauth1/callback';\n                settings.oauthCallbackUrls.oauth2 = 'https://n8n.example.com/oauth2/callback';\n            }\n        ]\n    },\n    \"workflow\": {\n        \"activate\": [\n            async function (workflowData) {\n                const activeWorkflows = await this.dbCollections.Workflow.count({ active: true });\n\n                if (activeWorkflows > 1) {\n                    throw new Error(\n                        'Active workflow limit reached.'\n                    );\n                }\n            }\n        ]\n    }\n}\n```"
+}

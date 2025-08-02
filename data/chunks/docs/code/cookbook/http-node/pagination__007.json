@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/http-node/pagination.md",
+  "index": 7,
+  "content": "## Set the page size in the query\n\nIf the API you're using supports choosing the page size in the query:\n\n1. Select **Send Query Parameters** in main node parameters (this is the parameters you see when you first open the node, not the settings within options).\n1. Enter the **Name** of the query parameter. This depends on your API. For example, a lot of APIs use a query parameter named `limit` to set page size. So **Name** would be `limit`.\n1. In **Value**, enter your page size."
+}

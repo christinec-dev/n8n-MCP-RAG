@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 140,
+  "content": "### Bug fixes\n\nEditor: prevent creation of input connections for nodes without input slot."
+}

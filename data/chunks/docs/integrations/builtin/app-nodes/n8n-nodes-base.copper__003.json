@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.copper.md",
+  "index": 3,
+  "content": "## Operations\n\n* Company\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Customer Source\n    * Get All\n* Lead\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Opportunity\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Person\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Project\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Task\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* User\n    * Get All"
+}

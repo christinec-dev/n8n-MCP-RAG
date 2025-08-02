@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.filter.md",
+  "index": 5,
+  "content": "## Node options\n\n- **Ignore Case**: Whether to ignore letter case (turned on) or be case sensitive (turned off).\n- **Less Strict Type Validation**: Whether you want n8n to attempt to convert value types based on the operator you choose (turned on) or not (turned off). Turn this on when facing a \"wrong type:\" error in your node."
+}

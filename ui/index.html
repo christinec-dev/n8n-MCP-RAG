@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>n8n Workflow Builder (RAG)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root{
+      --bg:#0b0c10; --panel:#111318; --card:#171a21; --border:#242835;
+      --text:#e8edf4; --muted:#9aa4b2; --accent:#6ea8fe; --accent-2:#8b5cf6;
+      --good:#22c55e; --shadow: 0 10px 30px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.03);
+      --radius:16px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; padding:32px;
+      background:
+        radial-gradient(1200px 600px at 20% -10%, rgba(142,124,255,.15), transparent 60%),
+        radial-gradient(1200px 600px at 120% 10%, rgba(92,225,230,.12), transparent 60%),
+        var(--bg);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text);
+    }
+    .container{max-width: 980px; margin:0 auto}
+    .card{background:linear-gradient(180deg, var(--panel), var(--card)); border:1px solid var(--border);
+      border-radius: var(--radius); box-shadow: var(--shadow); padding:24px;}
+    h1{font-size: clamp(22px, 4vw, 28px); margin:0 0 18px 0; line-height:1.2; letter-spacing:.3px;
+      background: linear-gradient(90deg, #fff, #cbd5e1 60%); -webkit-background-clip:text; background-clip:text; color:transparent;}
+    p.lead{margin:0 0 18px 0; color:var(--muted)}
+    .grid{display:grid; gap:12px}
+    .grid.cols-2{grid-template-columns: 1fr 1fr}
+    @media (max-width:800px){ .grid.cols-2{grid-template-columns:1fr} }
+    label{font-size:12px; color:var(--muted); display:block; margin:0 0 6px 4px}
+    .input, .select, textarea{
+      width:100%; border-radius:12px; border:1px solid var(--border);
+      background:#0f1218; color:var(--text); padding:12px 12px; outline:none;
+      transition:border .15s ease, box-shadow .15s ease;
+    }
+    .input:focus, .select:focus, textarea:focus{border-color:#2a6bf7; box-shadow:0 0 0 3px rgba(46,129,255,.15)}
+    textarea{min-height:160px; resize:vertical}
+    .btn{appearance:none; border:1px solid var(--border); background:#10131a; color:#e9eef5;
+      padding:10px 14px; border-radius:12px; cursor:pointer; transition: transform .06s, background .2s, border-color .2s, opacity .2s;
+      font-weight:600; letter-spacing:.2px;}
+    .btn:hover{transform: translateY(-1px); background:#141823}
+    .btn-primary{background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-color: transparent; color:#0b0c10; text-shadow: 0 1px 0 rgba(255,255,255,.25);}
+    .btn[disabled]{opacity:.5; cursor:not-allowed; transform:none}
+    .toolbar{display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end}
+    .muted{opacity:.6}
+    pre{background:#0b0e15; color:#e1e7ef; border:1px solid var(--border); border-radius:12px; padding:14px; overflow:auto; min-height:160px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;}
+    .foot{margin-top:16px; display:flex; justify-content:space-between; align-items:center; gap:12px}
+    .pill{display:inline-flex; align-items:center; gap:8px; background:#0f1420; border:1px solid var(--border);
+      padding:8px 12px; border-radius:999px; font-size:12px; color:var(--muted)}
+    .spinner{width:14px; height:14px; border:2px solid rgba(255,255,255,.25); border-top-color:#fff; border-radius:50%; animation:spin .8s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .status{font-size:12px; color:var(--muted); margin:6px 0 0 2px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>n8n Workflow Builder (RAG)</h1>
+      <p class="lead">Describe what you want; we’ll retrieve examples from your corpus and generate importable n8n JSON.</p>
+
+      <!-- Provider + API key -->
+      <div class="grid cols-2" style="margin-bottom:10px">
+        <div>
+          <label for="provider">Provider</label>
+          <select id="provider" class="select" aria-label="Provider">
+            <option value="openai">OpenAI</option>
+            <option value="anthropic">Claude</option>
+            <option value="gemini">Gemini</option>
+          </select>
+        </div>
+        <div>
+          <label for="model">Model</label>
+          <select id="model" class="select" aria-label="Model"></select>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px; margin-top:24px;">
+          <input type="checkbox" id="preferLatest" />
+          <label for="preferLatest" style="margin:0;">Prefer latest docs (stricter)</label>
+        </div>
+      </div>
+
+      <!-- Presets -->
+      <div class="grid" style="margin-bottom:10px">
+        <div>
+          <label for="presets">Prompt presets</label>
+          <select id="presets" class="select" aria-label="Prompt presets">
+            <option value="">— Choose a preset —</option>
+            <option>Webhook → fetch Airtable records → transform with JS → post to Slack</option>
+            <option>Schedule (daily) → fetch top 5 Hacker News posts → 2-line LLM summary each → single Slack message</option>
+            <option>Manual trigger → read CSV from URL → map fields → upsert to Airtable “Leads”</option>
+            <option>Form trigger → validate email via HTTP (API key header) → add to Mailchimp if valid</option>
+            <option>GitHub PR opened → summarize diff with LLM → post Slack message with Approve/Changes buttons</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Prompt -->
+      <div class="grid" style="margin-bottom:12px">
+        <div>
+          <label for="prompt">Describe the workflow</label>
+          <textarea id="prompt">Pick a random Wikipedia page, summarize it with an LLM, and post to Slack.</textarea>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="toolbar" style="margin-bottom:14px">
+        <button id="gen" class="btn btn-primary">Generate</button>
+        <button id="download" class="btn" disabled>Download .json</button>
+        <button id="copy" class="btn" disabled>Copy JSON</button>
+      </div>
+
+      <!-- Output -->
+      <label for="out">Result</label>
+      <pre id="out" aria-live="polite">Waiting…</pre>
+
+      <div class="foot">
+        <div class="pill">
+          <span class="spinner" id="spin" style="display:none"></span>
+          <span id="status">Ready.</span>
+        </div>
+        <small class="status">Tip: use a preset, then tweak the description.</small>
+      </div>
+    </div>
+  </div>
+
+<script>
+let lastWorkflow = null;
+let inFlightController = null;
+
+// Provider → Model presets
+const MODELS = {
+  openai: [
+    "gpt-4o-mini",
+    "gpt-4o",
+    "gpt-4.1",
+    "gpt-4.1-mini",
+    "o3-mini",
+    "gpt-4-turbo",
+    "gpt-3.5-turbo", 
+    "gpt-4o-realtime-preview",
+  ],
+  anthropic: [
+    "claude-3-5-sonnet-20240620",
+    "claude-3-sonnet-20240229",
+    "claude-3-opus-20240229",
+    "claude-3-haiku-20240307",
+  ],
+  gemini: [
+    "gemini-1.5-pro",
+    "gemini-1.5-pro-latest",
+    "gemini-1.5-flash",
+    "gemini-1.5-flash-latest",
+    "gemini-1.5-flash-8b",
+  ]
+};
+
+function initModels() {
+  const provider = document.getElementById('provider').value;
+  const modelSel = document.getElementById('model');
+  modelSel.innerHTML = "";
+  (MODELS[provider] || []).forEach(m => {
+    const opt = document.createElement('option');
+    opt.value = m; opt.textContent = m;
+    modelSel.appendChild(opt);
+  });
+}
+document.getElementById('provider').addEventListener('change', initModels);
+document.getElementById('presets').addEventListener('change', (e) => {
+  if (!e.target.value) return;
+  document.getElementById('prompt').value = e.target.value;
+});
+document.addEventListener('DOMContentLoaded', initModels);
+
+function setStatus(msg, spinning=false) {
+  document.getElementById('status').textContent = msg || '';
+  document.getElementById('spin').style.display = spinning ? 'inline-block' : 'none';
+}
+
+function resetUI(message = "Generating…") {
+  lastWorkflow = null;
+  document.getElementById('download').disabled = true;
+  document.getElementById('copy').disabled = true;
+  document.getElementById('out').textContent = message;
+}
+
+async function call(path, body, signal) {
+  const r = await fetch(path, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "X-Provider": document.getElementById('provider').value,
+      "X-Model":    document.getElementById('model').value,
+      "X-Prefer-Latest": document.getElementById('preferLatest').checked ? "true" : "false",
+      "X-Request-Id": String(Date.now())
+    },
+    body: JSON.stringify(body),
+    signal
+  });
+  if (!r.ok) {
+    const text = await r.text().catch(()=> "");
+    throw new Error(`HTTP ${r.status}: ${text || r.statusText}`);
+  }
+  return r.json();
+}
+
+document.getElementById('gen').onclick = async () => {
+  if (inFlightController) { inFlightController.abort(); inFlightController = null; }
+
+  const genBtn = document.getElementById('gen');
+  genBtn.disabled = true; genBtn.classList.add('muted'); genBtn.textContent = 'Generating…';
+  resetUI(); setStatus("Generating…", true);
+
+  const ctrl = new AbortController(); inFlightController = ctrl;
+
+  try {
+    const res = await call("/ui_generate", {
+      prompt: document.getElementById('prompt').value,
+      publish: false
+    }, ctrl.signal);
+
+    document.getElementById('out').textContent = JSON.stringify(res, null, 2);
+    lastWorkflow = res.workflow || null;
+    const hasWorkflow = !!lastWorkflow;
+    document.getElementById('download').disabled = !hasWorkflow;
+    document.getElementById('copy').disabled = !hasWorkflow;
+    setStatus(hasWorkflow ? "Done." : (res.error ? "Model error." : "No workflow in response."), false);
+  } catch (e) {
+    if (e.name === 'AbortError') setStatus('Previous request canceled.', false);
+    else { document.getElementById('out').textContent = String(e); setStatus("Request failed.", false); }
+  } finally {
+    if (inFlightController === ctrl) inFlightController = null;
+    genBtn.disabled = false; genBtn.classList.remove('muted'); genBtn.textContent = 'Generate';
+  }
+};
+
+document.getElementById('download').onclick = () => {
+  if (!lastWorkflow) return;
+  const blob = new Blob([JSON.stringify(lastWorkflow, null, 2)], { type: "application/json" });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = "generated_workflow.json";
+  a.click();
+  URL.revokeObjectURL(a.href);
+};
+
+document.getElementById('copy').onclick = async () => {
+  if (!lastWorkflow) return;
+  const text = JSON.stringify(lastWorkflow, null, 2);
+  try {
+    if (navigator.clipboard?.writeText) await navigator.clipboard.writeText(text);
+    else {
+      const ta = document.createElement('textarea');
+      ta.value = text; document.body.appendChild(ta);
+      ta.select(); document.execCommand('copy');
+      document.body.removeChild(ta);
+    }
+    setStatus("Copied JSON to clipboard.", false);
+  } catch {
+    setStatus("Copy failed.", false);
+  }
+};
+</script>
+</body>
+</html>

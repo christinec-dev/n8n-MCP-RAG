@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 405,
+  "content": "## n8n@0.175.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.174.0...n8n@0.175.0) for this version.<br />\n**Release date:** 2022-05-02\n\nThis release adds support for node versioning, along with node enhancements and bug fixes."
+}

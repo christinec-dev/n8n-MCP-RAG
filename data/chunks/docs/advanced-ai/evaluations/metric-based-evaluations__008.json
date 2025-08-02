@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/metric-based-evaluations.md",
+  "index": 8,
+  "content": "### 4. Run evaluation and view results\n\nSwitch to the **Evaluations** tab on your workflow and click the **Run evaluation** button. An evaluation will start. Once the evaluation has finished, it will display a summary score for each metric.\n\nYou can see the results for each test case by clicking on the test run row. Clicking on an individual test case will open the execution that produced it (in a new tab)."
+}

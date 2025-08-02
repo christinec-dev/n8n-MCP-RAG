@@ -1,0 +1,5 @@
+{
+  "source": "docs/index.md",
+  "index": 3,
+  "content": "## Where to start\n\n<div class=\"grid cards\" markdown>\n\n-   __Quickstarts__\n\n    Jump in with n8n's quickstart guides.\n\n    [:octicons-arrow-right-24: Try it out](/try-it-out/index.md)\n\n-   __Choose the right n8n for you__\n\n\tCloud, npm, self-host . . . \n\n    [:octicons-arrow-right-24: Options](/choose-n8n.md)\n\n\n-   __Explore integrations__\n\n    Browse n8n's integrations library.\n\n    [:octicons-arrow-right-24: Find your apps](/integrations/index.md)\n\n-   __Build AI functionality__\n\n    n8n supports building AI functionality and tools.\n\n    [:octicons-arrow-right-24: Advanced AI](/advanced-ai/index.md)    \n</div>"
+}

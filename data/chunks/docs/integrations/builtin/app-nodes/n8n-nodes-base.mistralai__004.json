@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mistralai.md",
+  "index": 4,
+  "content": "## Node options\n\n* **Enable Batch Processing**: Whether to process multiple documents in the same API call. This may reduce your costs by bundling requests.\n* **Batch Size**: When using \"Enable Batch Processing\", sets the maximum number of documents to process per batch.\n* **Delete Files After Processing**: When using \"Enable Batch Processing\", whether to delete the files from Mistral Cloud after processing."
+}

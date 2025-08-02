@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 9,
+  "content": "## Color\n\nThe `color` type provides a color selector.\n\n```typescript\n{\n\tdisplayName: 'Background Color',\n\tname: 'backgroundColor',\n\ttype: 'color',\n\tdefault: '', // Initially selected color\n\tdisplayOptions: { // the resources and operations to display this element with\n\t\tshow: {\n\t\t\tresource: [\n\t\t\t\t// comma-separated list of resource names\n\t\t\t],\n\t\t\toperation: [\n\t\t\t\t// comma-separated list of operation names\n\t\t\t]\n\t\t}\n\t},\n}\n```\n\n![Color](/_images/integrations/creating-nodes/color.png)"
+}

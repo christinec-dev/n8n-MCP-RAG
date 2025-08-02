@@ -1,0 +1,13 @@
+{
+  "source": "1077_Mattermost_Webhook_Automate_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        590,\n        400\n      ],\n      \"webhookId\": \"822cce61-ff5f-4cea-b8ba-1822651786e3\",\n      \"parameters\": {\n        \"path\": \"822cce61-ff5f-4cea-b8ba-1822651786e3\",\n        \"options\": {},\n        \"httpMethod\": \"POST\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        780,\n        400\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"amudhan\",\n              \"value\": \"n8n-rocks\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mattermost\",\n      \"type\": \"n8n-nodes-base.mattermost\",\n      \"position\": [\n        990,\n        400\n      ],\n      \"parameters\": {\n        \"message\": \"=Join me in a video call:\",\n        \"channelId\": \"={{$node[\\\"Webhook\\\"].json[\\\"body\\\"][\\\"channel_id\\\"]}}\",\n        \"attachments\": [\n          {\n            \"title\": \"=https://whereby.com/{{$json[$node[\\\"Webhook\\\"].json[\\\"body\\\"][\\\"user_name\\\"]]}}\",\n            \"title_link\": \"=https://whereby.com/{{$json[$node[\\\"Webhook\\\"].json[\\\"body\\\"][\\\"user_name\\\"]]}}\"\n          }\n        ],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"mattermostApi\": \"mm_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mattermost\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.mattermost"
+    ],
+    "trigger": null
+  }
+}

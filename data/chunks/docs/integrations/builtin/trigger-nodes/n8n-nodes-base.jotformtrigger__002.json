@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.jotformtrigger.md",
+  "index": 2,
+  "content": "# JotForm Trigger node\n\n[JotForm](https://www.jotform.com/) is an online form building service. JotForm's software creates forms with a drag and drop creation tool and an option to encrypt user data.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/jotform.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [JotForm Trigger integrations](https://n8n.io/integrations/jotform-trigger/) page.\n///"
+}

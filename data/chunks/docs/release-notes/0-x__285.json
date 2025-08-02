@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 285,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### User management and credential sharing for Cloud\n\nThis release adds support for n8n's existing [user management](/user-management/index.md) functionality to Cloud, and introduces a new feature: [credential sharing](/credentials/credential-sharing.md). Credential sharing is currently only available on Cloud.\n\n</div>\n\nAlso in this release:\n\n* Added a `resourceLocator` parameter type for nodes, and started upgrading n8n's built-in nodes to use it. This new option helps users who need to specify the ID of a record or item in an external service. For example, when using the Trello node, you can now search for a specific card by ID, URL, or do a free text search for card titles. Node builders can learn more about working with this new UI element in n8n's [UI elements](/integrations/creating-nodes/build/reference/ui-elements.md) documentation.\n* Cache npm dependencies to improve performance on self-hosted n8n"
+}

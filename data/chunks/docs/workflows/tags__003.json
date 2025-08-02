@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/tags.md",
+  "index": 3,
+  "content": "## Add a tag to a workflow\n\nTo add a tag to your workflow:\n\n1. In your workflow, select **+ Add tag**.\n2. Select an existing tag, or enter a new tag name.\n3. Once you select a tag and click away from the tag modal, n8n displays the tag next to the workflow name.\n\nYou can add more than one tag."
+}

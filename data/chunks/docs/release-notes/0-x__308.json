@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 308,
+  "content": "### Bug fixes\n\n* Core: make digest auth work with query parameters.\n* Editor: send data as query on DELETE requests.\n* Fix credentials_entity table migration for MySQL.\n* Improve `.npmignore` to reduce the size of the published packages."
+}

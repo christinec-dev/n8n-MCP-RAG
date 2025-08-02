@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 334,
+  "content": "### Node enhancements\n\n* Item Lists node: add an operation to create arrays from input items.\n* [Kafka Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.kafkatrigger.md): add more option fields."
+}

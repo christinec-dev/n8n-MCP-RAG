@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.servicenow.md",
+  "index": 3,
+  "content": "## Operations\n\n* Business Service\n    * Get All\n* Configuration Items\n    * Get All\n* Department\n    * Get All\n* Dictionary\n    * Get All\n* Incident\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Table Record\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* User\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* User Group\n    * Get All\n* User Role\n    * Get All"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.discord/index.md",
+  "index": 5,
+  "content": "## Related resources\n\nRefer to [Discord's documentation](https://discord.com/developers/docs/intro) for more information about the service.\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/operation-not-supported.md\""
+}

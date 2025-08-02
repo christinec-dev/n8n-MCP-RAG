@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/execution-data.md",
+  "index": 2,
+  "content": "# Execution data\n\nDepending on your executions settings and volume, your n8n database can grow in size and run out of storage.\n\nTo avoid this, n8n recommends that you don't save unnecessary data, and enable pruning of old executions data.\n\nTo do this, configure the corresponding [environment variables](/hosting/configuration/environment-variables/executions.md)."
+}

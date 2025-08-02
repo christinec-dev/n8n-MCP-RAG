@@ -1,0 +1,5 @@
+{
+  "source": "docs/api/pagination.md",
+  "index": 5,
+  "content": "# For a self-hosted n8n instance\ncurl -X 'GET' \\\n  '<N8N_HOST>:<N8N_PORT>/<N8N_PATH>/api/v<version-number>/workflows?active=true&limit=150&cursor=MTIzZTQ1NjctZTg5Yi0xMmQzLWE0NTYtNDI2NjE0MTc0MDA' \\\n  -H 'accept: application/json'"
+}

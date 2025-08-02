@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md",
+  "index": 6,
+  "content": "### Authentication\n\nn8n recommends using the **Predefined Credential Type** option when it's available. It offers an easier way to set up and manage credentials, compared to configuring generic credentials.\n\n#### Predefined credentials\n\nCredentials for integrations supported by n8n, including both built-in and community nodes. Use **Predefined Credential Type** for custom operations without extra setup. Refer to [Custom API operations](/integrations/custom-operations.md) for more information.\n\n#### Generic credentials\n\nCredentials for integrations not supported by n8n. You'll need to manually configure the authentication process, including specifying the required API endpoints, necessary parameters, and the authentication method. \n\nYou can select one of the following methods:\n\n* Basic auth\n* Custom auth\n* Digest auth\n* Header auth\n* OAuth1 API\n* OAuth2 API\n* Query auth\n\nRefer to [HTTP request credentials](/integrations/builtin/credentials/httprequest.md) for more information on setting up each credential type."
+}

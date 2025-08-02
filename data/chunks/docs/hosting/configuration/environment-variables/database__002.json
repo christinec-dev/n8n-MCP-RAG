@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/environment-variables/database.md",
+  "index": 2,
+  "content": "# Database environment variables\n\n--8<-- \"_snippets/self-hosting/file-based-configuration.md\"\n\nBy default, n8n uses SQLite. n8n also supports PostgreSQL. n8n [deprecated support for MySQL and MariaDB](/1-0-migration-checklist.md#mysql-and-mariadb) in v1.0.\n\nThis page outlines environment variables to configure your chosen database for your self-hosted n8n instance.\n\n| Variable | Type  | Default  | Description |\n| :------- | :---- | :------- | :---------- |\n| `DB_TYPE`<br>/`_FILE` | Enum string:<br> `sqlite`, `postgresdb` | `sqlite` | The database to use. |\n| `DB_TABLE_PREFIX` | * | - | Prefix to use for table names. |\n| `DB_PING_INTERVAL_SECONDS` | Number | `2` | The interval, in seconds, between pings to the database to check if the connection is still alive. |"
+}

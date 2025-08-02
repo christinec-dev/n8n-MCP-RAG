@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 5,
+  "content": "## `icon`\n\n_String_ or _Object_ | _Required_\n\nSpecifies an icon for a particular node. n8n recommends uploading your own image file. \n\nYou can provide the icon file name as a string, or as an object to handle different icons for light and dark modes.\nIf the icon works in both light and dark modes, use a string that starts with `file:`, indicating the path to the icon file. For example:\n\n```\nicon: 'file:exampleNodeIcon.svg'\n```\nTo provide different icons for light and dark modes, use an object with `light` and `dark` properties. For example:\n```\nicon: { \n  light: 'file:exampleNodeIcon.svg', \n  dark: 'file:exampleNodeIcon.dark.svg' \n}\n```\n\n--8<-- \"_snippets/integrations/creating-nodes/node-icons.md\""
+}

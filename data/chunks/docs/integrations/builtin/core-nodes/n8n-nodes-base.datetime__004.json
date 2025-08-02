@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 4,
+  "content": "## Add to a Date\n\nConfigure the node for this operation using these parameters:\n\n* **Date to Add To**: Enter the date you want to change.\n* **Time Unit to Add**: Select the time unit for the **Duration** parameter.\n* **Duration**: Enter the number of time units to add to the date.\n* **Output Field Name**: Enter the name of the field to output the new date to."
+}

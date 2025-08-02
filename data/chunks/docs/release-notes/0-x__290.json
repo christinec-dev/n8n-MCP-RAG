@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 290,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Adalo\n\nAdalo is a low code app builder. Refer to n8n's [Adalo node documentation](/integrations/builtin/app-nodes/n8n-nodes-base.adalo.md) for more information.\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Google Cloud Storage\n\nn8n now has a [Google Cloud Storage node](/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudstorage.md). \n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Gmail Trigger\n\nn8n now has a [Gmail Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.gmailtrigger/index.md). This allows you to trigger workflows in response to a Gmail account receiving an email.\n\n</div>"
+}

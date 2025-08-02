@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/blocking-nodes.md",
+  "index": 5,
+  "content": "## Related resources\n\nRefer to [Nodes environment variables](/hosting/configuration/environment-variables/nodes.md) for more information on this environment variable.\n\nRefer to [Configuration](/hosting/configuration/configuration-methods.md) for more information on setting environment variables."
+}

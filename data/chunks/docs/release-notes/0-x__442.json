@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 442,
+  "content": "### Enhanced nodes\n\n* [HTTP Request Node:](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) Allow Delete requests with body.\n* [KoBoToolbox Node:](/integrations/builtin/app-nodes/n8n-nodes-base.kobotoolbox.md) Add KoBoToolbox Regular and Trigger Node.\n* [Mailjet Node:](/integrations/builtin/app-nodes/n8n-nodes-base.mailjet.md) Add credential tests and support for sandbox, JSON parameters & variables.\n* [Mattermost Node:](/integrations/builtin/app-nodes/n8n-nodes-base.mattermost.md) Add support for Channel search."
+}

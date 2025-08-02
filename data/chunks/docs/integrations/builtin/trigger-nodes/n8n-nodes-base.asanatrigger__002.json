@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.asanatrigger.md",
+  "index": 2,
+  "content": "# Asana Trigger node\n\n[Asana](https://asana.com/) is a web and mobile application designed to help teams organize, track, and manage their work.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/asana.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Asana Trigger integrations](https://n8n.io/integrations/asana-trigger/) page.\n///"
+}

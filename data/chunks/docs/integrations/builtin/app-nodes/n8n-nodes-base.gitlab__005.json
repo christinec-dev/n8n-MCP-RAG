@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gitlab.md",
+  "index": 5,
+  "content": "## Related resources\n\nRefer to [GitLab's documentation](https://docs.gitlab.com/ee/api/rest/) for more information about the service.\n\nn8n provides a trigger node for GitLab. You can find the trigger node docs [here](/integrations/builtin/trigger-nodes/n8n-nodes-base.gitlabtrigger.md).\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/operation-not-supported.md\""
+}

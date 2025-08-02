@@ -1,0 +1,11 @@
+{
+  "source": "0823_Zendesk_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"33\",\n  \"name\": \"Receive updates for support in Zendesk\",\n  \"nodes\": [\n    {\n      \"name\": \"Zendesk Trigger\",\n      \"type\": \"n8n-nodes-base.zendeskTrigger\",\n      \"position\": [\n        690,\n        300\n      ],\n      \"webhookId\": \"7d01a119-83c7-43b7-8668-a2f26b95d225\",\n      \"parameters\": {\n        \"options\": {},\n        \"conditions\": {\n          \"all\": [\n            {}\n          ]\n        }\n      },\n      \"credentials\": {\n        \"zendeskApi\": \"zendesk-token\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.zendeskTrigger"
+    ],
+    "trigger": "zendesk trigger"
+  }
+}

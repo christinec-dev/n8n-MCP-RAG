@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.openweathermap.md",
+  "index": 3,
+  "content": "## Operations\n\n* Returns the current weather data\n* Returns the weather data for the next 5 days"
+}

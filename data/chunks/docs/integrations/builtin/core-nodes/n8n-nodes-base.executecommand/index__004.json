@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.executecommand/index.md",
+  "index": 4,
+  "content": "### Execute Once\n\nChoose whether you want the node to execute only once (turned on) or once for every item it receives as input (turned off)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 292,
+  "content": "### Bug fixes\n\n* CLI: core: address Dependabot warnings.\n* CLI: avoid scanning unnecessary directories on Windows.\n* CLI: load nodes and directories on Windows using the correct file path.\n* CLI: ensure password reset triggers internal and external hooks.\n* CLI: use absolute paths for loading custom nodes and credentials.\n* Core: returnJsonArray helper no longer breaks nodes that return no data.\n* Core: fix an issue with node renaming and expressions.\n* Core: update OAuth endpoints to use the instance base URL.\n* Nodes: resolved an issue that was preventing versioned nodes from loading.\n* Public API: better error handling for bad requests.\n* AWS nodes: fixed an issue with credentials testing.\n* GoogleBigQuery node: fix for empty responses when creating records.\n* HubSpot node: correct the node name on the canvas."
+}

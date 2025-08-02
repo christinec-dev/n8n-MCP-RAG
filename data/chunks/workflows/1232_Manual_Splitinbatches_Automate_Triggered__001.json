@@ -1,0 +1,15 @@
+{
+  "source": "1232_Manual_Splitinbatches_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        430,\n        310\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Function\",\n      \"type\": \"n8n-nodes-base.function\",\n      \"position\": [\n        630,\n        310\n      ],\n      \"parameters\": {\n        \"functionCode\": \"const newItems = [];\\n\\nfor (let i=0;i<10;i++) {\\n  newItems.push({json:{i}});\\n}\\n\\nreturn newItems;\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"SplitInBatches\",\n      \"type\": \"n8n-nodes-base.splitInBatches\",\n      \"position\": [\n        830,\n        310\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"batchSize\": 1\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        1030,\n        460\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"number\": [\n            {\n              \"value1\": \"={{$node[\\\"SplitInBatches\\\"].context[\\\"currentRunIndex\\\"];}}\",\n              \"value2\": 5,\n              \"operation\": \"equal\"\n            }\n          ],\n          \"boolean\": []\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        1230,\n        360\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"Message\",\n              \"value\": \"Loop Ended\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ],\n        [\n          {\n            \"node\": \"SplitInBatches\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Function\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"SplitInBatches\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"SplitInBatches\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Function\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.function",
+      "n8n-nodes-base.splitInBatches",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

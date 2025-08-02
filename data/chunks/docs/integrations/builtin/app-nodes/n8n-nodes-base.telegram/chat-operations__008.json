@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/chat-operations.md",
+  "index": 8,
+  "content": "## Set Title\n\nUse this operation to set the title of a chat using the Bot API [setChatTitle](https://core.telegram.org/bots/api#setchattitle) method.\n\nEnter these parameters:\n\n* **Credential to connect with**: Create or select an existing [Telegram credential](/integrations/builtin/credentials/telegram.md).\n* **Resource**: Select **Chat**.\n* **Operation**: Select **Set Title**.\n* **Chat ID**: Enter the Chat ID or username of the channel you wish to leave in the format `@channelusername`.\n    * To feed a Chat ID directly into this node, use the [Telegram Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.telegramtrigger/index.md) node. Refer to [Common Issues | Get the Chat ID](/integrations/builtin/app-nodes/n8n-nodes-base.telegram/common-issues.md#get-the-chat-id) for more information.\n* **Title**: Enter the new title you'd like to set the chat to use, maximum of 255 characters.\n\nRefer to the Telegram Bot API [setChatTitle](https://core.telegram.org/bots/api#setchattitle) documentation for more information."
+}

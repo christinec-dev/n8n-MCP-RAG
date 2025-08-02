@@ -1,0 +1,11 @@
+{
+  "source": "0843_Gumroad_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"34\",\n  \"name\": \"Receive updates when a sale is made in Gumroad\",\n  \"nodes\": [\n    {\n      \"name\": \"Gumroad Trigger\",\n      \"type\": \"n8n-nodes-base.gumroadTrigger\",\n      \"position\": [\n        1310,\n        700\n      ],\n      \"webhookId\": \"d72f9547-0530-4733-9e8b-3e3b1beec2eb\",\n      \"parameters\": {\n        \"resource\": \"sale\"\n      },\n      \"credentials\": {\n        \"gumroadApi\": \"gumroad\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.gumroadTrigger"
+    ],
+    "trigger": "gumroad trigger"
+  }
+}

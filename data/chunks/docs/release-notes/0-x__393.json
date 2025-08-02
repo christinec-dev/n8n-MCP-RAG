@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 393,
+  "content": "### Bug fixes\n\n* **Editor UI**: don't display the dividing line unless necessary.\n* **Editor UI**: don't display the 'Welcome' sticky in template workflows.\n* [Slack Node](/integrations/builtin/app-nodes/n8n-nodes-base.slack.md): Fix the kick operation for the channel resource."
+}

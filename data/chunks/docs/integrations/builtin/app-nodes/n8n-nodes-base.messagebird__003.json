@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.messagebird.md",
+  "index": 3,
+  "content": "## Operations\n\n* SMS\n    * Send text messages (SMS)\n* Balance\n    * Get the balance"
+}

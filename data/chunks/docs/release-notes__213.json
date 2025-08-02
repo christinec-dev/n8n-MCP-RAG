@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 213,
+  "content": "### New node: n8n Form\nUse the [n8n Form node](/integrations/builtin/core-nodes/n8n-nodes-base.form.md) to create user-facing forms with multiple pages. You can add other nodes with custom logic between to process user input. Start the workflow with a [n8n Form Trigger](/integrations/builtin/core-nodes/n8n-nodes-base.formtrigger.md). \n\n<figure markdown=\"span\">\n    ![A multi-page form with branching](/_images/integrations/builtin/core-nodes/n8n-nodes-base.form/example_image.png)\n    <figcaption>A multi-page form with branching</figcaption>\n</figure>\n\nAdditionally you can: \n\n- Set default selections with query parameters  \n- Define the form with a JSON array of objects\n- Show a completion screen and redirect to another URL\n\n</div>"
+}

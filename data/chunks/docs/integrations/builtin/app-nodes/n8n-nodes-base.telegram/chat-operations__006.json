@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/chat-operations.md",
+  "index": 6,
+  "content": "## Leave Chat\n\nUse this operation to leave a chat using the Bot API [leaveChat](https://core.telegram.org/bots/api#leavechat) method.\n\nEnter these parameters:\n\n* **Credential to connect with**: Create or select an existing [Telegram credential](/integrations/builtin/credentials/telegram.md).\n* **Resource**: Select **Chat**.\n* **Operation**: Select **Leave**.\n* **Chat ID**: Enter the Chat ID or username of the channel you wish to leave in the format `@channelusername`.\n    * To feed a Chat ID directly into this node, use the [Telegram Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.telegramtrigger/index.md) node. Refer to [Common Issues | Get the Chat ID](/integrations/builtin/app-nodes/n8n-nodes-base.telegram/common-issues.md#get-the-chat-id) for more information.\n\nRefer to the Telegram Bot API [leaveChat](https://core.telegram.org/bots/api#leavechat) documentation for more information."
+}

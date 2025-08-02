@@ -1,0 +1,5 @@
+{
+  "source": "docs/api/authentication.md",
+  "index": 7,
+  "content": "# For n8n Cloud\ncurl -X 'GET' \\\n  '<your-cloud-instance>/api/v<version-number>/workflows?active=true' \\\n  -H 'accept: application/json' \\\n  -H 'X-N8N-API-KEY: <your-api-key>'\n```"
+}

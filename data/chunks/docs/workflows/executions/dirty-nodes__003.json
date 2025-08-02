@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/dirty-nodes.md",
+  "index": 3,
+  "content": "## How to recognize dirty node data\n\nIn the canvas of the workflow editor, you can identify dirty notes by their different-colored border and a yellow triangle in place of the previous green tick symbol. For example:\n\n![\"Image of node displayed with yellow border\"](/_images/workflows/executions/dirty-node-canvas.png)\n\nIn the node editor view, the output panel also displays a yellow triangle on the output panel. If you hover over the triangle, a tooltip appears with more information about why n8n considers the data stale:\n\n![\"Image of node displayed with yellow border\"](/_images/workflows/executions/dirty-node-editor.png)"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 270,
+  "content": "### Node enhancements\n\nCrypto node: add SHA3 support."
+}

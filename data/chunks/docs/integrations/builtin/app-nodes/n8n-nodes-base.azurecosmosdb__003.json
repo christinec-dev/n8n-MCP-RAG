@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.azurecosmosdb.md",
+  "index": 3,
+  "content": "## Operations\n\n* **Container**:\n\t* **Create**\n\t* **Delete**\n\t* **Get**\n\t* **Get Many**\n* **Item**:\n\t* **Create**\n\t* **Delete**\n\t* **Get**\n\t* **Get Many**\n\t* **Execute Query**\n\t* **Update**"
+}

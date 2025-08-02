@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 556,
+  "content": "### Bug fixes\n\n\n* [Google Tasks:](/integrations/builtin/app-nodes/n8n-nodes-base.googletasks.md) Fixed an issue where the Due Date field had no effect (Update operation) or was unavailable (Create operation).\n* [HTTP Request:](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) Fixed an issue where the Content-Length header was not calculated and sent when using the a Body Content Type of Form-Data Multipart.\n* [Stripe Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.stripetrigger.md) Fixed an issue preventing the node from being activated when a previously created webhook no longer exists.\n* [Toggl Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.toggltrigger.md) Updated the API URL used by the node."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.git.md",
+  "index": 9,
+  "content": "### Commit options\n\nThe commit operation adds the **Paths to Add** option. To commit all \"added\" files and folders, leave this field blank. To commit specific \"added\" files and folders, enter a comma-separated list of paths of files or folders in this field.\n\nYou can use absolute paths or relative paths from the **Repository Path**."
+}

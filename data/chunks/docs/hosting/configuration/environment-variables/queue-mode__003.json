@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/environment-variables/queue-mode.md",
+  "index": 3,
+  "content": "## Multi-main setup\n\nRefer to [Configuring multi-main setup](/hosting/scaling/queue-mode.md#configuring-multi-main-setup) for details.\n\n| Variable | Type  | Default  | Description |\n| :------- | :---- | :------- | :---------- |\n| `N8N_MULTI_MAIN_SETUP_ENABLED` | Boolean | `false` | Whether to enable multi-main setup for queue mode (license required). |\n| `N8N_MULTI_MAIN_SETUP_KEY_TTL` | Number | `10` | Time to live (in seconds) for leader key in multi-main setup. |\n| `N8N_MULTI_MAIN_SETUP_CHECK_INTERVAL` | Number | `3` | Interval (in seconds) for leader check in multi-main setup. |"
+}

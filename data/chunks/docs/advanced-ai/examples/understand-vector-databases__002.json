@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/understand-vector-databases.md",
+  "index": 2,
+  "content": "# What are vector databases?\n\nVector databases store information as numbers:\n\n> A vector database is a type of database that stores data as high-dimensional vectors, which are mathematical representations of features or attributes. ([source](https://learn.microsoft.com/en-us/semantic-kernel/memories/vector-db))\n\nThis enables fast and accurate similarity searches. With a vector database, instead of using conventional database queries, you can search for relevant data based on semantic and contextual meaning."
+}

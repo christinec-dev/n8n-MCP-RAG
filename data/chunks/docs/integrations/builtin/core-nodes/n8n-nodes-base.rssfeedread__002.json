@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.rssfeedread.md",
+  "index": 2,
+  "content": "# RSS Read\n\nUse the RSS Read node to read data from RSS feeds published on the internet."
+}

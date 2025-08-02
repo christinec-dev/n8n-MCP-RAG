@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.html.md",
+  "index": 4,
+  "content": "## Generate HTML template\n\nCreate an HTML template. This allows you to take data from your workflow and output it as HTML. \n\nYou can include:\n\n* Standard HTML\n* CSS in `<style>` tags.\n* JavaScript in `<script>` tags. n8n doesn't execute the JavaScript.\n* Expressions, wrapped in `{{}}`.\n\nYou can use [Expressions](/code/expressions.md) in the template, including n8n's [Built-in methods and variables](/code/builtin/overview.md)."
+}

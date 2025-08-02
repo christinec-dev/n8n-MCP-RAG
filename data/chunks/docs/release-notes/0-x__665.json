@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 665,
+  "content": "### New nodes\n\n* [Webex by Cisco](/integrations/builtin/app-nodes/n8n-nodes-base.ciscowebex.md)\n* [Webex by Cisco Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.ciscowebextrigger.md)"
+}

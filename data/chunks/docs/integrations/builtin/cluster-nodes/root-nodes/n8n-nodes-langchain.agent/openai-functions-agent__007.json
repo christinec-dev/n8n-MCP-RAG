@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/openai-functions-agent.md",
+  "index": 7,
+  "content": "### System Message \n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-root-nodes/system-message.md\""
+}

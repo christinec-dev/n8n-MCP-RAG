@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.code.md",
+  "index": 8,
+  "content": "## Built-in methods\n\nn8n provides these methods to make it easier to perform common tasks in the LangChain Code node.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-root-nodes/langchaincode/builtin-methods.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.graphql.md",
+  "index": 8,
+  "content": "### Query\n\nEnter the GraphQL query you want to execute.\n\nRefer to [Related Resources](#related-resources) for information on writing your query."
+}

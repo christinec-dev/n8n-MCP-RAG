@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mistralai.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Resource**: The resource that Mistral AI should operate on. The current implementation supports the \"Document\" resource.\n* **Operation**: The operation to perform:\n\t* **Extract Text**: Extracts text from a document or image using optical character recognition (OCR).\n* **Model**: The model to use for the given operation. The current version requires the `mistral-ocr-latest` model.\n* **Document Type**: The document format to process. Can be \"Document\" or \"Image\".\n* **Input Type**: How to input the document:\n\t* **Binary Data**: Pass the document to this node as a binary field.\n\t* **URL**: Fetch the document from a given URL.\n* **Input Binary Field**: When using the \"Binary Data\" input type, defines the name of the input binary field containing the file.\n* **URL**: When using the \"URL\" input type, the URL of the document or image to process."
+}

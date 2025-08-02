@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.beeminder.md",
+  "index": 2,
+  "content": "# Beeminder node\n\nUse the Beeminder node to automate work in Beeminder, and integrate Beeminder with other applications. n8n has built-in support for a wide range of Beeminder features, including creating, deleting, and updating data points.\n\nOn this page, you'll find a list of operations the Beeminder node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Beeminder credentials](/integrations/builtin/credentials/beeminder.md) for guidance on setting up authentication. \n///"
+}

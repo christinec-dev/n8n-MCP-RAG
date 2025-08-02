@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatopenrouter.md",
+  "index": 2,
+  "content": "# OpenRouter Chat Model node\n\nUse the OpenRouter Chat Model node to use OpenRouter's chat models with conversational agents.\n\nOn this page, you'll find the node parameters for the OpenRouter Chat Model node and links to more resources.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/openrouter.md).\n///\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

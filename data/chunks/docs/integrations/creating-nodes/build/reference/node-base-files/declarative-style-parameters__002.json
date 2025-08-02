@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/declarative-style-parameters.md",
+  "index": 2,
+  "content": "# Declarative-style parameters\n\nThese are the parameters available for [node base file](/integrations/creating-nodes/build/reference/node-base-files/index.md) of declarative-style nodes.\n\nThis document gives short code snippets to help understand the code structure and concepts. For a full walk-through of building a node, including real-world code examples, refer to [Build a declarative-style node](/integrations/creating-nodes/build/declarative-style-node.md).\n\nRefer to [Standard parameters](/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md) for parameters available to all nodes."
+}

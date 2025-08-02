@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 10,
+  "content": "### Draw parameters\n\n* **Property Name**: Enter the name of the binary property that stores the image data.\n* **Primitive**: Select the primitive shape to draw. Choose from:\n\t* **Circle**\n\t* **Line**\n\t* **Rectangle**\n* **Color**: Set the color for the primitive. You can either enter a hex or select the color swatch to open a color picker.\n* **Start Position X**: Enter the x axis position (horizontal) to start drawing from.\n* **Start Position Y**: Enter the y axis position (vertical) to start drawing from.\n* **End Position X**: Enter the x axis position (horizontal) to stop drawing at.\n* **End Position Y**: Enter the y axis position (vertical) to start drawing at.\n* **Corner Radius**: Enter a number to set the corner radius. Adding a corner radius will round the corners of the drawn primitive.\n\nRefer to [Node options](#node-options) for optional configuration options."
+}

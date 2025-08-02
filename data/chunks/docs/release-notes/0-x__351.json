@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 351,
+  "content": "### New features\n\nCore: add the `action` parameter to INodePropertyOptions. This parameter is now available when building nodes."
+}

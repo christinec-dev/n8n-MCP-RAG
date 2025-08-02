@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/docker.md",
+  "index": 12,
+  "content": "# Stop the container with the `<container_id>`\ndocker stop <container_id>"
+}

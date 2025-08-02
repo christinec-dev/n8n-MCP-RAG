@@ -1,0 +1,14 @@
+{
+  "source": "1055_Manual_Mysql_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        460,\n        230\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"MySQL\",\n      \"type\": \"n8n-nodes-base.mySql\",\n      \"position\": [\n        660,\n        230\n      ],\n      \"parameters\": {\n        \"query\": \"CREATE TABLE test (id INT, name VARCHAR(255), PRIMARY KEY (id));\",\n        \"operation\": \"executeQuery\"\n      },\n      \"credentials\": {\n        \"mySql\": \"mysql_creds\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"MySQL1\",\n      \"type\": \"n8n-nodes-base.mySql\",\n      \"position\": [\n        1060,\n        230\n      ],\n      \"parameters\": {\n        \"table\": \"test\",\n        \"columns\": \"id, name\"\n      },\n      \"credentials\": {\n        \"mySql\": \"mysql_creds\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        860,\n        230\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"number\": [\n            {\n              \"name\": \"id\"\n            }\n          ],\n          \"string\": [\n            {\n              \"name\": \"name\",\n              \"value\": \"n8n\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1,\n      \"alwaysOutputData\": false\n    }\n  ],\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"MySQL1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"MySQL\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"MySQL\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.mySql",
+      "n8n-nodes-base.mySql",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

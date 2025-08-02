@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 505,
+  "content": "### Bug fixes\n\n\n* [Box:](/integrations/builtin/app-nodes/n8n-nodes-base.box.md) Fixed a bug causing some files to be corrupted during download.\n* [Philips Hue:](/integrations/builtin/app-nodes/n8n-nodes-base.philipshue.md) Fixed a bug preventing the node from connecting to Philips Hue.\n* [Salesforce:](/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md) Fixed a bug preventing filters on date and datetime fields from working as expected.\n* [Supabase:](/integrations/builtin/app-nodes/n8n-nodes-base.supabase/index.md) Fixed an errorneous documentation link."
+}

@@ -1,0 +1,13 @@
+{
+  "source": "0166_Manual_Lingvanex_Automation_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"145\",\n  \"name\": \"Translate cocktail instructions using LingvaNex\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"LingvaNex\",\n      \"type\": \"n8n-nodes-base.lingvaNex\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"text\": \"={{$node[\\\"HTTP Request\\\"].json[\\\"drinks\\\"][0][\\\"strInstructions\\\"]}}\",\n        \"options\": {},\n        \"translateTo\": \"it_IT\"\n      },\n      \"credentials\": {\n        \"lingvaNexApi\": \"LingvaNex\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"https://www.thecocktaildb.com/api/json/v1/1/random.php\",\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"HTTP Request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"LingvaNex\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.lingvaNex",
+      "n8n-nodes-base.httpRequest"
+    ],
+    "trigger": null
+  }
+}

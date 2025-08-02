@@ -1,0 +1,14 @@
+{
+  "source": "0349_Manual_GoogleSheets_Automation_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"1\",\n  \"name\": \"Google Sheet to Mailchimp\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        110,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Google Sheets\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"position\": [\n        530,\n        300\n      ],\n      \"parameters\": {\n        \"range\": \"sheetone!A:C\",\n        \"options\": {},\n        \"sheetId\": \"1jwEoPPrkQ2qYMYLZ_I0hlME_Ya_p2YZvaxG10Nf_R20\"\n      },\n      \"credentials\": {\n        \"googleApi\": \"Google mailchimp\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mailchimp\",\n      \"type\": \"n8n-nodes-base.mailchimp\",\n      \"position\": [\n        720,\n        300\n      ],\n      \"parameters\": {\n        \"list\": \"90d12734de\",\n        \"email\": \"={{$node[\\\"Google Sheets\\\"].json[\\\"email\\\"]}}\",\n        \"status\": \"subscribed\",\n        \"options\": {}\n      },\n      \"credentials\": {\n        \"mailchimpApi\": \"Google mailchimp\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Interval\",\n      \"type\": \"n8n-nodes-base.interval\",\n      \"position\": [\n        290,\n        300\n      ],\n      \"parameters\": {\n        \"interval\": 2\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": true,\n  \"settings\": {},\n  \"connections\": {\n    \"Interval\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Sheets\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Google Sheets\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mailchimp\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        []\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.googleSheets",
+      "n8n-nodes-base.mailchimp",
+      "n8n-nodes-base.interval"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/index.md",
+  "index": 5,
+  "content": "### Technical nodes\n\nn8n provides core nodes, which simplify adding key functionality such as API requests, webhooks, scheduling, and file handling.\n\n<div class=\"grid-cards-vertical cards\" markdown>\n\n- __Write a backend__\n\n\tThe [HTTP Request](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md), [Webhook](/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md), and [Code](/code/code-node.md) nodes help you make API calls, respond to webhooks, and write any JavaScript in your workflow.\n\n\tUse this do things like [Create an API endpoint](https://n8n.io/workflows/1750-creating-an-api-endpoint/).\n\n\t[:octicons-arrow-right-24: Core nodes](/integrations/builtin/core-nodes/index.md)\n\n- __Represent complex logic__\n\n\tYou can build complex flows, using nodes like [If](/integrations/builtin/core-nodes/n8n-nodes-base.if.md), [Switch](/integrations/builtin/core-nodes/n8n-nodes-base.switch.md), and [Merge](/integrations/builtin/core-nodes/n8n-nodes-base.merge.md) nodes. \n\n\t[:octicons-arrow-right-24: Flow logic](/flow-logic/index.md)\n\n</div>"
+}

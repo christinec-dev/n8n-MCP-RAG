@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 15,
+  "content": "## `properties`\n\n_Array of objects_ | _Required_  \n\nThis contains the resource and operations objects that define node behaviors, as well as objects to set up mandatory and optional fields that can receive user input."
+}

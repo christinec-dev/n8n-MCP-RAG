@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.code/common-issues.md",
+  "index": 4,
+  "content": "## A 'json' property isn't an object\n<!-- vale on -->\n\nThis error occurs when the Code node returns data where the `json` key isn't pointing to an object.\n\nThis may happen if you set `json` to a different data structure, like an array:\n\n```javascript\n[\n  {\n    \"json\": [\n\t  // Setting `json` to an array like this will produce an error\n\t]\n  }\n]\n```\n\nTo resolve this, ensure that the `json` key references an object in your return data:\n\n```javascript\n[\n  {\n    \"json\": {\n\t  // Setting `json` to an object as expected\n\t}\n  }\n]\n```"
+}

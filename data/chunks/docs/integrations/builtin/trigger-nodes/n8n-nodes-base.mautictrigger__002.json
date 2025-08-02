@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.mautictrigger.md",
+  "index": 2,
+  "content": "# Mautic Trigger node\n\n[Mautic](https://www.mautic.org/) is an open-source marketing automation software that helps online businesses automate their repetitive marketing tasks such as lead generation, contact scoring, contact segmentation, and marketing campaigns.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/mautic.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Mautic Trigger integrations](https://n8n.io/integrations/mautic-trigger/) page.\n///"
+}

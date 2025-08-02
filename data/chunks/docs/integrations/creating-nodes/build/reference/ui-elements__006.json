@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 6,
+  "content": "## Collection\n\nUse the `collection` type when you need to display optional fields.\n\n```typescript\n{\n\tdisplayName: 'Filters',\n\tname: 'filters',\n\ttype: 'collection',\n\tplaceholder: 'Add Field',\n\tdefault: {},\n\toptions: [\n\t\t{\n\t\t\tdisplayName: 'Type',\n\t\t\tname: 'type',\n\t\t\ttype: 'options',\n\t\t\toptions: [\n\t\t\t\t{\n\t\t\t\t\tname: 'Automated',\n\t\t\t\t\tvalue: 'automated',\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\tname: 'Past',\n\t\t\t\t\tvalue: 'past',\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\tname: 'Upcoming',\n\t\t\t\t\tvalue: 'upcoming',\n\t\t\t\t},\n\t\t\t],\n\t\t\tdefault: '',\n\t\t},\n\t],\n\tdisplayOptions: { // the resources and operations to display this element with\n\t\tshow: {\n\t\t\tresource: [\n\t\t\t\t// comma-separated list of resource names\n\t\t\t],\n\t\t\toperation: [\n\t\t\t\t// comma-separated list of operation names\n\t\t\t]\n\t\t}\n\t},\n}\n```\n\n![Collection](/_images/integrations/creating-nodes/collection.png)"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/sheet-operations.md",
+  "index": 15,
+  "content": "### Options\n\n- **Cell Format**: Use this option to choose how to format the data in cells. Refer to [Google Sheets API | CellFormat](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/cells#CellFormat) for more information.\n    - **Let Google Sheets format** (default): n8n formats text and numbers in the cells according to Google Sheets' default settings. \n    - **Let n8n format**: New cells in your sheet will have the same data types as the input data provided by n8n.\n- **Data Location on Sheet**: Use this option when you need to specify where the data range on your sheet.\n    - **Header Row**: Specify the row index that contains the column headers.\n    - **First Data Row**: Specify the row index where the actual data starts.\n  \nRefer to the [Method: spreadsheets.batchUpdate | Google Sheets](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/batchUpdate) API documentation for more information."
+}

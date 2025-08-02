@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.trellotrigger.md",
+  "index": 2,
+  "content": "# Trello Trigger node\n\n[Trello](https://trello.com/) is a web-based Kanban-style list-making application which is a subsidiary of Atlassian. Users can create their task boards with different columns and move the tasks between them.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/trello.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Trello Trigger integrations](https://n8n.io/integrations/trello-trigger/) page.\n///"
+}

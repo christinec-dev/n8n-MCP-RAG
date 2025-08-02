@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.webflow.md",
+  "index": 2,
+  "content": "# Webflow node\n\nUse the Webflow node to automate work in Webflow, and integrate Webflow with other applications. n8n has built-in support for a wide range of Webflow features, including creating, updating, deleting, and getting items. \n\nOn this page, you'll find a list of operations the Webflow node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Webflow credentials](/integrations/builtin/credentials/webflow.md) for guidance on setting up authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

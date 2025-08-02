@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolsearxng.md",
+  "index": 4,
+  "content": "## Running a SearXNG instance\n\nThis node requires running the SearXNG service on the same network as your n8n instance. Ensure your n8n instance has network access to the SearXNG service.\n\nThis node requires results in JSON format, which isn't enabled in the default SearXNG configuration. To enable JSON output, add `json` to the `search.formats` section of your SearXNG instance's `settings.yml` file:\n\n```yaml\nsearch:\n  # options available for formats: [html, csv, json, rss]\n  formats:\n    - html\n    - json\n```\n\nIf the `formats` section isn't there, add it. The exact location of the `settings.yml` file depends on how you installed SearXNG. You can find more by visiting the [SearXNG configuration documentation](https://docs.searxng.org/admin/installation-searxng.html#configuration).\n\nThe quality and availability of search results depend on the configuration and health of the SearXNG instance you use."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/builtin/overview.md",
+  "index": 2,
+  "content": "# Built-in methods and variables\n\nn8n provides built-in methods and variables for working with data and accessing n8n data. This section provides a reference of available methods and variables for use in [expressions](/glossary.md#expression-n8n), with a short description. \n\n/// note | Availability in the expressions editor and the Code node\nSome methods and variables aren't available in the Code node. These aren't in the documentation.\n\nAll data transformation functions are only available in the expressions editor.\n///\t\t\n\n\nThe [Cookbook](/code/index.md) contains examples for some common tasks, including some [Code node only](/code/cookbook/code-node/index.md) functions.\n\n[[% import \"_macros/section-toc.html\" as sectionToc %]]\n\n[[ sectionToc.sectionToc(page) ]]"
+}

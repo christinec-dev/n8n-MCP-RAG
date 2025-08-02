@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/hetzner.md",
+  "index": 7,
+  "content": "## Default folders and files\n\nThe host operating system (the server) copies the two folders you created to Docker containers to make them available to Docker. The two folders are:\n\n- `caddy_config`: Holds the Caddy configuration files.\n- `local_files`: A folder for files you upload or add using n8n."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.calendlytrigger.md",
+  "index": 2,
+  "content": "# Calendly Trigger node\n\n[Calendly](https://calendly.com/) is an automated scheduling software that's designed to help find meeting times.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/calendly.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Calendly Trigger integrations](https://n8n.io/integrations/calendly-trigger/) page.\n///"
+}

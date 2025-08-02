@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 18,
+  "content": "# New York is the default value if not set\nGENERIC_TIMEZONE=Europe/Berlin"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/prometheus.md",
+  "index": 5,
+  "content": "# TYPE n8n_scaling_mode_queue_jobs_active gauge\nn8n_scaling_mode_queue_jobs_active 0"
+}

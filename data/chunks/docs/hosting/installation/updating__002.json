@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/updating.md",
+  "index": 2,
+  "content": "# https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ndescription: Best practices for updating your self-hosted n8n\ntitle: Update self-hosted n8n\ncontentType: explanation\ntags:\n  - update npm\n  - update docker\nhide:\n  - tags\n---"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/tags.md",
+  "index": 2,
+  "content": "# Tags\n\nWorkflow tags allow you to label your workflows. You can then filter workflows by tag.\n\nTags are global. This means when you create a tag, it's available to all users on your n8n instance."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-3.md",
+  "index": 6,
+  "content": "## Looping\n\nIn some cases, you might need to perform the same operation on each element of an array or each data item (for example sending a message to every contact in your address book). In technical terms, you need to iterate through the data (with loops).\n\nn8n generally handles this repetitive processing automatically, as the nodes run once for each item, so you don't need to build loops into your workflows.\n\nHowever, there are some [exceptions of nodes and operations](/flow-logic/looping.md#node-exceptions) that will require you to build a loop into your workflow.\n\nTo [create a loop in an n8n workflow](/flow-logic/looping.md#using-loops-in-n8n), you need to connect the output of one node to the input of a previous node, and add an **If node** to check when to stop the loop."
+}

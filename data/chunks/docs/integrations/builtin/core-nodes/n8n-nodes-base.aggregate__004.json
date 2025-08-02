@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.aggregate.md",
+  "index": 4,
+  "content": "### Individual Fields\n\n* **Input Field Name**: Enter the name of the field in the input data to aggregate together.\n* **Rename Field**: This toggle controls whether to give the field a different name in the aggregated output data. Turn this on to add a different field name. If you're aggregating multiple fields, you must provide new output field names. You can't leave multiple fields undefined.\n\t* **Output Field Name**: This field is displayed when you turn on **Rename Field**. Enter the field name for the aggregated output data.\n\nRefer to [Node options](#node-options) for more configuration options."
+}

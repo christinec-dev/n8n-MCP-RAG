@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.affinity.md",
+  "index": 3,
+  "content": "## Operations\n\n* List\n    * Get a list\n    * Get all lists\n* List Entry\n    * Create a list entry\n    * Delete a list entry\n    * Get a list entry\n    * Get all list entries\n* Organization\n    * Create an organization\n    * Delete an organization\n    * Get an organization\n    * Get all organizations\n    * Update an organization\n* Person\n    * Create a person\n    * Delete a person\n    * Get a person\n    * Get all persons\n    * Update a person"
+}

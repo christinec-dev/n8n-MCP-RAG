@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.anthropic.md",
+  "index": 3,
+  "content": "## Operations\n\n* Document:\n\t* Analyze Document: Take in documents and answer questions about them.\n* File:\n\t* Upload File: Upload a file to the Anthropic API for later user.\n\t* Get File Metadata: Get metadata for a file from the Anthropic API.\n\t* List Files: List files from the Anthropic API.\n\t* Delete File: Delete a file from the Anthropic API.\n* Image:\n\t* Analyze Image: Take in images and answer questions about them.\n* Prompt:\n\t* Generate Prompt: Generate a prompt for a model.\n\t* Improve Prompt: Improve a prompt for a model.\n\t* Templatize Prompt: Templatize a prompt for a model.\n* Text:\n\t* Message a Model: Create a completion with an Anthropic model."
+}

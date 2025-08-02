@@ -1,0 +1,12 @@
+{
+  "source": "1198_Twilio_Pushcut_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"92\",\n  \"name\": \"Send an SMS to a number whenever you go out\",\n  \"nodes\": [\n    {\n      \"name\": \"Pushcut Trigger\",\n      \"type\": \"n8n-nodes-base.pushcutTrigger\",\n      \"position\": [\n        470,\n        300\n      ],\n      \"webhookId\": \"\",\n      \"parameters\": {\n        \"actionName\": \"Leaving Home\"\n      },\n      \"credentials\": {\n        \"pushcutApi\": \"Pushcut Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Twilio\",\n      \"type\": \"n8n-nodes-base.twilio\",\n      \"position\": [\n        670,\n        300\n      ],\n      \"parameters\": {\n        \"to\": \"123\",\n        \"from\": \"123\",\n        \"message\": \"=I'm {{$node[\\\"Pushcut Trigger\\\"].json[\\\"input\\\"]}}\"\n      },\n      \"credentials\": {\n        \"twilioApi\": \"twilio\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Pushcut Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twilio\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.pushcutTrigger",
+      "n8n-nodes-base.twilio"
+    ],
+    "trigger": "pushcut trigger"
+  }
+}

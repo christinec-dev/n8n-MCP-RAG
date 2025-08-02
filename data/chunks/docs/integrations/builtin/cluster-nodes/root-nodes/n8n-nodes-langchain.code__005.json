@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.code.md",
+  "index": 5,
+  "content": "### Inputs\n\nChoose the input types. \n\nThe main input is the normal connector found in all n8n workflows. If you have a main input and output set in the node, **Execute** code is required."
+}

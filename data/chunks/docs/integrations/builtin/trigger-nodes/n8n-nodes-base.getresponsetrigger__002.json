@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.getresponsetrigger.md",
+  "index": 2,
+  "content": "# GetResponse Trigger node\n\n[GetResponse](https://www.getresponse.com/) is an online platform that offers email marketing software, landing page creator, webinar hosting, and much more.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/getresponse.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [GetResponse Trigger integrations](https://n8n.io/integrations/getresponse-trigger/) page.\n///"
+}

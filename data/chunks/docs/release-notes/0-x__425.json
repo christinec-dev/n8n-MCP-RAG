@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 425,
+  "content": "### Bug fixes\n\n**core**: Luxon now applies the correct timezone. Refer to [Luxon](/code/cookbook/luxon.md) for more information.<br>\n**core**: fixed an issue with localization that was preventing i18n files from loading.<br>\n[Action Network Node:](/integrations/builtin/app-nodes/n8n-nodes-base.actionnetwork.md) Fix a pagination issue and add credentials test."
+}

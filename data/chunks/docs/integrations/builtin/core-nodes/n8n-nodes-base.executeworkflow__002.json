@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflow.md",
+  "index": 2,
+  "content": "# Execute Sub-workflow\n\nUse the Execute Sub-workflow node to run a different workflow on the host machine that runs n8n."
+}

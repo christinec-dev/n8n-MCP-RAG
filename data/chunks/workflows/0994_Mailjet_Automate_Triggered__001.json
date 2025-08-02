@@ -1,0 +1,11 @@
+{
+  "source": "0994_Mailjet_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Mailjet Trigger\",\n      \"type\": \"n8n-nodes-base.mailjetTrigger\",\n      \"position\": [\n        530,\n        400\n      ],\n      \"parameters\": {\n        \"event\": \"sent\"\n      },\n      \"credentials\": {\n        \"mailjetEmailApi\": \"mailjet creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.mailjetTrigger"
+    ],
+    "trigger": "mailjet trigger"
+  }
+}

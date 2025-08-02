@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.rundeck.md",
+  "index": 3,
+  "content": "## Operations\n\n- **Job**\n    - Execute a job\n    - Get metadata of a job"
+}

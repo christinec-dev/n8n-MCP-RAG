@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 2,
+  "content": "# Database structure\n\nThis page describes the purpose of each table in the n8n database."
+}

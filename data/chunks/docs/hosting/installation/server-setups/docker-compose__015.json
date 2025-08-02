@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 15,
+  "content": "# The subdomain to serve from\nSUBDOMAIN=n8n"
+}

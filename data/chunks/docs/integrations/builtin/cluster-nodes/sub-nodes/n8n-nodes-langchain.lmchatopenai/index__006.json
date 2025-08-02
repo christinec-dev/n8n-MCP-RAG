@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatopenai/index.md",
+  "index": 6,
+  "content": "### Base URL\n\nEnter a URL here to override the default URL for the API."
+}

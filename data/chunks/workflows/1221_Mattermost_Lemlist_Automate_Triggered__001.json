@@ -1,0 +1,12 @@
+{
+  "source": "1221_Mattermost_Lemlist_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Lemlist Trigger\",\n      \"type\": \"n8n-nodes-base.lemlistTrigger\",\n      \"position\": [\n        410,\n        160\n      ],\n      \"webhookId\": \"e1e29f99-7222-488a-826f-5af50ffe7505\",\n      \"parameters\": {\n        \"event\": \"emailsReplied\",\n        \"options\": {\n          \"campaignId\": \"cam_H5pYEryq6mRKBiy5v\"\n        }\n      },\n      \"credentials\": {\n        \"lemlistApi\": \"Lemlist API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mattermost\",\n      \"type\": \"n8n-nodes-base.mattermost\",\n      \"position\": [\n        610,\n        160\n      ],\n      \"parameters\": {\n        \"message\": \"={{$json[\\\"firstName\\\"]}} has replied back to your {{$json[\\\"campaignName\\\"]}}. Below is the reply:\\n> {{$json[\\\"text\\\"]}}\",\n        \"channelId\": \"qx9yo1i9z3bg5qcy5a1oxnh69c\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"mattermostApi\": \"Mattermost Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Lemlist Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mattermost\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.lemlistTrigger",
+      "n8n-nodes-base.mattermost"
+    ],
+    "trigger": "lemlist trigger"
+  }
+}

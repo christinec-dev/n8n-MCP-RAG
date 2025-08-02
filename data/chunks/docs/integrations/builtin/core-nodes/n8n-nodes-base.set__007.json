@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.set.md",
+  "index": 7,
+  "content": "### Include in Output\n\nChoose which input data to include in the node's output data."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/common-issues.md",
+  "index": 5,
+  "content": "## A Chat Model sub-node must be connected error\n\nThis error displays when n8n tries to execute the node without having a Chat Model connected.\n\nTo resolve this, click the + Chat Model button at the bottom of your screen when the node is open, or click the Chat Model + connector when the node is closed. n8n will then open a selection of possible Chat Models to pick from."
+}

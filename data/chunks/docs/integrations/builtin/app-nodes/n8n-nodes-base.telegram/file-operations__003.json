@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/file-operations.md",
+  "index": 3,
+  "content": "## Get File\n\nUse this operation to get a file from Telegram using the Bot API [getFile](https://core.telegram.org/bots/api#getfile) method.\n\nEnter these parameters:\n\n* **Credential to connect with**: Create or select an existing [Telegram credential](/integrations/builtin/credentials/telegram.md).\n* **Resource**: Select **File**.\n* **Operation**: Select **Get**.\n* **File ID**: Enter the ID of the file you want to get.\n* **Download**: Choose whether you want the node to download the file (turned on) or not (turned off).\n\nRefer to the Telegram Bot API [getFile](https://core.telegram.org/bots/api#getfile) documentation for more information."
+}

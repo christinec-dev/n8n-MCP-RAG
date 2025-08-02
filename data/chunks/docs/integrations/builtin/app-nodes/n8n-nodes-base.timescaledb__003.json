@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.timescaledb.md",
+  "index": 3,
+  "content": "## Operations\n\n* Execute an SQL query\n* Insert rows in database\n* Update rows in database"
+}

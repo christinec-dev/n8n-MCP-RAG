@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolworkflow.md",
+  "index": 4,
+  "content": "### Description\n\nEnter a custom code a description. This tells the agent when to use this tool. For example:\n\n> Call this tool to get a random color. The input should be a string with comma separated names of colors to exclude."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.gmailtrigger/index.md",
+  "index": 2,
+  "content": "# Gmail Trigger node\n\n[Gmail](https://www.gmail.com) is an email service developed by Google. The Gmail Trigger node can start a workflow based on events in Gmail.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/google/index.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Gmail Trigger integrations](https://n8n.io/integrations/gmail-trigger/) page.\n///"
+}

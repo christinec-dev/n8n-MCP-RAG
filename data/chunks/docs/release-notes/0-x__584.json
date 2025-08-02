@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 584,
+  "content": "### Bug fixes\n\n* [Airtable:](/integrations/builtin/app-nodes/n8n-nodes-base.airtable/index.md) Fixed an issue with the sort field.\n* [Cron:](/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/index.md) Set the version of the cron library to 1.7.2."
+}

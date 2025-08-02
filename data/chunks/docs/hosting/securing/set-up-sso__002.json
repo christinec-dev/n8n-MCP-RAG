@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/set-up-sso.md",
+  "index": 2,
+  "content": "# Set up SAML Single Sign-On (SSO)\n\n--8<-- \"_snippets/user-management/saml-overview.md\""
+}

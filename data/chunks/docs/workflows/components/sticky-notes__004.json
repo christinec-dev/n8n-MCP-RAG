@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/sticky-notes.md",
+  "index": 4,
+  "content": "## Edit a Sticky Note\n\n1. Double click the Sticky Note you want to edit.\n2. Write your note. [This guide](https://commonmark.org/help/) explains how to format your text with Markdown. n8n uses [markdown-it](https://github.com/markdown-it/markdown-it), which implements the CommonMark specification. \n3. Click away from the note, or press `Esc`, to stop editing."
+}

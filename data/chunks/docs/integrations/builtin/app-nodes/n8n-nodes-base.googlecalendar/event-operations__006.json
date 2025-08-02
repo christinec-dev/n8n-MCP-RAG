@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/event-operations.md",
+  "index": 6,
+  "content": "### Options\n\n- **Send Updates**: Whether to send notifications about the deletion of the event.\n\nRefer to the [Events: delete | Google Calendar](https://developers.google.com/calendar/api/v3/reference/events/delete) API documentation for more information."
+}

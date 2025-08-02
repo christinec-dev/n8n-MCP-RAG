@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.discord/common-issues.md",
+  "index": 4,
+  "content": "## Mention users and channels\n\nTo mention users and channels in Discord messages, you need to format your message according to [Discord's message formatting guidelines](https://discord.com/developers/docs/reference#message-formatting).\n\nTo mention a user, you need to know the Discord user's user ID. Keep in mind that the user ID is different from the user's display name. Similarly, you need a channel ID to link to a specific channel.\n\nYou can learn how to enable developer mode and copy the user or channel IDs in [Discord's documentation on finding User/Server/Message IDs](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID).\n\nOnce you have the user or channel ID, you can format your message with the following syntax:\n\n* **User**: `<@USER_ID>`\n* **Channel**: `<#CHANNEL_ID>`\n* **Role**: `<@&ROLE_ID>`"
+}

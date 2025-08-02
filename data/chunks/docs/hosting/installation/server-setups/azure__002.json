@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/azure.md",
+  "index": 2,
+  "content": "# Hosting n8n on Azure\n\nThis hosting guide shows you how to self-host n8n on Azure. It uses n8n with Postgres as a database backend using Kubernetes to manage the necessary resources and reverse proxy."
+}

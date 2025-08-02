@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 209,
+  "content": "### Bug fixes\n\n* Core: fix for Google and Microsoft generic OAuth2 credentials.\n* Core: fix HTTP Digest Auth for responses without an opaque parameter.\n* Disqus node: fix thread parameter for \"Get All Threads\" operation.\n* Don't crash the server when Telemetry is blocked using DNS.\n* Editor: allow mapping onto expression editor with selection range.\n* Editor: don't show actions dialog for actionless triggers when selected using keyboard.\n* Editor: fix an issue where some node actions wouldn't select default parameters correctly.\n* Editor: fix typo in retry-button option \"Retry with original workflow\".\n* Update permission for showing workflow caller policy.\n* Update pnpm-lock to fix build."
+}

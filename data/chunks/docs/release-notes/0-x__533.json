@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 533,
+  "content": "### Enhanced nodes\n\n\n* [Google Contacts:](/integrations/builtin/app-nodes/n8n-nodes-base.googlecontacts.md) Added Query option to Get All operation, also prevented the node from failing when no contacts are found.\n* [HTTP Request:](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) Added support for query-based authentication.\n* [Home Assistant:](/integrations/builtin/app-nodes/n8n-nodes-base.homeassistant.md) Added support for loading possible options in the Domain, Service, and Entity ID fields.\n* [One Simple API:](/integrations/builtin/app-nodes/n8n-nodes-base.onesimpleapi.md) Added support for Social Profile resources.\n* [PagerDuty:](/integrations/builtin/app-nodes/n8n-nodes-base.pagerduty.md) Write scope is now requested upon authentication against the PagerDuty OAuth2 API."
+}

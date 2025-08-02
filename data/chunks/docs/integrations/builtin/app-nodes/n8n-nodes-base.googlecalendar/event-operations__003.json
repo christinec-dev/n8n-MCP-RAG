@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/event-operations.md",
+  "index": 3,
+  "content": "## Create\n\nUse this operation to add an event to a Google Calendar.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [Google Calendar credentials](/integrations/builtin/credentials/google/index.md).\n- **Resource**: Select **Event**.\n- **Operation**: Select **Create**.\n- **Calendar**: Choose a calendar you want to add an event to. Select **From list** to choose the title from the dropdown list or **By ID** to enter a calendar ID.\n- **Start Time**: The start time for the event. By default, uses an expression evaluating to the current time (`{{ $now }}`).\n- **End Time**: The end time for the event. By default, this uses an expression evaluating to an hour from now (`{{ $now.plus(1, 'hour') }}`).\n- **Use Default Reminders**: Whether to enable default reminders for the event according to the calendar configuration."
+}

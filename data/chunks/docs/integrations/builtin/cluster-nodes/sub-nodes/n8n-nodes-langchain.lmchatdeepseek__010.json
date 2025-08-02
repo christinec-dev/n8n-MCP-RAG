@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatdeepseek.md",
+  "index": 10,
+  "content": "### Presence Penalty\n\nUse this option to control the chances of the model talking about new topics. Higher values increase the chance of the model talking about new topics."
+}

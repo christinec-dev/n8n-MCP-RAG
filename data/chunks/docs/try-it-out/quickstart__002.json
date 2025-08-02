@@ -1,0 +1,5 @@
+{
+  "source": "docs/try-it-out/quickstart.md",
+  "index": 2,
+  "content": "# The very quick quickstart\n\nThis quickstart gets you started using n8n as quickly as possible. Its allows you to try out the UI and introduces two key features: [workflow templates](/glossary.md#template-n8n) and [expressions](/glossary.md#expression-n8n). It doesn't include detailed explanations or explore concepts in-depth.\n\nIn this tutorial, you will:\n\n* Load a [workflow](/glossary.md#workflow-n8n) from the workflow templates library\n* Add a node and configure it using expressions\n* Run your first workflow"
+}

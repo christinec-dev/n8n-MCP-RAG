@@ -1,0 +1,12 @@
+{
+  "source": "1047_Manual_Emailsend_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Send Email\",\n      \"type\": \"n8n-nodes-base.emailSend\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"text\": \"This is a message to demonstrate the n8n Send Email workflow!\",\n        \"options\": {\n          \"allowUnauthorizedCerts\": false\n        },\n        \"subject\": \"n8n rocks!\",\n        \"toEmail\": \"user@example.com\",\n        \"fromEmail\": \"user@from.email\"\n      },\n      \"credentials\": {\n        \"smtp\": \"your@smtp_creds.here\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Send Email\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.emailSend"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.emailimap.md",
+  "index": 8,
+  "content": "### Download Attachments\n\nThis toggle controls whether to download email attachments (turned on) or not (turned off). Only set this if necessary, since it increases processing."
+}

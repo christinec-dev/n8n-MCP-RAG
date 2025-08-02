@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/using-the-fromai-function.md",
+  "index": 5,
+  "content": "### Parameters\n\nThe `$fromAI()` function accepts the following parameters:\n\n<!-- vale off -->\n\n| Parameter | Type | Required? | Description |\n| --------- | ---- | --------- | ----------- |\n| `key` | string | :white_check_mark: | A string representing the key or name of the argument. This must be between 1 and 64 characters in length and can only contain lowercase letters, uppercase letters, numbers, underscores, and hyphens. |\n| `description` | string | :x: | A string describing the argument. |\n| `type` | string | :x: | A string specifying the data type. Can be string, number, boolean, or json (defaults to string). |\n| `defaultValue` | any | :x: | The default value to use for the argument. |\n\n<!-- vale on -->"
+}

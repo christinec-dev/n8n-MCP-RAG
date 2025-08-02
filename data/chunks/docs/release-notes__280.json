@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 280,
+  "content": "## n8n@1.52.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.51.1...n8n@1.52.0) for this version.<br />\n**Release date:** 2024-07-25\n\n\n/// warning | [Breaking change](https://github.com/n8n-io/n8n/blob/master/packages/cli/BREAKING-CHANGES.md)\nPrometheus metrics enabled via N8N_METRICS_INCLUDE_DEFAULT_METRICS and N8N_METRICS_INCLUDE_API_ENDPOINTS were fixed to include the default n8n_ prefix.\n\nIf you are using Prometheus metrics from these categories and are using a non-empty prefix, please update those metrics to match their new prefixed names.\n///\n\n\nThis release contains new features, node enhancements and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Added Azure Key Vault support\n\nThis release adds [Azure Key Vault](/external-secrets.md) to the list of external secret stores. We already support AWS secrets, Infisical and HashiCorp Vault and are working on Google Secrets Manager. External secret stores are available under an enterprise license.\n\n</div>"
+}

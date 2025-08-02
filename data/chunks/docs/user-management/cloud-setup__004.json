@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/cloud-setup.md",
+  "index": 4,
+  "content": "## Step two: Invite users\n\n--8<-- \"_snippets/user-management/invite-users.md\""
+}

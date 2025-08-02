@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/configuration.md",
+  "index": 15,
+  "content": "### Frontend hook functions\n\nYou can define multiple hook functions per hook. Each hook function is invoked with the following arguments arguments:\n\n* `store`: The Vuex store object. You can use this to change or get data from the store.\n* `metadata`: The object that contains any data provided by the hook. To see what's passed, search for the hook in the `editor-ui` package."
+}

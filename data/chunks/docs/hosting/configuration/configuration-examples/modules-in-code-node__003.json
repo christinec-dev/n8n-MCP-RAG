@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/modules-in-code-node.md",
+  "index": 3,
+  "content": "# Allows usage of all builtin modules\nexport NODE_FUNCTION_ALLOW_BUILTIN=*"
+}

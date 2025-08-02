@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.sentimentanalysis.md",
+  "index": 7,
+  "content": "### Language Considerations\n\nThe node's performance may vary depending on the language of the input text.\n\nFor best results, ensure your chosen language model supports the input language."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.gumroadtrigger.md",
+  "index": 2,
+  "content": "# Gumroad Trigger node\n\n[Gumroad](https://gumroad.com) is an online platform that enables creators to sell products directly to consumers.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/gumroad.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Gumroad Trigger integrations](https://n8n.io/integrations/gumroad-trigger/) page.\n///"
+}

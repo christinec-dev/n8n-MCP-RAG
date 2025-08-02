@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/aws.md",
+  "index": 14,
+  "content": "## Deployments\n\nThe two deployment manifests (`n8n-deployment.yaml` and `postgres-deployment.yaml`) define the n8n and Postgres applications to Kubernetes.\n\nThe manifests define the following:\n\n- Send the environment variables defined to each application pod\n- Define the container image to use\n- Set resource consumption limits\n- The `volumes` defined earlier and `volumeMounts` to define the path in the container to mount volumes.\n- Scaling and restart policies. The example manifests define one instance of each pod. You should change this to meet your needs."
+}

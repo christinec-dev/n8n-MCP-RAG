@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 207,
+  "content": "### Node update\n\n- [Anthropic Chat Model](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatanthropic.md): Added support for claude-3-5-sonnet-20241022  \n\nWe made updates to how projects and workflow ownership are displayed making them easier to understand and navigate. \n\nWe further improved the performance logic of partial executions, leading to a smoother and more enjoyable building experience."
+}

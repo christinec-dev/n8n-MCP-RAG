@@ -1,0 +1,14 @@
+{
+  "source": "1073_Manual_GoogleSheets_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Google Sheets\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"range\": \"A:B\",\n        \"options\": {},\n        \"sheetId\": \"1ijnLMy6htVTX_68e2lsdGYiA5_6ZG72FXUbxAy_DC94\",\n        \"operation\": \"append\",\n        \"authentication\": \"oAuth2\"\n      },\n      \"credentials\": {\n        \"googleSheetsOAuth2Api\": \"Amudhan-GoogleSheets\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"number\": [\n            {\n              \"name\": \"id\"\n            }\n          ],\n          \"string\": [\n            {\n              \"name\": \"name\",\n              \"value\": \"n8n\"\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1,\n      \"alwaysOutputData\": true\n    },\n    {\n      \"name\": \"Google Sheets1\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"position\": [\n        850,\n        300\n      ],\n      \"parameters\": {\n        \"range\": \"A:B\",\n        \"options\": {},\n        \"sheetId\": \"1ijnLMy6htVTX_68e2lsdGYiA5_6ZG72FXUbxAy_DC94\",\n        \"authentication\": \"oAuth2\"\n      },\n      \"credentials\": {\n        \"googleSheetsOAuth2Api\": \"Amudhan-GoogleSheets\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Sheets\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Google Sheets\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Sheets1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.googleSheets",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.googleSheets"
+    ],
+    "trigger": null
+  }
+}

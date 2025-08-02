@@ -1,0 +1,13 @@
+{
+  "source": "0305_Manual_Telegram_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"191\",\n  \"name\": \"Create a screenshot of a website and send it to a telegram channel\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Telegram\",\n      \"type\": \"n8n-nodes-base.telegram\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"file\": \"={{$node[\\\"uProc\\\"].json[\\\"message\\\"][\\\"result\\\"]}}\",\n        \"chatId\": \"\",\n        \"operation\": \"sendPhoto\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"telegramApi\": \"Telegram n8n bot\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"uProc\",\n      \"type\": \"n8n-nodes-base.uproc\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"https://n8n.io\",\n        \"tool\": \"getUrlScreenshot\",\n        \"group\": \"image\",\n        \"width\": \"1024\",\n        \"fullpage\": \"yes\",\n        \"additionalOptions\": {}\n      },\n      \"credentials\": {\n        \"uprocApi\": \"uProc credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"uProc\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Telegram\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"uProc\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.telegram",
+      "n8n-nodes-base.uproc"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatawsbedrock.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Model**: Select the model that generates the completion.\n\nLearn more about available models in the [Amazon Bedrock model documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html)."
+}

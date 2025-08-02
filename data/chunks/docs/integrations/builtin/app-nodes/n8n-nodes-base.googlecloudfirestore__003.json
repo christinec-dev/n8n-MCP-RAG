@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudfirestore.md",
+  "index": 3,
+  "content": "## Operations\n\n* Document\n    * Create a document\n    * Create/Update a document\n    * Delete a document\n    * Get a document\n    * Get all documents from a collection\n    * Runs a query against your documents\n* Collection\n    * Get all root collections"
+}

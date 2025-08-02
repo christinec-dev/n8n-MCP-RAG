@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 432,
+  "content": "### Enhanced nodes\n\n* [Emelia Node:](/integrations/builtin/app-nodes/n8n-nodes-base.emelia.md) Add Campaign > Duplicate functionality.\n* [FTP Node:](/integrations/builtin/core-nodes/n8n-nodes-base.ftp.md) Add option to recursively create directories on rename.\n* [Mautic Node:](/integrations/builtin/app-nodes/n8n-nodes-base.mautic.md) Add credential test and allow trailing slash in host.\n* [Microsoft Teams Node:](/integrations/builtin/app-nodes/n8n-nodes-base.microsoftteams.md) Add chat message support.\n* [Mocean Node:](/integrations/builtin/app-nodes/n8n-nodes-base.mocean.md) Add 'Delivery Report URL' option and credential tests.\n* [ServiceNow Node:](/integrations/builtin/app-nodes/n8n-nodes-base.servicenow.md) Add basicAuth support and fix getColumns loadOptions.\n* [Strava Node:](/integrations/builtin/app-nodes/n8n-nodes-base.strava.md) Add 'Get Streams' operation."
+}

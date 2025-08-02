@@ -1,0 +1,5 @@
+{
+  "source": "docs/keyboard-shortcuts.md",
+  "index": 6,
+  "content": "### Canvas zoom\n\n- **+** or **=**: zoom in\n- **-** or **_**: zoom out\n- **0**: reset zoom level\n- **1**: zoom to fit workflow\n- **Ctrl** + **Mouse wheel**: zoom in/out"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 781,
+  "content": "### New nodes\n\n* [AWS SQS](/integrations/builtin/app-nodes/n8n-nodes-base.awssqs.md)\n* [Copper](/integrations/builtin/app-nodes/n8n-nodes-base.copper.md)\n* [ERPNext](/integrations/builtin/app-nodes/n8n-nodes-base.erpnext.md)\n* [Oura](/integrations/builtin/app-nodes/n8n-nodes-base.oura.md)"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.trellotrigger.md",
+  "index": 3,
+  "content": "## Find the Model ID\n\nThe model ID is the ID of any model in Trello. Depending on the use-case, it could be the User ID, List ID, and so on.\n\nFor this specific example, the List ID would be the Model ID:\n\n1. Open the Trello board that contains the list.\n2. If the list doesn't have any cards, add a card to the list.\n3. Open the card, add `.json` at the end of the URL, and press enter.\n4. In the JSON file, you will see a field called `idList`.\n5. Copy `idList`and paste it in the **Model ID** field in n8n."
+}

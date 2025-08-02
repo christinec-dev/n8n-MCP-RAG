@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/queue-mode.md",
+  "index": 17,
+  "content": "### Leader designation\n\nIn a multi-main setup, all main instances handle the leadership process transparently to users. In case the current leader becomes unavailable, for example because it crashed or its event loop became too busy, other followers can take over. If the previous leader becomes responsive again, it becomes a follower."
+}

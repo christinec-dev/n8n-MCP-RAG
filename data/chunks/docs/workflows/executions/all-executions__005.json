@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/all-executions.md",
+  "index": 5,
+  "content": "## Load data from previous executions into your current workflow\n\nYou can load data from a previous workflow back into the canvas. Refer to [Debug executions](/workflows/executions/debug.md) for more information."
+}

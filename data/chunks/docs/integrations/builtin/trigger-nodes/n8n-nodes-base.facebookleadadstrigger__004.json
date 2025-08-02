@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.facebookleadadstrigger.md",
+  "index": 4,
+  "content": "## Related resources\n\nView [example workflows and related content](https://n8n.io/integrations/facebook-lead-ads-trigger/) on n8n's website.\n\nRefer to [Facebook Lead Ads' documentation](https://developers.facebook.com/docs/marketing-api/guides/lead-ads/) for details about their API."
+}

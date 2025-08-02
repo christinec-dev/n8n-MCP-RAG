@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 66,
+  "content": "### Bug fixes\n\n* Code Node: Update vm2 to address CVE-2023-29017.\n* Core: App shouldn't crash with a custom REST endpoint.\n* Core: Do not execute workflowExecuteBefore hook when resuming executions from a waiting state.\n* Core: Fix issue where sub workflows would display as running forever after failure to start.\n* Core: Update xml2js to address CVE-2023-0842.\n* Editor: Drop mergeDeep in favor of lodash merge.\n* HTTP Request Node: Restore detailed error message."
+}

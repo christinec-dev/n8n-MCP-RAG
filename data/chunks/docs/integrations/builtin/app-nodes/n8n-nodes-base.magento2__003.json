@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.magento2.md",
+  "index": 3,
+  "content": "## Operations\n\n* Customer\n    * Create a new customer\n    * Delete a customer\n    * Get a customer\n    * Get all customers\n    * Update a customer\n* Invoice\n    * Create an invoice\n* Order\n    * Cancel an order\n    * Get an order\n    * Get all orders\n    * Ship an order\n* Product\n    * Create a product\n    * Delete a product\n    * Get a product\n    * Get all products\n    * Update a product"
+}

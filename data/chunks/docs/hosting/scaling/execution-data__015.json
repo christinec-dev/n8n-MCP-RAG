@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/execution-data.md",
+  "index": 15,
+  "content": "# Number of executions to store\nexport EXECUTIONS_DATA_PRUNE_MAX_COUNT=50000\n```\n\n```sh"
+}

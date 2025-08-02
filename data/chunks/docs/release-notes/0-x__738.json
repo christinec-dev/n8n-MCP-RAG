@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 738,
+  "content": "### Enhanced nodes\n\n* [GraphQL:](/integrations/builtin/core-nodes/n8n-nodes-base.graphql.md) Added Header Auth authentication method\n* [Twilio:](/integrations/builtin/app-nodes/n8n-nodes-base.twilio.md) Added API Key authentication method"
+}

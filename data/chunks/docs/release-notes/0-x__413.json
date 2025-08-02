@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 413,
+  "content": "### Bug fixes\n\n\n* [Calendly Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.calendlytrigger.md): updated the logo.\n* [Microsoft OneDrive node](/integrations/builtin/app-nodes/n8n-nodes-base.microsoftonedrive.md): fixed an issue that was preventing upload of files with special characters in the file name.\n* [QuickBooks node](/integrations/builtin/app-nodes/n8n-nodes-base.quickbooks.md): fixed a pagination issue."
+}

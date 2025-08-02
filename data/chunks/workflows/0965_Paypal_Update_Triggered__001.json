@@ -1,0 +1,11 @@
+{
+  "source": "0965_Paypal_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"46\",\n  \"name\": \"Receive updates when a billing plan is activated in PayPal\",\n  \"nodes\": [\n    {\n      \"name\": \"PayPal Trigger\",\n      \"type\": \"n8n-nodes-base.payPalTrigger\",\n      \"position\": [\n        1130,\n        620\n      ],\n      \"webhookId\": \"242a300e-b5a0-45a2-87bc-40def6fe56ef\",\n      \"parameters\": {\n        \"events\": [\n          \"BILLING.PLAN.ACTIVATED\"\n        ]\n      },\n      \"credentials\": {\n        \"payPalApi\": \"paypal\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.payPalTrigger"
+    ],
+    "trigger": "paypal trigger"
+  }
+}

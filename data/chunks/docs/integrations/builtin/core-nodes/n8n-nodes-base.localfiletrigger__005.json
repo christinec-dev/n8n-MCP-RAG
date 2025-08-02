@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.localfiletrigger.md",
+  "index": 5,
+  "content": "## Changes Involving a Specific Folder\n\nThe node triggers when a change occurs in the selected folder.\n\nConfigure these parameters:\n\n- **Folder to Watch**: Enter the path of the folder to watch.\n- **Watch for**: Select the type of change to watch for."
+}

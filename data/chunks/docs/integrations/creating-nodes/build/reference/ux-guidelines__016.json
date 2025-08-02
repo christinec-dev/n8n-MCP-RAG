@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 16,
+  "content": "### Placeholders\n\nIt's often helpful to insert examples of content in parameters placeholders. These should start with \"e.g.\" and use **camel case** for the demo content in fields.\n\nPlaceholder examples to copy:\n\n* image: `e.g. https://example.com/image.png`\n* video: `e.g. https://example.com/video.mp4`\n* search term: `e.g. automation`\n* email: `e.g. nathan@example.com`\n* Twitter user (or similar): `e.g. n8n`\n* Name and last name: `e.g. Nathan Smith`\n* First name: `e.g. Nathan`\n* Last name: `e.g. Smith`"
+}

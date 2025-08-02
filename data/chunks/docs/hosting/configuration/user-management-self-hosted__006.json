@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/user-management-self-hosted.md",
+  "index": 6,
+  "content": "### Step three: Invite users\n\n--8<-- \"_snippets/user-management/invite-users.md\""
+}

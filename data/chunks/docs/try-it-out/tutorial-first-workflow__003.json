@@ -1,0 +1,5 @@
+{
+  "source": "docs/try-it-out/tutorial-first-workflow.md",
+  "index": 3,
+  "content": "## Step one: Create a new workflow\n\nWhen you open n8n, you'll see either:\n\n* A window with a welcome message and two large buttons: Choose **Start from Scratch** to create a new workflow.\n* The **Workflows** list on the **Overview** page. Select the **Create Workflow** to create a new workflow."
+}

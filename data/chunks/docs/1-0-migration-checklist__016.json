@@ -1,0 +1,5 @@
+{
+  "source": "docs/1-0-migration-checklist.md",
+  "index": 16,
+  "content": "### Execution data retention\n\nStarting from n8n 1.0, all successful, failed, and manual workflow executions will be saved by default. These settings can be modified for each workflow under \"Workflow Settings,\" or globally using the respective environment variables. Additionally, the `EXECUTIONS_DATA_PRUNE` setting will be enabled by default, with `EXECUTIONS_DATA_PRUNE_MAX_COUNT` set to 10,000. These default settings are designed to prevent performance degradation when using SQLite. Make sure to configure them according to your individual requirements and system capacity.\n\n[PR #6577](https://github.com/n8n-io/n8n/pull/6577)"
+}

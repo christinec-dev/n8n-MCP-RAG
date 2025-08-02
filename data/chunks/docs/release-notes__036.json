@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 36,
+  "content": "### Automatically name nodes\n\nDefault node names now update automatically based on the resource and operation selected, so you’ll always know what a node does at a glance.\n\nThis adds clarity to your canvas and saves time renaming nodes manually.\n\nDon’t worry, automatic naming won’t break references. And, and if you’ve renamed a node yourself, we’ll leave it just the way you wrote it.\n\n<br>\n<video src=\"/_video/release-notes/automatic_node_naming.mp4\" controls width=\"100%\"></video>\n<br>"
+}

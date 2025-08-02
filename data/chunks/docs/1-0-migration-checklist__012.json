@@ -1,0 +1,5 @@
+{
+  "source": "docs/1-0-migration-checklist.md",
+  "index": 12,
+  "content": "### Mandatory owner account\n\nThis change makes [User Management](/user-management/index.md) mandatory and removes support for other authentication methods, such as BasicAuth and External JWT. Note that the number of permitted users on [n8n.cloud](https://n8n.cloud/) or custom plans still varies depending on your subscription.\n\n[PR #6362](https://github.com/n8n-io/n8n/pull/6362)"
+}

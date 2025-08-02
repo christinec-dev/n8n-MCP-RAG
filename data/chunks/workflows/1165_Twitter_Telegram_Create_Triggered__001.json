@@ -1,0 +1,13 @@
+{
+  "source": "1165_Twitter_Telegram_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": 85,\n  \"name\": \"New WooCommerce Product to Twitter and Telegram\",\n  \"nodes\": [\n    {\n      \"name\": \"Twitter\",\n      \"type\": \"n8n-nodes-base.twitter\",\n      \"position\": [\n        720,\n        300\n      ],\n      \"parameters\": {\n        \"text\": \"=✨ New Product Announcement ✨\\nWe have just added {{$json[\\\"name\\\"]}}, Head to {{$json[\\\"permalink\\\"]}} to find out more.\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"twitterOAuth1Api\": {\n          \"id\": \"37\",\n          \"name\": \"joffcom\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Telegram\",\n      \"type\": \"n8n-nodes-base.telegram\",\n      \"position\": [\n        720,\n        500\n      ],\n      \"parameters\": {\n        \"text\": \"=✨ New Product Announcement ✨\\nWe have just added {{$json[\\\"name\\\"]}}, Head to {{$json[\\\"permalink\\\"]}} to find out more.\",\n        \"chatId\": \"123456\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"telegramApi\": {\n          \"id\": \"56\",\n          \"name\": \"Telegram account\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"WooCommerce Trigger\",\n      \"type\": \"n8n-nodes-base.wooCommerceTrigger\",\n      \"position\": [\n        540,\n        400\n      ],\n      \"webhookId\": \"ab7b134b-9b2d-4e0d-b496-1aee30db0808\",\n      \"parameters\": {\n        \"event\": \"product.created\"\n      },\n      \"credentials\": {\n        \"wooCommerceApi\": {\n          \"id\": \"48\",\n          \"name\": \"WooCommerce account\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"WooCommerce Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twitter\",\n            \"type\": \"main\",\n            \"index\": 0\n          },\n          {\n            \"node\": \"Telegram\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.twitter",
+      "n8n-nodes-base.telegram",
+      "n8n-nodes-base.wooCommerceTrigger"
+    ],
+    "trigger": "woocommerce trigger"
+  }
+}

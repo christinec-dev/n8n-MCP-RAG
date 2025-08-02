@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatollama/common-issues.md",
+  "index": 2,
+  "content": "# Ollama Chat Model node common issues\n\nHere are some common errors and issues with the [Ollama Chat Model node](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatollama/index.md) and steps to resolve or troubleshoot them."
+}

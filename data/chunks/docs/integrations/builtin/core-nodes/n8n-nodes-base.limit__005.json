@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.limit.md",
+  "index": 5,
+  "content": "### Keep\n\nIf the node has to remove items, select where it keeps the input items from:\n\n* **First Items**: Keeps the **Max Items** number of items from the beginning of the input data.\n* **Last Items**: Keeps the **Max Items** number of items from the end of the input data."
+}

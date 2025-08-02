@@ -1,0 +1,13 @@
+{
+  "source": "0346_Telegram_Cron_Automation_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": 1,\n  \"name\": \"Daily Journal Reminder\",\n  \"nodes\": [\n    {\n      \"name\": \"Morning reminder\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"notes\": \"Trigger very morning\",\n      \"position\": [\n        220,\n        60\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"hour\": 6\n            }\n          ]\n        }\n      },\n      \"notesInFlow\": true,\n      \"typeVersion\": 1,\n      \"alwaysOutputData\": true\n    },\n    {\n      \"name\": \"format reminder\",\n      \"type\": \"n8n-nodes-base.functionItem\",\n      \"position\": [\n        460,\n        60\n      ],\n      \"parameters\": {\n        \"functionCode\": \"\\n// Creates message with todays date\\nconst today = new Date()\\nconst yesterday = new Date(today)\\n\\nyesterday.setDate(yesterday.getDate() - 1)\\nconst message = `What did you do: ${yesterday.toISOString().split('T')[0]}`\\n\\nreturn {message};\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Send journal reminder\",\n      \"type\": \"n8n-nodes-base.telegram\",\n      \"position\": [\n        700,\n        60\n      ],\n      \"parameters\": {\n        \"text\": \"={{$node[\\\"format reminder\\\"].json[\\\"message\\\"]}}\",\n        \"chatId\": \"666884239\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {},\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": true,\n  \"settings\": {},\n  \"connections\": {\n    \"format reminder\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Send journal reminder\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Morning reminder\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"format reminder\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.functionItem",
+      "n8n-nodes-base.telegram"
+    ],
+    "trigger": null
+  }
+}

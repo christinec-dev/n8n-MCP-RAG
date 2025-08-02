@@ -1,0 +1,12 @@
+{
+  "source": "0938_Manual_Mailchimp_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"3\",\n  \"name\": \"Mailchimp\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        480,\n        310\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mailchimp\",\n      \"type\": \"n8n-nodes-base.mailchimp\",\n      \"position\": [\n        780,\n        310\n      ],\n      \"parameters\": {\n        \"list\": \"97542c5cf8\",\n        \"email\": \"xxxx@email.com\",\n        \"status\": \"subscribed\",\n        \"options\": {},\n        \"mergeFieldsUi\": {\n          \"mergeFieldsValues\": [\n            {\n              \"name\": \"FNAME\",\n              \"value\": \"Joe\"\n            }\n          ]\n        }\n      },\n      \"credentials\": {\n        \"mailchimpApi\": \"mailchimpAPI\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mailchimp\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.mailchimp"
+    ],
+    "trigger": null
+  }
+}

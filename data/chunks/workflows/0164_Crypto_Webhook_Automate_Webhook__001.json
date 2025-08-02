@@ -1,0 +1,13 @@
+{
+  "source": "0164_Crypto_Webhook_Automate_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        460,\n        300\n      ],\n      \"webhookId\": \"0db0a40c-e5d1-463f-8252-03599f1303e6\",\n      \"parameters\": {\n        \"path\": \"0db0a40c-e5d1-463f-8252-03599f1303e6\",\n        \"options\": {},\n        \"responseMode\": \"lastNode\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Crypto\",\n      \"type\": \"n8n-nodes-base.crypto\",\n      \"position\": [\n        660,\n        300\n      ],\n      \"parameters\": {\n        \"type\": \"SHA256\",\n        \"value\": \"={{$json[\\\"query\\\"][\\\"crc_token\\\"]}}\",\n        \"action\": \"hmac\",\n        \"secret\": \"API KEY SECRET\",\n        \"encoding\": \"base64\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        840,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"response_token\",\n              \"value\": \"=sha256={{$json[\\\"data\\\"]}}\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Crypto\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Crypto\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.crypto",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

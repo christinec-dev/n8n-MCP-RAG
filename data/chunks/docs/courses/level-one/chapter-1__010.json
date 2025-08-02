@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-1.md",
+  "index": 10,
+  "content": "### Adding nodes\n\nThere are two ways to add nodes to your canvas:\n\n- Select the node you want in the nodes panel. The new node will automatically connect to the selected node on the canvas.\n- Drag and drop the node from the nodes panel to the canvas."
+}

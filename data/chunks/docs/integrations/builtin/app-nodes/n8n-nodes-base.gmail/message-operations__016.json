@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/message-operations.md",
+  "index": 16,
+  "content": "### Send and wait for approval options\n\nUse these options to further refine the node's behavior:\n\n* **Type of Approval**: Choose **Approve Only** (default) to include only an approval button or **Approve and Disapprove** to also include a disapproval option.\n* **Approve Button Label**: The label to use for the approval button (**Approve** by default).\n* **Approve Button Style**: Whether to style the approval button as a **Primary** (default) or **Secondary** button.\n* **Disapprove Button Label**: The label to use for the disapproval button (**Decline** by default). Only visible when you set **Type of Approval** to **Approve and Disapprove**.\n* **Disapprove Button Style**: Whether to style the disapproval button as a **Primary** or **Secondary** (default) button. Only visible when you set **Type of Approval** to **Approve and Disapprove**.\n\nRefer to the [Gmail API Method: users.messages.send](https://developers.google.com/gmail/api/reference/rest/v1/users.messages/send) documentation for more information."
+}

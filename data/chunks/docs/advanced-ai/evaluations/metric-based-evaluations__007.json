@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/metric-based-evaluations.md",
+  "index": 7,
+  "content": "### 3. Write metrics back to evaluation\n\nn8n needs to know how to extract the metrics you calculated in step 2. Do this by adding an evaluation node with the ['Set metrics' operation](/integrations/builtin/core-nodes/n8n-nodes-base.evaluation.md#set-metrics) and mapping your metrics into it.\n\n![Add set metrics node](/_images/advanced-ai/evaluations/add-set-metrics.png)\n\nThis support ticket classification workflow shows the 'Set outputs' operation added and wired up. Since the metrics in this workflow just check whether the actual output is an exact match of the expected one, the workflow calculates them in an expression in the 'Set metrics' node rather than adding any further nodes to the workflow."
+}

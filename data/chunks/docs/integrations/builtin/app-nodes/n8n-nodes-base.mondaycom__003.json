@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mondaycom.md",
+  "index": 3,
+  "content": "## Operations\n\n* Board\n    * Archive a board\n    * Create a new board\n    * Get a board\n    * Get all boards\n* Board Column\n    * Create a new column\n    * Get all columns\n* Board Group\n    * Delete a group in a board\n    * Create a group in a board\n    * Get list of groups in a board\n* Board Item\n    * Add an update to an item.\n    * Change a column value for a board item\n    * Change multiple column values for a board item\n    * Create an item in a board's group\n    * Delete an item\n    * Get an item\n    * Get all items\n    * Get items by column value\n    * Move item to group"
+}

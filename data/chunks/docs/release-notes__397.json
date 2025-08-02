@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 397,
+  "content": "## n8n@1.18.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.17.1...n8n@1.18.0) for this version.<br />\n**Release date:** 2023-11-22\n\nThis release contains new features and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Template creator hub\n\nBuilt a template you want to share? This release introduces the n8n Creator hub. Refer to the [creator hub Notion doc](https://www.notion.so/n8n-Creator-hub-7bd2cbe0fce0449198ecb23ff4a2f76f) for more information on this project.\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Node input and output search filter\n\nCloud Pro and Enterprise users can now search and filter the input and output data in nodes. Refer to [Data filtering](/data/data-filtering.md) for more information.\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.totp.md",
+  "index": 4,
+  "content": "### Credential to connect with\n\nSelect or create a [TOTP credential](/integrations/builtin/credentials/totp.md) for the node to use."
+}

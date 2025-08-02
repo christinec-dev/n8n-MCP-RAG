@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.storyblok.md",
+  "index": 5,
+  "content": "### Management API\n\n- **Story**\n    - Delete a story\n    - Get a story\n    - Get all stories\n    - Publish a story\n    - Unpublish a story"
+}

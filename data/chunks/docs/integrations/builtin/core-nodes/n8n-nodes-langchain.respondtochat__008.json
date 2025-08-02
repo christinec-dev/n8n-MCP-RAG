@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.respondtochat.md",
+  "index": 8,
+  "content": "### Limit Wait Time\n\nWhen you enable **Wait for User Reply**, this option decides whether the workflow automatically resumes execution after a specific limit (enabled) or not (disabled)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 182,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Log streaming\n\nThis release introduces [log streaming](/log-streaming.md) for users on Enterprise self-hosted plans and custom Cloud plans. Log streaming allows you to send events from n8n to your own logging tools. This allows you to manage your n8n monitoring in your own alerting and logging processes.\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Security audit\n\nThis release adds a [security audit](/hosting/securing/security-audit.md) feature. You can now run a security audit on your n8n instance, to detect common security issues.\n\n</div>\n\n* Core: add support for Redis 6+ ACLs system using username in queue mode. Add the `QUEUE_BULL_REDIS_USERNAME` environment variable."
+}

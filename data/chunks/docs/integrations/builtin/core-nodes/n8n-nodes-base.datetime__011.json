@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 11,
+  "content": "### Get Current Date options\n\nThis operation includes these options:\n\n* **Include Input Fields**: If you'd like to include all of the input fields in the output, turn this option on. If turned off, only the **Output Field Name** and its contents are output.\n* **Timezone**: Set the timezone to use. If left blank, the node uses the n8n instance's timezone.\n\n/// note | +00:00 timezone\nUse `GMT` for +00:00 timezone.\n///"
+}

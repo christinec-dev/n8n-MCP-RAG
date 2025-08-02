@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 214,
+  "content": "### Bug fixes\n\n* Core: remove nodeGetter.\n* Core: Increase workflow reactivation max timeout to one day.\n* Core: Resolve an issue listing executions with Postgres.\n* Core: Remove foreign credentials when copying nodes or duplicating workflow.\n* Core: upgrade sse-channel to mitigate CVE-2019-10744.\n* Core: use license-sdk v1.6.1.\n* Editor: avoid adding Manual Trigger node when webhook node is added.\n* Editor: fix credential sharing issues handler when no matching ID or name.\n* Editor: fix for broken tab navigation.\n* Editor: schema view shows checkbox in case of empty data.\n* Editor: Stop returning UNKNOWN ERROR in the response if an actual error message is available.\n* Editor: update duplicate workflow action.\n* Move Binary Data Node: stringify objects before encoding them in MoveBinaryData.\n* Split In Batches Node: fix issue with pairedItem."
+}

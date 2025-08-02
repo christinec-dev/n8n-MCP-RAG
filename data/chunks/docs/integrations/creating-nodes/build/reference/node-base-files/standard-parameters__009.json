@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 9,
+  "content": "## `forceInputNodeExecution`\n\n_Boolean_ | _Optional_\n\nWhen building a multi-input node, you can choose to force all preceding nodes on all branches to execute before the node runs. The default is `false` (requiring only one input branch to run)."
+}

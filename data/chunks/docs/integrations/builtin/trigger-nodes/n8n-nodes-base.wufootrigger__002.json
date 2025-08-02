@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.wufootrigger.md",
+  "index": 2,
+  "content": "# Wufoo Trigger node\n\n[Wufoo](https://wufoo.com) is an online form builder that helps you create custom HTML forms without writing code.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/wufoo.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Wufoo Trigger integrations](https://n8n.io/integrations/wufoo-trigger/) page.\n///"
+}

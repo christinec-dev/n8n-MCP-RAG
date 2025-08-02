@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 207,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Open AI node\n\nThis release adds an integration with OpenAI. Refer to the [OpenAI node documentation](/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/index.md) for details.\n\n</div>"
+}

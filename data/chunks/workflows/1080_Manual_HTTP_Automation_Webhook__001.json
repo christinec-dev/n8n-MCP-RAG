@@ -1,0 +1,15 @@
+{
+  "source": "1080_Manual_HTTP_Automation_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        20,\n        180\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        420,\n        180\n      ],\n      \"parameters\": {\n        \"url\": \"https://n8n.io/n8n-logo.png\",\n        \"options\": {},\n        \"responseFormat\": \"file\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NextCloud\",\n      \"type\": \"n8n-nodes-base.nextCloud\",\n      \"position\": [\n        220,\n        180\n      ],\n      \"parameters\": {\n        \"path\": \"n8n\",\n        \"resource\": \"folder\"\n      },\n      \"credentials\": {\n        \"nextCloudApi\": \"nextcloud_creds\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NextCloud1\",\n      \"type\": \"n8n-nodes-base.nextCloud\",\n      \"position\": [\n        620,\n        180\n      ],\n      \"parameters\": {\n        \"path\": \"n8n/logo.png\",\n        \"binaryDataUpload\": true\n      },\n      \"credentials\": {\n        \"nextCloudApi\": \"nextcloud_creds\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NextCloud2\",\n      \"type\": \"n8n-nodes-base.nextCloud\",\n      \"position\": [\n        820,\n        180\n      ],\n      \"parameters\": {\n        \"path\": \"n8n\",\n        \"resource\": \"folder\",\n        \"operation\": \"list\"\n      },\n      \"credentials\": {\n        \"nextCloudApi\": \"nextcloud_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"NextCloud\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"NextCloud1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"NextCloud2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"HTTP Request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"NextCloud1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"NextCloud\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.nextCloud",
+      "n8n-nodes-base.nextCloud",
+      "n8n-nodes-base.nextCloud"
+    ],
+    "trigger": null
+  }
+}

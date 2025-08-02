@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/using/copy-work.md",
+  "index": 2,
+  "content": "# Copy work between environments\n\nThe steps to send work from one n8n instance to another are different depending on whether you use a single Git branch or multiple branches."
+}

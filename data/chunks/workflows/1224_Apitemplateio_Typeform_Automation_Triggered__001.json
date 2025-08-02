@@ -1,0 +1,12 @@
+{
+  "source": "1224_Apitemplateio_Typeform_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Typeform Trigger\",\n      \"type\": \"n8n-nodes-base.typeformTrigger\",\n      \"position\": [\n        490,\n        280\n      ],\n      \"webhookId\": \"6c4b1aa0-226a-4875-bdc3-85bf2313085b\",\n      \"parameters\": {\n        \"formId\": \"dpr2kxSL\",\n        \"simplifyAnswers\": false\n      },\n      \"credentials\": {\n        \"typeformApi\": \"Typeform Burner Account\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"APITemplate.io\",\n      \"type\": \"n8n-nodes-base.apiTemplateIo\",\n      \"position\": [\n        690,\n        280\n      ],\n      \"parameters\": {\n        \"options\": {\n          \"fileName\": \"invoice.pdf\"\n        },\n        \"download\": true,\n        \"resource\": \"pdf\",\n        \"pdfTemplateId\": \"96c77b2b1ab6ac88\",\n        \"jsonParameters\": true,\n        \"propertiesJson\": \"={\\n  \\\"company\\\": \\\"n8n\\\",\\n  \\\"email\\\": \\\"{{$json[\\\"1\\\"][\\\"email\\\"]}}\\\",\\n  \\\"invoice_no\\\": \\\"213223444\\\",\\n  \\\"invoice_date\\\": \\\"18-03-2021\\\",\\n  \\\"invoice_due_date\\\": \\\"17-04-2021\\\",\\n  \\\"address\\\": \\\"Berlin, Germany\\\",\\n  \\\"company_bill_to\\\": \\\"{{$json[\\\"0\\\"][\\\"text\\\"]}}\\\",\\n  \\\"website\\\": \\\"https://n8n.io\\\",\\n  \\\"document_id\\\": \\\"889856789012\\\",\\n  \\\"items\\\": [\\n    {\\n      \\\"item_name\\\": \\\"{{$json[\\\"2\\\"][\\\"text\\\"]}}\\\",\\n      \\\"price\\\": \\\"EUR {{$json[\\\"3\\\"][\\\"number\\\"]}}\\\"\\n    },\\n    {\\n      \\\"item_name\\\": \\\"{{$json[\\\"4\\\"][\\\"text\\\"]}}\\\",\\n      \\\"price\\\": \\\"EUR {{$json[\\\"5\\\"][\\\"number\\\"]}}\\\"\\n    }    \\n    ]\\n}\"\n      },\n      \"credentials\": {\n        \"apiTemplateIoApi\": \"APITemplate Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Typeform Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"APITemplate.io\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.typeformTrigger",
+      "n8n-nodes-base.apiTemplateIo"
+    ],
+    "trigger": "typeform trigger"
+  }
+}

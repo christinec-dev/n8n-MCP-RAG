@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftonedrive.md",
+  "index": 3,
+  "content": "## Operations\n\n* File\n    * Copy a file\n    * Delete a file\n    * Download a file\n    * Get a file\n    * Rename a file\n    * Search a file\n    * Share a file\n    * Upload a file up to 4MB in size\n* Folder\n    * Create a folder\n    * Delete a folder\n    * Get Children (get items inside a folder)\n    * Rename a folder\n    * Search a folder\n    * Share a folder"
+}

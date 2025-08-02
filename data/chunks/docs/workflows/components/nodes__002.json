@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/nodes.md",
+  "index": 2,
+  "content": "# Nodes\n\n[Nodes](/glossary.md#node-n8n) are the key building blocks of a [workflow](/glossary.md#workflow-n8n). They perform a range of actions, including:\n\n* Starting the workflow.\n* Fetching and sending data.\n* Processing and manipulating data.\n\nn8n provides a collection of built-in nodes, as well as the ability to create your own nodes. Refer to:\n\n* [Built-in integrations](/integrations/builtin/node-types.md) to browse the node library.\n* [Community nodes](/integrations/community-nodes/installation/index.md) for guidance on finding and installing community-created nodes.\n* [Creating nodes](/integrations/creating-nodes/overview.md) to start building your own nodes."
+}

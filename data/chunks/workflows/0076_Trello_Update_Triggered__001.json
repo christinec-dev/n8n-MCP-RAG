@@ -1,0 +1,11 @@
+{
+  "source": "0076_Trello_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"117\",\n  \"name\": \"Receive updates for changes in the specified list in Trello\",\n  \"nodes\": [\n    {\n      \"name\": \"Trello Trigger\",\n      \"type\": \"n8n-nodes-base.trelloTrigger\",\n      \"position\": [\n        700,\n        250\n      ],\n      \"parameters\": {\n        \"id\": \"\"\n      },\n      \"credentials\": {\n        \"trelloApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.trelloTrigger"
+    ],
+    "trigger": "trello trigger"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/shared-drive-operations.md",
+  "index": 2,
+  "content": "# Google Drive Shared Drive operations\n\nUse this operation to create, delete, get, and update shared drives in Google Drive. Refer to [Google Drive](/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/index.md) for more information on the Google Drive node itself.\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

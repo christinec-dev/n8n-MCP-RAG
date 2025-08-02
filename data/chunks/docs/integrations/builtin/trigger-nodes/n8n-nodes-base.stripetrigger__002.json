@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.stripetrigger.md",
+  "index": 2,
+  "content": "# Stripe Trigger node\n\n[Stripe](https://stripe.com/) is a suite of payment APIs that powers commerce for online businesses.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/stripe.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Stripe Trigger integrations](https://n8n.io/integrations/stripe-trigger/) page.\n///"
+}

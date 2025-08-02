@@ -1,0 +1,5 @@
+{
+  "source": "docs/privacy-security/privacy.md",
+  "index": 16,
+  "content": "## Payment processor\n\nn8n uses Paddle.com to process payments. When you sign up for a paid plan, Paddle transmits and stores the details of your payment method according to their security policy. n8n stores no information about your payment method.\n\n<!-- vale on -->"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolthink.md",
+  "index": 2,
+  "content": "# Think Tool node\n\nThe Think Tool node is a [tool](/glossary.md#ai-tool) that invites an [agent](/glossary.md#ai-agent) to do some thinking before answering. Essentially, it allows the agent to reflect on the question by talking to itself before providing an answer. In particular, this is useful for complex queries that require a thoughtful response.\n\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

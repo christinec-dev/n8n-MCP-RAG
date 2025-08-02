@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.googlecalendartrigger.md",
+  "index": 2,
+  "content": "# Google Calendar Trigger node\n\n[Google Calendar](https://www.google.com/calendar/) is a time-management and scheduling calendar service developed by Google.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/google/index.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Google Calendar Trigger integrations](https://n8n.io/integrations/google-calendar-trigger/) page.\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.compression.md",
+  "index": 3,
+  "content": "## Node parameters\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\"\n\nThe node parameters depend on which **Operation** you select. Choose to:\n\n* **Compress**: Create a compressed file from your input data.\n* **Decompress**: Decompress an existing compressed file.\n\nRefer to the sections below for parameters specific to each **Operation**."
+}

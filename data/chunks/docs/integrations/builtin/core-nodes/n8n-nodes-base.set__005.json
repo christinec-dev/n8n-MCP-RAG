@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.set.md",
+  "index": 5,
+  "content": "### Fields to Set\n\nIf you select **Mode** > **Manual Mapping**, you can configure the fields by dragging and dropping values from **INPUT**.\n\nThe default behavior when you drag a value is:\n\n* n8n sets the value's name as the field name.\n* The field value contains an expression which accesses the value.\n\nIf you don't want to use expressions:\n\n1. Hover over a field. n8n displays the **Fixed | Expressions** toggle. \n1. Select **Fixed**.\n\nYou can do this for both the name and value of the field.\n\n![A gif showing the drag and drop action, as well as changing a field to fixed](/_images/integrations/builtin/core-nodes/set/drag-drop-fixed-toggle.gif)"
+}

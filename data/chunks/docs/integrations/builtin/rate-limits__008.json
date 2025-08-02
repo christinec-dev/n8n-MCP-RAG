@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/rate-limits.md",
+  "index": 8,
+  "content": "### Batch requests\n\nUse the Batching option to send more than one request, reducing the request size, and introducing a pause between requests. This is the equivalent of using Loop Over Items and Wait.\n\n1. In the HTTP Request node, select **Add Option** > **Batching**.\n1. Set **Items per Batch**: this is the number of input items to include in each request.\n1. Set **Batch Interval (ms)** to introduce a delay between requests. For example, if the API you're using allows one request per second, set **Wait Between Tries (ms)** to `1000` to allow a 1 second wait."
+}

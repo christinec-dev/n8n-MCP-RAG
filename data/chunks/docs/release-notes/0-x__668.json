@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 668,
+  "content": "### Bug fixes\n\n* [Spreadsheet File:](/integrations/builtin/core-nodes/n8n-nodes-base.converttofile.md) Fixed issue when saving dates."
+}

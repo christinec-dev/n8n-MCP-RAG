@@ -1,0 +1,13 @@
+{
+  "source": "0010_Writebinaryfile_Create.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Write Binary File\",\n      \"type\": \"n8n-nodes-base.writeBinaryFile\",\n      \"position\": [\n        800,\n        350\n      ],\n      \"parameters\": {\n        \"fileName\": \"test.json\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Make Binary\",\n      \"type\": \"n8n-nodes-base.function\",\n      \"position\": [\n        600,\n        350\n      ],\n      \"parameters\": {\n        \"functionCode\": \"items[0].binary = {\\n  data: {\\n    data: new Buffer(JSON.stringify(items[0].json, null, 2)).toString('base64')\\n  }\\n};\\nreturn items;\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Create Example Data\",\n      \"type\": \"n8n-nodes-base.function\",\n      \"position\": [\n        390,\n        350\n      ],\n      \"parameters\": {\n        \"functionCode\": \"items[0].json = {\\n  \\\"text\\\": \\\"asdf\\\",\\n  \\\"number\\\": 1\\n};\\nreturn items;\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Make Binary\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Write Binary File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Create Example Data\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Make Binary\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.writeBinaryFile",
+      "n8n-nodes-base.function",
+      "n8n-nodes-base.function"
+    ],
+    "trigger": null
+  }
+}

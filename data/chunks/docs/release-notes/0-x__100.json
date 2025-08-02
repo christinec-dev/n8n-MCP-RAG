@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 100,
+  "content": "### New features\n\n* Core: add `advancedFilters` feature flag.\n* Core: add SAML post and test endpoints.\n* Core: add SAML XML validation.\n* Core: limit user changes when SAML is enabled.\n* Core: refactor and add SAML preferences for service provider instance.\n* Editor: don't automatically add the manual trigger when the user adds another node.\n* Editor: redirect users to canvas if they don't have any workflows."
+}

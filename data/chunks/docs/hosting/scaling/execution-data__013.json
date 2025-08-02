@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/execution-data.md",
+  "index": 13,
+  "content": "# Activate automatic data pruning\nexport EXECUTIONS_DATA_PRUNE=true"
+}

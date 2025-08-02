@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/label-operations.md",
+  "index": 6,
+  "content": "## Get a label\n\nUse this operation to get an existing label.\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Label**.\n* **Operation**: Select **Get**.\n* **Label ID**: Enter the ID of the label you want to get.\n\nRefer to the [Gmail API Method: users.labels.get](https://developers.google.com/gmail/api/reference/rest/v1/users.labels/get) documentation for more information.\n\n<!-- vale off -->"
+}

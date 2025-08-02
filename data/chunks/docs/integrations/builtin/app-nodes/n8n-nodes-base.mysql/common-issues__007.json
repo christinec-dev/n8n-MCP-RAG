@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mysql/common-issues.md",
+  "index": 7,
+  "content": "### If MySQL and n8n are running in separate Docker containers\n\nIf both n8n and MySQL are running in Docker in separate containers, you can use Docker networking to connect them.\n\nConfigure MySQL to listen on all interfaces by binding to `0.0.0.0` inside of the container (the official images are already configured this way). Add both the MySQL and n8n containers to the same [user-defined bridge network](https://docs.docker.com/engine/network/drivers/bridge/).\n\nWhen configuring [MySQL credentials](/integrations/builtin/credentials/mysql.md), use the MySQL container's name as the host address instead of `localhost`. For example, if you call the MySQL container `my-mysql`, you would set the **Host** to `my-mysql`."
+}

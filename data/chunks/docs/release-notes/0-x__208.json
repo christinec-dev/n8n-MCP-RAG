@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 208,
+  "content": "### Node enhancements\n\nSend Email node: add support for a \"Reply to\" email address."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-2.md",
+  "index": 8,
+  "content": "## 4. Execute the node\n\nSelect the **Execute step** button in the node details window. You should see 10 results in the Output **Table** view.\n\n<!--This screenshot needs updating now that the button says \"Execute step\" rather than \"Test node\"-->\n<figure><img src=\"/_images/courses/level-one/chapter-two/l1-c2-results-in-table-view-for-the-hacker-news-node.png\" alt=\"Results in Table view for the Hacker News node\" style=\"width:100%\"><figcaption align = \"center\"><i>Results in Table view for the Hacker News node</i></figcaption></figure>"
+}

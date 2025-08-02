@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflowtrigger.md",
+  "index": 2,
+  "content": "# Execute Sub-workflow Trigger node\n\nUse this node to start a workflow in response to another workflow. It should be the first node in the workflow.\n\nn8n allows you to call workflows from other workflows. This is useful if you want to:\n\n* Reuse a workflow: for example, you could have multiple workflows pulling and processing data from different sources, then have all those workflows call a single workflow that generates a report.\n* Break large workflows into smaller components."
+}

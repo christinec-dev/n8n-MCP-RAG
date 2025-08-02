@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorezep.md",
+  "index": 15,
+  "content": "### Embedding Dimensions\n\nMust be the same when embedding the data and when querying it.\n\nThis sets the size of the array of floats used to represent the semantic meaning of a text document."
+}

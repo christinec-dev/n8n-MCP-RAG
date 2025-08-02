@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/error-handling.md",
+  "index": 3,
+  "content": "## Create and set an error workflow\n\nFor each workflow, you can set an error workflow in **Workflow Settings**. It runs if an execution fails. This means you can, for example, send email or Slack alerts when a workflow execution errors. The error workflow must start with the [Error Trigger](/integrations/builtin/core-nodes/n8n-nodes-base.errortrigger.md).\n\nYou can use the same error workflow for multiple workflows.\n\n--8<-- \"_snippets/flow-logic/create-set-error-workflow.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/1-0-migration-checklist.md",
+  "index": 17,
+  "content": "### Removed N8N_USE_DEPRECATED_REQUEST_LIB\n\nThe legacy `request` library has been deprecated for some time now. As of n8n 1.0, the ability to fall back to it in the HTTP Request node by setting the `N8N_USE_DEPRECATED_REQUEST_LIB` environment variable has been fully removed. The HTTP Request node will now always use the new `HttpRequest` interface.\n\nIf you build custom nodes, refer to [HTTP request helpers](/integrations/creating-nodes/build/reference/http-helpers.md) for more information on migrating to the new interface.\n\n[PR #6413](https://github.com/n8n-io/n8n/pull/6413)"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger.md",
+  "index": 7,
+  "content": "### Path\n\nBy default, this field contains a randomly generated MCP URL path, to avoid conflicts with other MCP Server Trigger nodes. \n\nYou can manually specify a URL path, including adding route parameters. For example, you may need to do this if you use n8n to prototype an API and want consistent endpoint URLs."
+}

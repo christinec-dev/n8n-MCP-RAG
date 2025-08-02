@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 84,
+  "content": "### Drag and Drop in Folders\n\nFolders just got friendlier. With this release, you can now **drag and drop workflows and folders** — making it even easier to keep things tidy.\n\nNeed to reorganize? Just select a workflow or folder and drag it into another folder or breadcrumb location. It’s a small change that makes a big difference when managing a growing collection of workflows.\n\n<br>\n<video src=\"/_video/release-notes/Drag-and-drop-folders.mp4\" controls width=\"100%\"></video>\n<br>\n\n📁 Folders are available to all [registered](/hosting/community-edition-features.md#registered-community-edition) users—jump in and get your workspace in order!"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/deployment.md",
+  "index": 4,
+  "content": "## Backups\n\nn8n recommends creating nightly backups by attaching another container, and copying all data to this second container. In this manner, RAM usage is negligible, and so doesn't impact the amount of users you can place on the server."
+}

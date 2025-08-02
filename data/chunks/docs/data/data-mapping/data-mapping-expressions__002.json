@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-mapping/data-mapping-expressions.md",
+  "index": 2,
+  "content": "# Mapping in the expressions editor\n\nThese examples show how to access linked items in the expressions editor. Refer to [expressions](/code/expressions.md) for more information on expressions, including built in variables and methods.\n\nFor information on errors with mapping and linking items, refer to [Item linking errors](/data/data-mapping/data-item-linking/item-linking-errors.md)."
+}

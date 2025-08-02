@@ -1,0 +1,13 @@
+{
+  "source": "0143_HTTP_Gitlab_Automation_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Gitlab Trigger\",\n      \"type\": \"n8n-nodes-base.gitlabTrigger\",\n      \"position\": [\n        240,\n        140\n      ],\n      \"parameters\": {\n        \"owner\": \"tennox\",\n        \"events\": [\n          \"tag_push\"\n        ],\n        \"repository\": \"ci-test\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        820,\n        40\n      ],\n      \"parameters\": {\n        \"url\": \"https://app.getoutline.com/api/documents.create\",\n        \"options\": {},\n        \"requestMethod\": \"POST\",\n        \"authentication\": \"headerAuth\",\n        \"jsonParameters\": true,\n        \"bodyParametersJson\": \"={ \\n\\\"collectionId\\\": \\\"PLACEHOLDER\\\",\\n\\\"parentDocumentId\\\": \\\"PLACEHOLDER\\\",\\n\\\"publish\\\": true, \\n\\\"title\\\": {{JSON.stringify(\\\"Release \\\" + $json.body.name)}},\\n\\\"text\\\": {{JSON.stringify($json.body.description + '\\\\n\\\\n\\\\\\\\\\\\n[More info](' + $json.body.url + ')')}}\\n}\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        540,\n        140\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"string\": [\n            {\n              \"value1\": \"={{$json.body.object_kind}}\",\n              \"value2\": \"release\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Gitlab Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.gitlabTrigger",
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.if"
+    ],
+    "trigger": "gitlab trigger"
+  }
+}

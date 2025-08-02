@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.jwt.md",
+  "index": 11,
+  "content": "### Subject\n\nThe **Subject** or `sub` claim identifies the principal that's the subject of the JWT.\n\nRefer to [\"sub\" (Subject) Claim](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.2) for more information."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/set-up-ssl.md",
+  "index": 4,
+  "content": "## Pass certificates into n8n directly\n\nYou can also choose to pass certificates into n8n directly. To do so, set the `N8N_SSL_CERT` and `N8N_SSL_KEY` environment variables to point to your generated certificate and key file.\n\nYou'll need to make sure the certificate stays renewed and up to date.\n\nRefer to [Deployment environment variables](/hosting/configuration/environment-variables/deployment.md) for more information on these variables and [Configuration](/hosting/configuration/configuration-methods.md) for more information on setting environment variables."
+}

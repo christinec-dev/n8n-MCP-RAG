@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 528,
+  "content": "### Core Functionality\n\n- Allow deletion of nodes from the canvas using the backspace key\n- Fixed an issue causing clicks in the value survey to impact the main view\n- Fixed an issue preventing the update panel from closing"
+}

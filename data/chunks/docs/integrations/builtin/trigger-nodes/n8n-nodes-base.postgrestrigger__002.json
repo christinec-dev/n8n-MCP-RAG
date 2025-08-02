@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.postgrestrigger.md",
+  "index": 2,
+  "content": "# Postgres Trigger node\n\nUse the Postgres Trigger node to respond to events in [Postgres](https://www.postgresql.org/) and integrate Postgres with other applications. n8n has built-in support responding to insert, update, and delete events.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/postgres.md).\n///\n\n/// note | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Postgres Trigger integrations](https://n8n.io/integrations/postgres-trigger/) page.\n///"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "0943_Manual_Xml_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"3\",\n  \"name\": \"XML Conversion\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        510,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"xml\",\n              \"value\": \"<?xml version=\\\"1.0\\\" encoding=\\\"utf-8\\\"?> <ORDERS05>   <IDOC BEGIN=\\\"1\\\">     <EDI_DC40 SEGMENT=\\\"1\\\">       <TABNAM>EDI_DC40</TABNAM>     </EDI_DC40>   </IDOC> </ORDERS05>\"\n            }\n          ]\n        },\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"XML\",\n      \"type\": \"n8n-nodes-base.xml\",\n      \"position\": [\n        740,\n        300\n      ],\n      \"parameters\": {\n        \"options\": {\n          \"attrkey\": \"$\",\n          \"mergeAttrs\": false,\n          \"explicitRoot\": true\n        },\n        \"dataPropertyName\": \"xml\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"XML\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.xml"
+    ],
+    "trigger": null
+  }
+}

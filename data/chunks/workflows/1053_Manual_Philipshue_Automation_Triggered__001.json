@@ -1,0 +1,12 @@
+{
+  "source": "1053_Manual_Philipshue_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"58\",\n  \"name\": \"Turn on a light and set its brightness\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        590,\n        260\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Philips Hue\",\n      \"type\": \"n8n-nodes-base.philipsHue\",\n      \"position\": [\n        790,\n        260\n      ],\n      \"parameters\": {\n        \"lightId\": \"123\",\n        \"additionalFields\": {\n          \"bri\": 90\n        }\n      },\n      \"credentials\": {\n        \"philipsHueOAuth2Api\": \"philips-hue\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Philips Hue\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.philipsHue"
+    ],
+    "trigger": null
+  }
+}

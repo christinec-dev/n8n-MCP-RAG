@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 183,
+  "content": "### Node enhancements\n\n* Compare Datasets node: add an option for fuzzy compare."
+}

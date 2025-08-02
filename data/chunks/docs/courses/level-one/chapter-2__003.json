@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-2.md",
+  "index": 3,
+  "content": "## 1. Add a Manual Trigger node\n\nOpen the nodes panel (reminder: you can open this by selecting the **+** icon in the top right corner of the [canvas](/glossary.md#canvas-n8n) or selecting ++tab++ on your keyboard).\n\nThen:\n\n1. Search for the **Manual Trigger** node.\n2. Select it when it appears in the search.\n\nThis will add the [Manual Trigger](/integrations/builtin/core-nodes/n8n-nodes-base.manualworkflowtrigger.md) node to your canvas, which allows you to run the workflow at any time by selecting the **Execute workflow** button.\n\n/// note | Manual triggers\nFor faster workflow creation, you can skip this step in the future. Adding any other node without a trigger will add the Manual Trigger node to the workflow.\n\nIn a real-world scenario, you would probably want to set up a schedule or some other [trigger](/glossary.md#trigger-node-n8n) to run the workflow.\n///"
+}

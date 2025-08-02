@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatdeepseek.md",
+  "index": 7,
+  "content": "### Frequency Penalty\n\nUse this option to control the chances of the model repeating itself. Higher values reduce the chance of the model repeating itself."
+}

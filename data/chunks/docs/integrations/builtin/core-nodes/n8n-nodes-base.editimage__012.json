@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 12,
+  "content": "### Multi Step parameters\n\n* **Property Name**: Enter the name of the binary property that stores the image data.\n* **Operations**: Add the operations you want the multi step operation to perform. You can use any of the other operations.\n\nRefer to [Node options](#node-options) for optional configuration options."
+}

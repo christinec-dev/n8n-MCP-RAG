@@ -1,0 +1,14 @@
+{
+  "source": "1100_Manual_Taiga_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"69\",\n  \"name\": \"Create, update, and get an issue on Taiga\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        430,\n        260\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Taiga\",\n      \"type\": \"n8n-nodes-base.taiga\",\n      \"position\": [\n        630,\n        260\n      ],\n      \"parameters\": {\n        \"subject\": \"n8n-docs\",\n        \"projectId\": 385605,\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"taigaCloudApi\": \"taiga\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Taiga1\",\n      \"type\": \"n8n-nodes-base.taiga\",\n      \"position\": [\n        830,\n        260\n      ],\n      \"parameters\": {\n        \"issueId\": \"={{$node[\\\"Taiga\\\"].json[\\\"id\\\"]}}\",\n        \"operation\": \"update\",\n        \"projectId\": \"={{$node[\\\"Taiga\\\"].json[\\\"project\\\"]}}\",\n        \"updateFields\": {\n          \"description\": \"This ticket is for the documentation for the Taiga node\"\n        }\n      },\n      \"credentials\": {\n        \"taigaCloudApi\": \"taiga\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Taiga2\",\n      \"type\": \"n8n-nodes-base.taiga\",\n      \"position\": [\n        1030,\n        260\n      ],\n      \"parameters\": {\n        \"issueId\": \"={{$node[\\\"Taiga\\\"].json[\\\"id\\\"]}}\",\n        \"operation\": \"get\"\n      },\n      \"credentials\": {\n        \"taigaCloudApi\": \"taiga\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Taiga\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Taiga1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Taiga1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Taiga2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Taiga\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.taiga",
+      "n8n-nodes-base.taiga",
+      "n8n-nodes-base.taiga"
+    ],
+    "trigger": null
+  }
+}

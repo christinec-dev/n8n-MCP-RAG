@@ -1,0 +1,11 @@
+{
+  "source": "1129_Wufoo_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"78\",\n  \"name\": \"Receive updates when a form is submitted in Wufoo\",\n  \"nodes\": [\n    {\n      \"name\": \"Wufoo Trigger\",\n      \"type\": \"n8n-nodes-base.wufooTrigger\",\n      \"position\": [\n        1290,\n        140\n      ],\n      \"webhookId\": \"106376c5-b49c-412f-8463-4db23a23c057\",\n      \"parameters\": {\n        \"form\": \"n8n\"\n      },\n      \"credentials\": {\n        \"wufooApi\": \"wufoo\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.wufooTrigger"
+    ],
+    "trigger": "wufoo trigger"
+  }
+}

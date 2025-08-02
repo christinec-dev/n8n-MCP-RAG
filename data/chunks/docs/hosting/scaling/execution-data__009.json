@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/execution-data.md",
+  "index": 9,
+  "content": "# Docker\ndocker run -it --rm \\\n --name n8n \\\n -p 5678:5678 \\\n -e EXECUTIONS_DATA_SAVE_ON_ERROR=all \\\n -e EXECUTIONS_DATA_SAVE_ON_SUCCESS=none \\\n -e EXECUTIONS_DATA_SAVE_ON_PROGRESS=true \\\n -e EXECUTIONS_DATA_SAVE_MANUAL_EXECUTIONS=false \\\n docker.n8n.io/n8nio/n8n\n```\n\n```yaml"
+}

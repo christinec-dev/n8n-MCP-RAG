@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 313,
+  "content": "### Bug fixes\n\nAccount for non-array types in `pinData` migration."
+}

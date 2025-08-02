@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/digital-ocean.md",
+  "index": 9,
+  "content": "## Open ports\n\nn8n runs as a web application, so the Droplet needs to allow incoming access to traffic on port 80 for non-secure traffic, and port 443 for secure traffic.\n\nOpen the following ports in the Droplet's firewall by running the following two commands:\n\n```shell\nsudo ufw allow 80\nsudo ufw allow 443\n```"
+}

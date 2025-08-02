@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.grist.md",
+  "index": 2,
+  "content": "# Grist node\n\nUse the Grist node to automate work in Grist, and integrate Grist with other applications. n8n has built-in support for a wide range of Grist features, including creating, updating, deleting, and reading rows in a table. \n\nOn this page, you'll find a list of operations the Grist node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Grist credentials](/integrations/builtin/credentials/grist.md) for guidance on setting up authentication. \n///"
+}

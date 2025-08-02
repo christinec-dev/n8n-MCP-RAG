@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.microsoftteamstrigger.md",
+  "index": 3,
+  "content": "## Events\n\n* **New Channel**\n* **New Channel Message**\n* **New Chat**\n* **New Chat Message**\n* **New Team Member**"
+}

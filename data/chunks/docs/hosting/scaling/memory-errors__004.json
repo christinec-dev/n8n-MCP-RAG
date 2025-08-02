@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/memory-errors.md",
+  "index": 4,
+  "content": "## Typical causes\n\nSuch problems occur when a workflow execution requires more memory than available to an n8n instance. Factors increasing the memory usage for a workflow execution include:\n\n- Amount of [JSON data](/data/data-structure.md).\n- Size of binary data.\n- Number of nodes in a workflow.\n- Some nodes are memory-heavy: the [Code](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) node and the older Function node can increase memory consumption significantly.\n- Manual or automatic workflow executions: manual executions increase memory consumption as n8n makes a copy of the data for the frontend.\n- Additional workflows running at the same time."
+}

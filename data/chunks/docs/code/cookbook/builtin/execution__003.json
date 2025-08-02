@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/builtin/execution.md",
+  "index": 3,
+  "content": "## `execution.id`\n\nContains the unique ID of the current workflow execution.\n\n=== \"JavaScript\"\n\t```js\n\tlet executionId = $execution.id;\n\t```\n=== \"Python\"\n\t```python\n\texecutionId = _execution.id\n\t```"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorymanager.md",
+  "index": 2,
+  "content": "# Chat Memory Manager node\n\nThe Chat Memory Manager node manages chat message [memories](/glossary.md#ai-memory) within your workflows. Use this node to load, insert, and delete chat messages in an in-memory [vector store](/glossary.md#ai-vector-store).\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-sub-nodes/chat-memory-manager-purpose.md\"\n\nOn this page, you'll find a list of operations that the Chat Memory Manager node supports, along with links to more resources.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

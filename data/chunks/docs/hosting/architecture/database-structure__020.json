@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 20,
+  "content": "### shared_workflow\n\nMaps workflows to users."
+}

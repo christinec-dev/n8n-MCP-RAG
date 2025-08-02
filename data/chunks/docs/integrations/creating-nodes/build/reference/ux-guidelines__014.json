@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 14,
+  "content": "### Text Case\n\nUse **Title Case** for the node `name`, `parameters display names` (labels), `dropdown titles`. Title Case is when you capitalize the first letter of each word, except for certain small words, such as articles and short prepositions.\n\nUse **Sentence case** for node `action` names, node `descriptions`, `parameters descriptions` (tooltips), `hints`, `dropdown descriptions`."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 79,
+  "content": "## n8n@0.222.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.221.2...n8n@0.222.0) for this version.<br />\n**Release date:** 2023-03-30\n\nThis release contains new features, including custom filters for the executions list, and a new node to filter items in your workflows.\n\n/// note | Upgrade to 0.222.1\nUpgrade directly to 0.222.1.\n///"
+}

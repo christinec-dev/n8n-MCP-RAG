@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/google-cloud.md",
+  "index": 20,
+  "content": "## Set up DNS\n\nn8n typically operates on a subdomain. Create a DNS record with your provider for the subdomain and point it to the IP address of the n8n service. Find the IP address of the n8n service from the **Services & Ingress** menu item of the cluster you want to use under the **Endpoints** column.\n\n/// note | GKE and IP addresses\n[Read this GKE tutorial](https://cloud.google.com/kubernetes-engine/docs/tutorials/configuring-domain-name-static-ip#configuring_your_domain_name_records) for more details on how reserved IP addresses work with GKE and Kubernetes resources.\n///"
+}

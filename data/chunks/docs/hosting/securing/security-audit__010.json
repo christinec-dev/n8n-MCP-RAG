@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/security-audit.md",
+  "index": 10,
+  "content": "### File system\n\nThis report lists nodes that interact with the file system."
+}

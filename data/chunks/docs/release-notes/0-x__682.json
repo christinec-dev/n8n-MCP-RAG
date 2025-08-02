@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 682,
+  "content": "### Enhanced nodes\n\n* [HTTP Request:](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) Added support for arrays in Querystring. Any parameter appearing multiple times with the same name is grouped into an array.\n* [Mautic:](/integrations/builtin/app-nodes/n8n-nodes-base.mautic.md) Added Contact Segment resource.\n* [Telegram:](/integrations/builtin/app-nodes/n8n-nodes-base.telegram/index.md) Added Delete operation to the Message resource."
+}

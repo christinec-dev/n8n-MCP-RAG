@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/configuration.md",
+  "index": 13,
+  "content": "### Registering hooks\n\nYou can set hooks by loading the hooks script on the page. One way to do this is by creating a hooks file in the project and adding a script tag in your `editor-ui/public/index.html` file:\n\n```html\n<script src=\"frontend-hooks.js\"></script>\n```"
+}

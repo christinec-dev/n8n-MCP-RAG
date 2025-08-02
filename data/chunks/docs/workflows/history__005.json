@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/history.md",
+  "index": 5,
+  "content": "## Restore or copy previous versions\n\nYou can restore a previous workflow version, or make a copy of it:\n\n1. On the version you want to restore or copy, select **Options** <span class=\"inline-image\">![Options icon](/_images/common-icons/three-dot-options-menu.png){.off-glb}</span>.\n1. Choose what you want to do:\n\t* **Restore this version**: replace your current workflow with the selected version.\n\t* **Clone to new workflow**: create a new workflow based on the selected version.\n\t* **Open version in new tab**: open a second tab displaying the selected version. Use this to compare versions.\n\t* **Download**: download the version as JSON."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/modules-in-code-node.md",
+  "index": 6,
+  "content": "# Allow usage of external npm modules.\nexport NODE_FUNCTION_ALLOW_EXTERNAL=moment,lodash\n```\nRefer to [Environment variables reference](/hosting/configuration/environment-variables/nodes.md) for more information on these variables."
+}

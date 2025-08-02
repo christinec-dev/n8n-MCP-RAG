@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/queue-mode.md",
+  "index": 9,
+  "content": "## Running n8n with queues\n\nWhen running n8n with queues, all the production workflow executions get processed by worker processes. This means that even the webhook calls get delegated to the worker processes, which might add some overhead and extra latency.\n\nRedis acts as the message broker, and the database persists data, so access to both is required. Running a distributed system with this setup over SQLite isn't supported.\n\n/// note | Migrate data\nIf you want to migrate data from one database to another, you can use the Export and Import commands. Refer to the [CLI commands for n8n](/hosting/cli-commands.md#export-workflows-and-credentials) documentation to learn how to use these commands.\n///"
+}

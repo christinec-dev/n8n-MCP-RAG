@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatgooglegemini.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Model**: Select the model to use to generate the completion.\n\nn8n dynamically loads models from the Google Gemini API and you'll only see the models available to your account."
+}

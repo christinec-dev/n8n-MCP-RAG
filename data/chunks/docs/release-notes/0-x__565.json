@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 565,
+  "content": "### Core Functionality\n\n- Fixed a build issue by moving the `chokidar` dependency to a regular dependency."
+}

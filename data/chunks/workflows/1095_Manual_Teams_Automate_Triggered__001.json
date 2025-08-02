@@ -1,0 +1,14 @@
+{
+  "source": "1095_Manual_Teams_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        540,\n        360\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Microsoft Teams\",\n      \"type\": \"n8n-nodes-base.microsoftTeams\",\n      \"position\": [\n        740,\n        360\n      ],\n      \"parameters\": {\n        \"name\": \"n8n-docs-demo\",\n        \"teamId\": \"d6b83b00-085d-472c-a6d9-8c2c32c1424e\",\n        \"options\": {}\n      },\n      \"credentials\": {\n        \"microsoftTeamsOAuth2Api\": \"teams_n8n\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Microsoft Teams1\",\n      \"type\": \"n8n-nodes-base.microsoftTeams\",\n      \"position\": [\n        940,\n        360\n      ],\n      \"parameters\": {\n        \"teamId\": \"={{$node[\\\"Microsoft Teams\\\"].parameter[\\\"teamId\\\"]}}\",\n        \"channelId\": \"={{$node[\\\"Microsoft Teams\\\"].json[\\\"id\\\"]}}\",\n        \"operation\": \"update\",\n        \"updateFields\": {\n          \"name\": \"n8n-documentation-demo\"\n        }\n      },\n      \"credentials\": {\n        \"microsoftTeamsOAuth2Api\": \"teams_n8n\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Microsoft Teams2\",\n      \"type\": \"n8n-nodes-base.microsoftTeams\",\n      \"position\": [\n        1140,\n        360\n      ],\n      \"parameters\": {\n        \"teamId\": \"={{$node[\\\"Microsoft Teams\\\"].parameter[\\\"teamId\\\"]}}\",\n        \"message\": \"n8n rocks!\",\n        \"resource\": \"channelMessage\",\n        \"channelId\": \"={{$node[\\\"Microsoft Teams\\\"].json[\\\"id\\\"]}}\",\n        \"messageType\": \"text\"\n      },\n      \"credentials\": {\n        \"microsoftTeamsOAuth2Api\": \"teams_n8n\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Microsoft Teams\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Microsoft Teams1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Microsoft Teams1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Microsoft Teams2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Microsoft Teams\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.microsoftTeams",
+      "n8n-nodes-base.microsoftTeams",
+      "n8n-nodes-base.microsoftTeams"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.retrievervectorstore.md",
+  "index": 2,
+  "content": "# Vector Store Retriever node\n\nUse the Vector Store Retriever node to retrieve documents from a [vector store](/glossary.md#ai-vector-store).\n\nOn this page, you'll find the node parameters for the Vector Store Retriever node, and links to more resources.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

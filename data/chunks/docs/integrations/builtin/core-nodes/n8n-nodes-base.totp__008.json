@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.totp.md",
+  "index": 8,
+  "content": "### Digits\n\nEnter the number of digits in the generated code. Default is `6`."
+}

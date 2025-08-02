@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/common-issues.md",
+  "index": 9,
+  "content": "## Only one webhook per path and method\n\nn8n only permits registering one webhook for each path and HTTP method combination (for example, a `GET` request for `/my-request`). This avoids ambiguity over which webhook should receive requests.\n\nIf you receive a message that the path and method you chose are already in use, you can either:\n\n* Deactivate the workflow with the conflicting webhook.\n* Change the webhook path and/or method for one of the conflicting webhooks."
+}

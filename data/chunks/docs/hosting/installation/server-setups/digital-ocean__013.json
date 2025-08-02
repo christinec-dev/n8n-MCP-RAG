@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/digital-ocean.md",
+  "index": 13,
+  "content": "## Start Docker Compose\n\nStart n8n and Caddy with the following command:\n\n```shell\nsudo docker compose up -d\n```\n\nThis may take a few minutes."
+}

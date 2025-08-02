@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.renamekeys.md",
+  "index": 2,
+  "content": "# Rename Keys\n\nUse the Rename Keys node to rename the keys of a key-value pair in n8n."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memoryredischat.md",
+  "index": 6,
+  "content": "## Single memory instance\n\n[[% include \"_includes/integrations/cluster-nodes/memory-shared.html\" %]]\n\n--8<-- \"_glossary/ai-glossary.md\""
+}

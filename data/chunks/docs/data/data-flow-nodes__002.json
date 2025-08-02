@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-flow-nodes.md",
+  "index": 2,
+  "content": "# Data flow within nodes\n\n--8<-- \"_snippets/flow-logic/data-flow-nodes.md\""
+}

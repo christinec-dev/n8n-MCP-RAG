@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.formtrigger.md",
+  "index": 13,
+  "content": "### Respond When\n\nChoose when n8n sends a response to the form submission. You can respond when:\n\n- **Form Is Submitted**: Send a response to the user as soon as they submit the form.\n- **Workflow Finishes**: Use this if you want the workflow to complete its execution before you send a response to the user. If the workflow errors, it sends a response to the user telling them there was a problem submitting the form."
+}

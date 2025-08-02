@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.salesmate.md",
+  "index": 3,
+  "content": "## Operations\n\n* Activity\n    * Create an activity\n    * Delete an activity\n    * Get an activity\n    * Get all companies\n    * Update an activity\n* Company\n    * Create a company\n    * Delete a company\n    * Get a company\n    * Get all companies\n    * Update a company\n* Deal\n    * Create a deal\n    * Delete a deal\n    * Get a deal\n    * Get all deals\n    * Update a deal"
+}

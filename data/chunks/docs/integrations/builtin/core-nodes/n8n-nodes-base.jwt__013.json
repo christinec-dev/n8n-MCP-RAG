@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.jwt.md",
+  "index": 13,
+  "content": "### Decode node options\n\nThe **Return Additional Info** toggle controls how much information the node returns.\n\nWhen turned on, the node returns the complete decoded token with information about the header and signature. When turned off, the node only returns the payload."
+}

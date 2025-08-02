@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 213,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Undo/redo\n\nYou can now undo and redo actions on the canvas.\n\nUse `ctrl`/`cmd` + `z` to undo, `ctrl`/`cmd` + `shift` + `z` to redo.\n\nCurrently, n8n supports undo/redo for the following canvas actions:\n\n- Adding nodes\n- Deleting nodes\n- Adding connections\n- Deleting connections\n- Moving nodes\n- Moving connections\n- Import workflow (from file/from URL)\n- Copy/paste nodes\n- Renaming nodes\n- Duplicating nodes\n- Disabling/enabling nodes\n\n</div>\n\n* App integration actions are now displayed in the nodes pane.\n* Add sharing permissions info for workflow sharees.\n* Handle sharing features when the user skips instance owner setup.\n* Update the credential test error message for credential sharees."
+}

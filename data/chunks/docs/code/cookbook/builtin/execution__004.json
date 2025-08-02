@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/builtin/execution.md",
+  "index": 4,
+  "content": "## `execution.resumeUrl`\n\nThe webhook URL to call to resume a [waiting](/integrations/builtin/core-nodes/n8n-nodes-base.wait.md) workflow.\n\nSee the [Wait > On webhook call](/integrations/builtin/core-nodes/n8n-nodes-base.wait.md#on-webhook-call) documentation to learn more."
+}

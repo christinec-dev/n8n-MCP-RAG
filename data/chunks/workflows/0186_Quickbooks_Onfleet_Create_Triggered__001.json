@@ -1,0 +1,12 @@
+{
+  "source": "0186_Quickbooks_Onfleet_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"name\": \"Create a QuickBooks invoice on a new Onfleet Task creation\",\n  \"nodes\": [\n    {\n      \"name\": \"Onfleet Trigger\",\n      \"type\": \"n8n-nodes-base.onfleetTrigger\",\n      \"position\": [\n        460,\n        300\n      ],\n      \"webhookId\": \"6d6a2bee-f83e-4ebd-a1d5-8708c34393dc\",\n      \"parameters\": {\n        \"triggerOn\": \"taskCreated\",\n        \"additionalFields\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"QuickBooks Online\",\n      \"type\": \"n8n-nodes-base.quickbooks\",\n      \"position\": [\n        680,\n        300\n      ],\n      \"parameters\": {\n        \"Line\": [],\n        \"resource\": \"invoice\",\n        \"operation\": \"create\",\n        \"additionalFields\": {\n          \"Balance\": 0,\n          \"TxnDate\": \"\",\n          \"ShipAddr\": \"\",\n          \"BillEmail\": \"\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Onfleet Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"QuickBooks Online\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.onfleetTrigger",
+      "n8n-nodes-base.quickbooks"
+    ],
+    "trigger": "onfleet trigger"
+  }
+}

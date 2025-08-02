@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 820,
+  "content": "## n8n@0.88.1\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.88.0...n8n@0.88.1) for this version.<br />\n**Release date:** 2020-10-16\n\n- Bug Fixes\n- HTTP Request: Fixed an issue with the Form-Data Multipart and the RAW/Custom Body Content Types"
+}

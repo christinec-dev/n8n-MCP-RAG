@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/build-community-nodes.md",
+  "index": 2,
+  "content": "# Building community nodes\n\n--8<-- \"_snippets/integrations/submit-community-node.md\""
+}

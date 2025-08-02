@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/sql-agent.md",
+  "index": 8,
+  "content": "### Include Sample Rows\n\nEnter the number of sample rows to include in the prompt to the agent. Default is `3`.\n\nSample rows help the agent understand the schema of the database, but they also increase the number of tokens used."
+}

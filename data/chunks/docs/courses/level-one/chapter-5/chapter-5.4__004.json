@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.4.md",
+  "index": 4,
+  "content": "## Configure the Edit Fields node\n\nNow search for the **Edit Fields (Set) node** after you've selected the **+** sign coming off the If node's `true` connector.\n\nWith the Edit Fields node window open, configure these parameters:\n\n- Ensure **Mode** is set to **Manual Mapping**.\n- While you can use the **Expression editor** we used in the [Filtering Orders](/courses/level-one/chapter-5/chapter-5.3.md) lesson, this time, let's drag the fields from the **Input** into the **Fields to Set**:\n    - Drag **If** > **orderID** as the first field.\n    - Drag **If** > **employeeName** as the second field.\n- Ensure that **Include Other Input Fields** is set to false.\n\nSelect **Execute step**. You should see the following results:\n\n<figure><img src=\"/_images/courses/level-one/chapter-five/l1-c5-4-set-node.png\" alt=\"Edit Fields (Set) node\" style=\"width:100%\"><figcaption align = \"center\"><i>Edit Fields (Set) node</i></figcaption></figure>"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/draft-operations.md",
+  "index": 2,
+  "content": "# Gmail node Draft Operations\n\nUse the Draft operations to create, delete, or get a draft or list drafts in Gmail. Refer to the [Gmail node](/integrations/builtin/app-nodes/n8n-nodes-base.gmail/index.md) for more information on the Gmail node itself."
+}

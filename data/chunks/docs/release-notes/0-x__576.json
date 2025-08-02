@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 576,
+  "content": "### New nodes\n\n\n* [AWS Textract](/integrations/builtin/app-nodes/n8n-nodes-base.awstextract.md)\n* [Google Drive Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.googledrivetrigger/index.md)"
+}

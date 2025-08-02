@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 9,
+  "content": "### execution_data\n\nContains the workflow at time of running, and the execution data."
+}

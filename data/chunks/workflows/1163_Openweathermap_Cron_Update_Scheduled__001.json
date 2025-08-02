@@ -1,0 +1,13 @@
+{
+  "source": "1163_Openweathermap_Cron_Update_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"84\",\n  \"name\": \"Send daily weather updates to a phone number using the Vonage node\",\n  \"nodes\": [\n    {\n      \"name\": \"Vonage\",\n      \"type\": \"n8n-nodes-base.vonage\",\n      \"position\": [\n        770,\n        260\n      ],\n      \"parameters\": {\n        \"to\": \"1234\",\n        \"from\": \"Vonage APIs\",\n        \"message\": \"=Hey! The temperature outside is {{$node[\\\"OpenWeatherMap\\\"].json[\\\"main\\\"][\\\"temp\\\"]}}°C.\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"vonageApi\": \"vonage\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        370,\n        260\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"hour\": 9\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"OpenWeatherMap\",\n      \"type\": \"n8n-nodes-base.openWeatherMap\",\n      \"position\": [\n        570,\n        260\n      ],\n      \"parameters\": {\n        \"cityName\": \"berlin\"\n      },\n      \"credentials\": {\n        \"openWeatherMapApi\": \"owm\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"OpenWeatherMap\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"OpenWeatherMap\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Vonage\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.vonage",
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.openWeatherMap"
+    ],
+    "trigger": null
+  }
+}

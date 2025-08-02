@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mysql/index.md",
+  "index": 6,
+  "content": "## Use query parameters\n\nWhen creating a query to run on a MySQL database, you can use the **Query Parameters** field in the **Options** section to load data into the query. n8n sanitizes data in query parameters, which prevents SQL injection.\n\nFor example, you want to find a person by their email address. Given the following input data:\n\n```js\n[\n    {\n        \"email\": \"alex@example.com\",\n        \"name\": \"Alex\",\n        \"age\": 21 \n    },\n    {\n        \"email\": \"jamie@example.com\",\n        \"name\": \"Jamie\",\n        \"age\": 33 \n    }\n]\n```\n\nYou can write a query like:\n\n```sql\nSELECT * FROM $1:name WHERE email = $2;\n```\n\nThen in **Query Parameters**, provide the field values to use. You can provide fixed values or expressions. For this example, use expressions so the node can pull the email address from each input item in turn:\n\n```js\n// users is an example table name\nusers, {{ $json.email }} \n```"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 173,
+  "content": "### Node updates\n\n- [AI Agent](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/index.md): Vector stores can now be directly used as tools for the agent\n- [Code](/code/builtin/overview.md): Tons of new speed and convenience features, see above for details  \n- [Google Vertex Chat](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatgooglevertex.md): Added option to specify the GCP region for the Google API credentials  \n- [HighLevel](/integrations/builtin/app-nodes/n8n-nodes-base.highlevel.md): Added support for calendar items  \n\n\nWe also added a custom [projects](/user-management/rbac/projects.md) icon selector on top of the available emojis. Pretty!"
+}

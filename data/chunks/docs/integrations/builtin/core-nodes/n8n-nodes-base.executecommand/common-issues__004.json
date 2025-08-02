@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.executecommand/common-issues.md",
+  "index": 4,
+  "content": "## Error: stdout maxBuffer length exceeded\n<!-- vale on -->\n\nThis error happens when your command returns more output than the Execute Command node is able to process at one time.\n\nTo avoid this error, reduce output your command produces. Check your command's manual page or documentation to see if there are flags to limit or filter output. If not, you may need to pipe the output to another command to remove unneeded info."
+}

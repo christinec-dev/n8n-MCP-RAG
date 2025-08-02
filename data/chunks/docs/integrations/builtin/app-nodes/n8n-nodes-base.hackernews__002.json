@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.hackernews.md",
+  "index": 2,
+  "content": "# Hacker News node\n\nUse the Hacker News node to automate work in Hacker News, and integrate Hacker News with other applications. n8n has built-in support for a wide range of Hacker News features, including getting articles, and users. \n\nOn this page, you'll find a list of operations the Hacker News node supports and links to more resources.\n\n/// note | Credentials\nThis node doesn't require authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

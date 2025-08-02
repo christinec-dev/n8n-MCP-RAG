@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.rundeck.md",
+  "index": 5,
+  "content": "## Find the job ID\n\n1. Access your Rundeck dashboard.\n2. Open the project that contains the job you want to use with n8n.\n3. In the sidebar, select **JOBS**.\n4. Under **All Jobs**, select the name of the job you want to use with n8n.\n5. In the top left corner, under the name of the job, copy the string that's displayed in smaller font below the job name. This is your job ID.\n6. Paste this job ID in the **Job Id** field in n8n."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.rabbitmqtrigger.md",
+  "index": 3,
+  "content": "## Related resources\n\nn8n provides an app node for RabbitMQ. You can find the node docs [here](/integrations/builtin/app-nodes/n8n-nodes-base.rabbitmq.md).\n\nView [example workflows and related content](https://n8n.io/integrations/rabbitmq-trigger/) on n8n's website."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/message-operations.md",
+  "index": 7,
+  "content": "### Pin Chat Message additional fields\n\nUse the **Additional Fields** to further refine the behavior of the node. Select **Add Field** to add any of the following:\n\n* **Disable Notifications**: By default, Telegram will notify all chat members that the message has been pinned. If you don't want these notifications to go out, turn this control on. Sets the `disable_notification` parameter to `true`.\n<!-- vale on -->"
+}

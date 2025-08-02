@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-1.md",
+  "index": 11,
+  "content": "### Node buttons\n\nIf you hover on a node, you'll notice that three icons appear on top:\n\n- Execute the node (Play icon)\n- Deactivate/Activate the node (Power icon)\n- Delete the node (Trash icon)\n\nThere will also be an ellipsis icon, which opens a context menu containing other [node options](/workflows/components/nodes.md#node-controls).\n\n/// note | Moving a workflow\nTo move a workflow around the canvas, select all nodes with your mouse or ++ctrl+a++, select and hold on a node, then drag it to any point you want on the canvas.\n///"
+}

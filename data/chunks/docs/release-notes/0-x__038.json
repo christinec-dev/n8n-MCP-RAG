@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 38,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### npm node\n\nThis release introduces the [npm](/integrations/builtin/app-nodes/n8n-nodes-base.npm.md) node. This is a new core node. It provides a way to query an npm registry within your workflow.\n\n</div>"
+}

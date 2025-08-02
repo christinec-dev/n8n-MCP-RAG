@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsawsbedrock.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Model**: Select the model to use to generate the embedding.\n\nLearn more about available models in the [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.freshdesk.md",
+  "index": 2,
+  "content": "# Freshdesk node\n\nUse the Freshdesk node to automate work in Freshdesk and integrate Freshdesk with other applications. n8n has built-in support for a wide range of Freshdesk features, including creating, updating, deleting, and getting contacts and tickets.\n\nOn this page, you'll find a list of operations the Freshdesk node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Freshdesk credentials](/integrations/builtin/credentials/freshdesk.md) for guidance on setting up authentication. \n///"
+}

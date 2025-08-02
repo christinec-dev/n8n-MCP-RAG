@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 646,
+  "content": "### Bug fixes\n\n* [AWS SES:](/integrations/builtin/app-nodes/n8n-nodes-base.awsses.md) Fixed issue where special characters in the message were not encoded.\n* [Baserow:](/integrations/builtin/app-nodes/n8n-nodes-base.baserow.md) Fixed issue where Create operation inserted null values.\n* [HubSpot:](/integrations/builtin/app-nodes/n8n-nodes-base.hubspot.md) Fixed issue when sending context parameter."
+}

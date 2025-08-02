@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 845,
+  "content": "## n8n@0.74.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.73.1...n8n@0.74.0) for this version.<br />\n**Release date:** 2020-07-15\n\n- New nodes\n- Hacker News\n- QuestDB\n- Xero\n- Enhanced nodes\n- Affinity Trigger\n- HTTP Request\n- Mailchimp\n- MongoDB\n- Pipedrive\n- Postgres\n- UpLead\n- Webhook\n- Webhook URLs are now handled independently of the workflow ID by `https://{hostname}/webhook/{path}` instead of the older `https://{hostname}/webhook/{workflow_id}/{node_name}/{path}`."
+}

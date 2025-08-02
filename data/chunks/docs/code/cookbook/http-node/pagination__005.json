@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/http-node/pagination.md",
+  "index": 5,
+  "content": "## Get the next page by number using `$pageCount`\n\nIf the API you're using supports targeting a specific page by number:\n\n1. Set **Pagination Mode** to **Update a Parameter in Each Request**.\n1. Set **Type** to **Query**.\n1. Enter the **Name** of the query parameter. This depends on your API and is usually described in its documentation. For example, some APIs use a query parameter named `page` to set the page. So **Name** would be `page`.\n1. Hover over **Value** and toggle **Expression** on.\n1. Enter `{{ $pageCount + 1 }}`\n\n`$pageCount` is the number of pages the HTTP Request node has fetched. It starts at zero. Most API pagination counts from one (the first page is page one). This means that adding `+1` to `$pageCount` means the node fetches page one on its first loop, page two on its second, and so on."
+}

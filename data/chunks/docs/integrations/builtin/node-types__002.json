@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/node-types.md",
+  "index": 2,
+  "content": "# Built-in integrations\n\nThis section contains the [node](/glossary.md#node-n8n) library: reference documentation for every built-in node in n8n, and their credentials.\n\n--8<-- \"_snippets/integrations/builtin/node-operations.md\""
+}

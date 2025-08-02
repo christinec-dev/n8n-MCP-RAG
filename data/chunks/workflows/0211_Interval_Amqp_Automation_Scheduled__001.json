@@ -1,0 +1,13 @@
+{
+  "source": "0211_Interval_Amqp_Automation_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"167\",\n  \"name\": \"Smart Factory Data Generator\",\n  \"nodes\": [\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"number\": [],\n          \"string\": [\n            {\n              \"name\": \"machine_id.name\",\n              \"value\": \"n8n_cr8\"\n            },\n            {\n              \"name\": \"temperature_celsius\",\n              \"value\": \"={{Math.floor(Math.random() * 100);}}\"\n            },\n            {\n              \"name\": \"machine_id.uptime\",\n              \"value\": \"={{Math.floor(Math.random() * 100);}}\"\n            },\n            {\n              \"name\": \"time_stamp\",\n              \"value\": \"={{Date.now();}}\"\n            }\n          ],\n          \"boolean\": []\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Interval\",\n      \"type\": \"n8n-nodes-base.interval\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"AMQP Sender\",\n      \"type\": \"n8n-nodes-base.amqp\",\n      \"position\": [\n        850,\n        300\n      ],\n      \"parameters\": {\n        \"sink\": \"berlin_factory_01\",\n        \"options\": {\n          \"dataAsObject\": true\n        }\n      },\n      \"credentials\": {\n        \"amqp\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"AMQP Sender\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Interval\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.interval",
+      "n8n-nodes-base.amqp"
+    ],
+    "trigger": null
+  }
+}

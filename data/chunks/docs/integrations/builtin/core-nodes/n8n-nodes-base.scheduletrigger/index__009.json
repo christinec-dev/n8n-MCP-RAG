@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/index.md",
+  "index": 9,
+  "content": "### Months trigger interval\n\n* **Months Between Triggers**: Enter the number of months between each workflow trigger.\n* **Trigger at Day of Month**: Enter the day of the month the day should trigger at, from `1` to `31`. If a month doesn't have this day, the node won't trigger. For example, if you enter `30` here, the node won't trigger in February.\n* **Trigger at Hour**: Select the hour of the day to trigger the node.\n* **Trigger at Minute**: Enter the minute past the hour to trigger the node when it runs, from `0` to `59`.\n\nFor example, if you enter `3` **Months Between Triggers**, `28` **Trigger at Day of Month**, **9am** for **Trigger at Hour**, and `0` **Trigger at Minute**, the node will run each quarter on the 28th day of the month at 9:00 AM."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.whatsapptrigger.md",
+  "index": 3,
+  "content": "## Events\n\n* Account Review Update\n* Account Update\n* Business Capability Update\n* Message Template Quality Update\n* Message Template Status Update\n* Messages\n* Phone Number Name Update\n* Phone Number Quality Update\n* Security\n* Template Category Update"
+}

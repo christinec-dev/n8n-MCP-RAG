@@ -1,0 +1,11 @@
+{
+  "source": "0047_Clickup_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"110\",\n  \"name\": \"Receive updates for events in ClickUp\",\n  \"nodes\": [\n    {\n      \"name\": \"ClickUp Trigger\",\n      \"type\": \"n8n-nodes-base.clickUpTrigger\",\n      \"position\": [\n        700,\n        250\n      ],\n      \"parameters\": {\n        \"team\": \"\",\n        \"events\": [\n          \"*\"\n        ],\n        \"filters\": {}\n      },\n      \"credentials\": {\n        \"clickUpApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.clickUpTrigger"
+    ],
+    "trigger": "clickup trigger"
+  }
+}

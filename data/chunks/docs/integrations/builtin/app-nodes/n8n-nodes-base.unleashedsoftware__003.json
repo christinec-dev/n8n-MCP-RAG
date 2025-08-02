@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.unleashedsoftware.md",
+  "index": 3,
+  "content": "## Operations\n\n* Sales Order\n    * Get all sales orders\n* Stock On Hand\n    * Get a stock on hand\n    * Get all stocks on hand"
+}

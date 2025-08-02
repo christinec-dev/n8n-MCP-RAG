@@ -1,0 +1,12 @@
+{
+  "source": "0957_Manual_Paypal_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"name\": \"\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        540,\n        240\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"PayPal\",\n      \"type\": \"n8n-nodes-base.payPal\",\n      \"position\": [\n        730,\n        240\n      ],\n      \"parameters\": {\n        \"senderBatchId\": \"123\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"payPalApi\": \"paypal-credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"PayPal\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.payPal"
+    ],
+    "trigger": null
+  }
+}

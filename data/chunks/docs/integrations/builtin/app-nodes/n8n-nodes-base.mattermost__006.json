@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mattermost.md",
+  "index": 6,
+  "content": "## Channel ID field error\n\nIf you're not the System Administrator, you might get an error: **there was a problem loading the parameter options from server: \"Mattermost error response: You do not have the appropriate permissions.** next to the **Channel ID** field.\n\nAsk your system administrator to grant you the `post:channel` permission."
+}

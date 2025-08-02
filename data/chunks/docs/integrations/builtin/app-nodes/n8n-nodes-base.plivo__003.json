@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.plivo.md",
+  "index": 3,
+  "content": "## Operations\n\n* Call\n    * Make a voice call\n* MMS\n    * Send an MMS message (US/Canada only)\n* SMS\n    * Send an SMS message."
+}

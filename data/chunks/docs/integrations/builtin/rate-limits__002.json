@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/rate-limits.md",
+  "index": 2,
+  "content": "# Handling API rate limits\n\n[API](/glossary.md#api) rate limits are restrictions on request frequency. For example, an API may limit the number of requests you can make per minute, or per day.\n\nAPIs can also limits how much data you can send in one request, or how much data the API sends in a single response."
+}

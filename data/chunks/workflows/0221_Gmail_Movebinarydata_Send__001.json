@@ -1,0 +1,14 @@
+{
+  "source": "0221_Gmail_Movebinarydata_Send.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Gmail\",\n      \"type\": \"n8n-nodes-base.gmail\",\n      \"notes\": \"Get email with JSON file\",\n      \"position\": [\n        620,\n        140\n      ],\n      \"parameters\": {\n        \"limit\": 1,\n        \"operation\": \"getAll\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"gmailOAuth2\": {\n          \"id\": \"16\",\n          \"name\": \"gmail\"\n        }\n      },\n      \"notesInFlow\": true,\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"write spreadsheet file\",\n      \"type\": \"n8n-nodes-base.spreadsheetFile\",\n      \"position\": [\n        980,\n        140\n      ],\n      \"parameters\": {\n        \"options\": {\n          \"fileName\": \"users_spreadsheet.csv\"\n        },\n        \"operation\": \"toFile\",\n        \"fileFormat\": \"csv\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"move binary data \",\n      \"type\": \"n8n-nodes-base.moveBinaryData\",\n      \"position\": [\n        800,\n        140\n      ],\n      \"parameters\": {\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Note6\",\n      \"type\": \"n8n-nodes-base.stickyNote\",\n      \"position\": [\n        200,\n        160\n      ],\n      \"parameters\": {\n        \"width\": 320,\n        \"height\": 80,\n        \"content\": \"## JSON file > Sheets\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Gmail\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"move binary data \",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"move binary data \": {\n      \"main\": [\n        [\n          {\n            \"node\": \"write spreadsheet file\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.gmail",
+      "n8n-nodes-base.spreadsheetFile",
+      "n8n-nodes-base.moveBinaryData",
+      "n8n-nodes-base.stickyNote"
+    ],
+    "trigger": null
+  }
+}

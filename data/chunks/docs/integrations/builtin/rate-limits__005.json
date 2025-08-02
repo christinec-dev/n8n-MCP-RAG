@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/rate-limits.md",
+  "index": 5,
+  "content": "### Enable Retry On Fail\n\nWhen you enable Retry On Fail, the node automatically tries the request again if it fails the first time.\n\n1. Open the node.\n1. Select **Settings**.\n1. Enable the **Retry On Fail** toggle.\n1. Configure the retry settings: if using this to work around rate limits, set **Wait Between Tries (ms)** to more than the rate limit. For example, if the API you're using allows one request per second, set **Wait Between Tries (ms)** to `1000` to allow a 1 second wait."
+}

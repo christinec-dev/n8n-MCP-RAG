@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.sentimentanalysis.md",
+  "index": 9,
+  "content": "### Iterative Refinement\n\nFor complex sentiment analysis tasks, you may need to iteratively refine the system prompt and categories to achieve the desired results."
+}

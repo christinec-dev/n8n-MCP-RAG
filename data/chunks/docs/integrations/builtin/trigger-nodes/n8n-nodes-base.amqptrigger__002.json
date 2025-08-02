@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.amqptrigger.md",
+  "index": 2,
+  "content": "# AMQP Trigger node\n\n[AMQP](https://www.amqp.org/) is an open standard application layer protocol for message-oriented middleware. The defining features of AMQP are message orientation, queuing, routing, reliability and security. This node supports AMQP 1.0 compatible message brokers.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/amqp.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [AMQP integrations](https://n8n.io/integrations/amqp-trigger/) page.\n///"
+}

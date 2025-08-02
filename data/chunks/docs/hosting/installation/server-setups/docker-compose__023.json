@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 23,
+  "content": "## 7. Start Docker Compose\n\nYou can now start n8n by typing:\n\n```bash\nsudo docker compose up -d\n```\n\nTo stop the container, type:\n\n```bash\nsudo docker compose stop\n```"
+}

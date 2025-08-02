@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreinmemory.md",
+  "index": 3,
+  "content": "## Data safety limitations\n\nBefore using the Simple Vector Store node, it's important to understand its limitations and how it works.\n\n/// warning\nn8n recommends using Simple Vector store for development use only.\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/ldap.md",
+  "index": 3,
+  "content": "## Enable LDAP\n\n1. Log in to n8n as the instance owner.\n2. Select **Settings** <span class=\"inline-image\">![Settings icon](/_images/common-icons/settings.png){.off-glb}</span> > **LDAP**.\n3. Toggle on **Enable LDAP Login**.\n4. Complete the fields with details from your LDAP server.\n5. Select **Test connection** to check your connection setup, or **Save connection** to create the connection.\n\nAfter enabling LDAP, anyone on your LDAP server can sign in to the n8n instance, unless you exclude them using the **User Filter** setting.\n\nYou can still create non-LDAP users (email users) on the **Settings** > **Users** page."
+}

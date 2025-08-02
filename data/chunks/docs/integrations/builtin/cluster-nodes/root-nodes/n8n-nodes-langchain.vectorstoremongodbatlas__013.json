@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoremongodbatlas.md",
+  "index": 13,
+  "content": "### Retrieve Documents parameters (As Vector Store for Chain/Tool)\n\n- **Mongo Collection**: Enter the name of the MongoDB collection to use.\n- **Vector Index Name**: Enter the name of the Vector Search index in your MongoDB Atlas collection.\n- **Embedding Field**: Enter the field name in your documents that contains the vector embeddings.\n- **Metadata Field**: Enter the field name in your documents that contains the text metadata."
+}

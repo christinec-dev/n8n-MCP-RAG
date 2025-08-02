@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolsearxng.md",
+  "index": 3,
+  "content": "## Node Options\n\n* **Number of Results**: The number of results to retrieve. The default is 10.\n* **Page Number**: The page number of the search results to retrieve. The default is 1.\n* **Language**: A two-letter [language code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) to filter search results by language. For example: `en` for English, `fr` for French. The default is `en`.\n* **Safe Search**: Enables or disables filtering explicit content in the search results. Can be None, Moderate, or Strict. The default is None."
+}

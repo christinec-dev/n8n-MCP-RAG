@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/deployment.md",
+  "index": 2,
+  "content": "# Deployment\n\n--8<-- \"_snippets/embed-license.md\"\n\nSee the [hosting documentation](https://docs.n8n.io/reference/server-setup.html) for detailed setup options."
+}

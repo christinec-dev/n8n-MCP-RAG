@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 373,
+  "content": "## n8n@1.25.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.24.1...n8n@1.25.0) for this version.<br />\n**Release date:** 2024-01-17\n\nThis release contains a new node, feature improvements, and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### New node: Chat Memory Manager\n\nThe [Chat Memory Manager](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorymanager.md) node replaces the Chat Messages Retriever node. It manages chat message memories within your AI workflows.\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

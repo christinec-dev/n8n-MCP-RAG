@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/file-operations.md",
+  "index": 4,
+  "content": "## List Files\n\nUse this operation to list files that belong to the user's organization. \n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [OpenAI credential](/integrations/builtin/credentials/openai.md).\n- **Resource**: Select **File**.\n- **Operation**: Select **List Files**."
+}

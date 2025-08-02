@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/hetzner.md",
+  "index": 13,
+  "content": "## Configure Caddy\n\nCaddy needs to know which domains it should serve, and which port to expose to the outside world. Edit the `Caddyfile` file in the `caddy_config` folder.\n\n```shell\nnano caddy_config/Caddyfile\n```\n\nChange the placeholder subdomain to yours. If you followed the steps to name the subdomain n8n, your full domain is similar to `n8n.example.com`. The `n8n` in the `reverse_proxy` setting tells Caddy to use the service definition defined in the `docker-compose.yml` file:\n\n```text\nn8n.<domain>.<suffix> {\n    reverse_proxy n8n:5678 {\n      flush_interval -1\n    }\n}\n```"
+}

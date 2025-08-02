@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/hardening-task-runners.md",
+  "index": 2,
+  "content": "# Hardening task runners\n\n[Task runners](/hosting/configuration/task-runners.md) are responsible for executing code from the [Code node](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md). While Code node executions are secure, you can follow these recommendations to further harden your task runners."
+}

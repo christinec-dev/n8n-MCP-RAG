@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/azure.md",
+  "index": 18,
+  "content": "## Send to Kubernetes cluster\n\nSend all the manifests to the cluster with the following command:\n\n```shell\nkubectl apply -f .\n```\n\n/// note | Namespace error\nYou may see an error message about not finding an \"n8n\" namespace as that resources isn't ready yet. You can run the same command again, or apply the namespace manifest first with the following command:\n\n```shell\nkubectl apply -f namespace.yaml\n```\n///"
+}

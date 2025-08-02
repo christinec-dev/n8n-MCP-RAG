@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 78,
+  "content": "### Bug fixes\n\n* AWS SNS Node: Fix an issue with messages failing to send if they contain certain characters.\n* Core: `augmentObject` should clone Buffer/Uint8Array instead of wrapping them in a proxy.\n* Core: `augmentObject` should use existing property descriptors whenever possible.\n* Core: Fix the issue of nodes not loading when run using npx.\n* Core: Improve Axios error handling in nodes.\n* Core: Password reset should pass in the correct values to external hooks.\n* Core: Prevent `augmentObject` from creating infinitely deep proxies.\n* Core: Use table-prefixes in queries in import commands.\n* Editor: Fix focused state in Code node editor.\n* Editor: Fix loading executions in long execution list.\n* Editor: Show correct status on canceled executions.\n* Gmail Node: Gmail Luxon object support, fix for timestamp.\n* HTTP Request Node: Detect mime-type from streaming responses.\n* HubSpot Trigger Node: Developer API key is required for webhooks.\n* Set Node: Convert string to number."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.uproc.md",
+  "index": 2,
+  "content": "# uProc node\n\nUse the uProc node to automate work in uProc, and integrate uProc with other applications. n8n has built-in support for a wide range of uProc features, including getting advanced human audio file, communication data, company, finance and product information. \n\nOn this page, you'll find a list of operations the uProc node supports and links to more resources.\n\n/// note | Credentials\nRefer to [uProc credentials](/integrations/builtin/credentials/uproc.md) for guidance on setting up authentication. \n///"
+}

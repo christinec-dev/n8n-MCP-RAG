@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 684,
+  "content": "### Bug fixes\n\n* [Microsoft SQL:](/integrations/builtin/app-nodes/n8n-nodes-base.microsoftsql.md) Fixed an issue with sending the connectionTimeout parameter, and creating and updating data using columns with spaces."
+}

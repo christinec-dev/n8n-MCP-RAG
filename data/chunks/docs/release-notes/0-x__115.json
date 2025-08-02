@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 115,
+  "content": "## n8n@0.216.3\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.216.2...n8n@0.216.3) for this version.<br />\n**Release date:** 2023-03-09\n\nThis is a bug fix release. It reverts the `isPending` check on the user entity, resolving an issue with displaying user options when user management is disabled."
+}

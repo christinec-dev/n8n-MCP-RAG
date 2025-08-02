@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 16,
+  "content": "## Subtract From a Date\n\nConfigure the node for this operation using these parameters:\n\n* **Date to Subtract From**: Enter the date you'd like to subtract from.\n* **Time Unit to Subtract**: Select the unit for the **Duration** amount you want to subtract.\n* **Duration**: Enter the amount of the time units you want to subtract from the **Date to Subtract From**.\n* **Output Field Name**: Enter the name of the field to output the rounded date to."
+}

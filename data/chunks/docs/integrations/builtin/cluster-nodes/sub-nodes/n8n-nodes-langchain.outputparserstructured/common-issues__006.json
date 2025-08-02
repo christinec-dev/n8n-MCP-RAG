@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparserstructured/common-issues.md",
+  "index": 6,
+  "content": "## Structuring output from agents\n\nStructured output parsing is often not reliable when working with [agents](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/index.md).\n\nIf your workflow uses agents, n8n recommends using a separate [LLM-chain](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainllm.md) to receive the data from the agent and parse it. This leads to better, more consistent results than parsing directly in the agent workflow."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorepinecone.md",
+  "index": 19,
+  "content": "### Clear Namespace\n\nAvailable in **Insert Documents** mode. Deletes all data from the namespace before inserting the new data."
+}

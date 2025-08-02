@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/common-issues.md",
+  "index": 3,
+  "content": "## Remove the n8n attribution from sent messages\n\nIf you're using the node to [send a message](/integrations/builtin/app-nodes/n8n-nodes-base.gmail/message-operations.md#send-a-message) or [reply to a message](/integrations/builtin/app-nodes/n8n-nodes-base.gmail/message-operations.md#reply-to-a-message), the node appends this statement to the end of the email:\n\n> This email was sent automatically with n8n\n\nTo remove this attribution:\n\n1. In the node's **Options** section, select **Add option**.\n2. Select **Append n8n attribution**.\n3. Turn the toggle off.\n\nRefer to [Send options](/integrations/builtin/app-nodes/n8n-nodes-base.gmail/message-operations.md#send-options) and [Reply options](/integrations/builtin/app-nodes/n8n-nodes-base.gmail/message-operations.md#reply-options) for more information."
+}

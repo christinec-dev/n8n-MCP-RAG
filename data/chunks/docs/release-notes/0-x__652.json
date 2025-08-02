@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 652,
+  "content": "### Bug fixes\n\n* [Nextcloud:](/integrations/builtin/app-nodes/n8n-nodes-base.nextcloud.md) Fixed issue where List operation on an empty Folder returned an error.\n* [Spotify:](/integrations/builtin/app-nodes/n8n-nodes-base.spotify.md) Fixed issues with pagination and infinite executions."
+}

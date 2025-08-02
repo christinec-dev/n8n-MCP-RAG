@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/telemetry-opt-out.md",
+  "index": 6,
+  "content": "### Opt out of telemetry events\n\nTo opt out of telemetry events, set the `N8N_DIAGNOSTICS_ENABLED` environment variable to false, for example:\n\n```bash\nexport N8N_DIAGNOSTICS_ENABLED=false\n```"
+}

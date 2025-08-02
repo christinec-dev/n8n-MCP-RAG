@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/logging.md",
+  "index": 6,
+  "content": "# Set a save location for the log file\nexport N8N_LOG_FILE_LOCATION=/home/jim/n8n/logs/n8n.log"
+}

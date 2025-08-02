@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.graphql.md",
+  "index": 4,
+  "content": "### Authentication\n\nSelect the type of authentication to use.\n\nIf you select anything other than **None**, the **Credential for <selected-auth-type>** parameter appears for you to select an existing or create a new authentication credential for that authentication type."
+}

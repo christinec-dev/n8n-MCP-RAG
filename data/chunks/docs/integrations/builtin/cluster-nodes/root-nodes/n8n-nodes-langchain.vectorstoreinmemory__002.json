@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreinmemory.md",
+  "index": 2,
+  "content": "# Simple Vector Store node\n\nUse the Simple Vector Store node to store and retrieve [embeddings](/glossary.md#ai-embedding) in n8n's in-app memory. \n\nOn this page, you'll find the node parameters for the Simple Vector Store node, and links to more resources.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\"\n\n/// note | This node is different from AI memory nodes\nThe simple vector storage described here is different to the AI memory nodes such as [Simple Memory](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorybufferwindow/index.md).\n\nThis node creates a [vector database](/glossary.md#ai-vector-store) in the app memory.\n///"
+}

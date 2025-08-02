@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.jwt.md",
+  "index": 10,
+  "content": "### Not Before\n\nThe **Not Before** or `nbf` claim identifies the time before which the JWT must not be accepted for processing.\n\nRefer to [\"nbf\" (Not Before) Claim](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.5) for more information."
+}

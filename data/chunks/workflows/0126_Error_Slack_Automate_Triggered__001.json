@@ -1,0 +1,12 @@
+{
+  "source": "0126_Error_Slack_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Slack\",\n      \"type\": \"n8n-nodes-base.slack\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"text\": \"=🐞 What?!\\n*This execution{{$node[\\\"Error Trigger\\\"].json[\\\"workflow\\\"][\\\"name\\\"]}} went wrong*\\\\nWhy don't you go take a look {{$node[\\\"Error Trigger\\\"].json[\\\"execution\\\"][\\\"url\\\"]}}\",\n        \"channel\": \"\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"slackApi\": {\n          \"id\": \"\",\n          \"name\": \"\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Error Trigger\",\n      \"type\": \"n8n-nodes-base.errorTrigger\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {},\n      \"executeOnce\": false,\n      \"retryOnFail\": false,\n      \"typeVersion\": 1,\n      \"alwaysOutputData\": true\n    }\n  ],\n  \"connections\": {\n    \"Error Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Slack\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.slack",
+      "n8n-nodes-base.errorTrigger"
+    ],
+    "trigger": "error trigger"
+  }
+}

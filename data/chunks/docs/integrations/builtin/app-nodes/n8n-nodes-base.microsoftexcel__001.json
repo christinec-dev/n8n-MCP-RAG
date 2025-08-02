@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftexcel.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: Microsoft Excel 365 node documentation\ndescription: Learn how to use the Microsoft Excel node in n8n. Follow technical documentation to integrate Microsoft Excel node into your workflows.\ncontentType: [integration, reference]\npriority: high\n---"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/subworkflow-conversion.md",
+  "index": 4,
+  "content": "## How to convert part of a workflow to a sub-workflow\n\nSelect the desired nodes on the canvas. Right-click the canvas background and select **Convert to sub-workflow**."
+}

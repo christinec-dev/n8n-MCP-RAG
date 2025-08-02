@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.xml.md",
+  "index": 3,
+  "content": "## Node parameters\n\n- **Mode**: The format the data should be converted from and to.\n\t- **JSON to XML**: Converts data from JSON to XML.\n    - **XML to JSON**: Converts data from XML to JSON.\n- **Property Name**: Enter the name of the property which contains the data to convert."
+}

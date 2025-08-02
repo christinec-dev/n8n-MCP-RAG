@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-2.md",
+  "index": 10,
+  "content": "\": [\n\t\t\t[\n\t\t\t{\n\t\t\t\t\"node\": \"Customer Datastore (n8n training)\",\n\t\t\t\t\"type\": \"main\",\n\t\t\t\t\"index\": 0\n\t\t\t}\n\t\t\t]\n\t\t]\n\t\t},\n\t\t\"Customer Datastore (n8n training)\": {\n\t\t\"main\": [\n\t\t\t[\n\t\t\t{\n\t\t\t\t\"node\": \"Date & Time\",\n\t\t\t\t\"type\": \"main\",\n\t\t\t\t\"index\": 0\n\t\t\t}\n\t\t\t]\n\t\t]\n\t\t},\n\t\t\"Date & Time\": {\n\t\t\"main\": [\n\t\t\t[\n\t\t\t{\n\t\t\t\t\"node\": \"If\",\n\t\t\t\t\"type\": \"main\",\n\t\t\t\t\"index\": 0\n\t\t\t}\n\t\t\t]\n\t\t]\n\t\t},\n\t\t\"If\": {\n\t\t\"main\": [\n\t\t\t[\n\t\t\t{\n\t\t\t\t\"node\": \"Wait\",\n\t\t\t\t\"type\": \"main\",\n\t\t\t\t\"index\": 0\n\t\t\t}\n\t\t\t]\n\t\t]\n\t\t},\n\t\t\"Wait\": {\n\t\t\"main\": [\n\t\t\t[\n\t\t\t{\n\t\t\t\t\"node\": \"Edit Fields\",\n\t\t\t\t\"type\": \"main\",\n\t\t\t\t\"index\": 0\n\t\t\t}\n\t\t\t]\n\t\t]\n\t\t},\n\t\t\"Schedule Trigger\": {\n\t\t\"main\": [\n\t\t\t[\n\t\t\t{\n\t\t\t\t\"node\": \"Customer Datastore (n8n training)\",\n\t\t\t\t\"type\": \"main\",\n\t\t\t\t\"index\": 0\n\t\t\t}\n\t\t\t]\n\t\t]\n\t\t}\n\t}\n\t}\n\t```"
+}

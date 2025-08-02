@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 14,
+  "content": "## Round a Date\n\nConfigure the node for this operation using these parameters:\n\n* **Date**: Enter the date you'd like to round.\n* **Mode**: Choose whether to **Round Down** or **Round Up**.\n* **To Nearest**: Select the unit you'd like to round to. Choose from:\n    * **Year**\n    * **Month**\n    * **Week**\n    * **Day**\n    * **Hour**\n    * **Minute**\n    * **Second**\n* **Output Field Name**: Enter the name of the field to output the rounded date to."
+}

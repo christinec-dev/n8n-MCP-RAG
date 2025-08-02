@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.brandfetch.md",
+  "index": 3,
+  "content": "## Operations\n\n* Return a company's colors\n* Return a company's data\n* Return a company's fonts\n* Return a company's industry\n* Return a company's logo & icon"
+}

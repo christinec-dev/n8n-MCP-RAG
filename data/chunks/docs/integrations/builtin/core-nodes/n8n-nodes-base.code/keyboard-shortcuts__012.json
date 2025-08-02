@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.code/keyboard-shortcuts.md",
+  "index": 12,
+  "content": "## Formatting\n\n=== \"Windows\"\n\n    | Action          | Shortcut                                     |\n    |-----------------|----------------------------------------------|\n    | Format document | ++shift+alt+f++ |\n    \n=== \"macOS\"\n\n    | Action          | Shortcut                                     |\n    |-----------------|----------------------------------------------|\n    | Format document | ++shift+command+f++ |\n    \n=== \"Linux\"\n\n    | Action          | Shortcut                                      |\n    |-----------------|-----------------------------------------------|\n    | Format document | ++control+shift+i++ |"
+}

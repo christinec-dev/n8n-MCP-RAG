@@ -1,0 +1,12 @@
+{
+  "source": "0088_Manual_Harvest_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"120\",\n  \"name\": \"Create a client in Harvest\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Harvest\",\n      \"type\": \"n8n-nodes-base.harvest\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"name\": \"\",\n        \"resource\": \"client\",\n        \"operation\": \"create\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"harvestApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Harvest\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.harvest"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/managing-workflows.md",
+  "index": 2,
+  "content": "# Workflow management in Embed\n\n--8<-- \"_snippets/embed-license.md\"\n\nWhen managing an embedded n8n deployment, spanning across teams or organizations, you will likely need to run the same (or similar) workflows for multiple users. There are two available options for doing so:\n\n| Solution | Pros | Cons |\n| -------- | ---- | ---- |\n| Create a workflow for each user | No limitation on how workflow starts (can use any trigger) | Requires managing multiple workflows. |\n| Create a single workflow, and pass it user credentials when executing | Simplified workflow management (only need to change one workflow). | To run the workflow, your product must call it |\n\n\n\n/// warning\nThe APIs referenced in this document are subject to change at any time. Be sure the check for continued functionality with each version upgrade.\n///"
+}

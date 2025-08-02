@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/download-workflows.md",
+  "index": 2,
+  "content": "# Download workflows\n\nn8n Cloud instance owners can download workflows from the most recent backup.\n\nYou can do this with the [Cloud admin dashboard](/manage-cloud/cloud-admin-dashboard.md)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 560,
+  "content": "### Enhanced nodes\n\n\n* [Lemlist:](/integrations/builtin/app-nodes/n8n-nodes-base.lemlist.md) Added additional fields to Create operation of Lead resource.\n* [Slack:](/integrations/builtin/app-nodes/n8n-nodes-base.slack.md) Added User Group resource.\n* [Todoist:](/integrations/builtin/app-nodes/n8n-nodes-base.todoist.md) Added Update operation to Task resource.\n* [Wait:](/integrations/builtin/core-nodes/n8n-nodes-base.wait.md) Improved descriptions of available Respond options.\n* [WooCommerce:](/integrations/builtin/app-nodes/n8n-nodes-base.woocommerce.md) Added password field to Crate operation of Customer resource."
+}

@@ -1,0 +1,12 @@
+{
+  "source": "1217_Posthog_Webhook_Automate_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"PostHog\",\n      \"type\": \"n8n-nodes-base.postHog\",\n      \"position\": [\n        640,\n        280\n      ],\n      \"parameters\": {\n        \"eventName\": \"={{$json[\\\"query\\\"][\\\"event\\\"]}}\",\n        \"distinctId\": \"n8n\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"postHogApi\": \"PostHog Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        440,\n        280\n      ],\n      \"webhookId\": \"f6d0071e-3cf9-49fd-8bbd-afdbea6b0c67\",\n      \"parameters\": {\n        \"path\": \"f6d0071e-3cf9-49fd-8bbd-afdbea6b0c67\",\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"PostHog\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.postHog",
+      "n8n-nodes-base.webhook"
+    ],
+    "trigger": null
+  }
+}

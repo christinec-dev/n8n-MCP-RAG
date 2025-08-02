@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/create-environments.md",
+  "index": 8,
+  "content": "### Configure Git in n8n\n\n--8<-- \"_snippets/source-control-environments/configure-git-in-n8n.md\""
+}

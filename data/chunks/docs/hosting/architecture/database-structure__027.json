@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 27,
+  "content": "### workflow_statistics\n\nCounts workflow IDs and their status."
+}

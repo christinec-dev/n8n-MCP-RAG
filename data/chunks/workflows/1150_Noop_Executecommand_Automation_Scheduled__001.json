@@ -1,0 +1,15 @@
+{
+  "source": "1150_Noop_Executecommand_Automation_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"81\",\n  \"name\": \"Execute a command that gives the hard disk memory used on the host machine\",\n  \"nodes\": [\n    {\n      \"name\": \"Execute Command\",\n      \"type\": \"n8n-nodes-base.executeCommand\",\n      \"position\": [\n        670,\n        300\n      ],\n      \"parameters\": {\n        \"command\": \"df -k / | tail -1 | awk '{print $5}'\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        470,\n        300\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"hour\": 9\n            },\n            {\n              \"hour\": 16\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        870,\n        300\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"number\": [\n            {\n              \"value1\": \"={{parseInt($node[\\\"Execute Command\\\"].json[\\\"stdout\\\"])}}\",\n              \"value2\": 80,\n              \"operation\": \"larger\"\n            }\n          ],\n          \"string\": []\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Twilio\",\n      \"type\": \"n8n-nodes-base.twilio\",\n      \"position\": [\n        1070,\n        200\n      ],\n      \"parameters\": {\n        \"to\": \"+12345\",\n        \"from\": \"+123\",\n        \"message\": \"=Your hard disk space is filling up fast! Your hard disk is {{$node[\\\"Execute Command\\\"].json[\\\"stdout\\\"]}} full.\"\n      },\n      \"credentials\": {\n        \"twilioApi\": \"twilio-credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NoOp\",\n      \"type\": \"n8n-nodes-base.noOp\",\n      \"position\": [\n        1070,\n        400\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twilio\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ],\n        [\n          {\n            \"node\": \"NoOp\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Execute Command\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Execute Command\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.executeCommand",
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.twilio",
+      "n8n-nodes-base.noOp"
+    ],
+    "trigger": null
+  }
+}

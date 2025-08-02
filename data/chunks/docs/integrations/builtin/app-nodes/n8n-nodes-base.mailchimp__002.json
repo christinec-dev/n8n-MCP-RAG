@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mailchimp.md",
+  "index": 2,
+  "content": "# Mailchimp node\n\nUse the Mailchimp node to automate work in Mailchimp, and integrate Mailchimp with other applications. n8n has built-in support for a wide range of Mailchimp features, including creating, updating, and deleting campaigns, as well as getting list groups. \n\nOn this page, you'll find a list of operations the Mailchimp node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Mailchimp credentials](/integrations/builtin/credentials/mailchimp.md) for guidance on setting up authentication. \n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/using-the-fromai-function.md",
+  "index": 2,
+  "content": "# Let AI specify the tool parameters\n\nWhen configuring [tools](/glossary.md#ai-tool) connected to the Tools Agent, many parameters can be filled in by the AI model itself. The AI model will use the context from the task and information from other connected tools to fill in the appropriate details.\n\nThere are two ways to do this, and you can switch between them."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/label-operations.md",
+  "index": 3,
+  "content": "## Create a label\n\nUse this operation to create a new label.\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Label**.\n* **Operation**: Select **Create**.\n* **Name**: Enter a display name for the label."
+}

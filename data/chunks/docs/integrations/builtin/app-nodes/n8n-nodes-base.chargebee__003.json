@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.chargebee.md",
+  "index": 3,
+  "content": "## Operations\n\n* Customer\n    * Create a customer\n* Invoice\n    * Return the invoices\n    * Get URL for the invoice PDF\n* Subscription\n    * Cancel a subscription\n    * Delete a subscription"
+}

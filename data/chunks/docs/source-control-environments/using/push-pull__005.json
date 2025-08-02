@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/using/push-pull.md",
+  "index": 5,
+  "content": "### Pulling may cause brief service interruption\n\nIf you pull changes to an active workflow, n8n sets the workflow to inactive while pulling, then reactivates it. This may result in a few seconds of downtime for the workflow."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 19,
+  "content": "# The email address to use for the TLS/SSL certificate creation\nSSL_EMAIL=user@example.com\n```"
+}

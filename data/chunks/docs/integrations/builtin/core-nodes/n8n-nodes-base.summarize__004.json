@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.summarize.md",
+  "index": 4,
+  "content": "### Fields to Summarize\n\nUse these fields to define how you want to summarize your input data.\n\n* **Aggregation**: Select the aggregation method to use on a given field. Options include:\n\t* **Append**: Append \n\t\t* If you select this option, decide whether you want to **Include Empty Values** or not.\n\t* **Average**: Calculate the numeric average of your input data.\n\t* **Concatenate**: Combine together values in your input data.\n\t\t* If you select this option, decide whether you want to **Include Empty Values** or not.\n\t\t* **Separator**: Select the separator you want to insert between concatenated values.\n\t* **Count**: Count the total number of values in your input data.\n\t* **Count Unique**: Count the number of unique values in your input data.\n\t* **Max**: Find the highest numeric value in your input data.\n\t* **Min**: Find the lowest numeric value in your input data.\n\t* **Sum**: Add together the numeric values in your input data.\n* **Field**: Enter the name of the field you want to perform the aggregation on."
+}

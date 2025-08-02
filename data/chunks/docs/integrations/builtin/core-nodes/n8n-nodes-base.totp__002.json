@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.totp.md",
+  "index": 2,
+  "content": "# TOTP\n\nThe TOTP node provides a way to generate a TOTP (time-based one-time password).\n\n/// note | Credentials\nRefer to [TOTP credentials](/integrations/builtin/credentials/totp.md) for guidance on setting up authentication. \n///"
+}

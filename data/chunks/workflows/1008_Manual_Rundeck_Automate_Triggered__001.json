@@ -1,0 +1,12 @@
+{
+  "source": "1008_Manual_Rundeck_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Rundeck\",\n      \"type\": \"n8n-nodes-base.rundeck\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"jobid\": \"f02c7661-6f75-4ffe-958c-c0ed5f9bc9e6\"\n      },\n      \"credentials\": {\n        \"rundeckApi\": \"rundeck_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Rundeck\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.rundeck"
+    ],
+    "trigger": null
+  }
+}

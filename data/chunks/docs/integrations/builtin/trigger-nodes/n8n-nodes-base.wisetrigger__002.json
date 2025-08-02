@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.wisetrigger.md",
+  "index": 2,
+  "content": "# Wise Trigger node\n\n[Wise](https://wise.com) allows you to transfer money abroad with low-cost money transfers, receive money with international account details, and track transactions on your phone.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/wise.md).\n///\n\n/// note | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Wise Trigger integrations](https://n8n.io/integrations/wise-trigger/) page.\n///"
+}

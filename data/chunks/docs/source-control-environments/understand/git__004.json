@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/understand/git.md",
+  "index": 4,
+  "content": "## Branches: Multiple copies of a project\n\nGit uses branches to maintain multiple copies of a document alongside each other. Every branch has its own version. A common pattern is to have a main branch, and then everyone who wants to contribute to the project works on their own branch (copy). When they finish their work, their branch is merged back into the main branch.\n\n![Diagram](/_images/source-control-environments/simple-git-branch.png)"
+}

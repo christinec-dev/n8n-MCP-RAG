@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/label-operations.md",
+  "index": 5,
+  "content": "## Delete a label\n\nUse this operation to delete an existing label.\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Label**.\n* **Operation**: Select **Delete**.\n* **Label ID**: Enter the ID of the label you want to delete.\n\nRefer to the [Gmail API Method: users.labels.delete](https://developers.google.com/gmail/api/reference/rest/v1/users.labels/delete) documentation for more information."
+}

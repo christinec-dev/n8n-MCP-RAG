@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.googlesheetstrigger/common-issues.md",
+  "index": 2,
+  "content": "# Google Sheets Trigger node common issues\n\nHere are some common errors and issues with the [Google Sheets Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.googlesheetstrigger/index.md) and steps to resolve or troubleshoot them."
+}

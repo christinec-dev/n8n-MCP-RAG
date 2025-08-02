@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/index.md",
+  "index": 3,
+  "content": "## Node parameters\n\nAdd **Trigger Rules** to determine when the trigger should run.\n\nUse the **Trigger Interval** to select the time interval unit of measure to schedule the trigger for. All other parameters depend on the interval you select. Choose from:\n\n- [Seconds trigger interval](#seconds-trigger-interval)\n- [Minutes trigger interval](#minutes-trigger-interval)\n- [Hours trigger interval](#hours-trigger-interval)\n- [Days trigger interval](#days-trigger-interval)\n- [Weeks trigger interval](#weeks-trigger-interval)\n- [Months trigger interval](#months-trigger-interval)\n- [Custom (Cron) interval](#custom-cron-interval)\n\nYou can add multiple **Trigger Rules** to run the node on different schedules.\n\nRefer to the sections below for more detail on configuring each **Trigger Interval**. Refer to [Templates and examples](#templates-and-examples) for further examples."
+}

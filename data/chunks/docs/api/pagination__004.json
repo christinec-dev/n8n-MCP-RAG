@@ -1,0 +1,5 @@
+{
+  "source": "docs/api/pagination.md",
+  "index": 4,
+  "content": "# For n8n Cloud\ncurl -X 'GET' \\\n  '<your-cloud-instance>/api/v<version-number>/workflows?active=true&limit=150' \\\n  -H 'accept: application/json' \\\n  -H 'X-N8N-API-KEY: <your-api-key>'\n```\n\nThe response is in JSON format, and includes a `nextCursor` value. This is an example response.\n\n```js\n{\n  \"data\": [\n    // The response contains an object for each workflow\n    {\n      // Workflow data\n    }\n  ],\n  \"nextCursor\": \"MTIzZTQ1NjctZTg5Yi0xMmQzLWE0NTYtNDI2NjE0MTc0MDA\"\n}\n```\n\nThen to request the next page:\n\n```bash"
+}

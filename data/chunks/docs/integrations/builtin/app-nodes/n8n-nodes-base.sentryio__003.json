@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.sentryio.md",
+  "index": 3,
+  "content": "## Operations\n\n* Event\n    * Get event by ID\n    * Get all events\n* Issue\n    * Delete an issue\n    * Get issue by ID\n    * Get all issues\n    * Update an issue\n* Project\n    * Create a new project\n    * Delete a project\n    * Get project by ID\n    * Get all projects\n    * Update a project\n* Release\n    * Create a release\n    * Delete a release\n    * Get release by version identifier\n    * Get all releases\n    * Update a release\n* Organization\n    * Create an organization\n    * Get organization by slug\n    * Get all organizations\n    * Update an organization\n* Team\n    * Create a new team\n    * Delete a team\n    * Get team by slug\n    * Get all teams\n    * Update a team"
+}

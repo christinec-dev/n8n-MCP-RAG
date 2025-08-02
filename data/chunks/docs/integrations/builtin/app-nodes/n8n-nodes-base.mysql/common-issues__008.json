@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mysql/common-issues.md",
+  "index": 8,
+  "content": "### If MySQL and n8n are running in the same Docker container\n\nIf MySQL and n8n are running in the same Docker container, the `localhost` address doesn't need any special configuration. You can configure MySQL to listen on `localhost` and configure the **Host** in the [MySQL credentials in n8n](/integrations/builtin/credentials/ollama.md) to use `localhost`."
+}

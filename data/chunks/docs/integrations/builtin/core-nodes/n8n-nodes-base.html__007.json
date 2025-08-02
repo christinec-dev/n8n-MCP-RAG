@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.html.md",
+  "index": 7,
+  "content": "### Extraction Values\n\n- **Key**: Enter the key to save the extracted value under.\n- **CSS Selector**: Enter the CSS selector to search for.\n- **Return Value**: Select the type of data to return. Choose from:\n\t- **Attribute**: Return an attribute value like `class` from an element.\n\t\t- If you select this option, enter the name of the **Attribute** to return the value of.\n\t- **HTML**: Return the HTML that the element contains.\n\t- **Text**: Return the text content of the element.\n\t\t- If you choose this option, you can also enter a comma-separated list of selectors to skip in the **Skip Selectors**.\n\t- **Value**: Return the value of an input, select, or text area.\n- **Return Array**: Choose whether to return multiple extraction values as an array (turned on) or as a single string (turned off)."
+}

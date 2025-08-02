@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 316,
+  "content": "### Bug fixes\n\n* Core: account for the enabled state in the first pinned trigger in a workflow.\n* Core: fix pinned trigger execution.\n* CLI: handle unparseable strings during JSON key migration.\n* CLI: fix the excessive instantiation type error for flattened executions.\n* CLI: initiate the nodes directory to ensure `npm install` succeeds.\n* CLI: ensure tsc build errors also cause Turbeorepo builds to fail.\n* Nextcloud node: fix an issue with credential verification.\n* Freshdesk node: fix an issue where the getAll operation required non-existant options."
+}

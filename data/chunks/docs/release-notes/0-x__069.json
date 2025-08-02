@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 69,
+  "content": "### New features\n\n* Core: Convert `eventBus` controller to decorator style and improve permissions.\n* Core: Prevent non owners password reset when SAML is enabled (this is preparation for an upcoming feature).\n* Core: Read ephemeral license from environment and clean up `ee` flags.\n* Editor: Allow tab to accept completion.\n* Editor: Enable saving workflow when node details view is open.\n* Editor: SSO onboarding (this is preparation for an upcoming feature).\n* Editor: SSO setup (this is preparation for an upcoming feature)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 191,
+  "content": "### Bug fixes\n\n* Core: don't send credentials to browser console.\n* Core: permit a workflow user who isn't the owner to use their own credentials.\n* Editor: fix for loading executions that aren't on the current executions list.\n* Editor: make the tertiary button on the **Usage** page transparent.\n* Editor: update credential owner warning when sharing."
+}

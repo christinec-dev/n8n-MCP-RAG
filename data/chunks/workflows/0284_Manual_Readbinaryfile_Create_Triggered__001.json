@@ -1,0 +1,14 @@
+{
+  "source": "0284_Manual_Readbinaryfile_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"meta\": {\n    \"instanceId\": \"dfdeafd1c3ed2ee08eeab8c2fa0c3f522066931ed8138ccd35dc20a1e69decd3\"\n  },\n  \"nodes\": [\n    {\n      \"id\": \"aecce7a8-24f6-48c0-a7f0-f48a421d1d8c\",\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        540,\n        400\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"66822f20-83a9-4272-920c-5d8c9140f912\",\n      \"name\": \"Read From File\",\n      \"type\": \"n8n-nodes-base.readBinaryFile\",\n      \"position\": [\n        740,\n        400\n      ],\n      \"parameters\": {\n        \"filePath\": \"/home/node/.n8n/concerts-2023.csv\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"9b469774-7c1d-41a3-9bfe-18fc3527f96e\",\n      \"name\": \"Convert To Spreadsheet\",\n      \"type\": \"n8n-nodes-base.spreadsheetFile\",\n      \"position\": [\n        940,\n        400\n      ],\n      \"parameters\": {\n        \"options\": {\n          \"rawData\": true,\n          \"readAsString\": true\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"a10bd105-16f7-47c8-b5a0-a5a10e51ae10\",\n      \"name\": \"Insert into MySQL\",\n      \"type\": \"n8n-nodes-base.mySql\",\n      \"position\": [\n        1140,\n        400\n      ],\n      \"parameters\": {\n        \"table\": {\n          \"__rl\": true,\n          \"mode\": \"name\",\n          \"value\": \"concerts_2023_csv\"\n        },\n        \"columns\": \"Date, Band, ConcertName, Country, City, Location, LocationAddress\",\n        \"options\": {}\n      },\n      \"credentials\": {\n        \"mySql\": {\n          \"id\": \"46\",\n          \"name\": \"MySQL n8n articles\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Read From File\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Convert To Spreadsheet\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Read From File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Convert To Spreadsheet\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Insert into MySQL\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.readBinaryFile",
+      "n8n-nodes-base.spreadsheetFile",
+      "n8n-nodes-base.mySql"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainretrievalqa/index.md",
+  "index": 2,
+  "content": "# Question and Answer Chain node\n\nUse the Question and Answer Chain node to use a [vector store](/glossary.md#ai-vector-store) as a retriever.\n\nOn this page, you'll find the node parameters for the Question and Answer Chain node, and links to more resources."
+}

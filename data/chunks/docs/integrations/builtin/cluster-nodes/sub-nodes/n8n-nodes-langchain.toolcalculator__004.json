@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolcalculator.md",
+  "index": 4,
+  "content": "## Related resources\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/tools-link.md\"\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-overview-link.md\"\n--8<-- \"_glossary/ai-glossary.md\""
+}

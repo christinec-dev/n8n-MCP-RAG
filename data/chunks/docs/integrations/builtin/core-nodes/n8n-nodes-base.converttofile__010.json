@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.converttofile.md",
+  "index": 10,
+  "content": "### Convert to Text File\n\nEnter the name of the **Text Input Field** that contains a string to convert to a file. Use dot-notation for deep fields, for example `level1.level2.currentKey`.\n\n#### Convert to Text File options\n\nYou can also configure this operation with these **Options**:\n\n* **File Name**: Enter the file name for the generated output file.\n* **Encoding**: Choose the character set to use to encode the data. The default is **utf8**."
+}

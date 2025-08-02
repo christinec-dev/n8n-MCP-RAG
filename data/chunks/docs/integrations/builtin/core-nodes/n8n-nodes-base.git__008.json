@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.git.md",
+  "index": 8,
+  "content": "## Commit\n\nConfigure this operation with these parameters:\n\n* **Repository Path**: Enter the local path of the git repository.\n* **Message**: Enter the commit message to use in this field."
+}

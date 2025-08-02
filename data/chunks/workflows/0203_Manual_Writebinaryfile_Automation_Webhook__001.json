@@ -1,0 +1,13 @@
+{
+  "source": "0203_Manual_Writebinaryfile_Automation_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"160\",\n  \"name\": \"Write a file to the host machine\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        260,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        460,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"https://docs.n8n.io/assets/img/n8n-logo.png\",\n        \"options\": {},\n        \"responseFormat\": \"file\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Write Binary File\",\n      \"type\": \"n8n-nodes-base.writeBinaryFile\",\n      \"position\": [\n        660,\n        300\n      ],\n      \"parameters\": {\n        \"fileName\": \"/Users/tanay/Desktop/n8n-logo.png\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"HTTP Request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Write Binary File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.writeBinaryFile"
+    ],
+    "trigger": null
+  }
+}

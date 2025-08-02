@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/understand/index.md",
+  "index": 2,
+  "content": "# Understand source control and environments\n\n--8<-- \"_snippets/source-control-environments/feature-availability.md\"\n\n* [Environments in n8n](/source-control-environments/understand/environments.md): The purpose of environments, and how they work in n8n.\n* [Git in n8n](/source-control-environments/understand/git.md): How n8n uses Git. \n* [Branch patterns](/source-control-environments/understand/patterns.md): The possible relationships between n8n instances and Git branches."
+}

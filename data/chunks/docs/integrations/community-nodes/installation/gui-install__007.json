@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/installation/gui-install.md",
+  "index": 7,
+  "content": "### Upgrade to a specific version\n\nTo upgrade to a specific version (a version other than the latest), uninstall the node, then reinstall it, making sure to specify the target version. Follow the [Installation](#install-a-community-node) instructions for more guidance."
+}

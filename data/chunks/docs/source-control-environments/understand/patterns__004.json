@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/understand/patterns.md",
+  "index": 4,
+  "content": "## Multiple instances, one branch\n\nUse this pattern if you want the same workflows, tags, and variables everywhere, but want to use them in different n8n instances. \n\nYou can use this pattern for environments. For example, create two n8n instances, development and production. Link them both to the same branch. Push work from development, and pull it into production.\n\nThis pattern is also useful when testing a new version of n8n: you can create a new n8n instance with the new version, connect it to the Git branch and test it, while your production instance remains on the older version until you're confident it's safe to upgrade.\n\n--8<-- \"_snippets/source-control-environments/multi-instance-one-branch-pros-cons.md\"\n\n![Diagram](/_images/source-control-environments/vc-multi-one.png)"
+}

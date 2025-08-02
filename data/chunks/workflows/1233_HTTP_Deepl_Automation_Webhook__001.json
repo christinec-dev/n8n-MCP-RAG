@@ -1,0 +1,12 @@
+{
+  "source": "1233_HTTP_Deepl_Automation_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        510,\n        320\n      ],\n      \"parameters\": {\n        \"url\": \"https://www.thecocktaildb.com/api/json/v1/1/random.php\",\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"DeepL\",\n      \"type\": \"n8n-nodes-base.deepL\",\n      \"position\": [\n        710,\n        320\n      ],\n      \"parameters\": {\n        \"text\": \"={{$json[\\\"drinks\\\"][0][\\\"strInstructions\\\"]}}\",\n        \"translateTo\": \"FR\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"deepLApi\": \"DeepL API Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"HTTP Request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"DeepL\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.deepL"
+    ],
+    "trigger": null
+  }
+}

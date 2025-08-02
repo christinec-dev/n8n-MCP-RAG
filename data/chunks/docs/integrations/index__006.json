@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/index.md",
+  "index": 6,
+  "content": "## Generic integrations\n\nIf you need to connect to a service where n8n doesn't have a node, or a credential-only node, you can still use the [HTTP Request](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) node. Refer to the node page for details on how to set up authentication and create your API call."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 710,
+  "content": "### Bug fixes\n\n* [Jira:](/integrations/builtin/app-nodes/n8n-nodes-base.jira.md) Fixed an issues with the API version and fixed an issue with fetching the custom fields for the Issue resource"
+}

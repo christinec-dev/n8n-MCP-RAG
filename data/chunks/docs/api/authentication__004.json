@@ -1,0 +1,5 @@
+{
+  "source": "docs/api/authentication.md",
+  "index": 4,
+  "content": "## Create an API key\n\n1. Log in to n8n.\n1. Go to **Settings** > **n8n API**.\n1. Select **Create an API key**.\n1. Choose a **Label** and set an **Expiration** time for the key.\n1. If on an enterprise plan, choose the **Scopes** to give the key.\n1. Copy **My API Key** and use this key to authenticate your calls."
+}

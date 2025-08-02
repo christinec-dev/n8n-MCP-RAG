@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.stopanderror.md",
+  "index": 4,
+  "content": "## Node parameters\n\nBoth operations include one node parameter, the **Error Type**. Use this parameter to select the type of error to throw. Choose between the two operations: **Error Message** and **Error Object**.\n\nThe other parameters depend on which operation you select."
+}

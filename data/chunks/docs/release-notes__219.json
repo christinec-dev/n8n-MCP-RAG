@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 219,
+  "content": "### Enhanced node: Remove Duplicates\nThe [Remove Duplicates node](/integrations/builtin/core-nodes/n8n-nodes-base.removeduplicates/index.md) got a major makeover with the addition of two new operations: \n\n- Remove Items Processed in Previous Executions: Compare items in the current input to items from previous executions and remove duplicates  \n- Clear Deduplication History: Wipe the memory of items from previous executions.\n\nThis makes it easier to only process new items from any data source. For example, you can now more easily poll a Google sheet for new entries by `id` or remove duplicate orders from the same customer by comparing their `order date`. The great thing is, you can now do this within **and across** workflow runs. \n\n</div>"
+}

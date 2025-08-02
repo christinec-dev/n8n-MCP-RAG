@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sort.md",
+  "index": 2,
+  "content": "# Sort\n\nUse the Sort node to organize lists of items in a desired ordering, or generate a random selection.\n\n/// note | Array sort behavior\nThe Sort operation uses the default JavaScript operation where the elements to be sorted are converted into strings and their values compared. Refer to [Mozilla's guide to Array sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) to learn more.\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/using/push-pull.md",
+  "index": 4,
+  "content": "### Workflow and credential owner may change on pull\n\nWhen you pull from Git to an n8n instance, n8n tries to assign workflows and credentials to a matching user or project.\n\nIf the original owner is a user:\n\nIf the same owner is available on both instances (matching email), the owner remains the same. If the original owner isn't on the new instance, n8n sets the user performing the pull as the workflow owner.\n\nIf the original owner is a [project](/user-management/rbac/index.md):\n\nn8n tries to match the original project name to a project name on the new instance. If no matching project exists, n8n creates a new project with the name, assigns the current user as project owner, and imports the workflows and credentials to the project."
+}

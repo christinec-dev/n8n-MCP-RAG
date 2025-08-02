@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.graphql.md",
+  "index": 9,
+  "content": "### Response Format\n\nSelect the format you'd like to receive query results in. Choose between:\n\n* **JSON**\n* **String**: If you select this format, enter a **Response Data Property Name** to define the property the string is written to."
+}

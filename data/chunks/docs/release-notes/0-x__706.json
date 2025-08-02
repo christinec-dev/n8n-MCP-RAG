@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 706,
+  "content": "### Core Functionality\n- Improved error log messages\n- Fixed an issue where the tags got removed when deactivating the workflow or updating settings\n- Removed the circular references for the error caused by the request library"
+}

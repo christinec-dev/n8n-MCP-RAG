@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 491,
+  "content": "### Core Functionality\n\n- Added default polling interval for trigger nodes using polling.\n- Added support for additional hints below parameter fields.\n- Fixed a bug preventing default values from being used when testing credentials.\n- Improved the wording in the *Save your Changes?* dialog."
+}

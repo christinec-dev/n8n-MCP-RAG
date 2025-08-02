@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/templates.md",
+  "index": 5,
+  "content": "## Self-hosted n8n: Use your own library\n\n--8<-- \"_snippets/workflows/templates/custom-templates-library.md\""
+}

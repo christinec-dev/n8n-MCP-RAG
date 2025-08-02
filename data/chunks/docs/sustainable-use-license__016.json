@@ -1,0 +1,5 @@
+{
+  "source": "docs/sustainable-use-license.md",
+  "index": 16,
+  "content": "### What is fair-code, and how does the Sustainable Use License relate to it?\n\nFair-code isn't a software license. It describes a software model where software:\n\n* Is generally free to use and can be distributed by anybody.\n* Has its source code openly available.\n* Can be extended by anybody in public and private communities.\n* Is commercially restricted by its authors.\n\nThe Sustainable Use License is a fair-code license. You can read more about it and see other examples of fair-code licenses [here](https://faircode.io/).\n\nWe're always excited to talk about software licenses, fair-code, and other principles around sharing code with interested parties. To get in touch to chat, email [license@n8n.io](mailto:license@n8n.io)."
+}

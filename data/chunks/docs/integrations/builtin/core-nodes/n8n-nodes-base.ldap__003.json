@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ldap.md",
+  "index": 3,
+  "content": "## Operations\n\n* [**Compare**](#compare) an attribute\n* [**Create**](#create) a new entry\n* [**Delete**](#delete) an entry\n* [**Rename**](#rename) the DN of an existing entry\n* [**Search**](#search) LDAP\n* [**Update**](#update) attributes\n\nRefer to the sections below for details on configuring the node for each operation.\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

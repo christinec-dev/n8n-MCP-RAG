@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 102,
+  "content": "### Bug fixes\n\n* Core: allow serving icons for custom nodes with npm scoped names.\n* Core: rename `advancedFilters` to `advancedExecutionFilters`.\n* Editor: fix ElButton overrides.\n* Editor: only fetch new versions at app launch.\n* Fetch credentials on workflows view to include in duplicated workflows.\n* Fix color discrepancies for executions list items.\n* OpenAI Node: fix issue with expressions not working with chat complete.\n* OpenAI Node: simplify code."
+}

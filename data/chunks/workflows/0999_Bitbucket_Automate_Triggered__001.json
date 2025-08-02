@@ -1,0 +1,11 @@
+{
+  "source": "0999_Bitbucket_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Bitbucket Trigger\",\n      \"type\": \"n8n-nodes-base.bitbucketTrigger\",\n      \"position\": [\n        880,\n        390\n      ],\n      \"webhookId\": \"97ca8044-5835-4547-801d-c27dd7f10c2d\",\n      \"parameters\": {\n        \"events\": [\n          \"repo:push\"\n        ],\n        \"resource\": \"repository\",\n        \"repository\": \"test\"\n      },\n      \"credentials\": {\n        \"bitbucketApi\": \"bitbucket_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.bitbucketTrigger"
+    ],
+    "trigger": "bitbucket trigger"
+  }
+}

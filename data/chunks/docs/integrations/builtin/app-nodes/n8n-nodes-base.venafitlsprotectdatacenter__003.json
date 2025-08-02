@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.venafitlsprotectdatacenter.md",
+  "index": 3,
+  "content": "## Operations\n\n* Certificate\n\t* Create\n\t* Delete\n\t* Download\n\t* Get\n\t* Get Many\n\t* Renew\n* Policy\n\t* Get"
+}

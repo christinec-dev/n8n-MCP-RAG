@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 128,
+  "content": "### Node enhancements\n\n* GitHub node: update code to use resource locator component.\n* GitHub Trigger node: update code to use resource locator component.\n* Notion node: add option to set icons when creating pages or database pages.\n* Slack node: add support for manually inputting a channel name for channel operations."
+}

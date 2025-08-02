@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 572,
+  "content": "### Core Functionality\n\n- Added name and ID of a workflow to its settings.\n- Added parameter inputs to be multi-line.\n- Fixed an issue with declaring proxies when Axios is used.\n- Fixed an issue with serializing arrays and special characters.\n- Fixed an issue with updating expressions after renaming a node."
+}

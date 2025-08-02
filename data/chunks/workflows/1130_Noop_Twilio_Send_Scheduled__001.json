@@ -1,0 +1,15 @@
+{
+  "source": "1130_Noop_Twilio_Send_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"79\",\n  \"name\": \"Get the price of BTC in EUR and send an SMS when the price is larger than EUR 9000\",\n  \"nodes\": [\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        590,\n        500\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"mode\": \"everyMinute\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"CoinGecko\",\n      \"type\": \"n8n-nodes-base.coinGecko\",\n      \"position\": [\n        790,\n        500\n      ],\n      \"parameters\": {\n        \"coinIds\": [\n          \"bitcoin\"\n        ],\n        \"options\": {},\n        \"operation\": \"price\",\n        \"currencies\": [\n          \"eur\"\n        ]\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        990,\n        500\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"number\": [\n            {\n              \"value1\": \"={{$node[\\\"CoinGecko\\\"].json[\\\"bitcoin\\\"][\\\"eur\\\"]}}\",\n              \"value2\": 9000,\n              \"operation\": \"largerEqual\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Twilio\",\n      \"type\": \"n8n-nodes-base.twilio\",\n      \"position\": [\n        1190,\n        400\n      ],\n      \"parameters\": {\n        \"to\": \"1234\",\n        \"from\": \"1234\",\n        \"message\": \"=The price went up! The new price is {{$node[\\\"CoinGecko\\\"].json[\\\"bitcoin\\\"][\\\"eur\\\"]}}\"\n      },\n      \"credentials\": {\n        \"twilioApi\": \"twilio-credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NoOp\",\n      \"type\": \"n8n-nodes-base.noOp\",\n      \"position\": [\n        1190,\n        600\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twilio\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ],\n        [\n          {\n            \"node\": \"NoOp\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"CoinGecko\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"CoinGecko\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.coinGecko",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.twilio",
+      "n8n-nodes-base.noOp"
+    ],
+    "trigger": null
+  }
+}

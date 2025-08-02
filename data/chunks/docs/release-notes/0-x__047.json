@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 47,
+  "content": "### New features\n\n* A new command to get information about licenses for self-hosted users: \n\t```sh\n\tn8n license:info\n\t```"
+}

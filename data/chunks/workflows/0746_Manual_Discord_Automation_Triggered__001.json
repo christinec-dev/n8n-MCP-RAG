@@ -1,0 +1,12 @@
+{
+  "source": "0746_Manual_Discord_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"2\",\n  \"name\": \"Discord Intro\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        510,\n        330\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Discord\",\n      \"type\": \"n8n-nodes-base.discord\",\n      \"position\": [\n        800,\n        330\n      ],\n      \"parameters\": {\n        \"text\": \"Hello World!\",\n        \"webhookUri\": \"https://discordapp.com/api/webhooks/XXX/XXX\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Discord\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.discord"
+    ],
+    "trigger": null
+  }
+}

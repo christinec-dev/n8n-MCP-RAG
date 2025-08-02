@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/callback-operations.md",
+  "index": 4,
+  "content": "### Answer Query additional fields\n\nUse the **Additional Fields** to further refine the behavior of the node. Select **Add Field** to add any of the following:\n\n* **Cache Time**: Enter the maximum amount of time in seconds that the client may cache the result of the callback query. Telegram defaults to `0` seconds for this method.\n* **Show Alert**: Telegram can display the answer as a notification at the top of the chat screen or as an alert. Choose whether you want to keep the default notification display (turned off) or display the answer as an alert (turned on).\n* **Text**: If you want the answer to show text, enter up to 200 characters of text here.\n* **URL**: Enter a URL that will be opened by the user's client. Refer to the **url** parameter instructions at the Telegram Bot API [answerCallbackQuery](https://core.telegram.org/bots/api#answercallbackquery) documentation for more information.\n<!-- vale on -->"
+}

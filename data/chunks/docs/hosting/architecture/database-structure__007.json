@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 7,
+  "content": "### credentials_entity\n\nStores the [credentials](/glossary.md#credential-n8n) used to authenticate with integrations."
+}

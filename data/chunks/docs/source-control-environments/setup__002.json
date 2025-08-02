@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/setup.md",
+  "index": 2,
+  "content": "# Set up source control for environments\n\nLink a Git repository to an n8n instance and configure your source control.\n\nn8n uses source control to provide environments. Refer to [Environments in n8n](/source-control-environments/understand/environments.md) for more information."
+}

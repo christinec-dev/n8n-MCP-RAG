@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 80,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\nThis release introduces improvements to the execution lists. You can now save [Custom execution data](/workflows/executions/custom-executions-data.md), and use it to filter both the [All executions](/workflows/executions/all-executions.md) and [Single workflow executions](/workflows/executions/single-workflow-executions.md) lists.\n\n</div>\n\n\n* Add test overrides.\n* Core: Improve LDAP/SAML toggle and tests.\n* Core: Limit user invites when SAML is enabled.\n* Core: Make OAuth2 error handling consistent with success handling.\n* Editor: Fix ResourceLocator dropdown style."
+}

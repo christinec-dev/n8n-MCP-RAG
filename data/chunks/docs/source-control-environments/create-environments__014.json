@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/create-environments.md",
+  "index": 14,
+  "content": "## Next steps\n\nLearn more about:\n\n* [Environments in n8n](/source-control-environments/understand/environments.md) and [Git and n8n](/source-control-environments/understand/git.md)\n* [Source control patterns](/source-control-environments/understand/patterns.md)"
+}

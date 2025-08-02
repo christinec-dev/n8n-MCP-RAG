@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 206,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Inline expression editor\n\nYou can now quickly write expressions inline in a node parameter. You can still choose to open the full expressions editor.\n\n![\"Screenshot of the inline expressions editors\"](/_images/reference/release-notes/0.208.0-inline-expressions.png)\n\n</div>\n\n* Add workflow sharing telemetry.\n* Core: allow for hiding page usage with environment variables (for upcoming feature)\n* Editor: update UI copy for user management setup when sharing is disabled.\n* Editor: hide credentials password values.\n* Editor: set **All workflows** view as default view on the **Workflows** page.\n* Editor: update UI copy for workflow overwriting message."
+}

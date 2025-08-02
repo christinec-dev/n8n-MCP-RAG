@@ -1,0 +1,13 @@
+{
+  "source": "0085_Shopify_Twitter_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Twitter\",\n      \"type\": \"n8n-nodes-base.twitter\",\n      \"position\": [\n        720,\n        -220\n      ],\n      \"parameters\": {\n        \"text\": \"=Hey there, my design is now on a new product ✨\\nVisit my {{$json[\\\"vendor\\\"]}} shop to get this cool{{$json[\\\"title\\\"]}} (and check out more {{$json[\\\"product_type\\\"]}}) 🛍️\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"twitterOAuth1Api\": \"twitter\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Telegram\",\n      \"type\": \"n8n-nodes-base.telegram\",\n      \"position\": [\n        720,\n        -20\n      ],\n      \"parameters\": {\n        \"text\": \"=Hey there, my design is now on a new product!\\nVisit my {{$json[\\\"vendor\\\"]}} shop to get this cool{{$json[\\\"title\\\"]}} (and check out more {{$json[\\\"product_type\\\"]}})\",\n        \"chatId\": \"123456\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"telegramApi\": \"telegram_habot\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"product created\",\n      \"type\": \"n8n-nodes-base.shopifyTrigger\",\n      \"position\": [\n        540,\n        -110\n      ],\n      \"webhookId\": \"2a7e0e50-8f09-4a2b-bf54-a849a6ac4fe0\",\n      \"parameters\": {\n        \"topic\": \"products/create\"\n      },\n      \"credentials\": {\n        \"shopifyApi\": \"shopify_nodeqa\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"product created\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twitter\",\n            \"type\": \"main\",\n            \"index\": 0\n          },\n          {\n            \"node\": \"Telegram\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.twitter",
+      "n8n-nodes-base.telegram",
+      "n8n-nodes-base.shopifyTrigger"
+    ],
+    "trigger": null
+  }
+}

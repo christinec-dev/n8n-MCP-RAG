@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 354,
+  "content": "### Bug fixes\n\n* [HubSpot node](/integrations/builtin/app-nodes/n8n-nodes-base.hubspot.md): Fix for search endpoints.\n* [KoboToolbox node](/integrations/builtin/app-nodes/n8n-nodes-base.kobotoolbox.md): Improve attachment matching logic and GeoJSON Polygon format.\n* [Odoo node](/integrations/builtin/app-nodes/n8n-nodes-base.odoo.md): Prevent possible issues with some custom fields.\n* Sticky note node: Fix an issue that was causing the main header to hide.\n* [Todoist node](/integrations/builtin/app-nodes/n8n-nodes-base.todoist.md): Improve multi-item support."
+}

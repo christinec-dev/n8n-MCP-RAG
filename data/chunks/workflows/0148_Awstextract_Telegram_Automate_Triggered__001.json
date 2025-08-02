@@ -1,0 +1,14 @@
+{
+  "source": "0148_Awstextract_Telegram_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"AWS Textract\",\n      \"type\": \"n8n-nodes-base.awsTextract\",\n      \"position\": [\n        700,\n        340\n      ],\n      \"parameters\": {},\n      \"credentials\": {\n        \"aws\": {\n          \"id\": \"9\",\n          \"name\": \"aws\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Telegram Trigger\",\n      \"type\": \"n8n-nodes-base.telegramTrigger\",\n      \"position\": [\n        520,\n        220\n      ],\n      \"webhookId\": \"12345\",\n      \"parameters\": {\n        \"updates\": [\n          \"*\"\n        ],\n        \"additionalFields\": {\n          \"download\": true,\n          \"imageSize\": \"medium\"\n        }\n      },\n      \"credentials\": {\n        \"telegramApi\": {\n          \"id\": \"49\",\n          \"name\": \"Telegram mybot\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Airtable\",\n      \"type\": \"n8n-nodes-base.airtable\",\n      \"position\": [\n        880,\n        340\n      ],\n      \"parameters\": {\n        \"table\": \"receipts\",\n        \"options\": {},\n        \"operation\": \"append\",\n        \"application\": \"qwertz\",\n        \"addAllFields\": false\n      },\n      \"credentials\": {\n        \"airtableApi\": {\n          \"id\": \"6\",\n          \"name\": \"airtable_nodeqa\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"AWS S3\",\n      \"type\": \"n8n-nodes-base.awsS3\",\n      \"position\": [\n        700,\n        100\n      ],\n      \"parameters\": {\n        \"fileName\": \"={{$binary.data.fileName}}\",\n        \"operation\": \"upload\",\n        \"bucketName\": \"textract-demodata\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"aws\": {\n          \"id\": \"9\",\n          \"name\": \"aws\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"AWS Textract\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Airtable\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Telegram Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"AWS S3\",\n            \"type\": \"main\",\n            \"index\": 0\n          },\n          {\n            \"node\": \"AWS Textract\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.awsTextract",
+      "n8n-nodes-base.telegramTrigger",
+      "n8n-nodes-base.airtable",
+      "n8n-nodes-base.awsS3"
+    ],
+    "trigger": "telegram trigger"
+  }
+}

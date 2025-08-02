@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 396,
+  "content": "### Node enhancements\n\n* [Google Drive Node](/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/index.md): Drive upload, delete, and share operations now support shared Drives.\n* [Microsoft OneDrive](/integrations/builtin/app-nodes/n8n-nodes-base.microsoftonedrive.md): Add the rename operation for files and folders.\n* [Trello](/integrations/builtin/app-nodes/n8n-nodes-base.trello.md): Add support for operations relating to board members."
+}

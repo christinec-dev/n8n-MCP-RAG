@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 339,
+  "content": "## n8n@1.37.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.36.1...n8n@1.37.0) for this version.<br />\n**Release date:** 2024-04-10\n\n\n/// warning | Breaking change\nPlease note that this version contains a breaking change for self-hosted n8n. It removes the `--file` flag for the `execute` CLI command. If you have scripts relying on the `--file` flag, update them to first import the workflow and then execute it using the `--id` flag. Refer to [CLI commands](/hosting/cli-commands.md) for more information on CLI options.\n///\n\nThis release contains a new node, improvements to error handling and messaging, node enhancements, and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### New node: JWT\n\nThis release adds the [JWT core node](/integrations/builtin/core-nodes/n8n-nodes-base.jwt.md).\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

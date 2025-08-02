@@ -1,0 +1,14 @@
+{
+  "source": "0209_Noop_Kafka_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"166\",\n  \"name\": \"Receive messages from a topic and send an SMS\",\n  \"nodes\": [\n    {\n      \"name\": \"Kafka Trigger\",\n      \"type\": \"n8n-nodes-base.kafkaTrigger\",\n      \"position\": [\n        490,\n        260\n      ],\n      \"parameters\": {\n        \"topic\": \"topic_test\",\n        \"groupId\": \"n8n\",\n        \"options\": {\n          \"jsonParseMessage\": true\n        }\n      },\n      \"credentials\": {\n        \"kafka\": \"kafka\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        690,\n        260\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"number\": [\n            {\n              \"value1\": \"={{$node[\\\"Kafka Trigger\\\"].json[\\\"message\\\"][\\\"temp\\\"]}}\",\n              \"value2\": 50,\n              \"operation\": \"larger\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Vonage\",\n      \"type\": \"n8n-nodes-base.vonage\",\n      \"position\": [\n        890,\n        160\n      ],\n      \"parameters\": {\n        \"from\": \"Vonage APIs\",\n        \"message\": \"=Alert!\\nThe value of temp is {{$node[\\\"Kafka Trigger\\\"].json[\\\"message\\\"][\\\"temp\\\"]}}.\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"vonageApi\": \"vonage\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NoOp\",\n      \"type\": \"n8n-nodes-base.noOp\",\n      \"position\": [\n        890,\n        360\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Vonage\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ],\n        [\n          {\n            \"node\": \"NoOp\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Kafka Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.kafkaTrigger",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.vonage",
+      "n8n-nodes-base.noOp"
+    ],
+    "trigger": "kafka trigger"
+  }
+}

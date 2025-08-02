@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.gmailtrigger/common-issues.md",
+  "index": 2,
+  "content": "# Gmail Trigger node common issues\n\nHere are some common errors and issues with the [Gmail Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.gmailtrigger/index.md) and steps to resolve or troubleshoot them."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/help-community/contributing.md",
+  "index": 7,
+  "content": "## Contribute to the code\n\nThere are different ways in which you can contribute to the n8n code base:\n\n- Fix [issues](https://github.com/n8n-io/n8n/issues) reported on GitHub. The [CONTRIBUTING guide](https://github.com/n8n-io/n8n/blob/master/CONTRIBUTING.md) will help you get your development environment ready in minutes.\n- Add additional functionality to an existing third party integration.\n- Add a new feature to n8n."
+}

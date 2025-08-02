@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/deployment.md",
+  "index": 3,
+  "content": "## User data\n\nn8n recommends that you follow the same or similar practices used internally for n8n Cloud: Save user data using [Rook](https://rook.io/) and, if an n8n server goes down, a new instance starts on another machine using the same data.\n\nDue to this, you don't need to use backups except in case of a catastrophic failure, or when a user wants to reactivate their account within your prescribed retention period (two weeks for n8n Cloud)."
+}

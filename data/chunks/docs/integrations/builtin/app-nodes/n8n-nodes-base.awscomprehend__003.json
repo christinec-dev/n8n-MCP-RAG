@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.awscomprehend.md",
+  "index": 3,
+  "content": "## Operations\n\n**Text**\n\n- Identify the dominant language\n- Analyse the sentiment of the text"
+}

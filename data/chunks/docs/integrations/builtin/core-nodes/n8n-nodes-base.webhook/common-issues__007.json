@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/common-issues.md",
+  "index": 7,
+  "content": "## Test URL versus Production URL\n\nn8n generates two **Webhook URLs** for each Webhook node: a **Test URL** and a **Production URL**.\n\nWhile building or testing a workflow, use the **Test URL**. Once you're ready to use your Webhook URL in production, use the **Production URL**.\n\n| **URL type** | **How to trigger** | **Listening duration** | **Data shown in editor UI?** | \n| :--- | --- | --- | :---: |\n| Test URL | Select **Listen for test event** and trigger a test event from the source. | 120 seconds | :white_check_mark: |\n| Production URL | Activate the workflow | Until workflow deactivated | :x: |\n\nRefer to [Workflow development](/integrations/builtin/core-nodes/n8n-nodes-base.webhook/workflow-development.md) for more information."
+}

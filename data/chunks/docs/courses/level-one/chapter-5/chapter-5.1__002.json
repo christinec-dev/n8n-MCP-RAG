@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.1.md",
+  "index": 2,
+  "content": "# 1. Getting data from the data warehouse\n\nIn this part of the workflow, you will learn how to get data by making HTTP requests with the [**HTTP Request**](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) node.\n\nAfter completing this section, your workflow will look like this:\n\n[[ workflowDemo(\"file:////courses/level-one/chapter-5/chapter-5.1.json\") ]]\n\nFirst, let's set the scene for building Nathan's workflow."
+}

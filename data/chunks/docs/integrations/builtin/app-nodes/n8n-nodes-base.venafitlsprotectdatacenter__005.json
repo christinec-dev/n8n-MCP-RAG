@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.venafitlsprotectdatacenter.md",
+  "index": 5,
+  "content": "## Related resources\n\nn8n also provides:\n\n* A [node](/integrations/builtin/app-nodes/n8n-nodes-base.venafitlsprotectcloud.md) and [trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.venafitlsprotectcloudtrigger.md) node for Venafi TLS Protect Cloud.\n\n<!-- vale on -->\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/operation-not-supported.md\""
+}

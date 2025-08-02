@@ -1,0 +1,5 @@
+{
+  "source": "docs/index.md",
+  "index": 2,
+  "content": "# Welcome to n8n Docs\n\n\nThis is the documentation for [n8n](https://n8n.io/), a [fair-code](https://faircode.io) licensed workflow automation tool that combines AI capabilities with business process automation.\n\nIt covers everything from setup to usage and development. It's a work in progress and all [contributions](/help-community/contributing.md) are welcome."
+}

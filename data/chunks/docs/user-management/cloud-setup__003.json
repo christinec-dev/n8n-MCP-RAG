@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/cloud-setup.md",
+  "index": 3,
+  "content": "## Step one: In-app setup\n\n--8<-- \"_snippets/user-management/in-app-setup.md\""
+}

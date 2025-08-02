@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.msg91.md",
+  "index": 2,
+  "content": "# MSG91 node\n\nUse the MSG91 node to automate work in MSG91, and integrate MSG91 with other applications. n8n supports sending SMS with MSG91.\n\nOn this page, you'll find a list of operations the MSG91 node supports and links to more resources.\n\n/// note | Credentials\nRefer to [MSG91 credentials](/integrations/builtin/credentials/msg91.md) for guidance on setting up authentication. \n///"
+}

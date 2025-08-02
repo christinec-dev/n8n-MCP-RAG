@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 718,
+  "content": "### Bug fixes\n\n* [ASW Transcribe:](/integrations/builtin/app-nodes/n8n-nodes-base.awstranscribe.md) Fixed issues with options"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorymongochat.md",
+  "index": 2,
+  "content": "# MongoDB Chat Memory node\n\nUse the MongoDB Chat Memory node to use MongoDB as a [memory](/glossary.md#ai-memory) server for storing chat history.\n\nOn this page, you'll find a list of operations the MongoDB Chat Memory node supports, and links to more resources.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/mongodb.md).\n///\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

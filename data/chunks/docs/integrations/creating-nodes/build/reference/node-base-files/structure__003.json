@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/structure.md",
+  "index": 3,
+  "content": "## Outline structure for a declarative-style node\n\nThis code snippet gives an outline of the node structure. \n\n```js\nimport { INodeType, INodeTypeDescription } from 'n8n-workflow';\n\nexport class ExampleNode implements INodeType {\n\tdescription: INodeTypeDescription = {\n\t\t// Basic node details here\n\t\tproperties: [\n\t\t\t// Resources and operations here\n\t\t]\n\t};\n}\n```\nRefer to [Standard parameters](/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md) for information on parameters available to all node types. Refer to [Declarative-style parameters](/integrations/creating-nodes/build/reference/node-base-files/declarative-style-parameters.md) for the parameters available for declarative-style nodes."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.erpnext.md",
+  "index": 3,
+  "content": "## Operations\n\n**Document**\n- Create a document\n- Delete a document\n- Retrieve a document\n- Retrieve all documents\n- Update a document"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/index.md",
+  "index": 2,
+  "content": "# Flow logic\n\nn8n allows you to represent complex logic in your workflows.\n\n[[% import \"_macros/section-toc.html\" as sectionToc %]]\n\nThis section covers:\n\n[[ sectionToc.sectionToc(page) ]]"
+}

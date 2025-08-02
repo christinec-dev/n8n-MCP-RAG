@@ -1,0 +1,5 @@
+{
+  "source": "docs/1-0-migration-checklist.md",
+  "index": 19,
+  "content": "### Remove Node 16 support\n\nn8n now requires Node 18.17.0 or above."
+}

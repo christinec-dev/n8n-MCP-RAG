@@ -1,0 +1,12 @@
+{
+  "source": "1099_Error_Gmail_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Error Trigger\",\n      \"type\": \"n8n-nodes-base.errorTrigger\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Gmail\",\n      \"type\": \"n8n-nodes-base.gmail\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"toList\": [\n          \"recipient@email.com\"\n        ],\n        \"message\": \"=Workflow: {{$json[\\\"workflow\\\"][\\\"name\\\"]}}\\nError: {{$json[\\\"execution\\\"][\\\"error\\\"][\\\"message\\\"]}}\\nLast node executed: {{$json[\\\"execution\\\"][\\\"lastNodeExecuted\\\"]}}\\nExecution URL: {{$json[\\\"execution\\\"][\\\"url\\\"]}}\\nStacktrace:\\n{{$json[\\\"execution\\\"][\\\"error\\\"][\\\"stack\\\"]}}\",\n        \"subject\": \"=n8n Workflow Failure:  {{$json[\\\"workflow\\\"][\\\"name\\\"]}}\",\n        \"resource\": \"message\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"gmailOAuth2\": \"TBD\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Error Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Gmail\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.errorTrigger",
+      "n8n-nodes-base.gmail"
+    ],
+    "trigger": "error trigger"
+  }
+}

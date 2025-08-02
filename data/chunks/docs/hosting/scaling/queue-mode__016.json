@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/queue-mode.md",
+  "index": 16,
+  "content": "## Multi-main setup\n\n/// info | Feature availability\n* Available on Self-hosted Enterprise plans.\n///\n\nIn queue mode you can run more than one `main` process for high availability.\n\nIn a single-mode setup, the `main` process does two sets of tasks: \n\n- **regular tasks**, such as running the API, serving the UI, and listening for webhooks, and \n- **at-most-once tasks**, such as running non-HTTP triggers (timers, pollers, and persistent connections like RabbitMQ and IMAP), and pruning executions and binary data.\n\nIn a multi-main setup, there are two kinds of `main` processes:\n\n- **followers**, which run **regular tasks**, and\n- the **leader**, which runs **both regular and at-most-once tasks**."
+}

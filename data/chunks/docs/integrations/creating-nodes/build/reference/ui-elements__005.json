@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 5,
+  "content": "## Number\n\nNumber field with decimal points:\n\n```typescript\n{\n\tdisplayName: 'Amount',\n\tname: 'amount',\n\ttype: 'number',\n\trequired: true,\n\ttypeOptions: {\n\t\tmaxValue: 10,\n\t\tminValue: 0,\n\t\tnumberPrecision: 2,\n\t},\n\tdefault: 10.00,\n\tdescription: 'Your current amount',\n\tdisplayOptions: { // the resources and operations to display this element with\n\t\tshow: {\n\t\t\tresource: [\n\t\t\t\t// comma-separated list of resource names\n\t\t\t],\n\t\t\toperation: [\n\t\t\t\t// comma-separated list of operation names\n\t\t\t]\n\t\t}\n\t},\n}\n```\n\n![Decimal](/_images/integrations/creating-nodes/decimal.png)"
+}

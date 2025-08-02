@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 489,
+  "content": "### Core Functionality\n\n- Added optional debug logging to health check functionality."
+}

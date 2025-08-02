@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 568,
+  "content": "### Core Functionality\n\n- Improved the database migration process to reduce memory footprint.\n- Fixed an issue with telemetry by adding an anonymous ID."
+}

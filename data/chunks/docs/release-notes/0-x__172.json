@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 172,
+  "content": "### New features\n\n* Add demo experiment to help users activate.\n* Editor: Improvements to the **Executions** page.\n* Editor: Remove prevent-ndv-auto-open feature flag.\n* Editor: Update callout component design.\n* Add the expression extension framework."
+}

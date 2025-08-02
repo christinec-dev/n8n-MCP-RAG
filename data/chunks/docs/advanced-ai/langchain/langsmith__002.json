@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/langchain/langsmith.md",
+  "index": 2,
+  "content": "# Use LangSmith with n8n\n\n[LangSmith](https://www.langchain.com/langsmith) is a developer platform created by the LangChain team. You can connect your n8n instance to LangSmith to record and monitor runs in n8n, just as you can in a LangChain application.\n\n/// info | Feature availability\nSelf-hosted n8n only.\n///"
+}

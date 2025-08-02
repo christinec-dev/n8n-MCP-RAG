@@ -1,0 +1,12 @@
+{
+  "source": "0155_Mautic_Twilio_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"13\",\n  \"name\": \"Receive updates when a form is submitted in Mautic, and send a confirmation SMS\",\n  \"nodes\": [\n    {\n      \"name\": \"Mautic Trigger\",\n      \"type\": \"n8n-nodes-base.mauticTrigger\",\n      \"position\": [\n        510,\n        300\n      ],\n      \"webhookId\": \"9dce2b84-33fe-4816-ae4b-301c208b5384\",\n      \"parameters\": {\n        \"events\": [\n          \"mautic.form_on_submit\"\n        ]\n      },\n      \"credentials\": {\n        \"mauticApi\": \"mautic\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Twilio\",\n      \"type\": \"n8n-nodes-base.twilio\",\n      \"position\": [\n        710,\n        300\n      ],\n      \"parameters\": {\n        \"to\": \"={{$node[\\\"Mautic Trigger\\\"].json[\\\"mautic.form_on_submit\\\"][0][\\\"submission\\\"][\\\"results\\\"][\\\"phone_number\\\"]}}\",\n        \"from\": \"1234\",\n        \"message\": \"=Hey, {{$node[\\\"Mautic Trigger\\\"].json[\\\"mautic.form_on_submit\\\"][0][\\\"submission\\\"][\\\"results\\\"][\\\"first_name\\\"]}} 👋\\nThank you for signing up for the Webinar - Getting Started with n8n. The webinar will start at 1800 CEST on 31st October 2020.\\nSee you there!\"\n      },\n      \"credentials\": {\n        \"twilioApi\": \"twilio\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Mautic Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twilio\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.mauticTrigger",
+      "n8n-nodes-base.twilio"
+    ],
+    "trigger": "mautic trigger"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "source": "1229_Wise_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Wise\",\n      \"type\": \"n8n-nodes-base.wise\",\n      \"position\": [\n        470,\n        320\n      ],\n      \"parameters\": {\n        \"amount\": 500,\n        \"resource\": \"quote\",\n        \"operation\": \"create\",\n        \"profileId\": 16138858,\n        \"sourceCurrency\": \"EUR\",\n        \"targetCurrency\": \"EUR\",\n        \"targetAccountId\": 147767974\n      },\n      \"credentials\": {\n        \"wiseApi\": \"Wise API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Wise1\",\n      \"type\": \"n8n-nodes-base.wise\",\n      \"position\": [\n        660,\n        320\n      ],\n      \"parameters\": {\n        \"quoteId\": \"={{$json[\\\"id\\\"]}}\",\n        \"resource\": \"transfer\",\n        \"operation\": \"create\",\n        \"profileId\": 16138858,\n        \"targetAccountId\": 147767974,\n        \"additionalFields\": {\n          \"reference\": \"Thank you for the contribution\"\n        }\n      },\n      \"credentials\": {\n        \"wiseApi\": \"Wise API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Wise2\",\n      \"type\": \"n8n-nodes-base.wise\",\n      \"position\": [\n        870,\n        320\n      ],\n      \"parameters\": {\n        \"resource\": \"transfer\",\n        \"operation\": \"execute\",\n        \"profileId\": 16138858,\n        \"transferId\": \"={{$json[\\\"id\\\"]}}\"\n      },\n      \"credentials\": {\n        \"wiseApi\": \"Wise API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Wise3\",\n      \"type\": \"n8n-nodes-base.wise\",\n      \"position\": [\n        1070,\n        320\n      ],\n      \"parameters\": {\n        \"resource\": \"transfer\",\n        \"transferId\": \"={{$node[\\\"Wise1\\\"].json[\\\"id\\\"]}}\"\n      },\n      \"credentials\": {\n        \"wiseApi\": \"Wise API Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Wise\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Wise1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Wise1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Wise2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Wise2\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Wise3\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.wise",
+      "n8n-nodes-base.wise",
+      "n8n-nodes-base.wise",
+      "n8n-nodes-base.wise"
+    ],
+    "trigger": null
+  }
+}

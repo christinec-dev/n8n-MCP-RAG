@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/queue-mode.md",
+  "index": 2,
+  "content": "# Queue mode\n\nYou can run n8n in different modes depending on your needs. The queue mode provides the best scalability.\n\n/// note | Binary data storage\nn8n doesn't support queue mode with binary data storage in filesystem. If your workflows need to persist binary data in queue mode, you can use [S3 external storage](./external-storage.md).\n///"
+}

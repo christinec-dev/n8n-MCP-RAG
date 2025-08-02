@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflow.md",
+  "index": 9,
+  "content": "## Set up and use a sub-workflow\n\nThis section walks through setting up both the parent workflow and sub-workflow.\n\n--8<-- \"_snippets/flow-logic/subworkflow-usage.md\""
+}

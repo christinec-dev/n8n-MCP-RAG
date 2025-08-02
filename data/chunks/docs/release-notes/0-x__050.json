@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 50,
+  "content": "### Bug fixes\n\n* Core: Upgrade google-timezones-json to use the correct timezone for Sao Paulo.\n* Code Node: Update vm2 to address [CVE-2023-30547](https://github.com/advisories/GHSA-ch3r-j5x3-6q2m)."
+}

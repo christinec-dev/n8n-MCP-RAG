@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/set-up-ssl.md",
+  "index": 3,
+  "content": "## Use a reverse proxy (recommended)\n\nUse a reverse proxy like [Traefik](https://doc.traefik.io/traefik/) or a Network Load Balancer (NLB) in front of the n8n instance. This should also take care of certificate renewals.\n\nRefer to [Security | Data encryption](https://n8n.io/legal/#security) for more information."
+}

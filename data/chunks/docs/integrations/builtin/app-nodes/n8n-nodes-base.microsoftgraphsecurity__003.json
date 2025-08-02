@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftgraphsecurity.md",
+  "index": 3,
+  "content": "## Operations\n\n* Secure Score\n    * Get\n    * Get All\n* Secure Score Control Profile\n    * Get\n    * Get All\n    * Update"
+}

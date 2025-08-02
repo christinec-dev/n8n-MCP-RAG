@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 224,
+  "content": "### Node enhancements\n\n* Facebook Graph APInode: update to support API version 15.\n* Google Calendar node: introduce the resource locator component to help users retrieve calendar parameters.\n* Postmark Trigger node: update credentials so they can be used with the HTTP Request node (for custom API calls).\n* Todoist node: update to use API version 2."
+}

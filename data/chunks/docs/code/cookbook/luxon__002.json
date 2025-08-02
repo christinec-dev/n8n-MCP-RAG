@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/luxon.md",
+  "index": 2,
+  "content": "# Date and time with Luxon\n\n[Luxon](https://github.com/moment/luxon/) is a JavaScript library that makes it easier to work with date and time. For full details of how to use Luxon, refer to [Luxon's documentation](https://moment.github.io/luxon/#/?id=luxon). \n\nn8n passes dates between nodes as strings, so you need to parse them. Luxon makes this easier.\n\n/// note | Python support\nLuxon is a JavaScript library. The two convenience [variables](#variables) created by n8n are available when using Python in the Code node, but their functionality is limited:\n\n* You can't perform Luxon operations on these variables. For example, there is no Python equivalent for `$today.minus(...)`.\n* The generic Luxon functionality, such as [Convert date string to Luxon](#convert-date-string-to-luxon), isn't available for Python users.\n///"
+}

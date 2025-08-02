@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.salesforcetrigger.md",
+  "index": 3,
+  "content": "## Events\n\n* On Account Created\n* On Account Updated\n* On Attachment Created\n* On Attachment Updated\n* On Case Created\n* On Case Updated\n* On Contact Created\n* On Contact Updated\n* On Custom Object Created\n* On Custom Object Updated\n* On Lead Created\n* On Lead Updated\n* On Opportunity Created\n* On Opportunity Updated\n* On Task Created\n* On Task Updated\n* On User Created\n* On User Updated"
+}

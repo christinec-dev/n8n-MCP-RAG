@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.git.md",
+  "index": 20,
+  "content": "## User Setup\n\nThis operation only prompts you to enter the local path of the git repository in the **Repository Path** parameter."
+}

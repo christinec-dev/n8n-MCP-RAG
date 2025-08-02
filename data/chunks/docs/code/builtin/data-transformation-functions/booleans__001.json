@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/builtin/data-transformation-functions/booleans.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: Data transformation functions for booleans\ndescription: A reference document listing built-in convenience functions to support data transformation in expressions for booleans.\ncontentType: reference\n---"
+}

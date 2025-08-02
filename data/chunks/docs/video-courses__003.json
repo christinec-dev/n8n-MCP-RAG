@@ -1,0 +1,5 @@
+{
+  "source": "docs/video-courses.md",
+  "index": 3,
+  "content": "## Beginner\n\nThe [Beginner](https://www.youtube.com/playlist?list=PLlET0GsrLUL59YbxstZE71WszP3pVnZfI) course covers the basics of n8n:\n\n- [Introduction and workflows](https://youtu.be/4BVTkqbn_tY?si=g2A5eD8kAoia5k6y)\n- [APIs and Webhooks](https://youtu.be/y_cpFMF1pzk?si=zi3wM4W7nx8Jkcw3)\n- [Nodes](https://youtu.be/rCPXBkeBWCQ?si=-T2iUsydwS5ym6yI)\n- [Data in n8n](https://youtu.be/2YfWuNziPE4?si=4jB-fubG1_T0HXYx)\n- [Core workflow concepts](https://youtu.be/kkrA7tGHYNo?si=mLVbuV98ohL5YVnm)\n- [Useful nodes](https://youtu.be/Rmi-ckbMOQE?si=H_dF77uf5KJU7RtH)\n- [Error handling](https://youtu.be/XEUVl3bbMhI?si=nUyaME5kyxe6daGO)\n- [Debugging](https://youtu.be/Gxe_RfCRH-o?si=F-pAviLTIeL3-X13)\n- [Collaboration](https://youtu.be/pI0W-0Qcwmo?si=X7sALFXo2e-cY9FQ)"
+}

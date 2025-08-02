@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mautic.md",
+  "index": 3,
+  "content": "## Operations\n\n* Campaign Contact\n    * Add contact to a campaign\n    * Remove contact from a campaign\n* Company\n    * Create a new company\n    * Delete a company\n    * Get data of a company\n    * Get data of all companies\n    * Update a company\n* Company Contact\n    * Add contact to a company\n    * Remove a contact from a company\n* Contact\n    * Create a new contact\n    * Delete a contact\n    * Edit contact's points\n    * Add/remove contacts from/to the don't contact list\n    * Get data of a contact\n    * Get data of all contacts\n    * Send email to contact\n    * Update a contact\n* Contact Segment\n    * Add contact to a segment\n    * Remove contact from a segment\n* Segment Email\n    * Send"
+}

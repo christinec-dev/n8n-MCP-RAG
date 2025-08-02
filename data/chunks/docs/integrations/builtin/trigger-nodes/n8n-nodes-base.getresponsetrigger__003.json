@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.getresponsetrigger.md",
+  "index": 3,
+  "content": "## Events\n\n- Receive notifications when a customer is subscribed to a list\n- Receive notifications when a customer is unsubscribed from a list\n- Receive notifications when an email is opened\n- Receive notifications when an email is clicked\n- Receive notifications when a survey is submitted"
+}

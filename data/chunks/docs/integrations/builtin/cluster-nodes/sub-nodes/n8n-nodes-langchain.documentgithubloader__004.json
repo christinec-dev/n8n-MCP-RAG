@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.documentgithubloader.md",
+  "index": 4,
+  "content": "## Node options\n\n* **Recursive**: Select whether to include sub-folders and files (turned on) or not (turned off).\n* **Ignore Paths**: Enter directories to ignore."
+}

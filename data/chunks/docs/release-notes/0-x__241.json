@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 241,
+  "content": "### Node enhancements\n\nVenafi TLS Protect Cloud node: make issuing template depend on application."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 588,
+  "content": "### Core Functionality\n- Fixed a build issue affecting a number of AWS nodes.\n- Changed workflows to use credential ids primarily (instead of names), allowing users to have different credentials with the same name."
+}

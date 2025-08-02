@@ -1,0 +1,11 @@
+{
+  "source": "0997_GitHub_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Github Trigger\",\n      \"type\": \"n8n-nodes-base.githubTrigger\",\n      \"position\": [\n        260,\n        410\n      ],\n      \"webhookId\": \"887a6b2b-dfc3-48b5-86e3-fc414613baee\",\n      \"parameters\": {\n        \"owner\": \"n8n-io\",\n        \"events\": [\n          \"*\"\n        ],\n        \"repository\": \"n8n-docs\"\n      },\n      \"credentials\": {\n        \"githubApi\": \"github_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.githubTrigger"
+    ],
+    "trigger": "github trigger"
+  }
+}

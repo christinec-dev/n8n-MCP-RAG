@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.awsses.md",
+  "index": 3,
+  "content": "## Operations\n\n* Custom Verification Email\n    * Create a new custom verification email template\n    * Delete an existing custom verification email template\n    * Get the custom email verification template\n    * Get all the existing custom verification email templates for your account\n    * Add an email address to the list of identities\n    * Update an existing custom verification email template.\n* Email\n    * Send\n    * Send Template\n* Template\n    * Create a template\n    * Delete a template\n    * Get a template\n    * Get all templates\n    * Update a template"
+}

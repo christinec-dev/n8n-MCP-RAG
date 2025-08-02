@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/common-issues.md",
+  "index": 3,
+  "content": "## Internal error: 400 Invalid value for 'content'\n\nA full error message might look like this:\n\n```\nInternal error\nError: 400 Invalid value for 'content': expected a string, got null.\n<stack-trace>\n```\n\nThis error can occur if the **Prompt** input contains a null value.\n\nYou might see this in one of two scenarios:\n\n1. When you've set the **Prompt** to **Define below** and have an expression in your **Text** that isn't generating a value.\n    * To resolve, make sure your expressions reference valid fields and that they resolve to valid input rather than null.\n2. When you've set the **Prompt** to **Connected Chat Trigger Node** and the incoming data has null values.\n    * To resolve, remove any null values from the `chatInput` field of the input node."
+}

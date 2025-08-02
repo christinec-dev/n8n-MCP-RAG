@@ -1,0 +1,5 @@
+{
+  "source": "docs/license-key.md",
+  "index": 4,
+  "content": "## Add a license key using an environment variables\n\nIn your n8n configuration, set `N8N_LICENSE_ACTIVATION_KEY` to your license key. If the instance already has an activated license, this variable will have no effect.\n\nRefer to [Environment variables](/hosting/configuration/configuration-methods.md) to learn more about configuring n8n."
+}

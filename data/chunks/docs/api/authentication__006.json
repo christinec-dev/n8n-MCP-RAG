@@ -1,0 +1,5 @@
+{
+  "source": "docs/api/authentication.md",
+  "index": 6,
+  "content": "# For a self-hosted n8n instance\ncurl -X 'GET' \\\n  '<N8N_HOST>:<N8N_PORT>/<N8N_PATH>/api/v<version-number>/workflows?active=true' \\\n  -H 'accept: application/json' \\\n  -H 'X-N8N-API-KEY: <your-api-key>'"
+}

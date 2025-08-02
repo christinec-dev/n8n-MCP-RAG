@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.intercom.md",
+  "index": 3,
+  "content": "## Operations\n\n* Company\n    * Create a new company\n    * Get data of a company\n    * Get data of all companies\n    * Update a company\n    * List company's users\n* Lead\n    * Create a new lead\n    * Delete a lead\n    * Get data of a lead\n    * Get data of all leads\n    * Update new lead\n* User\n    * Create a new user\n    * Delete a user\n    * Get data of a user\n    * Get data of all users\n    * Update a user"
+}

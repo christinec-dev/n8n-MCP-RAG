@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.flow.md",
+  "index": 2,
+  "content": "# Flow node\n\nUse the Flow node to automate work in Flow, and integrate Flow with other applications. n8n has built-in support for a wide range of Flow features, including creating, updating, and getting tasks.\n\nOn this page, you'll find a list of operations the Flow node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Flow credentials](/integrations/builtin/credentials/flow.md) for guidance on setting up authentication. \n///"
+}

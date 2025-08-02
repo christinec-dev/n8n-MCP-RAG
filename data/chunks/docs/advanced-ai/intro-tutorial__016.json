@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/intro-tutorial.md",
+  "index": 16,
+  "content": "## Next steps\n\nNow you have seen how to create a basic AI workflow, there are plenty of resources to build on that knowledge and plenty of examples to give you ideas of where to go next:\n\n* Learn more about AI concepts and view examples in [Examples and concepts](/advanced-ai/examples/introduction.md).\n* Browse AI [Workflow templates](https://n8n.io/workflows/?categories=25).\n* Find out how to [enhance the AI agent with tools](/advanced-ai/examples/understand-tools.md)."
+}

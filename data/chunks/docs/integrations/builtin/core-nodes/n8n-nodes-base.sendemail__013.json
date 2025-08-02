@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sendemail.md",
+  "index": 13,
+  "content": "### CC Email\n\nEnter an email address for the `cc:` field."
+}

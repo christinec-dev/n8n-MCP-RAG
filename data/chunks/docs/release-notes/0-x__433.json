@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 433,
+  "content": "### Bug fixes\n\n* **core:** Fix crash on webhook when last node did not return data\n* [EmailReadImap Node:](/integrations/builtin/core-nodes/n8n-nodes-base.emailimap.md) Fix issue that crashed process if node was configured wrong.\n* [Google Tasks Node:](/integrations/builtin/app-nodes/n8n-nodes-base.googletasks.md) Fix 'Show Completed' option and hide title field where not needed.\n* [NocoDB Node:](/integrations/builtin/app-nodes/n8n-nodes-base.nocodb.md) Fix pagination.\n* [Salesforce Node:](/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md) Fix issue that 'status' did not get used for Case => Create & Update"
+}

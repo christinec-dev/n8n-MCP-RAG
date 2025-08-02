@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/plan/node-ui-design.md",
+  "index": 6,
+  "content": "### UI text terminology\n\n* Use the same terminology as the service the node connects to. For example, a Notion node should refer to Notion blocks, not Notion paragraphs, because Notion calls these elements blocks. There are exceptions to this rule, usually to avoid technical terms (for example, refer to the guidance on [name and description for upsert operations](#upsert-operations)).\n* Sometimes a service has different terms for something in its API and in its GUI. Use the GUI language in your node, as this is what most users are familiar with. If you think some users may need to refer to the service's API docs, consider including this information in a hint.\n* Don't use technical jargon when there are simpler alternatives.\n* Be consistent when naming things. For example, choose one of `directory` or `folder` then stick to it."
+}

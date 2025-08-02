@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md",
+  "index": 12,
+  "content": "### Batching\n\nControl how to batch large numbers of input items:\n\n* **Items per Batch**: Enter the number of input items to include in each batch.\n* **Batch Interval**: Enter the time to wait between each batch of requests in milliseconds. Enter 0 for no batch interval."
+}

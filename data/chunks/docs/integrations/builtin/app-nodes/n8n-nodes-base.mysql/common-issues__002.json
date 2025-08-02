@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mysql/common-issues.md",
+  "index": 2,
+  "content": "# MySQL node common issues\n\nHere are some common errors and issues with the [MySQL node](/integrations/builtin/app-nodes/n8n-nodes-base.mysql/index.md) and steps to resolve or troubleshoot them."
+}

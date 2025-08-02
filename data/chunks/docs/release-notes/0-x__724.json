@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 724,
+  "content": "### Enhanced nodes\n\n* [Function:](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) Added console.log support for writing to browser console\n* [Function Item:](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) Added console.log support for writing to browser console"
+}

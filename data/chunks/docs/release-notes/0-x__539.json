@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 539,
+  "content": "### Enhanced nodes\n\n\n* [Telegram Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.telegramtrigger/index.md) Added support for downloading images to channel_post updates."
+}

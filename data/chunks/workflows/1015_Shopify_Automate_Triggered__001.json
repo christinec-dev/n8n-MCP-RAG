@@ -1,0 +1,11 @@
+{
+  "source": "1015_Shopify_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Shopify Trigger\",\n      \"type\": \"n8n-nodes-base.shopifyTrigger\",\n      \"position\": [\n        450,\n        450\n      ],\n      \"webhookId\": \"fd11b3d8-ff82-4902-89cc-c93b36ae38e7\",\n      \"parameters\": {\n        \"topic\": \"orders/create\"\n      },\n      \"credentials\": {\n        \"shopifyApi\": \"shopify_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.shopifyTrigger"
+    ],
+    "trigger": "shopify trigger"
+  }
+}

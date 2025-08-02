@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.woocommercetrigger.md",
+  "index": 3,
+  "content": "## Events\n\n- coupon.created\n- coupon.updated\n- coupon.deleted\n- customer.created\n- customer.updated\n- customer.deleted\n- order.created\n- order.updated\n- order.deleted\n- product.created\n- product.updated\n- product.deleted"
+}

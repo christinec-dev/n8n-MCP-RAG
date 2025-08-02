@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/luxon.md",
+  "index": 5,
+  "content": "## Setting the timezone in n8n\n\nLuxon uses the n8n timezone. This value is either:\n\n* Default: `America/New York`\n* A custom timezone for your n8n instance, set using the `GENERIC_TIMEZONE` environment variable.\n* A custom timezone for an individual workflow, configured in workflow settings."
+}

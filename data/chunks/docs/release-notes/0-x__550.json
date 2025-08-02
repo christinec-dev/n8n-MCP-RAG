@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 550,
+  "content": "### Core Functionality\n\n- Fixed a build issue by pinning rudder-sdk-node version 1.0.6 in CLI package.\n- Fixed an issue preventing the `n8n import:workflow --separate` CLI command from finding workflows on Windows.\n- Further improved the expression security.\n- Moved all nodes into separate directories in preparation for internationalization.\n- Removing default headers for PUT and PATCH operations when using Axios.\n- Revamped the workflow canvas."
+}

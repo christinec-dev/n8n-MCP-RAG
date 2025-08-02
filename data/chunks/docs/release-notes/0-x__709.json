@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 709,
+  "content": "### Core Functionality\n- Implemented the functionality to display the error details in a toast message for trigger nodes\n- Improved error handling by removing circular references from API errors"
+}

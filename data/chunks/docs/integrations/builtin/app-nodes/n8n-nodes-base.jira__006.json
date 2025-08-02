@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.jira.md",
+  "index": 6,
+  "content": "## Fetch issues for a specific project\n\nThe **Get All** operation returns all the issues from Jira. To fetch issues for a particular project, you need to use Jira Query Language (JQL).\n\nFor example, if you want to receive all the issues of a project named `n8n`, you'd do something like this:\n\n- Select **Get All** from the **Operation** dropdown list.\n- Toggle **Return All** to true.\n- Select **Add Option** and select **JQL**.\n- Enter `project=n8n` in the **JQL** field.\n\nThis query will fetch all the issues in the project named `n8n`. Enter the name of your project instead of `n8n` to fetch all the issues for your project."
+}

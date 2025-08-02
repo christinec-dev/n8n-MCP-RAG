@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 24,
+  "content": "### Error structure in the Output panel\n\n#### Error Message - What happened\n\nThis message explains to the user what happened, and the current issue that prevents the execution completing.\n\n* If you have the `displayName` of the parameter that triggered the error, include it in the error message or description (or both).\n* Item index: if you have the ID of the item that triggered the error, append `[Item X]` to the error message. For example, `The ID of the release in the parameter “Release ID” for could not be found [item 2]`.\n* Avoid using words like \"error\", \"problem\", \"failure\", \"mistake\".\n\n#### Error Description - How to solve or get unstuck\n\nThe description explains to users how to solve the problem, what to change in the node configuration (if that's the case), or how to get unstuck. Here, you should guide them to the next step and unblock them.\n\nAvoid using words like \"error\", \"problem\", \"failure\", \"mistake\"."
+}

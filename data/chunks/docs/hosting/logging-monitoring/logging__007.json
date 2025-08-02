@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/logging.md",
+  "index": 7,
+  "content": "# Set a 50 MB maximum size for each log file\nexport N8N_LOG_FILE_MAXSIZE=50"
+}

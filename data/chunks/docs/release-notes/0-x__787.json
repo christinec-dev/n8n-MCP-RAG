@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 787,
+  "content": "## n8n@0.112.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.111.0...n8n@0.112.0) for this version.<br />\n**Release date:** 2021-03-19\n\n- New nodes\n- DeepL\n- Enhanced nodes\n- TheHive: Added Mark as Read and Mark as Unread operations and added Ignore SSL Issues parameter to the credentials\n- Bug fixes\n- AWS SES: Fixed an issue to map CC addresses correctly\n- Salesforce: Fixed an issue with custom object for Get All operations and fixed an issue with the first name field for the Create and Update operations for the Lead resource\n- Strava: Fixed an issue with the access tokens not getting refreshed\n- TheHive: Fixed an issue with the case resolution status\n- Fixed an issue with importing separate decrypted credentials\n- Fixed issues with the sub-workflows not finishing\n- Fixed an issue with the sub-workflows running on the main process\n- Fixed concurrency issues with sub-workflows"
+}

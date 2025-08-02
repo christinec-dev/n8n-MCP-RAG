@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.modelselector.md",
+  "index": 4,
+  "content": "### Number of Inputs\n\nSpecifies the number of input connections available for attaching language models."
+}

@@ -1,0 +1,13 @@
+{
+  "source": "0169_Mattermost_Profitwell_Send_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"146\",\n  \"name\": \"Send financial metrics monthly to Mattermost\",\n  \"nodes\": [\n    {\n      \"name\": \"ProfitWell\",\n      \"type\": \"n8n-nodes-base.profitWell\",\n      \"position\": [\n        730,\n        220\n      ],\n      \"parameters\": {\n        \"type\": \"monthly\",\n        \"options\": {}\n      },\n      \"credentials\": {\n        \"profitWellApi\": \"profitwell\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        530,\n        220\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"hour\": 9,\n              \"mode\": \"everyMonth\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mattermost\",\n      \"type\": \"n8n-nodes-base.mattermost\",\n      \"position\": [\n        930,\n        220\n      ],\n      \"parameters\": {\n        \"message\": \"=Active Customers: {{$node[\\\"ProfitWell\\\"].json[\\\"active_customers\\\"]}}\\nTrailing Customers: {{$node[\\\"ProfitWell\\\"].json[\\\"active_trialing_customers\\\"]}}\\nNew Customers: {{$node[\\\"ProfitWell\\\"].json[\\\"new_customers\\\"]}}\\nGrowth Rate: {{$node[\\\"ProfitWell\\\"].json[\\\"growth_rate\\\"]}}\\nRecurring Revenue: {{$node[\\\"ProfitWell\\\"].json[\\\"recurring_revenue\\\"]}}\",\n        \"channelId\": \"w6rsxrqds3bt9pguxzduowqucy\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"mattermostApi\": \"mattermost\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"ProfitWell\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"ProfitWell\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mattermost\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.profitWell",
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.mattermost"
+    ],
+    "trigger": null
+  }
+}

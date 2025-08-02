@@ -1,0 +1,5 @@
+{
+  "source": "docs/keyboard-shortcuts.md",
+  "index": 8,
+  "content": "### With one or more nodes selected in canvas\n\n - **ArrowDown**: select sibling node below the current one\n - **ArrowLeft**: select node left of the current one\n - **ArrowRight**: select node right of the current one\n - **ArrowUp**: select sibling node above the current one\n - **Ctrl** + **c**: copy\n - **Ctrl** + **x**: cut\n - **D**: deactivate\n - **Delete**: delete\n - **Enter**: open\n - **F2**: rename\n - **P**: pin data in node. Refer to [Data pinning](/data/data-pinning.md) for more information.\n - **Shift** + **ArrowLeft**: select all nodes left of the current one\n - **Shift** + **ArrowRight**: select all nodes right of the current one\n - **Ctrl/Cmd** + **Shift** + **o** on a sub-workflow node: open the sub-workflow in a new tab"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.awsrekognition.md",
+  "index": 2,
+  "content": "# AWS Rekognition node\n\nUse the AWS Rekognition node to automate work in AWS Rekognition, and integrate AWS Rekognition with other applications. n8n has built-in support for a wide range of AWS Rekognition features, including analyzing images.\n\nOn this page, you'll find a list of operations the AWS Rekognition node supports and links to more resources.\n\n/// note | Credentials\nRefer to [AWS Rekognition credentials](/integrations/builtin/credentials/aws.md) for guidance on setting up authentication. \n///"
+}

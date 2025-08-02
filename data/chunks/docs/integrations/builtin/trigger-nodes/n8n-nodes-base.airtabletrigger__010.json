@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.airtabletrigger.md",
+  "index": 10,
+  "content": "### Download Attachments\n\nWhether to download attachments from the table. When enabled, the **Download Fields** parameter defines the attachment fields."
+}

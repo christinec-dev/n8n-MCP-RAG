@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.odoo.md",
+  "index": 3,
+  "content": "## Operations\n\n* Contact\n    * Create a new contact\n    * Delete a contact\n    * Get a contact\n    * Get all contacts\n    * Update a contact\n* Custom Resource\n    * Create a new item\n    * Delete an item\n    * Get an item\n    * Get all items\n    * Update an item\n* Note\n    * Create a new note\n    * Delete a note\n    * Get a note\n    * Get all notes\n    * Update a note\n* Opportunity\n    * Create a new opportunity\n    * Delete an opportunity\n    * Get an opportunity\n    * Get all opportunities\n    * Update an opportunity"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/try-it-out/tutorial-first-workflow.md",
+  "index": 9,
+  "content": "## Congratulations\n\nYou now have a fully functioning workflow that does something useful! It should look something like this:\n\n[[ workflowDemo(\"file:///try-it-out/quickstart/tutorial.json\") ]]\n\nAlong the way you have discovered:\n\n- How to find the nodes you want and join them together\n- How to use expressions to manipulate data\n- How to create credentials and attach them to nodes\n- How to use logic in your workflows\n\nThere are plenty of things you could add to this (perhaps add some more credentials and a node to send you an email of the results), or maybe you have a specific project in mind. Whatever your next steps, the resources linked below should help."
+}

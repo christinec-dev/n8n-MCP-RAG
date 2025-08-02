@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/understand/patterns.md",
+  "index": 2,
+  "content": "# Branch patterns\n\nThe relationship between n8n instances and Git branches is flexible. You can create different setups depending on your needs. \n\n--8<-- \"_snippets/source-control-environments/one-direction.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.syncromsp.md",
+  "index": 2,
+  "content": "# SyncroMSP node\n\nUse the SyncroMSP node to automate work in SyncroMSP, and integrate SyncroMSP with other applications. n8n has built-in support for a wide range of SyncroMSP features, including creating and deleting new customers, tickets, and contacts. \n\nOn this page, you'll find a list of operations the SyncroMSP node supports and links to more resources.\n\n/// note | Credentials\nRefer to [SyncroMSP credentials](/integrations/builtin/credentials/syncromsp.md) for guidance on setting up authentication. \n///"
+}

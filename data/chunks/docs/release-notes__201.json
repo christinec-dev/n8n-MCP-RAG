@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 201,
+  "content": "### Sub-workflow debugging\nWe made it much easier to debug sub-workflows by improving their accessibility from the parent workflow. \n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

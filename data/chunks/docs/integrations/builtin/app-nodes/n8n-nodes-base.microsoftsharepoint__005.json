@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftsharepoint.md",
+  "index": 5,
+  "content": "## Related resources\n\n<!-- add a link to the service's documentation. This should usually go direct to the API docs -->\nRefer to [Microsoft's SharePoint documentation](https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service) for more information about the service."
+}

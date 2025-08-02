@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/aws.md",
+  "index": 15,
+  "content": "## Services\n\nThe two service manifests (`postgres-service.yaml` and `n8n-service.yaml`) expose the services to the outside world using the Kubernetes load balancer using ports 5432 and 5678 respectively by default."
+}

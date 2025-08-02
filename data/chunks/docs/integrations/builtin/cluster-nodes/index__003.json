@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/index.md",
+  "index": 3,
+  "content": "## Root nodes\n\nEach cluster starts with one [root node](/glossary.md#root-node-n8n)."
+}

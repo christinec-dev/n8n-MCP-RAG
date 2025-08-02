@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/human-fallback.md",
+  "index": 2,
+  "content": "# Have a human fallback for AI workflows\n\nThis is a workflow that tries to answer user queries using the standard GPT-4 model. If it can't answer, it sends a message to Slack to ask for human help. It prompts the user to supply an email address.\n\nThis workflow uses the [Chat Trigger](/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md) to provide the chat interface, and the [Call n8n Workflow Tool](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolworkflow.md) to call a second workflow that handles checking for email addresses and sending the Slack message. \n\n[[ workflowDemo(\"file:///advanced-ai/examples/ask_a_human.json\") ]]"
+}

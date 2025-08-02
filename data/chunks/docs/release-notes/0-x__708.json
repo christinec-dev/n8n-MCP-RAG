@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 708,
+  "content": "### Enhanced nodes\n\n* [Google Drive:](/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/index.md) Added APP Properties and Properties options to the Upload operation of the File resource\n* [HTTP Request:](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) Added the functionality to log the request to the browser console for testing\n* [Notion:](/integrations/builtin/app-nodes/n8n-nodes-base.notion/index.md) Added the Include Time parameter date field types\n* [Salesforce:](/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md) Added Upsert operation to Account, Contact, Custom Object, Lead, and Opportunity resources\n* [Todoist:](/integrations/builtin/app-nodes/n8n-nodes-base.todoist.md) Added the Description option to the Task resource"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mailjet.md",
+  "index": 3,
+  "content": "## Operations\n\n* Email\n    * Send an email\n    * Send an email template\n* SMS\n    * Send an SMS"
+}

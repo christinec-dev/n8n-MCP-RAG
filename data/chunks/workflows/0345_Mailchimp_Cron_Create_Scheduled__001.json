@@ -1,0 +1,13 @@
+{
+  "source": "0345_Mailchimp_Cron_Create_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"1\",\n  \"name\": \"Create entry in Mailchimp from Airtable\",\n  \"nodes\": [\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        450,\n        450\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {}\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Airtable\",\n      \"type\": \"n8n-nodes-base.airtable\",\n      \"position\": [\n        650,\n        450\n      ],\n      \"parameters\": {\n        \"table\": \"Users\",\n        \"operation\": \"list\",\n        \"application\": \"=apprZs8g4tIGDUtqQ\",\n        \"additionalOptions\": {\n          \"fields\": [\n            \"Name\",\n            \"Email\",\n            \"Interest\"\n          ]\n        }\n      },\n      \"credentials\": {\n        \"airtableApi\": \"claudiajanebates@gmail.com\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mailchimp\",\n      \"type\": \"n8n-nodes-base.mailchimp\",\n      \"position\": [\n        840,\n        450\n      ],\n      \"parameters\": {\n        \"list\": \"777b2643d4\",\n        \"email\": \"={{$node[\\\"Airtable\\\"].json[\\\"fields\\\"][\\\"Email\\\"]}}\",\n        \"status\": \"subscribed\",\n        \"options\": {\n          \"tags\": \"Interest\"\n        },\n        \"mergeFieldsUi\": {\n          \"mergeFieldsValues\": [\n            {\n              \"name\": \"FNAME\",\n              \"value\": \"={{$node[\\\"Airtable\\\"].json[\\\"fields\\\"][\\\"Name\\\"]}}\"\n            }\n          ]\n        }\n      },\n      \"credentials\": {\n        \"mailchimpApi\": \"claudiajanebates@gmail.com\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Airtable\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Airtable\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mailchimp\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.airtable",
+      "n8n-nodes-base.mailchimp"
+    ],
+    "trigger": null
+  }
+}

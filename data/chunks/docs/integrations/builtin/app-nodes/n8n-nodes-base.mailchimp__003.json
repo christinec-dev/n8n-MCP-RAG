@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mailchimp.md",
+  "index": 3,
+  "content": "## Operations\n\n* Campaign\n    * Delete a campaign\n    * Get a campaign\n    * Get all the campaigns\n    * Replicate a campaign\n    * Creates a Resend to Non-Openers version of this campaign\n    * Send a campaign\n* List Group\n    * Get all groups\n* Member\n    * Create a new member on list\n    * Delete a member on list\n    * Get a member on list\n    * Get all members on list\n    * Update a new member on list\n* Member Tag\n    * Add tags from a list member\n    * Remove tags from a list member"
+}

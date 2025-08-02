@@ -1,0 +1,5 @@
+{
+  "source": "docs/help-community/contributing.md",
+  "index": 8,
+  "content": "## Contribute to the docs\n\nYou can contribute to the n8n documentation, for example by documenting nodes or fixing issues.\n\nThe repository for the docs is [here](https://github.com/n8n-io/n8n-docs) and the guidelines for contributing to the docs are [here](https://github.com/n8n-io/n8n-docs/blob/master/CONTRIBUTING.md)."
+}

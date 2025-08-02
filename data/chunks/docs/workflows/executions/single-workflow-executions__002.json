@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/single-workflow-executions.md",
+  "index": 2,
+  "content": "# Workflow-level executions list\n\nThe **Executions** list in a workflow shows all executions for that workflow.\n\n/// note | Deleted workflows\nWhen you delete a workflow, n8n deletes its execution history as well. This means you can't view executions for deleted workflows.\n///\n\n/// note | Execution history and workflow history\nDon't confuse the execution list with [Workflow history](/workflows/history.md).\n\nExecutions are workflow runs. With the executions list, you can see previous runs of the current version of the workflow. You can copy previous executions into the editor to [Debug and re-run past executions](/workflows/executions/debug.md) in your current workflow.\n\nWorkflow history is previous versions of the workflow: for example, a version with a different node, or different parameters set.\n///"
+}

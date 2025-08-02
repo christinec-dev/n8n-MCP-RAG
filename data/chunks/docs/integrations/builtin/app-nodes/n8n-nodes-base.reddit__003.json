@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.reddit.md",
+  "index": 3,
+  "content": "## Operations\n\n* Post\n    * Submit a post to a subreddit\n    * Delete a post from a subreddit\n    * Get a post from a subreddit\n    * Get all posts from a subreddit\n    * Search posts in a subreddit or in all of Reddit.\n* Post Comment\n    * Create a top-level comment in a post\n    * Retrieve all comments in a post\n    * Remove a comment from a post\n    * Write a reply to a comment in a post\n* Profile\n    * Get\n* Subreddit\n    * Retrieve background information about a subreddit.\n    * Retrieve information about subreddits from all of Reddit.\n* User\n    * Get"
+}

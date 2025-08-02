@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.localfiletrigger.md",
+  "index": 8,
+  "content": "# For example, **/myfile.txt\n```\n\nIgnore a sub-directory of a directory you're watching:\n\n```sh\n**/<directoryName>/**"
+}

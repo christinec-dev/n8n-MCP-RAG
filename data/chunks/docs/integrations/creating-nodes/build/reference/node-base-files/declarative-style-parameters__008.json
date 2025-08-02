@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/declarative-style-parameters.md",
+  "index": 8,
+  "content": "## `version`\n\n_Number_ or _Array_ | _Optional_\n\nIf you have one version of your node, this can be a number. If you want to support more than one version, turn this into an array, containing numbers for each node version.\n\nn8n supports two methods of node versioning, but declarative-style nodes must use the light versioning approach. Refer to [Node versioning](/integrations/creating-nodes/build/reference/node-versioning.md) for more information."
+}

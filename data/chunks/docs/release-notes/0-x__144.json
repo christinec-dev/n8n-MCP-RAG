@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 144,
+  "content": "### Node enhancements\n\nThis release includes an overhaul of the Slack node, adding new operations and a better user interface."
+}

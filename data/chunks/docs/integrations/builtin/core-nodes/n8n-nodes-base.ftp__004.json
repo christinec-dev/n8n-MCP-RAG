@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ftp.md",
+  "index": 4,
+  "content": "## Delete\n\nThis operation includes one parameter: **Path**. Enter the remote path that you would like to connect to."
+}

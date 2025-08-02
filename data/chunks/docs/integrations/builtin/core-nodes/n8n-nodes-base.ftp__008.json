@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ftp.md",
+  "index": 8,
+  "content": "## Rename\n\nConfigure this operation with these parameters:\n\n- **Old Path**: Enter the existing path of the file you'd like to rename in this field.\n- **New Path**: Enter the new path for the renamed file in this field."
+}

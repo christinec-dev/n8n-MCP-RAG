@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreweaviate.md",
+  "index": 18,
+  "content": "### Tenant Name\n\nThe specific tenant to store or retrieve documents for.\n\n/// note | Must enable at creation\nYou must pass a tenant name at first ingestion to enable multitenancy for a collection. You can't enable or disable multitenancy after creation.\n///"
+}

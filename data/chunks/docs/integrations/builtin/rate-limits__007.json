@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/rate-limits.md",
+  "index": 7,
+  "content": "## Handle rate limits in the HTTP Request node\n\nThe HTTP Request node has built-in settings for handling rate limits and large amounts of data."
+}

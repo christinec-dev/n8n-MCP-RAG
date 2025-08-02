@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.slacktrigger.md",
+  "index": 10,
+  "content": "### Token expired\n\n--8<-- \"_snippets/integrations/builtin/credentials/slack/token-rotation.md\""
+}

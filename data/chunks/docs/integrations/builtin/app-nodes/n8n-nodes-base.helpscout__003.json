@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.helpscout.md",
+  "index": 3,
+  "content": "## Operations\n\n* Conversation\n    * Create a new conversation\n    * Delete a conversation\n    * Get a conversation\n    * Get all conversations\n* Customer\n    * Create a new customer\n    * Get a customer\n    * Get all customers\n    * Get customer property definitions\n    * Update a customer\n* Mailbox\n    * Get data of a mailbox\n    * Get all mailboxes\n* Thread\n    * Create a new chat thread\n    * Get all chat threads"
+}

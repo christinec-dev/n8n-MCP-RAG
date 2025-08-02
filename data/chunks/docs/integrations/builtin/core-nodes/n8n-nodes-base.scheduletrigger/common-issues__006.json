@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/common-issues.md",
+  "index": 6,
+  "content": "### Adjust the timezone for an individual workflow\n\nTo set the timezone for an individual workflow:\n\n1. Open the workflow on the canvas.\n1. Select the <span class=\"inline-image\">![three dots menu](/_images/common-icons/three-dots-horizontal.png)</span> **Three dots icon** in the upper-right corner.\n1. Select **Settings**.\n1. Change the **Timezone** setting.\n1. Select **Save**."
+}

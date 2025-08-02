@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ssetrigger.md",
+  "index": 3,
+  "content": "## Node parameters\n\nThe SSE Trigger node has one parameter, the **URL**. Enter the URL from which to receive the server-sent events (SSE)."
+}

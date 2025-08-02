@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.4.md",
+  "index": 2,
+  "content": "# 4. Setting Values for Processing Orders\n\nIn this step of the workflow, you will learn how to select and set data before transferring it to Airtable using the Edit Fields (Set) node. After this step, your workflow should look like this:\n\n[[ workflowDemo(\"file:////courses/level-one/chapter-5/chapter-5.4.json\") ]]\n\nThe next step in Nathan's workflow is to filter the data to only insert the `employeeName` and `orderID` of all `processing` orders into Airtable.\n\nFor this, you need to use the [Edit Fields (Set) node](/integrations/builtin/core-nodes/n8n-nodes-base.set.md), which allows you to select and set the data you want to transfer from one node to another.\n\n/// note | Edit Fields node\nThe Edit Fields node can set completely new data as well as overwrite data that already exists. This node is crucial in workflows which expect incoming data from previous nodes, such as when inserting values into spreadsheets or databases.\n///"
+}

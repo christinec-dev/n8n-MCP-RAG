@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlechat.md",
+  "index": 3,
+  "content": "## Operations\n\n* Member\n    * Get a membership\n    * Get all memberships in a space\n* Message\n    * Create a message\n    * Delete a message\n    * Get a message\n\t* Send and Wait for Response\n    * Update a message\n* Space\n    * Get a space\n    * Get all spaces the caller is a member of\n\n--8<-- \"_snippets/integrations/builtin/send-and-wait-operation.md\""
+}

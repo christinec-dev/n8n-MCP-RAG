@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/light-evaluations.md",
+  "index": 8,
+  "content": "### 4. Run evaluation\n\nClick on the **Execute workflow** button to the left of the evaluation trigger. The workflow will execute multiple times, once for each row of the dataset:\n\n![Execute workflow button](/_images/advanced-ai/evaluations/execute-workflow-button.png)\n\nReview the outputs of each execution in the Google Sheet, and examine the execution details using the workflow's 'executions' tab if you need to.\n\nOnce your dataset grows past a handful of examples, consider [metric-based evaluation](/advanced-ai/evaluations/metric-based-evaluations.md) to get a numerical view of performance. See also [tips and common issues](/advanced-ai/evaluations/tips-and-common-issues.md)."
+}

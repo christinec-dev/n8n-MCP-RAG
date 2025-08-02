@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sendemail.md",
+  "index": 19,
+  "content": "### Approval parameters and options\n\nWhen using the Approval response type, the following options are available:\n\n* **Type of Approval**: Whether to present only an approval button or both an approval and disapproval buttons.\n* **Button Label**: The label for the approval or disapproval button. The default choice is `Approve` and `Decline` for approval and disapproval actions respectively.\n* **Button Style**: The style (primary or secondary) for the button.\n\nThis mode also offers the following options:\n\n* **Limit Wait Time**: Whether the workflow will automatically resume execution after a specified time limit. This can be an interval or a specific wall time.\n* **Append n8n Attribution**: Set whether to include the phrase `This email was sent automatically with n8n` at the end of the email (turned on) or not (turned off)."
+}

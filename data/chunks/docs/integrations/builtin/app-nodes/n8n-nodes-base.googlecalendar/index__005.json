@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/index.md",
+  "index": 5,
+  "content": "## Related resources\n\nn8n provides a trigger node for Google Calendar. You can find the trigger node docs [here](/integrations/builtin/trigger-nodes/n8n-nodes-base.googlecalendartrigger.md).\n\nRefer to [Google Calendar's documentation](https://developers.google.com/calendar/api/v3/reference) for more information about the service.\n\nView [example workflows and related content](https://n8n.io/integrations/google-calendar/) on n8n's website."
+}

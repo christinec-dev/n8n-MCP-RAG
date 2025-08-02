@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 242,
+  "content": "### Node updates\nEnhanced nodes:\n\n- [Invoice Ninja](/integrations/builtin/app-nodes/n8n-nodes-base.invoiceninja.md): Added actions for bank transactions\n- [OpenAI](/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/index.md): Added O1 models to the model select\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

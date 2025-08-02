@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 509,
+  "content": "### Enhanced nodes\n\n\n* [Edit Image:](/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md) Added Transparent operation.\n* [Kafka:](/integrations/builtin/app-nodes/n8n-nodes-base.kafka.md) Added Use Schema Registry option.\n* [Kafka Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.kafkatrigger.md) Added Use Schema Registry option.\n* [Redis:](/integrations/builtin/app-nodes/n8n-nodes-base.redis.md) Added database field to credentials.\n* [Salesforce:](/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md) Added Account Number field."
+}

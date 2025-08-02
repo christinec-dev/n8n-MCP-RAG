@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/jmespath.md",
+  "index": 6,
+  "content": "\"Jacob\",\n\t\t\t\t\"Jayden\"\n\t\t\t]\n\t\t}\n\t]\n\t*/\n\t```\n=== \"Code node (Python)\"\n\t```python\n\tfirstTwoNames = _jmespath(_json.body.people, \"[:2].first\" )\n\treturn {\"firstTwoNames\":firstTwoNames}\n\t\"\"\"\n\tReturns:\n\t[\n  \t\t{\n\t\t\t\"firstTwoNames\": [\n\t\t\t\"James\",\n\t\t\t\"Jacob\"\n\t\t\t]\n\t\t}\n\t]\n\t\"\"\"\n\t```\n\nGet a list of the dogs' ages using [object projections](https://jmespath.org/tutorial.html#object-projections):\n\n=== \"Expressions (JavaScript)\"\n\n\t```js\n\t{{$jmespath($json.body.dogs, \"*.age\")}}\n\t// Returns [7,5]\n\t```\n\n=== \"Code node (JavaScript)\"\n\t```js\n\tlet dogsAges = $jmespath($json.body.dogs, \"*.age\");\n\treturn {dogsAges};\n\t/* Returns:\n\t[\n\t\t{\n\t\t\t\"dogsAges\": [\n\t\t\t\t7,\n\t\t\t\t5\n\t\t\t]\n\t\t}\n\t]\n\t*/\n\t```\n=== \"Code node (Python)\"\n\t```python\n\tdogsAges = _jmespath(_json.body.dogs, \"*.age\")\n\treturn {\"dogsAges\": dogsAges}\n\t\"\"\"\n\tReturns:\n\t[\n\t\t{\n\t\t\t\"dogsAges\": [\n\t\t\t\t7,\n\t\t\t\t5\n\t\t\t]\n\t\t}\n\t]\n\t\"\"\"\n\t```"
+}

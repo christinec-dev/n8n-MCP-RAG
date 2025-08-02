@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.code.md",
+  "index": 7,
+  "content": "## Node inputs and outputs configuration\n\nBy configuring the LangChain Code node connectors (inputs and outputs) you can use it as an app node, root node or sub-node.\n\n![Screenshot of a workflow with four LangChain nodes, configured as different node types](/_images/integrations/builtin/cluster-nodes/langchaincode/create-node-types.png)\n\n| Node type | Inputs | Outputs | Code mode |\n| --------- | ------ | ------- | --------- |\n| App node. Similar to the [Code node](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md). | Main | Main | Execute |\n| Root node | Main; at least one other type | Main | Execute |\n| Sub-node | - | A type other than main. Must match the input type you want to connect to. | Supply Data |\n| Sub-node with sub-nodes | A type other than main |A type other than main. Must match the input type you want to connect to. | Supply Data |"
+}

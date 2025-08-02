@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.slacktrigger.md",
+  "index": 5,
+  "content": "## Options\n\nYou can further refine the node's behavior when you **Add Option**s:\n\n* **Resolve IDs**: Whether to resolve the IDs to their respective names and return them (turned on) or not (turned off, default).\n* **Usernames or IDs to ignore**: Select usernames or enter a comma-separated string of encoded user IDs to ignore events from. Choose from the list, or specify IDs using an [expression](/code/expressions.md)."
+}

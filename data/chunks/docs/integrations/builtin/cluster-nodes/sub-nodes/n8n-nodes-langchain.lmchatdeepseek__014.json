@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatdeepseek.md",
+  "index": 14,
+  "content": "### Top P\n\nUse this option to set the probability the completion should use. Use a lower value to ignore less probable options."
+}

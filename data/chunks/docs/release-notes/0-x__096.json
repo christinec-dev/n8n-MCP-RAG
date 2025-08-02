@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 96,
+  "content": "### Node enhancements\n\n* Item Lists Node: update actions text.\n* OpenAI Node: add support for GPT4 on chat completion.\n* Split In Batches Node: make it easier to combine processed data."
+}

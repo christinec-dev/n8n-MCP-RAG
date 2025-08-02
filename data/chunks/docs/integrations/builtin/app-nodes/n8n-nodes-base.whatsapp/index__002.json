@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.whatsapp/index.md",
+  "index": 2,
+  "content": "# WhatsApp Business Cloud node\n\nUse the WhatsApp Business Cloud node to automate work in WhatsApp Business, and integrate WhatsApp Business with other applications. n8n has built-in support for a wide range of WhatsApp Business features, including sending messages, and uploading, downloading, and deleting media. \n\nOn this page, you'll find a list of operations the WhatsApp Business Cloud node supports and links to more resources.\n\n/// note | Credentials\nRefer to [WhatsApp Business Cloud credentials](/integrations/builtin/credentials/whatsapp.md) for guidance on setting up authentication. \n///"
+}

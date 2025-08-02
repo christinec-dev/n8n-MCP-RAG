@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/declarative-style-node.md",
+  "index": 11,
+  "content": "### Step 5: Add node metadata\n\nMetadata about your node goes in the JSON file at the root of your node. n8n refers to this as the codex file. In this example, the file is `NasaPics.node.json`.\n\nAdd the following code to the JSON file:\n\n```json\n{\n\t\"node\": \"n8n-nodes-base.NasaPics\",\n\t\"nodeVersion\": \"1.0\",\n\t\"codexVersion\": \"1.0\",\n\t\"categories\": [\n\t\t\"Miscellaneous\"\n\t],\n\t\"resources\": {\n\t\t\"credentialDocumentation\": [\n\t\t\t{\n\t\t\t\t\"url\": \"\"\n\t\t\t}\n\t\t],\n\t\t\"primaryDocumentation\": [\n\t\t\t{\n\t\t\t\t\"url\": \"\"\n\t\t\t}\n\t\t]\n\t}\n}\n```\n\nFor more information on these parameters, refer to [Node codex files](/integrations/creating-nodes/build/reference/node-codex-files.md)."
+}

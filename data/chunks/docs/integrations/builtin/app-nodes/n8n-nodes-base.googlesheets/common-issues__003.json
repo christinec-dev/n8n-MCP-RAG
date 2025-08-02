@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/common-issues.md",
+  "index": 3,
+  "content": "## Append an array\n\nTo insert an array of data into Google Sheets, you must convert the array into a valid JSON (key, value) format.\n\nTo do so, consider using:\n\n1. The [Split Out](/integrations/builtin/core-nodes/n8n-nodes-base.splitout.md) node.\n1. The [AI Transform](/integrations/builtin/core-nodes/n8n-nodes-base.aitransform.md) node. For example, try entering something like:\n    ```\n    Convert 'languages' array to JSON (key, value) pairs.\n    ```\n1. The [Code node](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md).\n\n<!-- vale off -->"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 611,
+  "content": "### Enhanced nodes\n\n* [HubSpot Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.hubspottrigger.md) Authentication method changed to OAuth2.\n* [Wait:](/integrations/builtin/core-nodes/n8n-nodes-base.wait.md) Added improved status messages for Wait behavior."
+}

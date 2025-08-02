@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 23,
+  "content": "### General philosophy\n\nErrors are sources of pain for users. For this reason, n8n always wants to tell the user:\n\n* **What happened**: a description of the error and what went wrong.\n* **How to solve the problem**: or at least how to get unstuck and continue using n8n without problems. n8n doesn't want users to remain blocked, so use this as an opportunity to guide them to success."
+}

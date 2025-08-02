@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/security-audit.md",
+  "index": 12,
+  "content": "### Instance\n\nThis report shows:\n\n* Unprotected webhooks in the instance.\n* Missing security settings\n* If your instance is outdated."
+}

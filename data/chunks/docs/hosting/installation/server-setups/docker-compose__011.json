@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 11,
+  "content": "## 3. DNS setup\n\nTo host n8n online or on a network, create a dedicated subdomain pointed at your server.\n\nAdd an A record to route the subdomain accordingly:\n\n* **Type**: A\n* **Name**: `n8n` (or the desired subdomain)\n* **IP address**: (your server's IP address)"
+}

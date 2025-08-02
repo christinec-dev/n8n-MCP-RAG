@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.compression.md",
+  "index": 4,
+  "content": "### Compress\n\n- **Input Binary Field(s)**: Enter the name of the fields in the input data that contain the binary files you want to compress. To compress more than one file, use a comma-separated list.\n- **Output Format**: Choose whether to format the compressed output as **Zip** or **Gzip**.\n- **File Name**: Enter the name of the zip file the node creates.\n- **Put Output File in Field**: Enter the name of the field in the output data to contain the file."
+}

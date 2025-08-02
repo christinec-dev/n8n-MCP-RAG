@@ -1,0 +1,14 @@
+{
+  "source": "1206_Manual_Strava_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"93\",\n  \"name\": \"Create, update, and get activity in Strava\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        270,\n        340\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Strava\",\n      \"type\": \"n8n-nodes-base.strava\",\n      \"position\": [\n        470,\n        340\n      ],\n      \"parameters\": {\n        \"name\": \"Morning Run\",\n        \"type\": \"Run\",\n        \"startDate\": \"2020-10-01T18:30:00.000Z\",\n        \"elapsedTime\": 3600,\n        \"additionalFields\": {\n          \"distance\": 1000\n        }\n      },\n      \"credentials\": {\n        \"stravaOAuth2Api\": \"strava\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Strava1\",\n      \"type\": \"n8n-nodes-base.strava\",\n      \"position\": [\n        670,\n        340\n      ],\n      \"parameters\": {\n        \"operation\": \"update\",\n        \"activityId\": \"={{$node[\\\"Strava\\\"].json[\\\"id\\\"]}}\",\n        \"updateFields\": {\n          \"description\": \"Morning run in the park\"\n        }\n      },\n      \"credentials\": {\n        \"stravaOAuth2Api\": \"strava\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Strava2\",\n      \"type\": \"n8n-nodes-base.strava\",\n      \"position\": [\n        870,\n        340\n      ],\n      \"parameters\": {\n        \"operation\": \"get\",\n        \"activityId\": \"={{$node[\\\"Strava\\\"].json[\\\"id\\\"]}}\"\n      },\n      \"credentials\": {\n        \"stravaOAuth2Api\": \"strava\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Strava\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Strava1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Strava1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Strava2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Strava\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.strava",
+      "n8n-nodes-base.strava",
+      "n8n-nodes-base.strava"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/heroku.md",
+  "index": 6,
+  "content": "## Changing the deployment template\n\nYou can make changes to the deployment template by forking the [repository](https://github.com/n8n-io/n8n-heroku) and deploying from you fork."
+}

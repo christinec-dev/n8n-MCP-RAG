@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 618,
+  "content": "### Core Functionality\n\n- General UX improvements to the Editor UI.\n- Fixed an issue with the `PayloadTooLargeError`."
+}

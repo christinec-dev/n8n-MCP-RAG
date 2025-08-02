@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/cloud-admin-dashboard.md",
+  "index": 3,
+  "content": "## Access the dashboard from the app\n\n1. [Log in to n8n](https://app.n8n.cloud/magic-link)\n1. Select **Admin Dashboard**. n8n opens the dashboard."
+}

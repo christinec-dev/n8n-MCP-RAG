@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/update-cloud-version.md",
+  "index": 4,
+  "content": "## Automatic update\n\nn8n automatically updates outdated Cloud instances. \n\nIf you don't update you instance for 120 days, n8n emails you to warn you to update. After a further 30 days, n8n automatically updates your instance."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.tapfiliate.md",
+  "index": 3,
+  "content": "## Operations\n\n* Affiliate\n    * Create an affiliate\n    * Delete an affiliate\n    * Get an affiliate by ID\n    * Get all affiliates\n* Affiliate Metadata\n    * Add metadata to affiliate\n    * Remove metadata from affiliate\n    * Update affiliate's metadata\n* Program Affiliate\n    * Add affiliate to program\n    * Approve an affiliate for a program\n    * Disapprove an affiliate\n    * Get an affiliate in a program\n    * Get all affiliates in program"
+}

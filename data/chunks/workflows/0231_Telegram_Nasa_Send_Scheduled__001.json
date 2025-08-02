@@ -1,0 +1,13 @@
+{
+  "source": "0231_Telegram_Nasa_Send_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"174\",\n  \"name\": \"Send the Astronomy Picture of the day daily to a Telegram channel\",\n  \"nodes\": [\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"hour\": 20\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NASA\",\n      \"type\": \"n8n-nodes-base.nasa\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"download\": false,\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"nasaApi\": \"NASA\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Telegram\",\n      \"type\": \"n8n-nodes-base.telegram\",\n      \"position\": [\n        850,\n        300\n      ],\n      \"parameters\": {\n        \"file\": \"={{$node[\\\"NASA\\\"].json[\\\"url\\\"]}}\",\n        \"chatId\": \"-485365454\",\n        \"operation\": \"sendPhoto\",\n        \"additionalFields\": {\n          \"caption\": \"={{$node[\\\"NASA\\\"].json[\\\"title\\\"]}}\"\n        }\n      },\n      \"credentials\": {\n        \"telegramApi\": \"Telegram n8n bot\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"NASA\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"NASA\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Telegram\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.nasa",
+      "n8n-nodes-base.telegram"
+    ],
+    "trigger": null
+  }
+}

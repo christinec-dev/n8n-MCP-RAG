@@ -1,0 +1,14 @@
+{
+  "source": "0653_Manual_Convertkit_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"25\",\n  \"name\": \"Add subscriber to form, create tag and subscriber to the tag\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        300,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"ConvertKit\",\n      \"type\": \"n8n-nodes-base.convertKit\",\n      \"position\": [\n        500,\n        300\n      ],\n      \"parameters\": {\n        \"id\": 1657198,\n        \"email\": \"\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"convertKitApi\": \"convertkit\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"ConvertKit1\",\n      \"type\": \"n8n-nodes-base.convertKit\",\n      \"position\": [\n        710,\n        300\n      ],\n      \"parameters\": {\n        \"name\": \"\",\n        \"resource\": \"tag\"\n      },\n      \"credentials\": {\n        \"convertKitApi\": \"convertkit\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"ConvertKit2\",\n      \"type\": \"n8n-nodes-base.convertKit\",\n      \"position\": [\n        910,\n        300\n      ],\n      \"parameters\": {\n        \"email\": \"={{$node[\\\"ConvertKit\\\"].json[\\\"subscriber\\\"][\\\"email_address\\\"]}}\",\n        \"tagId\": 1850395,\n        \"resource\": \"tagSubscriber\",\n        \"operation\": \"add\",\n        \"additionalFields\": {\n          \"fields\": {\n            \"field\": []\n          }\n        }\n      },\n      \"credentials\": {\n        \"convertKitApi\": \"convertkit\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"ConvertKit\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"ConvertKit1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"ConvertKit1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"ConvertKit2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"ConvertKit\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.convertKit",
+      "n8n-nodes-base.convertKit",
+      "n8n-nodes-base.convertKit"
+    ],
+    "trigger": null
+  }
+}

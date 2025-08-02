@@ -1,0 +1,5 @@
+{
+  "source": "docs/try-it-out/tutorial-first-workflow.md",
+  "index": 4,
+  "content": "## Step two: Add a trigger node\n\nn8n provides two ways to start a workflow:\n\n* Manually, by selecting **Execute Workflow**.\n* Automatically, using a trigger node as the first node. The trigger node runs the workflow in response to an external event, or based on your settings.\n\nFor this tutorial, we'll use the [Schedule trigger](/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/index.md). This allows you to run the workflow on a schedule:\n\n1. Select **Add first step**.\n1. Search for **Schedule**. n8n shows a list of nodes that match the search.\n1. Select **Schedule Trigger** to add the node to the canvas. n8n opens the node.\n1. For **Trigger Interval**, select **Weeks**.\n1. For **Weeks Between Triggers**, enter `1`.\n1. Enter a time and day. For this example, select **Monday** in **Trigger on Weekdays**, select **9am** in **Trigger at Hour**, and enter `0` in **Trigger at Minute**.\n1. Close the node details view to return to the canvas."
+}

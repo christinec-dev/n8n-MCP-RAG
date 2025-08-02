@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 70,
+  "content": "### Node enhancements\n\n* Filter Node: Show discarded items.\n* HTTP Request Node: Follow redirects by default.\n* Postgres Node: Overhaul node.\n* ServiceNow Node: Add support for work notes when updating an incident.\n* SSH Node: Hide the private key within the SSH credential."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 19,
+  "content": "## JSON\n\n```typescript\n{\n\tdisplayName: 'Content (JSON)',\n\tname: 'content',\n\ttype: 'json',\n\tdefault: '',\n\tdescription: '',\n\tdisplayOptions: { // the resources and operations to display this element with\n\t\tshow: {\n\t\t\tresource: [\n\t\t\t\t// comma-separated list of resource names\n\t\t\t],\n\t\t\toperation: [\n\t\t\t\t// comma-separated list of operation names\n\t\t\t]\n\t\t}\n\t},\n}\n```\n\n![JSON](/_images/integrations/creating-nodes/json.png)"
+}

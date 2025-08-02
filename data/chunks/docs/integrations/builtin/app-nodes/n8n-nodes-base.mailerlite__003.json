@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mailerlite.md",
+  "index": 3,
+  "content": "## Operations\n\n* Subscriber\n    * Create a new subscriber\n    * Get an subscriber\n    * Get all subscribers\n    * Update an subscriber"
+}

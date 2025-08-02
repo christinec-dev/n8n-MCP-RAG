@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/docker.md",
+  "index": 3,
+  "content": "## Prerequisites\n\nBefore proceeding, install [Docker Desktop](https://docs.docker.com/get-docker/).\n\n/// note | Linux Users\nDocker Desktop is available for Mac and Windows. Linux users must install [Docker Engine](https://docs.docker.com/engine/install/) and [Docker Compose](https://docs.docker.com/compose/install/) individually for your distribution.\n///\n\n--8<-- \"_snippets/self-hosting/installation/latest-next-version.md\""
+}

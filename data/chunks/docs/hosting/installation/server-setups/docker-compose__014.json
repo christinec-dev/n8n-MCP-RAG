@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 14,
+  "content": "# The top level domain to serve from\nDOMAIN_NAME=example.com"
+}

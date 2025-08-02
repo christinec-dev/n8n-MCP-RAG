@@ -1,0 +1,15 @@
+{
+  "source": "1044_Manual_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Function\",\n      \"type\": \"n8n-nodes-base.function\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"functionCode\": \"return [\\n  {\\n    json: {\\n      id: 0,\\n    }\\n  },\\n  {\\n    json: {\\n      id: 1,\\n    }\\n  }\\n];\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"number\": [\n            {\n              \"value1\": \"={{$node[\\\"Function\\\"].json[\\\"id\\\"]}}\",\n              \"operation\": \"equal\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        850,\n        200\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"name\",\n              \"value\": \"n8n\"\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set1\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        850,\n        400\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"name\",\n              \"value\": \"nodemation\"\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ],\n        [\n          {\n            \"node\": \"Set1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Function\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Function\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.function",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

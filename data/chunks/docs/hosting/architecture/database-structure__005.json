@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 5,
+  "content": "### auth_identity\n\nStores details of external authentication providers when using [SAML](/user-management/saml/index.md)."
+}

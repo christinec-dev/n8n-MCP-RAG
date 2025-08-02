@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 274,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Improved item linking\n\nIntroducing improved support for item linking (paired items). Item linking is a key concept in the n8n data flow. Learn more in [Data item linking](/data/data-mapping/data-item-linking/index.md).\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Overhauled built-in variables\n\nn8n's [built-in methods and variables](/code/index.md) have been overhauled, introducing new variables, and providing greater consistency in behavior and naming.\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Redesigned main navigation\n\nWe've redesigned the main navigation (the left hand menu) to create a simpler user experience.\n\n</div>\n\n#### Other new features\n\n* Improved error text when loading options in a node.\n* On reset, share unshared credentials with the instance owner."
+}

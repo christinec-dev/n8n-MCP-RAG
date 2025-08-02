@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.lineartrigger.md",
+  "index": 3,
+  "content": "## Events\n\n- Comment Reaction\n- Cycle\n- Issue\n- Issue Comment\n- Issue Label\n- Project"
+}

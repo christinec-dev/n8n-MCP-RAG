@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-mapping/data-item-linking/item-linking-concepts.md",
+  "index": 4,
+  "content": "## Item linking example\n\n![A diagram showing the threads linking multiple items back through a workflow](/_images/data/data-mapping/data-item-linking/item-linking-multiple-lines.png)\n\nIn this example, it's possible for n8n to link an item in one node back several steps, despite the item order changing. This means the node that sorts movies alphabetically can access information about the linked item in the node that gets famous movie actors.\n\nThe methods for accessing linked items are different depending on whether you're using the UI, expressions, or the code node. Explore the following resources:\n\n* [Mapping in the UI](/data/data-mapping/data-mapping-ui.md)\n* [Mapping in the expressions editor](/data/data-mapping/data-mapping-expressions.md)\n* [Item linking in the Code node](/data/data-mapping/data-item-linking/item-linking-code-node.md)\n* [Item linking errors](/data/data-mapping/data-item-linking/item-linking-errors.md)"
+}

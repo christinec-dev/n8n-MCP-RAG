@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 722,
+  "content": "### Bug fixes\n\n* [Notion:](/integrations/builtin/app-nodes/n8n-nodes-base.notion/index.md) Fixed an issue with parsing the last edited time"
+}

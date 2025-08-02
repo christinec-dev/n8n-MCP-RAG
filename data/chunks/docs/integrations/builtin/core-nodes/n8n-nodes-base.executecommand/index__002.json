@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.executecommand/index.md",
+  "index": 2,
+  "content": "# Execute Command\n\nThe Execute Command node runs shell commands on the host machine that runs n8n.\n\n/// note | Which shell runs the command?\nThis node executes the command in the default shell of the host machine. For example, `cmd` on Windows and `zsh` on macOS.\n\nIf you run n8n with Docker, your command will run in the n8n container and not the Docker host.\n///\n\n/// note | Not available on Cloud\nThis node isn't available on n8n Cloud.\n///"
+}

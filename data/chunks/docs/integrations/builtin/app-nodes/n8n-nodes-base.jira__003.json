@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.jira.md",
+  "index": 3,
+  "content": "## Operations\n\n* Issue\n    * Get issue changelog\n    * Create a new issue\n    * Delete an issue\n    * Get an issue\n    * Get all issues\n    * Create an email notification for an issue and add it to the mail queue\n    * Return either all transitions or a transition that can be performed by the user on an issue, based on the issue's status\n    * Update an issue\n* Issue Attachment\n    * Add attachment to issue\n    * Get an attachment\n    * Get all attachments\n    * Remove an attachment\n* Issue Comment\n    * Add comment to issue\n    * Get a comment\n    * Get all comments\n    * Remove a comment\n    * Update a comment\n* User\n    * Create a new user.\n    * Delete a user.\n    * Retrieve a user."
+}

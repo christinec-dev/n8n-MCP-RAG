@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 183,
+  "content": "### Improved commit modal \n\nWe added filters and text search to the commit modal when working with [Environments](/source-control-environments/index.md). This will make committing easier as we provide more information and better visibility. Environments are available on the Enterprise plan. \n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

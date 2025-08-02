@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 318,
+  "content": "## n8n@0.191.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.190.0...n8n@0.191.0) for this version.<br />\n**Release date:** 2022-08-17\n\nThis release lays the groundwork for wider community nodes support. It also includes some bug fixes."
+}

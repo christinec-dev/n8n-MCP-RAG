@@ -1,0 +1,13 @@
+{
+  "source": "1076_Manual_Cron_Automation_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"60\",\n  \"name\": \"n8n_mysql_purge_history_greater_than_10_days\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"MySQL\",\n      \"type\": \"n8n-nodes-base.mySql\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"query\": \"DELETE FROM execution_entity \\nWHERE DATE(stoppedAt) < DATE_SUB(CURDATE(), INTERVAL 30 DAY)\",\n        \"operation\": \"executeQuery\"\n      },\n      \"credentials\": {\n        \"mySql\": \"n8n\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        250,\n        460\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"hour\": 7\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": true,\n  \"settings\": {},\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"MySQL\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"MySQL\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.mySql",
+      "n8n-nodes-base.cron"
+    ],
+    "trigger": null
+  }
+}

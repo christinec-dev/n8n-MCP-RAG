@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/using/copy-work.md",
+  "index": 3,
+  "content": "## Single branch\n\nIf you have a single Git branch the steps to copy work are:\n\n1. Push work from one instance to the Git branch.\n1. Log in to the other instance to pull the work from Git. You can [automate pulls](#automatically-send-changes-to-n8n)."
+}

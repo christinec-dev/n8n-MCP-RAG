@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/common-issues.md",
+  "index": 8,
+  "content": "### Batching\n\nUse this option to send requests in batches and introduce a delay between them.\n\n1. In the HTTP Request node, select **Add Option > Batching**.\n1. Set **Items per Batch** to the number of input items to include in each request.\n1. Set **Batch Interval (ms)** to introduce a delay between requests in milliseconds. For example, to send one request to an API per second, set **Batch Interval (ms)** to `1000`."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md",
+  "index": 19,
+  "content": "### Timeout\n\nUse this option to set how long the node should wait for the server to send response headers (and start the response body). The node aborts requests that exceed this value for the initial response.\n\nEnter the **Timeout** time to wait in milliseconds."
+}

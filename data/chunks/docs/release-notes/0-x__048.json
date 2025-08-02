@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 48,
+  "content": "### Node enhancements\n\n* Nodes that use SQL, such as the PostgresSQL node, now have a better SQL editor for writing custom queries.\n* An overhaul of the Google BigQuery node to support executing queries, improve the UI making it easier to configure, improve error handling, and fix issues."
+}

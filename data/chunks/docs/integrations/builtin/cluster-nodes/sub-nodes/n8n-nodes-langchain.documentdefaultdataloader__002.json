@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.documentdefaultdataloader.md",
+  "index": 2,
+  "content": "# Default Data Loader node\n\nUse the Default Data Loader node to load binary data files or JSON data for [vector stores](/glossary.md#ai-vector-store) or summarization.\n\nOn this page, you'll find a list of parameters the Default Data Loader node supports, and links to more resources.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

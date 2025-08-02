@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorybufferwindow/index.md",
+  "index": 3,
+  "content": "## Node parameters\n\nConfigure these parameters to configure the node:\n\n* **Session Key**: Enter the key to use to store the memory in the workflow data.\n* **Context Window Length**: Enter the number of previous interactions to consider for context."
+}

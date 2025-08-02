@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 439,
+  "content": "## n8n@0.169.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.168.2...n8n@0.169.0) for this version.<br />\n**Release date:** 2022-03-20\n\nThis release includes:\n\n* New functionality for existing nodes\n* A new node for Linear\n* Bug fixes\n* And a license change!"
+}

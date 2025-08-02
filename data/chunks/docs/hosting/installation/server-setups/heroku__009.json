@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/heroku.md",
+  "index": 9,
+  "content": "### Configuring Heroku\n\nThe `heroku.yml` file defines the application you want to create on Heroku. It consists of two sections:\n\n* `setup` > `addons` defines the Heroku addons to use. In this case, the PostgreSQL database addon.\n* The `build` section defines how Heroku builds the application. In this case it uses the Docker buildpack to build a `web` service based on the supplied `Dockerfile`."
+}

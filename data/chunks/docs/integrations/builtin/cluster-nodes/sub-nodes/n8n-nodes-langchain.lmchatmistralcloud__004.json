@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatmistralcloud.md",
+  "index": 4,
+  "content": "## Node options\n\n* **Maximum Number of Tokens**: Enter the maximum number of tokens used, which sets the completion length.\n* **Sampling Temperature**: Use this option to control the randomness of the sampling process. A higher temperature creates more diverse sampling, but increases the risk of hallucinations.\n* **Timeout**: Enter the maximum request time in milliseconds.\n* **Max Retries**: Enter the maximum number of times to retry a request.\n* **Top P**: Use this option to set the probability the completion should use. Use a lower value to ignore less probable options. \n* **Enable Safe Mode**: Enable safe mode by injecting a safety prompt at the beginning of the completion. This helps prevent the model from generating offensive content.\n* **Random Seed**: Enter a seed to use for random sampling. If set, different calls will generate deterministic results."
+}

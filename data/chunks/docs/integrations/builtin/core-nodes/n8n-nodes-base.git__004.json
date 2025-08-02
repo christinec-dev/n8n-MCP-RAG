@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.git.md",
+  "index": 4,
+  "content": "## Add\n\nConfigure this operation with these parameters:\n\n* **Repository Path**: Enter the local path of the git repository.\n* **Paths to Add**: Enter a comma-separated list of paths of files or folders to add in this field. You can use absolute paths or relative paths from the **Repository Path**.\n\n<!--Vale doesn't like \"Config\"-->\n<!-- vale off -->"
+}

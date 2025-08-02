@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/cloud-data-management.md",
+  "index": 3,
+  "content": "## Memory limits on each Cloud plan\n\nCurrent plans:\n\n* Trial: 320MiB RAM, 10 millicore CPU burstable\n* Starter: 320MiB RAM, 10 millicore CPU burstable\n* Pro-1 (10k executions): 640MiB RAM, 20 millicore CPU burstable\n* Pro-2 (50k executions): 1280MiB RAM, 80 millicore CPU burstable\n* Enterprise: 4096MiB RAM, 80 millicore CPU burstable\n\nLegacy plans:\n\n* Start: 320MiB RAM, 10 millicore CPU burstable\n* Power: 1280MiB RAM, 80 millicore CPU burstable\n\nn8n gives each instance up to 100GB of data storage."
+}

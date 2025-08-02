@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/google-cloud.md",
+  "index": 3,
+  "content": "## Prerequisites\n\n- The [gcloud command line tool](https://cloud.google.com/sdk/gcloud/)\n- The [gke-gcloud-auth-plugin](https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke) (install the gcloud CLI first)\n\n--8<-- \"_snippets/self-hosting/warning.md\"\n\n--8<-- \"_snippets/self-hosting/installation/latest-next-version.md\""
+}

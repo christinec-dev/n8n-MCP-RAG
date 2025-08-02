@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.taiga.md",
+  "index": 2,
+  "content": "# Taiga node\n\nUse the Taiga node to automate work in Taiga, and integrate Taiga with other applications. n8n has built-in support for a wide range of Taiga features, including creating, updating, deleting, and getting issues. \n\nOn this page, you'll find a list of operations the Taiga node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Taiga credentials](/integrations/builtin/credentials/taiga.md) for guidance on setting up authentication. \n///"
+}

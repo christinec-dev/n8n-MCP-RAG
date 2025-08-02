@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/react-agent.md",
+  "index": 8,
+  "content": "### Prefix Message\n\nEnter text to prefix the tools list at the start of the conversation. You don't need to add the list of tools. LangChain automatically adds the tools list."
+}

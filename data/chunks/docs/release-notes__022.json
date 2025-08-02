@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 22,
+  "content": "### Enforce 2FA across your instance\n\nEnterprise Instance owners can now enforce two-factor authentication (2FA) for all users in their instance.\n\nOnce enabled, any user who hasn’t set up 2FA will be redirected to complete the setup before they can continue using n8n. This helps organizations meet internal security policies and ensures stronger protection across the workspace.\n\nThis feature is available only on the Enterprise plan."
+}

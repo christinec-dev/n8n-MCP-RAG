@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/user-management-self-hosted.md",
+  "index": 5,
+  "content": "### Step two: In-app setup\n\n--8<-- \"_snippets/user-management/in-app-setup.md\""
+}

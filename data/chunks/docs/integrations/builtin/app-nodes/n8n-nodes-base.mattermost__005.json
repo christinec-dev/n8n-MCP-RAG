@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mattermost.md",
+  "index": 5,
+  "content": "## Related resources\n\nRefer to [Mattermost's documentation](https://api.mattermost.com/) for more information about the service.\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/operation-not-supported.md\""
+}

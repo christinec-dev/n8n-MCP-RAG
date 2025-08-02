@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 412,
+  "content": "### Enhancements\n\n* **core**: allow external OAuth connection. This enhancement adds support for connecting OAuth apps without access to n8n.\n* All AWS nodes now support AWS temporary credentials.\n* [Google Sheets node](/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/index.md): Added upsert support.\n* [Microsoft Teams node](/integrations/builtin/app-nodes/n8n-nodes-base.microsoftteams.md): adds several enhancements:\n    * An option to limit groups to \"member of\", rather than retrieving the whole directory.\n    * An option to get all tasks from a plan instead of just a group member.\n    * Autocompletion for plans, buckets, labels, and members in update fields for tasks.\n* [MongoDB node](/integrations/builtin/app-nodes/n8n-nodes-base.mongodb.md): you can now parse dates using dot notation."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.facebooktrigger/index.md",
+  "index": 2,
+  "content": "# Facebook Trigger node\n\n[Facebook](https://www.facebook.com/) is a social networking site to connect and share with family and friends online.\n\nUse the Facebook Trigger node to trigger a workflow when events occur in Facebook.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/facebookapp.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Facebook Trigger integrations](https://n8n.io/integrations/facebook-trigger/) page.\n///"
+}

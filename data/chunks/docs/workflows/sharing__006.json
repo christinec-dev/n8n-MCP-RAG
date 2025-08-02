@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/sharing.md",
+  "index": 6,
+  "content": "### Permissions\n\n| Permissions | Creator | Editor | \n| ----------- | ------- | ------ | \n| View workflow (read-only) | :white_check_mark: | :white_check_mark: |\n| View executions | :white_check_mark: | :white_check_mark: |\n| Update (including tags) | :white_check_mark: | :white_check_mark: |\n| Run | :white_check_mark: | :white_check_mark: |\n| Share | :white_check_mark: | :x: |\n| Export | :white_check_mark: | :white_check_mark: |\n| Delete | :white_check_mark: | :x: |"
+}

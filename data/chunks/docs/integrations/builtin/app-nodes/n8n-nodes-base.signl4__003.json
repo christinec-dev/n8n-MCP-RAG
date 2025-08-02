@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.signl4.md",
+  "index": 3,
+  "content": "## Operations\n\n* Alert\n    * Send an alert\n    * Resolve an alert"
+}

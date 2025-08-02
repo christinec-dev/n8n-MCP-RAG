@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 442,
+  "content": "### Highlights\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Trial feature: AI support in the Code node\n\nThis release introduces limited support for using AI to generate code in the Code node. Initially this feature is only available on Cloud, and will gradually be rolled out, starting with about 20% of users.\n\nLearn how to use the feature, including guidance on writing prompts, in [Generate code with ChatGPT](/code/ai-code.md).\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

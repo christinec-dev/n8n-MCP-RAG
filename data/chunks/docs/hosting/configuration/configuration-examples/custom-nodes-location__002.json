@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/custom-nodes-location.md",
+  "index": 2,
+  "content": "# Specify location for your custom nodes\n\nEvery user can add custom nodes that get loaded by n8n on startup. The default\nlocation is in the subfolder `.n8n/custom` of the user who started n8n.\n\nYou can define more folders with an environment variable:\n\n```bash\nexport N8N_CUSTOM_EXTENSIONS=\"/home/jim/n8n/custom-nodes;/data/n8n/nodes\"\n```\nRefer to [Environment variables reference](/hosting/configuration/environment-variables/nodes.md) for more information on this variable."
+}

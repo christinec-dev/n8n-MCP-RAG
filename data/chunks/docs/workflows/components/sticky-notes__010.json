@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/sticky-notes.md",
+  "index": 10,
+  "content": "### This is a smaller sub-heading\n\nYou can add links:\n[Example](https://example.com/)\n\nCreate lists with asterisks:\n\n* Item one\n* Item two\n\nOr created ordered lists with numbers:\n\n1. Item one\n2. Item two\n```\n\nFor a more detailed guide, refer to [CommonMark's help](https://commonmark.org/help/). n8n uses [markdown-it](https://github.com/markdown-it/markdown-it), which implements the CommonMark specification."
+}

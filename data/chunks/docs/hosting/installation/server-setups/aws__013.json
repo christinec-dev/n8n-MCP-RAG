@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/aws.md",
+  "index": 13,
+  "content": "### Optional: Environment variables\n\nYou can configure n8n settings and behaviors using environment variables.\n\nCreate an `n8n-secret.yaml` file. Refer to [Environment variables](/hosting/configuration/environment-variables/index.md) for n8n environment variables details."
+}

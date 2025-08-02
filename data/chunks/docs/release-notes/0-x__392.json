@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 392,
+  "content": "### Node enhancements\n\n[Salesforce Node](/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md): Add the **Country** field."
+}

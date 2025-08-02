@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.awssns.md",
+  "index": 2,
+  "content": "# AWS SNS node\n\nUse the AWS SNS node to automate work in AWS SNS, and integrate AWS SNS with other applications. n8n has built-in support for a wide range of AWS SNS features, including publishing messages.\n\nOn this page, you'll find a list of operations the AWS SNS node supports and links to more resources.\n\n/// note | Credentials\nRefer to [AWS SNS credentials](/integrations/builtin/credentials/aws.md) for guidance on setting up authentication.\n///"
+}

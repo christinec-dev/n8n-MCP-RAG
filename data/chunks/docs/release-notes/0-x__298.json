@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 298,
+  "content": "### Bug fixes\n\n\n* CLI: include \"auth-excluded\" endpoints on the history middleware as well.\n* Core: fix MySQL migration issue with table prefix.\n* Correct spelling.\n* Fix n8n-square-button import.\n* AWS nodes: handle query string and body properly for AWS related requests.\n* AWS Lambda node: fix JSON data being sent to AWS Lambda as string.\n* Beeminder node: fix request ID not being sent when creating a new data point.\n* GitHub node: fix binary data not being returned.\n* GraphQL node: fix issue with return items.\n* Postgres node: fix issue with Postgres insert and paired item.\n* Kafka Trigger node: fix Kafka trigger not working with default max requests value.\n* MonicaCrm node: fix pagination when using return all.\n* Gmail node: fix bug related to paired items.\n* Raindrop node: fix issue refreshing OAuth2 credentials.\n* Shopify node: fix pagination when empty fields are sent."
+}

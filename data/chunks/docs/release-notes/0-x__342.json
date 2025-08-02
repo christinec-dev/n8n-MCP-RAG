@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 342,
+  "content": "### Bug fixes\n\n* API: add missing node settings parameters.\n* API: validate static data value for resource workflow.\n* Baserow Node: fix an issue preventing table names from loading.\n* Editor: hide the **Execute previous node** button when in read-only mode.\n* Editor: hide tabs if there's only one branch.\n* Roundup of link fixes in nodes."
+}

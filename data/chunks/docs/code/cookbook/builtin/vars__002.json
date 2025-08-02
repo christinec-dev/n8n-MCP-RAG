@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/builtin/vars.md",
+  "index": 2,
+  "content": "# `vars`\n\n/// info | Feature availability\n* Available on Self-hosted Enterprise and Pro and Enterprise Cloud plans.\n* You need access to the n8n instance owner account to create variables.\n///\t\n\n`vars` contains all [Variables](/code/variables.md) for the active environment. It's read-only: you can access variables using `vars`, but must set them using the UI.\n\n=== \"JavaScript\"\n\t```js\n\t// Access a variable\n\t$vars.<variable-name>\n\t```\n=== \"Python\"\n\t```python\n\t# Access a variable\n\t_vars.<variable-name>\n\t```\n\n/// note | `vars` and `env`\n`vars` gives access to user-created variables. It's part of the [Environments](/source-control-environments/index.md) feature. `env` gives access to the [configuration environment variables](/hosting/configuration/environment-variables/index.md) for your n8n instance. \n///"
+}

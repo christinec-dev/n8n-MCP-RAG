@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/memory-errors.md",
+  "index": 6,
+  "content": "### Increase available memory\n\nWhen self-hosting n8n, increasing the amount of memory available to n8n means provisioning your n8n instance with more memory. This may incur additional costs with your hosting provider.\n\nOn n8n cloud you need to upgrade to a larger plan."
+}

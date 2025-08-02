@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.azurecosmosdb.md",
+  "index": 5,
+  "content": "## Related resources\n\n<!-- vale Vale.Spelling = NO -->\nRefer to [Azure Cosmos DB's documentation](https://learn.microsoft.com/en-us/rest/api/cosmos-db/) for more information about the service.\n<!-- vale Vale.Spelling = YES -->\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/operation-not-supported.md\""
+}

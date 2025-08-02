@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 645,
+  "content": "### Core Functionality\n- Integrated [Nodelinter](/integrations/creating-nodes/test/node-linter.md) in n8n.\n- Fix to add a trailing slash (`/`) to all webhook URLs for proper functionality."
+}

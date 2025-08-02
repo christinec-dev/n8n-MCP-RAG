@@ -1,0 +1,12 @@
+{
+  "source": "0355_Manual_Twake_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"1\",\n  \"name\": \"Send a message on Twake\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        600,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Twake\",\n      \"type\": \"n8n-nodes-base.twake\",\n      \"position\": [\n        800,\n        300\n      ],\n      \"parameters\": {\n        \"content\": \"\",\n        \"channelId\": \"\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"twakeCloudApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twake\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.twake"
+    ],
+    "trigger": null
+  }
+}

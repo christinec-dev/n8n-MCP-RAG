@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 342,
+  "content": "## n8n@1.36.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.35.0...n8n@1.36.0) for this version.<br />\n**Release date:** 2024-04-03\n\nThis release contains new nodes, enhancements and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### New node: Salesforce Trigger node\n\nThis release adds the [Salesforce Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.salesforcetrigger.md).\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### New node: Twilio Trigger node\n\nThis release adds the [Twilio Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.twiliotrigger.md).\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

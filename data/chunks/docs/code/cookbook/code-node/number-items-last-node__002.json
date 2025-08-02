@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/code-node/number-items-last-node.md",
+  "index": 2,
+  "content": "# Get number of items returned by the previous node\n\nTo get the number of items returned by the previous node:\n\n=== \"JavaScript\"\n\n\t```js\n\tif (Object.keys(items[0].json).length === 0) {\n\treturn [\n\t\t{\n\t\t\tjson: {\n\t\t\t\tresults: 0,\n\t\t\t}\n\t\t}\n\t]\n\t}\n\treturn [\n\t\t{\n\t\t\tjson: {\n\t\t\t\tresults: items.length,\n\t\t\t}\n\t\t}\n\t];\n\t```\n\n\tThe output will be similar to the following.\n\n\t```json\n\t[\n\t\t{\n\t\t\t\"results\": 8\n\t\t}\n\t]\n\t```\n=== \"Python\"\n\t```python\n\tif len(items[0].json) == 0:\n\t\treturn [\n\t\t\t{\n\t\t\t\t\"json\": {\n\t\t\t\t\t\"results\": 0,\n\t\t\t\t}\n\t\t\t}\n\t\t]\n\telse:\n\t\treturn [\n\t\t\t{\n\t\t\t\t\"json\": {\n\t\t\t\t\t\"results\": items.length,\n\t\t\t\t}\n\t\t\t}\n\t\t]\n\t```\n\tThe output will be similar to the following.\n\n\t```json\n\t[\n\t\t{\n\t\t\t\"results\": 8\n\t\t}\n\t]\n\t```"
+}

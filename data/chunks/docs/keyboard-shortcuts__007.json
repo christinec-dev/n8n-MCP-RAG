@@ -1,0 +1,5 @@
+{
+  "source": "docs/keyboard-shortcuts.md",
+  "index": 7,
+  "content": "### Nodes on the canvas\n\n- **Double click** on a node: open the node details\n- **Ctrl/Cmd** + **Double click** on a sub-workflow node: open the sub-workflow in a new tab\n- **Ctrl** + **a**: select all nodes\n- **Ctrl** + **v**: paste nodes\n- **Shift** + **s**: add sticky note"
+}

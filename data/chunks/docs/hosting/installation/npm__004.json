@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/npm.md",
+  "index": 4,
+  "content": "## Install globally with npm\n\nTo install n8n globally, use npm:\n\n```bash\nnpm install n8n -g\n```\n\nTo install or update to a specific version of n8n use the `@` syntax to specify the version. For example:\n\n```bash\nnpm install -g n8n@0.126.1\n```\n\nTo install `next`:\n\n```bash\nnpm install -g n8n@next\n```\n\nAfter the installation, start n8n by running:\n\n```bash\nn8n"
+}

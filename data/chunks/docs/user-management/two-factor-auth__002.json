@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/two-factor-auth.md",
+  "index": 2,
+  "content": "# Two-factor authentication (2FA)\n\nTwo-factor authentication (2FA) adds a second authentication method on top of username and password. This increases account security. n8n supports 2FA using an authenticator app."
+}

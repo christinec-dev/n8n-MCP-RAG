@@ -1,0 +1,5 @@
+{
+  "source": "docs/log-streaming.md",
+  "index": 5,
+  "content": "## Destinations\n\nn8n supports three destination types:\n\n* A syslog server\n* A generic webhook\n* A Sentry client"
+}

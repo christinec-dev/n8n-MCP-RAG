@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/aws.md",
+  "index": 8,
+  "content": "### Configure volume for persistent storage\n\nTo maintain data between pod restarts, the Postgres deployment needs a persistent volume. The default AWS storage class, [gp2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/general-purpose.html#EBSVolumeTypes_gp2), is suitable for this purpose. This is defined in the `postgres-claaim0-persistentvolumeclaim.yaml` manifest.\n\n```yaml\n…\nspec:\n  storageClassName: gp2\n  accessModes:\n    - ReadWriteOnce\n…\n```"
+}

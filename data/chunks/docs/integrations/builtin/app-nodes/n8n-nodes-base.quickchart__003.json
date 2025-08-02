@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.quickchart.md",
+  "index": 3,
+  "content": "## Operations\n\nCreate a chart by selecting the chart type:\n\n* Chart Type\n\t* Bar Chart\n\t* Doughnut Chart\n\t* Line Chart\n\t* Pie Chart\n\t* Polar Chart"
+}

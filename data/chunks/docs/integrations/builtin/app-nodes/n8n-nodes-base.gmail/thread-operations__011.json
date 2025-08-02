@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/thread-operations.md",
+  "index": 11,
+  "content": "### Reply options\n\nUse these options to further refine the node's behavior:\n\n* **Attachments**: Select **Add Attachment** to add an attachment. Enter the **Attachment Field Name (in Input)** to identify which field from the input node contains the attachment.\n    * For multiple properties, enter a comma-separated list.\n* **BCC**: Enter one or more email addresses for blind copy recipients. Separate multiple email addresses with a comma, for example `jay@gatsby.com, jon@smith.com`.\n* **CC**: Enter one or more email addresses for carbon copy recipients. Separate multiple email addresses with a comma, for example `jay@gatsby.com, jon@smith.com`.\n* **Sender Name**: Enter the name you want displayed in your recipients' email as the sender.\n* **Reply to Sender Only**: Choose whether to reply all (turned off) or reply to the sender only (turned on).\n\nRefer to the [Gmail API Method: users.messages.send](https://developers.google.com/gmail/api/reference/rest/v1/users.messages/send) documentation for more information."
+}

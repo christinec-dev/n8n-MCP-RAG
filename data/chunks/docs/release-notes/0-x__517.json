@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 517,
+  "content": "### Core Functionality\n\n- Fixed a bug where a wrong number suffix was used after duplicating nodes."
+}

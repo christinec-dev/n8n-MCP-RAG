@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 639,
+  "content": "### New nodes\n\n* [Form.io Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.formiotrigger.md)\n* [Formstack Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.formstacktrigger.md)\n* [Wait](/integrations/builtin/core-nodes/n8n-nodes-base.wait.md)"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md",
+  "index": 3,
+  "content": "## Operations\n\n* Audit\n\t* [**Generate** a security audit](#generate-audit)\n* Credential\n\t* [**Create** a credential](#create-credential)\n\t* [**Delete** a credential](#delete-credential)\n\t* [**Get Schema**](#get-credential-schema): Use this operation to get credential data schema for type\n* Execution\n\t* [**Get** an execution](#get-execution)\n\t* [**Get Many** executions](#get-many-executions)\n\t* [**Delete** an execution](#delete-execution)\n* Workflow\n\t* [**Activate** a workflow](#activate-deactivate-delete-and-get-workflow)\n\t* [**Create** a workflow](#create-workflow)\n\t* [**Deactivate** a workflow](#activate-deactivate-delete-and-get-workflow)\n\t* [**Delete** a workflow](#activate-deactivate-delete-and-get-workflow)\n\t* [**Get** a workflow](#activate-deactivate-delete-and-get-workflow)\n\t* [**Get Many** workflows](#get-many-workflows)\n\t* [**Update** a workflow](#update-workflow)"
+}

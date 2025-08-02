@@ -1,0 +1,14 @@
+{
+  "source": "0026_Mailcheck_Airtable_Monitor.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Airtable\",\n      \"type\": \"n8n-nodes-base.airtable\",\n      \"position\": [\n        470,\n        200\n      ],\n      \"parameters\": {\n        \"table\": \"Table 1\",\n        \"operation\": \"list\",\n        \"additionalOptions\": {}\n      },\n      \"credentials\": {\n        \"airtableApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mailcheck\",\n      \"type\": \"n8n-nodes-base.mailcheck\",\n      \"position\": [\n        670,\n        200\n      ],\n      \"parameters\": {\n        \"email\": \"={{$json[\\\"fields\\\"][\\\"Email\\\"]}}\"\n      },\n      \"credentials\": {\n        \"mailcheckApi\": \"Mailcheck API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        870,\n        200\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"ID\",\n              \"value\": \"={{$node[\\\"Airtable\\\"].json[\\\"id\\\"]}}\"\n            }\n          ],\n          \"boolean\": [\n            {\n              \"name\": \"Valid\",\n              \"value\": \"={{$json[\\\"mxExists\\\"]}}\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Airtable1\",\n      \"type\": \"n8n-nodes-base.airtable\",\n      \"position\": [\n        1070,\n        200\n      ],\n      \"parameters\": {\n        \"id\": \"={{$json[\\\"ID\\\"]}}\",\n        \"table\": \"=Table 1\",\n        \"fields\": [\n          \"Valid\"\n        ],\n        \"options\": {},\n        \"operation\": \"update\",\n        \"application\": \"={{$node[\\\"Airtable\\\"].parameter[\\\"application\\\"]}}\",\n        \"updateAllFields\": false\n      },\n      \"credentials\": {\n        \"airtableApi\": \"Airtable Credentials n8n\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Airtable1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Airtable\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mailcheck\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Mailcheck\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.airtable",
+      "n8n-nodes-base.mailcheck",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.airtable"
+    ],
+    "trigger": null
+  }
+}

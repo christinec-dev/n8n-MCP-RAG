@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/luxon.md",
+  "index": 6,
+  "content": "## Common tasks\n\nThis section provides examples for some common operations. More examples, and detailed guidance, are available in [Luxon's own documentation](https://moment.github.io/luxon/#/?id=luxon)."
+}

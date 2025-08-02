@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 11,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### crowd.dev\n\nThis release includes a [crowd.dev](https://www.crowd.dev/) node and crowd.dev Trigger node. crowd.dev is a tool to help you understand who is engaging with your open source project.\n\n[crowd.dev node documentation](/integrations/builtin/app-nodes/n8n-nodes-base.crowddev.md).\n\n</div>"
+}

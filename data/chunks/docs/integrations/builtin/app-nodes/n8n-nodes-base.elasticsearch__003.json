@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.elasticsearch.md",
+  "index": 3,
+  "content": "## Operations\n\n* Document\n    * Create a document\n    * Delete a document\n    * Get a document\n    * Get all documents\n    * Update a document\n* Index\n    * Create\n    * Delete\n    * Get\n    * Get All"
+}

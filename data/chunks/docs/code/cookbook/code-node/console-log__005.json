@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/code-node/console-log.md",
+  "index": 5,
+  "content": "### Handling an output of `[object Object]`\n\nIf the console displays `[object Object]` when you print, check the data type, then convert it as needed.\n\nTo check the data type:\n\n```python\nprint(type(myData))\n```\n\n#### JsProxy\n\nIf `type()` outputs `<class 'pyodide.ffi.JsProxy'>`, you need to convert the JsProxy to a native Python object using `to_py()`. This occurs when working with data in the n8n node data structure, such as node inputs and outputs. For example, if you want to print the data from a previous node in the workflow:\n\n```python\npreviousNodeData = _(\"<node-name>\").all();\nfor item in previousNodeData:\n\t# item is of type <class 'pyodide.ffi.JsProxy'>\n\t# You need to convert it to a Dict\n\titemDict = item.json.to_py()\n\tprint(itemDict)\n```\n\nRefer to the Pyodide documentation on [JsProxy](https://pyodide.org/en/stable/usage/api/python-api/ffi.html#pyodide.ffi.JsProxy) for more information on this class."
+}

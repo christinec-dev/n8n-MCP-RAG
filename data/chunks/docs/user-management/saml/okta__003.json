@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/saml/okta.md",
+  "index": 3,
+  "content": "## Prerequisites\n\nYou need an Okta Workforce Identity account, and the redirect URL and entity ID from n8n's SAML settings.\n\nOkta Workforce may enforce two factor authentication for users, depending on your Okta configuration.\n\nRead the [Set up SAML](/user-management/saml/setup.md) guide first."
+}

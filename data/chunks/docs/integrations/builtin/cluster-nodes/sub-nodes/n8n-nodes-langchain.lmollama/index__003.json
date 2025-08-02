@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmollama/index.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Model**: Select the model that generates the completion. Choose from:\n\t* **Llama2**\n\t* **Llama2 13B**\n\t* **Llama2 70B**\n\t* **Llama2 Uncensored**\n\nRefer to the Ollama [Models Library documentation](https://ollama.com/library) for more information about available models."
+}

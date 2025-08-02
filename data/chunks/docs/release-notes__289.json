@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 289,
+  "content": "### Beta Feature Removal\nThe Ask AI beta feature for the HTTP Request node has been removed from this version"
+}

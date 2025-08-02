@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/prerequisites.md",
+  "index": 5,
+  "content": "### Best practices\n\n* SSD storage.\n* In containerized cloud environments, ensure that the volume is persisted and mounted when stopping/starting a container. If not, all data is lost.\n* If using Postgres, don't use the `tablePrefix` configuration option. It will be deprecated in the near future.\n* Pay attention to the changelog of new versions and consider reverting migrations before downgrading.\n* Set up at least the basic database security and stability mechanisms such as IP allow lists and backups."
+}

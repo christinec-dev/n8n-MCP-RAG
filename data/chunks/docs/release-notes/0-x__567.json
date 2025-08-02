@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 567,
+  "content": "### New nodes\n\n\n* [Local File Trigger](/integrations/builtin/core-nodes/n8n-nodes-base.localfiletrigger.md)"
+}

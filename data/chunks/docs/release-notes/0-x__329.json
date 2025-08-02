@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 329,
+  "content": "### Bug fixes\n\n* Editor: fix a label cut off.\n* Fix an issue with saving workflows when tags are disabled.\n* Ensure support for community nodes on Windows."
+}

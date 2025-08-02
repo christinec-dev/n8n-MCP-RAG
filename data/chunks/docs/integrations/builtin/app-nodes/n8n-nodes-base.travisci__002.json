@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.travisci.md",
+  "index": 2,
+  "content": "# Travis CI node\n\nUse the Travis CI node to automate work in Travis CI, and integrate Travis CI with other applications. n8n has built-in support for a wide range of Travis CI features, including cancelling and getting builds. \n\nOn this page, you'll find a list of operations the Travis CI node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Travis CI credentials](/integrations/builtin/credentials/travisci.md) for guidance on setting up authentication. \n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/learning-path.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ndescription: A suggested learning path to get started with n8n through tutorials, courses, and step-by-step guides.\ncontentType: overview\n---\nThis guide outlines a series of tutorials and resources designed to get you started with n8n. \n\nIt's not necessary to complete all items listed to start using n8n. Use this as a reference to navigate to the most relevant parts of the documentation and other resources according to your needs."
+}

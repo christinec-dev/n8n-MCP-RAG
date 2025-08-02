@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md",
+  "index": 11,
+  "content": "### Get many executions filters\n\nYou can further configure this operation with these **Filters**:\n\n* **Workflow**: Filter the executions by workflow. Options include:\n\t* **From list**: Select a workflow to use as a filter.\n\t* **By URL**: Enter a workflow URL to use as a filter.\n\t* **By ID**: Enter a workflow ID to use as a filter.\n* **Status**: Filter the executions by status. Options include:\n\t* **Error**\n\t* **Success**\n\t* **Waiting**"
+}

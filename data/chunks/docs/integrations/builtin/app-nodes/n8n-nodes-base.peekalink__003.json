@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.peekalink.md",
+  "index": 3,
+  "content": "## Operations\n\n* Check whether preview for a given link is available\n* Return the preview for a link"
+}

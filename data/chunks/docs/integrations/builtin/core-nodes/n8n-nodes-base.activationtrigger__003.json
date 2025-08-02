@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.activationtrigger.md",
+  "index": 3,
+  "content": "## Node parameters\n\n- Events\n    - **Activation**: Run when the workflow gets activated\n    - **Start**: Run when n8n starts or restarts\n    - **Update**: Run when the workflow gets saved while it's active"
+}

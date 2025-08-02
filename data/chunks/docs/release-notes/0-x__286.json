@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 286,
+  "content": "### Bug fixes\n\n* Box node: fix an issue that sometimes prevented response data from being returned.\n* CLI: prevent n8n from crashing when it encounters an error in poll method.\n* Core: prevent calls to constructor, to forbid arbitrary code execution.\n* Editor: fix the output panel for Wait node executions.\n* HTTP node: ensure instance doesn't crash when batching enabled.\n* Public API: corrections to the OAuth schema.\n* Xero node: fix an issue that was causing line amount types to be ignored when creating new invoices."
+}

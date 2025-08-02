@@ -1,0 +1,13 @@
+{
+  "source": "0827_Manual_Functionitem_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"340\",\n  \"name\": \"Email body parser by aprenden8n.com\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Email Parser Snippet\",\n      \"type\": \"n8n-nodes-base.functionItem\",\n      \"position\": [\n        670,\n        300\n      ],\n      \"parameters\": {\n        \"functionCode\": \"var obj = {};\\nvar labels = item.labels.split(\\\",\\\");\\nitem.labels.split(\\\",\\\").forEach(function(label) {\\n  var re = labels.indexOf(label) === labels.length - 1 ? \\\"\\\\\\\\b\\\" + label + \\\"\\\\\\\\b[: ]+([^$]+)\\\" : \\\"\\\\\\\\b\\\" + label + \\\"\\\\\\\\b[: ]+([^\\\\\\\\n$]+)\\\";\\n  var found = item.body.match(new RegExp(re, \\\"i\\\"));\\n  if (found && found.length > 1) {\\n    obj[label] = found[1].trim();\\n  }\\n});\\n\\nreturn obj;\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set values\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        460,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"number\": [],\n          \"string\": [\n            {\n              \"name\": \"body\",\n              \"value\": \"Name: Miquel\\nEmail: miquel@aprenden8n.com\\nSubject: Welcome aboard\\nMessage: Hi Miquel!\\n\\nThank you for your signup!\"\n            },\n            {\n              \"name\": \"labels\",\n              \"value\": \"Name,Email,Subject,Message\"\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Set values\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Email Parser Snippet\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set values\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.functionItem",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

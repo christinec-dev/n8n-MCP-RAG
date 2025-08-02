@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.compression.md",
+  "index": 2,
+  "content": "# Compression\n\nUse the Compression node to compress and decompress files. Supports Zip and Gzip formats."
+}

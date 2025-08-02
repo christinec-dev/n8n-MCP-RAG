@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/telemetry-opt-out.md",
+  "index": 7,
+  "content": "### Opt out of checking for new versions of n8n\n\nTo opt out of checking for new versions of n8n, set the `N8N_VERSION_NOTIFICATIONS_ENABLED` environment variable to false, for example:\n\n```bash\nexport N8N_VERSION_NOTIFICATIONS_ENABLED=false\n```"
+}

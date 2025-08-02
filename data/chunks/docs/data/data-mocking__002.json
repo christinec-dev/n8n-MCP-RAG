@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-mocking.md",
+  "index": 2,
+  "content": "# Data mocking\n\nData mocking is simulating or faking data. It's useful when developing a workflow. By mocking data, you can:\n\n- Avoid making repeated calls to your data source. This saves time and costs.\n- Work with a small, predictable dataset during initial development.\n- Avoid the risk of overwriting live data: in the early stages of building your workflow, you don't need to connect your real data source."
+}

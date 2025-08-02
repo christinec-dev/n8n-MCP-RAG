@@ -1,0 +1,11 @@
+{
+  "source": "1020_Surveymonkey_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"SurveyMonkey Trigger\",\n      \"type\": \"n8n-nodes-base.surveyMonkeyTrigger\",\n      \"position\": [\n        880,\n        390\n      ],\n      \"webhookId\": \"52754661-725a-49e0-88fc-a8e5dbbea5a5\",\n      \"parameters\": {\n        \"event\": \"response_created\",\n        \"surveyIds\": [\n          \"288506979\"\n        ],\n        \"objectType\": \"survey\",\n        \"authentication\": \"oAuth2\"\n      },\n      \"credentials\": {\n        \"surveyMonkeyOAuth2Api\": \"surveymonkey_oauth\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.surveyMonkeyTrigger"
+    ],
+    "trigger": "surveymonkey trigger"
+  }
+}

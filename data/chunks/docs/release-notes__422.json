@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 422,
+  "content": "## n8n@1.10.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.9.1...n8n@1.10.0) for this version.<br />\n**Release date:** 2023-10-05\n\n\n\nThis release contains bug fixes and preparatory work for new features.\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

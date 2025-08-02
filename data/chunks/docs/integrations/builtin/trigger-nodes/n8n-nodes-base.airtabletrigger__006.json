@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.airtabletrigger.md",
+  "index": 6,
+  "content": "### Poll Times\n\nn8n's Airtable node uses polling for check for updates on configured Airtable resources. The **Poll Times** parameter configures the querying frequency:\n\n* Every Minute\n* Every Hour\n* Every Day\n* Every Week\n* Every Month\n* Every X: Check for updates every given number of minutes or hours.\n* Custom: Customize the polling interval by providing a [cron expression](https://en.wikipedia.org/wiki/Cron).\n\nUse the **Add Poll Time** button to add more polling intervals."
+}

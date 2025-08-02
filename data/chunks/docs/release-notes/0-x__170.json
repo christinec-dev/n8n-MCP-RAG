@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 170,
+  "content": "### Bug fixes\n\n* Build CLI to fix Postgres and MySQL test runs.\n* Extend date functions clobbering plus/minus.\n* Extension deep comparen't quite working for some primitives.\n* Upgrade jsonwebtoken to address CVE-2022-23540."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 803,
+  "content": "## n8n@0.100.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.99.1...n8n@0.100.0) for this version.<br />\n**Release date:** 2020-12-30\n\n- New nodes\n- Microsoft Outlook\n- Enhanced nodes\n- ActiveCampaign: The node loads more options for the fields\n- Asana: Added Subtask resource and Get All operation for the Task resource\n- Edit Image: Added Multi Step operation\n- HTTP Request: Added Use Querystring option\n- IF: Added Ends With and Starts With operations\n- Jira: Added Issue Comment resource\n- Switch: Added Ends With and Starts With operations\n- Telegram: Added File resource\n- Bug fixes\n- Box Trigger: Fixed a typo in the description\n- Edit Image: Fixed an issue with multiple composite operations\n- HTTP Request: Fixed an issue with the binary data getting used by multiple nodes\n- S3: Fixed an issue with uploading files\n- Stripe Trigger: Fixed an issue with the existing webhooks\n- Telegram: Fixed an issue with the Send Audio operation\n- Binary data stays visible if a node gets re-executed"
+}

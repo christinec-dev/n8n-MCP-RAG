@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 268,
+  "content": "### New features\n\n* Core: improve light versioning support in declarative node design.\n* Editor UI: data mapping for JSON view. You can now map data using drag and drop from JSON view, as well as table view."
+}

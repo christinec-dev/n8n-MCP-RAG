@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 161,
+  "content": "### Node enhancements\n\n<div class=\"n8n-new-features\" markdown>\n\nThe Item Lists node now supports a Summarize operation. This acts similarly to generating pivot tables in Excel, allowing you to aggregate and compare data.\n\n</div>"
+}

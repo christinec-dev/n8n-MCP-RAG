@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorepinecone.md",
+  "index": 3,
+  "content": "## Node usage patterns\n\nYou can use the Pinecone Vector Store node in the following patterns."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainsummarization.md",
+  "index": 4,
+  "content": "## Node Options\n\nYou can configure the summarization method and prompts. Select **Add Option** > **Summarization Method and Prompts**.\n\nOptions in **Summarization Method**:\n\n* **Map Reduce**: this is the recommended option. Learn more about [Map Reduce](https://js.langchain.com/v0.1/docs/modules/chains/document/map_reduce/) in the LangChain documentation.\n* **Refine**: learn more about [Refine](https://js.langchain.com/v0.1/docs/modules/chains/document/refine/) in the LangChain documentation.\n* **Stuff**: learn more about [Stuff](https://js.langchain.com/v0.1/docs/modules/chains/document/stuff/) in the LangChain documentation.\n\nYou can customize the **Individual Summary Prompts** and the **Final Prompt to Combine**. There are examples in the node. You must include the `\"{text}\"` placeholder."
+}

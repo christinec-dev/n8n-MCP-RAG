@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.filter.md",
+  "index": 4,
+  "content": "### Combining conditions\n\nYou can choose to keep items:\n\n* When they meet all conditions: Create two or more conditions and select **AND** in the dropdown between them.\n* When they meet any of the conditions: Create two or more conditions and select **OR** in the dropdown between them.\n\nYou can't create a mix of AND and OR rules."
+}

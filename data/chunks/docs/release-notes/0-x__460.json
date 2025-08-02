@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 460,
+  "content": "### Bug fixes\n\n\n* [Baserow:](/integrations/builtin/app-nodes/n8n-nodes-base.baserow.md) Fixed a bug preventing the Sorting option of the Get All operation from working as expected.\n* [HTTP Request:](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) Fixed a bug causing Digest Authentication to fail in some scenarios.\n* [Wise:](/integrations/builtin/app-nodes/n8n-nodes-base.wise.md) Fixed a bug causing API requests requiring Strong Customer Authentication (SCA) to fail."
+}

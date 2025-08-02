@@ -1,0 +1,15 @@
+{
+  "source": "1204_Manual_Peekalink_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        310,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Peekalink\",\n      \"type\": \"n8n-nodes-base.peekalink\",\n      \"position\": [\n        510,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"https://n8n1.io\",\n        \"operation\": \"isAvailable\"\n      },\n      \"credentials\": {\n        \"peekalinkApi\": \"Peekalink API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        710,\n        300\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"string\": [],\n          \"boolean\": [\n            {\n              \"value1\": \"={{$json[\\\"isAvailable\\\"]}}\",\n              \"value2\": true\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Peekalink1\",\n      \"type\": \"n8n-nodes-base.peekalink\",\n      \"position\": [\n        910,\n        200\n      ],\n      \"parameters\": {\n        \"url\": \"={{$node[\\\"Peekalink\\\"].parameter[\\\"url\\\"]}}\"\n      },\n      \"credentials\": {\n        \"peekalinkApi\": \"Peekalink API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NoOp\",\n      \"type\": \"n8n-nodes-base.noOp\",\n      \"position\": [\n        910,\n        400\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Peekalink1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ],\n        [\n          {\n            \"node\": \"NoOp\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Peekalink\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Peekalink\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.peekalink",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.peekalink",
+      "n8n-nodes-base.noOp"
+    ],
+    "trigger": null
+  }
+}

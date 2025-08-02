@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/installation/manual-install.md",
+  "index": 4,
+  "content": "## Uninstall a community node\n\nAccess your Docker shell:\n\n```sh\ndocker exec -it n8n sh\n```\n\nRun npm uninstall:\n\n```sh\nnpm uninstall n8n-nodes-nodeName\n```"
+}

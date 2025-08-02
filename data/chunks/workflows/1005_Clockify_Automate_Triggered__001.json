@@ -1,0 +1,11 @@
+{
+  "source": "1005_Clockify_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Clockify Trigger\",\n      \"type\": \"n8n-nodes-base.clockifyTrigger\",\n      \"position\": [\n        450,\n        480\n      ],\n      \"parameters\": {\n        \"pollTimes\": {\n          \"item\": [\n            {\n              \"mode\": \"everyMinute\"\n            }\n          ]\n        },\n        \"workspaceId\": \"5f115b31e3f0ad7f90326b39\"\n      },\n      \"credentials\": {\n        \"clockifyApi\": \"clockify_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.clockifyTrigger"
+    ],
+    "trigger": "clockify trigger"
+  }
+}

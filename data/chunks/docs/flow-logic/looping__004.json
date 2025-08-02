@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/looping.md",
+  "index": 4,
+  "content": "### Executing nodes once\n\nFor situations where you don't want a node to process all received items, for example sending a Slack message only to the first customer, you can do so by toggling the **Execute Once** parameter in the **Settings** tab of that node This setting is helpful when the incoming data contains multiple items and you want to only process the first one."
+}

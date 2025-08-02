@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.tapfiliate.md",
+  "index": 2,
+  "content": "# Tapfiliate node\n\nUse the Tapfiliate node to automate work in Tapfiliate, and integrate Tapfiliate with other applications. n8n has built-in support for a wide range of Tapfiliate features, including creating and deleting affiliates, and adding affiliate metadata. \n\nOn this page, you'll find a list of operations the Tapfiliate node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Tapfiliate credentials](/integrations/builtin/credentials/tapfiliate.md) for guidance on setting up authentication. \n///"
+}

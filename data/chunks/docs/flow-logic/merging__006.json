@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/merging.md",
+  "index": 6,
+  "content": "## Compare, merge, and split again\n\nThe [Compare Datasets](/integrations/builtin/core-nodes/n8n-nodes-base.comparedatasets.md) node compares data streams before merging them. It outputs up to four different data streams.\n\nRefer to this [example workflow](https://n8n.io/workflows/1943-comparing-data-with-the-compare-datasets-node/) for an example.\n\n[[ workflowDemo(\"https://api.n8n.io/workflows/templates/1943\") ]]"
+}

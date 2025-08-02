@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 248,
+  "content": "## n8n@1.59.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.58.1...n8n@1.59.0) for this version.<br />\n**Release date:** 2024-09-11\n\n/// warning | Chat Trigger\nIf you are using the Chat Trigger in \"Embedded Chat\" mode, with authentication turned on, you could see errors connecting to n8n if the authentication on the sending/embedded side is mis-configured.\n///\n\nThis release contains bug fixes and feature enhancements.\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

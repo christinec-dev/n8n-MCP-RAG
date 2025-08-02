@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.twitter.md",
+  "index": 3,
+  "content": "## Operations\n\n* Direct Message\n    * Create a direct message\n* Tweet\n    * Create or reply a tweet\n    * Delete a tweet\n    * Search tweets\n    * Like a tweet\n    * Retweet a tweet\n* User\n  \t* Get a user\n* List \n    * Add a member to a list"
+}

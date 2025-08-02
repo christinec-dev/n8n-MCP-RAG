@@ -1,0 +1,5 @@
+{
+  "source": "docs/keyboard-shortcuts.md",
+  "index": 10,
+  "content": "### Node panel categories\n\n- **Enter**: insert node into workflow, collapse/expand category, open subcategory\n- **ArrowRight**: expand category, open subcategory \n- **ArrowLeft**: collapse category, close subcategory view"
+}

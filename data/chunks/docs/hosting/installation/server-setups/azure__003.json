@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/azure.md",
+  "index": 3,
+  "content": "## Prerequisites\n\nYou need [The Azure command line tool](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)\n\n--8<-- \"_snippets/self-hosting/warning.md\"\n\n--8<-- \"_snippets/self-hosting/installation/latest-next-version.md\""
+}

@@ -1,0 +1,14 @@
+{
+  "source": "1054_Manual_Cratedb_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        550,\n        400\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"CrateDB\",\n      \"type\": \"n8n-nodes-base.crateDb\",\n      \"position\": [\n        750,\n        400\n      ],\n      \"parameters\": {\n        \"query\": \"CREATE TABLE test (id INT, name STRING);\",\n        \"operation\": \"executeQuery\"\n      },\n      \"credentials\": {\n        \"crateDb\": \"cratedb_creds\"\n      },\n      \"typeVersion\": 1,\n      \"alwaysOutputData\": true\n    },\n    {\n      \"name\": \"CrateDB1\",\n      \"type\": \"n8n-nodes-base.crateDb\",\n      \"position\": [\n        1150,\n        400\n      ],\n      \"parameters\": {\n        \"table\": \"test\",\n        \"columns\": \"id, name\"\n      },\n      \"credentials\": {\n        \"crateDb\": \"cratedb_creds\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        950,\n        400\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"number\": [\n            {\n              \"name\": \"id\",\n              \"value\": 0\n            }\n          ],\n          \"string\": [\n            {\n              \"name\": \"name\",\n              \"value\": \"n8n\"\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1,\n      \"alwaysOutputData\": false\n    }\n  ],\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"CrateDB1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"CrateDB\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"CrateDB\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.crateDb",
+      "n8n-nodes-base.crateDb",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmollama/common-issues.md",
+  "index": 5,
+  "content": "## Can't connect to a local Ollama instance when using Docker\n\nThe Ollama Model node connects to a locally hosted Ollama instance using the base URL defined by [Ollama credentials](/integrations/builtin/credentials/ollama.md). When you run either n8n or Ollama in Docker, you need to configure the network so that n8n can connect to Ollama.\n\nOllama typically listens for connections on `localhost`, the local network address. In Docker, by default, each container has its own `localhost` which is only accessible from within the container. If either n8n or Ollama are running in containers, they won't be able to connect over `localhost`.\n\nThe solution depends on how you're hosting the two components."
+}

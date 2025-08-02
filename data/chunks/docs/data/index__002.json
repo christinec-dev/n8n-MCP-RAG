@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/index.md",
+  "index": 2,
+  "content": "# Data\n\nData is the information that n8n nodes receive and process. For basic usage of n8n you don't need to understand data structures and manipulation. However, it becomes important if you want to:\n\n - Create your own node\n - Write custom [expressions](/glossary.md#expression-n8n)\n - Use the Function or Function Item node\n\nThis section covers: \n\n* [Data structure](/data/data-structure.md)\n* [Data flow within nodes](/data/data-flow-nodes.md)\n* [Transforming data](/data/transforming-data.md)\n* [Process data using code](/data/code.md)\n* [Pinning](/data/data-pinning.md) and [editing](/data/data-editing.md) data during workflow development.\n* [Data mapping](/data/data-mapping/index.md) and [Item linking](/data/data-mapping/data-item-linking/index.md): how data items link to each other."
+}

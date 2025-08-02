@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/common-issues.md",
+  "index": 4,
+  "content": "## Scheduled workflows run at the wrong time\n\nIf the Schedule Trigger node runs at the wrong time, it may mean that you need to adjust the time zone n8n uses."
+}

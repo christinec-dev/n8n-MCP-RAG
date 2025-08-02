@@ -1,0 +1,14 @@
+{
+  "source": "0060_Travisci_GitHub_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Github Trigger\",\n      \"type\": \"n8n-nodes-base.githubTrigger\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"webhookId\": \"01518289-14b1-4a45-9d33-39be08f7a544\",\n      \"parameters\": {\n        \"owner\": \"n8n-io\",\n        \"events\": [\n          \"push\",\n          \"pull_request\"\n        ],\n        \"repository\": \"n8n\",\n        \"authentication\": \"oAuth2\"\n      },\n      \"credentials\": {\n        \"githubOAuth2Api\": \"GitHub Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"string\": [\n            {\n              \"value1\": \"={{$json[\\\"headers\\\"][\\\"x-github-event\\\"]}}\",\n              \"value2\": \"push\"\n            },\n            {\n              \"value1\": \"={{$json[\\\"body\\\"][\\\"action\\\"]}}\",\n              \"value2\": \"opened\"\n            }\n          ]\n        },\n        \"combineOperation\": \"any\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"TravisCI\",\n      \"type\": \"n8n-nodes-base.travisCi\",\n      \"position\": [\n        850,\n        200\n      ],\n      \"parameters\": {\n        \"slug\": \"={{$json[\\\"body\\\"][\\\"repository\\\"][\\\"full_name\\\"]}}\",\n        \"branch\": \"=\",\n        \"operation\": \"trigger\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"travisCiApi\": \"Travis API\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NoOp\",\n      \"type\": \"n8n-nodes-base.noOp\",\n      \"position\": [\n        850,\n        400\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"TravisCI\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ],\n        [\n          {\n            \"node\": \"NoOp\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Github Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.githubTrigger",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.travisCi",
+      "n8n-nodes-base.noOp"
+    ],
+    "trigger": "github trigger"
+  }
+}

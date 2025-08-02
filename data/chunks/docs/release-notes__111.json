@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 111,
+  "content": "### Folders\nWhat can we say about folders? Well, they’re super handy for categorizing just about everything and they’re finally available for your n8n workflows. Tidy up your workspace with unlimited folders and nested folders. Search for workflows within folders. It’s one of the ways we’re making it easier to organize your n8n instances more effectively.  \n\n**How to use it:** \n\nCreate and manage folders within your personal space or within projects. You can also create workflows from within a folder. You may need to restart your instance in order to activate folders.\n\n<figure markdown=\"span\">\n    ![Folders](/_images/release-notes/Folders.png\n)\n    <figcaption>It's a folder alright</figcaption>\n</figure>\n<br>\n\nFolders are available for all [registered](/hosting/community-edition-features.md#registered-community-edition) users so get started with decluttering your workspace now and look for more features (like drag and drop) to organize your instances soon."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.summarize.md",
+  "index": 9,
+  "content": "### Output Format\n\nSelect the format for your output format. This option is recommended if you're using **Fields to Split By**\n\n* **Each Split in a Separate Item**: Use this option to generate a separate output item for each split out field.\n* **All Splits in a Single Item**: Use this option to generate a single item that lists the split out fields."
+}

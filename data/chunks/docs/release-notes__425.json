@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 425,
+  "content": "## n8n@1.9.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.8.2...n8n@1.9.0) for this version.<br />\n**Release date:** 2023-09-28\n\n\nThis release contains new features, performance improvements, and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Tournament\n\nThis releases replaces RiotTmpl, the templating language used in expressions, with n8n's own templating language, [Tournament](https://github.com/n8n-io/tournament). You can now use arrow functions in expressions.<br />\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### `N8N_BINARY_DATA_TTL` and `EXECUTIONS_DATA_PRUNE_TIMEOUT` removed\n\nThe environment variables `N8N_BINARY_DATA_TTL` and `EXECUTIONS_DATA_PRUNE_TIMEOUT` no longer have any effect and can be removed. Instead of relying on a TTL system for binary data, n8n cleans up binary data together with executions during pruning.\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

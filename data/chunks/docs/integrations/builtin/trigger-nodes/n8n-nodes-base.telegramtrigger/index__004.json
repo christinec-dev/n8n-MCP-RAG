@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.telegramtrigger/index.md",
+  "index": 4,
+  "content": "## Options\n\n- **Download Images/Files**: Whether to download attached images or files to include in the output data.\n\t- **Image Size**: When you enable **Download Images/Files**, this configures the size of image to download. Downloads large images by default.\n- **Restrict to Chat IDs**: Only trigger for events with the listed chat IDs. You can include multiple chat IDs separated by commas.\n- **Restrict to User IDs**: Only trigger for events with the listed user IDs. You can include multiple user IDs separated by commas."
+}

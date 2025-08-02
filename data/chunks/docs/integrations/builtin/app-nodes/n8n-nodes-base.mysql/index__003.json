@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mysql/index.md",
+  "index": 3,
+  "content": "## Operations\n\n* Delete\n* Execute SQL\n* Insert\n* Insert or Update\n* Select\n* Update"
+}

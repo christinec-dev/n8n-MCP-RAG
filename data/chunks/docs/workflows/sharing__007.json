@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/sharing.md",
+  "index": 7,
+  "content": "## Node editing restrictions with unshared credentials\n\nSharing in n8n works on the principle of least privilege. This means that if a user shares a workflow with you, but they don't share their credentials, you can't edit the nodes within the workflow that use those credentials. You can view and run the workflow, and edit nodes that don't use unshared credentials.\n\nRefer to [Credential sharing](/credentials/credential-sharing.md) for guidance on sharing credentials."
+}

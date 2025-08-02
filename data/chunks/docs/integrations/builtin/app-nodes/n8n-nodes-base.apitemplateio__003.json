@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.apitemplateio.md",
+  "index": 3,
+  "content": "## Operations\n\n* Account\n    * Get\n* Image\n    * Create\n* PDF\n    * Create"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/common-issues.md",
+  "index": 2,
+  "content": "# OpenAI node common issues\n\nHere are some common errors and issues with the [OpenAI node](/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/index.md) and steps to resolve or troubleshoot them.\n\n--8<-- \"_snippets/integrations/openai-api-issues.md\"\n--8<-- \"_snippets/integrations/referenced-node-unexecuted.md\""
+}

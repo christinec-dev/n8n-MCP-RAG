@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-3.md",
+  "index": 7,
+  "content": "## Splitting data in batches\n\nIf you need to process large volumes of incoming data, execute the **Code node** multiple times, or avoid API rate limits, it's best to split the data into batches (groups) and process these batches.\n\nFor these processes, use the [**Loop Over Items node**](/integrations/builtin/core-nodes/n8n-nodes-base.splitinbatches.md). This node splits input data into a specified batch size and, with each iteration, returns a predefined amount of data.\n\n/// warning | Execution of Loop Over Items node\nThe **Loop Over Items node** stops executing after all the incoming items get divided into batches and passed on to the next node in the workflow, so it's not necessary to add an **If node** to stop the loop.\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/environment-variables/index.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: Environment Variables Overview\ndescription: An overview of configuration environment variables for self-hosted n8n. \ncontentType: overview\ntags:\n  - environment variables\nhide:\n  - toc\n  - tags\n---"
+}

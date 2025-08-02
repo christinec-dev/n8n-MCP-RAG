@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/npm.md",
+  "index": 2,
+  "content": "# npm\n\nnpm is a quick way to get started with n8n on your local machine. You must have [Node.js](https://nodejs.org/en/) installed. n8n requires a Node.js version between 20.19 and 24.x, inclusive.\n\n--8<-- \"_snippets/self-hosting/installation/latest-next-version.md\""
+}

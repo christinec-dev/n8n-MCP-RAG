@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/workflow-templates.md",
+  "index": 2,
+  "content": "# Workflow templates\n\n--8<-- \"_snippets/embed-license.md\"\n\nn8n provides a library of workflow [templates](/glossary.md#template-n8n). When embedding n8n, you can:\n\n* Continue to use n8n's workflow templates library (this is the default behavior)\n* Disable workflow templates\n* Create your own workflow templates library"
+}

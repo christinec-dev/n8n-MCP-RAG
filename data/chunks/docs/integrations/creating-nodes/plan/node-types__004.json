@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/plan/node-types.md",
+  "index": 4,
+  "content": "## Action nodes\n\nAction nodes perform operations as part of your workflow. These can include manipulating data, and triggering events in other systems."
+}

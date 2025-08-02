@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/binary-data.md",
+  "index": 3,
+  "content": "## Enable filesystem mode\n\nWhen handling binary data, n8n keeps the data in memory by default. This can cause crashes when working with large files. \n\nTo avoid this, change the `N8N_DEFAULT_BINARY_DATA_MODE` [environment variable](/hosting/configuration/environment-variables/binary-data.md) to `filesystem`. This causes n8n to save data to disk, instead of using memory.\n\nIf you're using queue mode, keep this to `default`. n8n doesn't support filesystem mode with queue mode."
+}

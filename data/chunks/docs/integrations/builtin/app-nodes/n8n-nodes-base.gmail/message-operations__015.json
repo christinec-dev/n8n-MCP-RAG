@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/message-operations.md",
+  "index": 15,
+  "content": "## Send a message and wait for approval\n\nUse this operation to send a message and wait for approval from the recipient before continuing the workflow execution.\n\n/// info | Use Wait for complex approvals\nThe **Send and Wait for Approval** operation is well-suited for simple approval processes. For more complex approvals, consider using the [Wait node](/integrations/builtin/core-nodes/n8n-nodes-base.wait.md).\n///\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Message**.\n* **Operation**: Select **Send and Wait for Approval**.\n* **To**: Enter the email address you want the email sent to.\n* **Subject**: Enter the subject line.\n* **Message**: Enter the email message body."
+}

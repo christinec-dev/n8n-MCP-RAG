@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-1.md",
+  "index": 2,
+  "content": "# Understanding the data structure\n\nIn this chapter, you will learn about the data structure of n8n and how to use the [Code node](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) to transform data and simulate node outputs."
+}

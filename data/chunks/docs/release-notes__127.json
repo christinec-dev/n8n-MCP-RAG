@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 127,
+  "content": "### Tidy up\nTidy up instantly aligns nodes, centers stickies, untangles connections, and brings structure to your workflows. Whether you're preparing to share a workflow or just want to improve readability, this feature saves you time and makes your logic easier to follow. Clean, well-organized workflows aren't just nicer to look at—they’re also quicker to understand.\n\n**How to:** \n\nOpen the workflow you want to tidy, then choose one of these options:\n\n- Click the **Tidy up** button in the bottom-left corner of the canvas (it looks like a broom 🧹)\n- Press **Shift + Alt + T** on your keyboard\n- Right-click anywhere on the canvas and select **Tidy up workflow**\n\nWant to tidy up just part of your workflow? Select the specific nodes you want to clean up first - Tidy up will only adjust those, along with any stickies behind them.\n\n<br>\n<video src=\"/_video/release-notes/tidy_up.mp4\" controls width=\"100%\"></video>\n<br>"
+}

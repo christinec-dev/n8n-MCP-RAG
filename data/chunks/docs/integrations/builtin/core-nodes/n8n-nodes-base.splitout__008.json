@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.splitout.md",
+  "index": 8,
+  "content": "### Destination Field Name\n\nEnter the field in the output where the split field contents should go."
+}

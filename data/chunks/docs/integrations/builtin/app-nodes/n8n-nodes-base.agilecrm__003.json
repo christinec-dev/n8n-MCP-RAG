@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.agilecrm.md",
+  "index": 3,
+  "content": "## Operations\n\n* Company\n    * Create a new company\n    * Delete a company\n    * Get a company\n    * Get all companies\n    * Update company properties\n* Contact\n    * Create a new contact\n    * Delete a contact\n    * Get a contact\n    * Get all contacts\n    * Update contact properties\n* Deal\n    * Create a new deal\n    * Delete a deal\n    * Get a deal\n    * Get all deals\n    * Update deal properties"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/learning-path.md",
+  "index": 9,
+  "content": "## Build a node\n\nIf you can't find a node for a specific app or a service, you can build a node yourself and share with the community. See what others have built on [npm website](https://www.npmjs.com/search?q=keywords:n8n-community-node-package). \n\n- [Build a declarative-style node](/integrations/creating-nodes/build/declarative-style-node.md)\n- [Learn how to build your own n8n nodes (Youtube Video)](https://www.youtube.com/live/OI6zHJ56eW0?si=SMD7L1J5fZ2mf79W)"
+}

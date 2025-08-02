@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/execution-data.md",
+  "index": 8,
+  "content": "# Don't save manually launched executions\nexport EXECUTIONS_DATA_SAVE_MANUAL_EXECUTIONS=false\n\n```\n\n```sh"
+}

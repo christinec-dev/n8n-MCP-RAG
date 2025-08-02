@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.xero.md",
+  "index": 3,
+  "content": "## Operations\n\n* Contact\n    * Create a contact\n    * Get a contact\n    * Get all contacts\n    * Update a contact\n* Invoice\n    * Create a invoice\n    * Get a invoice\n    * Get all invoices\n    * Update a invoice"
+}

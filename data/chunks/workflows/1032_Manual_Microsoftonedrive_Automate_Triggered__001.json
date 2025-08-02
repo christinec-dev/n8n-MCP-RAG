@@ -1,0 +1,12 @@
+{
+  "source": "1032_Manual_Microsoftonedrive_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Microsoft OneDrive\",\n      \"type\": \"n8n-nodes-base.microsoftOneDrive\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"name\": \"n8n-rocks\",\n        \"options\": {},\n        \"resource\": \"folder\",\n        \"operation\": \"create\"\n      },\n      \"credentials\": {\n        \"microsoftOneDriveOAuth2Api\": \"n8n-docs-creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Microsoft OneDrive\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.microsoftOneDrive"
+    ],
+    "trigger": null
+  }
+}

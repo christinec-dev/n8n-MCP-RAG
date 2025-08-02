@@ -1,0 +1,13 @@
+{
+  "source": "1117_Mattermost_GoogleSheets_Automate_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"mode\": \"custom\",\n              \"cronExpression\": \"0 0 17 28 9 *\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Google Sheets\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"range\": \"Sessions!A:D\",\n        \"options\": {},\n        \"sheetId\": \"1nlnsTQKGgQZN-Rtd07K9bn0ROm0aFBC2O4kzM2YaTBI\",\n        \"authentication\": \"oAuth2\"\n      },\n      \"credentials\": {\n        \"googleSheetsOAuth2Api\": \"n8ndocsburner-googlesheets\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mattermost\",\n      \"type\": \"n8n-nodes-base.mattermost\",\n      \"position\": [\n        850,\n        300\n      ],\n      \"parameters\": {\n        \"message\": \"= Hey @channel, we hope you had a great time at **{{$node[\\\"Google Sheets\\\"].json[\\\"Session\\\"]}}**.\\nLet us know how we did by sharing your feedback with us on the link below!\",\n        \"channelId\": \"={{$node[\\\"Google Sheets\\\"].json[\\\"Mattermost Channel ID\\\"]}}\",\n        \"attachments\": [\n          {\n            \"title\": \"=Feedback Form - {{$node[\\\"Google Sheets\\\"].json[\\\"Session\\\"]}}\",\n            \"title_link\": \"={{$node[\\\"Google Sheets\\\"].json[\\\"Feedback Form Link\\\"]}}\"\n          }\n        ],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"mattermostApi\": \"mm_failedmachine\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Sheets\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Google Sheets\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mattermost\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.googleSheets",
+      "n8n-nodes-base.mattermost"
+    ],
+    "trigger": null
+  }
+}

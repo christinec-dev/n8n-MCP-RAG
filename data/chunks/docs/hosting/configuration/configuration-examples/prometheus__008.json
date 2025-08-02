@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/prometheus.md",
+  "index": 8,
+  "content": "# HELP n8n_scaling_mode_queue_jobs_failed Total number of jobs failed across all workers in scaling mode since instance start."
+}

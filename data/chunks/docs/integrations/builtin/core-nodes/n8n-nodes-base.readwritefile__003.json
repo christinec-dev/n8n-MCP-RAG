@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md",
+  "index": 3,
+  "content": "## Operations\n\n- [**Read File(s) From Disk**](#read-files-from-disk): Use this operation to retrieve one or more files from the computer that runs n8n.\n- [**Write File to Disk**](#write-file-to-disk): Use this operation to create a binary file on the computer that runs n8n.\n\nRefer to the sections below for more information on configuring the node for each operation."
+}

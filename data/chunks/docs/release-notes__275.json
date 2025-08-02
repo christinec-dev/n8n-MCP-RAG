@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 275,
+  "content": "### API update\nOur [public REST API](/api/index.md) now supports additional operations:\n\n- Create, read, and delete for variables\n- Filtering workflows by project\n- Transferring workflows\n\nFind the details in the [API reference](/api/api-reference.md)."
+}

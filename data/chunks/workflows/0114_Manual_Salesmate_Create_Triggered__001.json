@@ -1,0 +1,12 @@
+{
+  "source": "0114_Manual_Salesmate_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"128\",\n  \"name\": \"Create a company in Salesmate\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Salesmate\",\n      \"type\": \"n8n-nodes-base.salesmate\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"name\": \"\",\n        \"owner\": \"\",\n        \"resource\": \"company\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"salesmateApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Salesmate\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.salesmate"
+    ],
+    "trigger": null
+  }
+}

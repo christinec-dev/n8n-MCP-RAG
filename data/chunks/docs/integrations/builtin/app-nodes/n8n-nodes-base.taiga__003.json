@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.taiga.md",
+  "index": 3,
+  "content": "## Operations\n\n- **Issue**\n    - Create an issue\n    - Delete an issue\n    - Get an issue\n    - Get all issues\n    - Update an issue"
+}

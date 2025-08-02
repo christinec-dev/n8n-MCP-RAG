@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-mapping/data-item-linking/index.md",
+  "index": 2,
+  "content": "# Data item linking\n\nAn item is a single piece of data. Nodes receive one or more items, operate on them, and output new items. Each item links back to previous items. \n\nYou need to understand this behavior if you're:\n\n* Building a programmatic-style node that implements complex behaviors with its input and output data.\n* Using the Code node or expressions editor to access data from earlier items in the workflow. \n* Using the Code node for complex behaviors with input and output data.\n\nThis section provides:\n\n* A conceptual overview of [Item linking concepts](/data/data-mapping/data-item-linking/item-linking-concepts.md). \n* Information on [Item linking for node creators](/data/data-mapping/data-item-linking/item-linking-node-building.md).\n* Support for end users who need to [Work with the data path](/data/data-mapping/data-item-linking/item-linking-code-node.md) to retrieve item data from previous nodes, and link items when using the Code node.\n* Guidance on troubleshooting [Errors](/data/data-mapping/data-item-linking/item-linking-errors.md)."
+}

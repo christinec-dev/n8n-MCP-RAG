@@ -1,0 +1,13 @@
+{
+  "source": "0855_Mattermost_Pagerduty_Automate_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"webhookId\": \"213324b6-b84d-42f9-af3b-42804cc71cd1\",\n      \"parameters\": {\n        \"path\": \"213324b6-b84d-42f9-af3b-42804cc71cd1\",\n        \"options\": {},\n        \"httpMethod\": \"POST\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"PagerDuty\",\n      \"type\": \"n8n-nodes-base.pagerDuty\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"email\": \"n8ndocsburner@gmail.com\",\n        \"operation\": \"update\",\n        \"incidentId\": \"={{$json[\\\"body\\\"][\\\"context\\\"][\\\"pagerduty_incident\\\"]}}\",\n        \"updateFields\": {\n          \"status\": \"acknowledged\"\n        }\n      },\n      \"credentials\": {\n        \"pagerDutyApi\": \"PagerDuty Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mattermost\",\n      \"type\": \"n8n-nodes-base.mattermost\",\n      \"position\": [\n        850,\n        300\n      ],\n      \"parameters\": {\n        \"message\": \"💪🏼 Incident status has been changed to Acknowledged on PagerDuty.\",\n        \"channelId\": \"={{$node[\\\"Webhook\\\"].json[\\\"body\\\"][\\\"channel_id\\\"]}}\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"mattermostApi\": \"Mattermost Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"PagerDuty\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"PagerDuty\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mattermost\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.pagerDuty",
+      "n8n-nodes-base.mattermost"
+    ],
+    "trigger": null
+  }
+}

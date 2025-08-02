@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 689,
+  "content": "### Bug fixes\n\n* [Google Sheets:](/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/index.md) Fixed an issue with handling 0 value that resulted in empty cells.\n* [SSH:](/integrations/builtin/core-nodes/n8n-nodes-base.ssh.md) Fixed an issue with setting passphrases."
+}

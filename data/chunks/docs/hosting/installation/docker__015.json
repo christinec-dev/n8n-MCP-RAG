@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/docker.md",
+  "index": 15,
+  "content": "### Updating Docker Compose\n\n--8<-- \"_snippets/self-hosting/installation/docker-compose-updating.md\""
+}

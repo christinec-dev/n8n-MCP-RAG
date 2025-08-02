@@ -1,0 +1,17 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    # load environment variables from .env (do NOT put secrets here)
+    env_file:
+      - .env
+    environment:
+      - PROVIDER=${PROVIDER:-openai}
+      - RUN_INDEX_ON_START=${RUN_INDEX_ON_START:-true}
+      # Optional: talk to local Ollama via OpenAI API-compatible endpoint
+      # - OPENAI_BASE_URL=${OPENAI_BASE_URL}
+    volumes:
+      - ./data:/app/data
+      - ./chroma_db:/app/chroma_db
+      - ./ui:/app/ui

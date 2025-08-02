@@ -1,0 +1,14 @@
+{
+  "source": "1192_HTTP_Timescaledb_Automation_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"TimescaleDB\",\n      \"type\": \"n8n-nodes-base.timescaleDb\",\n      \"position\": [\n        1110,\n        260\n      ],\n      \"parameters\": {\n        \"table\": \"iss\",\n        \"columns\": \"latitude, longitude, timestamp\"\n      },\n      \"credentials\": {\n        \"timescaleDb\": \"TimescaleDB\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        910,\n        260\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"latitude\",\n              \"value\": \"={{$json[\\\"0\\\"][\\\"latitude\\\"]}}\"\n            },\n            {\n              \"name\": \"longitude\",\n              \"value\": \"={{$json[\\\"0\\\"][\\\"longitude\\\"]}}\"\n            },\n            {\n              \"name\": \"timestamp\",\n              \"value\": \"={{$json[\\\"0\\\"][\\\"timestamp\\\"]}}\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        710,\n        260\n      ],\n      \"parameters\": {\n        \"url\": \"https://api.wheretheiss.at/v1/satellites/25544/positions\",\n        \"options\": {},\n        \"queryParametersUi\": {\n          \"parameter\": [\n            {\n              \"name\": \"timestamps\",\n              \"value\": \"={{Date.now()}}\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        510,\n        260\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"mode\": \"everyMinute\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"TimescaleDB\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"HTTP Request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.timescaleDb",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.cron"
+    ],
+    "trigger": null
+  }
+}

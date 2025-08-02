@@ -1,0 +1,5 @@
+{
+  "source": "docs/license-key.md",
+  "index": 2,
+  "content": "# License Key\n\nTo enable certain licensed features, you must first activate your license. You can do this either through the UI or by setting environment variables."
+}

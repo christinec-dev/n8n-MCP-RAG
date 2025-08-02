@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.surveymonkeytrigger.md",
+  "index": 2,
+  "content": "# SurveyMonkey Trigger node\n\n[SurveyMonkey](https://www.surveymonkey.com/) is an online cloud-based SaaS survey platform that also provides a suite of paid back-end programs.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/surveymonkey.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [SurveyMonkey Trigger integrations](https://n8n.io/integrations/surveymonkey-trigger/) page.\n///"
+}

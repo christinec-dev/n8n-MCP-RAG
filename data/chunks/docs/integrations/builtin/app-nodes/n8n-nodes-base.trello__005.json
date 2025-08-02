@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.trello.md",
+  "index": 5,
+  "content": "## Find the List ID\n\n1. Open the Trello board that contains the list.\n2. If the list doesn't have any cards, add a card to the list.\n3. Open the card, add `.json` at the end of the URL, and press enter.\n4. In the JSON file, you will see a field called `idList`.\n5. Copy the contents of the `idList`field and paste it in the ***List ID** field in n8n."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.whatsapp/common-issues.md",
+  "index": 4,
+  "content": "## Working with non-text media\n\nThe WhatsApp Business Cloud node can work with non-text messages and media like images, audio, documents, and more.\n\nIf your operation includes a **Input Data Field Name** or **Property Name** parameter, set this to the field name itself rather than referencing the data in an expression.\n\nFor example, if you are trying to send a message with an \"Image\" **MessageType** and **Take Image From** set to \"n8n\", set **Input Data Field Name** to a field name like `data` instead of an expression like `{{ $json.input.data }}`."
+}

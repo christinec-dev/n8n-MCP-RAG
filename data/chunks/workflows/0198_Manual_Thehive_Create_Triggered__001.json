@@ -1,0 +1,14 @@
+{
+  "source": "0198_Manual_Thehive_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"159\",\n  \"name\": \"Create, update and get a case in TheHive\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        270,\n        340\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"TheHive\",\n      \"type\": \"n8n-nodes-base.theHive\",\n      \"position\": [\n        470,\n        340\n      ],\n      \"parameters\": {\n        \"tags\": \"n8n, theHive\",\n        \"owner\": \"Harshil\",\n        \"title\": \"n8n\",\n        \"options\": {},\n        \"resource\": \"case\",\n        \"severity\": 1,\n        \"operation\": \"create\",\n        \"startDate\": \"2020-12-03T10:08:14.000Z\",\n        \"description\": \"Creating a case from n8n\"\n      },\n      \"credentials\": {\n        \"theHiveApi\": \"hive\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"TheHive1\",\n      \"type\": \"n8n-nodes-base.theHive\",\n      \"position\": [\n        670,\n        340\n      ],\n      \"parameters\": {\n        \"id\": \"={{$node[\\\"TheHive\\\"].json[\\\"id\\\"]}}\",\n        \"resource\": \"case\",\n        \"operation\": \"update\",\n        \"updateFields\": {\n          \"severity\": 3\n        }\n      },\n      \"credentials\": {\n        \"theHiveApi\": \"hive\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"TheHive2\",\n      \"type\": \"n8n-nodes-base.theHive\",\n      \"position\": [\n        870,\n        340\n      ],\n      \"parameters\": {\n        \"id\": \"={{$node[\\\"TheHive\\\"].json[\\\"id\\\"]}}\",\n        \"resource\": \"case\",\n        \"operation\": \"get\"\n      },\n      \"credentials\": {\n        \"theHiveApi\": \"hive\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"TheHive\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"TheHive1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"TheHive1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"TheHive2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"TheHive\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.theHive",
+      "n8n-nodes-base.theHive",
+      "n8n-nodes-base.theHive"
+    ],
+    "trigger": null
+  }
+}

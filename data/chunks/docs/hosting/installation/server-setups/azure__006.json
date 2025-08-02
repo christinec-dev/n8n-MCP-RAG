@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/azure.md",
+  "index": 6,
+  "content": "## Create a cluster\n\nFrom the Kubernetes services page, select **Create** > **Create a Kubernetes cluster**.\n\nYou can select any of the configuration options that suit your needs, then select **Create** when done."
+}

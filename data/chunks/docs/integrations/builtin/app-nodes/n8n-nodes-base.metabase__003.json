@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.metabase.md",
+  "index": 3,
+  "content": "## Operations\n\n* Alert\n    * Get\n    * Get All\n* Database\n    * Add\n    * Get All\n    * Get Fields\n* Metric\n    * Get\n    * Get All\n* Question\n    * Get\n    * Get All\n    * Result Data"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/assistant-operations.md",
+  "index": 7,
+  "content": "### Options\n\n- **Simplify Output**: Turn on to return a simplified version of the response instead of the raw data. This option is enabled by default. \n\nRefer to [List assistants | OpenAI](https://platform.openai.com/docs/api-reference/assistants/listAssistants) documentation for more information."
+}

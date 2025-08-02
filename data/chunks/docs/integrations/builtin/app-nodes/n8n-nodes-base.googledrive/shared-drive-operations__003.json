@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/shared-drive-operations.md",
+  "index": 3,
+  "content": "## Create a shared drive\n\nUse this operation to create a new shared drive.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [Google Drive credentials](/integrations/builtin/credentials/google/index.md).\n- **Resource**: Select **Shared Drive**.\n- **Operation**: Select **Create**.\n- **Name**: The name to use for the new shared drive."
+}

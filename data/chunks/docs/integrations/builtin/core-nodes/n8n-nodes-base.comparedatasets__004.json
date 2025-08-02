@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.comparedatasets.md",
+  "index": 4,
+  "content": "## Understand item comparison\n\nItem comparison is a two stage process:\n\n1. n8n checks if the values of the fields you selected to compare match across both inputs.\n2. If the fields to compare match, n8n then compares all fields within the items, to determine if the items are the same or different."
+}

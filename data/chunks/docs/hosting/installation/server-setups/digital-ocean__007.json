@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/digital-ocean.md",
+  "index": 7,
+  "content": "### Create Docker volumes\n\nTo persist the Caddy cache between restarts and speed up start times, create [a Docker volume](https://docs.docker.com/storage/volumes/) that Docker reuses between restarts:\n\n```shell\nsudo docker volume create caddy_data\n```\n\nCreate a Docker volume for the n8n data:\n\n```shell\nsudo docker volume create n8n_data\n```"
+}

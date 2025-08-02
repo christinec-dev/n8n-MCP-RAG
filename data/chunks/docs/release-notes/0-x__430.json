@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 430,
+  "content": "### Breaking change to GraphQL node\n\nThe GraphQL node now errors when the response includes an error. If you use this node, you can choose to:\n\n* Do nothing: a GraphQL response containing an error will now cause the workflow to fail.\n* Update your GraphQL node settings: set **Continue on Fail** to true to allow the workflow to continue even when the GraphQL response contains an error."
+}

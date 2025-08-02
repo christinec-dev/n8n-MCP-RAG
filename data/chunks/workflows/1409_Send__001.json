@@ -1,0 +1,9 @@
+{
+  "source": "1409_Send.json",
+  "index": 1,
+  "content": "{\n  \"\\\"nodes\\\"\": \"[\",\n  \"\\\"name\\\"\": \"\\\"NoOp\\\",\",\n  \"\\\"type\\\"\": \"\\\"main\\\",\",\n  \"\\\"position\\\"\": \"[\",\n  \"\\\"webhookId\\\"\": \"\\\"2d0805da-143e-40c9-b327-242b1f052c31\\\",\",\n  \"\\\"parameters\\\"\": \"{},\",\n  \"\\\"updates\\\"\": \"[\",\n  \"\\\"additionalFields\\\"\": \"{\",\n  \"\\\"credentials\\\"\": \"{\",\n  \"\\\"telegramApi\\\"\": \"\\\"telegram_habot\\\"\",\n  \"\\\"typeVersion\\\"\": \"1\",\n  \"\\\"text\\\"\": \"\\\"I don't tolerate toxic language!\\\",\",\n  \"\\\"options\\\"\": \"{\",\n  \"\\\"languages\\\"\": \"\\\"en\\\"\",\n  \"\\\"requestedAttributesUi\\\"\": \"{\",\n  \"\\\"requestedAttributesValues\\\"\": \"[\",\n  \"\\\"attributeName\\\"\": \"\\\"profanity\\\"\",\n  \"\\\"googlePerspectiveOAuth2Api\\\"\": \"\\\"perspective_api\\\"\",\n  \"\\\"conditions\\\"\": \"{\",\n  \"\\\"number\\\"\": \"[\",\n  \"\\\"value1\\\"\": \"\\\"={{$json[\\\\\\\"attributeScores\\\\\\\"][\\\\\\\"PROFANITY\\\\\\\"][\\\\\\\"summaryScore\\\\\\\"][\\\\\\\"value\\\\\\\"]}}\\\",\",\n  \"\\\"value2\\\"\": \"0.7,\",\n  \"\\\"operation\\\"\": \"\\\"larger\\\"\",\n  \"\\\"chatId\\\"\": \"\\\"={{$node[\\\\\\\"Telegram Trigger\\\\\\\"].json[\\\\\\\"message\\\\\\\"][\\\\\\\"chat\\\\\\\"][\\\\\\\"id\\\\\\\"]}}\\\",\",\n  \"\\\"reply_to_message_id\\\"\": \"\\\"={{$node[\\\\\\\"Telegram Trigger\\\\\\\"].json[\\\\\\\"message\\\\\\\"][\\\\\\\"message_id\\\\\\\"]}}\\\"\",\n  \"\\\"connections\\\"\": \"{\",\n  \"\\\"IF\\\"\": \"{\",\n  \"\\\"main\\\"\": \"[\",\n  \"\\\"node\\\"\": \"\\\"IF\\\",\",\n  \"\\\"index\\\"\": \"0\",\n  \"\\\"Telegram Trigger\\\"\": \"{\",\n  \"\\\"Google Perspective\\\"\": \"{\"\n}",
+  "metadata": {
+    "node_types": [],
+    "trigger": null
+  }
+}

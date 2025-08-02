@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 344,
+  "content": "## n8n@0.186.1\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.186.0...n8n@0.186.1) for this version.<br />\n**Release date:** 2022-07-14\n\nThis is a bug fix release. It includes a fix for an issue with the Airtable node."
+}

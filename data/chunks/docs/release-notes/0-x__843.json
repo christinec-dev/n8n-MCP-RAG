@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 843,
+  "content": "## n8n@0.76.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.75.0...n8n@0.76.0) for this version.<br />\n**Release date:** 2020-08-05\n\n- New nodes\n- Customer.io Trigger\n- FTP\n- Medium\n- Philips Hue\n- TravisCI\n- Twake\n- Enhanced nodes\n- CrateDB\n- Move Binary Data\n- Nodes will now display a link to associated documentation"
+}

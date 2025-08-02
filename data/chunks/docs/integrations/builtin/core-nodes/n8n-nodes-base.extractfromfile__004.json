@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.extractfromfile.md",
+  "index": 4,
+  "content": "## Example workflow\n\nIn this example, a Webhook node is used to trigger the workflow. When a CSV file is sent to the webhook address, the file data is output and received by the Extract From File node.\n\n[[ workflowDemo(\"file:///integrations/builtin/core-nodes/n8n-nodes-base.extractfromfile/webhook-example.json\") ]]\n\nSet to operate as 'Extract from CSV', the node then outputs the data as a series of JSON 'row' objects:\n\n```\n{\n  \"row\": {\n  \"0\": \"apple\",\n  \"1\": \"1\",\n  \"2\": \"2\",\n  \"3\": \"3\"\n  }\n  ...\n```\n\n/// tip | Receiving files with a webhook\nSelect the Webhook Node's **Add Options** button and select **Raw body**, then enable that setting to get the node to output the binary file that the subsequent node is expecting.\n///"
+}

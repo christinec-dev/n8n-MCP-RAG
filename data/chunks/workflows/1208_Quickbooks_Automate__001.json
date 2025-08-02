@@ -1,0 +1,13 @@
+{
+  "source": "1208_Quickbooks_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"QuickBooks2\",\n      \"type\": \"n8n-nodes-base.quickbooks\",\n      \"position\": [\n        870,\n        300\n      ],\n      \"parameters\": {\n        \"email\": \"\",\n        \"resource\": \"invoice\",\n        \"invoiceId\": \"={{$json[\\\"Id\\\"]}}\",\n        \"operation\": \"send\"\n      },\n      \"credentials\": {\n        \"quickBooksOAuth2Api\": \"QuickBooks OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"QuickBooks1\",\n      \"type\": \"n8n-nodes-base.quickbooks\",\n      \"position\": [\n        670,\n        300\n      ],\n      \"parameters\": {\n        \"Line\": [\n          {\n            \"Amount\": 100,\n            \"itemId\": \"1\",\n            \"DetailType\": \"SalesItemLineDetail\",\n            \"Description\": \"Consulting service\"\n          }\n        ],\n        \"resource\": \"invoice\",\n        \"operation\": \"create\",\n        \"CustomerRef\": \"={{$json[\\\"Id\\\"]}}\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"quickBooksOAuth2Api\": \"QuickBooks OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"QuickBooks\",\n      \"type\": \"n8n-nodes-base.quickbooks\",\n      \"position\": [\n        470,\n        300\n      ],\n      \"parameters\": {\n        \"operation\": \"create\",\n        \"displayName\": \"Jack Ryan\",\n        \"additionalFields\": {\n          \"PrimaryEmailAddr\": \"jack@ryan.com\"\n        }\n      },\n      \"credentials\": {\n        \"quickBooksOAuth2Api\": \"QuickBooks OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"QuickBooks\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"QuickBooks1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"QuickBooks1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"QuickBooks2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.quickbooks",
+      "n8n-nodes-base.quickbooks",
+      "n8n-nodes-base.quickbooks"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/environment-variables/logs.md",
+  "index": 2,
+  "content": "# Logs environment variables\n\n--8<-- \"_snippets/self-hosting/file-based-configuration.md\"\n\nThis page lists environment variables to set up logging for debugging. Refer to [Logging in n8n](/hosting/logging-monitoring/logging.md) for details."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.modelselector.md",
+  "index": 5,
+  "content": "### Rules\n\nEach rule defines the model to use when specific conditions match.\n\nThe Model Selector node evaluates rules sequentially, starting from the first input, and stops evaluation as soon as it finds a match. This means that if multiple rules would match, n8n will only use the model defined by the first matching rule."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.splitinbatches.md",
+  "index": 5,
+  "content": "### Batch Size\n\nEnter the number of items to return with each call."
+}

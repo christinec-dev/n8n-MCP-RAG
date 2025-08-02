@@ -1,0 +1,5 @@
+{
+  "source": "docs/keyboard-shortcuts.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntags:\n  - Keyboard\n  - Move canvas\n  - Move nodes\n  - Drag and drop\ndescription: Keyboard shortcuts available in n8n.\nhide:\n  - tags\ncontentType: reference\n---"
+}

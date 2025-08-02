@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/test/troubleshooting-node-development.md",
+  "index": 11,
+  "content": "### Linter incorrectly warning about file name case\n\nThe node linter has rules for file names, including what case they should be. Windows users may encounter an issue when renaming files that causes the linter to continue giving warnings, even after you rename the files. This is due to a [known Windows issue](https://answers.microsoft.com/en-us/windows/forum/all/file-renaming-when-changing-case-doesnt-work/aa15ff7c-dd2d-4ed3-bcce-799ca90d4e58) with changing case when renaming files."
+}

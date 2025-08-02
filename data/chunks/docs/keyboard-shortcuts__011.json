@@ -1,0 +1,5 @@
+{
+  "source": "docs/keyboard-shortcuts.md",
+  "index": 11,
+  "content": "## Within nodes\n\n- **=**: in an empty parameter input, this switches to [expressions](/glossary.md#expression-n8n) mode."
+}

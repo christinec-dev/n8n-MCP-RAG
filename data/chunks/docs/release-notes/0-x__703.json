@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 703,
+  "content": "### Bug fixes\n\n* [MySQL:](/integrations/builtin/app-nodes/n8n-nodes-base.mysql/index.md) Fixed an issue where n8n was unable to save data due to collation, resulting in workflows ending with Unknown status."
+}

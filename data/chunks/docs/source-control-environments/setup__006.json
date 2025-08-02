@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/setup.md",
+  "index": 6,
+  "content": "## Step 3: Set up a deploy key\n\nSet up SSH access by creating a deploy key for the repository using the SSH key from n8n. The key must have write access. \n\nThe steps depend on your Git provider. Help links for common providers:\n\n* [GitHub | Managing deploy keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/managing-deploy-keys)\n* [GitLab | Deploy keys](https://docs.gitlab.com/ee/user/project/deploy_keys/)"
+}

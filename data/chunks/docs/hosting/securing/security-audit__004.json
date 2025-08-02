@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/security-audit.md",
+  "index": 4,
+  "content": "### CLI\n\nRun `n8n audit`."
+}

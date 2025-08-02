@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memoryzep.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: Zep node documentation\ndescription: Learn how to use the Zep node in n8n. Follow technical documentation to integrate Zep node into your workflows.\ncontentType: [integration, reference]\npriority: medium\n---"
+}

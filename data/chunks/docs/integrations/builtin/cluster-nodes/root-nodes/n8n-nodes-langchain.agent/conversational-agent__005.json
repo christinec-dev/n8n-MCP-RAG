@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/conversational-agent.md",
+  "index": 5,
+  "content": "### Require Specific Output Format\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-root-nodes/output-format.md\""
+}

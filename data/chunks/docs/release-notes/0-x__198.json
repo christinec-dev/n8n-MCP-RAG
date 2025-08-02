@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 198,
+  "content": "### Bug fixes\n\n* Editor: fix for executions preview scroll load bug and wrong execution being displayed.\n* Editor: force parse on long expressions.\n* Editor: restore trigger to the nodes panel.\n* Nodes: AWS DynamoDB Node Fix issue pagination and simplify issue.\n* Nodes: fix DynamoDB node type issues.\n* Resolve an issue with credentials and workflows not being matched correctly due to incorrect typing.\n* Restore missing tags when retrieving a workflow."
+}

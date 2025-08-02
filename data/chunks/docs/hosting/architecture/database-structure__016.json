@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 16,
+  "content": "### project_relation\n\nDescribes the relationship between a user and a [project](/user-management/rbac/projects.md), including the user's [role type](/user-management/rbac/role-types.md)."
+}

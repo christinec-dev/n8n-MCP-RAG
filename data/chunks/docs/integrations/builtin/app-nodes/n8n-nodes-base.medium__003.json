@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.medium.md",
+  "index": 3,
+  "content": "## Operations\n\n* Post\n    * Create a post\n* Publication\n    * Get all publications"
+}

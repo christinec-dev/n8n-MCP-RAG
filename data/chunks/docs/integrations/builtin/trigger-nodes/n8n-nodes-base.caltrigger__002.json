@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.caltrigger.md",
+  "index": 2,
+  "content": "# Cal Trigger node\n\n[Cal](https://cal.com/) is the event-juggling scheduler for everyone. Focus on meeting, not making meetings.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/cal.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Cal Trigger integrations](https://n8n.io/integrations/cal-trigger/) page.\n///"
+}

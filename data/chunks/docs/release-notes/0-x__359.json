@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 359,
+  "content": "### Bug fixes\n\n* Core: fixed an error with logging circular links in JSON.\n* Editor UI: now display the full text of long error messages.\n* Editor UI: fix for an issue with credentials rendering when the node has no parameters.\n* [Cortex node](/integrations/builtin/app-nodes/n8n-nodes-base.cortex.md): fix an issue preventing all analyzers being returned.\n* [HTTP Request node](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md): ensure all OAuth2 credentials work with this node.\n* [LinkedIn node](/integrations/builtin/app-nodes/n8n-nodes-base.linkedin.md): fix an issue with image preview.\n* [Salesforce node](/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md): fix an issue that was causing the lead status to not use the new name when name is updated.\n* Fixed an issue with required/optional parameters."
+}

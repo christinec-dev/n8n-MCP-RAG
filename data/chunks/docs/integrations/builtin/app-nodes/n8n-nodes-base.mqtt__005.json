@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mqtt.md",
+  "index": 5,
+  "content": "## Related resources\n\nn8n provides a trigger node for MQTT. You can find the trigger node docs [here](/integrations/builtin/trigger-nodes/n8n-nodes-base.mqtttrigger.md).\n\nRefer to [MQTT's documentation](https://mqtt.org/getting-started/) for more information about the service."
+}

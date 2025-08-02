@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.code/common-issues.md",
+  "index": 6,
+  "content": "## 'import' and 'export' may only appear at the top level\n\nThis error occurs if you try to use `import` or `export` in the Code node. These aren't supported by n8n's JavaScript sandbox. Instead, use the `require` function to load modules.\n\nTo resolve this issue, try changing your `import` statements to use `require`:\n\n```javascript\n// Original code:\n// import express from \"express\";\n// New code:\nconst express = require(\"express\");\n```\n\n<!-- vale off -->"
+}

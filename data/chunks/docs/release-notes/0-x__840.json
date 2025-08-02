@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 840,
+  "content": "## n8n@0.79.1\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.79.0...n8n@0.79.1) for this version.<br />\n**Release date:** 2020-08-28\n\n- Enhanced nodes\n- Contentful\n- HTTP Request\n- Postgres\n- Webhook\n- Removed Test-Webhook also in case checkExists fails\n- HTTP Request node doesn'toverwrite accept header if it's already set\n- Add rawBody to every request so that n8n doesn'tgive an error if body is missing"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 250,
+  "content": "## n8n@0.199.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.198.2...n8n@0.199.0) for this version.<br />\n**Release date:** 2022-10-21\n\nThis release includes new nodes, an improved workflow UI, performance improvements, and bug fixes."
+}

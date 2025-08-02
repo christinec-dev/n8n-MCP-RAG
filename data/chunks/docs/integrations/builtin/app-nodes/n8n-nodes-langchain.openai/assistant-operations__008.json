@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/assistant-operations.md",
+  "index": 8,
+  "content": "## Message an Assistant\n\nUse this operation to send a message to an assistant and receive a response.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [OpenAI credential](/integrations/builtin/credentials/openai.md).\n- **Resource**: Select **Assistant**.\n- **Operation**: Select **Message an Assistant**.\n- **Assistant**: Select the assistant you want to message.\n- **Prompt**: Enter the text prompt or message that you want to send to the assistant.\n    - **Connected Chat Trigger Node**: Automatically use the input from a previous node's `chatInput` field.\n    - **Define Below**: Manually define the prompt by entering static text or using an expression to reference data from previous nodes."
+}

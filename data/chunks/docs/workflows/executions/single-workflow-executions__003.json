@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/single-workflow-executions.md",
+  "index": 3,
+  "content": "## View executions for a single workflow\n\nIn the workflow, select the **Executions** tab in the top menu. You can preview all executions of that workflow."
+}

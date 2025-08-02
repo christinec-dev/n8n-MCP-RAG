@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.splitinbatches.md",
+  "index": 11,
+  "content": "### Get the current running index of the node\n\nTo get the current running index of the node, use the following expression: `{{$node[\"Loop Over Items\"].context[\"currentRunIndex\"];}}`."
+}

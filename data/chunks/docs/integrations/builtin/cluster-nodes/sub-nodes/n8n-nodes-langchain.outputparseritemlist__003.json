@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparseritemlist.md",
+  "index": 3,
+  "content": "## Node options\n\n* **Number of Items**: Enter the maximum items to return. Set to `-1` for unlimited items.\n* **Separator**: Select the separator used to split the results into separate items. Defaults to a new line."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.grist.md",
+  "index": 3,
+  "content": "## Operations\n\n* Create rows in a table\n* Delete rows from a table\n* Read rows from a table\n* Update rows in a table"
+}

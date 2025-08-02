@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.supabase/common-issues.md",
+  "index": 7,
+  "content": "## Records are accessible through Postgres but not Supabase\n\nIf queries for records return empty using the Supabase node, but are available through the [Postgres](/integrations/builtin/app-nodes/n8n-nodes-base.postgres/index.md) node or with a Postgres client, there may be a conflict with Supabase's [Row Level Security (RLS)](https://supabase.com/docs/guides/database/postgres/row-level-security) policy.\n\nSupabase always enables RLS when you create a table in a public schema with the Table Editor. When RLS is active, the API doesn't return any data with the public `anon` key until you create policies. This is a security measure to ensure that you only expose data you intend to.\n\nTo access data from a table with RLS enabled as the `anon` role, [create a policy](https://supabase.com/docs/guides/database/postgres/row-level-security#creating-policies) to enable the access patterns you intend to use."
+}

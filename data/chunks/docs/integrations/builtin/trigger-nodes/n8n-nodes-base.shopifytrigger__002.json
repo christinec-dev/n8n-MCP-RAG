@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.shopifytrigger.md",
+  "index": 2,
+  "content": "# Shopify Trigger node\n\n[Shopify](https://www.shopify.com/) is an e-commerce platform that allows users to set up an online store and sell their products.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/shopify.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Shopify Trigger integrations](https://n8n.io/integrations/shopify-trigger/) page.\n///"
+}

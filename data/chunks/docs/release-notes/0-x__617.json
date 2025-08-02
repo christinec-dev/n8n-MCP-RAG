@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 617,
+  "content": "### Enhanced nodes\n\n* [Baserow:](/integrations/builtin/app-nodes/n8n-nodes-base.baserow.md) Added the following filter options: Contains, Contains Not, Date Before Date, Date After Date, Filename Contains, Is Empty, Is Not Empty, Link Row Has, Link Row Does Not Have, Single Select Equal, and Single Select Not Equal.\n* [Pipedrive:](/integrations/builtin/app-nodes/n8n-nodes-base.pipedrive.md) Added support for Notes on Leads.\n* [WeKan:](/integrations/builtin/app-nodes/n8n-nodes-base.wekan.md) Added Sort field to the Card resource."
+}

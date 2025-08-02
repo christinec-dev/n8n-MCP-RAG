@@ -1,0 +1,13 @@
+{
+  "source": "0038_Manual_Ical_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        350,\n        200\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"iCalendar\",\n      \"type\": \"n8n-nodes-base.iCal\",\n      \"position\": [\n        550,\n        200\n      ],\n      \"parameters\": {\n        \"end\": \"2021-06-11T16:15:00.000Z\",\n        \"start\": \"2021-06-11T15:30:00.000Z\",\n        \"title\": \"n8n Community Meetup\",\n        \"additionalFields\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Send Email\",\n      \"type\": \"n8n-nodes-base.emailSend\",\n      \"position\": [\n        750,\n        200\n      ],\n      \"parameters\": {\n        \"text\": \"Hey Harshil,\\n\\nWe are excited to invite you to the n8n community meetup!\\n\\nWith this email you will find the invite attached.\\n\\nLooking forward to seeing you at the meetup!\\n\\nCheers,\\nHarshil\",\n        \"options\": {},\n        \"subject\": \"n8n Community Meetup 🚀\",\n        \"attachments\": \"data\"\n      },\n      \"credentials\": {\n        \"smtp\": \"Outlook Burner Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"iCalendar\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Send Email\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"iCalendar\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.iCal",
+      "n8n-nodes-base.emailSend"
+    ],
+    "trigger": null
+  }
+}

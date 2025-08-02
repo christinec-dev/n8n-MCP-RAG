@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.microsoftonedrivetrigger.md",
+  "index": 3,
+  "content": "## Events\n\n* On File Created\n* On File Updated\n* On Folder Created\n* On Folder Updates"
+}

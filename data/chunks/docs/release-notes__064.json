@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 64,
+  "content": "### Archive workflows\n\nIf you’ve ever accidentally removed a workflow, you’ll appreciate the new archiving feature. Instead of permanently deleting workflows with the Remove action, workflows are now archived by default. This allows you to recover them if needed.\n\n**How to:**\n\n- **Archive a workflow** - Select **Archive** from the Editor UI menu. It has replaced the **Remove** action.\n- **Find archived workflows** - Archived workflows are hidden by default. To find your archived workflows, select the option for **Show archived workflows** in the workflow filter menu.\n- **Permanently delete a workflow** - Once a workflow is archived, you can **Delete** it from the  options menu.\n- **Recover a workflow** - Select **Unarchive** from the options menu.\n\n**Keep in mind:** \n\n- Workflows archival requires the same permissions as required previously for removal.\n- You cannot select archived workflows as sub-workflows to execute\n- Active workflows are deactivated when they are archived\n- Archived workflows can not be edited"
+}

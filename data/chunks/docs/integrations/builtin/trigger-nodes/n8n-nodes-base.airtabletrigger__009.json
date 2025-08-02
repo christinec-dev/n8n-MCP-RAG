@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.airtabletrigger.md",
+  "index": 9,
+  "content": "### Trigger Field\n\nA created or last modified field in your table. The Airtable Trigger node uses this to determine what updates occurred since the previous check."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 395,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Improved welcome experience\n\nA new [introductory video](https://youtu.be/RpjQTGKm-ok), automatically displayed for new users.\n\n#### Automatically convert Luxon dates to strings\n\nn8n now automatically converts Luxon DateTime objects to strings.\n\n</div>"
+}

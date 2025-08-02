@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 357,
+  "content": "### New features\n\n* You can now access `getBinaryDataBuffer` in the pre-send method.\n* n8n now exposes the item index being processed by a node.\n* Migrated the expressions templating engine to [n8n's fork of riot-tmpl](https://github.com/n8n-io/tmpl)."
+}

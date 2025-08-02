@@ -1,0 +1,14 @@
+{
+  "source": "0028_Mattermost_Workflow_Automate_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        490,\n        460\n      ],\n      \"webhookId\": \"c0345765-4488-4ac8-a9da-02f647dd2b90\",\n      \"parameters\": {\n        \"path\": \"c0345765-4488-4ac8-a9da-02f647dd2b90\",\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        690,\n        460\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"Message\",\n              \"value\": \"Hello!\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mattermost\",\n      \"type\": \"n8n-nodes-base.mattermost\",\n      \"position\": [\n        690,\n        610\n      ],\n      \"parameters\": {\n        \"message\": \"=The workflow {{$workflow.name}}, was updated.\",\n        \"channelId\": \"toyi3uoycf8rirtm7d5jm15sso\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"mattermostApi\": \"Mattermost Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Workflow Trigger\",\n      \"type\": \"n8n-nodes-base.workflowTrigger\",\n      \"position\": [\n        490,\n        610\n      ],\n      \"parameters\": {\n        \"events\": [\n          \"update\"\n        ]\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Workflow Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mattermost\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.mattermost",
+      "n8n-nodes-base.workflowTrigger"
+    ],
+    "trigger": "workflow trigger"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "source": "0161_Openweathermap_Spontit_Update_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"141\",\n  \"name\": \"Send daily weather updates via a push notification using Spontit\",\n  \"nodes\": [\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        810,\n        340\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"hour\": 9\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"OpenWeatherMap\",\n      \"type\": \"n8n-nodes-base.openWeatherMap\",\n      \"position\": [\n        1010,\n        340\n      ],\n      \"parameters\": {\n        \"cityName\": \"berlin\"\n      },\n      \"credentials\": {\n        \"openWeatherMapApi\": \"owm\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Spontit\",\n      \"type\": \"n8n-nodes-base.spontit\",\n      \"position\": [\n        1210,\n        340\n      ],\n      \"parameters\": {\n        \"content\": \"=Hey! The temperature outside is {{$node[\\\"OpenWeatherMap\\\"].json[\\\"main\\\"][\\\"temp\\\"]}}°C.\",\n        \"additionalFields\": {\n          \"pushTitle\": \"Today's Weather Update\"\n        }\n      },\n      \"credentials\": {\n        \"spontitApi\": \"spontit\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"OpenWeatherMap\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"OpenWeatherMap\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Spontit\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.openWeatherMap",
+      "n8n-nodes-base.spontit"
+    ],
+    "trigger": null
+  }
+}

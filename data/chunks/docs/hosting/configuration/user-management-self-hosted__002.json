@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/user-management-self-hosted.md",
+  "index": 2,
+  "content": "# Configure self-hosted n8n for user management\n\nUser management in n8n allows you to invite people to work in your n8n instance. \n\nThis document describes how to configure your n8n instance to support user management, and the steps to start inviting users.\n\nRefer to the main [User management](/user-management/index.md) guide for more information about usage, including:\n\n* [Managing users](/user-management/manage-users.md)\n* [Account types](/user-management/account-types.md)\n* [Best practices](/user-management/best-practices.md)\n\nFor LDAP setup information, refer to [LDAP](/user-management/ldap.md).\n\nFor SAML setup information, refer to [SAML](/user-management/saml/index.md).\n\n/// note | Basic auth and JWT removed\nn8n removed support for basic auth and JWT in version 1.0.\n///"
+}

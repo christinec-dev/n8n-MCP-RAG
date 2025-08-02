@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.wait.md",
+  "index": 3,
+  "content": "## Operations\n\nThe Wait node can **Resume** on the following conditions:\n\n* [**After Time Interval**](#after-time-interval): The node waits for a certain amount of time.\n* [**At Specified Time**](#at-specified-time): The node waits until a specific time.\n* [**On Webhook Call**](#on-webhook-call): The node waits until it receives an HTTP call.\n* [**On Form Submitted**](#on-form-submitted): The node waits until it receives a form submission.\n\nRefer to the more detailed sections below for more detailed instructions."
+}

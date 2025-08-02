@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.merge.md",
+  "index": 3,
+  "content": "## Node parameters\n\nYou can specify how the Merge node should combine data from different data streams by choosing a **Mode**:"
+}

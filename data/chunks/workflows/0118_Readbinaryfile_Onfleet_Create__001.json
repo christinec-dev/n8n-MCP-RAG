@@ -1,0 +1,13 @@
+{
+  "source": "0118_Readbinaryfile_Onfleet_Create.json",
+  "index": 1,
+  "content": "{\n  \"id\": 12,\n  \"name\": \"Create Onfleet tasks from Spreadsheets\",\n  \"nodes\": [\n    {\n      \"name\": \"Onfleet\",\n      \"type\": \"n8n-nodes-base.onfleet\",\n      \"position\": [\n        900,\n        280\n      ],\n      \"parameters\": {\n        \"operation\": \"create\",\n        \"destination\": {\n          \"destinationProperties\": {\n            \"address\": \"={{$json[\\\"Address_Line1\\\"]}}, {{$json[\\\"Address_Line2\\\"]}}, {{$json[\\\"City/Town\\\"]}} {{$json[\\\"State/Province\\\"]}}, {{$json[\\\"Country\\\"]}}, {{$json[\\\"Postal_Code\\\"]}}\",\n            \"unparsed\": true,\n            \"addressNotes\": \"=\",\n            \"addressApartment\": \"={{$json[\\\"Address_Line2\\\"]}}\"\n          }\n        },\n        \"additionalFields\": {\n          \"notes\": \"={{$json[\\\"Task_Details\\\"]}}\",\n          \"recipient\": {\n            \"recipientProperties\": {\n              \"recipientName\": \"={{$json[\\\"Recipient_Name\\\"]}}\",\n              \"recipientNotes\": \"={{$json[\\\"Recipient_Notes\\\"]}}\",\n              \"recipientPhone\": \"=+1{{$json[\\\"Recipient_Phone\\\"]}}\"\n            }\n          }\n        }\n      },\n      \"credentials\": {\n        \"onfleetApi\": {\n          \"id\": \"2\",\n          \"name\": \"Onfleet API Key\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Read Binary File\",\n      \"type\": \"n8n-nodes-base.readBinaryFile\",\n      \"position\": [\n        500,\n        280\n      ],\n      \"parameters\": {\n        \"filePath\": \"=/Users/jamesli/Downloads/Onfleet Import Google Sheet.xlsx\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Spreadsheet File1\",\n      \"type\": \"n8n-nodes-base.spreadsheetFile\",\n      \"position\": [\n        700,\n        280\n      ],\n      \"parameters\": {\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Read Binary File\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Spreadsheet File1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Spreadsheet File1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Onfleet\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.onfleet",
+      "n8n-nodes-base.readBinaryFile",
+      "n8n-nodes-base.spreadsheetFile"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ssh.md",
+  "index": 2,
+  "content": "# SSH\n\nThe SSH node is useful for executing commands using the Secure Shell Protocol.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/ssh.md).\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoresupabase.md",
+  "index": 15,
+  "content": "### Update Documents\n\n* **Table Name**: Enter the Supabase table to use.\n* **ID**: The ID of an embedding entry.\n\nParameters for **Update Documents**\n\n* ID"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 459,
+  "content": "### Core functionality\n\n- Added new environment variable `N8N_HIRING_BANNER_ENABLED` to enable/disable the hiring banner.\n- Fixed a bug preventing keyboard shortcuts from working as expected.\n- Fixed a bug causing tooltips to be hidden behind other elements.\n- Fixed a bug causing some credentials to be hidden from the credentials list."
+}

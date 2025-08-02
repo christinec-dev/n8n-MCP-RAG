@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsmistralcloud.md",
+  "index": 4,
+  "content": "## Node options\n\n* **Batch Size**: Enter the maximum number of documents to send in each request.\n* **Strip New Lines**: Select whether to remove new line characters from input text (turned on) or not (turned off). n8n enables this by default."
+}

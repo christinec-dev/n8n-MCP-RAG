@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/test/run-node-locally.md",
+  "index": 2,
+  "content": "# Run your node locally\n\n--8<-- \"_snippets/integrations/creating-nodes/testing.md\""
+}

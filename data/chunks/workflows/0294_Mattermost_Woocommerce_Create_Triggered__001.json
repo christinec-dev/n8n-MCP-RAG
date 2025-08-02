@@ -1,0 +1,12 @@
+{
+  "source": "0294_Mattermost_Woocommerce_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"188\",\n  \"name\": \"Send a message on Mattermost when an order is created in WooCommerce\",\n  \"nodes\": [\n    {\n      \"name\": \"WooCommerce Trigger\",\n      \"type\": \"n8n-nodes-base.wooCommerceTrigger\",\n      \"position\": [\n        550,\n        260\n      ],\n      \"webhookId\": \"84960a7c-cb69-4dfb-a5ed-aac12e0efbf8\",\n      \"parameters\": {\n        \"event\": \"order.created\"\n      },\n      \"credentials\": {\n        \"wooCommerceApi\": \"woocommerce\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mattermost\",\n      \"type\": \"n8n-nodes-base.mattermost\",\n      \"position\": [\n        750,\n        260\n      ],\n      \"parameters\": {\n        \"message\": \"={{$node[\\\"WooCommerce Trigger\\\"].json[\\\"billing\\\"][\\\"first_name\\\"]}} bought {{$node[\\\"WooCommerce Trigger\\\"].json[\\\"line_items\\\"][0][\\\"name\\\"]}}!\",\n        \"channelId\": \"pj1p95ebei8g3ro5p84kxxuuio\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"mattermostApi\": \"Mattermost Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"WooCommerce Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mattermost\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.wooCommerceTrigger",
+      "n8n-nodes-base.mattermost"
+    ],
+    "trigger": "woocommerce trigger"
+  }
+}

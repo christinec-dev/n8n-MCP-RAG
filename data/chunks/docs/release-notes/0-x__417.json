@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 417,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Markdown node\n\n[Markdown node](/integrations/builtin/core-nodes/n8n-nodes-base.markdown.md): added a new Markdown node to convert between Markdown and HTML.\n\n</div>"
+}

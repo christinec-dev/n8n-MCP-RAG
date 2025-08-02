@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.dropbox.md",
+  "index": 3,
+  "content": "## Operations\n\n* File\n    * Copy a file\n    * Delete a file\n    * Download a file\n    * Move a file\n    * Upload a file\n* Folder\n    * Copy a folder\n    * Create a folder\n    * Delete a folder\n    * Return the files and folders in a given folder\n    * Move a folder\n* Search\n    * Query"
+}

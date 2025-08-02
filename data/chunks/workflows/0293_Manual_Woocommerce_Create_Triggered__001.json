@@ -1,0 +1,14 @@
+{
+  "source": "0293_Manual_Woocommerce_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"187\",\n  \"name\": \"Create, update and get a product from WooCommerce\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        220,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"WooCommerce\",\n      \"type\": \"n8n-nodes-base.wooCommerce\",\n      \"position\": [\n        430,\n        300\n      ],\n      \"parameters\": {\n        \"name\": \"n8n Sweatshirt\",\n        \"imagesUi\": {\n          \"imagesValues\": []\n        },\n        \"metadataUi\": {\n          \"metadataValues\": []\n        },\n        \"additionalFields\": {\n          \"description\": \"Stay warm with this sweatshirt!\",\n          \"regularPrice\": \"30\"\n        }\n      },\n      \"credentials\": {\n        \"wooCommerceApi\": \"woocommerce\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"WooCommerce1\",\n      \"type\": \"n8n-nodes-base.wooCommerce\",\n      \"position\": [\n        630,\n        300\n      ],\n      \"parameters\": {\n        \"operation\": \"update\",\n        \"productId\": \"={{$node[\\\"WooCommerce\\\"].json[\\\"id\\\"]}}\",\n        \"updateFields\": {\n          \"stockQuantity\": 100\n        }\n      },\n      \"credentials\": {\n        \"wooCommerceApi\": \"woocommerce\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"WooCommerce2\",\n      \"type\": \"n8n-nodes-base.wooCommerce\",\n      \"position\": [\n        830,\n        300\n      ],\n      \"parameters\": {\n        \"operation\": \"get\",\n        \"productId\": \"={{$node[\\\"WooCommerce\\\"].json[\\\"id\\\"]}}\"\n      },\n      \"credentials\": {\n        \"wooCommerceApi\": \"woocommerce\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"WooCommerce\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"WooCommerce1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"WooCommerce1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"WooCommerce2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"WooCommerce\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.wooCommerce",
+      "n8n-nodes-base.wooCommerce",
+      "n8n-nodes-base.wooCommerce"
+    ],
+    "trigger": null
+  }
+}

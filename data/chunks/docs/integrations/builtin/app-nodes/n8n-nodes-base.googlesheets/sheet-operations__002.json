@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/sheet-operations.md",
+  "index": 2,
+  "content": "# Google Sheets Sheet Within Document operations\n\nUse this operation to create, update, clear or delete a sheet in a Google spreadsheet from Google Sheets. Refer to [Google Sheets](/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/index.md) for more information on the Google Sheets node itself.\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

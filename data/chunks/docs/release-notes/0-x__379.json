@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 379,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Tags in workflow import and export\n\nWhen importing or exporting a workflow, the JSON can now include workflow tags.\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Improved handling of activation errors\n\nn8n now supports running an error workflow in response to an activation error.\n\n</div>"
+}

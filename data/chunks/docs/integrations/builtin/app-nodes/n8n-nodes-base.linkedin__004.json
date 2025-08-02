@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.linkedin.md",
+  "index": 4,
+  "content": "## Parameters\n\n* **Post As**: choose whether to post as a **Person** or **Organization**.\n* **Person Name or ID** and **Organization URN**: enter an identifier for the person or organization.\n\n\t/// note | Posting as organization\n\tIf posting as an Organization enter the organization number in the URN field. For example, `03262013` not `urn:li:company:03262013`.\n\t///\n\t\n* **Text**: the post contents.\n* **Media Category**: use this when including images or article URLs in your post."
+}

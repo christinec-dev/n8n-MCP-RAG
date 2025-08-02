@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-1.md",
+  "index": 9,
+  "content": "### Finding nodes\n\nYou can find all available nodes in the **nodes panel** on the right side of the Editor UI. There are three ways in which you can open the nodes panel:\n\n- Click the **+** icon in the top right corner of the canvas.\n- Click the **+** icon on the right side of an existing node on the canvas (the node to which you want to add another one).\n- Click the ++tab++ key on your keyboard.\n\n<figure style=\"text-align: center; width:50%; margin:auto;\"><img src=\"/_images/courses/level-one/chapter-one/l1-c1-node-menu-drilldown.gif\" alt=\"Nodes panel\"><figcaption align = \"center\"><i>Nodes panel</i></figcaption></figure>\n\nIn the nodes panel, notice that when adding your first node, you will see the different trigger node categories. After you have added your trigger node, you'll see that the nodes panel changes to show Advanced AI, Actions in an App, Data transformation, Flow, Core, and Human in the loop nodes.\n\nIf you want to find a specific node, use the search input at the top of the nodes panel."
+}

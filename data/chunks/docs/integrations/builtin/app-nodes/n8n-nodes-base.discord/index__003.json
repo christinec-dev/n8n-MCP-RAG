@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.discord/index.md",
+  "index": 3,
+  "content": "## Operations\n<!-- vale off -->\n<!-- \"Many\" triggers warnings -->\n\n- Channel\n\t- Create\n\t- Delete\n\t- Get\n\t- Get Many\n\t- Update\n- Message\n\t- Delete\n\t- Get\n\t- Get Many\n\t- React with Emoji\n\t- Send\n\t* Send and Wait for Response\n- Member\n\t- Get Many\n\t- Role Add\n\t- Role Remove\n\n--8<-- \"_snippets/integrations/builtin/send-and-wait-operation.md\"\n\n<!-- vale on -->"
+}

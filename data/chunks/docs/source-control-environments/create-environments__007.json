@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/create-environments.md",
+  "index": 7,
+  "content": "## Connect your n8n instances to your repository\n\nCreate two n8n instances, one for development, one for production."
+}

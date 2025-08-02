@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 737,
+  "content": "### New nodes\n\n* [Notion](/integrations/builtin/app-nodes/n8n-nodes-base.notion/index.md)\n* [Notion Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.notiontrigger.md)"
+}

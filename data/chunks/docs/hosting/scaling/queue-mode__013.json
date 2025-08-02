@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/queue-mode.md",
+  "index": 13,
+  "content": "### Disable webhook processing in the main process (optional)\n\nYou have webhook processors to execute the workflows. You can disable the webhook processing in the main process. This will make sure to execute all webhook executions in the webhook processors. In the configuration file set `endpoints.disableProductionWebhooksOnMainProcess` to `true` so that n8n doesn't process webhook requests on the main process.\n\nAlternatively, you can use the following command:\n\n```bash\nexport N8N_DISABLE_PRODUCTION_MAIN_PROCESS=true\n```\n\nWhen disabling the webhook process in the main process, run the main process and don't add it to the load balancer's webhook pool."
+}

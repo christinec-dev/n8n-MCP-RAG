@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 363,
+  "content": "### Node enhancements\n\n* [HubSpot node](/integrations/builtin/app-nodes/n8n-nodes-base.hubspot.md): you can now assign a stage on ticket update.\n* [Todoist node](/integrations/builtin/app-nodes/n8n-nodes-base.todoist.md): it's now possible to move tasks between sections.\n* [Twake node](/integrations/builtin/app-nodes/n8n-nodes-base.twake.md): updated icon, credential test added, and added support for custom operations."
+}

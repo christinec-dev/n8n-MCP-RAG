@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/execution-timeout.md",
+  "index": 2,
+  "content": "# Configure workflow timeout settings\n\nA workflow times out and gets canceled after this time (in seconds). If the workflow runs in the main process, a soft timeout happens (takes effect after the current node finishes). If a workflow runs in its own process, n8n attempts a soft timeout first, then kills the process after waiting for a fifth of the given timeout duration.\n\n`EXECUTIONS_TIMEOUT` default is `-1`. For example, if you want to set the timeout to one hour:\n\n```bash\nexport EXECUTIONS_TIMEOUT=3600\n```\n\nYou can also set maximum execution time (in seconds) for each workflow individually. For example, if you want to set maximum execution time to two hours:\n\n```bash\nexport EXECUTIONS_TIMEOUT_MAX=7200\n```\nRefer to [Environment variables reference](/hosting/configuration/environment-variables/executions.md) for more information on these variables."
+}

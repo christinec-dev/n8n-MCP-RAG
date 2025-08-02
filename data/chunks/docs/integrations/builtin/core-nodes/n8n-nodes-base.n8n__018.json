@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md",
+  "index": 18,
+  "content": "## Update workflow\n\nConfigure this operation with these parameters:\n\n* **Workflow**: Select the workflow you want to update. Options include:\n\t* **From list**: Select the workflow from the list.\n\t* **By URL**: Enter the URL of the workflow.\n\t* **By ID**: Enter the ID of the workflow.\n* **Workflow Object**: Enter a valid JSON object to update the workflow with. The object requires these fields:\n\t* `name`\n\t* `nodes`\n\t* `connections`\n\t* `settings`\n\nRefer to the [n8n API | Update a workflow documentation](https://docs.n8n.io/api/api-reference/#tag/Workflow/paths/~1workflows~1%7Bid%7D/put) for more information."
+}

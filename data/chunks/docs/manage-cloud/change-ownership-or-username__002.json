@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/change-ownership-or-username.md",
+  "index": 2,
+  "content": "## Change instance ownership\n\nYou can change the ownership of an instance by navigating to the **Settings** page in the owner's account and editing the **Email** field. After making the changes, scroll down and press **Save**.\nNote that for the change to be effective, the new email address can't be linked to any other n8n account.\n\nChanging emails will change the owner of the instance, the email you log in with, and the email your invoices and general communication gets sent to.\n\nIf the workspace is deactivated, there will be no **Settings** page and no possibility to change the email address or the owner info."
+}

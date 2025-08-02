@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 436,
+  "content": "### Enhanced nodes\n\n* [Crypto Node:](/integrations/builtin/core-nodes/n8n-nodes-base.crypto.md) Add Generate operation to generate random values.\n* [HTTP Request Node:](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) Add support for OPTIONS method.\n* [Jira Node:](/integrations/builtin/app-nodes/n8n-nodes-base.jira.md) Add Simplify Output option to Issue > Get.\n* [Reddit Node:](/integrations/builtin/app-nodes/n8n-nodes-base.reddit.md) Add possibility to query saved posts.\n* [Zendesk Node:](/integrations/builtin/app-nodes/n8n-nodes-base.zendesk.md) Add ticket status On-hold."
+}

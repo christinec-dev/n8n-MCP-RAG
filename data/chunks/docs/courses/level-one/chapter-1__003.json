@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-1.md",
+  "index": 3,
+  "content": "## Getting started\n\nBegin by setting up n8n.\n\nWe recommend starting with [n8n Cloud](https://app.n8n.cloud/register), a hosted solution that doesn't require installation and includes a free trial.\n\n/// note | Alternative set up\nIf n8n Cloud isn't a good option for you, you can [self-host with Docker](/hosting/installation/docker.md). This is an advanced option recommended only for technical users familiar with hosting services, Docker, and the command line.\n///\n\nFor more details on the different ways to set up n8n, see our [platforms documentation](/choose-n8n.md#platforms).\n\nOnce you have n8n running, open the Editor UI in a browser window. Log in to your n8n instance. Select **Overview** and then **Create Workflow** to view the main canvas.\n\nIt should look like this:\n\n<figure><img src=\"/_images/courses/level-one/chapter-one/l1-c1-editor-ui.png\" alt=\"Editor UI\" style=\"width:100%\"><figcaption align = \"center\"><i>Editor UI</i></figcaption></figure>"
+}

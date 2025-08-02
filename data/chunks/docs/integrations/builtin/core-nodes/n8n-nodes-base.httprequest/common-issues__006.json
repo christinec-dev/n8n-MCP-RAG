@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/common-issues.md",
+  "index": 6,
+  "content": "## Forbidden - perhaps check your credentials\n\nThis error displays when the node receives a 403 error indicating authentication failed.\n\nTo resolve, review the selected credentials and make sure you can authenticate with them. You may need to:\n\n* Update permissions or scopes so that your API key or account can perform the operation you've selected.\n* Format your generic credential in a different way.\n* Generate a new API key or token with the appropriate permissions or scopes."
+}

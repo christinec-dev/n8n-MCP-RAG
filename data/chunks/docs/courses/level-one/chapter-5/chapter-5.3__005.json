@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.3.md",
+  "index": 5,
+  "content": "## Insert data into Airtable\n\nNext, we want to insert this data into Airtable. Remember what Nathan said at the end of the [Inserting data into Airtable](/courses/level-one/chapter-5/chapter-5.2.md) lesson?\n\n> I actually need to insert only processing orders in the table...\n\nSince Nathan only needs the `processing` orders in the table, we'll connect the Airtable node to the If node's `true` connector. \n\nIn this case, since the Airtable node is already on our canvas, select the **If node** `true` connector and drag it to the Airtable node.\n\nIt's a good idea at this point to retest the Airtable node. Before you do, open your table in Airtable and delete all existing rows. Then open the Airtable node window in n8n and select **Execute step**.\n\nReview your data in Airtable to be sure your workflow only added the correct orders (those with `orderStatus` of `processing`). There should be 14 records now instead of 30.\n\nAt this stage, your workflow should look like this:\n\n[[ workflowDemo(\"file:////courses/level-one/chapter-5/chapter-5.3.json\") ]]"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/common-issues.md",
+  "index": 8,
+  "content": "## IP addresses in whitelist are failing to connect\n\nIf you're unable to connect from IP addresses in your IP whitelist, check if you are running n8n behind a reverse proxy.\n\nIf so, set the `N8N_PROXY_HOPS` [environment variable](/hosting/configuration/environment-variables/index.md) to the number of reverse-proxies n8n is running behind."
+}

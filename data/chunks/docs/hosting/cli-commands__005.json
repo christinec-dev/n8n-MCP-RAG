@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/cli-commands.md",
+  "index": 5,
+  "content": "## Change the active status of a workflow\n\nYou can change the active status of a workflow using the CLI.\n\n/// note | Restart required\nThese commands operate on your n8n database. If you execute them while n8n is running, the changes don't take effect until you restart n8n.\n///\n\nSet the active status of a workflow by its ID to false:\n\n```bash\nn8n update:workflow --id=<ID> --active=false\n```\n\nSet the active status of a workflow by its ID to true:\n\n```bash\nn8n update:workflow --id=<ID> --active=true\n```\n\nSet the active status to false for all the workflows:\n\n```bash\nn8n update:workflow --all --active=false\n```\n\nSet the active status to true for all the workflows:\n\n```bash\nn8n update:workflow --all --active=true\n```"
+}

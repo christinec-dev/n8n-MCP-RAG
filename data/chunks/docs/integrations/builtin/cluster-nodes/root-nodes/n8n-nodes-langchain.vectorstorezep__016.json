@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorezep.md",
+  "index": 16,
+  "content": "### Is Auto Embedded\n\nAvailable in the **Insert Documents** Operation Mode, enabled by default.\n\nDisable this to configure your embeddings in Zep instead of in n8n."
+}

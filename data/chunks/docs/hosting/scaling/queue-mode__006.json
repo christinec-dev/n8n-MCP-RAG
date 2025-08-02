@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/queue-mode.md",
+  "index": 6,
+  "content": "### Set executions mode\n\n/// note | Database considerations\nn8n recommends using Postgres 13+. Running n8n with execution mode set to `queue` with an SQLite database isn't recommended.\n///\n\nSet the environment variable `EXECUTIONS_MODE` to `queue` on the main instance and any workers using the following command.\n\n```bash\nexport EXECUTIONS_MODE=queue\n```\n\nAlternatively, you can set `executions.mode` to `queue` in the [configuration file](/hosting/configuration/environment-variables/index.md)."
+}

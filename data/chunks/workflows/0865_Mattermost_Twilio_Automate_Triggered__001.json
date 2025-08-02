@@ -1,0 +1,13 @@
+{
+  "source": "0865_Mattermost_Twilio_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Twilio\",\n      \"type\": \"n8n-nodes-base.twilio\",\n      \"position\": [\n        900,\n        300\n      ],\n      \"parameters\": {\n        \"message\": \"=The workflow named '{{$node[\\\"Error Trigger\\\"].json[\\\"workflow\\\"][\\\"name\\\"]}}' with the ID {{$node[\\\"Error Trigger\\\"].json[\\\"workflow\\\"][\\\"id\\\"]}} has encountered an error.\"\n      },\n      \"credentials\": {\n        \"twilioApi\": \"Twilio\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mattermost\",\n      \"type\": \"n8n-nodes-base.mattermost\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"message\": \"=The workflow named '{{$json[\\\"workflow\\\"][\\\"name\\\"]}}' with the ID {{$json[\\\"workflow\\\"][\\\"id\\\"]}} has encountered an error. The last node that was executed was {{$json[\\\"execution\\\"][\\\"lastNodeExecuted\\\"]}}.\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"mattermostApi\": \"Mattermost\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Error Trigger\",\n      \"type\": \"n8n-nodes-base.errorTrigger\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Mattermost\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twilio\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Error Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mattermost\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.twilio",
+      "n8n-nodes-base.mattermost",
+      "n8n-nodes-base.errorTrigger"
+    ],
+    "trigger": "error trigger"
+  }
+}

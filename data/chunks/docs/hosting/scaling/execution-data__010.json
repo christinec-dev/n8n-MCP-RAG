@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/execution-data.md",
+  "index": 10,
+  "content": "# Docker Compose\nn8n:\n    environment:\n      - EXECUTIONS_DATA_SAVE_ON_ERROR=all\n      - EXECUTIONS_DATA_SAVE_ON_SUCCESS=none\n      - EXECUTIONS_DATA_SAVE_ON_PROGRESS=true\n      - EXECUTIONS_DATA_SAVE_MANUAL_EXECUTIONS=false\n```"
+}

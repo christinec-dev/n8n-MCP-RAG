@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.telegramtrigger/common-issues.md",
+  "index": 4,
+  "content": "## Bad request: bad webhook: An HTTPS URL must be provided for webhook\n<!-- vale on -->\n\nThis error occurs when you run n8n behind a reverse proxy and there is a problem with your instance's webhook URL.\n\nWhen running n8n behind a reverse proxy, you must [configure the `WEBHOOK_URL` environment variable](/hosting/configuration/configuration-examples/webhook-url.md) with the public URL where your n8n instance is running. For Telegram, this URL must use HTTPS.\n\nTo fix this issue, configure TLS/SSL termination in your reverse proxy. Afterward, update your `WEBHOOK_URL` environment variable to use the HTTPS address."
+}

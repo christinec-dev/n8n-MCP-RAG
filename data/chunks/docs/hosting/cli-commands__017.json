@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/cli-commands.md",
+  "index": 17,
+  "content": "### Disable LDAP\n\nYou can reset the LDAP settings using the command below.\n\n```sh\nn8n ldap:reset\n```"
+}

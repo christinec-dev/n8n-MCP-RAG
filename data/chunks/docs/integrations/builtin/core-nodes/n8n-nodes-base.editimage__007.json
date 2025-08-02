@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 7,
+  "content": "### Composite parameters\n\n* **Property Name**: Enter the name of the binary property that stores the image data. This image is your base image.\n* **Composite Image Property**: Enter the name of the binary property that stores image to composite on top of the **Property Name** image.\n* **Operator**: Select composite operator, which determines how the composite works. Options include:\n\t* **Add**\n\t* **Atop**\n\t* **Bumpmap**\n\t* **Copy**\n\t* **Copy Black**\n\t* **Copy Blue**\n\t* **Copy Cyan**\n\t* **Copy Green**\n\t* **Copy Magenta**\n\t* **Copy Opacity**\n\t* **Copy Red**\n\t* **Copy Yellow**\n\t* **Difference**\n\t* **Divide**\n\t* **In**\n\t* **Minus**\n\t* **Multiply**\n\t* **Out**\n\t* **Over**\n\t* **Plus**\n\t* **Subtract**\n\t* **Xor**\n* **Position X**: Enter the x axis position (horizontal) of the composite image.\n* **Position Y**: Enter the y axis position (vertical) of the composite image.\n\nRefer to [Node options](#node-options) for optional configuration options."
+}

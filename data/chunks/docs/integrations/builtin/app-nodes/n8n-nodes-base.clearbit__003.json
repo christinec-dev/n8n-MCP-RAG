@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.clearbit.md",
+  "index": 3,
+  "content": "## Operations\n\n* Company\n    * Auto-complete company names and retrieve logo and domain\n    * Look up person and company data based on an email or domain\n* Person\n    * Look up a person and company data based on an email or domain"
+}

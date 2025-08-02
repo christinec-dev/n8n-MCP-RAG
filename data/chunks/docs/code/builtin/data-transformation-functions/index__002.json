@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/builtin/data-transformation-functions/index.md",
+  "index": 2,
+  "content": "# Data transformation functions\n\nData transformation functions are helper functions to make data transformation easier in [expressions](/glossary.md#expression-n8n).\n\n/// note | JavaScript in expressions\nYou can use any JavaScript in expressions. Refer to [Expressions](/code/expressions.md) for more information.\n///\nFor a list of available functions, refer to the page for your data type:\n\n* [Arrays](/code/builtin/data-transformation-functions/arrays.md)\n* [Dates](/code/builtin/data-transformation-functions/dates.md)\n* [Numbers](/code/builtin/data-transformation-functions/numbers.md)\n* [Objects](/code/builtin/data-transformation-functions/objects.md)\n* [Strings](/code/builtin/data-transformation-functions/strings.md)"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.brevo.md",
+  "index": 3,
+  "content": "## Operations\n\n* Contact\n    * Create\n    * Create or Update\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Contact Attribute\n    * Create\n    * Delete\n    * Get All\n    * Update\n* Email\n    * Send\n    * Send Template\n* Sender\n    * Create\n    * Delete\n    * Get All"
+}

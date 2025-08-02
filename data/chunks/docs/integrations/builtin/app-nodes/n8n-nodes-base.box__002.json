@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.box.md",
+  "index": 2,
+  "content": "# Box node\n\nUse the Box node to automate work in Box, and integrate Box with other applications. n8n has built-in support for a wide range of Box features, including creating, copying, deleting, searching, uploading, and downloading files and folders.\n\nOn this page, you'll find a list of operations the Box node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Box credentials](/integrations/builtin/credentials/box.md) for guidance on setting up authentication. \n///"
+}

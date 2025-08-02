@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.respondtowebhook.md",
+  "index": 5,
+  "content": "### Respond With\n\nChoose what data to send in the webhook response.\n\n- **All Incoming Items**: Respond with all the JSON items from the input.\n- **Binary File**: Respond with a binary file defined in **Response Data Source**.\n- **First Incoming Item**: Respond with the first incoming item's JSON.\n- **JSON**: Respond with a JSON object defined in **Response Body**.\n- **JWT Token**: Respond with a JSON Web Token (JWT).\n- **No Data**: No response payload.\n- **Redirect**: Redirect to a URL set in **Redirect URL**.\n- **Text**: Respond with text set in **Response Body**. This sends HTML by default (`Content-Type: text/html`)."
+}

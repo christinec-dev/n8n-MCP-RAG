@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/draft-operations.md",
+  "index": 5,
+  "content": "## Delete a draft\n\nUse this operation to delete a draft.\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Draft**.\n* **Operation**: Select **Delete**.\n* **Draft ID**: Enter the ID of the draft you wish to delete.\n\nRefer to the [Gmail API Method: users.drafts.delete](https://developers.google.com/gmail/api/reference/rest/v1/users.drafts/delete) documentation for more information."
+}

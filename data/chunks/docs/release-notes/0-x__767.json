@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 767,
+  "content": "### Core Functionality\n- Fixed a timeout issue with the workflows in the main process"
+}

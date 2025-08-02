@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/concurrency.md",
+  "index": 5,
+  "content": "## Comparison to queue mode\n\n/// info | Feature availability\nQueue mode is available for Cloud Enterprise plans. To enable it, [contact n8n](https://n8n-community.typeform.com/to/y9X2YuGa).\n///\n\nConcurrency in queue mode is a separate mechanism from concurrency in regular mode. In queue mode, the concurrency settings determine how many jobs each worker can run in parallel. In regular mode, concurrency limits apply to the entire instance."
+}

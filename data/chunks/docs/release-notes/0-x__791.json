@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 791,
+  "content": "## n8n@0.109.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.108.0...n8n@0.109.0) for this version.<br />\n**Release date:** 2021-02-22\n\n- New nodes\n- Bitwarden\n- Emelia\n- Emelia Trigger\n- GoToWebinar\n- Raindrop\n- Enhanced nodes\n- AWS Rekognition: Added the Detect Text type to the Analyze operation for the Image resource\n- Google Calendar: Added RRULE parameter to the Get All operation for the Event resource\n- Jira: Added User resource and operations\n- Reddit: Added the Search operation for the Post resource\n- Telegram: Added the Send Location operation\n- Bug fixes\n- RocketChat: Fixed error responses\n- Fixed the issue which caused the execution history of subworkflows (workflows started using the Execute Workflow node) not to be saved\n- Added an option to export the credential data in plain text format using the CLI"
+}

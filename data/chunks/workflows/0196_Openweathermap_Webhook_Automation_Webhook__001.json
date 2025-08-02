@@ -1,0 +1,13 @@
+{
+  "source": "0196_Openweathermap_Webhook_Automation_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"158\",\n  \"name\": \"Receive the weather information of any city\",\n  \"nodes\": [\n    {\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        580,\n        340\n      ],\n      \"webhookId\": \"45690b6a-2b01-472d-8839-5e83a74858e5\",\n      \"parameters\": {\n        \"path\": \"45690b6a-2b01-472d-8839-5e83a74858e5\",\n        \"options\": {},\n        \"responseData\": \"allEntries\",\n        \"responseMode\": \"lastNode\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"OpenWeatherMap\",\n      \"type\": \"n8n-nodes-base.openWeatherMap\",\n      \"position\": [\n        770,\n        340\n      ],\n      \"parameters\": {\n        \"cityName\": \"={{$node[\\\"Webhook\\\"].json[\\\"query\\\"][\\\"city\\\"]}}\"\n      },\n      \"credentials\": {\n        \"openWeatherMapApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        970,\n        340\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"temp\",\n              \"value\": \"={{$node[\\\"OpenWeatherMap\\\"].json[\\\"main\\\"][\\\"temp\\\"]}}\"\n            },\n            {\n              \"name\": \"description\",\n              \"value\": \"={{$node[\\\"OpenWeatherMap\\\"].json[\\\"weather\\\"][0][\\\"description\\\"]}}\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"OpenWeatherMap\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"OpenWeatherMap\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.openWeatherMap",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

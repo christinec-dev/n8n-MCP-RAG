@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-methods.md",
+  "index": 4,
+  "content": "### npm\n\nFor npm, set your desired environment variables in terminal using the `export` command as shown below:\n\n```bash\nexport <variable>=<value>\n```"
+}

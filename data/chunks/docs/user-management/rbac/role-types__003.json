@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/rbac/role-types.md",
+  "index": 3,
+  "content": "## Project Admin\n\nA Project Admin role has the highest level of permissions. Project admins can:\n\n* Manage project settings: Change name, delete project.\n* Manage project members: Invite members and remove members, change members' roles.\n* View, create, update, and delete any workflows, credentials, or executions within a project."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.twist.md",
+  "index": 3,
+  "content": "## Operations\n\n* Channel\n    * Archive a channel\n    * Initiates a public or private channel-based conversation\n    * Delete a channel\n    * Get information about a channel\n    * Get all channels\n    * Unarchive a channel\n    * Update a channel\n* Comment\n    * Create a new comment to a thread\n    * Delete a comment\n    * Get information about a comment\n    * Get all comments\n    * Update a comment\n* Message Conversation\n    * Create a message in a conversation\n    * Delete a message in a conversation\n    * Get a message in a conversation\n    * Get all messages in a conversation\n    * Update a message in a conversation\n* Thread\n    * Create a new thread in a channel\n    * Delete a thread\n    * Get information about a thread\n    * Get all threads\n    * Update a thread"
+}

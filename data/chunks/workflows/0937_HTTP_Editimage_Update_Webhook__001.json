@@ -1,0 +1,13 @@
+{
+  "source": "0937_HTTP_Editimage_Update_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        700,\n        350\n      ],\n      \"parameters\": {\n        \"path\": \"test\",\n        \"responseData\": \"firstEntryBinary\",\n        \"responseMode\": \"lastNode\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Edit Image\",\n      \"type\": \"n8n-nodes-base.editImage\",\n      \"position\": [\n        1100,\n        350\n      ],\n      \"parameters\": {\n        \"text\": \"=They found the killer it was {{$node[\\\"Webhook\\\"].data[\\\"query\\\"][\\\"name\\\"]}}!\",\n        \"fontSize\": \"=25\",\n        \"operation\": \"text\",\n        \"positionX\": 150,\n        \"positionY\": 180,\n        \"lineLength\": 18\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Read File URL\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        900,\n        350\n      ],\n      \"parameters\": {\n        \"url\": \"https://www.needpix.com/file_download.php?url=//storage.needpix.com/thumbs/newspaper-412809_1280.jpg\",\n        \"responseFormat\": \"file\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Read File URL\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Read File URL\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Edit Image\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.editImage",
+      "n8n-nodes-base.httpRequest"
+    ],
+    "trigger": null
+  }
+}

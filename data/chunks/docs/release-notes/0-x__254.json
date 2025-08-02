@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 254,
+  "content": "### Bug fixes\n\n* Editor: fix a hover bug in the bottom menu.\n* Editor: resolve performance issues when opening a node, or editing a code node, with a large amount of data.\n* Editor: ensure workflows always stop when clicking the stop button.\n* Editor: fix a bug that was causing text highlighting when mapping data in Firefox.\n* Editor: ensure correct linting in the Code node editor.\n* Editor: handle null values in table view.\n* Elasticsearch node: fix a pagination issue.\n* Google Drive node: fix typo.\n* HTTP Request node: avoid errors when a response doesn't provide a content type.\n* n8n node: fix a bug that was preventing the resource locator component from returning all items."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 247,
+  "content": "### Node enhancements\n\n* Airtable Trigger node: add the resource locator component.\n* HTTP Request node: add options for raw JSON headers and queries.\n* InvoiceNinja node: add support for V5.\n* Write Binary File node: add option to append to a file."
+}

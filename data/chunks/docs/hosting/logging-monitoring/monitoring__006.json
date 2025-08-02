@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/monitoring.md",
+  "index": 6,
+  "content": "# metrics\nN8N_METRICS=true"
+}

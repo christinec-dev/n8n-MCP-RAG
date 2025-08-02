@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.demio.md",
+  "index": 2,
+  "content": "# Demio node\n\nUse the Demio node to automate work in Demio, and integrate Demio with other applications. n8n has built-in support for a wide range of Demio features, including getting, and registering events and reports.\n\nOn this page, you'll find a list of operations the Demio node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Demio credentials](/integrations/builtin/credentials/demio.md) for guidance on setting up authentication. \n///"
+}

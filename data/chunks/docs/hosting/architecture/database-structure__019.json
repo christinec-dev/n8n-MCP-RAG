@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 19,
+  "content": "### shared_credentials\n\nMaps credentials to users."
+}

@@ -1,0 +1,13 @@
+{
+  "source": "0234_GoogleSheets_Cron_Create_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        100,\n        160\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {\n              \"hour\": 5,\n              \"mode\": \"everyWeek\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"MySQL - insert\",\n      \"type\": \"n8n-nodes-base.mySql\",\n      \"position\": [\n        500,\n        160\n      ],\n      \"parameters\": {\n        \"table\": \"books\",\n        \"columns\": \"title, price\",\n        \"options\": {\n          \"ignore\": true,\n          \"priority\": \"LOW_PRIORITY\"\n        }\n      },\n      \"credentials\": {\n        \"mySql\": {\n          \"id\": \"82\",\n          \"name\": \"MySQL account\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Google Sheets - read\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"position\": [\n        300,\n        160\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"sheetId\": \"qwertz\",\n        \"authentication\": \"oAuth2\"\n      },\n      \"credentials\": {\n        \"googleSheetsOAuth2Api\": {\n          \"id\": \"2\",\n          \"name\": \"google_sheets_oauth\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Sheets - read\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Google Sheets - read\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"MySQL - insert\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.mySql",
+      "n8n-nodes-base.googleSheets"
+    ],
+    "trigger": null
+  }
+}

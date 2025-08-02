@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/plan-execute-agent.md",
+  "index": 7,
+  "content": "### Human Message Template\n\nEnter a message that n8n will send to the agent during each step execution.\n\nAvailable LangChain expressions:\n\n* `{previous_steps}`: Contains information about the previous steps the agent's already completed.\n* `{current_step}`: Contains information about the current step.\n* `{agent_scratchpad}`: Information to remember for the next iteration."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/expressions/common-issues.md",
+  "index": 3,
+  "content": "## The 'JSON Output' in item 0 contains invalid JSON\n\nThis error occurs when you use JSON mode but don't provide a valid JSON object. Depending on the problem with the JSON object, the error sometimes display as `The 'JSON Output' in item 0 does not contain a valid JSON object`.\n\nTo resolve this, make sure that the code you provide is valid JSON:\n\n- Check the JSON with a [JSON validator](https://jsonlint.com/).\n- Check that your JSON object doesn't reference undefined input data. This may occur if the incoming data doesn't always include the same fields."
+}

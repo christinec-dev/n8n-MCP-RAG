@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 743,
+  "content": "### Enhanced nodes\n\n* [Google Cloud Firestore:](/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudfirestore.md) Added the functionality for GeoPoint parsing and added ISO-8601 format for date validation\n* [IMAP Email:](/integrations/builtin/core-nodes/n8n-nodes-base.emailimap.md) Added the Force reconnect option\n* [Paddle:](/integrations/builtin/app-nodes/n8n-nodes-base.paddle.md) Added the Use Sandbox environment API parameter\n* [Spotify:](/integrations/builtin/app-nodes/n8n-nodes-base.spotify.md) Added the Position parameter to the Add operation of the Playlist resource\n* [WooCommerce:](/integrations/builtin/app-nodes/n8n-nodes-base.woocommerce.md) Added the Include Credentials in Query parameter"
+}

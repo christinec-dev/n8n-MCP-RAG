@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.woocommercetrigger.md",
+  "index": 2,
+  "content": "# WooCommerce Trigger node\n\n[WooCommerce](https://woocommerce.com/) is a customizable, open-source e-commerce plugin for WordPress.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/woocommerce.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [WooCommerce Trigger integrations](https://n8n.io/integrations/woocommerce-trigger/) page.\n///"
+}

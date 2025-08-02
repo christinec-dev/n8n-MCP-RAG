@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.localfiletrigger.md",
+  "index": 6,
+  "content": "## Node options\n\nUse the node **Options** to include or exclude files and folders.\n\n- **Include Linked Files/Folders**: also watch for changes to linked files or folders.\n- **Ignore**: files or paths to ignore. n8n tests the whole path, not just the filename. Supports the [Anymatch](https://github.com/micromatch/anymatch) syntax.\n- **Max Folder Depth**: how deep into the folder structure to watch for changes."
+}

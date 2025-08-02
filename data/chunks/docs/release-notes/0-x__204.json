@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 204,
+  "content": "### Bug fixes\n\n* Always retain original errors in the error chain on NodeOperationError.\n* BinaryDataManager should store metadata when saving from buffer.\n* Editor: fix for wrong execution data displayed in executions preview.\n* Pick up credential test functions from versioned nodes."
+}

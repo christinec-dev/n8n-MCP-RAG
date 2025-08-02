@@ -1,0 +1,11 @@
+{
+  "source": "1004_Invoiceninja_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Invoice Ninja Trigger\",\n      \"type\": \"n8n-nodes-base.invoiceNinjaTrigger\",\n      \"position\": [\n        890,\n        400\n      ],\n      \"webhookId\": \"97be21b3-ebf5-48cf-b291-5d954657a544\",\n      \"parameters\": {\n        \"event\": \"create_invoice\"\n      },\n      \"credentials\": {\n        \"invoiceNinjaApi\": \"invoice_ninja_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.invoiceNinjaTrigger"
+    ],
+    "trigger": "invoice ninja trigger"
+  }
+}

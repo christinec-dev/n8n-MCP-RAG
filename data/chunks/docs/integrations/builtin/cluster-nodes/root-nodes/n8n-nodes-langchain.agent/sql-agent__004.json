@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/sql-agent.md",
+  "index": 4,
+  "content": "### Data Source\n\nChoose the database to use as a data source for the node. Options include:\n\n* **MySQL**: Select this option to use a MySQL database.\n    * Also select the **Credential for MySQL**.\n* **SQLite**: Select this option to use a SQLite database.\n    * You must add a [Read/Write File From Disk](/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md) node before the Agent to read your SQLite file.\n    * Also enter the **Input Binary Field** name of your SQLite file coming from the Read/Write File From Disk node.\n* **Postgres**: Select this option to use a Postgres database.\n    * Also select the **Credential for Postgres**.\n\n/// warning | Postgres and MySQL Agents\nIf you are using [Postgres](/integrations/builtin/credentials/postgres.md) or [MySQL](/integrations/builtin/credentials/mysql.md), this agent doesn't support the credential tunnel options.\n///"
+}

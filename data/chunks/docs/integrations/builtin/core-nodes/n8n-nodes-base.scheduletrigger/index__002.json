@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/index.md",
+  "index": 2,
+  "content": "# Schedule Trigger node\n\nUse the Schedule Trigger node to run workflows at fixed intervals and times. This works in a similar way to the Cron software utility in Unix-like systems.\n\n/// note | You must activate the workflow\nIf a workflow uses the Schedule node as a trigger, make sure that you save and activate the workflow. \n///\n\n--8<-- \"_snippets/integrations/builtin/core-nodes/schedule/timezone-settings.md\""
+}

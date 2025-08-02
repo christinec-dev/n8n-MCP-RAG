@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 185,
+  "content": "### Performance improvements\n\n* Lazy-load public API dependencies to reduce baseline memory usage.\n* Lazy-load queue mode and analytics dependencies."
+}

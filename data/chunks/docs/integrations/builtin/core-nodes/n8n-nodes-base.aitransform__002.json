@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.aitransform.md",
+  "index": 2,
+  "content": "# AI Transform\n\nUse the AI Transform node to generate code snippets based on your prompt. The AI is context-aware, understanding the workflow’s nodes and their data types.\n\n/// info | Feature availability\nAvailable only on [Cloud plans](/manage-cloud/overview.md).\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.customerio.md",
+  "index": 3,
+  "content": "## Operations\n\n* Customer\n    * Create/Update a customer.\n    * Delete a customer.\n* Event\n    * Track a customer event.\n    * Track an anonymous event.\n* Campaign\n    * Get\n    * Get All\n    * Get Metrics\n* Segment\n    * Add Customer\n    * Remove Customer"
+}

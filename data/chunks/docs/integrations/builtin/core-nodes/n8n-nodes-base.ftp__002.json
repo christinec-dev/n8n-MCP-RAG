@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ftp.md",
+  "index": 2,
+  "content": "# FTP\n\nThe FTP node is useful to access and upload files to an FTP or SFTP server.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/ftp.md).\n///\n\nTo connect to an SFTP server, use an SFTP credential. Refer to [FTP credentials](/integrations/builtin/credentials/ftp.md) for more information."
+}

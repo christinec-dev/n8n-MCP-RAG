@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.switch.md",
+  "index": 5,
+  "content": "### Expression\n\nTo configure the node with this operation, use these parameters:\n\n- **Number of Outputs**: Set how many outputs the node should have.\n- **Output Index**: Create an expression to calculate which input item should be routed to which output. The expression must return a number."
+}

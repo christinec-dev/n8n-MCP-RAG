@@ -1,0 +1,5 @@
+{
+  "source": "docs/sustainable-use-license.md",
+  "index": 14,
+  "content": "### What are the main differences between the Sustainable Use License and your previous license arrangement (Apache 2.0 with Commons Clause)?\n\nThere are two main differences between the Sustainable Use License and our previous license arrangement. The first is that we have tightened the definition of how you can use the software. Previously the Commons Clause restricted users ability to \"sell\" the software; we have redefined this to restrict use to internal business purposes. The second difference is that our previous license restricted people's ability to charge fees for consulting or support services related to the software: we have lifted that restriction altogether.\n\nThat means you are now free to offer commercial consulting or support services (e.g. building n8n workflows) without the need for a separate license agreement with us. If you are interested in joining our community of n8n experts providing these services, you can learn more here."
+}

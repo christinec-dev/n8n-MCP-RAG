@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googleslides.md",
+  "index": 3,
+  "content": "## Operations\n\n* Page\n    * Get a page\n    * Get a thumbnail\n* Presentation\n    * Create a presentation\n    * Get a presentation\n    * Get presentation slides\n    * Replace text in a presentation"
+}

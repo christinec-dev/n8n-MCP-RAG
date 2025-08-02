@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.comparedatasets.md",
+  "index": 9,
+  "content": "## Understand the output\n\nThere are four output options:\n\n* **In A only Branch**: Contains data that occurs only in the first input.\n* **Same Branch**: Contains data that's the same in both inputs.\n* **Different Branch**: Contains data that's different between inputs.\n* **In B only Branch**: Contains data that occurs only in the second output."
+}

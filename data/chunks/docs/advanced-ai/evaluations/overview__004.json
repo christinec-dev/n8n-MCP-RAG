@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/overview.md",
+  "index": 4,
+  "content": "## Why is evaluation needed?\n\nAI models are fundamentally different than code. Code is deterministic and you can reason about it. This is difficult to do with LLMs, since they're black boxes. Instead, you must *measure* LLM output by running data through them and observing the output. \n\nYou can only build confidence that your model performs reliably after you have run it over multiple inputs that accurately reflect all the edge cases that it will have to deal with in production."
+}

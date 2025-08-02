@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.pushbullet.md",
+  "index": 3,
+  "content": "## Operations\n\n* Push\n    * Create a push\n    * Delete a push\n    * Get all pushes\n    * Update a push"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.respondtochat.md",
+  "index": 7,
+  "content": "### Add Memory Input Connection\n\nChoose whether you want to commit the messages from the Respond to Chat node to a connected memory. Using a shared memory between an agent or chain [root node](/integrations/builtin/cluster-nodes/root-nodes/index.md) and the Respond to Chat node attaches the same session key to these messages and lets you capture the full message history."
+}

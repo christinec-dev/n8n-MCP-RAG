@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 173,
+  "content": "### Bug fixes\n\n* Core: Fixes event message confirmations if no subscribers present.\n* Core: Remove threads package, rewrite log writer worker.\n* Core: Throw error in UI on expression referencing missing node but don't fail execution.\n* DB revert command shouldn't run full migrations before each revert.\n* Editor: Disable data pinning on multiple output node types.\n* Editor: Don't overwrite `window.onerror` in production.\n* Editor: Execution page bug fixes.\n* Editor: Fixes event bus test.\n* Editor: Hide data pinning discoverability tooltip in execution view.\n* Editor: Mapping tooltip dismiss.\n* Editor: Recover from unsaved finished execution.\n* Editor: Setting NDV session ID.\n* First/last being extended on proxy objects.\n* Handle memory issues gracefully.\n* PayPal Trigger Node: Omit verification in sandbox environment.\n* Report app startup and database migration errors to Sentry.\n* Run every database migration inside a transaction.\n* Upgrade class-validator to address CVE-2019-18413.\n* Zoom Node: Add notice about deprecation of Zoom JWT app support."
+}

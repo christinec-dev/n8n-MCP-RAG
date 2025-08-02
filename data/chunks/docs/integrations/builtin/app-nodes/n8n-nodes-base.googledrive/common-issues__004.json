@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/common-issues.md",
+  "index": 4,
+  "content": "## Google Cloud app becoming unauthorized\n\n--8<-- \"_snippets/integrations/builtin/credentials/google/app-becoming-unauthorized.md\""
+}

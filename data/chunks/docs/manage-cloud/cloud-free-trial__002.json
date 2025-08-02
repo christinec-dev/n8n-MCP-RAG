@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/cloud-free-trial.md",
+  "index": 2,
+  "content": "# Cloud free trial\n\nWhen you create a new n8n cloud trial, you have 14 days to try all the features of the [Pro plan](https://n8n.io/pricing/), including:\n\n- Global variables\n- Insights dashboard\n- Execution search\n- 5 days workflow history to rollback\n\nThe trial gives you Pro plan features with limits of 1000 executions, 5 active workflows, and the same computing power as the [Starter plan](https://n8n.io/pricing/)."
+}

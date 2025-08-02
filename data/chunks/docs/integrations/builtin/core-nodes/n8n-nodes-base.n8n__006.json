@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md",
+  "index": 6,
+  "content": "## Delete credential\n\nConfigure this operation with this parameter:\n\n* **Credential ID**: Enter the ID of the credential you want to delete."
+}

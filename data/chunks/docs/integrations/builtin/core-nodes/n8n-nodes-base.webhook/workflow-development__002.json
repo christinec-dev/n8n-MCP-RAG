@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/workflow-development.md",
+  "index": 2,
+  "content": "# Workflow development\n\nThe [Webhook node](/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md) works a bit differently from other core nodes. n8n recommends following these processes for building, testing, and using your Webhook node in production.\n\nn8n generates two **Webhook URLs** for each Webhook node: a **Test URL** and a **Production URL**."
+}

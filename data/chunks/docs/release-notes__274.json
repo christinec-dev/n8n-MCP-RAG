@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 274,
+  "content": "### Node updates\nEnhanced nodes:\n\n- [Calendly Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.calendlytrigger.md)\n- [HTTP Request](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md)\n- [n8n Form Trigger](/integrations/builtin/core-nodes/n8n-nodes-base.formtrigger.md)\n- [Shopify](/integrations/builtin/app-nodes/n8n-nodes-base.shopify.md)"
+}

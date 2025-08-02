@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/google-cloud.md",
+  "index": 6,
+  "content": "## Enable the Kubernetes Engine API\n\nGKE isn't enabled by default. Search for \"Kubernetes\" in the top search bar and select \"Kubernetes Engine\" from the results.\n\nSelect **ENABLE** to enable the Kubernetes Engine API for this project."
+}

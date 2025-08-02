@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/sharing.md",
+  "index": 5,
+  "content": "## Workflow roles and permissions\n\nThere are two workflow roles: creator and editor. The creator is the user who created the workflow. Editors are other users with access to the workflow.\n\nYou can't change the workflow owner, except when deleting the user.\n\n/// note | Credentials\nWorkflow sharing allows editors to use all [credentials](/glossary.md#credential-n8n) used in the workflow. This includes credentials that aren't explicitly shared with them using [credential sharing](/credentials/credential-sharing.md).\n///"
+}

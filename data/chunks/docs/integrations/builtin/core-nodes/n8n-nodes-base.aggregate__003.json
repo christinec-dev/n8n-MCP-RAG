@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.aggregate.md",
+  "index": 3,
+  "content": "## Node parameters\n\nTo begin using the node, select the **Aggregate** you'd like to use:\n\n* [**Individual Fields**](#individual-fields): Aggregate individual fields separately.\n* [**All Item Data**](#all-item-data): Aggregate all item data into a single list."
+}

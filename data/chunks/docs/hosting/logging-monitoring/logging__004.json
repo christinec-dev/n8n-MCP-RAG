@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/logging.md",
+  "index": 4,
+  "content": "# Set the logging level to 'debug'\nexport N8N_LOG_LEVEL=debug"
+}

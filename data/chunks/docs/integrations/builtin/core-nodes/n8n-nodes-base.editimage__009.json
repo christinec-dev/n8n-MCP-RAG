@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 9,
+  "content": "### Crop parameters\n\n* **Property Name**: Enter the name of the binary property that stores the image data.\n* **Width**: Enter the width you'd like to crop to.\n* **Height**: Enter the height you'd like to crop to.\n* **Position X**: Enter the x axis position (horizontal) to start the crop from.\n* **Position Y**: Enter the y axis position (vertical) to start the crop from.\n\nRefer to [Node options](#node-options) for optional configuration options."
+}

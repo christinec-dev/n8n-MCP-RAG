@@ -1,0 +1,13 @@
+{
+  "source": "1214_Emelia_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Emelia\",\n      \"type\": \"n8n-nodes-base.emelia\",\n      \"position\": [\n        530,\n        310\n      ],\n      \"parameters\": {\n        \"operation\": \"create\",\n        \"campaignName\": \"n8n-docs\"\n      },\n      \"credentials\": {\n        \"emeliaApi\": \"Emelia API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Emelia1\",\n      \"type\": \"n8n-nodes-base.emelia\",\n      \"position\": [\n        730,\n        310\n      ],\n      \"parameters\": {\n        \"operation\": \"addContact\",\n        \"campaignId\": \"603dfd70cbe34c3c9730fd09\",\n        \"contactEmail\": \"email@example.com\",\n        \"additionalFields\": {\n          \"firstName\": \"NAME\"\n        }\n      },\n      \"credentials\": {\n        \"emeliaApi\": \"Emelia API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Emelia2\",\n      \"type\": \"n8n-nodes-base.emelia\",\n      \"position\": [\n        930,\n        310\n      ],\n      \"parameters\": {\n        \"campaignId\": \"={{$node[\\\"Emelia\\\"].json[\\\"_id\\\"]}}\"\n      },\n      \"credentials\": {\n        \"emeliaApi\": \"Emelia API Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Emelia\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Emelia1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Emelia1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Emelia2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.emelia",
+      "n8n-nodes-base.emelia",
+      "n8n-nodes-base.emelia"
+    ],
+    "trigger": null
+  }
+}

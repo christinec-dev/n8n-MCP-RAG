@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/environment-variables/timezone-localization.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: Timezone and localization environment variables\ndescription: Set the timezone and default language locale for self-hosted n8n instance.\ncontentType: reference\ntags:\n  - environment variables\nhide:\n  - toc\n  - tags\n---"
+}

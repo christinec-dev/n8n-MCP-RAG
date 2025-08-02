@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/light-evaluations.md",
+  "index": 4,
+  "content": "## How it works\n\n/// note | Requires Google Sheets\nEvaluations use Google Sheets to store the test dataset. To use evaluations, you must configure a [Google Sheets credential](/integrations/builtin/credentials/google/index.md).\n///\n\nLight evaluations take place in the 'Editor' tab of your workflow, although you’ll find instructions on how to set it up in the 'Evaluations' tab.\n\nSteps:\n\n1. Create a dataset\n2. Wire the dataset up to the workflow\n3. Write workflow outputs back to dataset\n4. Run evaluation\n\nThe following explanation will use a sample workflow that assigns a category and priority to incoming support tickets.\n\n![Example AI workflow ](/_images/advanced-ai/evaluations/example-ai-workflow.png)"
+}

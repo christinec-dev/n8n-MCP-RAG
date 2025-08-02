@@ -1,0 +1,14 @@
+{
+  "source": "1074_Manual_HTTP_Automation_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        290,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        540,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"https://reqres.in/api/users\",\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request1\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        790,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"https://reqres.in/api/users\",\n        \"options\": {},\n        \"requestMethod\": \"POST\",\n        \"bodyParametersUi\": {\n          \"parameter\": [\n            {\n              \"name\": \"name\",\n              \"value\": \"Neo\"\n            },\n            {\n              \"name\": \"job\",\n              \"value\": \"Programmer\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request2\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        1050,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"https://reqres.in/api/users/2\",\n        \"options\": {},\n        \"requestMethod\": \"PATCH\",\n        \"bodyParametersUi\": {\n          \"parameter\": [\n            {\n              \"name\": \"job\",\n              \"value\": \"The Chosen One\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"HTTP Request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"HTTP Request1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.httpRequest"
+    ],
+    "trigger": null
+  }
+}

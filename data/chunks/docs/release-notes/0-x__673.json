@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 673,
+  "content": "### Core Functionality\n- Fixed an issue where failed workflows were displayed as \"running\".\n- Fixes issues with uncaught errors."
+}

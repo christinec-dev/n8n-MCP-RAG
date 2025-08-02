@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 377,
+  "content": "### Bug fixes\n\n* **Core**: properly resolve expressions in declarative style nodes."
+}

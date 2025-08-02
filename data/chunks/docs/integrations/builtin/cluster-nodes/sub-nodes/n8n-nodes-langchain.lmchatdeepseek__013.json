@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatdeepseek.md",
+  "index": 13,
+  "content": "### Max Retries\n\nEnter the maximum number of times to retry a request."
+}

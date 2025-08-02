@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/supported-databases-settings.md",
+  "index": 7,
+  "content": "### TLS\n\nYou can choose between these configurations:\n\n- Not declaring (default): Connect with `SSL=off`\n- Declaring only the CA and unauthorized flag: Connect with `SSL=on` and verify the server's signature\n- Declaring `_{CERT,KEY}` and the above: Use the certificate and key for client TLS authentication"
+}

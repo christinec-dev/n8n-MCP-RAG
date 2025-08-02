@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/installation/index.md",
+  "index": 2,
+  "content": "# Install and manage community nodes\n\nThere are three ways to install community nodes:\n\n* Within n8n using the [nodes panel](/integrations/community-nodes/installation/verified-install.md) (for verified community nodes only).\n* Within n8n [using the GUI](/integrations/community-nodes/installation/gui-install.md): Use this method to install community nodes from the npm registry.\n* [Manually from the command line](/integrations/community-nodes/installation/manual-install.md): use this method to install community nodes from npm if your n8n instance doesn't support installation through the in-app GUI.\n\n/// note | Installing from npm only available on self-hosted instances\nUnverified community nodes aren't available on n8n cloud and require [self-hosting](/hosting/index.md) n8n.\n///"
+}

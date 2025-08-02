@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.cortex.md",
+  "index": 3,
+  "content": "## Operations\n\n* Analyzer\n    * Execute Analyzer\n* Job\n    * Get job details\n    * Get job report\n* Responder\n    * Execute Responder"
+}

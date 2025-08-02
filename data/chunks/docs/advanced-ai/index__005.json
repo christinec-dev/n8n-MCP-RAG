@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/index.md",
+  "index": 5,
+  "content": "### Workflow templates\n\nYou can browse [workflow templates](/glossary.md#template-n8n) in-app or on the n8n website [Workflows](https://n8n.io/workflows/?categories=25,26) page.\n\nRefer to [Templates](/workflows/templates.md) for information on accessing templates in-app."
+}

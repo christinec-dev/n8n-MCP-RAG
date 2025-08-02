@@ -1,0 +1,5 @@
+{
+  "source": "docs/sustainable-use-license.md",
+  "index": 10,
+  "content": "### Why did you create a license?\n\nCreating a license was our least favorite option. We only went down this path after reviewing the possible existing licenses and deciding nothing fit our specific needs. There are two ways in which we try to mitigate the pain and friction of using a proprietary license:\n\n1. By using plain English, and keeping it as short as possible.\n2. By promoting [fair-code](https://faircode.io/) with the goal of making it a well-known umbrella term to describe software models like ours.\n\nOur goals when we created the Sustainable Use License were:\n\n1. To be as permissive as possible.\n2. Safeguarding our ability to build a business.\n3. Being as clear as possible what use was permitted or not."
+}

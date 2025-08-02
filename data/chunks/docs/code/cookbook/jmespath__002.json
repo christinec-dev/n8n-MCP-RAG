@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/jmespath.md",
+  "index": 2,
+  "content": "# Query JSON with JMESPath\n\n[JMESPath](https://jmespath.org/) is a query language for JSON that you can use to extract and transform elements from a JSON document. For full details of how to use JMESPath, refer to the [JMESPath documentation](https://jmespath.org/tutorial.html)."
+}

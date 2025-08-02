@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.strava.md",
+  "index": 3,
+  "content": "## Operations\n\n* Activity\n    * Create a new activity\n    * Get an activity\n    * Get all activities\n    * Get all activity comments\n    * Get all activity kudos\n    * Get all activity laps\n    * Get all activity zones\n    * Update an activity"
+}

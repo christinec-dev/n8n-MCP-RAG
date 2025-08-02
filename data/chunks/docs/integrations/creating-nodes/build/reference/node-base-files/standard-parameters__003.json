@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 3,
+  "content": "## `displayName`\n\n_String_ | _Required_\n\nThis is the name users see in the n8n GUI."
+}

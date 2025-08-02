@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.baserow.md",
+  "index": 3,
+  "content": "## Operations\n\n* Row\n    * Create a row\n    * Delete a row\n    * Retrieve a row\n    * Retrieve all rows\n    * Update a row"
+}

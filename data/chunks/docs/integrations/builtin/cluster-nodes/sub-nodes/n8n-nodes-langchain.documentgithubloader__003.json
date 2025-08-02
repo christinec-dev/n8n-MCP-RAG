@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.documentgithubloader.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Text Splitting**: Choose from:\n\t* **Simple**: Uses the [Recursive Character Text Splitter](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.textsplitterrecursivecharactertextsplitter.md) with a chunk size of 1000 and an overlap of 200.\n    * **Custom**: Allows you to connect a text splitter of your choice.\n* **Repository Link**: Enter the URL of your GitHub repository.\n* **Branch**: Enter the branch name to use."
+}

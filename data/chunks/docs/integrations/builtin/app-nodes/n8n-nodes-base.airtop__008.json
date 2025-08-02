@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.airtop.md",
+  "index": 8,
+  "content": "### Extract content\n\nExtract content from a web browser using these operations:\n\n- **Query page**: Extract information from the current window.\n- **Query page with pagination**: Extract information from pages with pagination or infinite scrolling.\n- **Smart scrape page**: Get the window content as markdown.\n\nGet JSON responses by using the **JSON Output Schema** parameter in query operations."
+}

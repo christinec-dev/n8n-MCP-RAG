@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/monitoring.md",
+  "index": 5,
+  "content": "## Enable metrics and healthz for self-hosted n8n\n<!-- vale on -->\nThe `/metrics` and `/healthz` endpoints are disabled by default. To enable them, configure your n8n instance:\n\n```shell"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memoryxata.md",
+  "index": 3,
+  "content": "## Node parameters\n\n-   **Session ID**: Enter the ID to use to store the memory in the workflow data.\n-   **Context Window Length**: Enter the number of previous interactions to consider for context."
+}

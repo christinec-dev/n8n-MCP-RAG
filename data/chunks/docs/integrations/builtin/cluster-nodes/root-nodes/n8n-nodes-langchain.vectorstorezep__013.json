@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorezep.md",
+  "index": 13,
+  "content": "### Retrieve Documents (As Tool for AI Agent) parameters\n\n* **Name**: The name of the vector store.\n* **Description**: Explain to the LLM what this tool does. A good, specific description allows LLMs to produce expected results more often.\n* **Collection Name**: Enter the collection name to retrieve the data from.\n* **Limit**: Enter how many results to retrieve from the vector store. For example, set this to `10` to get the ten best results."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingshuggingfaceinference.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Model**: Select the model to use to generate the embedding.\n\nRefer to the [Hugging Face models documentation](https://huggingface.co/models?other=embeddings) for available models."
+}

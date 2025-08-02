@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 579,
+  "content": "### Bug fixes\n\n\n* [Jira Software:](/integrations/builtin/app-nodes/n8n-nodes-base.jira.md) Fixed an issue with the Expand option for the Issue resource. Also fixed an issue with using custom fields on Jira Server.\n* [Slack:](/integrations/builtin/app-nodes/n8n-nodes-base.slack.md) Fixed an issue with pagination when loading more than 1,000 channels.\n* [Strapi:](/integrations/builtin/app-nodes/n8n-nodes-base.strapi.md) Fixed an issue using the Where option of the Get All operation.\n* [WooCommerce:](/integrations/builtin/app-nodes/n8n-nodes-base.woocommerce.md) Fixed an issue where a wrong postcode field name was used for the Order resource."
+}

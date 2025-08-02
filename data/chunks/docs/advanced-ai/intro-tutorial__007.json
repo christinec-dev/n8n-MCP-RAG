@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/intro-tutorial.md",
+  "index": 7,
+  "content": "## 2. Add a trigger node\n\nEvery workflow needs somewhere to start. In n8n these are called ['trigger nodes'](/glossary.md#trigger-node-n8n). For this workflow, we want to start with a chat node.\n\n 1. Select **Add first step** or press ++tab++ to open the node menu.\n\n 1. Search for **Chat Trigger**. n8n shows a list of nodes that match the search.\n\n 1. Select **Chat Trigger** to add the node to the canvas. n8n opens the node.\n\n 1. Close the node details view (Select **Back to canvas**) to return to the canvas.\n\n??? explanation \"More about the Chat Trigger node...\"\n    The trigger node generates output when there is an event causing it to trigger. In this case we want to be able to type in text to cause the workflow to run. In production, this trigger can be hooked up to a public chat interface as provided by n8n or embedded into another website. To start this simple workflow we will just use the built-in local chat interface to communicate, so no further setup is required.\n\n[[ workflowDemo(\"file:////advanced-ai/tutorials/chat_01.json\") ]]"
+}

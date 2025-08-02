@@ -1,0 +1,12 @@
+{
+  "source": "0080_Manual_Disqus_Import_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"119\",\n  \"name\": \"Get details of a forum in Disqus\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Disqus\",\n      \"type\": \"n8n-nodes-base.disqus\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"id\": \"hackernoon\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"disqusApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Disqus\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.disqus"
+    ],
+    "trigger": null
+  }
+}

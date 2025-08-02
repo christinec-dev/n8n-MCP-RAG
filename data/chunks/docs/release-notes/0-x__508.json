@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 508,
+  "content": "### New nodes\n\n\n* [Microsoft Graph Security](/integrations/builtin/app-nodes/n8n-nodes-base.microsoftgraphsecurity.md)\n* [SyncroMSP](/integrations/builtin/app-nodes/n8n-nodes-base.syncromsp.md)\n* [Supabase](/integrations/builtin/app-nodes/n8n-nodes-base.supabase/index.md)"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mattermost.md",
+  "index": 3,
+  "content": "## Operations\n\n* Channel\n    * Add a user to a channel\n    * Create a new channel\n    * Soft delete a channel\n    * Get a page of members for a channel\n    * Restores a soft deleted channel\n    * Search for a channel\n    * Get statistics for a channel\n* Message\n    * Soft delete a post, by marking the post as deleted in the database\n    * Post a message into a channel\n    * Post an ephemeral message into a channel\n* Reaction\n    * Add a reaction to a post.\n    * Remove a reaction from a post\n    * Get all the reactions to one or more posts\n* User\n    * Create a new user\n    * Deactivates the user and revokes all its sessions by archiving its user object.\n    * Retrieve all users\n    * Get a user by email\n    * Get a user by ID\n    * Invite user to team"
+}

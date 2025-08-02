@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 82,
+  "content": "### Extended HTTP Request tool functionality\nWe’ve brought the full power of the HTTP Request node to the HTTP Request tool in AI workflows. That means your AI Agents now have access to all the advanced configuration options—like Pagination, Batching, Timeout, Redirects, Proxy support, and even cURL import.\n\n<br>\n<video src=\"/_video/release-notes/http-request-tool.mp4\" controls width=\"100%\"></video>\n<br>\n\nThis update also includes support for the `$fromAI` function to dynamically generate the right parameters based on the context of your prompt — making API calls smarter, faster, and more flexible than ever.\n\n**How to:**\n\n- Open your AI Agent node in the canvas.\n- Click the **‘+’ icon** to add a new tool connection.\n- In the **Tools panel**, select HTTP **Request Tool.**\n- Configure it just like you would a regular **HTTP Request node** — including advanced options\n\n👉 Learn more about configuring the [HTTP Request tool](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolhttprequest.md)."
+}

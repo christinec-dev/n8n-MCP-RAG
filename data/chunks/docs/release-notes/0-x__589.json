@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 589,
+  "content": "### Bug fixes\n\n* [ FTP:](/integrations/builtin/core-nodes/n8n-nodes-base.ftp.md) Fixed error when opening FTP/SFTP credentials."
+}

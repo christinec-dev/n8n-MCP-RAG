@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 748,
+  "content": "### Enhanced nodes\n\n* [AWS Comprehend:](/integrations/builtin/app-nodes/n8n-nodes-base.awscomprehend.md) Added the Detect Entities operation\n* [AWS Lambda:](/integrations/builtin/app-nodes/n8n-nodes-base.awslambda.md) Added the ability to list functions recursively if the number of functions exceeds 50\n* [Google Analytics:](/integrations/builtin/app-nodes/n8n-nodes-base.googleanalytics.md) Added pagination to the Report resource\n* [Mailjet:](/integrations/builtin/app-nodes/n8n-nodes-base.mailjet.md) Added Reply To parameter\n* [Redis:](/integrations/builtin/app-nodes/n8n-nodes-base.redis.md) Added the Increment operation\n* [Spreadsheet File:](/integrations/builtin/core-nodes/n8n-nodes-base.converttofile.md) Added the Header Row option\n* [Webflow Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.webflowtrigger.md) Added Collection Item Created, Collection Item Updated, and Collection Item Deleted events"
+}

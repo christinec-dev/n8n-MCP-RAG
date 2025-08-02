@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 228,
+  "content": "### Bug fixes\n\n* Core: fix $items().length behavior in executeOnce mode.\n* Core: fix for unused imports.\n* Core: use CredentialsOverwrites when testing credentials.\n* Core: disable workflow locking due to issues.\n* Editor: fix for missing node connections in dev environment.\n* Editor: fix missing resource locator component.\n* Editor: prevent node-creator tabs from showing when toggled by CanvasAddButton.\n* Editor: table view column limit tooltip.\n* Editor: fix broken n8n-info-tip slots.\n* IF Node: fix \"Is Empty\" and \"Is Not Empty\" operation failures for date objects.\n* Remove redundant `await` in nodes API request functions without try/catch.\n* Schedule Trigger Node: fixes inconsistent behavior with cron and weekly intervals.\n* Workflow activation shouldn't crash if one of the credential is invalid."
+}

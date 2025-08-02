@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.executecommand/index.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: Execute Command\ndescription: Documentation for the Execute Command node in n8n, a workflow automation platform. Includes guidance on usage, and links to examples.\ncontentType: [integration, reference]\npriority: high\n---"
+}

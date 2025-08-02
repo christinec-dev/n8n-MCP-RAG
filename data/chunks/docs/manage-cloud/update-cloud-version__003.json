@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/update-cloud-version.md",
+  "index": 3,
+  "content": "## Best practices for updating\n\n--8<-- \"_snippets/manage-cloud/updating-best-practices.md\""
+}

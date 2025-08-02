@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/rbac/projects.md",
+  "index": 3,
+  "content": "## Add and remove users in a project\n\nProject admins can add and remove users.\n\nTo add a user to a project:\n\n1. Select the project.\n1. Select **Project settings**.\n1. Under **Project members**, browse for users or search by username or email address.\n1. Select the user you want to add.\n1. Check the [role type](/user-management/rbac/role-types.md) and change it if needed.\n1. Select **Save**.\n\nTo remove a user from a project:\n\n1. Select the project.\n1. Select **Project settings**.\n1. In the role type dropdown for the user you want to remove, select **Remove access**.\n1. Select **Save**."
+}

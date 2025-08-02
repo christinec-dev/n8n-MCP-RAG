@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.3.md",
+  "index": 6,
+  "content": "## What's next?\n\n**Nathan 🙋**: This If node is so useful for filtering data! Now I have all the information about processing orders. I actually only need the `employeeName` and `orderID`, but I guess I can keep all the other fields just in case.\n\n**You 👩‍🔧**: Actually, I wouldn't recommend doing that. Inserting more data requires more computational power, the data transfer is slower and takes longer, and takes up more storage resources in your table. In this particular case, 14 records with 5 fields might not seem like it'd make a significant difference, but if your business grows to thousands of records and dozens of fields, things add up and even one extra column can affect performance.\n\n**Nathan 🙋**: Oh, that's good to know. Can you select only two fields from the processing orders?\n\n**You 👩‍🔧**: Sure, I'll do that in the next step."
+}

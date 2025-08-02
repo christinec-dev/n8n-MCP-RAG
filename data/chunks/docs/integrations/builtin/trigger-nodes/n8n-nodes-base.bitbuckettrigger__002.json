@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.bitbuckettrigger.md",
+  "index": 2,
+  "content": "# Bitbucket Trigger node\n\n[Bitbucket](https://bitbucket.org/) is a web-based version control repository hosting service owned by Atlassian, for source code and development projects that use either Mercurial or Git revision control systems.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/bitbucket.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Bitbucket Trigger integrations](https://n8n.io/integrations/bitbucket-trigger/) page.\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.whatsapp/index.md",
+  "index": 3,
+  "content": "## Operations\n\n* Message\n\t* Send\n\t* Send and Wait for Response\n\t* Send Template\n* Media\n\t* Upload\n\t* Download\n\t* Delete\n\n--8<-- \"_snippets/integrations/builtin/send-and-wait-operation.md\""
+}

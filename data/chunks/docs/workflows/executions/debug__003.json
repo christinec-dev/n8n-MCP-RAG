@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/debug.md",
+  "index": 3,
+  "content": "## Load data\n\nTo load data from a previous execution:\n\n1. In your workflow, select the **Executions** tab to view the **Executions** list.\n1. Select the execution you want to debug. n8n displays options depending on whether the workflow was successful or failed:\n\t* For failed executions: select **Debug in editor**.\n\t* For successful executions: select **Copy to editor**.\n1. n8n copies the execution data into your current workflow, and [pins the data](/data/data-pinning.md) in the first node in the workflow.\n\n/// note | Check which executions you save\nThe executions available on the **Executions** list depends on your [Workflow settings](/workflows/settings.md).\n///"
+}

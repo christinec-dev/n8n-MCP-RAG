@@ -1,0 +1,14 @@
+{
+  "source": "0163_Respondtowebhook_Spreadsheetfile_Automate_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        340,\n        0\n      ],\n      \"webhookId\": \"c1616754-4dec-4b00-a8b5-d1cb5f75bf11\",\n      \"parameters\": {\n        \"path\": \"c1616754-4dec-4b00-a8b5-d1cb5f75bf11\",\n        \"options\": {},\n        \"httpMethod\": \"POST\",\n        \"responseMode\": \"responseNode\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Item Lists\",\n      \"type\": \"n8n-nodes-base.itemLists\",\n      \"position\": [\n        560,\n        0\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"fieldToSplitOut\": \"=body\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Spreadsheet File\",\n      \"type\": \"n8n-nodes-base.spreadsheetFile\",\n      \"position\": [\n        780,\n        0\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"operation\": \"toFile\",\n        \"fileFormat\": \"xlsx\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Respond to Webhook\",\n      \"type\": \"n8n-nodes-base.respondToWebhook\",\n      \"position\": [\n        1020,\n        0\n      ],\n      \"parameters\": {\n        \"options\": {\n          \"responseHeaders\": {\n            \"entries\": [\n              {\n                \"name\": \"content-disposition\",\n                \"value\": \"=attachment; filename=\\\"{{$node[\\\"Webhook\\\"].json[\\\"query\\\"][\\\"filename\\\"]? $node[\\\"Webhook\\\"].json[\\\"query\\\"][\\\"filename\\\"] : \\\"Export\\\"}}.xlsx\\\"\"\n              }\n            ]\n          }\n        },\n        \"respondWith\": \"binary\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Item Lists\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Item Lists\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Spreadsheet File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Spreadsheet File\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Respond to Webhook\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.itemLists",
+      "n8n-nodes-base.spreadsheetFile",
+      "n8n-nodes-base.respondToWebhook"
+    ],
+    "trigger": null
+  }
+}

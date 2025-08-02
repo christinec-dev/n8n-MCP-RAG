@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/react-agent.md",
+  "index": 7,
+  "content": "### Human Message Template\n\nUse this option to extend the user prompt. This is a way for the agent to pass information from one iteration to the next.\n\nAvailable LangChain expressions:\n\n* `{input}`: Contains the user prompt.\n* `{agent_scratchpad}`: Information to remember for the next iteration."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/custom-operations.md",
+  "index": 4,
+  "content": "### Using predefined credential types\n\n--8<-- \"_snippets/integrations/predefined-credential-type-how-to.md\""
+}

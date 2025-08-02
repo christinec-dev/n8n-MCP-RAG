@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/docker.md",
+  "index": 6,
+  "content": "## Setting timezone\n\nTo define the timezone n8n should use, you can set the [`GENERIC_TIMEZONE` environment variable](/hosting/configuration/environment-variables/timezone-localization.md). Schedule-oriented nodes, like the [Schedule Trigger node](/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/index.md) use this to determine the correct timezone.\n\nYou can set the system timezone, which controls what some scripts and commands like `date` return, using the `TZ` environment variable.\n\nThis example sets the same timezone for both variables:\n\n```sh\ndocker volume create n8n_data\n\ndocker run -it --rm \\\n --name n8n \\\n -p 5678:5678 \\\n -e GENERIC_TIMEZONE=\"Europe/Berlin\" \\\n -e TZ=\"Europe/Berlin\" \\\n -v n8n_data:/home/node/.n8n \\\n docker.n8n.io/n8nio/n8n\n```"
+}

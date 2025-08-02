@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.airtable/common-issues.md",
+  "index": 4,
+  "content": "## Service is receiving too many requests from you\n\nAirtable has a hard API limit on the number of requests generated using personal access tokens.\n\nIf you send more than five requests per second per base, you will receive a 429 error, indicating that you have sent too many requests. You will have to wait 30 seconds before resuming requests. This same limit applies for sending more than 50 requests across all bases per access token.\n\nYou can find out more in the [Airtable's rate limits documentation](https://airtable.com/developers/web/api/rate-limits). If you find yourself running into rate limits with the Airtable node, consider implementing one of the suggestions on the [handling rate limits](/integrations/builtin/rate-limits.md) page."
+}

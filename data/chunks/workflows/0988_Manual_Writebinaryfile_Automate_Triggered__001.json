@@ -1,0 +1,13 @@
+{
+  "source": "0988_Manual_Writebinaryfile_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Google Drive\",\n      \"type\": \"n8n-nodes-base.googleDrive\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"fileId\": \"1dJEBaECGmua09YP7W6WCBu66icIq32yRadQpk\",\n        \"options\": {},\n        \"operation\": \"download\"\n      },\n      \"credentials\": {\n        \"googleApi\": \"n8n-test-service-account\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Write Binary File\",\n      \"type\": \"n8n-nodes-base.writeBinaryFile\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"fileName\": \"/data/downloaded_file.pdf\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Google Drive\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Write Binary File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Drive\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.googleDrive",
+      "n8n-nodes-base.writeBinaryFile"
+    ],
+    "trigger": null
+  }
+}

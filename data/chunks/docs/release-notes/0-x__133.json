@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 133,
+  "content": "### Bug fixes\n\n* Core: fix issue causing worker and webhook service to close on start.\n* Core: handle versioned custom nodes correctly."
+}

@@ -1,0 +1,13 @@
+{
+  "source": "1174_Manual_Readbinaryfile_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        320\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Spreadsheet File\",\n      \"type\": \"n8n-nodes-base.spreadsheetFile\",\n      \"position\": [\n        650,\n        320\n      ],\n      \"parameters\": {\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Read Binary File\",\n      \"type\": \"n8n-nodes-base.readBinaryFile\",\n      \"position\": [\n        450,\n        320\n      ],\n      \"parameters\": {\n        \"filePath\": \"/data/sample_spreadsheet.csv\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Read Binary File\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Spreadsheet File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Read Binary File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.spreadsheetFile",
+      "n8n-nodes-base.readBinaryFile"
+    ],
+    "trigger": null
+  }
+}

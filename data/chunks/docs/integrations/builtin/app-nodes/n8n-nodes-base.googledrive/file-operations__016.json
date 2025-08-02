@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/file-operations.md",
+  "index": 16,
+  "content": "## Upload a file\n\nUse this operation to upload a file.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [Google Drive credentials](/integrations/builtin/credentials/google/index.md).\n- **Resource**: Select **File**.\n- **Operation**: Select **Upload**.\n- **Input Data Field Name**: The name of the input field that contains the binary file data you wish to use.\n- **File Name**: The name to use for the new file.\n- **Parent Drive**: Select **From list** to choose the drive from the dropdown list, **By URL** to enter the URL of the drive, or **By ID** to enter the `driveId`. \n- **Parent Folder**: Select **From list** to choose the folder from the dropdown list, **By URL** to enter the URL of the folder, or **By ID** to enter the `folderId`. \n\nYou can find the `driveId` and `folderID` by visiting the shared drive or folder in your browser and copying the last URL component: `https://drive.google.com/drive/u/1/folders/driveId`."
+}

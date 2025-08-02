@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.convertkit.md",
+  "index": 3,
+  "content": "## Operations\n\n* Custom Field\n    * Create a field\n    * Delete a field\n    * Get all fields\n    * Update a field\n* Form\n    * Add a subscriber\n    * Get all forms\n    * List subscriptions to a form including subscriber data\n* Sequence\n    * Add a subscriber\n    * Get all sequences\n    * Get all subscriptions to a sequence including subscriber data\n* Tag\n    * Create a tag\n    * Get all tags\n* Tag Subscriber\n    * Add a tag to a subscriber\n    * List subscriptions to a tag including subscriber data\n    * Delete a tag from a subscriber"
+}

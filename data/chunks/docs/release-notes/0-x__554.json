@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 554,
+  "content": "### Enhanced nodes\n\n\n* [Edit Image:](/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md) Added Circle Primitive to Draw operation. Also added Composite operation.\n* [Zendesk:](/integrations/builtin/app-nodes/n8n-nodes-base.zendesk.md) Added check for API credentials validity.\n* [Zulip:](/integrations/builtin/app-nodes/n8n-nodes-base.zulip.md) Added additional field Role to the Update operation of the User resource."
+}

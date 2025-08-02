@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.egoi.md",
+  "index": 3,
+  "content": "## Operations\n\n**Contact**\n\n- Create a member\n- Get a member\n- Get all members\n- Update a member"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmopenhuggingfaceinference.md",
+  "index": 2,
+  "content": "# Hugging Face Inference Model node\n\nUse the Hugging Face Inference Model node to use Hugging Face's models.\n\nOn this page, you'll find the node parameters for the Hugging Face Inference Model node, and links to more resources.\n\nThis node lacks tools support, so it won't work with the [AI Agent](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/index.md) node. Instead, connect it with the [Basic LLM Chain](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainllm.md) node.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/huggingface.md).\n///\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

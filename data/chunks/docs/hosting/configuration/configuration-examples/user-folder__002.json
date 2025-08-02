@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/user-folder.md",
+  "index": 2,
+  "content": "# Specify user folder path\n\nn8n saves user-specific data like the encryption key, SQLite database file, and\nthe ID of the tunnel (if used) in the subfolder `.n8n` of the user who started n8n. It's possible to overwrite the user-folder using an environment variable.\n\n```bash\nexport N8N_USER_FOLDER=/home/jim/n8n\n```\nRefer to [Environment variables reference](/hosting/configuration/environment-variables/deployment.md) for more information on this variable."
+}

@@ -1,0 +1,12 @@
+{
+  "source": "1136_Manual_HubSpot_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"7\",\n  \"name\": \"6\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        440,\n        320\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Hubspot\",\n      \"type\": \"n8n-nodes-base.hubspot\",\n      \"position\": [\n        750,\n        320\n      ],\n      \"parameters\": {\n        \"resource\": \"contact\",\n        \"operation\": \"getAll\",\n        \"returnAll\": true,\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"hubspotApi\": \"scsc\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Hubspot\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.hubspot"
+    ],
+    "trigger": null
+  }
+}

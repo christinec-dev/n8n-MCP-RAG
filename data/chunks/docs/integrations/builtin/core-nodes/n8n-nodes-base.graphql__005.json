@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.graphql.md",
+  "index": 5,
+  "content": "### HTTP Request Method\n\nSelect the underlying HTTP Request method the node should use. Choose from:\n\n* **GET**\n* **POST**: If you select this method, you'll also need to select the **Request Format** the node should use for the query payload. Choose from:\n    * **GraphQL (Raw)**\n    * **JSON**"
+}

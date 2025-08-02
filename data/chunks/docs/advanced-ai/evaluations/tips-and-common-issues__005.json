@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/tips-and-common-issues.md",
+  "index": 5,
+  "content": "## Accessing tool data when calculating metrics\n\nSometimes you need to know what happened in executed sub-nodes of an agent, for example to check whether it executed a tool. You can't reference these nodes directly with expressions, but you can enable the **Return intermediate steps** option in the agent. This will add an extra output field called `intermediateSteps` which you can use in later nodes:\n\n![Enable return intermediate steps](/_images/advanced-ai/evaluations/enable-return-intermediate-steps.png)"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.jinaai.md",
+  "index": 3,
+  "content": "## Operations\n\n* **Reader**:\n\t* **Read**: Fetches content from a URL and converts it to clean, LLM-friendly formats.\n\t* **Search**: Performs a web search using Jina AI and returns the top results as clean, LLM-friendly formats.\n* **Research**:\n\t* **Deep Research**: Research a topic and generate a structured research report."
+}

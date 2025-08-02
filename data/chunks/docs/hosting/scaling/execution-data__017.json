@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/execution-data.md",
+  "index": 17,
+  "content": "# Docker Compose\nn8n:\n    environment:\n      - EXECUTIONS_DATA_PRUNE=true\n      - EXECUTIONS_DATA_MAX_AGE=168\n\t  \t- EXECUTIONS_DATA_PRUNE_MAX_COUNT=50000\n```\n\n/// note | SQLite\nIf you run n8n using the default SQLite database, the disk space of any pruned data isn't automatically freed up but rather reused for future executions data. To free up this space configure the `DB_SQLITE_VACUUM_ON_STARTUP` [environment variable](/hosting/configuration/environment-variables/database.md#sqlite) or manually run the [VACUUM](https://www.sqlite.org/lang_vacuum.html) operation.\n///\n\n--8<-- \"_snippets/self-hosting/scaling/binary-data-pruning.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/ai-assistant.md",
+  "index": 4,
+  "content": "## Tips for getting the most out of the Assistant\n\n1. **Engage in a conversation**: The AI Assistant can collaborate with you step-by-step. If a suggestion isn't what you need, let it know! The more context you provide, the better the recommendations will be.\n<!-- vale from-microsoft.FirstPerson = NO -->\n2. **Ask specific questions**: For the best results, ask focused questions (for example, \"How do I set up credentials for Google Sheets?\"). The assistant works best with clear queries.\n3. **Iterate on suggestions**: Don't hesitate to build on the assistant's responses. Try different approaches and keep refining based on the assistant's feedback to get closer to your ideal solution.\n4. **Things to try out**:\n    - Debug any error you're seeing\n    - Ask how to setup credentials\n    - \"Explain what this workflow does.\"\n    - \"I need your help to write code: [Explain your code here]\"\n    - \"How can I build X in n8n?\"\n<!-- vale from-microsoft.FirstPerson = YES -->"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.rssfeedread.md",
+  "index": 6,
+  "content": "## Related resources\n\nn8n provides a trigger node for RSS Read. You can find the trigger node docs [here](/integrations/builtin/core-nodes/n8n-nodes-base.rssfeedreadtrigger.md)."
+}

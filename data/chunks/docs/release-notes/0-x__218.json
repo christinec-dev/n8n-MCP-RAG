@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 218,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Schema view\n\nSchema view is a new node input view. It helps you browse the structure of your data, using the first input item.\n\n</div>\n\n* Core: add workflow execution statistics.\n* Editor: add the alert design system component.\n* Editor: fix checkbox line hight and make checkbox label clickable.\n* Nodes: add a message for read-only nodes.\n* Nodes: add a prompt to overwrite changes when concurrent editing occurs."
+}

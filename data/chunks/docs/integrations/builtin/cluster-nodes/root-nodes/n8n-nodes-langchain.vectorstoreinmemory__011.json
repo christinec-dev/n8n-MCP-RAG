@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreinmemory.md",
+  "index": 11,
+  "content": "## Memory Management\n\nThe Simple Vector Store implements memory management to prevent excessive memory usage:\n\n- Automatically cleans up old vector stores when memory pressure increases\n- Removes inactive stores that haven't been accessed for a configurable amount of time"
+}

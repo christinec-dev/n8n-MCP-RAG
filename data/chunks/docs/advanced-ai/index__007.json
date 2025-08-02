@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/index.md",
+  "index": 7,
+  "content": "### Chatbot widget\n\nn8n provides a chatbot widget that you can use as a frontend for AI-powered chat workflows. Refer to the [@n8n/chat npm page](https://www.npmjs.com/package/@n8n/chat) for usage information."
+}

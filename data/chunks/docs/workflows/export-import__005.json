@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/export-import.md",
+  "index": 5,
+  "content": "## From the command line\n\n* Export: See the [full list of commands ](/hosting/cli-commands.md#export-workflows-and-credentials) for exporting workflows or credentials.\n* Import: See the [full list of commands ](/hosting/cli-commands.md#import-workflows-and-credentials) for importing workflows or credentials."
+}

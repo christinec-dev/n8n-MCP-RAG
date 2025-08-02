@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 811,
+  "content": "## n8n@0.94.1\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.94.0...n8n@0.94.1) for this version.<br />\n**Release date:** 2020-11-20\n\n- Bug Fixes\n- GraphQL: Fixed an issue with the variables\n- WooCommerce Trigger: Fixed an issue with the webhook. The node now reuses a webhook if it already exists."
+}

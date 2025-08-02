@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.messagebird.md",
+  "index": 2,
+  "content": "# MessageBird node\n\nUse the MessageBird node to automate work in MessageBird, and integrate MessageBird with other applications. n8n has built-in support for a wide range of MessageBird features, including sending messages, and getting balances. \n\nOn this page, you'll find a list of operations the MessageBird node supports and links to more resources.\n\n/// note | Credentials\nRefer to [MessageBird credentials](/integrations/builtin/credentials/messagebird.md) for guidance on setting up authentication. \n///"
+}

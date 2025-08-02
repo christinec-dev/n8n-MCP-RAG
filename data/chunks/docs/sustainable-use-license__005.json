@@ -1,0 +1,5 @@
+{
+  "source": "docs/sustainable-use-license.md",
+  "index": 5,
+  "content": "### What source code is covered by the Sustainable Use License? \n\nThe [Sustainable Use License](https://github.com/n8n-io/n8n/blob/master/LICENSE.md) applies to all our source code hosted in our [main GitHub repository](https://github.com/n8n-io/n8n) except:\n\n* Content of branches other than master.\n* Source code files that contain `.ee.` in their file name. These are licensed under the [n8n Enterprise License](https://github.com/n8n-io/n8n/blob/master/LICENSE_EE.md)."
+}

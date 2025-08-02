@@ -1,0 +1,12 @@
+{
+  "source": "0113_Emailsend_GoogleDrive_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Google Drive Trigger\",\n      \"type\": \"n8n-nodes-base.googleDriveTrigger\",\n      \"position\": [\n        250,\n        150\n      ],\n      \"parameters\": {\n        \"event\": \"fileCreated\",\n        \"options\": {},\n        \"triggerOn\": \"specificFolder\",\n        \"folderToWatch\": \"1HwOAKkkgveLji8vVpW9Xrg1EsBskwMNb\"\n      },\n      \"credentials\": {\n        \"googleDriveOAuth2Api\": {\n          \"id\": \"28\",\n          \"name\": \"Google Drive account\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Send Email\",\n      \"type\": \"n8n-nodes-base.emailSend\",\n      \"position\": [\n        450,\n        150\n      ],\n      \"parameters\": {\n        \"text\": \"=A file in your Google Drive file folder has been created: {{$json[\\\"name\\\"]}}\",\n        \"options\": {},\n        \"subject\": \"File Update\",\n        \"toEmail\": \"mutedjam@n8n.io\",\n        \"fromEmail\": \"mutedjam@n8n.io\"\n      },\n      \"credentials\": {\n        \"smtp\": {\n          \"id\": \"14\",\n          \"name\": \"SMTP account\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Google Drive Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Send Email\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.googleDriveTrigger",
+      "n8n-nodes-base.emailSend"
+    ],
+    "trigger": "google drive trigger"
+  }
+}

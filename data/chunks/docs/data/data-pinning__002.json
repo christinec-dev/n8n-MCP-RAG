@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-pinning.md",
+  "index": 2,
+  "content": "# Data pinning\n\nYou can 'pin' data during workflow development. Data pinning means saving the output data of a node, and using the saved data instead of fetching fresh data in future workflow executions. \n\nYou can use this when working with data from external sources to avoid having to repeat requests to the external system. This can save time and resources:\n\n* If your workflow relies on an external system to trigger it, such as a webhook call, being able to pin data means you don't need to use the external system every time you test the workflow.\n* If the external resource has data or usage limits, pinning data during tests avoids consuming your resource limits.\n* You can fetch and pin the data you want to test, then have confidence that the data is consistent in all your workflow tests.\n\nYou can only pin data for nodes that have a single main output (\"error\" outputs don't count for this purpose).\n\n/// note | For development only\nData pinning isn't available for production workflow executions. It's a feature to help test workflows during development.\n///"
+}

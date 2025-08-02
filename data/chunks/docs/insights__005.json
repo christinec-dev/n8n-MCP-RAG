@@ -1,0 +1,5 @@
+{
+  "source": "docs/insights.md",
+  "index": 5,
+  "content": "## Insights time periods\n\nBy default, the insights summary banner and dashboard show a rolling 7 day window with a comparison to the previous period to identify increases or decreases for each metric. On the dashboard, paid plans also display data for other date ranges:\n\n- Pro: 7 and 14 days\n- Enterprise: 24 hours, 7 days, 14 days, 30 days, 90 days, 6 months, 1 year"
+}

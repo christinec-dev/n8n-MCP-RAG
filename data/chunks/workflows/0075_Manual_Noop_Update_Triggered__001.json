@@ -1,0 +1,15 @@
+{
+  "source": "0075_Manual_Noop_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"116\",\n  \"name\": \"Get all the contacts from GetResponse and update them\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"GetResponse\",\n      \"type\": \"n8n-nodes-base.getResponse\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"operation\": \"getAll\",\n        \"returnAll\": true\n      },\n      \"credentials\": {\n        \"getResponseApi\": \"getresponse-api\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"string\": [\n            {\n              \"value1\": \"={{$node[\\\"GetResponse\\\"].json[\\\"campaign\\\"][\\\"name\\\"]}}\",\n              \"value2\": \"n8n\",\n              \"operation\": \"notEqual\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"GetResponse1\",\n      \"type\": \"n8n-nodes-base.getResponse\",\n      \"position\": [\n        860,\n        200\n      ],\n      \"parameters\": {\n        \"contactId\": \"={{$node[\\\"IF\\\"].json[\\\"contactId\\\"]}}\",\n        \"operation\": \"update\",\n        \"updateFields\": {\n          \"campaignId\": \"WRVXO\"\n        }\n      },\n      \"credentials\": {\n        \"getResponseApi\": \"getresponse-api\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NoOp\",\n      \"type\": \"n8n-nodes-base.noOp\",\n      \"position\": [\n        860,\n        400\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"GetResponse1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ],\n        [\n          {\n            \"node\": \"NoOp\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"GetResponse\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"GetResponse\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.getResponse",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.getResponse",
+      "n8n-nodes-base.noOp"
+    ],
+    "trigger": null
+  }
+}

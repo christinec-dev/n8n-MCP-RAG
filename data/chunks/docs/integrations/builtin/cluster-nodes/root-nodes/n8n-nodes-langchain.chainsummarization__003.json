@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainsummarization.md",
+  "index": 3,
+  "content": "## Node parameters\n\nChoose the type of data you need to summarize in **Data to Summarize**. The data type you choose determines the other node parameters.\n\n* **Use Node Input (JSON)** and **Use Node Input (Binary)**: summarize the data coming into the node from the workflow. \n\t* You can configure the **Chunking Strategy**: choose what strategy to use to define the data chunk sizes.\n\t\t* If you choose **Simple (Define Below)** you can then set **Characters Per Chunk** and **Chunk Overlap (Characters)**.\n\t\t* Choose **Advanced** if you want to connect a splitter sub-node that provides more configuration options.\n* **Use Document Loader**: summarize data provided by a document loader sub-node."
+}

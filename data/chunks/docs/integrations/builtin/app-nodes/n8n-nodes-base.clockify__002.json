@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.clockify.md",
+  "index": 2,
+  "content": "# Clockify node\n\nUse the Clockify node to automate work in Clockify, and integrate Clockify with other applications. n8n has built-in support for a wide range of Clockify features, including creating, updating, getting, and deleting tasks, time entries, projects, and tags.\n\nOn this page, you'll find a list of operations the Clockify node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Clockify credentials](/integrations/builtin/credentials/clockify.md) for guidance on setting up authentication. \n///"
+}

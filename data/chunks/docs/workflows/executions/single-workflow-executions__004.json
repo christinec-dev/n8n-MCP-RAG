@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/single-workflow-executions.md",
+  "index": 4,
+  "content": "## Filter executions\n\nYou can filter the executions list.\n\n1. In your workflow, select **Executions**.\t\n2. Select **Filters**.\n3. Enter your filters. You can filter by:\n\t* **Status**: choose from **Failed**, **Running**, **Success**, or **Waiting**.\n\t* **Execution start**: see executions that started in the given time.\n\t* **Saved custom data**: this is data you create within the workflow using the Code node. Enter the key and value to filter. Refer to [Custom executions data](/workflows/executions/custom-executions-data.md) for information on adding custom data.\n\n\t\t--8<-- \"_snippets/workflows/executions/custom-execution-data-availability.md\""
+}

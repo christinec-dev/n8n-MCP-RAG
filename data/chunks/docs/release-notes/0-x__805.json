@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 805,
+  "content": "## n8n@0.99.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.98.0...n8n@0.99.0) for this version.<br />\n**Release date:** 2020-12-24\n\n- New nodes\n- e-goi\n- RabbitMQ\n- RabbitMQ Trigger\n- uProc\n- Enhanced nodes\n- ActiveCampaign: Added the functionality to load the tags for a user\n- FTP: Added Delete and Rename operation\n- Google Cloud Firestore: The node now gives the Collection ID in response\n- Iterable: Added User List resource\n- MessageBird: Added Balance resource\n- TheHive Trigger: Added support for the TheHive3 webhook events, and added Log Updated and Log Deleted events\n- Bug fixes\n- Dropbox: Fixed an issue with the OAuth credentials\n- Google Sheets: Fixed an issue with the parameters getting hidden for other operations\n- Added functionality to copy the data and the path from the output\n- Fixed an issue with the node getting selected after it was duplicated"
+}

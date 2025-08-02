@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 19,
+  "content": "## Related resources\n\nThe Date & Time node uses [Luxon](https://moment.github.io/luxon). You can also use Luxon in the [Code](/code/code-node.md) node and [expressions](/code/expressions.md). Refer to [Date and time with Luxon](/code/cookbook/luxon.md) for more information."
+}

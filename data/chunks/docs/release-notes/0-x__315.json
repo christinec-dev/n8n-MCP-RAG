@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 315,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Map nested fields\n\nn8n@0.187.0 saw the first release of [data mapping](/data/data-mapping/index.md), allowing you to drag and drop top level data from a node's **INPUT** panel into parameter fields. With this release, you can now drag and drop data from any level.\n\n</div>\n\n* Core and editor: support `pairedItem` for pinned data.\n* Core and editor: integrate PostHog.\n* Core: add a command to scripts making it easier to launch n8n with tunnel.\n* CLI: notify external hooks about user profile and password changes."
+}

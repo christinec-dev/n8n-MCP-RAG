@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 180,
+  "content": "### Bug fixes\n\n* Google Sheets node: fix an issue that was causing append and update operations to fail for numeric values.\n* Resolve issues with external hooks."
+}

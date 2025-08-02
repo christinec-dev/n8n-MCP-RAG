@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 8,
+  "content": "### event_destinations\n\nContains the destination configurations for [Log streaming](/log-streaming.md)."
+}

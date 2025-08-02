@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/label-operations.md",
+  "index": 2,
+  "content": "# Gmail node Label Operations\n\nUse the Label operations to create, delete, or get a label or list labels in Gmail. Refer to the [Gmail node](/integrations/builtin/app-nodes/n8n-nodes-base.gmail/index.md) for more information on the Gmail node itself."
+}

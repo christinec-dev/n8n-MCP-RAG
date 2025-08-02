@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 411,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Sticky Notes\n\nThis release adds Sticky Notes, a new feature that allows you to annotate and comment on your workflows. Refer to the [Sticky Notes](/workflows/components/sticky-notes.md) for more information.\n\n</div>"
+}

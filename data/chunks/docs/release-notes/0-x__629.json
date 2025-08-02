@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 629,
+  "content": "### Core Functionality\n- General UI design improvements.\n- Improved errors messages during debugging of custom nodes.\n- All packages upgraded to TypeScript 4.3.5, improved linting and formatting."
+}

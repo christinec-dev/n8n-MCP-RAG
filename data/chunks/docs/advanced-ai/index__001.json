@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/index.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: n8n Advanced AI Documentation and Guides\ndescription: Use n8n's LangChain integrations to build AI-powered functionality within your workflows. Connect your LangChain functionality to other data sources and services.\ncontentType: overview\nhide:\n  - feedback\n---"
+}

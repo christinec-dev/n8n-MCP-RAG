@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 716,
+  "content": "### Enhanced nodes\n\n* [Pipedrive:](/integrations/builtin/app-nodes/n8n-nodes-base.pipedrive.md) Added a feature to fetch data from the Pipedrive API, added Search operation to the Deals resource, and added custom fields option\n* [Spotify:](/integrations/builtin/app-nodes/n8n-nodes-base.spotify.md) Added My Data resource"
+}

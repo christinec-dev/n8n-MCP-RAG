@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.thehive5trigger.md",
+  "index": 4,
+  "content": "## Related resources\n\nn8n provides an app node for TheHive 5. You can find the node docs [here](/integrations/builtin/app-nodes/n8n-nodes-base.thehive5.md).\n\nRefer to TheHive's [documentation](https://docs.strangebee.com/) for more information about the service."
+}

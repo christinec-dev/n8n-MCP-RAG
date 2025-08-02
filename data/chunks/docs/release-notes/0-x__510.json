@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 510,
+  "content": "### Core Functionality\n\n- Added new external hook when active workflows finished initializing.\n- Fixed a bug preventing the personalisation survey from showing up.\n- Improved telemetry."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.git.md",
+  "index": 6,
+  "content": "### Add Config options\n\nThe add config operation adds the **Mode** option. Choose whether to **Set** or **Append** the setting in the local config.\n<!-- vale on -->"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.git.md",
+  "index": 15,
+  "content": "## Push\n\nConfigure this operation with these parameters:\n\n* **Repository Path**: Enter the local path of the git repository.\n* **Authentication**: Select **Authenticate** to pass credentials in or **None** to not use authentication.\n    * If you select **Authenticate**, you must select or create **Credential for Git** for the node to use. Refer to [Git credential](/integrations/builtin/credentials/git.md) for more information."
+}

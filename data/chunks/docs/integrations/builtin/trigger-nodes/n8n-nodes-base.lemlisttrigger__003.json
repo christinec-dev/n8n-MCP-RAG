@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.lemlisttrigger.md",
+  "index": 3,
+  "content": "## Events\n\n<!-- vale Vale.Spelling = NO -->\n- *\n- Aircall Created\n- Aircall Done\n- Aircall Ended\n- Aircall Interested\n- Aircall Not Interested\n- Api Done\n- Api Failed\n- Api Interested\n- Api Not Interested\n- Attracted\n- Connection Issue\n- Contacted\n- Custom Domain Errors\n- Emails Bounced\n- Emails Clicked\n- Emails Failed\n- Emails Interested\n- Emails Not Interested\n- Emails Opened\n- Emails Replied\n- Emails Send Failed\n- Emails Sent\n- Emails Unsubscribed\n- Hooked\n- Interested\n- Lemwarm Paused\n- LinkedIn Interested\n- LinkedIn Invite Accepted\n- LinkedIn Invite Done\n- LinkedIn Invite Failed\n- LinkedIn Not Interested\n- LinkedIn Replied\n- LinkedIn Send Failed\n- LinkedIn Sent\n- LinkedIn Visit Done\n- LinkedIn Visit Failed\n- LinkedIn Voice Note Done\n- LinkedIn Voice Note Failed\n- Manual Interested\n- Manual Not Interested\n- Not Interested\n- Opportunities Done\n- Paused\n- Resumed\n- Send Limit Reached\n- Skipped\n- Warmed\n<!-- vale Vale.Spelling = YES -->"
+}

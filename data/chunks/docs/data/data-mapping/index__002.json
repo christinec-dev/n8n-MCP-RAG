@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-mapping/index.md",
+  "index": 2,
+  "content": "# Data mapping\n\nData mapping means referencing data from previous nodes. \n\nThis section contains guidance on:\n\n* Mapping data in most scenarios: [Data mapping in the UI](/data/data-mapping/data-mapping-ui.md) and [Data mapping in expression](/data/data-mapping/data-mapping-expressions.md)\n* How to handle [item linking](/data/data-mapping/data-item-linking/index.md) when using the Code node or building your own nodes."
+}

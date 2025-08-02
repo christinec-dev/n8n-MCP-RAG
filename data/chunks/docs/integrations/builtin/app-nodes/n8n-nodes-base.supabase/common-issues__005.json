@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.supabase/common-issues.md",
+  "index": 5,
+  "content": "### If only Supabase is in Docker\n\nIf only Supabase is running in Docker, the Docker Compose file used by the [self-hosting guide](https://supabase.com/docs/guides/self-hosting/docker) already runs Supabase bound to the correct interfaces.\n\nWhen configuring [Supabase credentials](/integrations/builtin/credentials/supabase.md), the `localhost` address should work without a problem (set the **Host** to `localhost`)."
+}

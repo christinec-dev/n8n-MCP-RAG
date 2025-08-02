@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 12,
+  "content": "## Get Time Between Dates\n\nConfigure the node for this operation using these parameters:\n\n* **Start Date**: Enter the earlier date you want to compare.\n* **End Date**: Enter the later date you want to compare.\n* **Units**: Select the units you want to calculate the time between. You can include multiple units. Choose from:\n    * **Year**\n    * **Month**\n    * **Week**\n    * **Day**\n    * **Hour**\n    * **Minute**\n    * **Second**\n    * **Millisecond**\n* **Output Field Name**: Enter the name of the field to output the calculated time between to."
+}

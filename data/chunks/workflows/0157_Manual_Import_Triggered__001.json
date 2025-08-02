@@ -1,0 +1,12 @@
+{
+  "source": "0157_Manual_Import_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"140\",\n  \"name\": \"Get today's date and day using the Function node\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Function\",\n      \"type\": \"n8n-nodes-base.function\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"functionCode\": \"var date = new Date().toISOString();\\nvar day = new Date().getDay();\\nconst weekday = [\\\"Sunday\\\", \\\"Monday\\\", \\\"Tuesday\\\", \\\"Wednesday\\\", \\\"Thursday\\\", \\\"Friday\\\", \\\"Saturday\\\"];\\n\\nitems[0].json.date_today = date;\\nitems[0].json.day_today = weekday[day];\\n\\nreturn items;\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Function\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.function"
+    ],
+    "trigger": null
+  }
+}

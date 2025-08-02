@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 17,
+  "content": "# Optional timezone to set which gets used by Cron and other scheduling nodes"
+}

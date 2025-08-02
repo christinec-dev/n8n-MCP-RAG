@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolworkflow.md",
+  "index": 5,
+  "content": "### Source\n\nTell n8n which workflow to call. You can choose either:\n\n* **Database** to select the workflow from a list or enter a workflow ID.\n* **Define Below** and copy in a complete [workflow JSON](/workflows/export-import.md)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 795,
+  "content": "## n8n@0.105.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.104.2...n8n@0.105.0) for this version.<br />\n**Release date:** 2021-02-01\n\n- New nodes\n- Discourse\n- SecurityScorecard\n- TimescaleDB\n- Enhanced nodes\n- Affinity: Added List and List Entry resource\n- Asana: Added Project IDs option to the Create operation of the Task resource\n- HubSpot Trigger: Added support for multiple subscriptions\n- Jira: Added Issue Attachment resource and added custom fields to Create and Update operations of the Issue resource\n- Todoist: Added Section option\n- Bug fixes\n- SIGNL4: Fixed an issue with the attachment functionality\n- Added variable `$mode` to check the mode in which the workflow is being executed"
+}

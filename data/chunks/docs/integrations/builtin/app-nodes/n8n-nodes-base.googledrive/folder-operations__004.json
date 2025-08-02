@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/folder-operations.md",
+  "index": 4,
+  "content": "### Options\n\n- **Simplify Output**: Choose whether to return a simplified version of the response instead of including all fields.\n- **Folder Color**: The color of the folder as an RGB hex string.\n\nRefer to the [Method: files.insert | Google Drive](https://developers.google.com/drive/api/reference/rest/v2/files/insert) API documentation for more information."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 4,
+  "content": "## n8n@1.104.1\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.104.0...n8n@1.104.1) for this version.<br />\n**Release date:** 2025-07-23\n\n/// note | Next version\nThis is the `next` version. n8n recommends using the `latest` version. The `next` version may be unstable. To report issues, use the [forum](https://community.n8n.io/c/questions/12).\n///\n\nThis release contains bug fixes.\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

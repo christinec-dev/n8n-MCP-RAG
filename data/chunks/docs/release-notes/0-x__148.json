@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 148,
+  "content": "### Node enhancements\n\n* FTP Node: stream binary data for uploads and downloads.\n* Notion Node: add support for image blocks.\n* OpenAI Node: add **Frequency Penalty** and **Presence Penalty** to the node options for the text resource.\n* Salesforce Node: add **Has Opted Out Of Email** field to lead resource options.\n* SSH Node: stream binary data for uploads and downloads.\n* Write Binary File Node: stream binary data for writes.\n* YouTube Node: switch upload operation over to streaming and resumable uploads API."
+}

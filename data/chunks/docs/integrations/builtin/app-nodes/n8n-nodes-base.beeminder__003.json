@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.beeminder.md",
+  "index": 3,
+  "content": "## Operations\n\n**data point**\n- Create data point for a goal\n- Delete a data point\n- Get all data points for a goal\n- Update a data point"
+}

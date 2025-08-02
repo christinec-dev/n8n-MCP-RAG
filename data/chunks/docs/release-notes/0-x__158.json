@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 158,
+  "content": "### Bug fixes\n\n* Add schema to Postgres migrations.\n* Core: fix execute-once incoming data handling.\n* Core: fix expression extension miss-detection.\n* Core: fix onWorkflowPostExecute not being called.\n* Core: fix URL in error handling for the error Trigger.\n* Core: make pinned data with webhook responding on last node manual-only.\n* Editor: making parameter input components label configurable.\n* Editor: remove infinite loading in not found workflow level execution.\n* Linear Node: fix issue with single item not being returned.\n* Notion (Beta) Node: fix create database page fails if relation parameter is empty/undefined."
+}

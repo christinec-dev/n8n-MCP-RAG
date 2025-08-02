@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/plan/node-types.md",
+  "index": 2,
+  "content": "# Node types: Trigger and Action\n\nThere are two node types you can build for n8n: trigger nodes and action nodes.\n\nBoth types provide integrations with external services."
+}

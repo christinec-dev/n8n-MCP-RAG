@@ -1,0 +1,5 @@
+{
+  "source": "docs/privacy-security/privacy.md",
+  "index": 7,
+  "content": "### GDPR for self-hosted users\n\n--8<-- \"_snippets/privacy-security/gdpr-self-hosted.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorepgvector.md",
+  "index": 15,
+  "content": "### Collection\n\nA way to separate datasets in PGVector. This creates a separate table and column to keep track of which collection a vector belongs to.\n\n* **Use Collection**: Select whether to use a collection (turned on) or not (turned off).\n* **Collection Name**: Enter the name of the collection you want to use.\n* **Collection Table Name**: Enter the name of the table to store collection information in."
+}

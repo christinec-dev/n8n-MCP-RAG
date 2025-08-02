@@ -1,0 +1,13 @@
+{
+  "source": "0982_Manual_Mongodb_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        220,\n        320\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        420,\n        320\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"my_key\",\n              \"value\": \"my_value\"\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"MongoDB\",\n      \"type\": \"n8n-nodes-base.mongoDb\",\n      \"position\": [\n        620,\n        320\n      ],\n      \"parameters\": {\n        \"fields\": \"my_key\",\n        \"operation\": \"insert\",\n        \"collection\": \"n8n-collection\"\n      },\n      \"credentials\": {\n        \"mongoDb\": \"mongodb_credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"MongoDB\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.mongoDb"
+    ],
+    "trigger": null
+  }
+}

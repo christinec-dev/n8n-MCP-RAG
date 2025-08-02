@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 6,
+  "content": "### Border parameters\n\n* **Property Name**: Enter the name of the binary property that stores the image data.\n* **Border Width**: Enter the width of the border.\n* **Border Height**: Enter the height of the border.\n* **Border Color**: Set the color for the border. You can either enter a hex or select the color swatch to open a color picker.\n\nRefer to [Node options](#node-options) for optional configuration options."
+}

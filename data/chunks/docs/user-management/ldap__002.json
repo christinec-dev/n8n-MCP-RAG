@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/ldap.md",
+  "index": 2,
+  "content": "# Lightweight Directory Access Protocol (LDAP)\n\n/// info | Feature availability\n* Available on Self-hosted Enterprise and Cloud Enterprise plans.\n* You need access to the n8n instance owner account.\n///\n\nThis page tells you how to enable LDAP in n8n. It assumes you're familiar with LDAP, and have an existing LDAP server set up.\n\nLDAP allows users to sign in to n8n with their organization credentials, instead of an n8n login."
+}

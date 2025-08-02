@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 364,
+  "content": "## n8n@1.28.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.27.2...n8n@1.28.0) for this version.<br />\n**Release date:** 2024-02-07\n\n\n\nThis release contains new features, new nodes, node enhancements and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### New nodes: Azure OpenAI chat model and embeddings\n\nThis release adds two new nodes to work with [Azure OpenAI](https://azure.microsoft.com/en-gb/products/ai-services/openai-service/) in your advanced AI workflows:\n\n* [Embeddings Azure OpenAI](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsazureopenai.md)\n* [Azure OpenAI Chat Model](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatazureopenai.md)\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

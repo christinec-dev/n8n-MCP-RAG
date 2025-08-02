@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-4.md",
+  "index": 2,
+  "content": "# Dealing with errors in workflows\n\nSometimes you build a nice workflow, but it fails when you try to execute it. Workflow executions may fail for a variety of reasons, ranging from straightforward problems with incorrectly configuring a node or a failure in a third-party service to more mysterious errors.\n\nBut don't panic. In this lesson, you'll learn how you can troubleshoot errors so you can get your workflow up and running as soon as possible."
+}

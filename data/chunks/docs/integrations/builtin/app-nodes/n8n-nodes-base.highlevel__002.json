@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.highlevel.md",
+  "index": 2,
+  "content": "# HighLevel node\n\nUse the HighLevel node to automate work in HighLevel, and integrate HighLevel with other applications. n8n has built-in support for a wide range of HighLevel features, including creating, updating, deleting, and getting contacts, opportunities, and tasks, as well as booking appointments and getting free time slots in calendars. \n\nOn this page, you'll find a list of operations the HighLevel node supports and links to more resources.\n\n/// note | Credentials\nRefer to [HighLevel credentials](/integrations/builtin/credentials/highlevel.md) for guidance on setting up authentication. \n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/log-streaming.md",
+  "index": 3,
+  "content": "## Set up log streaming\n\nTo use log streaming, you have to add a streaming destination.\n\n1. Navigate to **Settings** > **Log Streaming**.\n2. Select **Add new destination**.\n3. Choose your destination type. n8n opens the **New Event Destination** modal.\n4. In the **New Event Destination** modal, enter the configuration information for your event destination. These depend on the type of destination you're using.\n5. Select **Events** to choose which events to stream.\n6. Select **Save**.\n\n/// note | Self-hosted users\nIf you self-host n8n, you can configure additional log streaming behavior using [Environment variables](/hosting/configuration/environment-variables/logs.md#log-streaming).\n///"
+}

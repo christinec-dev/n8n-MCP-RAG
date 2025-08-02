@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.onfleettrigger.md",
+  "index": 2,
+  "content": "# Onfleet Trigger node\n\n[Onfleet](https://onfleet.com/) is a logistics platform offering a last-mile delivery solution.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/onfleet.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Onfleet Trigger integrations](https://n8n.io/integrations/onfleet-trigger/) page.\n///"
+}

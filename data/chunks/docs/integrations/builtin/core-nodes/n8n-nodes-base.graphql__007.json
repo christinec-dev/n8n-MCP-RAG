@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.graphql.md",
+  "index": 7,
+  "content": "### Ignore SSL Issues\n\nWhen you turn on this control, n8n ignores SSL certificate validation failure."
+}

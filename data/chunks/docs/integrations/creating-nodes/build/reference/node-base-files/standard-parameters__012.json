@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 12,
+  "content": "## `requiredInputs`\n\n_Integer_ or _Array_ | _Optional_\n\nUsed for multi-input nodes. Specify inputs by number that must have data (their branches must run) before the node can execute."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/jmespath.md",
+  "index": 8,
+  "content": "### An alternative to arrow functions in expressions\n\nFor example, generate some input data by returning the below code from the Code node:\n\n```js\nreturn[\n  {\n    \"json\": {      \n      \"num_categories\": \"0\",\n      \"num_products\": \"45\",\n      \"category_id\": 5529735,\n      \"parent_id\": 1407340,\n      \"pos_enabled\": 1,\n      \"pos_favorite\": 0,\n      \"name\": \"HP\",\n      \"description\": \"\",\n      \"image\": \"\"\n    }\n  },\n  {\n    \"json\": {\n      \"num_categories\": \"0\",\n      \"num_products\": \"86\",\n      \"category_id\": 5529740,\n      \"parent_id\": 1407340,\n      \"pos_enabled\": 1,\n      \"pos_favorite\": 0,\n      \"name\": \"Lenovo\",\n      \"description\": \"\",\n      \"image\": \"\"\n    }\n  }  \n]\n```\n\nYou could do a search like \"find the item with the name Lenovo and tell me their category ID.\"\n\n```js\n{{ $jmespath($(\"Code\").all(), \"[?json.name=='Lenovo'].json.category_id\") }}\n```"
+}

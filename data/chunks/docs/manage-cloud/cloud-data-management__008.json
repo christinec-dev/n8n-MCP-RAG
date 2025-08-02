@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/cloud-data-management.md",
+  "index": 8,
+  "content": "### Manual data pruning\n\nHeavier executions and use cases can exceed database capacity despite the automatic pruning practices. In cases like this, n8n will manually prune data to protect instance stability.\n\n1. An alert system warns n8n if an instance is at 85% disk capacity.\n2. n8n prunes execution data. n8n does this by running a backup of the instance (workflows, users, credentials and execution data) and restoring it without execution data.\n \t\n\nDue to the human steps in this process, the alert system isn't perfect. If warnings are triggered after hours or if data consumption rates are high, there might not be time to prune the data before the remaining disk space fills up."
+}

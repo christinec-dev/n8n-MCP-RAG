@@ -1,0 +1,12 @@
+{
+  "source": "1179_Error_Mailgun_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Error Trigger\",\n      \"type\": \"n8n-nodes-base.errorTrigger\",\n      \"position\": [\n        250,\n        500\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Mailgun\",\n      \"type\": \"n8n-nodes-base.mailgun\",\n      \"position\": [\n        450,\n        500\n      ],\n      \"parameters\": {\n        \"text\": \"=Error: {{$node[\\\"Error Trigger\\\"].data[\\\"execution\\\"][\\\"error\\\"][\\\"message\\\"]}}\\n\\nStack Trace:\\n{{$node[\\\"Error Trigger\\\"].data[\\\"execution\\\"][\\\"error\\\"][\\\"stack\\\"]}}\",\n        \"subject\": \"=Workflow Error:  {{$node[\\\"Error Trigger\\\"].data[\\\"workflow\\\"][\\\"name\\\"]}}\",\n        \"toEmail\": \"\",\n        \"fromEmail\": \"\"\n      },\n      \"credentials\": {\n        \"mailgunApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Error Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mailgun\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.errorTrigger",
+      "n8n-nodes-base.mailgun"
+    ],
+    "trigger": "error trigger"
+  }
+}

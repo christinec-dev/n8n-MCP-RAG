@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/introduction.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ncontentType: overview\ntitle: Advanced AI examples and concepts\ndescription: Example workflows and use cases for building AI functionality using n8n.\nhide:\n  - toc\n---"
+}

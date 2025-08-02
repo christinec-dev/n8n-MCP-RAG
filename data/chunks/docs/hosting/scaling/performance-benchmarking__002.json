@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/performance-benchmarking.md",
+  "index": 2,
+  "content": "# Performance and benchmarking\n\nn8n can handle up to 220 workflow executions per second on a single instance, with the ability to scale up further by adding more instances.\n\nThis document outlines n8n's performance benchmarking. It describes the factors that affect performance, and includes two example benchmarks."
+}

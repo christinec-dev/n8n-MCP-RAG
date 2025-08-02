@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.adalo.md",
+  "index": 3,
+  "content": "## Operations\n\n* Collection\n\t* Create\n\t* Delete\n\t* Get\n\t* Get Many\n\t* Update"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.markdown.md",
+  "index": 4,
+  "content": "## Node parameters\n\n* **HTML** or **Markdown**: Enter the data you want to convert. The field name changes based on which **Mode** you select.\n* **Destination Key**: Enter the field you want to put the output in. Specify nested fields using dots, for example `level1.level2.newKey`."
+}

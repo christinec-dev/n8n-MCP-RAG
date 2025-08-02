@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 592,
+  "content": "### New nodes\n\n* [Stop and Error](/integrations/builtin/core-nodes/n8n-nodes-base.stopanderror.md)"
+}

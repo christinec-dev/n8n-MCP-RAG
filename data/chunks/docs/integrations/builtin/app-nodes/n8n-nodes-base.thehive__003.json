@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.thehive.md",
+  "index": 3,
+  "content": "## Operations\n\nThe available operations depend on your API version. To see the operations list, create your credentials, including selecting your API version. Then return to the node, select the resource you want to use, and n8n displays the available operations for your API version. \n\n* Alert\n* Case\n* Log\n* Observable\n* Task"
+}

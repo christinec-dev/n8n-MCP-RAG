@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/index.md",
+  "index": 6,
+  "content": "### Chat trigger\n\nUse the [n8n Chat Trigger](/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md) to trigger a workflow based on chat interactions."
+}

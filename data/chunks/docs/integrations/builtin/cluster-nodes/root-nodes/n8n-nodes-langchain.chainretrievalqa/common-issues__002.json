@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainretrievalqa/common-issues.md",
+  "index": 2,
+  "content": "# Question and Answer Chain node common issues\n\nHere are some common errors and issues with the [Question and Answer Chain node](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainretrievalqa/index.md) and steps to resolve or troubleshoot them."
+}

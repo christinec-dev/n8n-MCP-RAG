@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.crowddev.md",
+  "index": 5,
+  "content": "## Related resources\n\nn8n provides a trigger node for crowd.dev. You can find the trigger node docs [here](/integrations/builtin/trigger-nodes/n8n-nodes-base.crowddevtrigger.md).\n\nRefer to [crowd.dev's documentation](https://docs.crowd.dev/reference/getting-started-with-crowd-dev-api) for more information about the service.\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/operation-not-supported.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatopenai/index.md",
+  "index": 4,
+  "content": "### Model\n\nSelect the model to use to generate the completion.\n\nn8n dynamically loads models from OpenAI and you'll only see the models available to your account."
+}

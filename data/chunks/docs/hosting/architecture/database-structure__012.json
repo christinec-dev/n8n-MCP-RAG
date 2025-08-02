@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 12,
+  "content": "### installed_nodes\n\nLists the [community nodes](/integrations/community-nodes/installation/index.md) installed in your n8n instance."
+}

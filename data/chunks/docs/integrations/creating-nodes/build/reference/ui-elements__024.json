@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 24,
+  "content": "### Add a node hint\n\nDefine the node's hints in the `hints` property within the node `description`:\n\n```ts\ndescription: INodeTypeDescription = {\n\t...\n\thints: [\n\t\t{\n\t\t\t// The hint message. You can use HTML.\n\t\t\tmessage: \"This node has many input items. Consider enabling <b>Execute Once</b> in the node\\'s settings.\",\n\t\t\t// Choose from: info, warning, danger. The default is 'info'.\n\t\t\t// Changes the color. info (grey), warning (yellow), danger (red)\n\t\t\ttype: 'info',\n\t\t\t// Choose from: inputPane, outputPane, ndv. By default n8n displays the hint in both the input and output panels.\n\t\t\tlocation: 'outputPane',\n\t\t\t// Choose from: always, beforeExecution, afterExecution. The default is 'always'\n\t\t\twhenToDisplay: 'beforeExecution',\n\t\t\t// Optional. An expression. If it resolves to true, n8n displays the message. Defaults to true.\n\t\t\tdisplayCondition: '={{ $parameter[\"operation\"] === \"select\" && $input.all().length > 1 }}'\n\t\t}\n\t]\n\t...\n}\n```"
+}

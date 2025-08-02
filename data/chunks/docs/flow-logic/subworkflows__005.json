@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/subworkflows.md",
+  "index": 5,
+  "content": "## Sub-workflow conversion\n\nSee [sub-workflow conversion](/workflows/subworkflow-conversion.md) for how to divide your existing workflows into sub-workflows."
+}

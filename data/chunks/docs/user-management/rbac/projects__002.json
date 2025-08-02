@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/rbac/projects.md",
+  "index": 2,
+  "content": "## Create a project\n\nInstance owners and instance admins can create projects.\n\nTo create a project:\n\n1. Select <span class=\"inline-image\">![Plus icon](/_images/common-icons/plus.png)</span> **Add project**.\n1. Fill out the project settings.\n1. Select **Save**."
+}

@@ -1,0 +1,13 @@
+{
+  "source": "0952_HTTP_Medium_Automation_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Medium\",\n      \"type\": \"n8n-nodes-base.medium\",\n      \"position\": [\n        650,\n        450\n      ],\n      \"parameters\": {\n        \"title\": \"={{$json[\\\"body\\\"][\\\"entry\\\"][\\\"Title\\\"]}}\",\n        \"content\": \"={{$json[\\\"body\\\"][\\\"entry\\\"][\\\"PostContent\\\"]}}\",\n        \"contentFormat\": \"markdown\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"mediumApi\": \"Medium Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"webhookId\": \"\",\n      \"parameters\": {\n        \"path\": \"\",\n        \"options\": {},\n        \"httpMethod\": \"POST\",\n        \"authentication\": \"headerAuth\"\n      },\n      \"credentials\": {\n        \"httpHeaderAuth\": \"Strapi Webhook Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        650,\n        200\n      ],\n      \"parameters\": {\n        \"url\": \"https://dev.to/api/articles\",\n        \"options\": {},\n        \"requestMethod\": \"POST\",\n        \"authentication\": \"headerAuth\",\n        \"jsonParameters\": true,\n        \"bodyParametersJson\": \"={\\n\\t\\\"article\\\": {\\n\\t\\t\\\"title\\\": \\\"{{$json[\\\"body\\\"][\\\"entry\\\"][\\\"Title\\\"]}}\\\",\\n\\t\\t\\\"published\\\": true,\\n\\t\\t\\\"body_markdown\\\": \\\"{{$json[\\\"body\\\"][\\\"entry\\\"][\\\"PostContent\\\"]}}\\\",\\n\\t\\t\\\"tags\\\":[\\\"{{$json[\\\"body\\\"][\\\"entry\\\"][\\\"Tag\\\"]}}\\\"]\\n\\t}\\n}\",\n        \"headerParametersJson\": \"{\\\"Content-Type\\\": \\\"application/json\\\"}\"\n      },\n      \"credentials\": {\n        \"httpHeaderAuth\": \"Dev.to Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          },\n          {\n            \"node\": \"Medium\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.medium",
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.httpRequest"
+    ],
+    "trigger": null
+  }
+}

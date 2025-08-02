@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/common-issues.md",
+  "index": 7,
+  "content": "## 429 - The service is receiving too many requests from you\n\nThis error displays when the node receives a [429 error](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429) from the service that you're calling. This often means that you have hit the rate limits of that service. You can find out more on the [Handling API rate limits](/integrations/builtin/rate-limits.md) page.\n\nTo resolve the error, you can use one of the built-in options of the HTTP request node:"
+}

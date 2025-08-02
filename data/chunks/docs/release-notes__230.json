@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 230,
+  "content": "### Node updates\n\n- [OpenAI](/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/index.md): Added the option to choose between the default memory connector to provide memory to the assistant or to specify a thread ID    \n- [Gmail](/integrations/builtin/app-nodes/n8n-nodes-base.gmail/index.md) and [Slack](/integrations/builtin/app-nodes/n8n-nodes-base.slack.md): Added custom approval operations to have a human in the loop of a workflow  \n\nWe have also optimized the [worker health checks](/hosting/logging-monitoring/monitoring.md) (see breaking change above). \n\nEach credential now has a seperate url you can link to. This makes sharing much easier. \n\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

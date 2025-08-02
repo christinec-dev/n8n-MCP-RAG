@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftentra.md",
+  "index": 7,
+  "content": "### Updating the Allow External Senders and Auto Subscribe New Members options fails\n\nYou can't update the **Allow External Senders** and **Auto Subscribe New Members** options directly after creating a new group. You must wait after creating a group before you can change the values of these options.\n\nWhen designing workflows that use multiple Microsoft Entra ID nodes to first create groups and then update these options, add a [Wait](/integrations/builtin/core-nodes/n8n-nodes-base.wait.md) node between the two operations. A Wait node configured to pause for at least two seconds allows time for the group to fully initialize. After the wait, the update operation can complete without erroring."
+}

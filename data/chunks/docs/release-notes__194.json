@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 194,
+  "content": "### New canvas in beta\nThe new canvas is now the default setting for all users. It should bring significant performance improvements and adds a handy minimap. As it is still a beta version you can still revert to the previous version with the three dot menu.  \n\nWe're looking forward to your feedback. Should you encounter a bug, you will find a handy button to create an issue at the bottom of the new canvas as well."
+}

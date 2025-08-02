@@ -1,0 +1,5 @@
+{
+  "source": "docs/try-it-out/index.md",
+  "index": 2,
+  "content": "# Try it out\n\nThe best way to learn n8n is by using our tutorials to get familiar with the user interface and the many different types of nodes and integrations available. Here is a selection of material to get you started:\n\n- Looking for a quick introduction? Check out the [\"First Workflow\" tutorial](/try-it-out/tutorial-first-workflow.md).\n- Interested in what you could do with AI? Find out [how to build an AI chat agent with n8n](/advanced-ai/intro-tutorial.md).\n- Prefer to work through extensive examples? Maybe the [courses](/courses/index.md) are for you."
+}

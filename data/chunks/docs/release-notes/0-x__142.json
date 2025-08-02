@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 142,
+  "content": "### Bug fixes\n\n* Editor: correctly show OAuth reconnect button.\n* Editor: fix resolvable highlighting for HTML editor."
+}

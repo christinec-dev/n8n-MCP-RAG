@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.jwt.md",
+  "index": 2,
+  "content": "# JWT\n\nWork with JSON web tokens in your n8n workflows.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/jwt.md).\n///"
+}

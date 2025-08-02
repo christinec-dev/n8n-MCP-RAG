@@ -1,0 +1,12 @@
+{
+  "source": "0403_Beeminder_Strava_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"208\",\n  \"name\": \"Add a datapoint to Beeminder when new activity is added to Strava\",\n  \"nodes\": [\n    {\n      \"name\": \"Strava Trigger\",\n      \"type\": \"n8n-nodes-base.stravaTrigger\",\n      \"position\": [\n        470,\n        300\n      ],\n      \"webhookId\": \"2b0c6812-ac24-42e5-b15e-8d1fb7606908\",\n      \"parameters\": {\n        \"event\": \"create\",\n        \"options\": {}\n      },\n      \"credentials\": {\n        \"stravaOAuth2Api\": \"strava\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Beeminder\",\n      \"type\": \"n8n-nodes-base.beeminder\",\n      \"position\": [\n        670,\n        300\n      ],\n      \"parameters\": {\n        \"goalName\": \"testing\",\n        \"additionalFields\": {\n          \"comment\": \"={{$json[\\\"object_data\\\"][\\\"name\\\"]}}\"\n        }\n      },\n      \"credentials\": {\n        \"beeminderApi\": \"Beeminder credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Strava Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Beeminder\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.stravaTrigger",
+      "n8n-nodes-base.beeminder"
+    ],
+    "trigger": "strava trigger"
+  }
+}

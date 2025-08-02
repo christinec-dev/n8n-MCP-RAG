@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.splitout.md",
+  "index": 4,
+  "content": "### Field to Split Out\n\nEnter the field containing the list you want to separate out into individual items.\n\nIf you're working with binary data inputs, use `$binary` in an expression to set the field to split out."
+}

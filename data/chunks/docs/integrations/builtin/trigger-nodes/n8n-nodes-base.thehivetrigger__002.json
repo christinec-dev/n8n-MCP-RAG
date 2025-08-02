@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.thehivetrigger.md",
+  "index": 2,
+  "content": "# TheHive Trigger node\n\nOn this page, you'll find a list of events the TheHive Trigger node can respond to and links to more resources.\n\n/// note | TheHive and TheHive 5\nn8n provides two nodes for TheHive. Use this node (TheHive Trigger) if you want to use TheHive's version 3 or 4 API. If you want to use version 5, use [TheHive 5 Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.thehive5trigger.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [TheHive Trigger integrations](https://n8n.io/integrations/thehive-trigger/) page.\n///"
+}

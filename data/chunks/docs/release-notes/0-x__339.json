@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 339,
+  "content": "## n8n@0.187.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.186.1...n8n@0.187.0) for this version.<br />\n**Release date:** 2022-07-20\n\nThis release includes several major new features, including:\n\n* The community nodes repository: a new way to build and share nodes.\n* Data pinning and data mapping: accelerate workflow development with better data manipulation functionality."
+}

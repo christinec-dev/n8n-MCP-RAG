@@ -1,0 +1,15 @@
+{
+  "source": "0052_Manual_Git_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        230,\n        320\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Git\",\n      \"type\": \"n8n-nodes-base.git\",\n      \"position\": [\n        430,\n        320\n      ],\n      \"parameters\": {\n        \"operation\": \"add\",\n        \"pathsToAdd\": \"README.md\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Git1\",\n      \"type\": \"n8n-nodes-base.git\",\n      \"position\": [\n        630,\n        320\n      ],\n      \"parameters\": {\n        \"message\": \"✨ First commit from n8n\",\n        \"options\": {},\n        \"operation\": \"commit\",\n        \"repositoryPath\": \"={{$node[\\\"Git\\\"].parameter[\\\"repositoryPath\\\"]}}\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Git2\",\n      \"type\": \"n8n-nodes-base.git\",\n      \"position\": [\n        830,\n        320\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"repositoryPath\": \"={{$node[\\\"Git\\\"].parameter[\\\"repositoryPath\\\"]}}\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Git3\",\n      \"type\": \"n8n-nodes-base.git\",\n      \"position\": [\n        1030,\n        320\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"operation\": \"push\",\n        \"repositoryPath\": \"={{$node[\\\"Git\\\"].parameter[\\\"repositoryPath\\\"]}}\"\n      },\n      \"executeOnce\": false,\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Git\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Git1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Git1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Git2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Git2\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Git3\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Git\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.git",
+      "n8n-nodes-base.git",
+      "n8n-nodes-base.git",
+      "n8n-nodes-base.git"
+    ],
+    "trigger": null
+  }
+}

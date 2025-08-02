@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftteams.md",
+  "index": 3,
+  "content": "## Operations\n\n* Channel\n    * Create\n    * Delete\n    * Get\n    * Get Many\n    * Update\n* Channel Message\n    * Create\n    * Get Many\n* Chat Message\n\t* Create\n\t* Get\n\t* Get Many\n\t* Send and Wait for Response\n* Task\n    * Create\n    * Delete\n    * Get\n    * Get Many\n    * Update\n\n--8<-- \"_snippets/integrations/builtin/send-and-wait-operation.md\""
+}

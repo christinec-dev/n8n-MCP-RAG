@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/sticky-notes.md",
+  "index": 12,
+  "content": "## Embed a YouTube video\n\nTo display a YouTube video in a note, use the `@[youtube](<video-id>)` directive with the video's ID. For this to work, the video's creator must allow embedding.\n\nFor example:\n\n```markdown\n@[youtube](ZCuL2e4zC_4)\n```\n\nTo embed your own video, copy the above syntax, replacing `ZCuL2e4zC_4` with your video ID. The YouTube video ID is the string that follows `v=` in the YouTube URL."
+}

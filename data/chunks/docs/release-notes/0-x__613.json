@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 613,
+  "content": "### Bug fixes\n\n* [SendGrid:](/integrations/builtin/app-nodes/n8n-nodes-base.sendgrid.md) Fixed issue with adding contacts to lists."
+}

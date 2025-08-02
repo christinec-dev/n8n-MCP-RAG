@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 810,
+  "content": "## n8n@0.95.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.94.1...n8n@0.95.0) for this version.<br />\n**Release date:** 2020-11-25\n\n- New nodes\n- Airtable Trigger\n- LingvaNex\n- OpenThesaurus\n- ProfitWell\n- Quick Base\n- Spontit\n- Enhanced nodes\n- Airtable: The Application ID field has been renamed to Base ID, and the Table ID field has been renamed to Table. The List operation now downloads attachments automatically\n- Harvest: Moved the account field from the credentials to the node parameters. For more details, check out the entry in the [breaking changes](https://github.com/n8n-io/n8n/blob/master/packages/cli/BREAKING-CHANGES.md#0950) page\n- Bug Fixes\n- Slack: Fixed an issue with creating channels and inviting users to a channel"
+}

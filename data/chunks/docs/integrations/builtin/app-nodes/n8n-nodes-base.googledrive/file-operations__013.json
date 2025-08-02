@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/file-operations.md",
+  "index": 13,
+  "content": "### Options\n\n- **Email Message**: A plain text custom message to include in the notification email.\n<!-- vale from-microsoft.FirstPerson = NO -->\n- **Move to New Owners Root**: Available when trying to transfer ownership while sharing an item not in a shared drive. When enabled, moves the file to the new owner's My Drive root folder.\n<!-- vale from-microsoft.FirstPerson = YES -->\n- **Send Notification Email**: Whether to send a notification email when sharing to users or groups.\n- **Transfer Ownership**: Whether to transfer ownership to the specified user and downgrade the current owner to writer permissions.\n- **Use Domain Admin Access**: Whether to perform the action as a domain administrator.\n\nRefer to the [REST Resources: files | Google Drive](https://developers.google.com/drive/api/reference/rest/v2/files) API documentation for more information."
+}

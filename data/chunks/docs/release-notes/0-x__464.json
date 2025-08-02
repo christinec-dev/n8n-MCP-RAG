@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 464,
+  "content": "### Enhanced nodes\n\n\n* [Asana:](/integrations/builtin/app-nodes/n8n-nodes-base.asana.md) Added Create operation to the Project resource.\n* [Mautic:](/integrations/builtin/app-nodes/n8n-nodes-base.mautic.md) Added Edit Contact Points, Edit Do Not Contact List, Send Email operations to Contact resource. Also added new Segment Email resource.\n* [Notion (Beta):](/integrations/builtin/app-nodes/n8n-nodes-base.notion/index.md) Added support for rollup fields to the Simplify Output option. Also added the Parent ID to the Get All operation of the Block resource.\n* [Pipedrive:](/integrations/builtin/app-nodes/n8n-nodes-base.pipedrive.md) Added Marketing Status field to the Create operation of the Person resource, also added User ID field to the Create and Update operations of the Person resource."
+}

@@ -1,0 +1,12 @@
+{
+  "source": "0160_Manual_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"141\",\n  \"name\": \"Assign values to variables using the Set node\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"number\": [\n            {\n              \"name\": \"number\",\n              \"value\": 20\n            }\n          ],\n          \"string\": [\n            {\n              \"name\": \"string\",\n              \"value\": \"From n8n with love\"\n            }\n          ],\n          \"boolean\": [\n            {\n              \"name\": \"boolean\",\n              \"value\": true\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

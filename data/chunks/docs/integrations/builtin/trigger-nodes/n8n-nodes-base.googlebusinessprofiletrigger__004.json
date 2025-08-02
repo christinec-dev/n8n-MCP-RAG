@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.googlebusinessprofiletrigger.md",
+  "index": 4,
+  "content": "## Related resources\n\nn8n provides an app node for Google Business Profile. You can find the node docs [here](/integrations/builtin/app-nodes/n8n-nodes-base.googlebusinessprofile.md).\n\n<!-- add a link to the node page on n8n's website. For example: https://n8n.io/integrations/356-gmail/ -->\nView [example workflows and related content](https://n8n.io/integrations/google-business-profile-trigger/) on n8n's website.\n\nRefer to [Google Business Profile's documentation](https://developers.google.com/my-business/reference/rest) for details about their API."
+}

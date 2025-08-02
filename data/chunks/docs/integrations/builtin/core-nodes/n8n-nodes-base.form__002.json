@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.form.md",
+  "index": 2,
+  "content": "# n8n Form node\n\nUse the n8n Form node to create user-facing forms with multiple steps. You can add other nodes with custom logic between to process user input. You must start the workflow with the [n8n Form Trigger](/integrations/builtin/core-nodes/n8n-nodes-base.formtrigger.md).\n\n[[ workflowDemo(\"file:///integrations/builtin/core-nodes/n8n-nodes-base.form/mutually-exclusive-branching.json\") ]]"
+}

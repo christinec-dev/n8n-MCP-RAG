@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 195,
+  "content": "### Bug fixes\n\n* Editor: ensure full tree on expression editor parse. This resolves an issue with the expressions editor cutting off results.\n* Fix automatic credential selection when credentials are shared."
+}

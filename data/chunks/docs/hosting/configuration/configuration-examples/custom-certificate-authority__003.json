@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/custom-certificate-authority.md",
+  "index": 3,
+  "content": "## Docker\n\nThe examples below assume you have a folder called `pki` that contains your certificates in either the directory you run the command from or next to your docker compose file."
+}

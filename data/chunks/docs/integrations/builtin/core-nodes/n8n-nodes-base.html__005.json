@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.html.md",
+  "index": 5,
+  "content": "## Extract HTML Content\n\nExtract contents from an HTML-formatted source. The source can be in JSON or a binary file (`.html`).\n\nUse these parameters:"
+}

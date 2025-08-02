@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/index.md",
+  "index": 5,
+  "content": "## Related resources\n\nRefer to [Telegram's API documentation](https://core.telegram.org/bots/api) for more information about the service.\n\nn8n provides a trigger node for Telegram. Refer to the trigger node docs [here](/integrations/builtin/trigger-nodes/n8n-nodes-base.telegramtrigger/index.md) for more information."
+}

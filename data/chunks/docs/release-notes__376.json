@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 376,
+  "content": "## n8n@1.24.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.23.0...n8n@1.24.0) for this version.<br />\n**Release date:** 2024-01-10\n\n\nThis release contains new nodes for advanced AI, node enhancements, new features, performance enhancements, and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Chat trigger\n\nn8n has created a new [Chat Trigger node](/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md). The new node provides a chat interface that you can make publicly available, with customization and authentication options.\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Mistral Cloud Chat and Embeddings\n\nThis release introduces two new nodes to support [Mistral AI](https://mistral.ai/):\n\n* [Mistral Cloud Chat Model](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatmistralcloud.md)\n* [Embeddings Mistral Cloud](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsmistralcloud.md)\n\n</div>"
+}

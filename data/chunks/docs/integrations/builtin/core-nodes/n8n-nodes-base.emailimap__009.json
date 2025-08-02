@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.emailimap.md",
+  "index": 9,
+  "content": "### Format\n\nChoose the format to return the message in from these options:\n\n* **RAW**: This format returns the full email message data with body content in the raw field as a base64url encoded string. It doesn't use the payload field.\n* **Resolved**: This format returns the full email with all data resolved and attachments saved as binary data.\n* **Simple**: This format returns the full email. Don't use it if you want to gather inline attachments."
+}

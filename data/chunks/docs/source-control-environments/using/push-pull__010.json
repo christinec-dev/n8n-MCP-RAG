@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/using/push-pull.md",
+  "index": 10,
+  "content": "### Credentials, variables and workflow tags\n\nCredentials and variables can't have merge issues, as n8n chooses the version to keep.\n\nOn pull:\n\n* If the tag, variable or credential doesn't exist, n8n creates it.\n* If the tag, variable or credential already exists, n8n doesn't update it, unless:\n\t* You set the value of a variable using the API or externally. The new value overwrites any existing value.\n\t* The credential name has changed. n8n uses the version in Git.\n\t* The name of a tag has changed. n8n updates the tag name. Be careful when renaming tags as tag names are unique and this could cause database issues when it comes to uniqueness during the pull process.\n\nOn push:\n\n* n8n overwrites the entire variables and tags files.\n* If a credential already exists, n8n overwrites it with the changes, but doesn't apply these changes to existing credentials on pull.\n\n/// note | Manage credentials with an external secrets vault\nIf you need different credentials on different n8n environments, use [external secrets](/external-secrets.md).\n///"
+}

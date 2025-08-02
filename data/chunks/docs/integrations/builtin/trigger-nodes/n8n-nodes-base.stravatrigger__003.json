@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.stravatrigger.md",
+  "index": 3,
+  "content": "## Events\n\n- **\\[All\\]**\n    - \\[All\\]\n    - Created\n    - Deleted\n    - Updated\n- **Activity**\n    - \\[All\\]\n    - Created\n    - Deleted\n    - Updated\n- **Athlete**\n    - \\[All\\]\n    - Created\n    - Deleted\n    - Updated"
+}

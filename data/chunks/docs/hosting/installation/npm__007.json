@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/npm.md",
+  "index": 7,
+  "content": "## Updating\n\nTo update your n8n instance to the `latest` version, run:\n\n```bash\nnpm update -g n8n\n```\n\nTo install the `next` version:\n\n```bash\nnpm install -g n8n@next\n```\n\n--8<-- \"_snippets/self-hosting/installation/tunnel.md\"\n\nStart n8n with `--tunnel` by running:\n\n```bash\nn8n start --tunnel\n```"
+}

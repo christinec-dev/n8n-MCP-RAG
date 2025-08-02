@@ -1,0 +1,13 @@
+{
+  "source": "1223_Asana_Webhook_Automate_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Asana\",\n      \"type\": \"n8n-nodes-base.asana\",\n      \"position\": [\n        450,\n        500\n      ],\n      \"parameters\": {\n        \"name\": \"={{$json[\\\"query\\\"][\\\"parameter\\\"]}}\",\n        \"workspace\": \"\",\n        \"authentication\": \"oAuth2\",\n        \"otherProperties\": {\n          \"projects\": [\n            \"\"\n          ]\n        }\n      },\n      \"credentials\": {\n        \"asanaOAuth2Api\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        250,\n        500\n      ],\n      \"webhookId\": \"b43ae7e2-a058-4738-8d49-ac76db6e8166\",\n      \"parameters\": {\n        \"path\": \"asana\",\n        \"options\": {\n          \"responsePropertyName\": \"response\"\n        },\n        \"responseMode\": \"lastNode\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        650,\n        500\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"response\",\n              \"value\": \"=Created Asana Task:  {{$json[\\\"permalink_url\\\"]}}\"\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Asana\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Asana\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.asana",
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

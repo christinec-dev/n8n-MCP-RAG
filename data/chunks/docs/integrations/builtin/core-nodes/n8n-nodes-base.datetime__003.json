@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 3,
+  "content": "## Operations\n\n* **Add to a Date**: Add a specified amount of time to a date.\n* **Extract Part of a Date**: Extract part of a date, such as the year, month, or day.\n* **Format a Date**: Transform a date's format to a new format using preset options or a custom expression.\n* **Get Current Date**: Get the current date and choose whether to include the current time or not. Useful for triggering other flows and conditional logic.\n* **Get Time Between Dates**: Calculate the amount of time in specific units between two dates.\n* **Round a Date**: Round a date up or down to the nearest unit of your choice, such as month, day, or hour.\n* **Subtract From a Date**: Subtract a specified amount of time from a date.\n\nRefer to the sections below for parameters and options specific to each operation."
+}

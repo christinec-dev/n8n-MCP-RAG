@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.summarize.md",
+  "index": 2,
+  "content": "# Summarize\n\nUse the Summarize node to aggregate items together, in a manner similar to Excel pivot tables."
+}

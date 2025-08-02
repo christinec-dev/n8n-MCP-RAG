@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/plan/node-ui-design.md",
+  "index": 8,
+  "content": "### Showing and hiding fields\n\nFields can either be:\n\n* Displayed when the node opens: use this for resources and operations, and required fields.\n* Hidden in the **Optional fields** section until a user clicks on that section: use this for optional fields.\n\nProgressively disclose complexity: hide a field until any earlier fields it depends on have values. For example, if you have a **Filter by date** toggle, and a **Date to filter by** datepicker, don't display **Date to filter by** until the user enables **Filter by date**."
+}

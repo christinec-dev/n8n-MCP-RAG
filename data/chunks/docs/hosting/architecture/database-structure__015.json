@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 15,
+  "content": "### project\n\nLists the [projects](/user-management/rbac/projects.md) in your instance."
+}

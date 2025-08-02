@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/dirty-nodes.md",
+  "index": 2,
+  "content": "# Dirty nodes\n\nA **dirty node** is a node that executed successfully in the past, but whose output n8n now considers stale or unreliable. They're labeled like this to indicate that if the node executes again, the output may be different. It may also be the point where a [partial execution](/workflows/executions/manual-partial-and-production-executions.md#partial-executions) starts from."
+}

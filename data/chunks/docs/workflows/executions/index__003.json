@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/index.md",
+  "index": 3,
+  "content": "## Execution modes\n\nThere are two execution modes:\n\n* Manual: run workflows manually when testing. Select **Execute Workflow** to start a manual execution. You can do manual executions of active workflows, but n8n recommends keeping your workflow set to **Inactive** while developing and testing.\n* Production: a production workflow is one that runs automatically. To enable this, set the workflow to **Active**."
+}

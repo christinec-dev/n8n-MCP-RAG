@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/logging.md",
+  "index": 5,
+  "content": "# Set log output to both console and a log file\nexport N8N_LOG_OUTPUT=console,file"
+}

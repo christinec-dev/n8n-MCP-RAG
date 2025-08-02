@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 754,
+  "content": "## n8n@0.118.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.117.0...n8n@0.118.0) for this version.<br />\n**Release date:** 2021-05-02\n\n/// warning | Breaking change\nPlease note that this version contains a breaking change. You can read more about it [here](https://github.com/n8n-io/n8n/blob/master/packages/cli/BREAKING-CHANGES.md#01180).\nThe features that introduced the breaking changes have been flagged below.\n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.uptimerobot.md",
+  "index": 3,
+  "content": "## Operations\n\n* Account\n    * Get account details\n* Alert Contact\n    * Create an alert contact\n    * Delete an alert contact\n    * Get an alert contact\n    * Get all alert contacts\n    * Update an alert contact\n* Maintenance Window\n    * Create a maintenance window\n    * Delete a maintenance window\n    * Get a maintenance window\n    * Get all a maintenance windows\n    * Update a maintenance window\n* Monitor\n    * Create a monitor\n    * Delete a monitor\n    * Get a monitor\n    * Get all monitors\n    * Reset a monitor\n    * Update a monitor\n* Public Status Page\n    * Create a public status page\n    * Delete a public status page\n    * Get a public status page\n    * Get all a public status pages"
+}

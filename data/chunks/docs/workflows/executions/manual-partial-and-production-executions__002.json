@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/manual-partial-and-production-executions.md",
+  "index": 2,
+  "content": "# Manual, partial, and production executions\n\nThere are some important differences in how n8n executes workflows manually (by clicking the **Execute Workflow** button) and automatically (when the workflow is **Active** and triggered by an event or schedule)."
+}

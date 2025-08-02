@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.iterable.md",
+  "index": 3,
+  "content": "## Operations\n\n* Event\n    * Record the actions a user perform\n* User\n    * Create/Update a user\n    * Delete a user\n    * Get a user\n* User List\n    * Add user to list\n    * Remove a user from a list"
+}

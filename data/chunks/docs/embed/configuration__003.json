@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/configuration.md",
+  "index": 3,
+  "content": "## Authentication\n\nYou can secure n8n by setting up [User management](/user-management/index.md), n8n's built-in authentication feature.\n\nn8n supports [LDAP](/user-management/ldap.md) and [SAML](/user-management/saml/index.md)."
+}

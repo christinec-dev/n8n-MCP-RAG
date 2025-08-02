@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/vector-store-website.md",
+  "index": 3,
+  "content": "## Key features\n\nThis workflow uses:\n\n* [HTTP node](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md): fetches website data.\n* [HTML node](/integrations/builtin/core-nodes/n8n-nodes-base.html.md): simplifies the data by extracting the main content from the page.\n* [Pinecone Vector Store node](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorepinecone.md) and [Embeddings OpenAI](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsopenai.md): transform the data into vectors and store it in Pinecone.\n* [Chat Trigger](/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md) and [Question and Answer Chain](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainretrievalqa/index.md) to query the vector database."
+}

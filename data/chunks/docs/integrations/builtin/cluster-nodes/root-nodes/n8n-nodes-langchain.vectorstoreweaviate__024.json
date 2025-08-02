@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreweaviate.md",
+  "index": 24,
+  "content": "### GRPC Proxy\n\nA proxy to use for gRPC requests."
+}

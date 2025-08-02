@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.set.md",
+  "index": 6,
+  "content": "### Keep Only Set Fields\n\nEnable this to discard any input data that you don't use in **Fields to Set**."
+}

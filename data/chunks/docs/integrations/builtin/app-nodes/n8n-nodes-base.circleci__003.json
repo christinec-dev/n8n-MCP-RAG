@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.circleci.md",
+  "index": 3,
+  "content": "## Operations\n\n* Pipeline\n    * Get a pipeline\n    * Get all pipelines\n    * Trigger a pipeline"
+}

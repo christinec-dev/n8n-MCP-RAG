@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/create.md",
+  "index": 2,
+  "content": "# Create a workflow\n\nA [workflow](/glossary.md#workflow-n8n) is a collection of nodes connected together to automate a process. You build workflows on the [workflow canvas](/glossary.md#canvas-n8n)."
+}

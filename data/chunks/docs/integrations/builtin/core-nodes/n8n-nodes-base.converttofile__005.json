@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.converttofile.md",
+  "index": 5,
+  "content": "### Convert to HTML\n\nConfigure the node for this operation with the **Put Output File in Field** parameter. Enter the name of the field in the output data to contain the file.\n\n#### Convert to HTML options\n\nYou can also configure this operation with these **Options**:\n\n* **File Name**: Enter the file name for the generated output file.\n* If the first row of the file contains header names, turn on the **Header Row** option."
+}

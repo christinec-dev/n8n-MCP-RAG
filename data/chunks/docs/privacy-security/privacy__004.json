@@ -1,0 +1,5 @@
+{
+  "source": "docs/privacy-security/privacy.md",
+  "index": 4,
+  "content": "### Data processing agreement\n\nFor Cloud versions of n8n, n8n is considered both a Controller and a Processor as defined by the GDPR. As a Processor, n8n implements policies and practices that secure the personal data you send to the platform, and includes a [Data Processing Agreement](https://n8n.io/legal/#data) as part of the company's standard [Terms of Service](https://n8n.io/legal/#terms).\n\nThe n8n Data Processing Agreement includes the [Standard Contractual Clauses (SCCs)](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en). These clarify how n8n handles your data, and they update n8n's GDPR policies to cover the latest standards set by the European Commission.\n\nYou can find a list of n8n sub-processors [here](https://n8n.io/legal/#subprocessors).\n\n/// note | Self-hosted n8n\nFor self-hosted versions, n8n is neither a Controller nor a Processor, as we don't manage your data\n///"
+}

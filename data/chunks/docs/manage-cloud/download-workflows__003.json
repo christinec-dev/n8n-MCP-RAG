@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/download-workflows.md",
+  "index": 3,
+  "content": "## How to download workflows\n\n1. [Log in to n8n](https://app.n8n.cloud/magic-link).\n1. Select **Admin Dashboard** to open the dashboard.\n1. In the **Manage** section, select the **Export** tab.\n1. Select **Download Workflows**."
+}

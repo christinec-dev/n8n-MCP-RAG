@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.quickbase.md",
+  "index": 3,
+  "content": "## Operations\n\n* Field\n    * Get all fields\n* File\n    * Delete a file\n    * Download a file\n* Record\n    * Create a record\n    * Delete a record\n    * Get all records\n    * Update a record\n    * Upsert a record\n* Report\n    * Get a report\n    * Run a report"
+}

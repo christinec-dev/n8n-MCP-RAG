@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/common-issues.md",
+  "index": 2,
+  "content": "# Google Sheets node common issues\n\nHere are some common errors and issues with the [Google Sheets node](/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/index.md) and steps to resolve or troubleshoot them."
+}

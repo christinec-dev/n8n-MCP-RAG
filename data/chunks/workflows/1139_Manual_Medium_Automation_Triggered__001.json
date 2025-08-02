@@ -1,0 +1,12 @@
+{
+  "source": "1139_Manual_Medium_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"7\",\n  \"name\": \"Publish post to a publication\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        600,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Medium\",\n      \"type\": \"n8n-nodes-base.medium\",\n      \"position\": [\n        800,\n        300\n      ],\n      \"parameters\": {\n        \"title\": \"\",\n        \"content\": \"\",\n        \"publication\": true,\n        \"contentFormat\": \"\",\n        \"publicationId\": \"\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"mediumApi\": \"medium\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Medium\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.medium"
+    ],
+    "trigger": null
+  }
+}

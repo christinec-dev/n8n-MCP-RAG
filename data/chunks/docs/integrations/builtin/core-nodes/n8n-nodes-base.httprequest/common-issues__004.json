@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/common-issues.md",
+  "index": 4,
+  "content": "## The resource you are requesting could not be found\n<!-- vale on -->\n\nThis error displays when the endpoint **URL** you entered is invalid.\n\nThis may be due to a typo in the URL or a deprecated API. Refer to your service's API documentation to verify you have a valid endpoint."
+}

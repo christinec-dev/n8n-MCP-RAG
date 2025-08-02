@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/message-operations.md",
+  "index": 11,
+  "content": "## Reply to a message\n\nUse this operation to send a message as a reply to an existing message.\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Message**.\n* **Operation**: Select **Reply**.\n* **Message ID**: Enter the ID of the message you want to reply to.\n* Select the **Email Type**. Choose from **Text** or **HTML**.\n* **Message**: Enter the email message body."
+}

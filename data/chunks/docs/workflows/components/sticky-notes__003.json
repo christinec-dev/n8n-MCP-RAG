@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/sticky-notes.md",
+  "index": 3,
+  "content": "## Create a Sticky Note\n\nSticky Notes are a core node. To add a new Sticky Note:\n\n1. Open the nodes panel.\n2. Search for `note`.\n3. Click the **Sticky Note** node. n8n adds a new Sticky Note to the canvas."
+}

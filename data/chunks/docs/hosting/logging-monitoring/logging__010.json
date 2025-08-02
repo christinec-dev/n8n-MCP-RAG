@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/logging.md",
+  "index": 10,
+  "content": "## Development\n\nDuring development, adding log messages is a good practice. It assists in debugging errors. To configure logging for development, follow the guide below."
+}

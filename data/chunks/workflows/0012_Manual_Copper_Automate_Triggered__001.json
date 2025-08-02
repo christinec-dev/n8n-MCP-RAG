@@ -1,0 +1,14 @@
+{
+  "source": "0012_Manual_Copper_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        320\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Copper\",\n      \"type\": \"n8n-nodes-base.copper\",\n      \"position\": [\n        450,\n        320\n      ],\n      \"parameters\": {\n        \"name\": \"Harshil\",\n        \"resource\": \"person\",\n        \"additionalFields\": {\n          \"emails\": {\n            \"emailFields\": [\n              {\n                \"email\": \"harshil@n8n.io\",\n                \"category\": \"work\"\n              }\n            ]\n          }\n        }\n      },\n      \"credentials\": {\n        \"copperApi\": \"Copper API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Copper1\",\n      \"type\": \"n8n-nodes-base.copper\",\n      \"position\": [\n        650,\n        320\n      ],\n      \"parameters\": {\n        \"personId\": \"={{$json[\\\"id\\\"]}}\",\n        \"resource\": \"person\",\n        \"operation\": \"update\",\n        \"updateFields\": {\n          \"phone_numbers\": {\n            \"phoneFields\": [\n              {\n                \"number\": \"1234567890\",\n                \"category\": \"work\"\n              }\n            ]\n          }\n        }\n      },\n      \"credentials\": {\n        \"copperApi\": \"Copper API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Copper2\",\n      \"type\": \"n8n-nodes-base.copper\",\n      \"position\": [\n        850,\n        320\n      ],\n      \"parameters\": {\n        \"personId\": \"={{$json[\\\"id\\\"]}}\",\n        \"resource\": \"person\",\n        \"operation\": \"get\"\n      },\n      \"credentials\": {\n        \"copperApi\": \"Copper API Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Copper\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Copper1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Copper1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Copper2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Copper\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.copper",
+      "n8n-nodes-base.copper",
+      "n8n-nodes-base.copper"
+    ],
+    "trigger": null
+  }
+}

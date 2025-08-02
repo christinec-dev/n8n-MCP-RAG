@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatanthropic.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Model**: Select the model that generates the completion. Choose from:\n\t* **Claude**\n\t* **Claude Instant**\n\nLearn more in the [Anthropic model documentation](https://docs.anthropic.com/claude/reference/selecting-a-model)."
+}

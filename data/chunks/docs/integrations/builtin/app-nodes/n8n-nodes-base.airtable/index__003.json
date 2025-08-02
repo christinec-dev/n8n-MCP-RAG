@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.airtable/index.md",
+  "index": 3,
+  "content": "## Operations\n\n* Append the data to a table\n* Delete data from a table\n* List data from a table\n* Read data from a table\n* Update data in a table"
+}

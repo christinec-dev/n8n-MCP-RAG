@@ -1,0 +1,12 @@
+{
+  "source": "0152_Shopify_Onfleet_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": 13,\n  \"name\": \"Creating an Onfleet Task for a new Shopify Fulfillment\",\n  \"nodes\": [\n    {\n      \"name\": \"Shopify Trigger\",\n      \"type\": \"n8n-nodes-base.shopifyTrigger\",\n      \"position\": [\n        240,\n        440\n      ],\n      \"webhookId\": \"576e8785-bbb4-426b-a922-da671efced68\",\n      \"parameters\": {\n        \"topic\": \"fulfillments/create\"\n      },\n      \"credentials\": {\n        \"shopifyApi\": {\n          \"id\": \"6\",\n          \"name\": \"Shopify account\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Onfleet\",\n      \"type\": \"n8n-nodes-base.onfleet\",\n      \"position\": [\n        460,\n        440\n      ],\n      \"parameters\": {\n        \"operation\": \"create\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"onfleetApi\": {\n          \"id\": \"2\",\n          \"name\": \"Onfleet API Key\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Shopify Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Onfleet\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.shopifyTrigger",
+      "n8n-nodes-base.onfleet"
+    ],
+    "trigger": "shopify trigger"
+  }
+}

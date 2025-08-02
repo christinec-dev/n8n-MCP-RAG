@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/assistant-operations.md",
+  "index": 5,
+  "content": "## Delete an Assistant\n\nUse this operation to delete an existing assistant from your account.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [OpenAI credential](/integrations/builtin/credentials/openai.md).\n- **Resource**: Select **Assistant**.\n- **Operation**: Select **Delete an Assistant**.\n- **Assistant**: Select the assistant you want to delete **From list** or **By ID**.\n\nRefer to [Delete assistant | OpenAI](https://platform.openai.com/docs/api-reference/assistants/deleteAssistant) documentation for more information."
+}

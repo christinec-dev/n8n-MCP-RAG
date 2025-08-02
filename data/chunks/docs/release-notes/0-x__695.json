@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 695,
+  "content": "### New nodes\n\n* [Action Network](/integrations/builtin/app-nodes/n8n-nodes-base.actionnetwork.md)\n* [Google Docs](/integrations/builtin/app-nodes/n8n-nodes-base.googledocs.md)"
+}

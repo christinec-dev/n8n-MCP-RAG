@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/draft-operations.md",
+  "index": 6,
+  "content": "## Get a draft\n\nUse this operation to get a single draft.\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Draft**.\n* **Operation**: Select **Get**.\n* **Draft ID**: Enter the ID of the draft you wish to get information about."
+}

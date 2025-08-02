@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/verification-guidelines.md",
+  "index": 8,
+  "content": "## Use English language only\n\n* Both the node interface and all documentation must be in **English** only.\n* This includes parameter names, descriptions, help text, error messages and **README** content."
+}

@@ -1,0 +1,13 @@
+{
+  "source": "0352_Readbinaryfile_Spreadsheetfile_Create.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Read Binary File\",\n      \"type\": \"n8n-nodes-base.readBinaryFile\",\n      \"position\": [\n        450,\n        650\n      ],\n      \"parameters\": {\n        \"filePath\": \"spreadsheet.xls\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Spreadsheet File1\",\n      \"type\": \"n8n-nodes-base.spreadsheetFile\",\n      \"position\": [\n        600,\n        650\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Insert Rows1\",\n      \"type\": \"n8n-nodes-base.postgres\",\n      \"position\": [\n        750,\n        650\n      ],\n      \"parameters\": {\n        \"table\": \"product\",\n        \"columns\": \"name,ean\"\n      },\n      \"credentials\": {\n        \"postgres\": \"postgres\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Read Binary File\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Spreadsheet File1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Spreadsheet File1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Insert Rows1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.readBinaryFile",
+      "n8n-nodes-base.spreadsheetFile",
+      "n8n-nodes-base.postgres"
+    ],
+    "trigger": null
+  }
+}

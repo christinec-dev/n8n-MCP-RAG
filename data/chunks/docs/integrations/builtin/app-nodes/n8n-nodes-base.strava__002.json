@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.strava.md",
+  "index": 2,
+  "content": "# Strava node\n\nUse the Strava node to automate work in Strava, and integrate Strava with other applications. n8n has built-in support for a wide range of Strava features, including creating new activities, and getting activity information. \n\nOn this page, you'll find a list of operations the Strava node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Strava credentials](/integrations/builtin/credentials/strava.md) for guidance on setting up authentication. \n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparserstructured/index.md",
+  "index": 2,
+  "content": "# Structured Output Parser node\n\nUse the Structured Output Parser node to return fields based on a JSON Schema.\n\nOn this page, you'll find the node parameters for the Structured Output Parser node, and links to more resources.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

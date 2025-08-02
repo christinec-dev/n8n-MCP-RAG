@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 605,
+  "content": "### Core Functionality\n- Fixed startup behavior when running n8n in scaled mode (i.e. `skipWebhoooksDeregistrationOnShutdown` is enabled).\n- Fixed behavior around handling empty response bodies.\n- Fixed an issue with handling of refresh tokens."
+}

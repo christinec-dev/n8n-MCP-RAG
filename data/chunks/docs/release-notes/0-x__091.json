@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 91,
+  "content": "### New nodes\n\nThis release adds a node for [QuickChart](https://quickchart.io/), an open source chart generation tool."
+}

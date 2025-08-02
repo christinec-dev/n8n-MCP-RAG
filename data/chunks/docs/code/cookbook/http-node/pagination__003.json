@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/http-node/pagination.md",
+  "index": 3,
+  "content": "## Enable pagination\n\nIn the HTTP Request node, select **Add Option** > **Pagination**."
+}

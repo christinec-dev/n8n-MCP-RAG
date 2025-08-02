@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparserstructured/index.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Schema Type**: Define the output structure and validation. You have two options to provide the schema:\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-sub-nodes/schema-type-structuring.md\""
+}

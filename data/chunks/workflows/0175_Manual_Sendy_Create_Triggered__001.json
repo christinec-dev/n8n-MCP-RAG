@@ -1,0 +1,13 @@
+{
+  "source": "0175_Manual_Sendy_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"14\",\n  \"name\": \"Add a subscriber to a list and create and send a campaign\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Sendy\",\n      \"type\": \"n8n-nodes-base.sendy\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"email\": \"harshil@n8n.io\",\n        \"listId\": \"2\",\n        \"additionalFields\": {\n          \"name\": \"Harshil\"\n        }\n      },\n      \"credentials\": {\n        \"sendyApi\": \"sendy\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Sendy1\",\n      \"type\": \"n8n-nodes-base.sendy\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"title\": \"Welcome to n8n\",\n        \"replyTo\": \"docs@n8n.io\",\n        \"subject\": \"Welcome to n8n\",\n        \"fromName\": \"n8n\",\n        \"htmlText\": \"<body>\\n  <p>Hey!</p>\\n  <p>Welcome to n8n!</p>\\n</body>\",\n        \"resource\": \"campaign\",\n        \"fromEmail\": \"docs@n8n.io\",\n        \"sendCampaign\": true,\n        \"additionalFields\": {\n          \"listIds\": \"2\"\n        }\n      },\n      \"credentials\": {\n        \"sendyApi\": \"sendy\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Sendy\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Sendy1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Sendy\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.sendy",
+      "n8n-nodes-base.sendy"
+    ],
+    "trigger": null
+  }
+}

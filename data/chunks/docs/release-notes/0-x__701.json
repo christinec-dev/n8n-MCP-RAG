@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 701,
+  "content": "### Enhanced nodes\n\n* [Spotify:](/integrations/builtin/app-nodes/n8n-nodes-base.spotify.md) Added Search operation to Album, Artist, Playlist, and Track resources, and Resume and Volume operations to Player resource."
+}

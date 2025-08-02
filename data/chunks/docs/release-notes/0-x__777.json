@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 777,
+  "content": "### Core Functionality\n\n- Fixed an issue with expressions not being displayed in read-only mode\n- Fixed an issue that didn't allow editing JavaScript code in read-only mode\n- Added support for configuring the maximum payload size\n- Added support to dynamically add menu items"
+}

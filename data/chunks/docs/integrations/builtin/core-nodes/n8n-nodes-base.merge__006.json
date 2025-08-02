@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.merge.md",
+  "index": 6,
+  "content": "### SQL Query\n\nWrite a custom SQL Query to merge the data. \n\nExample: \n```sql\nSELECT * FROM input1 LEFT JOIN input2 ON input1.name = input2.id\n```\n\nData from previous nodes are available as tables and you can use them in the SQL query as input1, input2, input3, and so on, based on their order. Refer to [AlaSQL GitHub page](https://github.com/alasql/alasql/wiki/Supported-SQL-statements) for a full list of supported SQL statements."
+}

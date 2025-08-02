@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.googledrivetrigger/common-issues.md",
+  "index": 4,
+  "content": "## Handling more than one file change\n\nThe Google Drive Trigger node polls Google Drive for changes at a set interval (once every minute by default).\n\nIf multiple changes to the **Watch For** criteria occur during the polling interval, a single Google Drive Trigger event occurs containing the changes as items. To handle this, your workflow must account for times when the data might contain more than one item.\n\nYou can use an [if node](/integrations/builtin/core-nodes/n8n-nodes-base.if.md) or a [switch node](/integrations/builtin/core-nodes/n8n-nodes-base.switch.md) to change your workflow's behavior depending on whether the data from the Google Drive Trigger node contains a single item or multiple items."
+}

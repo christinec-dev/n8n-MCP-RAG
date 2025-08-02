@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/understand/patterns.md",
+  "index": 6,
+  "content": "## One instance, one branch\n\nThis is the simplest pattern.\n\n![Diagram](/_images/source-control-environments/vc-one-one.png)"
+}

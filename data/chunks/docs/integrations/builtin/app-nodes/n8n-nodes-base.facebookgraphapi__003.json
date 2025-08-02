@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.facebookgraphapi.md",
+  "index": 3,
+  "content": "## Operations\n\n* **Default**\n    * GET\n    * POST\n    * DELETE \n* **Video Uploads**\n    * GET\n    * POST\n    * DELETE"
+}

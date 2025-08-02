@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoremilvus.md",
+  "index": 16,
+  "content": "### Clear Collection\n\nAvailable in **Insert Documents** mode. Deletes all data from the collection before inserting the new data."
+}

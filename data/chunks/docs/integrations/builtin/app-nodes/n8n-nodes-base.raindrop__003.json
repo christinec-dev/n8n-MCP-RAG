@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.raindrop.md",
+  "index": 3,
+  "content": "## Operations\n\n* Bookmark\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Collection\n    * Create\n    * Delete\n    * Get\n    * Get All\n    * Update\n* Tag\n    * Delete\n    * Get All\n* User\n    * Get"
+}

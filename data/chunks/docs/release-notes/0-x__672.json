@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 672,
+  "content": "### Enhanced nodes\n\n* [Kafka Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.kafkatrigger.md) Added Read Messages From Beginning option.\n* [Salesforce:](/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md) Added Sandbox Environment Type for OAuth2 credentials.\n* [Taiga:](/integrations/builtin/app-nodes/n8n-nodes-base.taiga.md) Added Epic, Task, and User Story operations.\n* [TheHive:](/integrations/builtin/app-nodes/n8n-nodes-base.thehive.md) Added Custom Fields option to the available Additional Fields."
+}

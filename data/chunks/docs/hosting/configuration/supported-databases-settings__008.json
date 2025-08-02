@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/supported-databases-settings.md",
+  "index": 8,
+  "content": "## SQLite\n\nThis is the default database that gets used if nothing is defined.\n\nThe database file is located at:\n`~/.n8n/database.sqlite`"
+}

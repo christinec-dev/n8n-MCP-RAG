@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 273,
+  "content": "## n8n@0.196.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.195.5...n8n@0.196.0) for this version.<br />\n**Release date:** 2022-09-30\n\nThis release includes major new features:\n\n* Better item linking\n* New built-in variables and methods\n* A redesigned main navigation\n* New nodes, as well as an overhaul of the HTTP Request node\n\nIt also contains bug fixes and node enhancements."
+}

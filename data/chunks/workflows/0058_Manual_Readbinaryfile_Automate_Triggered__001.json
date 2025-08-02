@@ -1,0 +1,13 @@
+{
+  "source": "0058_Manual_Readbinaryfile_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": 112,\n  \"name\": \"Standup Bot - Read Config\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        240,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Read Config File\",\n      \"type\": \"n8n-nodes-base.readBinaryFile\",\n      \"position\": [\n        420,\n        300\n      ],\n      \"parameters\": {\n        \"filePath\": \"/home/node/.n8n/standup-bot-config.json\",\n        \"dataPropertyName\": \"config\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Convert to JSON\",\n      \"type\": \"n8n-nodes-base.moveBinaryData\",\n      \"position\": [\n        600,\n        300\n      ],\n      \"parameters\": {\n        \"options\": {\n          \"encoding\": \"utf8\"\n        },\n        \"sourceKey\": \"config\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Read Config File\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Convert to JSON\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Read Config File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.readBinaryFile",
+      "n8n-nodes-base.moveBinaryData"
+    ],
+    "trigger": null
+  }
+}

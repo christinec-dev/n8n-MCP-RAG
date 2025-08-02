@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/understand-chains.md",
+  "index": 2,
+  "content": "# What's a chain in AI?\n\n[Chains](/glossary.md#ai-chain) bring together different components of AI to create a cohesive system. They set up a sequence of calls between the components. These components can include models and [memory](/glossary.md#ai-memory) (though note that in n8n chains can't use memory)."
+}

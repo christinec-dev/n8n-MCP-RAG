@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/user-management-self-hosted.md",
+  "index": 3,
+  "content": "## Setup\n\nThere are three stages to set up user management in n8n:\n\n1. Configure your n8n instance to use your SMTP server.\n2. Start n8n and follow the setup steps in the app.\n3. Invite users."
+}

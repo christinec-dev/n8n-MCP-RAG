@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sendemail.md",
+  "index": 9,
+  "content": "### Email Format\n\nSelect the format to send the email in. This parameter is available when using the **Send** operation. Choose from:\n\n* **Text**: Send the email in plain-text format.\n* **HTML**: Send the email in HTML format.\n* **Both**: Send the email in both formats. If you choose this option, the email recipient's client will set which format to display."
+}

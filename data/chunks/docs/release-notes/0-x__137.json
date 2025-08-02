@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 137,
+  "content": "### Bug fixes\n\n* Core: disable transactions on SQLite migrations that use PRAGMA foreign_keys.\n* Core: ensure expression extension doesn't fail with optional chaining.\n* Core: fix import command for workflows with old format (affects workflows created before user management was introduced).\n* Core: stop copying icons to cache.\n* Editor: prevent creation of input connections for nodes without input slot.\n* Error workflow now correctly checks for subworkflow permissions.\n* ActiveCampaign Node: fix additional fields not being sent when updating account contacts.\n* Linear Node: fix issue with Issue States not loading correctly.\n* MySQL migration parses database contents if necessary (fix for MariaDB)."
+}

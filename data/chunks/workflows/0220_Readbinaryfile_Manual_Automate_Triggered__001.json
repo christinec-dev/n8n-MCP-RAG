@@ -1,0 +1,15 @@
+{
+  "source": "0220_Readbinaryfile_Manual_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        -240,\n        180\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Read Binary File\",\n      \"type\": \"n8n-nodes-base.readBinaryFile\",\n      \"position\": [\n        -60,\n        180\n      ],\n      \"parameters\": {\n        \"filePath\": \"/username/n8n_spreadsheet.csv\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Spreadsheet File1\",\n      \"type\": \"n8n-nodes-base.spreadsheetFile\",\n      \"position\": [\n        120,\n        180\n      ],\n      \"parameters\": {\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Move Binary Data\",\n      \"type\": \"n8n-nodes-base.moveBinaryData\",\n      \"position\": [\n        300,\n        180\n      ],\n      \"parameters\": {\n        \"mode\": \"jsonToBinary\",\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Write Binary File\",\n      \"type\": \"n8n-nodes-base.writeBinaryFile\",\n      \"position\": [\n        480,\n        180\n      ],\n      \"parameters\": {\n        \"fileName\": \"/username/n8n_spreadsheet.json\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Move Binary Data\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Write Binary File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Read Binary File\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Spreadsheet File1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Spreadsheet File1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Move Binary Data\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Read Binary File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.readBinaryFile",
+      "n8n-nodes-base.spreadsheetFile",
+      "n8n-nodes-base.moveBinaryData",
+      "n8n-nodes-base.writeBinaryFile"
+    ],
+    "trigger": null
+  }
+}

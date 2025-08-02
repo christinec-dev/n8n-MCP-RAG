@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.perplexity.md",
+  "index": 5,
+  "content": "## Related resources\n\n<!-- add a link to the service's documentation. This should usually go direct to the API docs -->\nRefer to [Perplexity's documentation](https://docs.perplexity.ai/home) for more information about the service.\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/operation-not-supported.md\""
+}

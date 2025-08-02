@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.debughelper.md",
+  "index": 5,
+  "content": "### Throw Error\n\n* **Error Type**: Select the type of error to throw. Choose from:\n\t* **NodeApiError**\n\t* **NodeOperationError**\n\t* **Error**\n* **Error Message**: Enter the error message to throw."
+}

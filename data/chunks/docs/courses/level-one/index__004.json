@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/index.md",
+  "index": 4,
+  "content": "## What will I learn in this course?\n\nWe believe in learning by doing. You can expect some theoretical information about the basic concepts and components of n8n, followed by practice of building workflows step by step.\n\nBy the end of this course you will know:\n\n- How to set up n8n and navigate the Editor UI.\n- How n8n structures data.\n- How to configure different node parameters and add credentials.\n- When and how to use conditional logic in workflows.\n- How to schedule and control workflows.\n- How to import, download, and share workflows with others.\n\nYou will build two workflows:\n\n- A two-node workflow to get articles from Hacker News\n- A seven-node workflow to help your client get records from a data warehouse, filter them, make calculations, and notify team members about the results"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/file-operations.md",
+  "index": 3,
+  "content": "## Delete a File\n\nUse this operation to delete a file from the server.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [OpenAI credential](/integrations/builtin/credentials/openai.md).\n- **Resource**: Select **File**.\n- **Operation**: Select **Delete a File**.\n- **File**: Enter the ID of the file to use for this operation or select the file name from the dropdown.\n\nRefer to [Delete file | OpenAI](https://platform.openai.com/docs/api-reference/files/delete) documentation for more information."
+}

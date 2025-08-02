@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.facebooktrigger/whatsapp.md",
+  "index": 2,
+  "content": "# Facebook Trigger WhatsApp Business Account object\n\nUse this object to receive updates when your WhatsApp Business Account (WABA) changes. Refer to [Facebook Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.facebooktrigger/index.md) for more information on the trigger itself.\n\n/// warning | Use WhatsApp trigger\nn8n recommends using the [WhatsApp Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.whatsapptrigger.md) with the [WhatsApp credentials](/integrations/builtin/credentials/whatsapp.md) instead of the Facebook Trigger node. That trigger node includes twice the events to subscribe to.\n///\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/facebookapp.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Facebook Trigger integrations](https://n8n.io/integrations/facebook-trigger/) page.\n///"
+}

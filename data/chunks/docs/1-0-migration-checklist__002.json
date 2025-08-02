@@ -1,0 +1,5 @@
+{
+  "source": "docs/1-0-migration-checklist.md",
+  "index": 2,
+  "content": "# n8n v1.0 migration guide\n\nThis document provides a summary of what you should be aware of before updating to version 1.0 of n8n.\n\nThe release of n8n 1.0 marks a milestone in n8n's journey to make n8n available for demanding production environments. Version 1.0 represents the hard work invested over the last four years to make n8n the most accessible, powerful, and versatile automation tool. n8n 1.0 is now ready for use in production."
+}

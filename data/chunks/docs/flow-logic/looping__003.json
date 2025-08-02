@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/looping.md",
+  "index": 3,
+  "content": "## Using loops in n8n\n\nn8n nodes take any number of items as input, process these items, and output the results. You can think of each item as a single data point, or a single row in the output table of a node.\n\n![The Customer Datastore node output](/_images/flow-logic/looping/customer_datastore_node.png)\n\nNodes usually run once for each item. For example, if you wanted to send the name and notes of the customers in the Customer Datastore node as a message on Slack, you would:\n\n1. Connect the Slack node to the Customer Datastore node.\n2. Configure the parameters.\n3. Execute the node. \n\nYou would receive five messages: one for each item.\n\nThis is how you can process multiple items without having to explicitly connect nodes in a loop."
+}

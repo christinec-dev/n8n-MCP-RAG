@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.4.md",
+  "index": 5,
+  "content": "## Add data to Airtable\n\nNext, let's insert these values into Airtable:\n\n1. Go to your Airtable base.\n2. Add a new table called `processingOrders`.\n3. Replace the existing columns with two new columns:\n    - `orderID` (primary field): Number\n    - `employeeName`: Single line text\n\n    ///note | Reminder\n    If you get stuck, refer to the [Inserting data into Airtable](/courses/level-one/chapter-5/chapter-5.2.md) lesson.\n    ///\n\n4. Delete the three empty rows in the new table.\n5. In n8n, connect the Edit Fields node** connector to the **Airtable node**.\n6. Update the Airtable node configuration to point to the new `processingOrders` table instead of the `orders` table.\n7. Test your Airtable node to be sure it inserts records into the new `processingOrders` table.\n\nAt this stage, your workflow should now look like this:\n\n[[ workflowDemo(\"file:////courses/level-one/chapter-5/chapter-5.4.json\") ]]"
+}

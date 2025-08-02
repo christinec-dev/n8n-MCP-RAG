@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.elasticsecurity.md",
+  "index": 3,
+  "content": "## Operations\n\n* Case\n    * Create a case\n    * Delete a case\n    * Get a case\n    * Retrieve all cases\n    * Retrieve a summary of all case activity\n    * Update a case\n* Case Comment\n    * Add a comment to a case\n    * Get a case comment\n    * Retrieve all case comments\n    * Remove a comment from a case\n    * Update a comment in a case\n* Case Tag\n    * Add a tag to a case\n    * Remove a tag from a case\n* Connector\n    * Create a connector"
+}

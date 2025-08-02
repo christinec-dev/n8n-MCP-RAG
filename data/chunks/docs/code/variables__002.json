@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/variables.md",
+  "index": 2,
+  "content": "# Custom variables\n\n/// info | Feature availability\n* Available on Self-hosted Enterprise and Pro Cloud plans.\n* You need access to the n8n instance owner account to create and edit variables. All users can use existing variables.\n\nAvailable in version 0.225.0 and above.\n///\t\n\nCustom variables are read-only variables that you can use to store and reuse values in n8n workflows. \n\n/// warning | Variables are shared\nWhen you create a variable, it's available to everyone on your n8n instance.\n///"
+}

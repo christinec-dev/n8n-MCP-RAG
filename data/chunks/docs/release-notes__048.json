@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 48,
+  "content": "### Add pending users to project member assignment\n\nYou can now add **pending users,** those who have been invited but haven't completed sign-up, to projects as members.\n\nThis change lets you configure a user's project access upfront, without waiting for them to finish setting up their account. It eliminates the back-and-forth of managing access post-sign-up, ensuring users have the right project roles immediately upon joining."
+}

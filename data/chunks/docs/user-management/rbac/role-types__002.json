@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/rbac/role-types.md",
+  "index": 2,
+  "content": "# RBAC role types\n\n/// info | Feature availability\n* The Project Editor role is available on Pro Cloud and Self-hosted Enterprise plans. \n* The Project Viewer role is only available on Self-hosted Enterprise and Cloud Enterprise plans.\n///\n\nWithin projects, there are three user roles: Admin, Editor, and Viewer. These roles control what the user can do in a project. A user can have different roles within different projects."
+}

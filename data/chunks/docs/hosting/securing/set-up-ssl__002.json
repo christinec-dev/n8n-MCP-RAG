@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/set-up-ssl.md",
+  "index": 2,
+  "content": "# Set up SSL\n\nThere are two methods to support TLS/SSL in n8n."
+}

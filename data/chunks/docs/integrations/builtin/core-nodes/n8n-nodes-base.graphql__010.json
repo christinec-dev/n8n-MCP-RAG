@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.graphql.md",
+  "index": 10,
+  "content": "## Headers\n\nEnter any **Headers** you want to pass as part of the query as **Name** / **Value** pairs."
+}

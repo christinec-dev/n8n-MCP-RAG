@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.redis.md",
+  "index": 2,
+  "content": "# Redis node\n\nUse the Redis node to automate work in Redis, and integrate Redis with other applications. n8n has built-in support for a wide range of Redis features, including deleting keys, getting key values, setting key value, and publishing messages to the Redis channel.  \n\nOn this page, you'll find a list of operations the Redis node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Redis credentials](/integrations/builtin/credentials/redis.md) for guidance on setting up authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

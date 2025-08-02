@@ -1,0 +1,5 @@
+{
+  "source": "docs/help-community/help.md",
+  "index": 3,
+  "content": "## Use the About n8n debug tool\n\nWhether you're posting to the forum or emailing customer support, you'll get help faster if you provide details about your n8n instance in your first post or email.\n\nThe fastest way to do this is to use the **About n8n** debug tool:\n\n1. Open the left-side panel.\n2. Select **Help**.\n3. Select **About n8n**.\n4. The **About n8n** modal opens to display your current information.\n5. Select **Copy debug information** to copy your information.\n6. n8n recommends pasting this information into your forum post or support email.\n\n/// note | Don't see **Copy debug**?\nThe **Copy debug** option is available beginning in n8n version 1.49.0.\n\nIf you're using an earlier version of n8n, n8n recommends manually providing this information:\n\n* n8n version\n* Database\n* n8n EXECUTIONS_PROCESS setting\n* Running n8n via (Docker, npm, n8n cloud)\n* Operating system\n///"
+}

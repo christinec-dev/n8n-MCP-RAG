@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.perplexity.md",
+  "index": 2,
+  "content": "# Perplexity node\n\nUse the Perplexity node to automate work in Perplexity and integrate Perplexity with other applications. n8n has built-in support for messaging a model.\n\nOn this page, you'll find a list of operations the Perplexity node supports, and links to more resources.\n\n///  note  | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/perplexity.md).\n///"
+}

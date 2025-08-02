@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/verification-guidelines.md",
+  "index": 5,
+  "content": "## Proper documentation\n\n* Provide clear documentation, whether it’s a **README** on GitHub or links to relevant **API documentation**.\n* Include usage instructions, example workflows, and any necessary authentication details."
+}

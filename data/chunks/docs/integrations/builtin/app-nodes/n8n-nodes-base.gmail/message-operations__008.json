@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/message-operations.md",
+  "index": 8,
+  "content": "## Mark as Read\n\nUse this operation to mark a message as read.\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Message**.\n* **Operation**: Select **Mark as Read**.\n* **Message ID**: Enter the ID of the message you wish to mark as read.\n\n<!-- vale off -->\nRefer to the [Gmail API Method: users.messages.modify](https://developers.google.com/gmail/api/reference/rest/v1/users.messages/modify) documentation for more information.\n<!-- vale on -->"
+}

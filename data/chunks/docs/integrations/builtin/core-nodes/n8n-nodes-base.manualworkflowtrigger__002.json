@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.manualworkflowtrigger.md",
+  "index": 2,
+  "content": "# Manual Trigger node\n\nUse this node if you want to start a workflow by selecting **Execute Workflow** and don't want any option for the workflow to run automatically.\n\nWorkflows always need a trigger, or start point. Most workflows start with a trigger node firing in response to an external event or the [Schedule Trigger](/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/index.md) firing on a set schedule.\n\nThe Manual Trigger node serves as the workflow trigger for workflows that don't have an automatic trigger.\n\nUse this trigger:\n\n* To test your workflow before you add an automatic trigger of some kind.\n* When you don't want the workflow to run automatically."
+}

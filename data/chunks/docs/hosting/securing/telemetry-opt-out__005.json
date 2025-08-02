@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/telemetry-opt-out.md",
+  "index": 5,
+  "content": "## Opting out of data collection\n\nn8n enables telemetry collection by default. To disable it, configure the following environment variables."
+}

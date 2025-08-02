@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/text-operations.md",
+  "index": 5,
+  "content": "## Classify Text for Violations\n\nUse this operation to identify and flag content that might be harmful. OpenAI model will analyze the text and return a response containing:\n\n- `flagged`: A boolean field indicating if the content is potentially harmful.\n- `categories`: A list of category-specific violation flags.\n- `category_scores`: Scores for each category.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [OpenAI credential](/integrations/builtin/credentials/openai.md).\n- **Resource**: Select **Text**.\n- **Operation**: Select **Classify Text for Violations**.\n- **Text Input**: Enter text to classify if it violates the moderation policy. \n- **Simplify Output**: Turn on to return a simplified version of the response instead of the raw data."
+}

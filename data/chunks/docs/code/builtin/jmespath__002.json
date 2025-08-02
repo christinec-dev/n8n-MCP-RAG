@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/builtin/jmespath.md",
+  "index": 2,
+  "content": "# JMESPath method\n\nThis is an n8n-provided method for working with the [JMESPath](/code/cookbook/jmespath.md) library.\n\n/// note | Python support\nYou can use Python in the Code node. It isn't available in expressions.\n///\n=== \"JavaScript\"\n\t| Method | Description | Available in Code node? |\n\t| ------ | ----------- | :-------------------------: |\n\t| `$jmespath()` | Perform a search on a JSON object using JMESPath. | :white_check_mark: |\n=== \"Python\"\n\t| Method | Description | \n\t| ------ | ----------- | \n\t| `_jmespath()` | Perform a search on a JSON object using JMESPath. |"
+}

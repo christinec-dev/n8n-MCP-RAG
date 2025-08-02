@@ -1,0 +1,11 @@
+{
+  "source": "1002_Acuityscheduling_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Acuity Scheduling Trigger\",\n      \"type\": \"n8n-nodes-base.acuitySchedulingTrigger\",\n      \"position\": [\n        880,\n        400\n      ],\n      \"webhookId\": \"b326732d-9473-469f-a421-dd823d26b945\",\n      \"parameters\": {\n        \"event\": \"appointment.scheduled\"\n      },\n      \"credentials\": {\n        \"acuitySchedulingApi\": \"acuity_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.acuitySchedulingTrigger"
+    ],
+    "trigger": "acuity scheduling trigger"
+  }
+}

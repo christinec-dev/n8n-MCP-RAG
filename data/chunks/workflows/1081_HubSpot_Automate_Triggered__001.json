@@ -1,0 +1,11 @@
+{
+  "source": "1081_HubSpot_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Hubspot Trigger\",\n      \"type\": \"n8n-nodes-base.hubspotTrigger\",\n      \"position\": [\n        700,\n        260\n      ],\n      \"webhookId\": \"9fe8c037-be4f-4809-a7c2-96e509bfc52e\",\n      \"parameters\": {\n        \"appId\": \"dghert3\",\n        \"additionalFields\": {\n          \"maxConcurrentRequests\": 5\n        }\n      },\n      \"credentials\": {\n        \"hubspotDeveloperApi\": \"hubspot_trigger\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.hubspotTrigger"
+    ],
+    "trigger": "hubspot trigger"
+  }
+}

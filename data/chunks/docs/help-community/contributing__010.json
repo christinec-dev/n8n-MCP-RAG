@@ -1,0 +1,5 @@
+{
+  "source": "docs/help-community/contributing.md",
+  "index": 10,
+  "content": "### How to submit a post\n\nn8n appreciates all contributions. Publishing a tutorial on your own site that supports the community is a great contribution. If you want n8n to highlight your post on the blog, follow these steps: \n\n1. Email your idea to [marketing@n8n.io](mailto:marketing@n8n.io) with the subject \"Blog contribution: [Your Topic].\"\n2. Submit your draft:\n      - Write your post in a Google Doc following the [style guide](https://www.notion.so/97dc73436a624933b75ddc941a361b70?pvs=21).\n      - If your blog post includes example workflows, include the workflow JSON in a separate section at the end.\n      - For author credit, provide a second Google Doc with your full name, a short byline, and your image. n8n will use this to create your author page and credit you as the author of the post.\n3. Wait for feedback. We will respond if your draft fits with the blog's strategy and requirements. If you don't hear back within 30 days, it means we won't be moving forward with your blog post."
+}

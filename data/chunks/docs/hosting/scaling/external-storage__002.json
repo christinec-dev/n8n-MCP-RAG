@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/external-storage.md",
+  "index": 2,
+  "content": "# External storage\n\n/// info | Feature availability\n\n* Available on Self-hosted Enterprise plans\n* If you want access to this feature on Cloud Enterprise, [contact n8n](https://n8n-community.typeform.com/to/y9X2YuGa).\n///\n\nn8n can store binary data produced by workflow executions externally. This feature is useful to avoid relying on the filesystem for storing large amounts of binary data.\n\nn8n will introduce external storage for other data types in the future."
+}

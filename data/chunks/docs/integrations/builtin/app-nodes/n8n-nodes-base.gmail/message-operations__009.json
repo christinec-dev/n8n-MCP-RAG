@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/message-operations.md",
+  "index": 9,
+  "content": "## Mark as Unread\n\nUse this operation to mark a message as unread.\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Message**.\n* **Operation**: Select **Mark as Unread**.\n* **Message ID**: Enter the ID of the message you wish to mark as unread.\n\n<!-- vale off -->\nRefer to the [Gmail API Method: users.messages.modify](https://developers.google.com/gmail/api/reference/rest/v1/users.messages/modify) documentation for more information.\n<!-- vale on -->"
+}

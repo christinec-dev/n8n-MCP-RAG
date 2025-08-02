@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-2.md",
+  "index": 6,
+  "content": "### Parameters\n\nWe need to configure several parameters for the Hacker News node to make it work:\n\n- **Resource**: All <br/>\nThis resource selects all data records (articles).\n- **Operation**: Get Many <br/>\nThis operation fetches all the selected articles.\n- **Limit**: 10 <br/>\nThis parameter sets a limit to the number of results the Get Many operation returns.\n- **Additional Fields** > **Add Field** > **Keyword**: automation <br/>\n**Additional fields** are options that you can add to certain nodes to make your request more specific or filter the results. For this example, we want to get only articles that include the keyword \"automation.\" <br/>\n\nThe configuration of the parameters for the Hacker News node should now look like this:\n\n<figure><img src=\"/_images/courses/level-one/chapter-two/l1-c-2-hacker-news-node-parameters.png\" alt=\"Hacker News node parameters\" style=\"width:100%\"><figcaption align = \"center\"><i>Hacker News node parameters</i></figcaption></figure>"
+}

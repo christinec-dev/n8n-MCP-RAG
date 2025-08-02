@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/index.md",
+  "index": 6,
+  "content": "### Other developer resources\n\n<div class=\"grid-cards-vertical cards\" markdown>\n\n- __The n8n API__\n\n\tn8n provides an API, where you can programmatically perform many of the same tasks as you can in the GUI. There's an [n8n API node](/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md) to access the API in your workflows.\n\n\t[:octicons-arrow-right-24: API](/api/index.md)\n\n- __Self-host__\n\n\tYou can self-host n8n. This keeps your data on your own infrastructure.\n\n\t[:octicons-arrow-right-24: Hosting](/hosting/index.md)\n\n- __Build your own nodes__\n\n\tYou can build custom nodes, install them on your n8n instance, and publish them to [npm](https://www.npmjs.com/).\n\n\t[:octicons-arrow-right-24: Creating nodes](/integrations/creating-nodes/overview.md)\n\n</div>"
+}

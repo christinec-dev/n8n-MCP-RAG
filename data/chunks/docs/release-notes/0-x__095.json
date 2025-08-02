@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 95,
+  "content": "### New features\n\n* Core: improve SAML connection test.\n* Editor: add basic Datatable and Pagination components.\n* Editor: add support for schema view in the NDV output.\n* Editor: don't show actions panel for single-action nodes."
+}

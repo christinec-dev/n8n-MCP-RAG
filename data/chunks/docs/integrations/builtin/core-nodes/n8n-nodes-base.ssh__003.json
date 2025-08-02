@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ssh.md",
+  "index": 3,
+  "content": "## Operations\n\n- [**Execute** a command](#execute-command)\n- [**Download** a file](#download-file)\n- [**Upload** a file](#upload-file)\n\n/// note | Uploading files\nTo attach a file for upload, you will need to use an extra node such as the [Read/Write Files from Disk](/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md) node or the [HTTP Request](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) node to pass the file as a data property.\n///"
+}

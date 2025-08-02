@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.grist.md",
+  "index": 6,
+  "content": "## Filter records when using the Get All operation\n\n- Select **Add Option** and select **Filter** from the dropdown list.\n- You can add filters for any number of columns. The result will only include records which match all the columns.\n- For each column, you can enter any number of values separated by commas. The result will include records which match any of the values for that column."
+}

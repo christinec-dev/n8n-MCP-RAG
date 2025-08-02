@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 622,
+  "content": "### New nodes\n\n* [Freshservice](/integrations/builtin/app-nodes/n8n-nodes-base.freshservice.md)"
+}

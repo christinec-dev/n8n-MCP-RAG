@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/event-operations.md",
+  "index": 8,
+  "content": "### Options\n\n- **Max Attendees**: The maximum number of attendees to include in the response. If there are more than the specified number of attendees, only returns the participant.\n- **Return Next Instance of Recurrent Event**: Whether to return the next instance of a recurring event instead of the event itself.\n- **Timezone**: The timezone used in the response. By default, uses the n8n timezone.\n\nRefer to the [Events: get | Google Calendar](https://developers.google.com/calendar/api/v3/reference/events/get) API documentation for more information.\n\n<!-- vale from-write-good.Weasel = NO -->"
+}

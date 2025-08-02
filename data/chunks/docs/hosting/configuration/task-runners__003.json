@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/task-runners.md",
+  "index": 3,
+  "content": "## How it works\n\nThe task runner feature consists of three components: a task runner, a task broker, and a task requester.\n\n![Task runner overview](/_images/hosting/configuration/task-runner-concept.png)\n\nTask runners connect to the task broker using a websocket connection. A task requester submits a task request to the broker where an available task runner can pick it up for execution.\n\nThe runner executes the task and submits the results to the task requester. The task broker coordinates communication between the runner and the requester.\n\nThe n8n instance (main and worker) acts as the broker. The Code node in this case is the task requester."
+}

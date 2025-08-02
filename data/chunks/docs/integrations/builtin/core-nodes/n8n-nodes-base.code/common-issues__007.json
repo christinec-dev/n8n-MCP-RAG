@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.code/common-issues.md",
+  "index": 7,
+  "content": "## Cannot find module '&lt;module&gt;'\n<!-- vale on -->\n\nThis error occurs if you try to use `require` in the Code node and n8n can't find the module.\n\n/// warning | Only for self-hosted\nn8n doesn't support importing modules in the [Cloud](/manage-cloud/overview.md) version.\n///\n\nIf you're [self-hosting](/hosting/index.md) n8n, follow these steps:\n\n* Install the module into your n8n environment.\n\t* If you are running n8n with [npm](/hosting/installation/npm.md), install the module in the same environment as n8n.\n\t* If you are running n8n with [Docker](/hosting/installation/docker.md), you need to extend the official n8n image with a [custom image](https://docs.docker.com/build/building/base-images/) that includes your module.\n* Set the `NODE_FUNCTION_ALLOW_BUILTIN` and `NODE_FUNCTION_ALLOW_EXTERNAL` [environment variables](/hosting/configuration/configuration-examples/modules-in-code-node.md) to allow importing modules."
+}

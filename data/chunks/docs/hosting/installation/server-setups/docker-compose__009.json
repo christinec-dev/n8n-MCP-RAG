@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/docker-compose.md",
+  "index": 9,
+  "content": "## 2. Optional: Non-root user access\n\nYou can optionally grant access to run Docker without the `sudo` command.\n\nTo grant access to the user that you're currently logged in with (assuming they have `sudo` access), run:\n\n```bash\nsudo usermod -aG docker ${USER}"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-mapping/data-mapping-ui.md",
+  "index": 5,
+  "content": "### Understand nested data\n\nGiven the following data:\n\n```js\n[\n  {\n    \"name\": \"First item\",\n    \"nested\": {\n      \"example-number-field\": 1,\n      \"example-string-field\": \"apples\"\n    }\n  },\n  {\n    \"name\": \"Second item\",\n    \"nested\": {\n      \"example-number-field\": 2,\n      \"example-string-field\": \"oranges\"\n    }\n  }\n]\n```\n\nn8n displays it in table form like this:\n\n![\"Screenshot of a table in the INPUT panel. It includes a top level field named \"nested.\" This field contains nested data, which is indicated in bold.\"](/_images/data/data-mapping/nested-data.png)"
+}

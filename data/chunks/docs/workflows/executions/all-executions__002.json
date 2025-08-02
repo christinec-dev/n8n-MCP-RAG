@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/all-executions.md",
+  "index": 2,
+  "content": "# All executions\n\nTo view **all executions** from an n8n instance, navigate to the **Overview** page and then click into the Executions tab. This will show you all executions from the workflows you have access to.\n\nIf your n8n instance supports **projects**, you'll also be able to view the executions tab within projects you have access to. This will show you executions only from the workflows within the specified project.\n\n/// note | Deleted workflows\nWhen you delete a workflow, n8n deletes its execution history as well. This means you can't view executions for deleted workflows.\n///"
+}

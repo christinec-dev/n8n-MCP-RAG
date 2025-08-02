@@ -1,0 +1,11 @@
+{
+  "source": "0968_Postmark_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"48\",\n  \"name\": \"Receive updates when an email is bounced or opened\",\n  \"nodes\": [\n    {\n      \"name\": \"Postmark Trigger\",\n      \"type\": \"n8n-nodes-base.postmarkTrigger\",\n      \"position\": [\n        690,\n        260\n      ],\n      \"webhookId\": \"1422ac7a-62ba-4f7c-8e22-4e8ecb4950ce\",\n      \"parameters\": {\n        \"events\": [\n          \"bounce\",\n          \"open\"\n        ],\n        \"includeContent\": true\n      },\n      \"credentials\": {\n        \"postmarkApi\": \"postmark\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Postmark Trigger\": {\n      \"main\": [\n        []\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.postmarkTrigger"
+    ],
+    "trigger": "postmark trigger"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/log-streaming.md",
+  "index": 2,
+  "content": "# Log streaming\n\n/// info | Feature availability\nLog streaming is available on Enterprise Self-hosted and Cloud plans.\n///\n\nLog streaming allows you to send events from n8n to your own logging tools. This allows you to manage your n8n monitoring in your own alerting and logging processes."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 106,
+  "content": "### Node enhancements\n\n* JIRA node: support binary streaming for very large binary files.\n* OpenAI node: add support for ChatGPT.\n* Telegram node: add parse mode option to Send Document operation."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-1.md",
+  "index": 6,
+  "content": "### Top bar\n\nThe top bar of the **Editor UI** contains the following information:\n\n- **Workflow Name**: By default, n8n names a new workflow as \"My workflow\", but you can edit the name at any time.\n- **+ Add Tag**: Tags help you organise your workflows by category, use case, or whatever is relevant for you. Tags are optional.\n- **Inactive/active toggle**: This button activates or deactivates the current workflow. By default, workflows are deactivated.\n- **Share**: You can share and collaborate with others on workflows on the Starter, Pro, and Enterprise plans.\n- **Save**: This button saves the current workflow.\n- **History**: Once you save your workflow, you can view previous versions here.\n\n<figure><img src=\"/_images/courses/level-one/chapter-one/l1-c1-top-bar.png\" alt=\"Editor UI top bar\" style=\"width:100%\"><figcaption align = \"center\"><i>Editor UI top bar</i></figcaption></figure>"
+}

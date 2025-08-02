@@ -1,0 +1,12 @@
+{
+  "source": "0122_Manual_Flow_Import_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"130\",\n  \"name\": \"Get all the tasks in Flow\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Flow\",\n      \"type\": \"n8n-nodes-base.flow\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"filters\": {},\n        \"operation\": \"getAll\",\n        \"returnAll\": true\n      },\n      \"credentials\": {\n        \"flowApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Flow\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.flow"
+    ],
+    "trigger": null
+  }
+}

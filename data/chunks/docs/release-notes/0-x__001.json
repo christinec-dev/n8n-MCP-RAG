@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: Release notes pre 1.0\ndescription: Release notes detailing new features and bug fixes for n8n.\ntags:\n  - release\n  - release notes\n  - changelog\nhide:\n  - tags\ncontentType: reference\n---\n<!-- vale off -->"
+}

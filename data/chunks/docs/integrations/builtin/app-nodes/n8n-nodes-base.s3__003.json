@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.s3.md",
+  "index": 3,
+  "content": "## Operations\n\n* Bucket\n    * Create a bucket\n    * Delete a bucket\n    * Get all buckets\n    * Search within a bucket\n* File\n    * Copy a file\n    * Delete a file\n    * Download a file\n    * Get all files\n    * Upload a file\n\n    /// note | Attach file for upload\n    To attach a file for upload, use another node to pass the file as a data property. Nodes like the [Read/Write Files from Disk](/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md) node or the [HTTP Request](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) work well.\n    ///\n\n* Folder\n    * Create a folder\n    * Delete a folder\n    * Get all folders"
+}

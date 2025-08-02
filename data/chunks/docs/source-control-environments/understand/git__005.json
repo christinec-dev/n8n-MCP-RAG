@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/understand/git.md",
+  "index": 5,
+  "content": "## Local and remote: Moving work between your machine and a Git provider\n\nA common pattern when using Git is to install Git on your own computer, and use a Git provider such as GitHub to work with Git in the cloud. In effect, you have a Git repository (project) on GitHub, and work with copies of it on your local machine.\n\nn8n uses this pattern for source control: you'll work with your workflows on your n8n instance, but send them to your Git provider to store them."
+}

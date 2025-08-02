@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/file-operations.md",
+  "index": 5,
+  "content": "## Create from text\n\nUse this operation to create a new file in a drive from provided text.\n\nEnter these parameters:\n- **Credential to connect with**: Create or select an existing [Google Drive credentials](/integrations/builtin/credentials/google/index.md).\n- **Resource**: Select **File**.\n- **Operation**: Select **Create From Text**.\n- **File Content**: Enter the file content to use to create the new file.\n- **File Name**: The name to use for the new file.\n- **Parent Drive**: Select **From list** to choose the drive from the dropdown list, **By URL** to enter the URL of the drive, or **By ID** to enter the `driveId`. \n- **Parent Folder**: Select **From list** to choose the folder from the dropdown list, **By URL** to enter the URL of the folder, or **By ID** to enter the `folderId`. \n\nYou can find the `driveId` and `folderID` by visiting the shared drive or folder in your browser and copying the last URL component: `https://drive.google.com/drive/u/1/folders/driveId`."
+}

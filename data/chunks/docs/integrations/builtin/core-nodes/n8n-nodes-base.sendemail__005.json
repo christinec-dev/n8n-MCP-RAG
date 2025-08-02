@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sendemail.md",
+  "index": 5,
+  "content": "### Operation\n\nThe Send Email node supports the following operations:\n\n* **Send**: Send an email.\n* **Send and Wait for Response**: Send an email and wait for a response from the receiver. This operation pauses the workflow execution until the user submits a response.\n\nChoosing **Send and Wait for Response** will activate parameters and options as discussed in [waiting for a response](#waiting-for-a-response)."
+}

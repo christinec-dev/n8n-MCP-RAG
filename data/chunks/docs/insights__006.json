@@ -1,0 +1,5 @@
+{
+  "source": "docs/insights.md",
+  "index": 6,
+  "content": "## Setting the time saved by a workflow\n\nFor each workflow, you can set the number of minutes of work a workflow saves you each time it runs. You can configure this by navigating to the workflow, selecting the three dots menu in the top right and selecting settings. There you can update the **Estimated time saved** value and save. \n\nThis setting helps you calculate how much time automating a process saves over time vs the manual effort to complete the same task or process. Once set, n8n calculates the amount of time the workflow saves you based on the number of production executions and displays it on the summary banner and dashboard."
+}

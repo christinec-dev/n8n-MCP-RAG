@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/index.md",
+  "index": 5,
+  "content": "## Credential-only nodes and custom operations\n\n--8<-- \"_snippets/integrations/credential-only-intro.md\"\n\nRefer to [Custom operations](/integrations/custom-operations.md) for more information."
+}

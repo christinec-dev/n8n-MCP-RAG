@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 450,
+  "content": "### Highlights\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Source control and environments\n\nThis release introduces source control and environments for enterprise users.\n\nn8n uses Git-based source control to support environments. Linking your n8n instances to a Git repository lets you create multiple n8n environments, backed by Git branches.\n\nRefer to [Source control and environments](/source-control-environments/index.md) to learn more about the features and set up your environments.\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

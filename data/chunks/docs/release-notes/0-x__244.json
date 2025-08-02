@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 244,
+  "content": "### Bug fixes\n\n* API: do not reset the auth cookie on every request to GET `/login`.\n* AWS SNS Trigger node: add missing jsonParse import.\n* Core: avoid callstack with circular dependencies.\n* Editor: resolve issues with the executions list auto-refresh, and with saving new workflows.\n* Editor: redirect the outdated `/workflow` path.\n* Editor: remove a filter that prevented display of running executions."
+}

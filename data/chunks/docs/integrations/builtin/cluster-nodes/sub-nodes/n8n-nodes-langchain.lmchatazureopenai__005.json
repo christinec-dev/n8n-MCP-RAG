@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatazureopenai.md",
+  "index": 5,
+  "content": "## Proxy limitations\n\nThis node doesn't support the [`NO_PROXY` environment variable](/hosting/configuration/environment-variables/deployment.md)."
+}

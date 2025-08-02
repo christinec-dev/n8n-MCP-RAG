@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.jwt.md",
+  "index": 6,
+  "content": "### Audience\n\nThe **Audience** or `aud` claim identifies the intended recipients of the JWT.\n\nRefer to [\"aud\" (Audience) Claim](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.3) for more information."
+}

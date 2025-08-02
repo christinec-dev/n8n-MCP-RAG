@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/custom-certificate-authority.md",
+  "index": 4,
+  "content": "### Docker CLI\nWhen using the CLI you can use the `-v` flag from the command line:\n\n```bash\ndocker run -it --rm \\\n --name n8n \\\n -p 5678:5678 \\\n -v ./pki:/opt/custom-certificates \\\n docker.n8n.io/n8nio/n8n\n```"
+}

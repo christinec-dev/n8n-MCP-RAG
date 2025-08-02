@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/overview.md",
+  "index": 6,
+  "content": "### Light evaluation (pre-deployment)\n\nBuilding a clean, comprehensive dataset is hard. In the initial building phase, it often makes sense to generate just a handful of examples. These can be enough to iterate the workflow to a releasable state (or a proof of concept). You can visually compare the results to get a sense of the workflow's quality, without setting up formal metrics."
+}

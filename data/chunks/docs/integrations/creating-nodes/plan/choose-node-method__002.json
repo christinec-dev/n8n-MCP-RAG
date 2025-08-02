@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/plan/choose-node-method.md",
+  "index": 2,
+  "content": "# Choose your node building approach\n\nn8n has two node-building styles, declarative and programmatic.\n\nYou should use the declarative style for most nodes. This style:\n\n* Uses a JSON-based syntax, making it simpler to write, with less risk of introducing bugs.\n* Is more future-proof.\n* Supports integration with REST APIs.\n\nThe programmatic style is more verbose. You must use the programmatic style for:\n\n* Trigger nodes\n* Any node that isn't REST-based. This includes nodes that need to call a GraphQL API and nodes that use external dependencies.\n* Any node that needs to transform incoming data.\n* Full versioning. Refer to [Node versioning](/integrations/creating-nodes/build/reference/node-versioning.md) for more information on types of versioning."
+}

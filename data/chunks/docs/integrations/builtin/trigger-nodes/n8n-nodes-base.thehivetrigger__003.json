@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.thehivetrigger.md",
+  "index": 3,
+  "content": "## Events\n\n* Alert \n\t* Created\n\t* Deleted\n\t* Updated\n* Case\n\t* Created\n\t* Deleted\n\t* Updated\n* Log\n\t* Created\n\t* Deleted\n\t* Updated\n* Observable\n\t* Created\n\t* Deleted\n\t* Updated\n* Task\n\t* Created\n\t* Deleted\n\t* Updated"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.shopify.md",
+  "index": 3,
+  "content": "## Operations\n\n* Order\n    * Create an order\n    * Delete an order\n    * Get an order\n    * Get all orders\n    * Update an order\n* Product\n    * Create a product\n    * Delete a product\n    * Get a product\n    * Get all products\n    * Update a product"
+}

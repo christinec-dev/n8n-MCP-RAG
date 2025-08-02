@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.localfiletrigger.md",
+  "index": 2,
+  "content": "# Local File Trigger node\n\nThe Local File Trigger node starts a workflow when it detects changes on the file system. These changes involve a file or folder getting added, changed, or deleted.\n\n/// note | Self-hosted n8n only\nThis node isn't available on n8n Cloud.\n///"
+}

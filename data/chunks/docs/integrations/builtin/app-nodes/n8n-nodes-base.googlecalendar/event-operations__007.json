@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/event-operations.md",
+  "index": 7,
+  "content": "## Get\n\nUse this operation to retrieve an event from a Google Calendar.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [Google Calendar credentials](/integrations/builtin/credentials/google/index.md).\n- **Resource**: Select **Event**.\n- **Operation**: Select **Get**.\n- **Calendar**: Choose a calendar you want to get an event from. Select **From list** to choose the title from the dropdown list or **By ID** to enter a calendar ID.\n- **Event ID**: The ID of the event to get."
+}

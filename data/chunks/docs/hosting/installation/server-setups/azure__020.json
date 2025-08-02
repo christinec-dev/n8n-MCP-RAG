@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/azure.md",
+  "index": 20,
+  "content": "## Delete resources\n\nRemove the resources created by the manifests with the following command:\n\n```shell\nkubectl delete -f .\n```"
+}

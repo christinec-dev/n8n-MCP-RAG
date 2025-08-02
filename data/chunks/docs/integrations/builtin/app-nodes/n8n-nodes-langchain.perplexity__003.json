@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.perplexity.md",
+  "index": 3,
+  "content": "## Operations\n\n* **Message a Model**: Create one or more completions for a given text."
+}

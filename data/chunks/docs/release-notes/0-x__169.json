@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 169,
+  "content": "### Node enhancements\n\n* Google Ads node: update the API version to 11.\n* Google Drive Trigger node: start using the resource locator component."
+}

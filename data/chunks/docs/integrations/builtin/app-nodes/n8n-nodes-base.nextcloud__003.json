@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.nextcloud.md",
+  "index": 3,
+  "content": "## Operations\n\n* File\n    * Copy a file\n    * Delete a file\n    * Download a file\n    * Move a file\n    * Share a file\n    * Upload a file\n* Folder\n    * Copy a folder\n    * Create a folder\n    * Delete a folder\n    * Return the contents of a given folder\n    * Move a folder\n    * Share a folder\n* User\n    * Invite a user to a Nextcloud organization\n    * Delete a user.\n    * Retrieve information about a single user.\n    * Retrieve a list of users.\n    * Edit attributes related to a user."
+}

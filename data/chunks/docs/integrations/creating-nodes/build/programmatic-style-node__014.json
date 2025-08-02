@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/programmatic-style-node.md",
+  "index": 14,
+  "content": "## Next steps\n\n* [Deploy your node](/integrations/creating-nodes/deploy/index.md).\n* View an example of a programmatic node: n8n's [Mattermost node](https://github.com/n8n-io/n8n/tree/master/packages/nodes-base/nodes/Mattermost). This is an example of a more complex programmatic node structure.\n* Learn about [node versioning](/integrations/creating-nodes/build/reference/node-versioning.md).\n* Make sure you understand key concepts: [item linking](/data/data-mapping/data-item-linking/item-linking-concepts.md) and [data structures](/data/data-structure.md)."
+}

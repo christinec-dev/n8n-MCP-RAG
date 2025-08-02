@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 265,
+  "content": "### Node updates\nEnhanced node:\n\n- [MySQL](/integrations/builtin/app-nodes/n8n-nodes-base.mysql/index.md)\n\n\nThis release also adds the new schema view for the expression editor modal.\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

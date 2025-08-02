@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.comparedatasets.md",
+  "index": 7,
+  "content": "### Disable Dot Notation\n\nWhether to disallow referencing child fields using `parent.child` in the field name (turned on) or allow it (turned off, default)."
+}

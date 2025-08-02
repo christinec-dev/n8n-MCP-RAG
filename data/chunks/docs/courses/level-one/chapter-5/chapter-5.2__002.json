@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.2.md",
+  "index": 2,
+  "content": "# 2. Inserting data into Airtable\n\nIn this step of the workflow, you will learn how to insert the data received from the HTTP Request node into Airtable using the [Airtable node](/integrations/builtin/app-nodes/n8n-nodes-base.airtable/index.md).\n\n/// note | Spreadsheet nodes\nYou can replace the Airtable node with another spreadsheet app/service. For example, n8n also has a node for [**Google Sheets**](/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/index.md).\n///\n\nAfter this step, your workflow should look like this:\n\n[[ workflowDemo(\"file:////courses/level-one/chapter-5/chapter-5.2.json\") ]]"
+}

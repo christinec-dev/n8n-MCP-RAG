@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.switch.md",
+  "index": 7,
+  "content": "## Related resources\n\nRefer to [Splitting with conditionals](/flow-logic/splitting.md) for more information on using conditionals to create complex logic in n8n.\n\n--8<-- \"_snippets/integrations/builtin/core-nodes/data-types.md\""
+}

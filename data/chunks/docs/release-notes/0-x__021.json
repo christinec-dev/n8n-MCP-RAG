@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 21,
+  "content": "### New nodes\n\nThis release includes a new trigger node for Postgres, which allows you to listen to events, as well as listen to custom channels. Refer to [Postgres Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.postgrestrigger.md) for more information."
+}

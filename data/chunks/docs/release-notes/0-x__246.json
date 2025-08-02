@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 246,
+  "content": "### New features\n\n* Core, editor: introduce workflow caller policy.\n* Core: block workflow update on interim change.\n* Editor: add a read-only state for nodes.\n* Editor: add execution previews using the new **Executions** tab in the node view.\n* Editor: improvements to node panel search."
+}

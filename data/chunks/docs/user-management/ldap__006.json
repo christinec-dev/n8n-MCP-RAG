@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/ldap.md",
+  "index": 6,
+  "content": "## Turn LDAP off\n\nTo turn LDAP off:\n\n1. Log in to n8n as the instance owner.\n2. Select **Settings** <span class=\"inline-image\">![Settings icon](/_images/common-icons/settings.png){.off-glb}</span> > **LDAP**.\n3. Toggle off **Enable LDAP Login**.\n\nIf you turn LDAP off, n8n converts existing LDAP users to email users on their next login. The users must reset their password."
+}

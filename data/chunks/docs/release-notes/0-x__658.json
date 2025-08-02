@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 658,
+  "content": "### Core Functionality\n- Changed TypeORM version to 0.2.34"
+}

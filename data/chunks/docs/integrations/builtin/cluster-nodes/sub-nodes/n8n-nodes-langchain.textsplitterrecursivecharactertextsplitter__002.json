@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.textsplitterrecursivecharactertextsplitter.md",
+  "index": 2,
+  "content": "# Recursive Character Text Splitter node\n\nThe Recursive Character Text Splitter node splits document data recursively to keep all paragraphs, sentences then words together as long as possible.\n\nOn this page, you'll find the node parameters for the Recursive Character Text Splitter node, and links to more resources.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

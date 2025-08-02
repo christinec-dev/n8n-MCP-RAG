@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.sentimentanalysis.md",
+  "index": 6,
+  "content": "### Model Temperature Setting\n\nIt's strongly advised to set the temperature of the connected language model to 0 or a value close to 0. This helps ensure that the results are as deterministic as possible, providing more consistent and reliable sentiment analysis across multiple runs."
+}

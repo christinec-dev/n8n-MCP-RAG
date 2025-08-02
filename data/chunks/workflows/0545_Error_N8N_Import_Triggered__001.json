@@ -1,0 +1,13 @@
+{
+  "source": "0545_Error_N8N_Import_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"meta\": {\n    \"instanceId\": \"84ba6d895254e080ac2b4916d987aa66b000f88d4d919a6b9c76848f9b8a7616\",\n    \"templateId\": \"2349\"\n  },\n  \"nodes\": [\n    {\n      \"id\": \"d9c81685-d16e-45c0-a1ab-3927ef619568\",\n      \"name\": \"Error Trigger\",\n      \"type\": \"n8n-nodes-base.errorTrigger\",\n      \"position\": [\n        380,\n        240\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"22089e9b-73ae-4d03-a11b-5f67f9b47fb4\",\n      \"name\": \"Extract webhook data\",\n      \"type\": \"n8n-nodes-base.code\",\n      \"position\": [\n        820,\n        240\n      ],\n      \"parameters\": {\n        \"mode\": \"runOnceForEachItem\",\n        \"jsCode\": \"const webhook_node_names = $json.workflowData.nodes.filter(x => x.type == 'n8n-nodes-base.webhook').map(x => x.name)\\n\\nconst webhook_data_array = webhook_node_names.map(n => $json.data.resultData.runData[n] ? $json.data.resultData.runData[n][0].data.main[0][0].json : null).filter(x => x != null)\\n\\nlet webhook_data = null;\\nif (webhook_data_array.length > 0) {\\n  webhook_data = webhook_data_array[0]\\n}\\n\\nreturn {\\n  'webhook_node_names': webhook_node_names,\\n  'webook_node_payload': webhook_data\\n}\"\n      },\n      \"typeVersion\": 2\n    },\n    {\n      \"id\": \"b7fb5443-3faf-4e59-b464-4d3ca131a84f\",\n      \"name\": \"Get execution data\",\n      \"type\": \"n8n-nodes-base.n8n\",\n      \"position\": [\n        600,\n        240\n      ],\n      \"parameters\": {\n        \"options\": {\n          \"activeWorkflows\": true\n        },\n        \"resource\": \"execution\",\n        \"operation\": \"get\",\n        \"executionId\": \"={{ $json.execution.id }}\",\n        \"requestOptions\": {}\n      },\n      \"credentials\": {\n        \"n8nApi\": {\n          \"id\": \"eGEre3g3El08ZItb\",\n          \"name\": \"n8n account\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"pinData\": {},\n  \"connections\": {\n    \"Error Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Get execution data\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Get execution data\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Extract webhook data\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.errorTrigger",
+      "n8n-nodes-base.code",
+      "n8n-nodes-base.n8n"
+    ],
+    "trigger": "error trigger"
+  }
+}

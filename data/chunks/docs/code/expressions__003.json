@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/expressions.md",
+  "index": 3,
+  "content": "## Writing expressions\n\nTo use an expression to set a parameter value:\n\n1. Hover over the parameter where you want to use an expression.\n2. Select **Expressions** in the **Fixed/Expression** toggle.\n3. Write your expression in the parameter, or select **Open expression editor** <span class=\"inline-image\">![Open expressions editor icon](/_images/common-icons/open-expression-editor.png){.off-glb}</span> to open the expressions editor. If you use the expressions editor, you can browse the available data in the **Variable selector**. All expressions have the format `{{ your expression here }}`."
+}

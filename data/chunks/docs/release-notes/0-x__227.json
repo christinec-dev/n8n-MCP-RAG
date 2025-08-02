@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 227,
+  "content": "### New features\n\n* Core: lazy-load nodes and credentials to reduce baseline memory usage.\n* Core: use longer stack traces when error reporting is enabled.\n* Dev: add credentials E2E test suite and page object."
+}

@@ -1,0 +1,15 @@
+{
+  "source": "1101_Openweathermap_Twilio_Automate_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"69\",\n  \"name\": \"Creating your first workflow\",\n  \"nodes\": [\n    {\n      \"name\": \"Cron\",\n      \"type\": \"n8n-nodes-base.cron\",\n      \"position\": [\n        240,\n        250\n      ],\n      \"parameters\": {\n        \"triggerTimes\": {\n          \"item\": [\n            {}\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"OpenWeatherMap\",\n      \"type\": \"n8n-nodes-base.openWeatherMap\",\n      \"position\": [\n        450,\n        250\n      ],\n      \"parameters\": {\n        \"cityName\": \"berlin,de\"\n      },\n      \"credentials\": {\n        \"openWeatherMapApi\": \"Weather\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"IF\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        650,\n        250\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"number\": [\n            {\n              \"value1\": \"={{$node[\\\"OpenWeatherMap\\\"].json[\\\"main\\\"][\\\"feels_like\\\"]}}\",\n              \"value2\": 18\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Twilio\",\n      \"type\": \"n8n-nodes-base.twilio\",\n      \"position\": [\n        850,\n        150\n      ],\n      \"parameters\": {\n        \"to\": \"\",\n        \"from\": \"\",\n        \"message\": \"=Wear a sweater today, it is {{$node[\\\"OpenWeatherMap\\\"].json[\\\"main\\\"][\\\"feels_like\\\"]}}°C outside right now.\"\n      },\n      \"credentials\": {\n        \"twilioApi\": \"Twilio\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"NoOp\",\n      \"type\": \"n8n-nodes-base.noOp\",\n      \"position\": [\n        850,\n        350\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": true,\n  \"settings\": {},\n  \"connections\": {\n    \"IF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twilio\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ],\n        [\n          {\n            \"node\": \"NoOp\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Cron\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"OpenWeatherMap\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"OpenWeatherMap\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"IF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.cron",
+      "n8n-nodes-base.openWeatherMap",
+      "n8n-nodes-base.if",
+      "n8n-nodes-base.twilio",
+      "n8n-nodes-base.noOp"
+    ],
+    "trigger": null
+  }
+}

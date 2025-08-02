@@ -1,0 +1,5 @@
+{
+  "source": "docs/1-0-migration-checklist.md",
+  "index": 18,
+  "content": "### Removed WEBHOOK_TUNNEL_URL\n\nAs of version 0.227.0, n8n has renamed the `WEBHOOK_TUNNEL_URL` configuration option to `WEBHOOK_URL`. In n8n 1.0, `WEBHOOK_TUNNEL_URL` has been removed. Update your setup to reflect the new name. For more information about this configuration option, refer to [the docs](/hosting/configuration/configuration-examples/webhook-url.md).\n\n[PR #1408](https://github.com/n8n-io/n8n/pull/1408)"
+}

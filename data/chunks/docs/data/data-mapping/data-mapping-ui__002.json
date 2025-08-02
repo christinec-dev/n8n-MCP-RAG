@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-mapping/data-mapping-ui.md",
+  "index": 2,
+  "content": "# Mapping in the UI\n\nData mapping means referencing data from previous nodes. It doesn't include changing (transforming) data, just referencing it.\n\nYou can map data in the following ways:\n\n* Using the expressions editor.\n* By dragging and dropping data from the **INPUT** into parameters. This generates the expression for you.\n\nFor information on errors with mapping and linking items, refer to [Item linking errors](/data/data-mapping/data-item-linking/item-linking-errors.md)."
+}

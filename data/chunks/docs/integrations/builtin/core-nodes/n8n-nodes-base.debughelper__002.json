@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.debughelper.md",
+  "index": 2,
+  "content": "# Debug Helper\n\nUse the Debug Helper node to trigger different error types or generate random datasets to help test n8n workflows."
+}

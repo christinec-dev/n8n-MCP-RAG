@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 478,
+  "content": "### New nodes\n\n\n* [HaloPSA](/integrations/builtin/app-nodes/n8n-nodes-base.halopsa.md)\n* [Linear Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.lineartrigger.md)\n* [Zammad](/integrations/builtin/app-nodes/n8n-nodes-base.zammad.md)"
+}

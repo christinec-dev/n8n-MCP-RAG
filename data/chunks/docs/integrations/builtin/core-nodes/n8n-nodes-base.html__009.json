@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.html.md",
+  "index": 9,
+  "content": "## Convert to HTML Table\n\nThis operation expects data from another node. It has no parameters. It includes these options:\n\n* **Capitalize Headers**: Controls whether to capitalize the table's headers (turned on) or not (turned off).\n* **Custom Styling**: Controls whether to use custom styling (turned on) or not (turned off).\n* **Caption**: Enter a caption to add to the table.\n* **Table Attributes**: Enter any attributes to apply to the `<table>`, such as style attributes.\n* **Header Attributes**: Enter any attributes to apply to the table's headers `<th>`.\n* **Row Attributes**: Enter any attributes to apply to the table's rows `<tr>`.\n* **Cell Attributes**: Enter any attributes to apply to the table's cells `<td>`."
+}

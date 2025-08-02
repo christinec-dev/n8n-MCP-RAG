@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/custom-executions-data.md",
+  "index": 3,
+  "content": "## Set and access custom data using the Code node\n\nThis section describes how to set and access data using the Code node. Refer to [Execution Data node](/integrations/builtin/core-nodes/n8n-nodes-base.executiondata.md) for information on using the Execution Data node to set data. You can't retrieve custom data using the Execution Data node."
+}

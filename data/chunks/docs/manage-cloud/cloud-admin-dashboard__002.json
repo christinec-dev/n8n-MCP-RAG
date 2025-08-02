@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/cloud-admin-dashboard.md",
+  "index": 2,
+  "content": "# Cloud admin dashboard\n\nInstance owners can access the admin dashboard to manage their Cloud instance. This is where you can upgrade your n8n version and set the timezone."
+}

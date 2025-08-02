@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.awstranscribe.md",
+  "index": 3,
+  "content": "## Operations\n\n**Transcription Job**\n\n- Create a transcription job\n- Delete a transcription job\n- Get a transcription job\n- Get all transcriptions job"
+}

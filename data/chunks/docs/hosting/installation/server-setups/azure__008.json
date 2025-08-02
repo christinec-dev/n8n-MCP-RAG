@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/azure.md",
+  "index": 8,
+  "content": "## Clone configuration repository\n\nKubernetes and n8n require a series of configuration files. You can clone these from [this repository](https://github.com/n8n-io/n8n-kubernetes-hosting/tree/azure). The following steps tell you which file configures what and what you need to change.\n\nClone the repository with the following command:\n\n```shell\ngit clone https://github.com/n8n-io/n8n-kubernetes-hosting.git -b azure\n```\n\nAnd change directory to the root of the repository you cloned:\n\n```shell\ncd azure\n```"
+}

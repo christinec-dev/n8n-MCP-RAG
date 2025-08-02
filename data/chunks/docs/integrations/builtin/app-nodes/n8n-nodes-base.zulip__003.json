@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.zulip.md",
+  "index": 3,
+  "content": "## Operations\n\n* Message\n    * Delete a message\n    * Get a message\n    * Send a private message\n    * Send a message to stream\n    * Update a message\n    * Upload a file\n* Stream\n    * Create a stream.\n    * Delete a stream.\n    * Get all streams.\n    * Get subscribed streams.\n    * Update a stream.\n* User\n    * Create a user.\n    * Deactivate a user.\n    * Get a user.\n    * Get all users.\n    * Update a user."
+}

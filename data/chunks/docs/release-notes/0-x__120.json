@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 120,
+  "content": "### Bug fixes\n\n* Core: don't allow arbitrary path traversal in BinaryDataManager.\n* Core: don't allow arbitrary path traversal in the credential-translation endpoint.\n* Core: don't explicitly bypass authentication on URLs containing `.svg`.\n* Core: don't remove empty output connections arrays in PurgeInvalidWorkflowConnections migration.\n* Core: the user update endpoint should only allow updating email, first name, and last name."
+}

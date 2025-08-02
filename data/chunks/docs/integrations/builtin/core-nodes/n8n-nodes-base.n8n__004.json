@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.n8n.md",
+  "index": 4,
+  "content": "## Generate audit\n\nThis operation has no parameters. Configure it with these options:\n\n* **Categories**: Select the risk categories you want the audit to include. Options include:\n\t* **Credentials**\n\t* **Database**\n\t* **Filesystem**\n\t* **Instance**\n\t* **Nodes**\n* **Days Abandoned Workflow**: Use this option to set the number of days without execution after which a workflow should be considered abandoned. Enter a number of days. The default is `90`."
+}

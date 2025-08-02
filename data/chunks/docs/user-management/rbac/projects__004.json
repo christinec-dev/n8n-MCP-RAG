@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/rbac/projects.md",
+  "index": 4,
+  "content": "## Delete a project\n\nTo delete a project:\n\n1. Select the project.\n1. Select **Project settings**.\n1. Select **Delete project**.\n1. Choose what to do with the workflows and credentials. You can select:\n\t* **Transfer its workflows and credentials to another project**: n8n prompts you to choose a project to move the data to.\n\t* **Delete its workflows and credentials**: n8n prompts you to confirm that you want to delete all the data in the project."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/installation/gui-install.md",
+  "index": 8,
+  "content": "## Downgrade a community node\n\nIf there is a problem with a particular version of a community node, you may want to roll back to a previous version.\n\nTo do this, uninstall the community node, then reinstall it, targeting a specific node version. Follow the [Installation](#install-a-community-node) instructions for more guidance."
+}

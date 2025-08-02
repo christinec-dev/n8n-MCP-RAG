@@ -1,0 +1,14 @@
+{
+  "source": "1197_Manual_Reddit_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        270,\n        340\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Reddit\",\n      \"type\": \"n8n-nodes-base.reddit\",\n      \"position\": [\n        470,\n        340\n      ],\n      \"parameters\": {\n        \"text\": \"This post was created using the Reddit node in n8n\",\n        \"title\": \"Created from n8n\",\n        \"subreddit\": \"n8n\"\n      },\n      \"credentials\": {\n        \"redditOAuth2Api\": \"Reddit OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Reddit1\",\n      \"type\": \"n8n-nodes-base.reddit\",\n      \"position\": [\n        670,\n        340\n      ],\n      \"parameters\": {\n        \"postId\": \"={{$json[\\\"id\\\"]}}\",\n        \"operation\": \"get\",\n        \"subreddit\": \"={{$node[\\\"Reddit\\\"].parameter[\\\"subreddit\\\"]}}\"\n      },\n      \"credentials\": {\n        \"redditOAuth2Api\": \"Reddit OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Reddit2\",\n      \"type\": \"n8n-nodes-base.reddit\",\n      \"position\": [\n        870,\n        340\n      ],\n      \"parameters\": {\n        \"postId\": \"={{$json[\\\"id\\\"]}}\",\n        \"resource\": \"postComment\",\n        \"commentText\": \"This comment was added from n8n!\"\n      },\n      \"credentials\": {\n        \"redditOAuth2Api\": \"Reddit OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Reddit\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Reddit1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Reddit1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Reddit2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Reddit\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.reddit",
+      "n8n-nodes-base.reddit",
+      "n8n-nodes-base.reddit"
+    ],
+    "trigger": null
+  }
+}

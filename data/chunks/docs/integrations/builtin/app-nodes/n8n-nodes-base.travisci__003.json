@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.travisci.md",
+  "index": 3,
+  "content": "## Operations\n\n* Build\n    * Cancel a build\n    * Get a build\n    * Get all builds\n    * Restart a build\n    * Trigger a build"
+}

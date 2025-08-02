@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 153,
+  "content": "### Node enhancements\n\n* GitLab node: add file resource and operations.\n* JIRA Software node: introduce the resource locator component to improve UX.\n* Send Email node: this node has been overhauled."
+}

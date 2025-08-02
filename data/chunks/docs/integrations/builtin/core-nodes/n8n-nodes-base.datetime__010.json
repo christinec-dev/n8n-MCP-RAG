@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.datetime.md",
+  "index": 10,
+  "content": "## Get Current Date\n\nConfigure the node for this operation using these parameters:\n\n* **Include Current Time**: Choose whether to include the current time (turned on) or to set the time to midnight (turned off).\n* **Output Field Name**: Enter the name of the field to output the current date to."
+}

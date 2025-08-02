@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.crypto.md",
+  "index": 8,
+  "content": "### Sign parameters\n\n* **Value**: Enter the value you want to sign.\n* **Property Name**: Enter the name of the property you want to write the signed value to.\n* **Algorithm Name or ID**: Choose an algorithm name from the list or specify an ID using an [expression](/code/expressions.md).\n* **Encoding**: Select the encoding type to use. Choose from:\n\t* **BASE64**\n\t* **HEX**\n* **Private Key**: Enter a private key to use when signing the string."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/workflow-templates.md",
+  "index": 4,
+  "content": "## Use your own workflow templates library\n\n--8<-- \"_snippets/workflows/templates/custom-templates-library.md\""
+}

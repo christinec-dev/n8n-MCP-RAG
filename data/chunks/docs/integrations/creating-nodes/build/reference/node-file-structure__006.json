@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-file-structure.md",
+  "index": 6,
+  "content": "## Decide how many nodes to include in a package\n\nThere are two possible setups when building a node:\n\n* One node in one npm package.\n* More than one node in a single npm package.\n\nn8n supports both approaches. If you include more than one node, each node should have its own directory in the `nodes` directory."
+}

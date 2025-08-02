@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 328,
+  "content": "## n8n@1.39.0\n\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.38.1...n8n@1.39.0) for this version.<br />\n**Release date:** 2024-04-24\n\nThis release contains new nodes, node enhancements, and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### New node: WhatsApp Trigger\n\nThis release adds the [WhatsApp Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.whatsapptrigger.md).\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Node enhancement: Multiple methods, one Webhook node\n\nThe Webhook Trigger node can now handle calls to multiple HTTP methods. Refer to the [Webhook node documentation](/integrations/builtin/core-nodes/n8n-nodes-base.webhook/common-issues.md#listen-for-multiple-http-methods) for information on enabling this.\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

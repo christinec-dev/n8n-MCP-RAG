@@ -1,0 +1,5 @@
+{
+  "source": "docs/privacy-security/privacy.md",
+  "index": 8,
+  "content": "## Data collection \n\nn8n collects selected usage and performance data to help diagnose problems and improve the platform. Read about how n8n stores and processes this information in the [privacy policy](https://n8n.io/legal/#privacy).\n\nThe data gathered is different in self-hosted n8n and n8n Cloud."
+}

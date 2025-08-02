@@ -1,0 +1,13 @@
+{
+  "source": "0703_Manual_Sentryio_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"27\",\n  \"name\": \"Create a release and get all releases\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        210,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Sentry.io\",\n      \"type\": \"n8n-nodes-base.sentryIo\",\n      \"position\": [\n        410,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"\",\n        \"version\": \"0.0.1\",\n        \"projects\": [\n          \"\"\n        ],\n        \"resource\": \"release\",\n        \"operation\": \"create\",\n        \"additionalFields\": {},\n        \"organizationSlug\": \"\"\n      },\n      \"credentials\": {\n        \"sentryIoApi\": \"sentry\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Sentry.io1\",\n      \"type\": \"n8n-nodes-base.sentryIo\",\n      \"position\": [\n        610,\n        300\n      ],\n      \"parameters\": {\n        \"resource\": \"release\",\n        \"operation\": \"getAll\",\n        \"returnAll\": true,\n        \"additionalFields\": {},\n        \"organizationSlug\": \"\"\n      },\n      \"credentials\": {\n        \"sentryIoApi\": \"sentry\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Sentry.io\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Sentry.io1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Sentry.io\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.sentryIo",
+      "n8n-nodes-base.sentryIo"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.evaluation.md",
+  "index": 6,
+  "content": "### Check If Evaluating\n\nThe **Check If Evaluating** operation does not have any parameters. This operation provides branching output connectors so that you can conditionally execute logic depending on whether the current execution is an evaluation or not."
+}

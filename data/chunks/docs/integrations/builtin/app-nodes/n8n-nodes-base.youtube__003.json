@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.youtube.md",
+  "index": 3,
+  "content": "## Operations\n\n* Channel\n    * Retrieve a channel\n    * Retrieve all channels\n    * Update a channel\n    * Upload a channel banner\n* Playlist\n    * Create a playlist\n    * Delete a playlist\n    * Get a playlist\n    * Retrieve all playlists\n    * Update a playlist\n* Playlist Item\n    * Add an item to a playlist\n    * Delete a item from a playlist\n    * Get a playlist's item\n    * Retrieve all playlist items\n* Video\n    * Delete a video\n    * Get a video\n    * Retrieve all videos\n    * Rate a video\n    * Update a video\n    * Upload a video\n* Video Category\n    * Retrieve all video categories"
+}

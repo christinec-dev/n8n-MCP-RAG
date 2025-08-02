@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.yourls.md",
+  "index": 3,
+  "content": "## Operations\n\n* URL\n    * Expand a URL\n    * Shorten a URL\n    * Get stats about one short URL"
+}

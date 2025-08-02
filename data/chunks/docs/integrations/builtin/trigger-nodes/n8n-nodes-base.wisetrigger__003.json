@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.wisetrigger.md",
+  "index": 3,
+  "content": "## Events\n\n- Triggered every time a balance account is credited\n- Triggered every time a balance account is credited or debited\n- Triggered every time a transfer's list of active cases is updated\n- Triggered every time a transfer's status is updated"
+}

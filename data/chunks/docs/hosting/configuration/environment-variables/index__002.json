@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/environment-variables/index.md",
+  "index": 2,
+  "content": "# Environment variables overview\n\nThis section lists the environment variables that you can use to change n8n's configuration settings when self-hosting n8n.\n\n/// note | File-based configuration\nYou can provide a [configuration file](/hosting/configuration/configuration-methods.md) for n8n. You can also append `_FILE` to certain variables to provide their configuration in a separate file. \n///\n\n[[% import \"_macros/section-toc.html\" as sectionToc %]]\n\n[[ sectionToc.sectionToc(page) ]]"
+}

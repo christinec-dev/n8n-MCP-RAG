@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ssh.md",
+  "index": 5,
+  "content": "### Download File\n\n- **Credential to connect with**: Select an existing or create a new [SSH credential](/integrations/builtin/credentials/ssh.md) to connect with.\n- **Path**: Enter the path for the file you want to download. This path must include the file name. The downloaded file will use this file name. To use a different name, use the **File Name** option. Refer to [Download File options](#download-file-options) for more information.\n- **File Property**: Enter the name of the object property that holds the binary data you want to download.\n\n#### Download File options\n\nYou can further configure this operation with the **File Name** option. Use this option to override the binary data file name to a name of your choice."
+}

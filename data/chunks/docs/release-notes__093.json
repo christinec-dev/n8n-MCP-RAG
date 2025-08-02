@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 93,
+  "content": "### MCP Server Trigger\nThe MCP Server Trigger turns n8n into an MCP server, providing n8n tools to models running outside of n8n. The node acts as an entry point into n8n for MCP clients. It operates by exposing a URL that MCP clients can interact with to access n8n tools. This means your n8n workflows and integrations are now available to models run elsewhere. Pretty neat. \n\n<figure markdown=\"span\">\n    ![MCP Server Trigger](/_images/release-notes/MCP-Server-Trigger.png)\n    <figcaption>MCP Server Trigger</figcaption>\n</figure>\n\n[Explore the MCP Server Trigger docs](/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger.md)"
+}

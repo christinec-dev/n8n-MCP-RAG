@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ftp.md",
+  "index": 5,
+  "content": "### Delete options\n\nThe delete operation adds one new option: **Folder**. If you turn this option on, the node can delete both folders and files. This configuration also displays one more option:\n\n- **Recursive**: If you turn this option on and you delete a folder or directory, the node will delete all files and directories within the target directory."
+}

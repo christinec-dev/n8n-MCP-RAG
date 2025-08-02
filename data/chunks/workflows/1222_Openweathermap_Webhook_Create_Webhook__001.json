@@ -1,0 +1,14 @@
+{
+  "source": "1222_Openweathermap_Webhook_Create_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"OpenWeatherMap\",\n      \"type\": \"n8n-nodes-base.openWeatherMap\",\n      \"position\": [\n        900,\n        300\n      ],\n      \"parameters\": {\n        \"cityName\": \"={{ $json[\\\"city\\\"] }}\",\n        \"language\": \"en\"\n      },\n      \"credentials\": {\n        \"openWeatherMapApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Webhook GET\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        500,\n        300\n      ],\n      \"webhookId\": \"a31f0bbd-a583-470e-9a1e-29a9ce778122\",\n      \"parameters\": {\n        \"path\": \"weather\",\n        \"options\": {\n          \"responsePropertyName\": \"data\"\n        },\n        \"responseMode\": \"lastNode\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set City\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        700,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"city\",\n              \"value\": \"={{ $json[\\\"query\\\"][\\\"parameter\\\"] || 'berlin,de' }}\"\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Create Response\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        1100,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"data\",\n              \"value\": \"=It has {{$json[\\\"main\\\"][\\\"temp\\\"]}}\\\\xE2\\\\x84\\\\x83  and feels like {{$json[\\\"main\\\"][\\\"feels_like\\\"]}}\\\\xE2\\\\x84\\\\x83  in {{$json[\\\"name\\\"]}}\"\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Set City\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"OpenWeatherMap\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Webhook GET\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set City\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"OpenWeatherMap\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Create Response\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.openWeatherMap",
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

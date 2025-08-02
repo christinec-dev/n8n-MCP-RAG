@@ -1,0 +1,12 @@
+{
+  "source": "1036_Error_Twilio_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"56\",\n  \"name\": \"Send an SMS when a workflow fails\",\n  \"nodes\": [\n    {\n      \"name\": \"Error Trigger\",\n      \"type\": \"n8n-nodes-base.errorTrigger\",\n      \"position\": [\n        550,\n        260\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Twilio\",\n      \"type\": \"n8n-nodes-base.twilio\",\n      \"position\": [\n        750,\n        260\n      ],\n      \"parameters\": {\n        \"to\": \"\",\n        \"from\": \"\",\n        \"message\": \"=Your workflow with ID: {{$node[\\\"Error Trigger\\\"].json[\\\"workflow\\\"][\\\"id\\\"]}} and name: {{$node[\\\"Error Trigger\\\"].json[\\\"workflow\\\"][\\\"name\\\"]}} failed to execute.\"\n      },\n      \"credentials\": {\n        \"twilioApi\": \"twilio-credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Error Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twilio\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.errorTrigger",
+      "n8n-nodes-base.twilio"
+    ],
+    "trigger": "error trigger"
+  }
+}

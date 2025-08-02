@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 729,
+  "content": "### New nodes\n\n* [AWS Transcribe](/integrations/builtin/app-nodes/n8n-nodes-base.awstranscribe.md)\n* [SSH](/integrations/builtin/core-nodes/n8n-nodes-base.ssh.md)\n* [UptimeRobot](/integrations/builtin/app-nodes/n8n-nodes-base.uptimerobot.md)"
+}

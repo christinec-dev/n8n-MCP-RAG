@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 784,
+  "content": "### Bug fixes\n\n* [Bitwarden:](/integrations/builtin/app-nodes/n8n-nodes-base.bitwarden.md) Fixed an issue with the Update operation of the Group resource\n* [Cortex:](/integrations/builtin/app-nodes/n8n-nodes-base.cortex.md) Fixed an issue where only the last item got returned\n* [Invoice Ninja:](/integrations/builtin/app-nodes/n8n-nodes-base.invoiceninja.md) Fixed an issue with the Project parameter\n* [Salesforce:](/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md) Fixed an issue with the Get All operation of the Custom Object resource"
+}

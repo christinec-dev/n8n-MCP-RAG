@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md",
+  "index": 6,
+  "content": "### HTTP Method\n\nThe Webhook node supports standard [HTTP Request Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods):\n\n* DELETE\n* GET\n* HEAD\n* PATCH\n* POST\n* PUT\n\n    /// note | Webhook max payload\n\tThe webhook maximum payload size is 16MB.\n  If you're self-hosting n8n, you can change this using the [endpoint environment variable](/hosting/configuration/environment-variables/endpoints.md) `N8N_PAYLOAD_SIZE_MAX`.\n\t///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/queue-mode.md",
+  "index": 18,
+  "content": "### Configuring multi-main setup\n\nTo deploy n8n in multi-main setup, ensure: \n\n- All `main` processes are running in queue mode and are connected to Postgres and Redis.\n- All `main` and `worker` processes are running the same version of n8n.\n- All `main` processes have set the environment variable `N8N_MULTI_MAIN_SETUP_ENABLED` to `true`.\n- All `main` processes are running behind a load balancer with session persistence (sticky sessions) enabled.\n\nIf needed, you can adjust the leader key options:\n\n| Using configuration file | Using environment variables | Description |\n| ------ | ------ | ----- |\n| `multiMainSetup.ttl:10` | `N8N_MULTI_MAIN_SETUP_KEY_TTL=10` | Time to live (in seconds) for leader key in multi-main setup. |\n| `multiMainSetup.interval:3` | `N8N_MULTI_MAIN_SETUP_CHECK_INTERVAL=3` | Interval (in seconds) for leader check in multi-main setup. |"
+}

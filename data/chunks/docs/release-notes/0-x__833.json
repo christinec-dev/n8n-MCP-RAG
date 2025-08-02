@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 833,
+  "content": "## n8n@0.83.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.82.1...n8n@0.83.0) for this version.<br />\n**Release date:** 2020-09-18\n\n- New nodes\n- LinkedIn\n- Taiga\n- Taiga Trigger\n- Enhanced nodes\n- ActiveCampaign: Added multiple functions, read more [here](https://github.com/n8n-io/n8n/commit/a552febab494f8ecc022391f046752f1f9f5a4cc)\n- Airtable: Added typecast functionality\n- Asana: Added OAuth2 support\n- ClickUp: Added OAuth2 support\n- Google Drive: Added share operation\n- IMAP Email: Added support for custom rules when checking emails\n- Sentry.io: Added support for self-hosted version\n- Twitter: Added retweet, reply, and like operations\n- WordPress: Added author field to the post resource\n- Bug Fixes\n- Asana Trigger: Webhook validation has been deactivated\n- Paddle: Fixed `returnData` format and coupon description\n- The ActiveCampaign node has [breaking changes](https://github.com/n8n-io/n8n/blob/master/packages/cli/BREAKING-CHANGES.md#0830)\n- Fixed issues with test-webhook registration"
+}

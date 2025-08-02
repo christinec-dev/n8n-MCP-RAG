@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md",
+  "index": 11,
+  "content": "### Response Data\n\nChoose what data to include in the response body:\n\n* **All Entries**: The Webhook returns all the entries of the last node in an array.\n* **First Entry JSON**: The Webhook returns the JSON data of the first entry of the last node in a JSON object.\n* **First Entry Binary**: The Webhook returns the binary data of the first entry of the last node in a binary file.\n* **No Response Body**: The Webhook returns without a body.\n\nApplies only to **Respond > When Last Node Finishes**."
+}

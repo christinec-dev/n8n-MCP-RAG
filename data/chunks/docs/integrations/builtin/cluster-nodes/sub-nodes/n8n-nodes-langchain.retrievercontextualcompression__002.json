@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.retrievercontextualcompression.md",
+  "index": 2,
+  "content": "# Contextual Compression Retriever node\n\nThe Contextual Compression Retriever node improves the answers returned from [vector store](/glossary.md#ai-vector-store) document similarity searches by taking into account the context from the query.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/sub-node-expression-resolution.md\""
+}

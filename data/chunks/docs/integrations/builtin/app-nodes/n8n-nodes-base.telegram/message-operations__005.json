@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/message-operations.md",
+  "index": 5,
+  "content": "### Edit Message Text additional fields\n\nUse the **Additional Fields** to further refine the behavior of the node. Select **Add Field** to add any of the following:\n\n* **Disable WebPage Preview**: Select whether you want to enable link previews for links in this message (turned off) or disable link previews for links in this message (turned on). This sets the `link_preview_options` parameter for `is_disabled`. Refer to the [LinkPreviewOptions](https://core.telegram.org/bots/api#linkpreviewoptions) documentation for more information.\n* **Parse Mode**: Choose whether the message should be parsed using **HTML** (default), **Markdown (Legacy)**, or **MarkdownV2**. This sets the `parse_mode` parameter.\n<!-- vale on -->"
+}

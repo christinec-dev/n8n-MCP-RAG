@@ -1,0 +1,12 @@
+{
+  "source": "1018_Typeform_Airtable_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"54\",\n  \"name\": \"CFP Selection 1\",\n  \"nodes\": [\n    {\n      \"name\": \"Typeform Trigger\",\n      \"type\": \"n8n-nodes-base.typeformTrigger\",\n      \"position\": [\n        450,\n        250\n      ],\n      \"parameters\": {\n        \"formId\": \"\"\n      },\n      \"credentials\": {\n        \"typeformApi\": \"Typeform\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Airtable\",\n      \"type\": \"n8n-nodes-base.airtable\",\n      \"position\": [\n        660,\n        250\n      ],\n      \"parameters\": {\n        \"table\": \"\",\n        \"operation\": \"append\",\n        \"application\": \"\"\n      },\n      \"credentials\": {\n        \"airtableApi\": \"Airtable\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Typeform Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Airtable\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.typeformTrigger",
+      "n8n-nodes-base.airtable"
+    ],
+    "trigger": "typeform trigger"
+  }
+}

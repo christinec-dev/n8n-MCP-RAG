@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 233,
+  "content": "### Bug fixes\n\n* Core: deduplicate error handling in nodes.\n* Editor: show back mapping hint when parameter is focused.\n* Editor: add **Stop execution** button to execution preview.\n* Editor: curb direct item access linting.\n* Editor: fix expression editor variable selector filter.\n* Editor: fix for execution retry dropdown not closing.\n* Editor: fix for logging error on user logout.\n* Editor: fix zero treated as missing value in resource locator.\n* Editor: hide pin data in production executions.\n* Editor: skip optional chaining operators in Code Node editor linting.\n* Editor: update to **Expression/Fixed** toggle - keep expression when switching to **Fixed**.\n* Editor: fix foreign credentials being shown for new nodes.\n* Editor: store copy of workflow in `workflowsById` to prevent node data bugs.\n* Editor: fix user redirect to signin bug."
+}

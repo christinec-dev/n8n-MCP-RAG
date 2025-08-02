@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/digital-ocean.md",
+  "index": 2,
+  "content": "# Hosting n8n on DigitalOcean\n\nThis hosting guide shows you how to self-host n8n on a DigitalOcean droplet. It uses:\n\n* [Caddy](https://caddyserver.com) (a reverse proxy) to allow access to the Droplet from the internet. Caddy will also automatically create and manage SSL / TLS certificates for your n8n instance.\n* [Docker Compose](https://docs.docker.com/compose/) to create and define the application components and how they work together.\n\n--8<-- \"_snippets/self-hosting/warning.md\"\n\n--8<-- \"_snippets/self-hosting/installation/latest-next-version.md\""
+}

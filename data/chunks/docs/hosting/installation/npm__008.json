@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/npm.md",
+  "index": 8,
+  "content": "## Reverting an upgrade\n\nInstall the older version that you want to go back to.\n\nIf the upgrade involved a database migration:\n\n1. Check the feature documentation and release notes to see if there are any manual changes you need to make.\n1. Run `n8n db:revert` on your current version to roll back the database. If you want to revert more than one database migration, you need to repeat this process."
+}

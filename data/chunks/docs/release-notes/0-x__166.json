@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 166,
+  "content": "### Bug fixes\n\nFixes an issue that was preventing users from installing community nodes."
+}

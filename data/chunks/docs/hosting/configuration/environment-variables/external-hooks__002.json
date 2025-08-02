@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/environment-variables/external-hooks.md",
+  "index": 2,
+  "content": "# External hooks environment variables\n\n--8<-- \"_snippets/self-hosting/file-based-configuration.md\"\n\nYou can define external hooks that n8n executes whenever a specific operation runs. Refer to [Backend hooks](/embed/configuration.md#backend-hooks) for examples of available hooks and [Hook files](/embed/configuration.md#backend-hook-files) for information on file formatting. \n\n| Variable | Type  | Description |\n| :------- | :---- | :---------- |\n| `EXTERNAL_HOOK_FILES` | String | Files containing backend external hooks. Provide multiple files as a colon-separated list (\"`:`\"). |\n| `EXTERNAL_FRONTEND_HOOKS_URLS` | String | URLs to files containing frontend external hooks. Provide multiple URLs as a colon-separated list (\"`:`\"). |"
+}

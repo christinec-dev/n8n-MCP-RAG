@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-methods.md",
+  "index": 8,
+  "content": "# Bash - Single file\nexport N8N_CONFIG_FILES=/<path-to-config>/my-config.json"
+}

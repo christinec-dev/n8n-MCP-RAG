@@ -1,0 +1,11 @@
+{
+  "source": "1114_Taiga_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"70\",\n  \"name\": \"Receive updates when an event occurs in Taiga\",\n  \"nodes\": [\n    {\n      \"name\": \"Taiga Trigger\",\n      \"type\": \"n8n-nodes-base.taigaTrigger\",\n      \"position\": [\n        690,\n        260\n      ],\n      \"webhookId\": \"53939c3e-7dc6-4fdf-94d8-d29f92f8fa12\",\n      \"parameters\": {\n        \"projectId\": 385605\n      },\n      \"credentials\": {\n        \"taigaCloudApi\": \"taiga\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.taigaTrigger"
+    ],
+    "trigger": "taiga trigger"
+  }
+}

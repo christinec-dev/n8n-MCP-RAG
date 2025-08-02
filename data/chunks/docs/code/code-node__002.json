@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/code-node.md",
+  "index": 2,
+  "content": "# Using the Code node\n\n--8<-- \"_snippets/integrations/builtin/core-nodes/code-node.md\""
+}

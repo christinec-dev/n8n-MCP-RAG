@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.hubspottrigger.md",
+  "index": 3,
+  "content": "## Events\n\n* Company\n\t* Created\n\t* Deleted\n\t* Property changed\n* Contact\n\t* Created\n\t* Deleted\n\t* Privacy deleted\n\t* Property changed\n* Conversation\n\t* Created\n\t* Deleted\n\t* New message\n\t* Privacy deletion\n\t* Property changed\n* Deal\n\t* Created\n\t* Deleted\n\t* Property changed\n* Ticket\n\t* Created\n\t* Deleted\n\t* Property changed"
+}

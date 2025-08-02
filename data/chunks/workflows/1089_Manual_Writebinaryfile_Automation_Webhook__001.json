@@ -1,0 +1,14 @@
+{
+  "source": "1089_Manual_Writebinaryfile_Automation_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"name\": \"Store the data received from the CocktailDB API in JSON\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        400,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"https://www.thecocktaildb.com/api/json/v1/1/random.php\",\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Move Binary Data\",\n      \"type\": \"n8n-nodes-base.moveBinaryData\",\n      \"position\": [\n        550,\n        300\n      ],\n      \"parameters\": {\n        \"mode\": \"jsonToBinary\",\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Write Binary File\",\n      \"type\": \"n8n-nodes-base.writeBinaryFile\",\n      \"position\": [\n        700,\n        300\n      ],\n      \"parameters\": {\n        \"fileName\": \"cocktail.json\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"HTTP Request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Move Binary Data\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Move Binary Data\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Write Binary File\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.moveBinaryData",
+      "n8n-nodes-base.writeBinaryFile"
+    ],
+    "trigger": null
+  }
+}

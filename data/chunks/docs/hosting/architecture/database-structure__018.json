@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 18,
+  "content": "### settings\n\nRecords custom instance settings. These are settings that you can't control using environment variables. They include:\n\n* Whether the instance owner is set up\n* Whether the user chose to skip owner and user management setup\n* License key"
+}

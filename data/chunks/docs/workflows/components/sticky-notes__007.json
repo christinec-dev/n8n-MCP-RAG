@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/sticky-notes.md",
+  "index": 7,
+  "content": "## Writing in Markdown\n\nSticky Notes support Markdown formatting. This section describes some common options.\n\n```\nThe text in double asterisks will be **bold**\n\nThe text in single asterisks will be *italic*\n\nUse # to indicate headings:"
+}

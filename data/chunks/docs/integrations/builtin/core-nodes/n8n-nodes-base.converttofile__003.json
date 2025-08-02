@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.converttofile.md",
+  "index": 3,
+  "content": "## Operations\n\n* [**Convert to CSV**](#convert-to-csv)\n* [**Convert to HTML**](#convert-to-html)\n* [**Convert to ICS**](#convert-to-ics)\n* [**Convert to JSON**](#convert-to-json)\n* [**Convert to ODS**](#convert-to-ods)\n* [**Convert to RTF**](#convert-to-rtf)\n* [**Convert to Text File**](#convert-to-text-file)\n* [**Convert to XLS**](#convert-to-xls)\n* [**Convert to XLSX**](#convert-to-xlsx)\n* [**Move Base64 String to File**](#move-base64-string-to-file)\n\nNode parameters and options depend on the operation you select."
+}

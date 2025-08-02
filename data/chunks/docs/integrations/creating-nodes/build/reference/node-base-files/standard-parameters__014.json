@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 14,
+  "content": "## `requestDefaults`\n\n_Object_ | _Required_  \n\nSet up the basic information for the API calls the node makes.\n\nThis object must include:\n\n* `baseURL`: The API base URL.\n\nYou can also add:\n\n* `headers`: an object describing the API call headers, such as content type.\n* `url`: string. Appended to the `baseURL`. You can usually leave this out. It's more common to provide this in the `operations`."
+}

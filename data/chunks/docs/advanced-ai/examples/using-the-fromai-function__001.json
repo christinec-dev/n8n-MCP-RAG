@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/using-the-fromai-function.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: Let AI specify tool parameters\ndescription: Understand how n8n's `$fromAI()` function works and how to use it to dynamically populate parameters for AI app tools, or use the built-in automation to complete them instead.\ncontentType: explanation\ntags:\n  - $fromAI\n  - $fromAI()\n  - fromAI\n  - fromAI()\nhide:\n  - tags\n---"
+}

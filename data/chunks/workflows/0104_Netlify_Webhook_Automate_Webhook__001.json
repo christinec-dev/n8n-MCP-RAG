@@ -1,0 +1,12 @@
+{
+  "source": "0104_Netlify_Webhook_Automate_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"webhookId\": \"0d36a8db-0177-4501-9f7a-e46b6829d07a\",\n      \"parameters\": {\n        \"path\": \"0d36a8db-0177-4501-9f7a-e46b6829d07a\",\n        \"options\": {},\n        \"httpMethod\": \"POST\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Netlify\",\n      \"type\": \"n8n-nodes-base.netlify\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"siteId\": \"5e15e032-9345-41b8-a98f-509e545f061c\",\n        \"operation\": \"create\",\n        \"additionalFields\": {\n          \"title\": \"={{$json[\\\"body\\\"][\\\"data\\\"][\\\"title\\\"]}}\"\n        }\n      },\n      \"credentials\": {\n        \"netlifyApi\": \"Netlify account\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Netlify\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.netlify"
+    ],
+    "trigger": null
+  }
+}

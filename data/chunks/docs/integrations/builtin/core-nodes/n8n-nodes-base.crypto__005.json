@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.crypto.md",
+  "index": 5,
+  "content": "### Generate parameters\n\n* **Property Name**: Enter the name of the property to write the random string to.\n* **Type**: Select the encoding type to use to generate the string. Choose from:\n\t* **ASCII**\n\t* **BASE64**\n\t* **HEX**\n\t* **UUID**"
+}

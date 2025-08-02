@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/builtin/data-transformation-functions/arrays.md",
+  "index": 2,
+  "content": "# Arrays\n\nA reference document listing built-in convenience functions to support data transformation in [expressions](/glossary.md#expression-n8n) for arrays.\n\n/// note | JavaScript in expressions\nYou can use any JavaScript in expressions. Refer to [Expressions](/code/expressions.md) for more information.\n///\n[[% import \"_macros/data-functions.html\" as dataFunctions %]]\n\n[[% for func in df_array %]]\n[[ dataFunctions.dataFunctions(\"array\", func.funcName, func.returns, func.description, func.args, func.examples ) ]]\n[[% endfor %]]"
+}

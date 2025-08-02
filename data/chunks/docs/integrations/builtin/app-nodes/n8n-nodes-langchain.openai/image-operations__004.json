@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/image-operations.md",
+  "index": 4,
+  "content": "### Options\n\n- **Detail**: Specify the balance between response time versus token usage. \n- **Length of Description (Max Tokens)**: Defaults to 300. Fewer tokens will result in shorter, less detailed image description.\n\nRefer to [Images | OpenAI](https://platform.openai.com/docs/api-reference/images) documentation for more information."
+}

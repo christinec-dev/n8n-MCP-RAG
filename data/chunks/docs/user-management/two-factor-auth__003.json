@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/two-factor-auth.md",
+  "index": 3,
+  "content": "## Enable 2FA\n\nYou need an authenticator app on your phone.\n\nTo enable 2FA in n8n:\n\n1. Go to you **Settings** > **Personal**.\n2. Select **Enable 2FA**. n8n opens a modal with a QR code.\n3. Scan the QR code in your authenticator app.\n4. Enter the code from your app in **Code from authenticator app**.\n5. Select **Continue**. n8n displays recovery codes.\n6. Save the recovery codes. You need these to regain access to your account if you lose your authenticator."
+}

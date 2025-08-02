@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 232,
+  "content": "### Node enhancements\n\n* Compare Datasets: UI copy changes to improve usability.\n* Google Sheets: n8n has overhauled this node, including improved lookup for document and sheet selection.\n* Notion (beta) node: use the resource locator component for database and page parameters."
+}

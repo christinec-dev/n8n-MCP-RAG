@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/http-helpers.md",
+  "index": 6,
+  "content": "## Migration guide to the new helper\n\nThe new helper is much more robust, library agnostic, and easier to use.\n\nNew nodes should all use the new helper. You should strongly consider migrating existing custom nodes to the new helper. These are the main considerations when migrating:\n\n- Accepts `url`. Doesn't accept `uri`.\n- `encoding: null` now must be `encoding: arrayBuffer`.\n- `rejectUnauthorized: false` is now `skipSslCertificateValidation: true`\n- Use `body` according to `content-type` headers to clarify the payload.\n- `resolveWithFullResponse` is now `returnFullResponse` and has similar behavior"
+}

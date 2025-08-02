@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/components/connections.md",
+  "index": 2,
+  "content": "# Connections\n\nA connection establishes a link between nodes to route data through the workflow. A connection between two nodes passes data from one node's output to another node's input.\n\n![Example of creating and deleting a connection](/_images/workflows/components/connections/example.gif)"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 271,
+  "content": "### Bug fixes\n\n* CLI: cache generated assets in a user-writeable directory.\n* Core: prevent excess runs when data is pinned in a trigger node.\n* Core: ensure hook URLs always added correctly.\n* Editor: a fix for an issue affecting linked items in combination with data pinning.\n* Editor: resolve a bug with the binary data view.\n* GitHub Trigger node: ensure trigger executes reliably.\n* Microsoft Excel node: fix pagination issue.\n* Microsoft ToDo node: fix pagination issue."
+}

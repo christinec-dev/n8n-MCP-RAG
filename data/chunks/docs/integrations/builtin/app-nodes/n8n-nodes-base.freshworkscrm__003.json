@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.freshworkscrm.md",
+  "index": 3,
+  "content": "## Operations\n\n* Account\n    * Create an account\n    * Delete an account\n    * Retrieve an account\n    * Retrieve all accounts\n    * Update an account\n* Appointment\n    * Create an appointment\n    * Delete an appointment\n    * Retrieve an appointment\n    * Retrieve all appointments\n    * Update an appointment\n* Contact\n    * Create a contact\n    * Delete a contact\n    * Retrieve a contact\n    * Retrieve all contacts\n    * Update a contact\n* Deal\n    * Create a deal\n    * Delete a deal\n    * Retrieve a deal\n    * Retrieve all deals\n    * Update a deal\n* Note\n    * Create a note\n    * Delete a note\n    * Update a note\n* Sales Activity\n    * Retrieve a sales activity\n    * Retrieve all sales activities\n* Task\n    * Create a task\n    * Delete a task\n    * Retrieve a task\n    * Retrieve all tasks\n    * Update a task"
+}

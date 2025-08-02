@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.renamekeys.md",
+  "index": 3,
+  "content": "## Node parameters\n\nYou can rename one or multiple keys using the Rename Keys node. Select the **Add new key** button to rename a key.\n\nFor each key, enter the:\n\n- **Current Key Name**: The current name of the key you want to rename.\n- **New Key Name**: The new name you want to assign to the key."
+}

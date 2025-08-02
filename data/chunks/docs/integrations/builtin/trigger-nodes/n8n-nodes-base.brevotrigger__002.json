@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.brevotrigger.md",
+  "index": 2,
+  "content": "# Brevo Trigger node\n\n[Brevo](https://www.brevo.com/) is a digital marketing platform to help users grow their business.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/brevo.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Brevo Trigger integrations](https://n8n.io/integrations/brevo-trigger/) page.\n///"
+}

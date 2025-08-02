@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.s3.md",
+  "index": 2,
+  "content": "# S3 node\n\nUse the S3 node to automate work in non-AWS S3 storage and integrate S3 with other applications. n8n has built-in support for a wide range of S3 features, including creating, deleting, and getting buckets, files, and folders. For AWS S3, use [AWS S3](/integrations/builtin/app-nodes/n8n-nodes-base.awss3.md).\n\nUse the S3 node for non-AWS S3 solutions like:\n\n* [MinIO](https://min.io/)\n* [Wasabi](https://wasabi.com/)\n* [Digital Ocean spaces](https://www.digitalocean.com/products/spaces)\n\nOn this page, you'll find a list of operations the S3 node supports and links to more resources.\n\n/// note | Credentials\nRefer to [S3 credentials](/integrations/builtin/credentials/s3.md) for guidance on setting up authentication.\n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

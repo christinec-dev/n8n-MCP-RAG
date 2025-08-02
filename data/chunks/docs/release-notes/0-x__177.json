@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 177,
+  "content": "### Bug fixes\n\n* Core: fix crash of manual workflow executions for unsaved workflows.\n* Editor: omit pairedItem from proxy completions.\n* Editor: prevent refresh on submit in credential edit modal.\n* Google Sheets Node: fix for auto-range detection.\n* Read Binary File Node: don't crash the execution when the source file doesn't exist.\n* Remove anonymous ID from tracking calls.\n* Stop OOM crashes in Execution Data pruning.\n* Update links for user management and SMTP help."
+}

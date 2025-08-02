@@ -1,0 +1,14 @@
+{
+  "source": "0082_GoogleSheets_Interval_Process_Scheduled.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Read Sheet\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"sheetId\": \"1GT2dc0dOkAC1apY0UlTKY9vitBl8PtKrILvFiAy5VBs\"\n      },\n      \"credentials\": {\n        \"googleApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Convert to XLS\",\n      \"type\": \"n8n-nodes-base.spreadsheetFile\",\n      \"position\": [\n        650,\n        300\n      ],\n      \"parameters\": {\n        \"operation\": \"toFile\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Upload Dropbox\",\n      \"type\": \"n8n-nodes-base.dropbox\",\n      \"position\": [\n        850,\n        300\n      ],\n      \"parameters\": {\n        \"path\": \"/my-sheets/prices.xls\",\n        \"binaryData\": true\n      },\n      \"credentials\": {\n        \"dropboxApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Trigger all 15 min\",\n      \"type\": \"n8n-nodes-base.interval\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {\n        \"unit\": \"minutes\",\n        \"interval\": 15\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Read Sheet\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Convert to XLS\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Convert to XLS\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Upload Dropbox\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Trigger all 15 min\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Read Sheet\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.googleSheets",
+      "n8n-nodes-base.spreadsheetFile",
+      "n8n-nodes-base.dropbox",
+      "n8n-nodes-base.interval"
+    ],
+    "trigger": "trigger all 15 min"
+  }
+}

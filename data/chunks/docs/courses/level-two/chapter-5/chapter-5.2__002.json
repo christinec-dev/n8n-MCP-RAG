@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/chapter-5/chapter-5.2.md",
+  "index": 2,
+  "content": "# Workflow 2: Generating reports\n\nIn this workflow, you will merge data from different sources, transform binary data, generate files, and send notifications about them. The final workflow should look like this:\n\n<figure><img src=\"/_images/courses/level-two/chapter-five/workflow2.png\" alt=\"Workflow 2 for aggregating data and generating files\" style=\"width:100%\"><figcaption align = \"center\"><i>Workflow 2 for aggregating data and generating files</i></figcaption></figure>\n\nTo make things easier, let's split the workflow into three parts."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/queue-mode.md",
+  "index": 11,
+  "content": "### Configure webhook URL\n\nTo configure your webhook URL, execute the following command on the machine running the main n8n instance:\n\n```bash\nexport WEBHOOK_URL=https://your-webhook-url.com\n```\n\nYou can also set this value in the configuration file."
+}

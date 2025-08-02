@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/test/troubleshooting-node-development.md",
+  "index": 10,
+  "content": "### Changes to the description properties don't show in the UI on refreshing\n<!-- vale on -->\n\nEvery time you change the description properties, you have to stop the current n8n process (`ctrl` + `c`) and run it again. You may also need to re-run `npm link`."
+}

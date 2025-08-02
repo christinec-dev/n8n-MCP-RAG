@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-mapping/data-mapping-ui.md",
+  "index": 3,
+  "content": "## How to drag and drop data\n\n1. Run your workflow to load data.\n2. Open the node where you need to map data.\n3. You can map in table, JSON, and schema view:\n\t* In table view: click and hold a table heading to map top level data, or a field in the table to map nested data.\n\t* In JSON view: click and hold a key. \n\t* In schema view: click and hold a key.\n4. Drag the item into the field where you want to use the data."
+}

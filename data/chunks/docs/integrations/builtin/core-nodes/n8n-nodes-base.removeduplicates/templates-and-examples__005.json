@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.removeduplicates/templates-and-examples.md",
+  "index": 5,
+  "content": "2024-09-24T08:03:16.493Z'},\n    //{ id: 10, name: 'Harry Nilsson', job: 'Singer-songwriter', last_updated: '2020-10-17T17:11:38.493Z' },\n    //{ id: 11, name: 'Kylie Minogue', job: 'Pop star', last_updated: '2024-10-24T08:03:16.493Z'},\n  ]\n}\n```\n4. Add a Split Out node to the canvas and connect it to the Code node.\n5. In the Split Out node, enter `data` in the **Fields To Split Out** field."
+}

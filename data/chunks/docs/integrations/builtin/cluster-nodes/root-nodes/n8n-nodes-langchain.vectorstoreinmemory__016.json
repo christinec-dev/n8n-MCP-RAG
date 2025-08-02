@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreinmemory.md",
+  "index": 16,
+  "content": "### Insert Documents parameters\n\n* **Memory Key**: Select or create the key you want to store the vector memory as.\n* **Clear Store**: Use this parameter to control whether to wipe the vector store for the given memory key for this workflow before inserting data (turned on)."
+}

@@ -1,0 +1,11 @@
+{
+  "source": "0205_Thehive_Update_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"161\",\n  \"name\": \"Receive updates when an event occurs in TheHive\",\n  \"nodes\": [\n    {\n      \"name\": \"TheHive Trigger\",\n      \"type\": \"n8n-nodes-base.theHiveTrigger\",\n      \"position\": [\n        690,\n        220\n      ],\n      \"webhookId\": \"bef3fea8-2d68-43e8-9061-6c17c1059c86\",\n      \"parameters\": {\n        \"events\": [\n          \"*\"\n        ]\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.theHiveTrigger"
+    ],
+    "trigger": "thehive trigger"
+  }
+}

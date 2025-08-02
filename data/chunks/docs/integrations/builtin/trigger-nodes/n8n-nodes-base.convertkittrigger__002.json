@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.convertkittrigger.md",
+  "index": 2,
+  "content": "# ConvertKit Trigger node\n\n[ConvertKit](https://www.convertkit.com/) is a fully featured email marketing platform. Use ConvertKit to build an email list, send email broadcasts, automate sequences, create segments, and build landing pages.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/convertkit.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [ConvertKit Trigger integrations](https://n8n.io/integrations/convertkit-trigger/) page.\n///"
+}

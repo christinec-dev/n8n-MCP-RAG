@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 698,
+  "content": "### Bug fixes\n\n* [Ghost:](/integrations/builtin/app-nodes/n8n-nodes-base.ghost.md) Fixed an issue with the Get All operation functionality.\n* [Google Analytics:](/integrations/builtin/app-nodes/n8n-nodes-base.googleanalytics.md) Fixed an issue that caused an error when attempting to sort with no data present.\n* [Microsoft SQL:](/integrations/builtin/app-nodes/n8n-nodes-base.microsoftsql.md) Fixed an issue when escaping single quotes and mapping empty fields.\n* [Notion:](/integrations/builtin/app-nodes/n8n-nodes-base.notion/index.md) Fixed an issue with pagination of databases and users."
+}

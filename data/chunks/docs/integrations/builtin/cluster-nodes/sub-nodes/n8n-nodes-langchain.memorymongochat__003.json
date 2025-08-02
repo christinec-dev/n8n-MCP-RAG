@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorymongochat.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Session Key**: Enter the key to use to store the memory in the workflow data.\n* **Collection Name**: Enter the name of the collection to store the chat history in. The system will create the collection if it doesn't exist.\n* **Database Name**: Enter the name of the database to store the chat history in. If not provided, the database from credentials will be used.\n* **Context Window Length**: Enter the number of previous interactions to consider for context."
+}

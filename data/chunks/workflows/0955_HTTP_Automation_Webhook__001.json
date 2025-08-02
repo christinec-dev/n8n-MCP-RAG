@@ -1,0 +1,11 @@
+{
+  "source": "0955_HTTP_Automation_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"https://api.digitalocean.com/v2/droplets\",\n        \"options\": {\n          \"bodyContentType\": \"json\"\n        },\n        \"requestMethod\": \"POST\",\n        \"bodyParametersUi\": {\n          \"parameter\": [\n            {\n              \"name\": \"name\",\n              \"value\": \"API-creation-test\"\n            },\n            {\n              \"name\": \"region\",\n              \"value\": \"blr1\"\n            },\n            {\n              \"name\": \"size\",\n              \"value\": \"s-1vcpu-1gb\"\n            },\n            {\n              \"name\": \"image\",\n              \"value\": \"ubuntu-20-04-x64\"\n            }\n          ]\n        },\n        \"headerParametersUi\": {\n          \"parameter\": [\n            {\n              \"name\": \"Authorization\",\n              \"value\": \"Bearer {your_personal_access_token}\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.httpRequest"
+    ],
+    "trigger": null
+  }
+}

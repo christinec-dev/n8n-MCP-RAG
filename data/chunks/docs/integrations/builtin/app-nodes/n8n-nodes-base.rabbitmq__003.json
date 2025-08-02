@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.rabbitmq.md",
+  "index": 3,
+  "content": "## Operations\n\n* Delete From Queue\n* Send a Message to RabbitMQ"
+}

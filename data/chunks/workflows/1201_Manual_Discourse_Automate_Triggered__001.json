@@ -1,0 +1,14 @@
+{
+  "source": "1201_Manual_Discourse_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        270,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Discourse\",\n      \"type\": \"n8n-nodes-base.discourse\",\n      \"position\": [\n        470,\n        300\n      ],\n      \"parameters\": {\n        \"title\": \"[Created] Discourse node\",\n        \"content\": \"Thank you Ricardo for creating the Discourse node.\",\n        \"additionalFields\": {\n          \"category\": 4\n        }\n      },\n      \"credentials\": {\n        \"discourseApi\": \"n8n Discourse Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Discourse1\",\n      \"type\": \"n8n-nodes-base.discourse\",\n      \"position\": [\n        670,\n        300\n      ],\n      \"parameters\": {\n        \"postId\": \"={{$json[\\\"id\\\"]}}\",\n        \"content\": \"Thank you Ricardo for creating the Discourse node. We can now create, update and retrieve posts using n8n.\",\n        \"operation\": \"update\",\n        \"updateFields\": {}\n      },\n      \"credentials\": {\n        \"discourseApi\": \"n8n Discourse Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Discourse2\",\n      \"type\": \"n8n-nodes-base.discourse\",\n      \"position\": [\n        870,\n        300\n      ],\n      \"parameters\": {\n        \"postId\": \"={{$json[\\\"id\\\"]}}\",\n        \"operation\": \"get\"\n      },\n      \"credentials\": {\n        \"discourseApi\": \"n8n Discourse Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Discourse\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Discourse1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Discourse1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Discourse2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Discourse\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.discourse",
+      "n8n-nodes-base.discourse",
+      "n8n-nodes-base.discourse"
+    ],
+    "trigger": null
+  }
+}

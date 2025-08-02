@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 252,
+  "content": "## n8n@1.57.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.56.2...n8n@1.57.0) for this version.<br />\n**Release date:** 2024-08-28\n\nThis release contains new features and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Improved execution queue handling\n\nWe are [exposing new execution queue metrics](/hosting/configuration/configuration-examples/prometheus.md) to give users more visibility of the queue length. This helps to inform decisions on horizontal scaling, based on queue status. We have also made querying executions faster.\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### New credentials for the HTTP Request node\n\nWe added credential support for Datadog, Dynatrace, Elastic Security, Filescan, Iris, and Malcore to the HTTP Request node making it easier to use existing credentials.\n\n</div>\n\n\nWe also made it easier to select workflows as tools when working with AI agents by implementing a new `workflow selector` parameter type.\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

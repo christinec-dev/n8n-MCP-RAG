@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.contentful.md",
+  "index": 3,
+  "content": "## Operations\n\n* Asset\n    * Get\n    * Get All\n* Content Type\n    * Get\n* Entry\n    * Get\n    * Get All\n* Locale\n    * Get All\n* Space\n    * Get"
+}

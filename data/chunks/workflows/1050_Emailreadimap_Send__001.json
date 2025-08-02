@@ -1,0 +1,11 @@
+{
+  "source": "1050_Emailreadimap_Send.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"IMAP Email\",\n      \"type\": \"n8n-nodes-base.emailReadImap\",\n      \"position\": [\n        760,\n        400\n      ],\n      \"parameters\": {\n        \"options\": {\n          \"allowUnauthorizedCerts\": false\n        }\n      },\n      \"credentials\": {\n        \"imap\": \"imap_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {}\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.emailReadImap"
+    ],
+    "trigger": null
+  }
+}

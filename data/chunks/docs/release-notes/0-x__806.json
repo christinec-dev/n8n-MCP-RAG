@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 806,
+  "content": "## n8n@0.98.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.97.0...n8n@0.98.0) for this version.<br />\n**Release date:** 2020-12-16\n\n- New nodes\n- Brandfetch\n- Pushcut\n- Pushcut Trigger\n- Enhanced nodes\n- Google Sheets: Added Spreadsheet resource\n- IF: Added Is Empty option\n- Slack: Added Reaction and User resource, and Member operation to the Channel resource\n- Spreadsheet File: Added the option Include Empty Cell to display empty cells\n- Webhook: Added option to send a custom response body. The node can now also return string data\n- Bug fixes\n- GitLab: Fixed an issue with GitLab OAuth credentials. You can now specify your GitLab server to configure the credentials\n- Mautic: Fixed an issue with the OAuth credentials\n- If a workflow is using the Error Trigger node, by default, the workflow will use itself as the Error Workflow\n- Fixed a bug that caused the Editor UI to display an incorrect (save) state upon activating or deactivating a workflow"
+}

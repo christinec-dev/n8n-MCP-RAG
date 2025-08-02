@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.grist.md",
+  "index": 5,
+  "content": "## Get the Row ID\n\nTo update or delete a particular record, you need the Row ID. There are two ways to get the Row ID:\n\n**Create a Row ID column in Grist**\n\nCreate a new column in your Grist table with the formula `$id`.\n\n**Use the Get All operation**\n\nThe **Get All** operation returns the Row ID of each record along with the fields.\n \nYou can get it with the expression `{{$node[\"GristNodeName\"].json[\"id\"]}}`."
+}

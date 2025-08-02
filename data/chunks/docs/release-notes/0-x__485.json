@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 485,
+  "content": "### Core Functionality\n\n- Added configurable debug logging for telemetry.\n- Added support for defining nodes through JSON. This functionality is in alpha state and breaking changes to the interface can take place in upcoming versions.\n- Added telemetry support to page events occuring before telemetry is initialized.\n- Fixed a bug preventing errors in sub-workflows from appearing in parent executions.\n- Fixed a bug where node versioning would not work as expected.\n- Fixed a bug where remote parameters would not load as expected.\n- Fixed a bug where unkown node types would not work as expected.\n- Prevented the node details view from opening automatically after duplicating a node.\n- Removed dependency `fibers` which is incompatible with the current LTS version 16 of Node.js."
+}

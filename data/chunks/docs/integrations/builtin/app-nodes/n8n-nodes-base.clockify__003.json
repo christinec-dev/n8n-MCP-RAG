@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.clockify.md",
+  "index": 3,
+  "content": "## Operations\n\n* Project\n    * Create a project\n    * Delete a project\n    * Get a project\n    * Get all projects\n    * Update a project\n* Tag\n    * Create a tag\n    * Delete a tag\n    * Get all tags\n    * Update a tag\n* Task\n    * Create a task\n    * Delete a task\n    * Get a task\n    * Get all tasks\n    * Update a task\n* Time Entry\n    * Create a time entry\n    * Delete a time entry\n    * Get time entry\n    * Update a time entry"
+}

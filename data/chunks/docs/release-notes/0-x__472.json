@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 472,
+  "content": "### Enhanced nodes\n\n\n* [Grist:](/integrations/builtin/app-nodes/n8n-nodes-base.grist.md) Added support for self-hosted Grist instances.\n* [Telegram Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.telegramtrigger/index.md) Added new Extra Large option to Image Size field.\n* [Webhook:](/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md) Added new No Response Body option. Also added support for DELETE, PATCH and PUT methods."
+}

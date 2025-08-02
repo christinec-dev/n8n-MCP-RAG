@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.emeliatrigger.md",
+  "index": 2,
+  "content": "# Emelia Trigger node\n\n[Emelia](https://emelia.io) is a cold-mailing tool.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/emelia.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Emelia Trigger integrations](https://n8n.io/integrations/emelia-trigger/) page.\n///"
+}

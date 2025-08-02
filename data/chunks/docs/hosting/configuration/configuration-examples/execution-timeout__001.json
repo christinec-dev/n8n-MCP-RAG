@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/execution-timeout.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: Configure workflow timeout settings\ndescription: Set execution timeouts to determine how long workflows can run.  \ncontentType: howto\n---"
+}

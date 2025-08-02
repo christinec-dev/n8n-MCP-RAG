@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/index.md",
+  "index": 2,
+  "content": "# Google Calendar node\n\nUse the Google Calendar node to automate work in Google Calendar, and integrate Google Calendar with other applications. n8n has built-in support for a wide range of Google Calendar features, including adding, retrieving, deleting and updating calendar events.\n\nOn this page, you'll find a list of operations the Google Calendar node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Google Calendar credentials](/integrations/builtin/credentials/google/index.md) for guidance on setting up authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

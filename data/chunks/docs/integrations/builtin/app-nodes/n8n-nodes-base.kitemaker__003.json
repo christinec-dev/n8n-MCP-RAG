@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.kitemaker.md",
+  "index": 3,
+  "content": "## Operations\n\n* Organization\n    * Retrieve data on the logged-in user's organization.\n* Space\n    * Retrieve data on all the spaces in the logged-in user's organization.\n* User\n    * Retrieve data on all the users in the logged-in user's organization.\n* Work Item\n    * Create\n    * Get\n    * Get All\n    * Update"
+}

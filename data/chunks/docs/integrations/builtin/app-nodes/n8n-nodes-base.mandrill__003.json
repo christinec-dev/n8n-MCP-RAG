@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.mandrill.md",
+  "index": 3,
+  "content": "## Operations\n\n* Message\n    * Send message based on template.\n    * Send message based on HTML."
+}

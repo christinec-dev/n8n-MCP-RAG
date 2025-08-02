@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 775,
+  "content": "### New nodes\n\n* [Google Slides](/integrations/builtin/app-nodes/n8n-nodes-base.googleslides.md)"
+}

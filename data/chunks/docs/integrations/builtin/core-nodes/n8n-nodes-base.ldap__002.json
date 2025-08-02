@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ldap.md",
+  "index": 2,
+  "content": "# LDAP\n\nThis node allows you to interact with your LDAP servers to create, find, and update objects.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/ldap.md).\n///"
+}

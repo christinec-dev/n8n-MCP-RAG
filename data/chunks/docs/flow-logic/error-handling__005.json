@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/error-handling.md",
+  "index": 5,
+  "content": "## Cause a workflow execution failure using Stop And Error\n\nWhen you create and set an error workflow, n8n runs it when an execution fails. Usually, this is due to things like errors in node settings, or the workflow running out of memory.\n\nYou can add the [Stop And Error](/integrations/builtin/core-nodes/n8n-nodes-base.stopanderror.md) node to your workflow to force executions to fail under your chosen circumstances, and trigger the error workflow."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 212,
+  "content": "## n8n@0.207.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.206.1...n8n@0.207.0) for this version.<br />\n**Release date:** 2022-12-12\n\nThis release adds support for undo/redo actions on the canvas, and includes bug fixes."
+}

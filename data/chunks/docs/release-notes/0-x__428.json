@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 428,
+  "content": "### Bug fixes\n\n* **core**: fix issue with current executions not displaying.<br>\n* **core**: fix an issue causing n8n to falsely skip some authentication.<br>\n* [WooCommerce Node:](/integrations/builtin/app-nodes/n8n-nodes-base.woocommerce.md) Fix a pagination issue with the GetAll operation."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/vector-store-website.md",
+  "index": 2,
+  "content": "# Populate a Pinecone vector database from a website\n\nUse n8n to scrape a website, load the data into Pinecone, then query it using a chat workflow. This workflow uses the [HTTP node](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md) to get website data, extracts the relevant content using the [HTML node](/integrations/builtin/core-nodes/n8n-nodes-base.html.md), then uses the [Pinecone Vector Store node](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorepinecone.md) to send it to Pinecone. \n\n[[ workflowDemo(\"file:///advanced-ai/examples/populate_a_pinecone_vector_database_from_a_website.json\") ]]"
+}

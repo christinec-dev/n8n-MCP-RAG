@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 174,
+  "content": "### Known issues\n\nYou may encounter errors when using the [optional chaining operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) in expressions. If this happens, avoid using the operator for now."
+}

@@ -1,0 +1,14 @@
+{
+  "source": "0003_Bitwarden_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Bitwarden\",\n      \"type\": \"n8n-nodes-base.bitwarden\",\n      \"position\": [\n        470,\n        320\n      ],\n      \"parameters\": {\n        \"name\": \"documentation\",\n        \"resource\": \"group\",\n        \"operation\": \"create\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"bitwardenApi\": \"Bitwarden API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Bitwarden1\",\n      \"type\": \"n8n-nodes-base.bitwarden\",\n      \"position\": [\n        670,\n        320\n      ],\n      \"parameters\": {\n        \"resource\": \"member\",\n        \"operation\": \"getAll\",\n        \"returnAll\": true\n      },\n      \"credentials\": {\n        \"bitwardenApi\": \"Bitwarden API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Bitwarden2\",\n      \"type\": \"n8n-nodes-base.bitwarden\",\n      \"position\": [\n        870,\n        320\n      ],\n      \"parameters\": {\n        \"groupId\": \"={{$node[\\\"Bitwarden\\\"].json[\\\"id\\\"]}}\",\n        \"resource\": \"group\",\n        \"memberIds\": \"={{$json[\\\"id\\\"]}}\",\n        \"operation\": \"updateMembers\"\n      },\n      \"credentials\": {\n        \"bitwardenApi\": \"Bitwarden API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Bitwarden3\",\n      \"type\": \"n8n-nodes-base.bitwarden\",\n      \"position\": [\n        1070,\n        320\n      ],\n      \"parameters\": {\n        \"groupId\": \"={{$node[\\\"Bitwarden\\\"].json[\\\"id\\\"]}}\",\n        \"resource\": \"group\",\n        \"operation\": \"getMembers\"\n      },\n      \"credentials\": {\n        \"bitwardenApi\": \"Bitwarden API Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Bitwarden\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Bitwarden1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Bitwarden1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Bitwarden2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Bitwarden2\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Bitwarden3\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.bitwarden",
+      "n8n-nodes-base.bitwarden",
+      "n8n-nodes-base.bitwarden",
+      "n8n-nodes-base.bitwarden"
+    ],
+    "trigger": null
+  }
+}

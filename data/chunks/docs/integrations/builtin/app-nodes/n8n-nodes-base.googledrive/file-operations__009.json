@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/file-operations.md",
+  "index": 9,
+  "content": "## Download a file\n\nUse this operation to download a file from a drive.\n\nEnter these parameters:\n\n- **Credential to connect with**: Create or select an existing [Google Drive credentials](/integrations/builtin/credentials/google/index.md).\n- **Resource**: Select **File**.\n- **Operation**: Select **Download**.\n- **File**: Choose a file you want to download. \n    - Select **From list** to choose the title from the dropdown list, **By URL** to enter the URL of the file, or **By ID** to enter the `fileId`. \n    - You can find the `fileId` in a shareable Google Drive file URL: `https://docs.google.com/document/d/fileId/edit#gid=0`. In your Google Drive, select **Share > Copy link** to get the shareable file URL."
+}

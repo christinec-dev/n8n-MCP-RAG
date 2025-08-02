@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/common-issues.md",
+  "index": 4,
+  "content": "## Column names were updated after the node's setup\n<!-- vale on -->\n\nYou'll receive this error if the Google Sheet's column names have changed since you set up the node.\n\nTo refresh the column names, re-select **Mapping Column Mode**. This should prompt the node to fetch the column names again.\n\nOnce the column names refresh, update the node parameters."
+}

@@ -1,0 +1,13 @@
+{
+  "source": "0751_Openweathermap_Telegram_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"2\",\n  \"name\": \"Telegram Weather Workflow\",\n  \"nodes\": [\n    {\n      \"name\": \"Telegram Trigger\",\n      \"type\": \"n8n-nodes-base.telegramTrigger\",\n      \"position\": [\n        270,\n        220\n      ],\n      \"parameters\": {\n        \"updates\": [\n          \"message\"\n        ]\n      },\n      \"credentials\": {\n        \"telegramApi\": \"Telegram\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"OpenWeatherMap\",\n      \"type\": \"n8n-nodes-base.openWeatherMap\",\n      \"position\": [\n        480,\n        220\n      ],\n      \"parameters\": {\n        \"cityName\": \"berlin,de\"\n      },\n      \"credentials\": {\n        \"openWeatherMapApi\": \"OpenWeatherMap\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Telegram\",\n      \"type\": \"n8n-nodes-base.telegram\",\n      \"position\": [\n        670,\n        220\n      ],\n      \"parameters\": {\n        \"text\": \"=Right now, we have {{$node[\\\"OpenWeatherMap\\\"].json[\\\"weather\\\"][0][\\\"description\\\"]}}. The temperature is {{$node[\\\"OpenWeatherMap\\\"].json[\\\"main\\\"][\\\"temp\\\"]}}°C but it really feels like {{$node[\\\"OpenWeatherMap\\\"].json[\\\"main\\\"][\\\"feels_like\\\"]}}°C 🙂\",\n        \"chatId\": \"={{$node[\\\"Telegram Trigger\\\"].json[\\\"message\\\"][\\\"chat\\\"][\\\"id\\\"]}}\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"telegramApi\": \"Telegram\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": true,\n  \"settings\": {},\n  \"connections\": {\n    \"OpenWeatherMap\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Telegram\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Telegram Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"OpenWeatherMap\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.telegramTrigger",
+      "n8n-nodes-base.openWeatherMap",
+      "n8n-nodes-base.telegram"
+    ],
+    "trigger": "telegram trigger"
+  }
+}

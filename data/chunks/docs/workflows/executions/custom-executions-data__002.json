@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/custom-executions-data.md",
+  "index": 2,
+  "content": "# Custom executions data\n\nYou can set custom data on your workflow using the Code node or the [Execution Data node](/integrations/builtin/core-nodes/n8n-nodes-base.executiondata.md). n8n records this with each execution. You can then use this data when filtering the executions list, or fetch it in your workflows using the Code node.\n\n--8<-- \"_snippets/workflows/executions/custom-execution-data-availability.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.debughelper.md",
+  "index": 3,
+  "content": "## Operations\n\nDefine the operation by selecting the **Category**:\n\n* **Do Nothing**: Don't do anything.\n* [**Throw Error**](#throw-error): Throw an error with the specified type and message.\n* [**Out Of Memory**](#out-of-memory): Generate a specific memory size to simulate being out of memory.\n* [**Generate Random Data**](#generate-random-data): Generate some random data in a selected format."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/common-issues.md",
+  "index": 3,
+  "content": "## Listen for multiple HTTP methods\n\nBy default, the Webhook node accepts calls that use a single method. For example, it can accept GET or POST requests, but not both. If you want to accept calls using multiple methods:\n\n1. Open the node **Settings**.\n1. Turn on **Allow Multiple HTTP Methods**.\n1. Return to **Parameters**. By default, the node now accepts GET and POST calls. You can add other methods in the **HTTP Methods** field.\n\nThe Webhook node has an output for each method, so you can perform different actions depending on the method."
+}

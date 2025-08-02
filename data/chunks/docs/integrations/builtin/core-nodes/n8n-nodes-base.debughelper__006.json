@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.debughelper.md",
+  "index": 6,
+  "content": "### Out Of Memory\n\nThe Out of Memory Category adds one parameter, the **Memory Size to Generate**. Enter the approximate amount of memory to generate."
+}

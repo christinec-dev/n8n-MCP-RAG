@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 378,
+  "content": "## n8n@0.180.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.179.0...n8n@0.180.0) for this version.<br />\n**Release date:** 2022-06-07\n\nThis release adds a new node for Cal.com, support for tags in workflow import and export, UI improvements, node enhancements, and bug fixes."
+}

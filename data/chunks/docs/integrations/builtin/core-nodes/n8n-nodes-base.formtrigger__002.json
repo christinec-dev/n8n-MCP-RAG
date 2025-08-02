@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.formtrigger.md",
+  "index": 2,
+  "content": "# n8n Form Trigger node\n\nUse the n8n Form trigger to start a workflow when a user submits a form, taking the input data from the form. The node generates the form web page for you to use.\n\nYou can add more pages to continue the form with the [n8n Form](/integrations/builtin/core-nodes/n8n-nodes-base.form.md) node."
+}

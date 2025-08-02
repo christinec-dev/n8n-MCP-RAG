@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.facebooktrigger/group.md",
+  "index": 2,
+  "content": "# Facebook Trigger Group object\n\nUse this object to receive updates about activities and events in a group. Refer to [Facebook Trigger](/integrations/builtin/trigger-nodes/n8n-nodes-base.facebooktrigger/index.md) for more information on the trigger itself.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/facebookapp.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Facebook Trigger integrations](https://n8n.io/integrations/facebook-trigger/) page.\n///"
+}

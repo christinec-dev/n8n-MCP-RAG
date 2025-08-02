@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile.md",
+  "index": 2,
+  "content": "# Read/Write Files from Disk\n\nUse the Read/Write Files from Disk node to read and write files from/to the machine where n8n is running.\n\n/// note | Self-hosted n8n only\nThis node isn't available on n8n Cloud.\n///"
+}

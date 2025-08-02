@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 288,
+  "content": "### Node updates\n- Enhanced nodes: Chat Trigger, Google Cloud Firestore, Qdrant Vector Store, Splunk, Telegram\n- Deprecated node: Orbit (product shut down)"
+}

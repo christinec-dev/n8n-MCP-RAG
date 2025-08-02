@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/cli-commands.md",
+  "index": 21,
+  "content": "## Security audit\n\nYou can run a [security audit](/hosting/securing/security-audit.md) on your n8n instance, to detect common security issues.\n\n```sh\nn8n audit\n```"
+}

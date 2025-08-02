@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/environment-variables/external-data-storage.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: External data storage environment variables\ndescription: Environment variables to configure external data storage for your self-hosted n8n instance. \ncontentType: reference\ntags:\n  - environment variables\n  - external storage\n  - storage\nhide:\n  - toc\n  - tags\n---"
+}

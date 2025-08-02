@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 739,
+  "content": "### Bug fixes\n\n* [HubSpot:](/integrations/builtin/app-nodes/n8n-nodes-base.hubspot.md) Fixed an issue with pagination for Deals resource\n* [Keap:](/integrations/builtin/app-nodes/n8n-nodes-base.keap.md) Fixed an issue with the data type of the Order Title field\n* Orbit: Fixed an issue with the activity type in Post operation\n* [Slack:](/integrations/builtin/app-nodes/n8n-nodes-base.slack.md) Fixed an issue with the Get Profile operation\n* [Strava:](/integrations/builtin/app-nodes/n8n-nodes-base.strava.md) Fixed an issue with the paging parameter"
+}

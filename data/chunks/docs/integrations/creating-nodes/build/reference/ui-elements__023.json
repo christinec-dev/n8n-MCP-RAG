@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ui-elements.md",
+  "index": 23,
+  "content": "### Add a parameter hint\n\nAdd the `hint` parameter to a UI element:\n\n```ts\n{\n\tdisplayName: 'URL',\n\tname: 'url',\n\ttype: 'string',\n\thint: 'Enter a URL',\n\t...\n}\n```"
+}

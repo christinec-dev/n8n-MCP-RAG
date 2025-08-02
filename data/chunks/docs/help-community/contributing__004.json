@@ -1,0 +1,5 @@
+{
+  "source": "docs/help-community/contributing.md",
+  "index": 4,
+  "content": "## Help out the community\n\nYou can participate in the [forum](https://community.n8n.io/) and help the community members out with their questions.\n\nWhen sharing workflows in the community forum for debugging, use code blocks. Use triple backticks ` ``` ` to wrap the workflow JSON in a code block.\n\nThe following video demonstrates the steps of sharing workflows on the community forum:\n\n<div class=\"video-container\">\n\n<iframe width=\"840\" height=\"472.5\" src=\"https://www.youtube.com/embed/dVC8yLqUvCE\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n</div>"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ssh.md",
+  "index": 6,
+  "content": "### Upload File\n\n- **Credential to connect with**: Select an existing or create a new [SSH credential](/integrations/builtin/credentials/ssh.md) to connect with.\n- **Input Binary Field**: Enter the name of the input binary field that contains the file you want to upload.\n- **Target Directory**: The directory to upload the file to. The name of the file is taken from the binary data file name. To enter a different name, use the **File Name** option. Refer to [Upload File options](#upload-file-options) for more information.\n\n#### Upload File options\n\nYou can further configure this operation with the **File Name** option. Use this option to override the binary data file name to a name of your choice."
+}

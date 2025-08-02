@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 727,
+  "content": "### Core Functionality\n- Fixed an issue with the order in migration rollback"
+}

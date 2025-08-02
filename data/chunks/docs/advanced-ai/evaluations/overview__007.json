@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/overview.md",
+  "index": 7,
+  "content": "### Metric-based evaluation (post-deployment)\n\nOnce you deploy your workflow, it's easier to build a bigger, more representative dataset from production executions. When you discover a bug, you can add the input that caused it to the dataset. When fixing the bug, it's important to run the whole dataset over the workflow again as a [regression test](https://en.wikipedia.org/wiki/Regression_testing) to check that the fix hasn't inadvertently made something else worse.\n\nSince there are too many test cases to check individually, evaluations measure the quality of the outputs using a metric, a numeric value representing a particular characteristic. This also allows you to track quality changes between runs."
+}

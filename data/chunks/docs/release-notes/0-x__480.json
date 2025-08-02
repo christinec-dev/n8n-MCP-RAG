@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 480,
+  "content": "### Core Functionality\n\n- Added automatic sorting by relative position to the node list inside the expression editor.\n- Added new `/workflows/demo` page to allow read-only rendering of workflows inside an iframe.\n- Added optional `/healthz` health check endpoint to worker instances.\n- Fixed unwanted list autofill behaviour inside the expression editor.\n- Improved the GitHub actions used by the nightly Docker image."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/examples/human-fallback.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ncontentType: howto\ntitle: Set a human fallback for AI workflows\ndescription: Have a workflow that triggers a human answer when the AI can't help.\n---"
+}

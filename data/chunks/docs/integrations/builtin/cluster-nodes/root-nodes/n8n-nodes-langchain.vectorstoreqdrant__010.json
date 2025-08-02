@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreqdrant.md",
+  "index": 10,
+  "content": "### Get Many parameters\n<!-- vale from-write-good.Weasel = YES -->\n\n* **Qdrant collection name**: Enter the name of the Qdrant collection to use.\n* **Prompt**: Enter the search query.\n* **Limit**: Enter how many results to retrieve from the vector store. For example, set this to `10` to get the ten best results.\n\nThis Operation Mode includes one **Node option**, the [Metadata Filter](#metadata-filter)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.debughelper.md",
+  "index": 4,
+  "content": "## Node parameters\n\nThe node parameters depend on the **Category** selected. The **Do Nothing** Category has no other parameters."
+}

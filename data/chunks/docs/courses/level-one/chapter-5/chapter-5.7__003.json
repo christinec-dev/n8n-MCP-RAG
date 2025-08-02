@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/chapter-5/chapter-5.7.md",
+  "index": 3,
+  "content": "## Remove the Manual Trigger node\n\nFirst, let's remove the Manual Trigger node:\n\n1. Select the Manual Trigger node connected to your HTTP Request node.\n2. Select the trash can icon to delete.\n\nThis removes the Manual Trigger node and you'll see an \"Add first step\" option."
+}

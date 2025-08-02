@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.posthog.md",
+  "index": 2,
+  "content": "# PostHog node\n\nUse the PostHog node to automate work in PostHog, and integrate PostHog with other applications. n8n has built-in support for a wide range of PostHog features, including creating aliases, events, and identity, as well as tracking pages.\n\nOn this page, you'll find a list of operations the PostHog node supports and links to more resources.\n\n/// note | Credentials\nRefer to [PostHog credentials](/integrations/builtin/credentials/posthog.md) for guidance on setting up authentication. \n///"
+}

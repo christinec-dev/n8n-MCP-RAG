@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-langchain.respondtochat.md",
+  "index": 5,
+  "content": "### Wait for User Reply\n\nSet whether the workflow execution should wait for a response from the user (enabled) or continue immediately after sending the message (disabled)."
+}

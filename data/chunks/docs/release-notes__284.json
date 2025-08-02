@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 284,
+  "content": "## n8n@1.51.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.50.1...n8n@1.51.0) for this version.<br />\n**Release date:** 2024-07-18\n\nThis release contains new nodes, node enhancements and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### New node: Text Classifier\n\nThis release adds the [Text Classifier node](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.text-classifier.md).\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### New node: Postgres Chat Memory\n\nThis release adds the [Postgres Chat Memory node](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorypostgreschat.md).\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### New node: Google Vertex Chat Model\n\nThis release adds the [Google Vertex Chat Model node](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatgooglevertex.md).\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

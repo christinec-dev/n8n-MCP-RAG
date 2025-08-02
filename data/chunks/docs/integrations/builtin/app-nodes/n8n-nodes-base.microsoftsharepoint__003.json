@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftsharepoint.md",
+  "index": 3,
+  "content": "## Operations\n\n<!-- To avoid warning about \"many\" -->\n<!-- vale from-write-good.Weasel = NO -->\n* **File**:\n\t* Download: Download a file.\n\t* Update: Update a file.\n\t* Upload: Upload an existing file.\n* **Item**:\n\t* Create: Create an item in an existing list.\n\t* Create or Update: Create a new item, or update the current one if it already exists (upsert).\n\t* Delete: Delete an item from a list.\n\t* Get: Retrieve an item from a list.\n\t* Get Many: Get specific items in a list or list many items.\n\t* Update: Update an item in an existing list.\n* **List**:\n\t* Get: Retrieve details of a single list.\n\t* Get Many: Retrieve a list of lists.\n<!-- vale from-write-good.Weasel = YES -->"
+}

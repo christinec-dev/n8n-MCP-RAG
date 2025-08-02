@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.hubspot.md",
+  "index": 3,
+  "content": "## Operations\n\n* Contact\n    * Create/Update a contact\n    * Delete a contact\n    * Get a contact\n    * Get all contacts\n    * Get recently created/updated contacts\n    * Search contacts\n* Contact List\n    * Add contact to a list\n    * Remove a contact from a list\n* Company\n    * Create a company\n    * Delete a company\n    * Get a company\n    * Get all companies\n    * Get recently created companies\n    * Get recently modified companies\n    * Search companies by domain\n    * Update a company\n* Deal\n    * Create a deal\n    * Delete a deal\n    * Get a deal\n    * Get all deals\n    * Get recently created deals\n    * Get recently modified deals\n    * Search deals\n    * Update a deal\n* Engagement\n    * Create an engagement\n    * Delete an engagement\n    * Get an engagement\n    * Get all engagements\n* Form\n    * Get all fields from a form\n    * Submit data to a form\n* Ticket\n    * Create a ticket\n    * Delete a ticket\n    * Get a ticket\n    * Get all tickets\n    * Update a ticket"
+}

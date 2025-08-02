@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.ssh.md",
+  "index": 4,
+  "content": "### Execute Command\n\nConfigure this operation with these parameters:\n\n- **Credential to connect with**: Select an existing or create a new [SSH credential](/integrations/builtin/credentials/ssh.md) to connect with.\n- **Command**: Enter the command to execute on the remote device.\n- **Working Directory**: Enter the directory where n8n should execute the command."
+}

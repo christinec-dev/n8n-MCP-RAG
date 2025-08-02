@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-mocking.md",
+  "index": 5,
+  "content": "## Output a sample data set from the Customer Datastore node\n\nThe Customer Datastore node provides a fake dataset to work with. Add and execute the node to explore the data.\n\nUse this approach if you need some test data when exploring n8n, and you don't have a real use-case to work with."
+}

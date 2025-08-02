@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/rag-in-n8n.md",
+  "index": 3,
+  "content": "## What is RAG\n\n[Retrieval-Augmented Generation (RAG)](/glossary.md#ai-retrieval-augmented-generation-rag) is a technique that improves AI responses by combining language models with external data sources. Instead of relying solely on the model's internal training data, RAG systems retrieve relevant documents to [ground](/glossary.md#ai-groundedness) responses in up-to-date, domain-specific, or proprietary knowledge. RAG workflows typically rely on vector stores to manage and search this external data efficiently."
+}

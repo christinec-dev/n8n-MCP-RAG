@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 129,
+  "content": "### Bug fixes\n\n* Core: fix data transformation functions.\n* Core: remove unnecessary info from GET `/workflows` response.\n* Bubble node: fix pagination issue when returning all objects.\n* HTTP Request Node: ignore empty body when auto-detecting JSON."
+}

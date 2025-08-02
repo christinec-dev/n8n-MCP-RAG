@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 671,
+  "content": "### New nodes\n\n* [AWS DynamoDB](/integrations/builtin/app-nodes/n8n-nodes-base.awsdynamodb.md)\n* [Elasticsearch](/integrations/builtin/app-nodes/n8n-nodes-base.elasticsearch.md)\n* [ServiceNow](/integrations/builtin/app-nodes/n8n-nodes-base.servicenow.md)"
+}

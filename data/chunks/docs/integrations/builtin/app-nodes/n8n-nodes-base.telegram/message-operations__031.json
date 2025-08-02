@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/message-operations.md",
+  "index": 31,
+  "content": "### Force Reply parameters\n\n**Force Reply** is useful if you want to create user-friendly step-by-step interfaces without having to sacrifice privacy mode. \n\nIf you select **Reply Markup > Force Reply**, choose from these **Force Reply** parameters:\n\n* **Force Reply**: Turn on to show the reply interface to the user, as described above.\n* **Selective**: Turn this on if you want to force reply from these users only:\n    * Users that are `@mentioned` in the text of the message.\n    * The sender of the original message, if this Send Animation message is a reply to a message.\n\nRefer to [ForceReply](https://core.telegram.org/bots/api#forcereply) for more information."
+}

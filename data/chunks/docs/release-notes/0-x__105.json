@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 105,
+  "content": "### New features\n\n* Add distribution test tracking.\n* Add events to enable onboarding checklist.\n* Core: add SAML login setup (for upcoming feature).\n* Core: add SAML settings and consolidate LDAP under SSO (for upcoming feature).\n* Editor: add missing documentation to autocomplete items for inline code editor.\n* Editor: Show parameter hint on multiline inputs."
+}

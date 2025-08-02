@@ -1,0 +1,13 @@
+{
+  "source": "1052_HTTP_Telegram_Update_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"58\",\n  \"name\": \"Receive updates from Telegram and send an image of a cocktail\",\n  \"nodes\": [\n    {\n      \"name\": \"Telegram Trigger\",\n      \"type\": \"n8n-nodes-base.telegramTrigger\",\n      \"position\": [\n        570,\n        260\n      ],\n      \"webhookId\": \"806cc2c6-c687-4022-a82e-658e4a684e73\",\n      \"parameters\": {\n        \"updates\": [\n          \"message\"\n        ],\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"telegramApi\": \"telegram-bot\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"HTTP Request\",\n      \"type\": \"n8n-nodes-base.httpRequest\",\n      \"position\": [\n        770,\n        260\n      ],\n      \"parameters\": {\n        \"url\": \"https://www.thecocktaildb.com/api/json/v1/1/random.php\",\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Telegram\",\n      \"type\": \"n8n-nodes-base.telegram\",\n      \"position\": [\n        970,\n        260\n      ],\n      \"parameters\": {\n        \"file\": \"={{$node[\\\"HTTP Request\\\"].json[\\\"drinks\\\"][0][\\\"strDrinkThumb\\\"]}}\",\n        \"chatId\": \"={{$node[\\\"Telegram Trigger\\\"].json[\\\"message\\\"][\\\"chat\\\"][\\\"id\\\"]}}\",\n        \"operation\": \"sendPhoto\",\n        \"additionalFields\": {\n          \"caption\": \"={{$node[\\\"HTTP Request\\\"].json[\\\"drinks\\\"][0][\\\"strDrink\\\"]}}\",\n          \"reply_to_message_id\": \"={{$node[\\\"Telegram Trigger\\\"].json[\\\"message\\\"][\\\"message_id\\\"]}}\"\n        }\n      },\n      \"credentials\": {\n        \"telegramApi\": \"telegram-bot\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"HTTP Request\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Telegram\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Telegram Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTTP Request\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.telegramTrigger",
+      "n8n-nodes-base.httpRequest",
+      "n8n-nodes-base.telegram"
+    ],
+    "trigger": "telegram trigger"
+  }
+}

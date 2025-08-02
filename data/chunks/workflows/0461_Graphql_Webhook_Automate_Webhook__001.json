@@ -1,0 +1,14 @@
+{
+  "source": "0461_Graphql_Webhook_Automate_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"GraphQL\",\n      \"type\": \"n8n-nodes-base.graphql\",\n      \"position\": [\n        800,\n        300\n      ],\n      \"parameters\": {\n        \"query\": \"=query {\\n  country(code: \\\"{{$node[\\\"Webhook\\\"].data[\\\"query\\\"][\\\"code\\\"].toUpperCase()}}\\\") {\\n    name\\n    phone\\n    emoji\\n  } \\n}\",\n        \"endpoint\": \"https://countries.trevorblades.com/\",\n        \"requestMethod\": \"GET\",\n        \"responseFormat\": \"string\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Function\",\n      \"type\": \"n8n-nodes-base.function\",\n      \"position\": [\n        1000,\n        300\n      ],\n      \"parameters\": {\n        \"functionCode\": \"items[0].json = JSON.parse(items[0].json.data).data.country;\\nreturn items;\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        1200,\n        300\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"string\": [\n            {\n              \"name\": \"data\",\n              \"value\": \"=The country code of {{$node[\\\"Function\\\"].data[\\\"name\\\"]}} {{$node[\\\"Function\\\"].data[\\\"emoji\\\"]}} is {{$node[\\\"Function\\\"].data[\\\"phone\\\"]}}\"\n            }\n          ],\n          \"boolean\": []\n        },\n        \"keepOnlySet\": true\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        600,\n        300\n      ],\n      \"parameters\": {\n        \"path\": \"webhook\",\n        \"options\": {},\n        \"responseMode\": \"lastNode\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"GraphQL\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Function\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"GraphQL\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Function\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.graphql",
+      "n8n-nodes-base.function",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.webhook"
+    ],
+    "trigger": null
+  }
+}

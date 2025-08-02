@@ -1,0 +1,13 @@
+{
+  "source": "1213_Gotowebinar_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"GoToWebinar2\",\n      \"type\": \"n8n-nodes-base.goToWebinar\",\n      \"position\": [\n        930,\n        280\n      ],\n      \"parameters\": {\n        \"resource\": \"webinar\",\n        \"webinarKey\": \"={{$node[\\\"GoToWebinar\\\"].json[\\\"webinarKey\\\"]}}\"\n      },\n      \"credentials\": {\n        \"goToWebinarOAuth2Api\": \"GoToWebinar OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"GoToWebinar1\",\n      \"type\": \"n8n-nodes-base.goToWebinar\",\n      \"position\": [\n        730,\n        280\n      ],\n      \"parameters\": {\n        \"resource\": \"webinar\",\n        \"operation\": \"update\",\n        \"webinarKey\": \"={{$json[\\\"webinarKey\\\"]}}\",\n        \"updateFields\": {\n          \"description\": \"Get started with n8n and create your first automation workflow\"\n        }\n      },\n      \"credentials\": {\n        \"goToWebinarOAuth2Api\": \"GoToWebinar OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"GoToWebinar\",\n      \"type\": \"n8n-nodes-base.goToWebinar\",\n      \"position\": [\n        520,\n        280\n      ],\n      \"parameters\": {\n        \"times\": {\n          \"timesProperties\": [\n            {\n              \"endTime\": \"2021-03-02T10:00:00.000Z\",\n              \"startTime\": \"2021-03-02T09:00:00.000Z\"\n            }\n          ]\n        },\n        \"subject\": \"Getting started with n8n\",\n        \"resource\": \"webinar\",\n        \"operation\": \"create\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"goToWebinarOAuth2Api\": \"GoToWebinar OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"GoToWebinar\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"GoToWebinar1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"GoToWebinar1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"GoToWebinar2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.goToWebinar",
+      "n8n-nodes-base.goToWebinar",
+      "n8n-nodes-base.goToWebinar"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 772,
+  "content": "### Bug fixes\n\n* [AWS SQS:](/integrations/builtin/app-nodes/n8n-nodes-base.awssqs.md) Fixed an issue with API version and casing\n* [IMAP:](/integrations/builtin/core-nodes/n8n-nodes-base.emailimap.md) Fixed re-connection issue\n* [Keap:](/integrations/builtin/app-nodes/n8n-nodes-base.keap.md) Fixed an issue with the Opt In Reason parameter\n* [Salesforce:](/integrations/builtin/app-nodes/n8n-nodes-base.salesforce.md) Fixed an issue with loading custom fields"
+}

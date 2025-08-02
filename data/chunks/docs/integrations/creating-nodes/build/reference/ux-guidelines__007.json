@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 7,
+  "content": "### Resource Locator\n\n* Use a Resource Locator component whenever possible. This provides a much better UX for users. The Resource Locator Component is most often useful when you have to select a single item.\n* The default option for the Resource Locator Component should be `From list` (if available)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainretrievalqa/common-issues.md",
+  "index": 4,
+  "content": "## A Retriever sub-node must be connected error\n<!-- vale from-write-good.Passive = YES -->\n\nThis error displays when n8n tries to execute the node without having a Retriever connected.\n\nTo resolve this, click the + Retriever button at the bottom of your screen when the node is open, or click the Retriever + connector when the node isn't open. n8n will then open a selection of possible Retrievers to pick from."
+}

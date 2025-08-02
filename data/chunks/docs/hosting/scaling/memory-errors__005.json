@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/scaling/memory-errors.md",
+  "index": 5,
+  "content": "## Avoiding out of memory situations\n\nWhen encountering an out of memory situation, there are two options: either increase the amount of memory available to n8n or reduce the memory consumption."
+}

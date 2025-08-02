@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.paddle.md",
+  "index": 3,
+  "content": "## Operations\n\n* Coupon\n    * Create a coupon.\n    * Get all coupons.\n    * Update a coupon.\n* Payment\n    * Get all payment.\n    * Reschedule payment.\n* Plan\n    * Get a plan.\n    * Get all plans.\n* Product\n    * Get all products.\n* User\n    * Get all users"
+}

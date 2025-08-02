@@ -1,0 +1,14 @@
+{
+  "source": "1218_Manual_Mailerlite_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"96\",\n  \"name\": \"Create, update and get a subscriber using the MailerLite node\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        310,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"MailerLite\",\n      \"type\": \"n8n-nodes-base.mailerLite\",\n      \"position\": [\n        510,\n        300\n      ],\n      \"parameters\": {\n        \"email\": \"harshil@n8n.io\",\n        \"additionalFields\": {\n          \"name\": \"Harshil\"\n        }\n      },\n      \"credentials\": {\n        \"mailerLiteApi\": \"mailerlite\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"MailerLite1\",\n      \"type\": \"n8n-nodes-base.mailerLite\",\n      \"position\": [\n        710,\n        300\n      ],\n      \"parameters\": {\n        \"operation\": \"update\",\n        \"subscriberId\": \"={{$node[\\\"MailerLite\\\"].json[\\\"email\\\"]}}\",\n        \"updateFields\": {\n          \"customFieldsUi\": {\n            \"customFieldsValues\": [\n              {\n                \"value\": \"Berlin\",\n                \"fieldId\": \"city\"\n              }\n            ]\n          }\n        }\n      },\n      \"credentials\": {\n        \"mailerLiteApi\": \"mailerlite\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"MailerLite2\",\n      \"type\": \"n8n-nodes-base.mailerLite\",\n      \"position\": [\n        910,\n        300\n      ],\n      \"parameters\": {\n        \"operation\": \"get\",\n        \"subscriberId\": \"={{$node[\\\"MailerLite\\\"].json[\\\"email\\\"]}}\"\n      },\n      \"credentials\": {\n        \"mailerLiteApi\": \"mailerlite\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"MailerLite\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"MailerLite1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"MailerLite1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"MailerLite2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"MailerLite\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.mailerLite",
+      "n8n-nodes-base.mailerLite",
+      "n8n-nodes-base.mailerLite"
+    ],
+    "trigger": null
+  }
+}

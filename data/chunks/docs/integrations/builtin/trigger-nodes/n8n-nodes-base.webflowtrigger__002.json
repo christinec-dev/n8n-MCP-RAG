@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.webflowtrigger.md",
+  "index": 2,
+  "content": "# Webflow Trigger node\n\n[Webflow](https://webflow.com) is an application that allows you to build responsive websites with browser-based visual editing software.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/webflow.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Webflow Trigger integrations](https://n8n.io/integrations/webflow-trigger/) page.\n///"
+}

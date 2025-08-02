@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.adalo.md",
+  "index": 2,
+  "content": "# Adalo node\n\nUse the Adalo node to automate work in Adalo, and integrate Adalo with other applications. n8n has built-in support for a wide range of Adalo features, including like creating, getting, updating and deleting databases, records, and collections.\n\nOn this page, you'll find a list of operations the Adalo node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Adalo credentials](/integrations/builtin/credentials/adalo.md) for guidance on setting up authentication. \n///"
+}

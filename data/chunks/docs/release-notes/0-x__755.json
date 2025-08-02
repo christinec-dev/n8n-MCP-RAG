@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 755,
+  "content": "### New nodes\n\n* [Kitemaker](/integrations/builtin/app-nodes/n8n-nodes-base.kitemaker.md)\n* [MQTT](/integrations/builtin/app-nodes/n8n-nodes-base.mqtt.md)"
+}

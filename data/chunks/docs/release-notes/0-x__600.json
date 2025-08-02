@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 600,
+  "content": "### Core Functionality\n- Performance improvements in Editor UI\n- Improved error reporting"
+}

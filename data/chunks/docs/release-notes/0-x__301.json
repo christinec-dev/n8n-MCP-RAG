@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 301,
+  "content": "### Node enhancements\n\nMongoDB node: add credential testing and two new operations."
+}

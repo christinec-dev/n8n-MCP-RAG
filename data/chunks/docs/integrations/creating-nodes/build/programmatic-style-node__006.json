@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/programmatic-style-node.md",
+  "index": 6,
+  "content": "### Step 2: Add an icon\n\nSave the SendGrid SVG logo from [here](https://github.com/n8n-io/n8n/blob/master/packages/nodes-base/nodes/SendGrid/sendGrid.svg) as `friendGrid.svg` in `nodes/FriendGrid/`.\n\n\n--8<-- \"_snippets/integrations/creating-nodes/node-icons.md\""
+}

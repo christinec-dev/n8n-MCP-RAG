@@ -1,0 +1,14 @@
+{
+  "source": "1209_Raindrop_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Raindrop\",\n      \"type\": \"n8n-nodes-base.raindrop\",\n      \"position\": [\n        470,\n        320\n      ],\n      \"parameters\": {\n        \"title\": \"n8n-docs\",\n        \"operation\": \"create\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"raindropOAuth2Api\": \"Raindrop OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Raindrop1\",\n      \"type\": \"n8n-nodes-base.raindrop\",\n      \"position\": [\n        670,\n        320\n      ],\n      \"parameters\": {\n        \"link\": \"https://docs.n8n.io\",\n        \"resource\": \"bookmark\",\n        \"operation\": \"create\",\n        \"collectionId\": \"={{$json[\\\"_id\\\"]}}\",\n        \"additionalFields\": {\n          \"title\": \"Documentation\"\n        }\n      },\n      \"credentials\": {\n        \"raindropOAuth2Api\": \"Raindrop OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Raindrop2\",\n      \"type\": \"n8n-nodes-base.raindrop\",\n      \"position\": [\n        870,\n        320\n      ],\n      \"parameters\": {\n        \"resource\": \"bookmark\",\n        \"operation\": \"update\",\n        \"bookmarkId\": \"={{$json[\\\"_id\\\"]}}\",\n        \"updateFields\": {\n          \"title\": \"n8n Documentation\"\n        }\n      },\n      \"credentials\": {\n        \"raindropOAuth2Api\": \"Raindrop OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Raindrop3\",\n      \"type\": \"n8n-nodes-base.raindrop\",\n      \"position\": [\n        1070,\n        320\n      ],\n      \"parameters\": {\n        \"resource\": \"bookmark\",\n        \"bookmarkId\": \"={{$json[\\\"_id\\\"]}}\"\n      },\n      \"credentials\": {\n        \"raindropOAuth2Api\": \"Raindrop OAuth Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Raindrop\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Raindrop1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Raindrop1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Raindrop2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Raindrop2\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Raindrop3\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.raindrop",
+      "n8n-nodes-base.raindrop",
+      "n8n-nodes-base.raindrop",
+      "n8n-nodes-base.raindrop"
+    ],
+    "trigger": null
+  }
+}

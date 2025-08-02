@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.philipshue.md",
+  "index": 3,
+  "content": "## Operations\n\n* Light\n    * Delete a light\n    * Retrieve a light\n    * Retrieve all lights\n    * Update a light"
+}

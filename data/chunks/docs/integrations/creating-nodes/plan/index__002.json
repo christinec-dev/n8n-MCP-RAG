@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/plan/index.md",
+  "index": 2,
+  "content": "# Plan a node\n\nThis section provides guidance on designing your node, including key technical decisions such as choosing your node building style.\n\nWhen building a node, there are design choices you need to make before you start:\n\n* Which [node type](/integrations/creating-nodes/plan/node-types.md) you need to build.\n* Which [node building style](/integrations/creating-nodes/plan/choose-node-method.md) to use.\n* Your [UI design and UX principles](/integrations/creating-nodes/plan/node-ui-design.md)\n* Your node's [file structure](/integrations/creating-nodes/build/reference/node-file-structure.md)."
+}

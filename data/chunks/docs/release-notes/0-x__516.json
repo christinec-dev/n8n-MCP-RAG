@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 516,
+  "content": "### Enhanced nodes\n\n\n* [Function:](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) The node now prevents unsupported data from being returned.\n* [Function Item:](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) The node now prevents unsupported data from being returned.\n* [HubSpot:](/integrations/builtin/app-nodes/n8n-nodes-base.hubspot.md) Added Engagement resource with Create, Delete, Get, and Get All operations.\n* [Notion (Beta):](/integrations/builtin/app-nodes/n8n-nodes-base.notion/index.md) Upgraded the Notion node: Added Search operation for the Database resource, Get operation for Database Page resource, Archive operation for the Page resource. Also added Simplify Output option and test for credential validity.\n* [Wait:](/integrations/builtin/core-nodes/n8n-nodes-base.wait.md) Added new Ignore Bots option.\n* [Webhook:](/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md) Added new Ignore Bots option."
+}

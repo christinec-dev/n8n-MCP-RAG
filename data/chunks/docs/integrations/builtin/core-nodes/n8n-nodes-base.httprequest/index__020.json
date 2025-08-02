@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md",
+  "index": 20,
+  "content": "## Tool-only options\n\nThe following options are only available when attached to an [AI agent](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/tools-agent.md) as a [tool](/advanced-ai/examples/understand-tools.md){ data-preview }."
+}

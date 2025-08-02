@@ -1,0 +1,5 @@
+{
+  "source": "docs/flow-logic/subworkflows.md",
+  "index": 4,
+  "content": "## How data passes between workflows\n\n--8<-- \"_snippets/flow-logic/subworkflow-data-flow.md\""
+}

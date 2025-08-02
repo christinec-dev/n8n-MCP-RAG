@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 444,
+  "content": "### Bug fixes\n\n* [GitHub node:](/integrations/builtin/app-nodes/n8n-nodes-base.github.md) Fix credential tests and File List operation.\n* [Telegram node:](/integrations/builtin/app-nodes/n8n-nodes-base.telegram/index.md) Fix sending binary data when disable notification is set."
+}

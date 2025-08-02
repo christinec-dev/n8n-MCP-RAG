@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/binary-data.md",
+  "index": 5,
+  "content": "### Code\n\nYou can use the [Code node](/code/code-node.md) to manipulate binary data in your workflows. For example, [Get the binary data buffer](/code/cookbook/code-node/get-binary-data-buffer.md): get the binary data available in your workflow."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 458,
+  "content": "### Enhanced nodes\n\n\n* [Function:](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md) Added support for items without a JSON key."
+}

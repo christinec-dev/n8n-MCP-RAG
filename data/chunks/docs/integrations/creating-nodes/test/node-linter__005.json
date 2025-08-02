@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/test/node-linter.md",
+  "index": 5,
+  "content": "### Linting\n\nIn a community package, the linter runs automatically after installing dependencies and before publishing the package to npm. In the [main n8n repository](https://github.com/n8n-io/n8n), the linter runs automatically using GitHub Actions whenever you push to your pull request.\n\nIn both cases, VS Code lints in the background as you work on your project. Hover over a detected issue to see a full description of the linting and a link to further information.\n\nYou can also run the linter manually:\n\n* Run `npm run lint` to lint and view detected issues in your console. \n* Run `npm run lintfix` to lint and automatically fix issues. The linter fixes violations of rules [marked as automatically fixable](https://github.com/ivov/eslint-plugin-n8n-nodes-base#ruleset).\n\nBoth commands can run in the root directory of your community package, or in `/packages/nodes-base/` in the main repository."
+}

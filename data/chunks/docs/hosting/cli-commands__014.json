@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/cli-commands.md",
+  "index": 14,
+  "content": "### Info\n\nDisplay information about the existing license:\n\n```sh\nn8n license:info\n```"
+}

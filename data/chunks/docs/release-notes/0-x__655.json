@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 655,
+  "content": "### Bug fixes\n\n* [Interval:](/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/index.md) Fixed issue with infinite executions."
+}

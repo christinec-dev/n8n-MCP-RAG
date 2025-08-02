@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.twist.md",
+  "index": 5,
+  "content": "## Get the User ID\n\nTo get the User ID for a user:\n\n1. Open the **Team** tab.\n2. Select a user's avatar.\n3. Copy the string of characters located after `/u/` in your Twist URL. This string is the User ID. For example, if the URL is `https://twist.com/a/4qw45/people/u/475370` the User ID is `475370`."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 849,
+  "content": "## n8n@0.71.0\nFor a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.70.0...n8n@0.71.0) for this version.<br />\n**Release date:** 2020-06-25\n\n- New nodes\n- Google Tasks\n- SIGNL4\n- Spotify\n- Enhanced nodes\n- HubSpot\n- Mailchimp\n- Typeform\n- Webflow\n- Zendesk\n- Added Postgres SSL support\n- It's now possible to deploy n8n under a subfolder"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/saml/setup.md",
+  "index": 2,
+  "content": "# Set up SAML\n\n/// info | Feature availability\n* Available on Enterprise plans.\n* You need access to the n8n instance owner account to enable and configure SAML\n\nAvailable from version 0.225.0.\n///\t\n\nThis page tells you how to enable SAML SSO (single sign-on) in n8n. It assumes you're familiar with SAML. If you're not, [SAML Explained in Plain English](https://www.onelogin.com/learn/saml) can help you understand how SAML works, and its benefits."
+}

@@ -1,0 +1,13 @@
+{
+  "source": "0974_GoogleSheets_Telegram_Export_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": 4,\n  \"name\": \"Save Telegram reply to journal spreadsheet\",\n  \"nodes\": [\n    {\n      \"name\": \"Add entry to sheet\",\n      \"type\": \"n8n-nodes-base.googleSheets\",\n      \"position\": [\n        700,\n        240\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"sheetId\": \"YOUR_SPREADSHEET_ID\",\n        \"operation\": \"append\"\n      },\n      \"credentials\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Get journal reply\",\n      \"type\": \"n8n-nodes-base.telegramTrigger\",\n      \"position\": [\n        220,\n        240\n      ],\n      \"webhookId\": \"fe4a6042-d343-4a02-b443-6d32c38e094d\",\n      \"parameters\": {\n        \"updates\": [\n          \"message\"\n        ],\n        \"additionalFields\": {}\n      },\n      \"credentials\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Parse message\",\n      \"type\": \"n8n-nodes-base.functionItem\",\n      \"position\": [\n        460,\n        240\n      ],\n      \"parameters\": {\n        \"functionCode\": \"// When telgram sees a message it will make sure its a reply to its message and from the user. \\n// If thats the case then it will return {entry: string, date: string}\\n\\nconst botUsername = 'BOT_USERNAME'\\nconst user = 'YOUR_USERNAME'\\n\\nconst res = item.message\\n\\nconst isReplyToBot = res.reply_to_message.from.username === botUsername\\nconst isFromUser = res.from.username === user\\n\\n// This assumes your message is formatted as follows: \\\"SOME CUSTOM MESSAGE: YYYY-MM-DD\\\"\\nconst date = res.reply_to_message.text.split(':')[1].replace(/\\\\s/g, '');\\n\\nconst journalEntry = res.text\\n\\nif (isReplyToBot && isFromUser) {\\n  return {entry: journalEntry, date}\\n}\\n\\nreturn undefined;\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Parse message\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Add entry to sheet\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Get journal reply\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Parse message\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.googleSheets",
+      "n8n-nodes-base.telegramTrigger",
+      "n8n-nodes-base.functionItem"
+    ],
+    "trigger": null
+  }
+}

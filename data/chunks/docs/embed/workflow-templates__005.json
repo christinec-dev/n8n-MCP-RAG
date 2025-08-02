@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/workflow-templates.md",
+  "index": 5,
+  "content": "## Add your workflows to the n8n library\n\n--8<-- \"_snippets/workflows/templates/submit-templates.md\""
+}

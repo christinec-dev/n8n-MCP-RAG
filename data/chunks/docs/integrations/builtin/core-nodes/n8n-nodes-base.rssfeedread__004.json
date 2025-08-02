@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.rssfeedread.md",
+  "index": 4,
+  "content": "## Node options\n\n* **Ignore SSL Issues**: Choose whether n8n should ignore SSL/TLS verification (turned on) or not (turned off)."
+}

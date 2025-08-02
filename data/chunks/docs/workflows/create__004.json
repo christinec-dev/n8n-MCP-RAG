@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/create.md",
+  "index": 4,
+  "content": "## Run workflows manually\n\nYou may need to run your workflow manually when building and testing, or if your workflow doesn't have a trigger node. \n\nTo run manually, select **Execute Workflow**."
+}

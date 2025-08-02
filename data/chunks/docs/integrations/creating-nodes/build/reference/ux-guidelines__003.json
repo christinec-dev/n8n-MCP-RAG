@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 3,
+  "content": "## Credentials\n\nAPI key and sensitive credentials should always be password fields."
+}

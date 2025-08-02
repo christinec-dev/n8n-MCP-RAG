@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 31,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Execution Data\n\nSave metadata for workflow executions. You can then search by this data in the **Executions** list.\n\n[Execution Data node documentation](/integrations/builtin/core-nodes/n8n-nodes-base.executiondata.md).\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### LDAP node\n\nThe LDAP node allows you to interact with your LDAP servers from your n8n workflows. \n\n[LDAP node documentation](/integrations/builtin/core-nodes/n8n-nodes-base.ldap.md).\n\n</div>\n\n<div class=\"n8n-new-features\" markdown>\n\n#### LoneScale node\n\nIntegrate n8n with [LoneScale](https://www.lonescale.com/), a buying intents data platform.\n\n[LoneScale node documentation](/integrations/builtin/app-nodes/n8n-nodes-base.lonescale.md).\n\n</div>"
+}

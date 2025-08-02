@@ -1,0 +1,13 @@
+{
+  "source": "0811_Respondtowebhook_Webhook_Automate_Webhook.json",
+  "index": 1,
+  "content": "{\n  \"meta\": {\n    \"instanceId\": \"fcf18fc485cc336a31bc65574fd28e124660f468281b7aad773616b17903afe6\",\n    \"templateCredsSetupCompleted\": true\n  },\n  \"nodes\": [\n    {\n      \"id\": \"37bd6cc9-3cc4-442e-94c1-42972c0fce0d\",\n      \"name\": \"Webhook\",\n      \"type\": \"n8n-nodes-base.webhook\",\n      \"position\": [\n        80,\n        0\n      ],\n      \"webhookId\": \"060dbacf-0feb-43d4-b4ac-44011a7dd1a4\",\n      \"parameters\": {\n        \"path\": \"060dbacf-0feb-43d4-b4ac-44011a7dd1a4\",\n        \"options\": {},\n        \"responseMode\": \"responseNode\"\n      },\n      \"typeVersion\": 2\n    },\n    {\n      \"id\": \"3c05c0e4-7121-46d0-b35c-fc39cdd35ae7\",\n      \"name\": \"Respond to Webhook\",\n      \"type\": \"n8n-nodes-base.respondToWebhook\",\n      \"position\": [\n        580,\n        0\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"respondWith\": \"binary\"\n      },\n      \"typeVersion\": 1.1\n    },\n    {\n      \"id\": \"3f5ba2a7-148d-4921-b2ca-9dee17a2b278\",\n      \"name\": \"HTML to PDF\",\n      \"type\": \"@custom-js/n8n-nodes-pdf-toolkit.html2Pdf\",\n      \"position\": [\n        340,\n        0\n      ],\n      \"parameters\": {\n        \"htmlInput\": \"<h1>Hello CustomJS!</h1>\\n<h2>CustomJS provides the missing toolset for your no-code projects</h2>\"\n      },\n      \"credentials\": {\n        \"customJsApi\": {\n          \"id\": \"SZkqeEHVYyWhaGem\",\n          \"name\": \"CustomJS account\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"pinData\": {},\n  \"connections\": {\n    \"Webhook\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"HTML to PDF\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"HTML to PDF\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Respond to Webhook\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.webhook",
+      "n8n-nodes-base.respondToWebhook",
+      "@custom-js/n8n-nodes-pdf-toolkit.html2Pdf"
+    ],
+    "trigger": null
+  }
+}

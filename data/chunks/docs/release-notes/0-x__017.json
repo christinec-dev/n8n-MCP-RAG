@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 17,
+  "content": "### New nodes\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Debug Helper\n\nThe Debug Helper node can be used to trigger different error types or generate random datasets to help test n8n workflows.\n\n[Debug Helper node documentation](/integrations/builtin/core-nodes/n8n-nodes-base.debughelper.md).\n\n</div>"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.totp.md",
+  "index": 5,
+  "content": "### Operation\n\n**Generate Secret** is the only operation currently supported."
+}

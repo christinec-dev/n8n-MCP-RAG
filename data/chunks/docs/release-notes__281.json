@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 281,
+  "content": "### Node updates\nEnhanced nodes:\n\n- [Pinecone Vector Store](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorepinecone.md)\n- [Supabase Vector Store](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoresupabase.md)\n- [Send Email](/integrations/builtin/core-nodes/n8n-nodes-base.sendemail.md)\n\nDeprecated nodes:\n\n- OpenAI Model: You can use the OpenAI Chat Model instead\n- Google Palm Chat Model: You can use Google Vertex or Gemini instead\n- Google Palm Model: You can use Google Vertex or Gemini instead"
+}

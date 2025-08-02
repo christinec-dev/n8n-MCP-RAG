@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/message-operations.md",
+  "index": 34,
+  "content": "### Reply Keyboard Remove parameters\n\nIf you select **Reply Markup > Reply Keyboard Remove**, choose from these **Reply Keyboard Remove** parameters:\n\n* **Remove Keyboard**: Choose whether to request the Telegram client to remove the custom keyboard (turned on) or to keep it (turned off).\n* **Selective**: Turn this on if you want to remove the keyboard for these users only:\n    * Users that are `@mentioned` in the text of the message.\n    * The sender of the original message, if this Send Animation message is a reply to a message.\n\nRefer to [ReplyKeyboardRemove](https://core.telegram.org/bots/api#replykeyboardremove) for more information."
+}

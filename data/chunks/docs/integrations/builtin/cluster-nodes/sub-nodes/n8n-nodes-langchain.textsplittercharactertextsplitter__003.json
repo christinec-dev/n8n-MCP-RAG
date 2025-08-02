@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.textsplittercharactertextsplitter.md",
+  "index": 3,
+  "content": "## Node parameters\n\n* **Separator**: Select the separator used to split the document into separate items.\n* **Chunk Size**: Enter the number of characters in each chunk.\n* **Chunk Overlap**: Enter how much overlap to have between chunks."
+}

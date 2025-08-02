@@ -1,0 +1,5 @@
+{
+  "source": "docs/learning-path.md",
+  "index": 8,
+  "content": "## Self-hosting n8n\n\nExplore various [self-hosting options in n8n](/hosting/index.md). If you’re not sure where to start, these are two popular options: \n\n- [Hosting n8n on DigitalOcean](/hosting/installation/server-setups/digital-ocean.md)\n- [Hosting n8n on Amazon Web Services](/hosting/installation/server-setups/aws.md)"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.sendemail.md",
+  "index": 11,
+  "content": "### Append n8n Attribution\n\nSet whether to include the phrase `This email was sent automatically with n8n` at the end of the email (turned on) or not (turned off)."
+}

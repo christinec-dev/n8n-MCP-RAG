@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 11,
+  "content": "### Get Information parameters\n\nFor this operation, you only need to add the **Property Name** of the binary property that stores the image data.\n\nRefer to [Node options](#node-options) for optional configuration options."
+}

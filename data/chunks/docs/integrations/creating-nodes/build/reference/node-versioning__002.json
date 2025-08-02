@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-versioning.md",
+  "index": 2,
+  "content": "# Node versioning\n\nn8n supports node versioning. You can make changes to existing nodes without breaking the existing behavior by introducing a new version.\n\nBe aware of how n8n decides which node version to load:\n\n* If a user builds and saves a workflow using version 1, n8n continues to use version 1 in that workflow, even if you create and publish a version 2 of the node.\n* When a user creates a new workflow and browses for nodes, n8n always loads the latest version of the node.\n\n/// note | Versioning type restricted by node style\nIf you build a node using the declarative style, you can't use full versioning.\n///"
+}

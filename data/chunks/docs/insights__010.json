@@ -1,0 +1,5 @@
+{
+  "source": "docs/insights.md",
+  "index": 10,
+  "content": "### Does n8n use historic execution data when upgrading to a version with insights?\n\nn8n only starts collecting data for insights once you update to the first supported version (1.89.0). This means it only reports on executions from that point forward and you won't see execution data in insights from prior periods."
+}

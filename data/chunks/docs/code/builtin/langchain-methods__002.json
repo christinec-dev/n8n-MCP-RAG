@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/builtin/langchain-methods.md",
+  "index": 2,
+  "content": "# LangChain Code node methods\n\nn8n provides these methods to make it easier to perform common tasks in the [LangChain Code node](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.code.md).\n\n/// note | LangChain Code node only\nThese variables are for use in expressions in the LangChain Code node. You can't use them in other nodes.\n///\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-root-nodes/langchaincode/builtin-methods.md\""
+}

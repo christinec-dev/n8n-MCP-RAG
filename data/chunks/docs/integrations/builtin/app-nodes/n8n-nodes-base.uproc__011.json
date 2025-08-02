@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.uproc.md",
+  "index": 11,
+  "content": "### Image\n\n- Get QR code decoded content by an image URL\n- It allows discovering all geographical and technical EXIF metadata present in a photographic JPEG image\n- Get an encoded barcode by number and a required standard\n- Get QR code encoded by a text\n- Generate a new image by URL and text\n- Discover logo (favicon) used in a domain\n- Generate a screenshot by URL provided using Chrome browser\n- Get OCR text from image"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.syncromsp.md",
+  "index": 3,
+  "content": "## Operations\n\n* Contact\n    * Create new contact\n    * Delete contact\n    * Retrieve contact\n    * Retrieve all contacts\n    * Update contact\n* Customer\n    * Create new customer\n    * Delete customer\n    * Retrieve customer\n    * Retrieve all customers\n    * Update customer\n* RMM\n    * Create new RMM Alert\n    * Delete RMM Alert\n    * Retrieve RMM Alert\n    * Retrieve all RMM Alerts\n    * Mute RMM Alert\n* Ticket\n    * Create new ticket\n    * Delete ticket\n    * Retrieve ticket\n    * Retrieve all tickets\n    * Update ticket"
+}

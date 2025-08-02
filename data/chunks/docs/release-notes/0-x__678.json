@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 678,
+  "content": "### Bug fixes\n\n* [SSH:](/integrations/builtin/core-nodes/n8n-nodes-base.ssh.md) Fixed issue with access rights when downloading files."
+}

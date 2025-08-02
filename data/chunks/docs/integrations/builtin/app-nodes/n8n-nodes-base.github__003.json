@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.github.md",
+  "index": 3,
+  "content": "## Operations\n\n* File\n\t* Create\n\t* Delete\n\t* Edit\n\t* Get\n\t* List\n* Issue\n\t* Create\n\t* Create Comment\n\t* Edit\n\t* Get\n\t* Lock\n* Organization\n\t* Get Repositories\n* Release\n\t* Create\n\t* Delete\n\t* Get\n\t* Get Many\n\t* Update\n* Repository\n    * Get\n\t* Get Issues\n\t* Get License\n\t* Get Profile\n\t* Get Pull Requests\n\t* List Popular Paths\n\t* List Referrers\n* Review\n\t* Create\n\t* Get\n\t* Get Many\n\t* Update\n* User\n    * Get Repositories\n    * Invite\n* Workflow\n\t* Disable\n\t* Dispatch\n\t* Enable\n\t* Get\n\t* Get Usage\n\t* List"
+}

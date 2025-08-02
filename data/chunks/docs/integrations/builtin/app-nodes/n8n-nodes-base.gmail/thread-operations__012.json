@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gmail/thread-operations.md",
+  "index": 12,
+  "content": "## Trash a thread\n\nUse this operation to move a thread and all its messages to the trash.\n\nEnter these parameters:\n\n* Select the **Credential to connect with** or create a new one.\n* **Resource**: Select **Thread**.\n* **Operation**: Select **Trash**.\n* **Thread ID**: Enter the ID of the thread you want to move to the trash.\n\nRefer to the [Gmail API Method: users.threads.trash](https://developers.google.com/gmail/api/reference/rest/v1/users.threads/trash) documentation for more information."
+}

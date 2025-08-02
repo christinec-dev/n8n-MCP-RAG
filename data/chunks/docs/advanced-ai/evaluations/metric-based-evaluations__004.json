@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/metric-based-evaluations.md",
+  "index": 4,
+  "content": "## How it works\n\n/// note | Requires Google Sheets\nEvaluations use Google Sheets to store the test dataset. To use evaluations, you must configure a [Google Sheets credential](/integrations/builtin/credentials/google/index.md).\n///\n\n1. Set up [light evaluation](/advanced-ai/evaluations/light-evaluations.md)\n2. Calculate metrics\n3. Write metrics back to evaluation\n4. Run evaluation and view results"
+}

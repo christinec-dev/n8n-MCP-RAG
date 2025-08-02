@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 492,
+  "content": "### Bug fixes\n\n\n* [Airtable:](/integrations/builtin/app-nodes/n8n-nodes-base.airtable/index.md) Improved field description.\n* [Airtable Trigger:](/integrations/builtin/trigger-nodes/n8n-nodes-base.airtabletrigger.md) Improved field description.\n* [erpNext:](/integrations/builtin/app-nodes/n8n-nodes-base.erpnext.md) Prevented the node from throwing an error when no data is found.\n* [Gmail:](/integrations/builtin/app-nodes/n8n-nodes-base.gmail/index.md) Fixed a bug causing the BCC field to be ignored.\n* [Move Binary Data:](/integrations/builtin/core-nodes/n8n-nodes-base.converttofile.md) Fixed a bug causing the binary data to JSON conversion to fail when using filesystem-based binary data handling.\n* [Slack:](/integrations/builtin/app-nodes/n8n-nodes-base.slack.md) Fixed a typo in the Type field."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 201,
+  "content": "### New features\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Workflow sharing\n\nThis release introduces workflow sharing for users on some plans. With workflow sharing, users can invite other users on the same n8n instance to use and edit their workflows. Refer to [Workflow sharing](/workflows/sharing.md) for details.\n\n</div>"
+}

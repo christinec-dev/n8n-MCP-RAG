@@ -1,0 +1,5 @@
+{
+  "source": "docs/manage-cloud/ai-assistant.md",
+  "index": 8,
+  "content": "### How does the Assistant work?\n\nThe underlying logic of the assistant is build with the advanced AI capabilities of n8n. It uses a combination of different [agents](/glossary.md#ai-agent), specialized in different areas of n8n, RAG to gather knowledge from the docs and the community forum, and custom prompts, [memory](/glossary.md#ai-memory) and context.\n<!-- vale from-microsoft.HeadingPunctuation = YES -->"
+}

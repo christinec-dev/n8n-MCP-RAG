@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.ciscowebextrigger.md",
+  "index": 2,
+  "content": "# Webex by Cisco Trigger node\n\n[Webex by Cisco](https://webex.com/) is a web conferencing and videoconferencing application.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/ciscowebex.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Webex by Cisco Trigger integrations](https://n8n.io/integrations/webex-by-cisco-trigger/) page.\n///"
+}

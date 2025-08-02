@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 136,
+  "content": "### Node enhancements\n\n* Edit Image node: add support for WebP image format.\n* HubSpot Trigger node: add conversation events."
+}

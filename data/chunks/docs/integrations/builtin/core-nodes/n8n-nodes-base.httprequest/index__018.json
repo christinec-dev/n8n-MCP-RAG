@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md",
+  "index": 18,
+  "content": "### Proxy\n\nUse this option if you need to specify an HTTP proxy.\n\nEnter the **Proxy** the request should use. This takes precedence over global settings defined with the [`HTTP_PROXY`, `HTTPS_PROXY`, or `ALL_PROXY` environment variables](/hosting/configuration/environment-variables/deployment.md)."
+}

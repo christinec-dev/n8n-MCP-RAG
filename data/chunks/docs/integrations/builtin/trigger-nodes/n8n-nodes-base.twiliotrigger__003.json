@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.twiliotrigger.md",
+  "index": 3,
+  "content": "## Events\n\n* On New SMS\n* On New Call\n\n///  note  | New Call Delay\nIt can take Twilio up to thirty minutes to generate a summary for a completed call.\n///"
+}

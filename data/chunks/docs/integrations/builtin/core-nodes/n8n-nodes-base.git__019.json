@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.git.md",
+  "index": 19,
+  "content": "## Tag\n\nConfigure this operation with these parameters:\n\n* **Repository Path**: Enter the local path of the git repository.\n* **Name**: Enter the name of the tag to create in this field."
+}

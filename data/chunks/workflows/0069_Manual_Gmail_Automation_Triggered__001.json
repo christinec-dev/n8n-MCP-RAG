@@ -1,0 +1,14 @@
+{
+  "source": "0069_Manual_Gmail_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        -40,\n        240\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Gmail\",\n      \"type\": \"n8n-nodes-base.gmail\",\n      \"position\": [\n        150,\n        240\n      ],\n      \"parameters\": {\n        \"resource\": \"message\",\n        \"operation\": \"getAll\",\n        \"returnAll\": true,\n        \"additionalFields\": {\n          \"q\": \"-in:chats unsubscribe -license -key -password\",\n          \"format\": \"ids\"\n        }\n      },\n      \"credentials\": {\n        \"gmailOAuth2\": \"Gmail\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Delete Old Gmail\",\n      \"type\": \"n8n-nodes-base.gmail\",\n      \"position\": [\n        500,\n        410\n      ],\n      \"parameters\": {\n        \"resource\": \"message\",\n        \"messageId\": \"={{$json[\\\"id\\\"]}}\",\n        \"operation\": \"delete\"\n      },\n      \"credentials\": {\n        \"gmailOAuth2\": \"Gmail\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"SplitInBatches\",\n      \"type\": \"n8n-nodes-base.splitInBatches\",\n      \"position\": [\n        310,\n        240\n      ],\n      \"parameters\": {\n        \"options\": {},\n        \"batchSize\": 100\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Gmail\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"SplitInBatches\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"SplitInBatches\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Delete Old Gmail\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Delete Old Gmail\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"SplitInBatches\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Gmail\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.gmail",
+      "n8n-nodes-base.gmail",
+      "n8n-nodes-base.splitInBatches"
+    ],
+    "trigger": null
+  }
+}

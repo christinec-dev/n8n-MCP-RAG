@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/architecture/database-structure.md",
+  "index": 6,
+  "content": "### auth_provider_sync_history\n\nStores the history of a SAML connection."
+}

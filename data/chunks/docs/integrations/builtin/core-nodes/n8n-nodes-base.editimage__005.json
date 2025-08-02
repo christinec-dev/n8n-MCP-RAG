@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 5,
+  "content": "### Blur parameters\n\n* **Property Name**: Enter the name of the binary property that stores the image data.\n* **Blur**: Enter a number to set how strong the blur should be, between 0 and 1000. Higher numbers create blurrier images.\n* **Sigma**: Enter a number to set the stigma for the blur, between 0 and 1000. Higher numbers create blurrier images.\n\nRefer to [Node options](#node-options) for optional configuration options."
+}

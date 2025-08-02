@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/security-audit.md",
+  "index": 2,
+  "content": "# Security audit\n\nYou can run a security audit on your n8n instance, to detect common security issues."
+}

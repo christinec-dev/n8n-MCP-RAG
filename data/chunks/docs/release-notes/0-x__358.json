@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 358,
+  "content": "### Node enhancements\n\n[Clockify node](/integrations/builtin/app-nodes/n8n-nodes-base.clockify.md): added three new resources: Client, User, and Workspace. Also added support for custom API calls."
+}

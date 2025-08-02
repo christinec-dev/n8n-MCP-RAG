@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 479,
+  "content": "### Enhanced nodes\n\n\n* [GitHub:](/integrations/builtin/app-nodes/n8n-nodes-base.github.md) Added Reference option to the Get operation of the File resource.\n* [Twilio:](/integrations/builtin/app-nodes/n8n-nodes-base.twilio.md) Added Status Callbacks option.\n* [uProc:](/integrations/builtin/app-nodes/n8n-nodes-base.uproc.md) Sanitized Data Webhook field description."
+}

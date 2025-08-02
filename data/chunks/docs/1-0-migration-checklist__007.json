@@ -1,0 +1,5 @@
+{
+  "source": "docs/1-0-migration-checklist.md",
+  "index": 7,
+  "content": "### MySQL and MariaDB\n\nn8n has deprecated support for MySQL and MariaDB as storage backends for n8n. These database systems are used by only a few users, yet they require continuous development and maintenance efforts. n8n recommends migrating to PostgreSQL for better compatibility and long-term support.\n\n[PR #6189](https://github.com/n8n-io/n8n/pull/6189)"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.notion/common-issues.md",
+  "index": 5,
+  "content": "## Handle null and empty values\n\nYou may receive a validation error when working with the Notion node if you submit fields with empty or null values. This can occur any time you populate fields from previous nodes when that data is missing.\n\nTo work around this, check for the existence of the field data before sending it to Notion or use a default value.\n\nTo check for the data before executing the Notion node, use an [If](/integrations/builtin/core-nodes/n8n-nodes-base.if.md) node to check whether the field is unset. This allows you to use the [Edit Fields (Set)](/integrations/builtin/core-nodes/n8n-nodes-base.set.md) node to conditionally remove the field when it doesn't have a valid value.\n\nAs an alternative, you can set a [default value](/code/cookbook/expressions/check-incoming-data.md) if the incoming data doesn't provide one."
+}

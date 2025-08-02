@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/usage.md",
+  "index": 4,
+  "content": "## Community nodes with duplicate names\n\nIt's possible for several community nodes to have the same name. If you use two nodes with the same name in your workflow, they'll look the same, unless they have different icons."
+}

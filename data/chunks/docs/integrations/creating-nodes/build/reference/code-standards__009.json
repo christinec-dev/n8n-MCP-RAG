@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/code-standards.md",
+  "index": 9,
+  "content": "## Detailed guidelines for writing a programmatic-style node\n\nThese guidelines apply when building nodes using the programmatic node-building style. They aren't relevant when using the declarative style. For more information on different node-building styles, refer to [Choose your node building approach](/integrations/creating-nodes/plan/choose-node-method.md)."
+}

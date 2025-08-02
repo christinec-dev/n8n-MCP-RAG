@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-two/index.md",
+  "index": 4,
+  "content": "## What will I learn in this course?\n\nThe focus in this course is on working with data. You will learn how to:\n\n- Use the data structure of n8n correctly.\n- Process different data types (for example, XML, HTML, date, time, and binary data).\n- Merge data from different sources (for example, a database, spreadsheet, or CRM).\n- Use functions and JavaScript code in the [Code node](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md).\n- Deal with error workflows and workflow errors.\n\nYou will learn all this by completing short practical exercises after the theoretical explanations and building a business workflow following instructions."
+}

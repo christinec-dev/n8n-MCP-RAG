@@ -1,0 +1,13 @@
+{
+  "source": "0302_Manual_N8Ntrainingcustomerdatastore_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"id\": \"41e0d0a9-9bd4-4ece-a204-5e1bf507b0eb\",\n      \"meta\": {\n        \"instanceId\": \"cb9c144f2050b3f9b30bf379399398f9061341e3665eb2faf2b1092a42b38b14\"\n      },\n      \"name\": \"When clicking \\\"Execute Workflow\\\"\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        820,\n        400\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"aa373efa-d493-44cd-91ee-e07630309675\",\n      \"name\": \"Customer Datastore (n8n training)\",\n      \"type\": \"n8n-nodes-base.n8nTrainingCustomerDatastore\",\n      \"position\": [\n        1040,\n        400\n      ],\n      \"parameters\": {\n        \"operation\": \"getAllPeople\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"id\": \"29555ae0-ad6c-4888-8865-c1e097b3b44e\",\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        1260,\n        400\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"number\": [\n            {\n              \"name\": \"itemCount\",\n              \"value\": \"={{ $input.all().length }}\"\n            }\n          ]\n        },\n        \"options\": {},\n        \"keepOnlySet\": true\n      },\n      \"executeOnce\": true,\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"When clicking \\\"Execute Workflow\\\"\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Customer Datastore (n8n training)\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Customer Datastore (n8n training)\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.n8nTrainingCustomerDatastore",
+      "n8n-nodes-base.set"
+    ],
+    "trigger": null
+  }
+}

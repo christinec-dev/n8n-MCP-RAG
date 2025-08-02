@@ -1,0 +1,12 @@
+{
+  "source": "1210_Manual_Affinity_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"95\",\n  \"name\": \"Create an organization in Affinity\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        400,\n        250\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Affinity\",\n      \"type\": \"n8n-nodes-base.affinity\",\n      \"position\": [\n        600,\n        250\n      ],\n      \"parameters\": {\n        \"name\": \"\",\n        \"domain\": \"\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"affinityApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Affinity\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.affinity"
+    ],
+    "trigger": null
+  }
+}

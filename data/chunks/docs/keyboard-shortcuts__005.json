@@ -1,0 +1,5 @@
+{
+  "source": "docs/keyboard-shortcuts.md",
+  "index": 5,
+  "content": "### Move the canvas\n\n - **Ctrl** + **Left Mouse Button** + drag: move node view\n - **Ctrl** + **Middle mouse button** + drag: move node view\n - **Space** + drag: move node view\n - **Middle mouse button** + drag: move node view\n - Two fingers on a touch screen: move node view"
+}

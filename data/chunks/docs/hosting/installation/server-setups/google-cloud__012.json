@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/google-cloud.md",
+  "index": 12,
+  "content": "### Postgres environment variables\n\nPostgres needs some environment variables set to pass to the application running in the containers.\n\nThe example `postgres-secret.yaml` file contains placeholders you need to replace with your own values. Postgres will use these details when creating the database..\n\nThe `postgres-deployment.yaml` manifest then uses the values from this manifest file to send to the application pods."
+}

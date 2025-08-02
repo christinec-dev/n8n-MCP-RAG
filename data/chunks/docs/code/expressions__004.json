@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/expressions.md",
+  "index": 4,
+  "content": "### Example: Get data from webhook body\n\nConsider the following scenario: you have a webhook trigger that receives data through the webhook body. You want to extract some of that data for use in the workflow.\n\nYour webhook data looks similar to this:\n\n\n```json\n[\n  {\n    \"headers\": {\n      \"host\": \"n8n.instance.address\",\n      ...\n    },\n    \"params\": {},\n    \"query\": {},\n    \"body\": {\n      \"name\": \"Jim\",\n      \"age\": 30,\n      \"city\": \"New York\"\n    }\n  }\n]\n```\n\n\nIn the next node in the workflow, you want to get just the value of `city`. You can use the following expression:\n\n\n```js\n{{$json.body.city}}\n```\n\nThis expression:\n\n1. Accesses the incoming JSON-formatted data using n8n's custom `$json` variable.\n2. Finds the value of `city` (in this example, \"New York\"). Note that this example uses JMESPath syntax to query the JSON data. You can also write this expression as `{{$json['body']['city']}}`."
+}

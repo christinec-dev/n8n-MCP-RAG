@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 415,
+  "content": "## n8n@1.12.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.11.1...n8n@1.12.0) for this version.<br />\n**Release date:** 2023-10-18\n\nThis release contains new features, node enhancements, and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Form Trigger node\n\nThis releases introduces a new node, the [n8n Form Trigger](/integrations/builtin/core-nodes/n8n-nodes-base.formtrigger.md). Use this node to start a workflow based on a user submitting a form. It provides a configurable form interface.\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

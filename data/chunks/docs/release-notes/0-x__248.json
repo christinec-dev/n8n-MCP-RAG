@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 248,
+  "content": "### Bug fixes\n\n* API: validate executions and workflow filter parameters.\n* Core: amend typing for `jsonParse()` options.\n* Core: fix `predefinedCredentialType` in node graph item.\n* Core: fix canvas node execution skipping parent nodes.\n* Core: fix single node execution failing in `main` mode.\n* Core: set JWT authentication token `sameSite` policy to `lax`.\n* Core: update to imports in helpers.\n* Editor: curb item method linting in single-item mode.\n* Editor: stop rendering expressions as HTML.\n* Email Trigger node: backport V2 mark-seen-after processing to V1.\n* Email Trigger node: improve connection handling and credentials.\n* HTTP Request node: fix sending previously selected credentials.\n* TheHive node: small fixes."
+}

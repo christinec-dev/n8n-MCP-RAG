@@ -1,0 +1,12 @@
+{
+  "source": "0017_Mattermost_Emelia_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Mattermost\",\n      \"type\": \"n8n-nodes-base.mattermost\",\n      \"position\": [\n        650,\n        200\n      ],\n      \"parameters\": {\n        \"message\": \"={{$json[\\\"contact\\\"][\\\"firstName\\\"]}} from {{$json[\\\"contact\\\"][\\\"company\\\"]}} has replied back to your campaign.\",\n        \"channelId\": \"qx9yo1i9z3bg5qcy5a1oxnh69c\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"mattermostApi\": \"Mattermost Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Emelia Trigger\",\n      \"type\": \"n8n-nodes-base.emeliaTrigger\",\n      \"position\": [\n        450,\n        200\n      ],\n      \"webhookId\": \"f53bc370-a8cb-4748-8f81-be7ae9b94972\",\n      \"parameters\": {\n        \"events\": [\n          \"replied\"\n        ],\n        \"campaignId\": \"6054d068b374b64365740101\"\n      },\n      \"credentials\": {\n        \"emeliaApi\": \"Emelia API Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Emelia Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Mattermost\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.mattermost",
+      "n8n-nodes-base.emeliaTrigger"
+    ],
+    "trigger": "emelia trigger"
+  }
+}

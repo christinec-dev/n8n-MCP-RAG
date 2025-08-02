@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 660,
+  "content": "### New nodes\n\n* [Freshworks CRM](/integrations/builtin/app-nodes/n8n-nodes-base.freshworkscrm.md)\n* [Google Perspective](/integrations/builtin/app-nodes/n8n-nodes-base.googleperspective.md)\n* [Marketstack](/integrations/builtin/app-nodes/n8n-nodes-base.marketstack.md)\n* [NocoDB](/integrations/builtin/app-nodes/n8n-nodes-base.nocodb.md)"
+}

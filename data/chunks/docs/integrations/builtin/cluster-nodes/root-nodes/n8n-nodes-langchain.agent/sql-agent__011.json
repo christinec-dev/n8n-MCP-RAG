@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/sql-agent.md",
+  "index": 11,
+  "content": "### Suffix Prompt\n\nEnter a message you'd like to send to the agent after the **Prompt** text.\n\nAvailable LangChain expressions:\n\n* `{chatHistory}`: A history of messages in this conversation, useful for maintaining context.\n* `{input}`: Contains the user prompt.\n* `{agent_scratchpad}`: Information to remember for the next iteration.\n\nn8n fills this field with an example."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.editimage.md",
+  "index": 15,
+  "content": "### Shear parameters\n\n* **Property Name**: Enter the name of the binary property that stores the image data.\n* **Degrees X**: Enter the number of degrees to shear from the x axis.\n* **Degrees Y**: Enter the number of degrees to shear from the y axis.\n\nRefer to [Node options](#node-options) for optional configuration options."
+}

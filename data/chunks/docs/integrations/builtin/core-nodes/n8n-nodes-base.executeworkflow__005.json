@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflow.md",
+  "index": 5,
+  "content": "### Workflow Inputs\n\nIf you select a sub-workflow using the **database** and **From list** options, the sub-workflow's input items will automatically display, ready for you to fill in or map values.\n\nYou can optionally remove requested input items, in which case the sub-workflow receives `null` as the item's value. You can also enable **Attempt to convert types** to try to automatically convert data to the sub-workflow item's requested type.\n\nInput items won't appear if the sub-workflow's Workflow Input Trigger node uses the \"Accept all data\" input data mode."
+}

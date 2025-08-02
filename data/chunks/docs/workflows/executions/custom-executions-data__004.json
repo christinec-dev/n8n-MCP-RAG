@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/executions/custom-executions-data.md",
+  "index": 4,
+  "content": "### Set custom executions data\n\nSet a single piece of extra data:\n\n=== \"JavaScript\"\n\t```js\n\t$execution.customData.set(\"key\", \"value\");\n\t```\n=== \"Python\"\n\t```python\n\t_execution.customData.set(\"key\", \"value\");\n\t```\n\nSet all extra data. This overwrites the whole custom data object for this execution:\n\n=== \"JavaScript\"\n\t```js\n\t$execution.customData.setAll({\"key1\": \"value1\", \"key2\": \"value2\"})\n\t```\n=== \"Python\"\n\t```python\n\t_execution.customData.setAll({\"key1\": \"value1\", \"key2\": \"value2\"})\n\t```\n\nThere are limitations:\n\n* They must be strings\n* `key` has a maximum length of 50 characters\n* `value` has a maximum length of 255 characters\n* n8n supports a maximum of 10 items of custom data"
+}

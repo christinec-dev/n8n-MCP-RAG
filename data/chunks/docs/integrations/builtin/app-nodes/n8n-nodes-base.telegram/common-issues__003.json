@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.telegram/common-issues.md",
+  "index": 3,
+  "content": "## Add a bot to a Telegram channel\n\nFor a bot to send a message to a channel, you must add the bot to the channel. If you haven't added the bot to the channel, you'll see an error with a description like:\n`Error: Forbidden: bot is not a participant of the channel`.\n\nTo add a bot to a channel:\n\n1. In the Telegram app, access the target channel and select the channel name.\n2. Label the channel name as **public channel**.\n3. Select **Administrators** > **Add Admin**.\n4. Search for the bot's username and select it.\n5. Select the checkmark on the top-right corner to add the bot to the channel."
+}

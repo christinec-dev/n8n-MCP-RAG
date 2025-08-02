@@ -1,0 +1,14 @@
+{
+  "source": "0195_Manual_Pagerduty_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"158\",\n  \"name\": \"Create, update, and get an incident on PagerDuty\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        240,\n        260\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"PagerDuty\",\n      \"type\": \"n8n-nodes-base.pagerDuty\",\n      \"position\": [\n        440,\n        260\n      ],\n      \"parameters\": {\n        \"email\": \"\",\n        \"title\": \"Firewall on Fire\",\n        \"serviceId\": \"\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"pagerDutyApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"PagerDuty2\",\n      \"type\": \"n8n-nodes-base.pagerDuty\",\n      \"position\": [\n        840,\n        260\n      ],\n      \"parameters\": {\n        \"operation\": \"get\",\n        \"incidentId\": \"={{$node[\\\"PagerDuty1\\\"].json[\\\"id\\\"]}}\"\n      },\n      \"credentials\": {\n        \"pagerDutyApi\": \"\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"PagerDuty1\",\n      \"type\": \"n8n-nodes-base.pagerDuty\",\n      \"position\": [\n        640,\n        260\n      ],\n      \"parameters\": {\n        \"email\": \"={{$node[\\\"PagerDuty\\\"].parameter[\\\"email\\\"]}}\",\n        \"operation\": \"update\",\n        \"incidentId\": \"={{$node[\\\"PagerDuty\\\"].json[\\\"id\\\"]}}\",\n        \"updateFields\": {\n          \"title\": \"Firewalls on Fire\"\n        }\n      },\n      \"credentials\": {\n        \"pagerDutyApi\": \"\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"PagerDuty\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"PagerDuty1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"PagerDuty1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"PagerDuty2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"PagerDuty\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.pagerDuty",
+      "n8n-nodes-base.pagerDuty",
+      "n8n-nodes-base.pagerDuty"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 353,
+  "content": "### Node enhancements\n\n* [DeepL node](/integrations/builtin/app-nodes/n8n-nodes-base.deepl.md): Add support for longer text fields, and add credentials tests.\n* [Facebook Graph API node](/integrations/builtin/app-nodes/n8n-nodes-base.facebookgraphapi.md): Add support for Facebook Graph API 14.\n* [JIRA node](/integrations/builtin/app-nodes/n8n-nodes-base.jira.md): Add support for the simplified option with rendered fields.\n* [Webflow Trigger node](/integrations/builtin/trigger-nodes/n8n-nodes-base.webflowtrigger.md): Reduce the chance of webhook duplication. Add a credentials test.\n* [WordPress node](/integrations/builtin/app-nodes/n8n-nodes-base.wordpress.md): Add a post template option."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-codex-files.md",
+  "index": 3,
+  "content": "## Node categories\n\nYou can define one or more categories in your node configuration JSON. This helps n8n put the node in the correct category in the nodes panel.\n\nChoose from these categories:\n\n* Data & Storage\n* Finance & Accounting\n* Marketing & Content\n* Productivity\n* Miscellaneous\n* Sales\n* Development\n* Analytics\n* Communication\n* Utility\n\nYou must match the syntax. For example, `Data & Storage` not `data and storage`."
+}

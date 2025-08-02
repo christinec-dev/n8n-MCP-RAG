@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 3,
+  "content": "## Semantic versioning in n8n\n\nn8n uses [semantic versioning](https://semver.org/). All version numbers are in the format `MAJOR.MINOR.PATCH`. Version numbers increment as follows:\n\n* MAJOR version when making incompatible changes which can require user action.\n* MINOR version when adding functionality in a backward-compatible manner.\n* PATCH version when making backward-compatible bug fixes.\n\n/// note | Older versions\nYou can find the release notes for older versions of n8n [here](/release-notes/0-x.md)\n///"
+}

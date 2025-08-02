@@ -1,0 +1,13 @@
+{
+  "source": "1220_Airtable_Lemlist_Automate.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"Airtable\",\n      \"type\": \"n8n-nodes-base.airtable\",\n      \"position\": [\n        440,\n        320\n      ],\n      \"parameters\": {\n        \"operation\": \"list\",\n        \"additionalOptions\": {}\n      },\n      \"credentials\": {\n        \"airtableApi\": \"Airtable Credentials n8n\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Lemlist\",\n      \"type\": \"n8n-nodes-base.lemlist\",\n      \"position\": [\n        640,\n        320\n      ],\n      \"parameters\": {\n        \"email\": \"={{$json[\\\"fields\\\"][\\\"Email\\\"]}}\",\n        \"resource\": \"lead\",\n        \"campaignId\": \"cam_H5pYEryq6mRKBiy5v\",\n        \"additionalFields\": {\n          \"firstName\": \"={{$json[\\\"fields\\\"][\\\"Name\\\"]}}\"\n        }\n      },\n      \"credentials\": {\n        \"lemlistApi\": \"Lemlist API Credentials\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Lemlist1\",\n      \"type\": \"n8n-nodes-base.lemlist\",\n      \"position\": [\n        840,\n        320\n      ],\n      \"parameters\": {\n        \"email\": \"={{$node[\\\"Airtable\\\"].json[\\\"fields\\\"][\\\"Email\\\"]}}\",\n        \"resource\": \"lead\",\n        \"operation\": \"get\"\n      },\n      \"credentials\": {\n        \"lemlistApi\": \"Lemlist API Credentials\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"Lemlist\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Lemlist1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Airtable\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Lemlist\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.airtable",
+      "n8n-nodes-base.lemlist",
+      "n8n-nodes-base.lemlist"
+    ],
+    "trigger": null
+  }
+}

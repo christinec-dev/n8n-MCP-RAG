@@ -1,0 +1,5 @@
+{
+  "source": "docs/license-key.md",
+  "index": 3,
+  "content": "## Add a license key using the UI\n\nIn your n8n instance:\n\n1. Log in as **Admin** or **Owner**.\n1. Select **Settings** > **Usage and plan**.\n1. Select **Enter activation key**.\n1. Paste in your license key.\n1. Select **Activate**."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 307,
+  "content": "### Enhancements\n\n* Docker: reduce the size of Alpine Docker images.\n* Editor: improve mapping tooltip behavior."
+}

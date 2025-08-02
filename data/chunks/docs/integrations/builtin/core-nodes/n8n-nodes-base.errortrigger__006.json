@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.errortrigger.md",
+  "index": 6,
+  "content": "## Error data\n\n--8<-- \"_snippets/integrations/builtin/core-nodes/error-trigger/error-data.md\""
+}

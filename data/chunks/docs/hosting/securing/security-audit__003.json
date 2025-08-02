@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/securing/security-audit.md",
+  "index": 3,
+  "content": "## Run an audit\n\nYou can run an audit using the CLI, the public API, or the n8n node."
+}

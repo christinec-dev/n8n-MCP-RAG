@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/using/push-pull.md",
+  "index": 9,
+  "content": "### Workflows\n\nYou have to explicitly tell n8n what to do about workflows when pushing or pulling. The Git repository acts as the source of truth.\n\nWhen pulling, you might get warned that your local copy of a workflow differs from Git, and if you accept, your local copy would be overridden. Be careful not to lose relevant changes when pulling.\n\nWhen you push, your local workflow will override what's in Git, so make sure that you have the most up to date version or you risk overriding recent changes.\n\nTo prevent the issue described above, you should immediately push your changes to a workflow once you finish working on it. Then it's safe to pull.\n\nTo avoid losing data:\n\n* Design your source control setup so that workflows flow in one direction. For example, make edits on a development instance, push to Git, then pull to production. Don't make edits on the production instance and push them.\n* Don't push all workflows. Select the ones you need.\n* Be cautious about manually editing files in the Git repository."
+}

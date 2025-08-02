@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/environment-variables/task-runners.md",
+  "index": 2,
+  "content": "# Task runner environment variables\n\n--8<-- \"_snippets/self-hosting/file-based-configuration.md\"\n\n[Task runners](/hosting/configuration/task-runners.md) execute code defined by the [Code node](/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md)."
+}

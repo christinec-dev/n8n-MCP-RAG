@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.affinitytrigger.md",
+  "index": 2,
+  "content": "# Affinity Trigger node\n\n[Affinity](https://www.affinity.co/) is a powerful relationship intelligence platform enabling teams to leverage their network to close the next big deal.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/affinity.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Affinity Trigger integrations](https://n8n.io/integrations/affinity-trigger/) page.\n///"
+}

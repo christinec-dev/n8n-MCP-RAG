@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.bubble.md",
+  "index": 2,
+  "content": "# Bubble node\n\nUse the Bubble node to automate work in Bubble, and integrate Bubble with other applications. n8n has built-in support for a wide range of Bubble features, including creating, deleting, getting, and updating objects.\n\nOn this page, you'll find a list of operations the Bubble node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Bubble credentials](/integrations/builtin/credentials/bubble.md) for guidance on setting up authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

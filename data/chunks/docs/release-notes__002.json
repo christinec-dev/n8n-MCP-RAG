@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 2,
+  "content": "# Release notes\n\nNew features and bug fixes for n8n.\n\nYou can also view the [Releases](https://github.com/n8n-io/n8n/releases) in the GitHub repository.\n\n--8<-- \"_snippets/self-hosting/installation/latest-next-version.md\"\n\n--8<-- \"_snippets/update-n8n.md\""
+}

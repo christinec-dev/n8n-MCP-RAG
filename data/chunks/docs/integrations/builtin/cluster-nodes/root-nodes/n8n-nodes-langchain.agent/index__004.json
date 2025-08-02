@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/index.md",
+  "index": 4,
+  "content": "## Related resources\n\nRefer to [LangChain's documentation on agents](https://js.langchain.com/docs/concepts/agents/) for more information about the service.\n\nNew to AI Agents? Read the [n8n blog introduction to AI agents](https://blog.n8n.io/ai-agents/).\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-overview-link.md\""
+}

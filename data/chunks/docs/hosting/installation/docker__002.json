@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/docker.md",
+  "index": 2,
+  "content": "# Docker Installation\n\n[Docker](https://www.docker.com/) offers the following advantages:\n\n* Installs n8n in a clean environment.\n* Easier setup for your preferred database.\n* Can avoid issues due to different operating systems, as Docker provides a consistent system.\n* Can avoid compatibility issues due to differences in operating systems and tools.\n* Makes migrating to new hosts or environments more straightforward.\n\nYou can also use n8n in Docker with [Docker Compose](/hosting/installation/server-setups/docker-compose.md). You can find Docker Compose configurations for various architectures in the [n8n-hosting repository](https://github.com/n8n-io/n8n-hosting).\n\n--8<-- \"_snippets/self-hosting/warning.md\""
+}

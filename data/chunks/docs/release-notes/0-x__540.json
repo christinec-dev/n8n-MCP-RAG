@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 540,
+  "content": "### Core Functionality\n\n- Added a plus (+) connector to end nodes\n- Allowed opening workflows and executions in a new window when using Ctrl + Click\n- Enforced type checking for all node parameters\n- Fixed a build issue in the custom n8n docker image\n- Fixed a memory leak in the UI which could occur when renaming nodes or navigate to another workflow\n- Improved stability of internal test workflows\n- Improved expression security\n- Introduced redirect to a new page and UI error message when trying to open a deleted workflow\n- Introduced support for multiple arguments when logging\n- Updated the onboarding survey"
+}

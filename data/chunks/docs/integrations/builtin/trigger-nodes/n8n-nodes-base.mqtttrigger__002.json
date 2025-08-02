@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.mqtttrigger.md",
+  "index": 2,
+  "content": "# MQTT Trigger node\n\n[MQTT](https://mqtt.org) is an open OASIS and ISO standard lightweight, publish-subscribe network protocol that transports messages between devices.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/mqtt.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [MQTT Trigger integrations](https://n8n.io/integrations/mqtt-trigger/) page.\n///"
+}

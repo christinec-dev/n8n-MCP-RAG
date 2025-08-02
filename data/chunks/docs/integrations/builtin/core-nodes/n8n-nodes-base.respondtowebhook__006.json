@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.respondtowebhook.md",
+  "index": 6,
+  "content": "## Node options\n\nSelect **Add Option** to view and set the options.\n\n- **Response Code**: Set the [response code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) to use.\n- **Response Headers**: Define the response headers to send.\n- **Put Response in Field**: Available when you respond with **All Incoming Items** or **First Incoming Item**. Set the field name for the field containing the response data."
+}

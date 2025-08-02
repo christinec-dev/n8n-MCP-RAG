@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.markdown.md",
+  "index": 10,
+  "content": "## Parsers\n\nn8n uses the following parsers:\n\n* To convert from HTML to Markdown: [node-html-markdown](https://www.npmjs.com/package/node-html-markdown).\n* To convert from Markdown to HTML: [Showdown](https://www.npmjs.com/package/showdown). Some options allow you to extend your Markdown with [GitHub Flavored Markdown](https://github.github.com/gfm/)."
+}

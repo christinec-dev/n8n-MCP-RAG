@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.aitransform.md",
+  "index": 4,
+  "content": "### Instructions\n\nEnter your prompt for the AI and click the **Generate code** button to automatically populate the **Transformation Code**. For example, you can specify how you want to process or categorize your data. Refer to [Writing good prompts](/code/ai-code.md#writing-good-prompts) for more information. \n\nThe prompt should be in plain English and under 500 characters."
+}

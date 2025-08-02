@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/index.md",
+  "index": 2,
+  "content": "# OpenAI node\n\nUse the OpenAI node to automate work in OpenAI and integrate OpenAI with other applications. n8n has built-in support for a wide range of OpenAI features, including creating images and assistants, as well as chatting with models. \n\nOn this page, you'll find a list of operations the OpenAI node supports and links to more resources.\n\n/// note | OpenAI Assistant node\nThe OpenAI node replaces the OpenAI assistant node from version 1.29.0 on.\n///\n\n/// note | Credentials\nRefer to [OpenAI credentials](/integrations/builtin/credentials/openai.md) for guidance on setting up authentication. \n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.customeriotrigger.md",
+  "index": 2,
+  "content": "# Customer.io Trigger node\n\n[Customer.io](https://customer.io/) enables users to send newsletters to selected segments of customers using their website data. You can send targeted emails, push notifications, and SMS to lower churn, create stronger relationships, and drive subscriptions.\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/customerio.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Customer.io Trigger integrations](https://n8n.io/integrations/customerio-trigger/) page.\n///"
+}

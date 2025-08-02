@@ -1,0 +1,5 @@
+{
+  "source": "docs/embed/prerequisites.md",
+  "index": 3,
+  "content": "## CPU considerations\n\nn8n isn't CPU intensive so even small instances (of providers such as AWS and GCP) should be enough for most use cases. Usually, memory requirements supersede CPU requirements, so focus resources there when planning your infrastructure."
+}

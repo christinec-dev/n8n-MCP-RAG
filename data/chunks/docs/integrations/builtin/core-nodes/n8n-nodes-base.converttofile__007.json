@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.converttofile.md",
+  "index": 7,
+  "content": "### Convert to JSON\n\nChoose the best output **Mode** for your needs from these options:\n\n* **All Items to One File**: Send all input items to a single file.\n* **Each Item to Separate File**: Create a file for every input item.\n\n#### Convert to JSON options\n\nYou can also configure this operation with these **Options**:\n\n* **File Name**: Enter the file name for the generated output file.\n* **Format**: Choose whether to format the JSON for easier reading (turned on) or not (turned off).\n* **Encoding**: Choose the character set to use to encode the data. The default is **utf8**."
+}

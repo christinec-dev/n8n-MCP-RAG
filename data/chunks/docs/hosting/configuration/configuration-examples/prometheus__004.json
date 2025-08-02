@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/configuration/configuration-examples/prometheus.md",
+  "index": 4,
+  "content": "# HELP n8n_scaling_mode_queue_jobs_active Current number of jobs being processed across all workers in scaling mode."
+}

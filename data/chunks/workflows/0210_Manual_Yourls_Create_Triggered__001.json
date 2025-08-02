@@ -1,0 +1,13 @@
+{
+  "source": "0210_Manual_Yourls_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"167\",\n  \"name\": \"Create a short URL and get the statistics of the URL\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        370,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Yourls\",\n      \"type\": \"n8n-nodes-base.yourls\",\n      \"position\": [\n        570,\n        300\n      ],\n      \"parameters\": {\n        \"url\": \"https://medium.com/n8n-io/sending-sms-the-low-code-way-with-airtable-twilio-programmable-sms-and-n8n-90dbde74223e?source=---------4-----------------------\",\n        \"additionalFields\": {\n          \"title\": \"Sending SMS the Low-Code Way with Airtable, Twilio Programmable SMS, and n8n\"\n        }\n      },\n      \"credentials\": {\n        \"yourlsApi\": \"Yourls\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Yourls1\",\n      \"type\": \"n8n-nodes-base.yourls\",\n      \"position\": [\n        770,\n        300\n      ],\n      \"parameters\": {\n        \"shortUrl\": \"={{$node[\\\"Yourls\\\"].json[\\\"shorturl\\\"]}}\",\n        \"operation\": \"stats\"\n      },\n      \"credentials\": {\n        \"yourlsApi\": \"Yourls\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Yourls\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Yourls1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Yourls\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.yourls",
+      "n8n-nodes-base.yourls"
+    ],
+    "trigger": null
+  }
+}

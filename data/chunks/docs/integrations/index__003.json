@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/index.md",
+  "index": 3,
+  "content": "## Built-in nodes\n\nn8n includes a collection of built-in integrations. Refer to [Built-in nodes](/integrations/builtin/node-types.md) for documentation on all n8n's built-in nodes."
+}

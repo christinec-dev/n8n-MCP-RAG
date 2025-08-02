@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.webhook/index.md",
+  "index": 9,
+  "content": "### Respond\n\n* **Immediately**: The Webhook node returns the response code and the message **Workflow got started**.\n* **When Last Node Finishes**: The Webhook node returns the response code and the data output from the last node executed in the workflow.\n* **Using 'Respond to Webhook' Node**: The Webhook node responds as defined in the [Respond to Webhook](/integrations/builtin/core-nodes/n8n-nodes-base.respondtowebhook.md) node."
+}

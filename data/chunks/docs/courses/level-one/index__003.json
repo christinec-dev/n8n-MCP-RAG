@@ -1,0 +1,5 @@
+{
+  "source": "docs/courses/level-one/index.md",
+  "index": 3,
+  "content": "## Is this course right for me?\n\nThis course introduces you to the fundamental concepts within n8n and develops your low-code automation expertise.\n\nThis course is for you if you:\n\n- Are starting to use n8n for the first time.\n- Are looking for some extra help creating your first workflow.\n- Want to automate processes in your personal or working life.\n\nThis course introduces n8n concepts and demonstrates practical workflow building without assuming any prior familiarity with n8n. If you'd like to get a feel for the basics without as much explanation, consult our [quickstart guide](/try-it-out/tutorial-first-workflow.md)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainsummarization.md",
+  "index": 2,
+  "content": "# Summarization Chain node\n\nUse the Summarization Chain node to summarize multiple documents.\n\nOn this page, you'll find the node parameters for the Summarization Chain node, and links to more resources."
+}

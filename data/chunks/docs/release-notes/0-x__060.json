@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 60,
+  "content": "### Bug fixes\n\n* Core: Fix paired item returning wrong data.\n* Core: Make getExecutionId available on all nodes types.\n* Editor: Fix memory leak in Node Detail View by correctly unsubscribing from event buses.\n* Editor: Fix moving canvas on middle click preventing lasso selection.\n* Editor: Settings sidebar should disconnect from push when navigating away.\n* Google Sheets Trigger Node: Return actual error message.\n* HTTP Request Node: Fix `itemIndex` in HTTP Request errors.\n* Notion Node: Update credential test to not require user permissions."
+}

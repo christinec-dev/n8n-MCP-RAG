@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 7,
+  "content": "## `description`\n\n_String_ | _Required_\n\nA short description of the node. n8n uses this in the GUI."
+}

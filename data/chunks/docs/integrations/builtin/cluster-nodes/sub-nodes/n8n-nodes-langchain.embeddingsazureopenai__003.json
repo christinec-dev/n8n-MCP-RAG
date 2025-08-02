@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsazureopenai.md",
+  "index": 3,
+  "content": "## Node options\n\n* **Model (Deployment) Name**: Select the model (deployment) to use for generating embeddings.\n* **Batch Size**: Enter the maximum number of documents to send in each request.\n* **Strip New Lines**: Select whether to remove new line characters from input text (turned on) or not (turned off). n8n enables this by default.\n* **Timeout**: Enter the maximum amount of time a request can take in seconds. Set to `-1` for no timeout."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/schema-preview.md",
+  "index": 3,
+  "content": "## Using the preview \n\n1. There must be a node with Schema Preview available in your workflow.\n1. When clicking on the details of the next node in the sequence, the Schema Preview data will show up in the Node Editor where schema data would typically be exposed.\n1. Use data from the Schema Preview just as you would other schemas - drag and drop fields as input into your node parameters and settings."
+}

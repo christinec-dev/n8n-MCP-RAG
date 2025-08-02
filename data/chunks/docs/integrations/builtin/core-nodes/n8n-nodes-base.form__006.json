@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.form.md",
+  "index": 6,
+  "content": "### Including hidden fields\n\nIt's possible to include fields in a form without displaying them to users. This is useful when you want to pass extra data to the form that doesn't require interactive user input.\n\nTo add fields that won't show up on the form, use the **Hidden Field** form element. There, you can define the **Field Name** and optionally provide a default value by filling out the **Field Value**.\n\nWhen serving the form, you can pass values for hidden fields using [query parameters](#set-default-selections-with-query-parameters)."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/setup.md",
+  "index": 3,
+  "content": "## Prerequisites\n\nTo use source control with n8n, you need a Git repository that allows SSH access. \n\nThis document assumes you are familiar with Git and your Git provider."
+}

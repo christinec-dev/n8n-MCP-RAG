@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.figmatrigger.md",
+  "index": 2,
+  "content": "# Figma Trigger (Beta) node\n\n[Figma](https://www.figma.com/) is a prototyping tool which is primarily web-based, with more offline features enabled by desktop applications for macOS and Windows.\n\n/// warning | Supported Figma Plans\nFigma doesn't support webhooks on the free \"Starter\" plan. Your team needs to be on the \"Professional\" plan to use this node.\n///\n\n/// note | Credentials\nYou can find authentication information for this node [here](/integrations/builtin/credentials/figma.md).\n///\n\n///  note  | Examples and templates\nFor usage examples and templates to help you get started, refer to n8n's [Figma Trigger integrations](https://n8n.io/integrations/figma-trigger-beta/) page.\n///"
+}

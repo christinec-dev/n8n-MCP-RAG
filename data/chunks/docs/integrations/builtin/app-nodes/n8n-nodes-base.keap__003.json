@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.keap.md",
+  "index": 3,
+  "content": "## Operations\n\n* Company\n    * Create a company\n    * Retrieve all companies\n* Contact\n    * Create/update a contact\n    * Delete an contact\n    * Retrieve an contact\n    * Retrieve all contacts\n* Contact Note\n    * Create a note\n    * Delete a note\n    * Get a notes\n    * Retrieve all notes\n    * Update a note\n* Contact Tag\n    * Add a list of tags to a contact\n    * Delete a contact's tag\n    * Retrieve all contact's tags\n* Ecommerce Order\n    * Create an ecommerce order\n    * Get an ecommerce order\n    * Delete an ecommerce order\n    * Retrieve all ecommerce orders\n* Ecommerce Product\n    * Create an ecommerce product\n    * Delete an ecommerce product\n    * Get an ecommerce product\n    * Retrieve all ecommerce product\n* Email\n    * Create a record of an email sent to a contact\n    * Retrieve all sent emails\n    * Send Email\n* File\n    * Delete a file\n    * Retrieve all files\n    * Upload a file"
+}

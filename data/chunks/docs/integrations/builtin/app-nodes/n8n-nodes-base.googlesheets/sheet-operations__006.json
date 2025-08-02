@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/sheet-operations.md",
+  "index": 6,
+  "content": "### Options\n--8<-- \"_snippets/integrations/builtin/app-nodes/googlesheets/node-options.md\"\n\nRefer to the [Method: spreadsheets.values.append | Google Sheets](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/append) API documentation for more information."
+}

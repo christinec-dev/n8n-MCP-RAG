@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 407,
+  "content": "## n8n@1.14.0\n\nView the [commits](https://github.com/n8n-io/n8n/compare/n8n@1.13.0...n8n@1.14.0) for this version.<br />\n**Release date:** 2023-10-25\n\nThis release contains node enhancements and bug fixes.\n\n<div class=\"n8n-new-features\" markdown>\n\n#### Switch node supports more outputs\n\nThe [Switch node](/integrations/builtin/core-nodes/n8n-nodes-base.switch.md) now supports an unlimited number of outputs.\n\n</div>\n\nFor full release details, refer to [Releases](https://github.com/n8n-io/n8n/releases) on GitHub."
+}

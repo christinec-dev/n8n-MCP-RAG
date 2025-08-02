@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.splitout.md",
+  "index": 5,
+  "content": "### Include\n\nSelect whether and how you want n8n to keep any other fields from the input data with each new individual item.\n\nYou can select:\n\n* **No Other Fields**: No other fields will be included.\n* **All Other Fields**: All other fields will be included.\n* **Selected Other Fields**: Only the selected fields will be included.\n    * **Fields to Include**: Enter a comma separated list of the fields you want to include."
+}

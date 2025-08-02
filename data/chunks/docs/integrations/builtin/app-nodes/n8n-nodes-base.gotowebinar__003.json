@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.gotowebinar.md",
+  "index": 3,
+  "content": "## Operations\n\n* Attendee\n    * Get\n    * Get All\n    * Get Details\n* Co-Organizer\n    * Create\n    * Delete\n    * Get All\n    * Re-invite\n* Panelist\n    * Create\n    * Delete\n    * Get All\n    * Re-invite\n* Registrant\n    * Create\n    * Delete\n    * Get\n    * Get All\n* Session\n    * Get\n    * Get All\n    * Get Details\n* Webinar\n    * Create\n    * Get\n    * Get All\n    * Update"
+}

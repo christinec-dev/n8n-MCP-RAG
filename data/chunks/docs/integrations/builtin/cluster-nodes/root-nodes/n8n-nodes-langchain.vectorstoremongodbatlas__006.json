@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoremongodbatlas.md",
+  "index": 6,
+  "content": "### Connect directly to an AI agent as a tool\n\nYou can connect the MongoDB Atlas Vector Store node directly to the tool connector of an [AI agent](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/index.md) to use the vector store as a resource when answering queries.\n\nHere, the connection would be: AI agent (tools connector) -> MongoDB Atlas Vector Store node."
+}

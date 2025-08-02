@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 641,
+  "content": "### Bug fixes\n\n* [Interval:](/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/index.md) Fixed issue where entering too large a value (> 2147483647ms) resulted in an interval of 1sec being used rather than an error."
+}

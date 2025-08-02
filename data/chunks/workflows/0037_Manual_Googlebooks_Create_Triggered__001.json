@@ -1,0 +1,14 @@
+{
+  "source": "0037_Manual_Googlebooks_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"107\",\n  \"name\": \"Get a volume and add it to your bookshelf\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        260,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Google Books\",\n      \"type\": \"n8n-nodes-base.googleBooks\",\n      \"position\": [\n        460,\n        300\n      ],\n      \"parameters\": {\n        \"resource\": \"volume\",\n        \"volumeId\": \"XxUJ2U2FXtYC\",\n        \"authentication\": \"oAuth2\"\n      },\n      \"credentials\": {\n        \"googleBooksOAuth2Api\": \"google-books\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Google Books1\",\n      \"type\": \"n8n-nodes-base.googleBooks\",\n      \"position\": [\n        660,\n        300\n      ],\n      \"parameters\": {\n        \"shelfId\": \"2\",\n        \"resource\": \"bookshelfVolume\",\n        \"volumeId\": \"={{$node[\\\"Google Books\\\"].json[\\\"id\\\"]}}\",\n        \"operation\": \"add\",\n        \"authentication\": \"oAuth2\"\n      },\n      \"credentials\": {\n        \"googleBooksOAuth2Api\": \"google-books\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Google Books2\",\n      \"type\": \"n8n-nodes-base.googleBooks\",\n      \"position\": [\n        860,\n        300\n      ],\n      \"parameters\": {\n        \"shelfId\": \"={{$node[\\\"Google Books1\\\"].parameter[\\\"shelfId\\\"]}}\",\n        \"resource\": \"bookshelfVolume\",\n        \"myLibrary\": true,\n        \"authentication\": \"oAuth2\"\n      },\n      \"credentials\": {\n        \"googleBooksOAuth2Api\": \"google-books\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Google Books\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Books1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Google Books1\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Books2\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Google Books\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.googleBooks",
+      "n8n-nodes-base.googleBooks",
+      "n8n-nodes-base.googleBooks"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 289,
+  "content": "### New features\n\n* CLI: load all nodes and credentials code in isolation.\n* Core, Editor UI: introduce support for node deprecation.\n* Editor: implement HTML sanitization for Notification and Message components.\n* Editor: display the input number on multi-input nodes."
+}

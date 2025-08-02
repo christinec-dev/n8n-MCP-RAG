@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 240,
+  "content": "### New features\n\n* Core: reimplement blocking workflow updates on interim changes.\n* Editor: block the UI in node details view when the workflow is listening for an event.\n* Performance improvements"
+}

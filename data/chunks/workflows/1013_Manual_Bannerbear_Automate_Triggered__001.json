@@ -1,0 +1,12 @@
+{
+  "source": "1013_Manual_Bannerbear_Automate_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        250,\n        300\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Bannerbear\",\n      \"type\": \"n8n-nodes-base.bannerbear\",\n      \"position\": [\n        450,\n        300\n      ],\n      \"parameters\": {\n        \"templateId\": \"8BK3vWZJ7Wl5Jzk1aX\",\n        \"modificationsUi\": {\n          \"modificationsValues\": [\n            {\n              \"name\": \"message\",\n              \"text\": \"this is some text\",\n              \"color\": \"#3097BC\",\n              \"background\": \"#28A96F\"\n            }\n          ]\n        },\n        \"additionalFields\": {\n          \"waitForImage\": true\n        }\n      },\n      \"credentials\": {\n        \"bannerbearApi\": \"bannerbear_creds\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"connections\": {\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Bannerbear\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.bannerbear"
+    ],
+    "trigger": null
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.awsdynamodb.md",
+  "index": 3,
+  "content": "## Operations\n\n* Item\n  * Create a new record, or update the current one if it already exists (upsert/put)\n  * Delete an item\n  * Get an item\n  * Get all items"
+}

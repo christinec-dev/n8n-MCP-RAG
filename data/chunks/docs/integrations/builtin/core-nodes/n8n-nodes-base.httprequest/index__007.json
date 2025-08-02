@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md",
+  "index": 7,
+  "content": "### Send Query Parameters\n\nQuery parameters act as filters on HTTP requests. If the API you're interacting with supports them and the request you're making needs a filter, turn this option on.\n\n**Specify your query parameters** using one of the available options:\n\n* **Using Fields Below**: Enter **Name**/**Value** pairs of **Query Parameters**. To enter more query parameter name/value pairs, select **Add Parameter**. The name is the name of the field you're filtering on, and the value is the filter value.\n* **Using JSON**: Enter **JSON** to define your query parameters.\n\nRefer to your service's API documentation for detailed guidance."
+}

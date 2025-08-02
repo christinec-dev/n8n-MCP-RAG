@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/declarative-style-node.md",
+  "index": 14,
+  "content": "## Next steps\n\n* [Deploy your node](/integrations/creating-nodes/deploy/index.md).\n* View an example of a declarative node: n8n's [Brevo node](https://github.com/n8n-io/n8n/tree/master/packages/nodes-base/nodes/Brevo). Note that the main node is declarative, while the trigger node is in programmatic style.\n* Learn about [node versioning](/integrations/creating-nodes/build/reference/node-versioning.md)."
+}

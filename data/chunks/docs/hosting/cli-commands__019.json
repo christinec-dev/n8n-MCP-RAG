@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/cli-commands.md",
+  "index": 19,
+  "content": "### Nodes\n\nUninstall a community node by package name:\n\n```sh\nn8n community-node --uninstall --package <COMMUNITY_NODE_NAME>\n```\n\nFor example, to uninstall the [Evolution API community node](https://www.npmjs.com/package/n8n-nodes-evolution-api), type:\n\n```sh\nn8n community-node --uninstall --package n8n-nodes-evolution-api\n```"
+}

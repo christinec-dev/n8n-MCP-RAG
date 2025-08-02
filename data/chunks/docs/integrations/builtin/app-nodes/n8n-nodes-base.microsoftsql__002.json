@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.microsoftsql.md",
+  "index": 2,
+  "content": "# Microsoft SQL node\n\nUse the Microsoft SQL node to automate work in Microsoft SQL, and integrate Microsoft SQL with other applications. n8n has built-in support for a wide range of Microsoft SQL features, including executing SQL queries, and inserting rows into the database. \n\nOn this page, you'll find a list of operations the Microsoft SQL node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Microsoft SQL credentials](/integrations/builtin/credentials/microsoftsql.md) for guidance on setting up authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/understand/git.md",
+  "index": 1,
+  "content": "---\n#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4\ntitle: Git and n8n\ndescription: Git concepts and limitations in n8n.\ncontentType: explanation\n---"
+}

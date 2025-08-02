@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/test/index.md",
+  "index": 2,
+  "content": "# Test a node\n\nThis section contains information about testing your node.\n\nThere are two ways to test your node:\n\n* Manually, by [running it on your own machine](/integrations/creating-nodes/test/run-node-locally.md) within a local n8n instance.\n* Automatically, using the [linter](/integrations/creating-nodes/test/node-linter.md).\n\nYou should use both methods before publishing your node."
+}

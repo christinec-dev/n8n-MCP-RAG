@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/assistant-operations.md",
+  "index": 9,
+  "content": "### Options\n\n- **Base URL**: Enter the base URL that the assistant should use for making API requests. This option is useful for directing the assistant to use endpoints provided by other LLM providers that offer an OpenAI-compatible API.\n- **Max Retries**: Specify the number of times the assistant should retry an operation in case of failure. \n- **Timeout**: Set the maximum amount of time in milliseconds, that the assistant should wait for a response before timing out. Use this option to prevent long waits during operations.\n- **Preserve Original Tools**: Turn off to remove the original tools associated with the assistant. Use this if you want to temporarily remove tools for this specific operation.\n\nRefer to [Assistants | OpenAI](https://platform.openai.com/docs/api-reference/assistants) documentation for more information."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/community-nodes/installation/manual-install.md",
+  "index": 7,
+  "content": "### Upgrade or downgrade to a specific version\n\nAccess your Docker shell:\n\n```sh\ndocker exec -it n8n sh\n```\n\nRun npm uninstall to remove the current version:\n\n```sh\nnpm uninstall n8n-nodes-nodeName\n```\n\nRun npm install with the version specified:\n\n```sh"
+}

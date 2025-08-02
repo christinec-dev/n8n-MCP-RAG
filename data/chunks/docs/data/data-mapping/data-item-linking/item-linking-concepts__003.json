@@ -1,0 +1,5 @@
+{
+  "source": "docs/data/data-mapping/data-item-linking/item-linking-concepts.md",
+  "index": 3,
+  "content": "## n8n's automatic item linking\n\nIf a node doesn't control how to link input items to output items, n8n tries to guess how to link the items automatically:\n\n* Single input, single output: the output links to the input.\n* Single input, multiple outputs: all outputs link to that input.\n* Multiple inputs and outputs:\n\t* If you keep the input items, but change the order (or remove some but keep others), n8n can automatically add the correct linked item information.\n\t* If the number of inputs and outputs is equal, n8n links the items in order. This means that output-1 links to input-1, output-2 to input-2, and so on.\n\t* If the number isn't equal, or you create completely new items, n8n can't automatically link items.\n\nIf n8n can't link items automatically, and the node doesn't handle the item linking, n8n displays an error. Refer to [Item linking errors](/data/data-mapping/data-item-linking/item-linking-errors.md) for more information."
+}

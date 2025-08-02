@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 364,
+  "content": "### Bug fixes\n\n* Core: don't allow OPTIONS requests from any source.\n* Core: GET `/workflows/:id` now returns tags.\n* Core: ensure predefined credentials show up in the HTTP Request node.\n* Core: return the correct error message on Axios error.\n* Core: updates to the expressions allow-list and deny-list."
+}

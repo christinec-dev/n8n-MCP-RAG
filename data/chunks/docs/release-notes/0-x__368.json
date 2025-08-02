@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 368,
+  "content": "### New features\n\nAdded support for the client_credentials grant type for OAuth2."
+}

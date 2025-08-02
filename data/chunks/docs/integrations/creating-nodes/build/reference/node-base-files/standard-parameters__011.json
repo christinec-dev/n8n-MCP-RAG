@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/standard-parameters.md",
+  "index": 11,
+  "content": "## `outputs`\n\n_Array of strings_ | _Required_  \n\nNames the output connectors. Controls the number of connectors the node has on the output side. If you need only one connector, use `output: ['main']`."
+}

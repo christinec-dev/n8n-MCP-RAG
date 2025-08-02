@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.elasticsearch.md",
+  "index": 2,
+  "content": "# Elasticsearch node\n\nUse the Elasticsearch node to automate work in Elasticsearch, and integrate Elasticsearch with other applications. n8n has built-in support for a wide range of Elasticsearch features, including creating, updating, deleting, and getting documents and indexes. \n\nOn this page, you'll find a list of operations the Elasticsearch node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Elasticsearch credentials](/integrations/builtin/credentials/elasticsearch.md) for guidance on setting up authentication. \n///\n\n--8<-- \"_snippets/integrations/builtin/app-nodes/ai-tools.md\""
+}

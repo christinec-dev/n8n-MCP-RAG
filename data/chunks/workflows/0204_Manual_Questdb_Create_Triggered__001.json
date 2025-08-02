@@ -1,0 +1,14 @@
+{
+  "source": "0204_Manual_Questdb_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"161\",\n  \"name\": \"Create a table and insert data into it\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        440,\n        460\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Set\",\n      \"type\": \"n8n-nodes-base.set\",\n      \"position\": [\n        840,\n        460\n      ],\n      \"parameters\": {\n        \"values\": {\n          \"number\": [\n            {\n              \"name\": \"id\"\n            }\n          ],\n          \"string\": [\n            {\n              \"name\": \"name\",\n              \"value\": \"Tanay\"\n            }\n          ]\n        },\n        \"options\": {}\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"QuestDB\",\n      \"type\": \"n8n-nodes-base.questDb\",\n      \"position\": [\n        640,\n        460\n      ],\n      \"parameters\": {\n        \"query\": \"CREATE TABLE test (id INT, name STRING);\",\n        \"operation\": \"executeQuery\"\n      },\n      \"credentials\": {\n        \"questDb\": \"QuestDB\"\n      },\n      \"typeVersion\": 1,\n      \"alwaysOutputData\": true\n    },\n    {\n      \"name\": \"QuestDB1\",\n      \"type\": \"n8n-nodes-base.questDb\",\n      \"position\": [\n        1040,\n        460\n      ],\n      \"parameters\": {\n        \"table\": \"test\",\n        \"columns\": \"id, name\"\n      },\n      \"credentials\": {\n        \"questDb\": \"QuestDB\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Set\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"QuestDB1\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"QuestDB\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Set\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"QuestDB\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.set",
+      "n8n-nodes-base.questDb",
+      "n8n-nodes-base.questDb"
+    ],
+    "trigger": null
+  }
+}

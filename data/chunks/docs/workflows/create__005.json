@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/create.md",
+  "index": 5,
+  "content": "## Run workflows automatically\n\nAll new workflows are inactive by default.\n\nYou need to activate workflows that start with a trigger node or Webhook node so that they can run automatically. When a workflow is inactive, you must run it manually.\n\nTo activate or deactivate your workflow, open your workflow and toggle **Inactive** / **Active**.\n\nOnce a workflow is active, it runs whenever its trigger conditions are met."
+}

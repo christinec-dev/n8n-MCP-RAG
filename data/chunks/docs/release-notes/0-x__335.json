@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 335,
+  "content": "### Bug fixes\n\n* Core: add Windows support to `import:credentials --separate`.\n* Editor: correct linking buttons color.\n* Editor: ensure data pinning works as expected when `pinData` is null.\n* Editor: fix a bug with spaces.\n* Editor: resolve an issue with sticky note duplication and positioning.\n* Editor: restore missing header colors.\n* AWS DynamoDB node: fix for errors with expression attribute names.\n* Mautic node: fix an authentication issue.\n* Rocketchat node: fix an authentication issue."
+}

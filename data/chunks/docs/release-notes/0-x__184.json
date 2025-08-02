@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 184,
+  "content": "### Bug fixes\n\n* Apply credential overwrites recursively. This ensures that overwrites defined for a parent credential type also apply to all credentials extending it.\n* Core: enable full manual execution of a workflow using the error trigger.\n* Core: fix OAuth credential creation using the API.\n* Core: fix an issue with workflow lastUpdated field.\n* Editor: clear node creator and scrim on workspace reset.\n* Editor: fix an infinite loop while loading executions that aren't on the current executions list.\n* Editor: make node title non-editable in executions view.\n* Editor: prevent scrim on executable triggers.\n* Editor: support tabbing away from inline expression editor.\n* Fix executions bulk deletion.\n* Google Sheets Node: fix exception when no **Values to Send** are set.\n* Respond to Webhook Node: fix issue that caused the content-type header to be overwritten.\n* Slack Node: add missing channels:read OAuth2 scope."
+}

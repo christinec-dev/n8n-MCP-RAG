@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.evaluation.md",
+  "index": 5,
+  "content": "### Set Metrics\n\nThe **Set Metrics** operation includes a **Metrics to Return** section where you define the metrics to record and track for your evaluations. You can see the metric results in your workflow's **Evaluations** tab.\n\nFor each metric you wish to record, you set the following details:\n\n* **Name**: The name to use for the metric.\n* **Value**: The numeric value to record. Once you run your evaluation, you can drag and drop values from previous nodes here. Metric values must be numeric."
+}

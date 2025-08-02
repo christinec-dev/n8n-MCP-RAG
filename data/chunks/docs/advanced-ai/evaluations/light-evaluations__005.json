@@ -1,0 +1,5 @@
+{
+  "source": "docs/advanced-ai/evaluations/light-evaluations.md",
+  "index": 5,
+  "content": "### 1. Create a dataset\n\nCreate a Google Sheet with a handful of examples for your workflow. Your sheet should contain column(s) for:\n\n- The workflow input\n- (Optional) The expected or correct workflow output\n- The actual output\n\nLeave the actual output column or columns blank, since you'll be filling them during the evaluation.\n\n<figure markdown=\"span\">\n![Sample dataset for a support ticket classification workflow](/_images/advanced-ai/evaluations/sample-dataset.png)\n<figcaption>A <a href=\"https://docs.google.com/spreadsheets/d/1uuPS5cHtSNZ6HNLOi75A2m8nVWZrdBZ_Ivf58osDAS8/edit?gid=294497137#gid=294497137\">sample dataset</a> for the support ticket classification workflow.</figcaption>\n</figure>"
+}

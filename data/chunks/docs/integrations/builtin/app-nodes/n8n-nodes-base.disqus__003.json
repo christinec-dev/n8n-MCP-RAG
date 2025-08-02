@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.disqus.md",
+  "index": 3,
+  "content": "## Operations\n\n* Forum\n    * Return forum details\n    * Return a list of categories within a forum\n    * Return a list of threads within a forum\n    * Return a list of posts within a forum"
+}

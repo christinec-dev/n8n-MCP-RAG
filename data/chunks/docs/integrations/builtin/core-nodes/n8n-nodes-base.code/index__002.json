@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.code/index.md",
+  "index": 2,
+  "content": "# Code node\n\n--8<-- \"_snippets/integrations/builtin/core-nodes/code-node.md\""
+}

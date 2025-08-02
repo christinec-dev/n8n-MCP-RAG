@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/ux-guidelines.md",
+  "index": 11,
+  "content": "### Deleting operations output\n\nWhen deleting an item (like a record or a row), return an array with a single object: `{\"deleted\": true}`. This is a confirmation for the user that the deletion was successful and the item will trigger the following node."
+}

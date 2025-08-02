@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.splunk.md",
+  "index": 3,
+  "content": "## Operations\n\n* Fired Alert\n    * Get a fired alerts report\n* Search Configuration\n    * Delete a search configuration\n    * Get a search configuration\n    * Get many search configurations\n* Search Job\n    * Create a search job\n    * Delete a search job\n    * Get a search job\n    * Get many search jobs\n* Search Result\n    * Get many search results\n* User\n    * Create a user\n    * Delete a user\n    * Get a user\n    * Get many users\n    * Update a user"
+}

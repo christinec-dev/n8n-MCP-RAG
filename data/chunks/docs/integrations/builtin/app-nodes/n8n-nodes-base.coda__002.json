@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.coda.md",
+  "index": 2,
+  "content": "# Coda node\n\nUse the Coda node to automate work in Coda, and integrate Coda with other applications. n8n has built-in support for a wide range of Coda features, including creating, getting, and deleting controls, formulas, tables, and views.\n\nOn this page, you'll find a list of operations the Coda node supports and links to more resources.\n\n/// note | Credentials\nRefer to [Coda credentials](/integrations/builtin/credentials/coda.md) for guidance on setting up authentication. \n///"
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.gmailtrigger/index.md",
+  "index": 4,
+  "content": "## Node parameters\n\nConfigure the node with these parameters:\n\n* **Credential to connect with**: Select or create a new Google credential to use for the trigger. Refer to [Google credentials](/integrations/builtin/credentials/google/index.md) for more information on setting up a new credential.\n* **Poll Times**: Select a poll **Mode** to set how often to trigger the poll. Your **Mode** selection will add or remove relevant fields. Refer to [Poll Mode options](/integrations/builtin/trigger-nodes/n8n-nodes-base.gmailtrigger/poll-mode-options.md) to configure the parameters for each mode type.\n* **Simplify**: Choose whether to return a simplified version of the response (turned on, default) or the raw data (turned off).\n    * The simplified version returns email message IDs, labels, and email headers, including: From, To, CC, BCC, and Subject."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.merge.md",
+  "index": 12,
+  "content": "### Set up sample data using the Code nodes\n\n1. Add a Code node to the canvas and connect it to the Start node.\n2. Paste the following JavaScript code snippet in the **JavaScript Code** field:\n```js\nreturn [\n  {\n    json: {\n      name: 'Stefan',\n      language: 'de',\n    }\n  },\n  {\n    json: {\n      name: 'Jim',\n      language: 'en',\n    }\n  },\n  {\n    json: {\n      name: 'Hans',\n      language: 'de',\n    }\n  }\n];\n```\n3. Add a second Code node, and connect it to the Start node.\n4. Paste the following JavaScript code snippet in the **JavaScript Code** field:\n```js\nreturn [\n\t  {\n    json: {\n      greeting: 'Hello',\n      language: 'en',\n    }\n  },\n  {\n    json: {\n      greeting: 'Hallo',\n      language: 'de',\n    }\n  }\n];\n```"
+}

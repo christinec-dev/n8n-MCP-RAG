@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/common-issues.md",
+  "index": 5,
+  "content": "### Adjust the timezone globally\n\nIf you're using [n8n Cloud](/manage-cloud/overview.md), follow the instructions on the [set the Cloud instance timezone](/manage-cloud/set-cloud-timezone.md) page to ensure that n8n executes in sync with your local time.\n\nIf you're [self hosting](/hosting/index.md), set your global timezone using the [`GENERIC_TIMEZONE` environment variable](/hosting/configuration/environment-variables/timezone-localization.md)."
+}

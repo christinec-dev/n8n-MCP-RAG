@@ -1,0 +1,12 @@
+{
+  "source": "0176_Slack_Onfleet_Send_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": 14,\n  \"name\": \"Onfleet Driver signup message in Slack\",\n  \"nodes\": [\n    {\n      \"name\": \"Onfleet Trigger\",\n      \"type\": \"n8n-nodes-base.onfleetTrigger\",\n      \"position\": [\n        460,\n        300\n      ],\n      \"webhookId\": \"a005e163-13a2-4ea2-a127-6e00e30a82f4\",\n      \"parameters\": {\n        \"triggerOn\": \"workerCreated\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"onfleetApi\": {\n          \"id\": \"2\",\n          \"name\": \"Onfleet API Key\"\n        }\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Slack\",\n      \"type\": \"n8n-nodes-base.slack\",\n      \"position\": [\n        680,\n        300\n      ],\n      \"parameters\": {\n        \"text\": \"A new driver has signed up!\",\n        \"channel\": \"#new-driver-signup\",\n        \"attachments\": [],\n        \"otherOptions\": {}\n      },\n      \"credentials\": {\n        \"slackApi\": {\n          \"id\": \"7\",\n          \"name\": \"Slack account\"\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Onfleet Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Slack\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.onfleetTrigger",
+      "n8n-nodes-base.slack"
+    ],
+    "trigger": "onfleet trigger"
+  }
+}

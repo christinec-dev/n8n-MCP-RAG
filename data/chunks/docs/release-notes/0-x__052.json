@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 52,
+  "content": "### Bug fixes\n\n* Editor: Clean up demo and template callouts from workflows page.\n* Editor: Fix memory leak in Node Detail View by correctly unsubscribing from event buses.\n* Editor: Settings sidebar should disconnect from push when navigating away.\n* Notion Node: Update credential test to not require user permissions."
+}

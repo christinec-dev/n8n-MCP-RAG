@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/app-nodes/n8n-nodes-base.pagerduty.md",
+  "index": 3,
+  "content": "## Operations\n\n* Incident\n    * Create an incident\n    * Get an incident\n    * Get all incidents\n    * Update an incident\n* Incident Note\n    * Create an incident note\n    * Get all incident's notes\n* Log Entry\n    * Get a log entry\n    * Get all log entries\n* User\n    * Get a user"
+}

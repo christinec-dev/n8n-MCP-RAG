@@ -1,0 +1,5 @@
+{
+  "source": "docs/workflows/history.md",
+  "index": 2,
+  "content": "# Workflow history\n\n/// info | Feature availability\n* Full workflow history is available on Enterprise Cloud and Enterprise Self-hosted.\n* Versions from the last five days are available for Cloud Pro users.\n* Versions from the last 24 hours are available for registered Community users.\n///\t\n\nUse workflow history to view and restore previous versions of your workflows."
+}

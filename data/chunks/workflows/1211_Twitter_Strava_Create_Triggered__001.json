@@ -1,0 +1,12 @@
+{
+  "source": "1211_Twitter_Strava_Create_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"95\",\n  \"name\": \"Receive updates when a new activity gets created and tweet about it\",\n  \"nodes\": [\n    {\n      \"name\": \"Strava Trigger\",\n      \"type\": \"n8n-nodes-base.stravaTrigger\",\n      \"position\": [\n        710,\n        220\n      ],\n      \"webhookId\": \"5ad7a644-4005-4118-a27e-7112bd0035a5\",\n      \"parameters\": {\n        \"event\": \"create\",\n        \"object\": \"activity\",\n        \"options\": {}\n      },\n      \"credentials\": {\n        \"stravaOAuth2Api\": \"strava\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Twitter\",\n      \"type\": \"n8n-nodes-base.twitter\",\n      \"position\": [\n        910,\n        220\n      ],\n      \"parameters\": {\n        \"text\": \"=I ran {{$node[\\\"Strava Trigger\\\"].json[\\\"object_data\\\"][\\\"distance\\\"]}} meters and completed my {{$node[\\\"Strava Trigger\\\"].json[\\\"object_data\\\"][\\\"name\\\"]}}!\",\n        \"additionalFields\": {}\n      },\n      \"credentials\": {\n        \"twitterOAuth1Api\": \"twitter-Harshil\"\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Strava Trigger\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Twitter\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.stravaTrigger",
+      "n8n-nodes-base.twitter"
+    ],
+    "trigger": "strava trigger"
+  }
+}

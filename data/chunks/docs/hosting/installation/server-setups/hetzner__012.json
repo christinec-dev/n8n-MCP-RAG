@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/installation/server-setups/hetzner.md",
+  "index": 12,
+  "content": "## The Docker Compose file\n\nThe Docker Compose file (`docker-compose.yml`) defines the services the application needs, in this case Caddy and n8n.\n\n- The Caddy service definition defines the ports it uses and the local volumes to copy to the containers.\n- The n8n service definition defines the ports it uses, the environment variables n8n needs to run (some defined in the `.env` file), and the volumes it needs to copy to the containers.\n\nThe Docker Compose file uses the environment variables set in the `.env` file, so you shouldn't need to change it's content, but to take a look, run the following command:\n\n```shell\nnano docker-compose.yml\n```"
+}

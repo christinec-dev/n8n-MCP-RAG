@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes.md",
+  "index": 128,
+  "content": "### Multiple API keys\nn8n now supports multiple API keys, allowing users to generate and manage separate keys for different workflows or integrations. This improves security by enabling easier key rotation and isolation of credentials. Future updates will introduce more granular controls. <br>\n\n<figure markdown=\"span\">\n    ![Multiple API keys](/_images/release-notes/Multiple-API-keys.png)\n    <figcaption>Multiple API keys</figcaption>\n</figure>\n<br>"
+}

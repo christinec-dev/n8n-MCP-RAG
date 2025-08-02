@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.stopanderror.md",
+  "index": 5,
+  "content": "### Error Message parameters\n\nThe Error Message Error Type adds one parameter, the **Error Message** field. Enter the message you'd like to throw."
+}

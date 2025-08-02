@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.sentimentanalysis.md",
+  "index": 12,
+  "content": "### Custom Category Analysis\n\n1. Change the **Sentiment Categories** to `Excited, Happy, Neutral, Disappointed, Angry`.\n2. Adjust your workflow to handle these five output categories.\n3. Use this setup to analyze customer feedback with more nuanced emotional categories."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/code/cookbook/builtin/all.md",
+  "index": 4,
+  "content": "## Accessing item data\n\nGet all items output by a previous node, and log out the data they contain:\n\n=== \"JavaScript\"\n\t```typescript\n\tpreviousNodeData = $(\"<node-name>\").all();\n\tfor(let i=0; i<previousNodeData.length; i++) {\n\t\tconsole.log(previousNodeData[i].json);\n\t}\n\t```\n=== \"Python\"\n\t```python\n\tpreviousNodeData = _(\"<node-name>\").all();\n\tfor item in previousNodeData:\n\t\t# item is of type <class 'pyodide.ffi.JsProxy'>\n\t\t# You need to convert it to a Dict\n  \t\titemDict = item.json.to_py()\n  \t\tprint(itemDict)\n\t```"
+}

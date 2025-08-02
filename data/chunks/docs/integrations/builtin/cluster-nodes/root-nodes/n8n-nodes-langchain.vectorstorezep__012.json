@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorezep.md",
+  "index": 12,
+  "content": "### Retrieve Documents (As Vector Store for Chain/Tool) parameters\n\n* **Collection Name**: Enter the collection name to retrieve the data from."
+}

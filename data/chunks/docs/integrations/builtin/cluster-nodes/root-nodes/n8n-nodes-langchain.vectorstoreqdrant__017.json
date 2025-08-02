@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreqdrant.md",
+  "index": 17,
+  "content": "## Related resources\n\nRefer to [LangChain's Qdrant documentation](https://js.langchain.com/docs/integrations/vectorstores/qdrant) for more information about the service.\n\n--8<-- \"_snippets/integrations/builtin/cluster-nodes/langchain-overview-link.md\"\n\n--8<-- \"_snippets/self-hosting/starter-kits/self-hosted-ai-starter-kit.md\""
+}

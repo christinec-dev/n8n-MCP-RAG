@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/test/troubleshooting-node-development.md",
+  "index": 7,
+  "content": "### Node icon doesn't show up in the Add Node menu and the Editor UI\n<!-- vale on -->\n\n- Check that the icon is in the same folder as the node.\n- Check that it's either in PNG or SVG format.\n- When the `icon` property references the icon file, check that it includes the logo extension (`.png` or `.svg`) and that it prefixes it with `file:`. For example, `file:friendGrid.png` or `file:friendGrid.svg`."
+}

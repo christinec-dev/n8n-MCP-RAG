@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/trigger-nodes/n8n-nodes-base.gmailtrigger/index.md",
+  "index": 6,
+  "content": "## Related resources\n\nn8n provides an app node for Gmail. You can find the node docs [here](/integrations/builtin/app-nodes/n8n-nodes-base.gmail/index.md).\n\nView [example workflows and related content](https://n8n.io/integrations/gmail-trigger/) on n8n's website.\n\nRefer to [Google's Gmail API documentation](https://developers.google.com/gmail/api/guides) for details about their API."
+}

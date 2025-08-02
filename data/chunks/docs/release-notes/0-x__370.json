@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 370,
+  "content": "### Bug fixes\n\n* Core: fixes an issue that was causing parameters to get lost in some edge cases.\n* Core: fixes an issue with combined expressions not resolving if one expression was invalid.\n* Core: fixed an issue that was causing the public API to fail to build on Windows.\n* Editor: ensure errors display correctly.\n* [HTTP Request node](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/index.md): better handling for requests that return null.\n* [Pipedrive node](/integrations/builtin/app-nodes/n8n-nodes-base.pipedrive.md): fixes a limits issue with the GetAll operation on the Lead resource.\n* [Postbin node](/integrations/builtin/app-nodes/n8n-nodes-base.postbin.md): remove a false error."
+}

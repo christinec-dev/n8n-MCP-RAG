@@ -1,0 +1,5 @@
+{
+  "source": "docs/try-it-out/quickstart.md",
+  "index": 4,
+  "content": "## Step two: Open a workflow template\n\nn8n provides a quickstart template using training nodes. You can use this to work with fake data and avoid setting up [credentials](/glossary.md#credential-n8n).\n\n1. Go to [Templates | Very quick quickstart](https://n8n.io/workflows/1700-very-quick-quickstart/).\n1. Select **Use workflow** to view the options for using the template.\n1. Select **Import template to <name> cloud workspace** to load the template into your Cloud instance.\n\nThis workflow:\n\n1. Gets example data from the [Customer Datastore](/integrations/builtin/app-nodes/n8n-nodes-base.n8ntrainingcustomerdatastore.md) node.\n2. Uses the [Edit Fields](/integrations/builtin/core-nodes/n8n-nodes-base.set.md) node to extract only the desired data and assigns that data to variables. In this example, you map the customer name, ID, and description.\n\nThe individual pieces in an n8n workflow are called [nodes](/glossary.md#node-n8n). Double click a node to explore its settings and how it processes data."
+}

@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorepgvector.md",
+  "index": 10,
+  "content": "### Get Many parameters\n<!-- vale on -->\n\n* **Table name**: Enter the name of the table you want to query.\n* **Prompt**: Enter your search query.\n* **Limit**: Enter a number to set how many results to retrieve from the vector store. For example, set this to `10` to get the ten best results."
+}

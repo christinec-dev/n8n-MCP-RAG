@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/creating-nodes/build/reference/node-base-files/programmatic-style-parameters.md",
+  "index": 5,
+  "content": "## `version`\n\n_Number_ or _Array_ | _Optional_\n\nUse `version` when using the light versioning approach.\n\nIf you have one version of your node, this can be a number. If you want to support multiple versions, turn this into an array, containing numbers for each node version.\n\nn8n support two methods of node versioning. Programmatic-style nodes can use either. Refer to [Node versioning](/integrations/creating-nodes/build/reference/node-versioning.md) for more information."
+}

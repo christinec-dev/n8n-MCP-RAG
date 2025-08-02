@@ -1,0 +1,5 @@
+{
+  "source": "docs/user-management/saml/managing.md",
+  "index": 4,
+  "content": "## Deleting users\n\nIf you remove a user from your IdP, they remain logged in to n8n. You need to manually remove them from n8n as well. Refer to [Manage users](/user-management/manage-users.md) for guidance on deleting users."
+}

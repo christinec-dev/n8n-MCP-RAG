@@ -1,0 +1,5 @@
+{
+  "source": "docs/hosting/logging-monitoring/monitoring.md",
+  "index": 2,
+  "content": "# Monitoring\n\nThere are three API endpoints you can call to check the status of your instance: `/healthz`, `healthz/readiness`, and `/metrics`.\n\n<!-- vale off -->"
+}

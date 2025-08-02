@@ -1,0 +1,5 @@
+{
+  "source": "docs/keyboard-shortcuts.md",
+  "index": 9,
+  "content": "## Node panel\n\n - **Tab**: open the Node Panel\n - **Enter**: insert selected node into workflow\n - **Escape**: close Node panel"
+}

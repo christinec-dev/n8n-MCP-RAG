@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.extractfromfile.md",
+  "index": 6,
+  "content": "### Input Binary Field\n\nEnter the name of the field from the node input data that contains the binary file. The default is 'data'."
+}

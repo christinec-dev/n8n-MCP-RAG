@@ -1,0 +1,5 @@
+{
+  "source": "docs/integrations/builtin/core-nodes/n8n-nodes-base.debughelper.md",
+  "index": 7,
+  "content": "### Generate Random Data\n\n* **Data Type**: Choose the type of random data you'd like to generate. Options include:\n\t* **Address**\n\t* **Coordinates**\n\t* **Credit Card**\n\t* **Email**\n\t* **IPv4**\n\t* **IPv6**\n\t* **MAC**\n\t* **Nanoids**: If you select this data type, you'll also need to enter:\n\t\t* **Nanoid Alphabet**: The alphabet the generator will use to generate the nanoids.\n\t\t* **Nanoid Length**: The length of each nanoid.\n\t* **URL**\n\t* **User Data**\n\t* **UUID**\n\t* **Version**\n* **Seed**: If you'd like to generate the data using a specific seed, enter it here. This ensures the data gets generated consistently. If you'd rather use random data generation, leave this field empty.\n* **Number of Items to Generate**: Enter the number of random items you'd like to generate.\n* **Output as Single Array**: Whether to generate the data as a single array (turned on) or multiple items (turned off)."
+}

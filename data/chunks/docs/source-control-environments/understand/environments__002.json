@@ -1,0 +1,5 @@
+{
+  "source": "docs/source-control-environments/understand/environments.md",
+  "index": 2,
+  "content": "# Environments in n8n\n\nn8n has built its environments feature on top of Git, a version control software. This document helps you understand:\n\n* The purpose of environments.\n* How environments work in n8n."
+}

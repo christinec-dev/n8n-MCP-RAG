@@ -1,0 +1,5 @@
+{
+  "source": "docs/release-notes/0-x.md",
+  "index": 504,
+  "content": "### Core Functionality\n\n- Added support for executing workflows without an ID through the CLI.\n- Fixed a build problem.\n- Fixed a bug preventing the tag description from being shown on the canvas.\n- Improved build performance by skipping the `node-dev` package during build."
+}

@@ -1,0 +1,14 @@
+{
+  "source": "0067_Manual_Uproc_Automation_Triggered.json",
+  "index": 1,
+  "content": "{\n  \"id\": \"114\",\n  \"name\": \"Verify phone numbers\",\n  \"nodes\": [\n    {\n      \"name\": \"On clicking 'execute'\",\n      \"type\": \"n8n-nodes-base.manualTrigger\",\n      \"position\": [\n        440,\n        510\n      ],\n      \"parameters\": {},\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Create Phone Item\",\n      \"type\": \"n8n-nodes-base.functionItem\",\n      \"position\": [\n        640,\n        510\n      ],\n      \"parameters\": {\n        \"functionCode\": \"item.phone = \\\"+34605281220\\\";\\nreturn item;\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Parse and Validate Phone\",\n      \"type\": \"n8n-nodes-base.uproc\",\n      \"position\": [\n        850,\n        510\n      ],\n      \"parameters\": {\n        \"tool\": \"getPhoneParsed\",\n        \"phone\": \"={{$node[\\\"Create Phone Item\\\"].json[\\\"phone\\\"]}}\",\n        \"additionalOptions\": {}\n      },\n      \"credentials\": {\n        \"uprocApi\": \"miquel-uproc\"\n      },\n      \"typeVersion\": 1\n    },\n    {\n      \"name\": \"Phone is Valid?\",\n      \"type\": \"n8n-nodes-base.if\",\n      \"position\": [\n        1050,\n        510\n      ],\n      \"parameters\": {\n        \"conditions\": {\n          \"string\": [\n            {\n              \"value1\": \"={{$node[\\\"Parse and Validate Phone\\\"].json[\\\"message\\\"][\\\"valid\\\"]+\\\"\\\"}}\",\n              \"value2\": \"true\"\n            }\n          ]\n        }\n      },\n      \"typeVersion\": 1\n    }\n  ],\n  \"active\": false,\n  \"settings\": {},\n  \"connections\": {\n    \"Create Phone Item\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Parse and Validate Phone\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"On clicking 'execute'\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Create Phone Item\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    },\n    \"Parse and Validate Phone\": {\n      \"main\": [\n        [\n          {\n            \"node\": \"Phone is Valid?\",\n            \"type\": \"main\",\n            \"index\": 0\n          }\n        ]\n      ]\n    }\n  }\n}",
+  "metadata": {
+    "node_types": [
+      "n8n-nodes-base.manualTrigger",
+      "n8n-nodes-base.functionItem",
+      "n8n-nodes-base.uproc",
+      "n8n-nodes-base.if"
+    ],
+    "trigger": null
+  }
+}
