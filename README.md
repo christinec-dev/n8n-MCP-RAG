@@ -2,9 +2,12 @@
 
 This tool generates importable n8n workflows from plain English descriptions, using Retrieval-Augmented Generation (RAG) to reduce hallucinations and match your style. It supports OpenAI, Anthropic, Google Gemini, and Ollama/LM Studio via OpenAI-compatible endpoints.
 
+**Now with [LangWatch](https://langwatch.ai/) integration for monitoring RAG performance!**
+
 ## Key Features
 - **RAG Implementation**: Retrieves relevant chunks from indexed docs/workflows before generating.
-- **FastAPI Backend**: Handles API requests, retrieval, and workflow generation.
+- **FastAPI Backend**: Handles API requests, retrieval, prompt building, model calling, and LangWatch logging.
+- **LangWatch Monitoring**: Automatically logs RAG requests and responses to LangWatch for observability and performance tracking.
 - **Static UI**: Simple web interface at `/ui` for user interaction.
 - **Flexible Storage**: Uses local Chroma DB or Chroma Cloud for vector storage.
 - **Provider Support**: OpenAI, Anthropic, Gemini, and OpenAI-compatible endpoints.
@@ -17,7 +20,7 @@ This tool generates importable n8n workflows from plain English descriptions, us
 ## Project Structure
 ```
 .
-├─ mcp_server.py          # FastAPI app (endpoints, retrieval, prompt building, model calling)
+├─ mcp_server.py          # FastAPI app (endpoints, retrieval, prompt building, model calling, LangWatch logging)
 ├─ chunk_all.py           # Splits docs/workflows into JSON chunks
 ├─ build_chroma.py        # Embeds chunks into local Chroma DB
 ├─ build_chroma_cloud.py  # Embeds chunks into Chroma Cloud (optional)
@@ -33,7 +36,11 @@ This tool generates importable n8n workflows from plain English descriptions, us
 ## Requirements
 - Docker and Docker Compose
 - API key for one of the supported providers (e.g., OpenAI, Anthropic, etc.)
+<<<<<<< Updated upstream
 - (Optional) A Chroma Cloud account/token if you prefer cloud indexing.
+=======
+- (Optional) [LangWatch](https://langwatch.ai/) API key for RAG monitoring
+>>>>>>> Stashed changes
 
 ## Configuration
 Create a `.env` file in the project root with your settings. Example configurations:
@@ -57,6 +64,12 @@ OPENAI_API_KEY=ollama  # Dummy key for Ollama compatibility
 If using local Chroma, set:
 ```env
 RUN_INDEX_ON_START=false
+```
+
+### D) LangWatch Integration
+To enable LangWatch monitoring, add your LangWatch API key:
+```env
+LANGWATCH_API_KEY=your-langwatch-api-key
 ```
 
 ## Running the Project
@@ -90,10 +103,15 @@ RUN_INDEX_ON_START=false
   - `POST /generate`: Submit a prompt and get the generated workflow JSON.
   - `POST /ui_generate`: Same as `/generate` but accepts provider/model/API key headers.
 
+## LangWatch Monitoring
+- When `LANGWATCH_API_KEY` is set, all RAG requests and responses are automatically logged to LangWatch.
+- Use the [LangWatch dashboard](https://app.langwatch.ai/) to monitor, analyze, and improve your RAG pipeline.
+
 ## Troubleshooting
 - **Model Errors**: Use a stronger model (e.g., `gpt-4o` or `claude-3-5-sonnet`) or clarify your prompt.
 - **Indexing Issues**: Ensure your Chroma token and settings are correct. Stop the container and rebuild if needed.
 - **Docker Problems**: Verify Docker is running and network settings are correct.
+- **LangWatch Issues**: Check your `LANGWATCH_API_KEY` and network connectivity.
 
 ## Security Notes
 - API keys are sent per request via headers and not stored on the server.
@@ -114,4 +132,8 @@ MIT
    docker compose up -d --build
    docker compose logs -f app
    ```
+<<<<<<< Updated upstream
 4. Open `http://localhost:8000/ui` and start generating workflows!
+=======
+4. Open `http://localhost:8000/ui` and start
+>>>>>>> Stashed changes

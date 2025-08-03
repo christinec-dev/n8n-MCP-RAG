@@ -1,13 +1,13 @@
 # mcp_server.py
-import os
 import re
 import json
+import langwatch
+import os, subprocess, sys
 from typing import List, Tuple, Dict
-
 from fastapi import FastAPI, Header, Query, HTTPException, BackgroundTasks
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
-import os, subprocess, sys
+from langwatch.types import RAGChunk
 
 ALLOW_UI_KEYS = os.getenv("ALLOW_UI_KEYS", "false").lower() in ("1","true","yes")
 
@@ -15,11 +15,17 @@ ALLOW_UI_KEYS = os.getenv("ALLOW_UI_KEYS", "false").lower() in ("1","true","yes"
 # FastAPI app
 # ---------------------------
 app = FastAPI(title="n8n RAG Server")
-
 MIN_CONTEXT_HITS = int(os.getenv("MIN_CONTEXT_HITS", "2"))
 REQUIRE_CONTEXT  = os.getenv("REQUIRE_CONTEXT","false").lower() in ("1","true","yes")
 QUERY_EXPANSION  = os.getenv("QUERY_EXPANSION","true").lower() in ("1","true","yes")
 RETRIEVE_K       = int(os.getenv("RETRIEVE_K", "10"))
+
+if os.getenv("LANGWATCH_API_KEY"):
+    # optional: LANGWATCH_ENDPOINT if you self-host, else defaults to cloud
+    langwatch.setup()  # reads LANGWATCH_API_KEY / LANGWATCH_ENDPOINT from env
+
+def _truncate(s: str, n: int = 4000) -> str:
+    return s if s is None or len(s) <= n else s[:n] + "…"
 
 def expand_queries(q: str) -> list[str]:
     if not QUERY_EXPANSION:
@@ -33,6 +39,8 @@ def expand_queries(q: str) -> list[str]:
     if "gmail" in low or "email" in low: terms += ["Gmail", "IMAP Email Read", "SMTP Send"]
     if "cron" in low or "daily" in low or "schedule" in low: terms += ["Schedule Trigger", "Cron"]
     return [q] + list(dict.fromkeys(terms))  # dedupe
+
+
 # ---------------------------
 # Chroma client & collections
 # ---------------------------
@@ -71,7 +79,7 @@ def tcount(s: str) -> int:
 # ---------------------------
 # Retrieval & prompt building
 # ---------------------------
-def retrieve(q: str):
+def _inner_retrieve(q: str):
     # 1) first pass
     w1 = WF.query(query_texts=[q], n_results=RETRIEVE_K)
     d1 = DOCS.query(query_texts=[q], n_results=RETRIEVE_K)
@@ -79,7 +87,7 @@ def retrieve(q: str):
     def pack(res):
         docs = res.get("documents", [[]])[0]
         metas = res.get("metadatas", [[]])[0]
-        return [{"source": m.get("source"), "text": t} for m, t in zip(metas, docs)]
+        return [{"source": (m or {}).get("source"), "text": t} for m, t in zip(metas, docs)]
 
     wf_hits = pack(w1)
     doc_hits = pack(d1)
@@ -90,7 +98,6 @@ def retrieve(q: str):
         for qq in expand_queries(q):
             r = WF.query(query_texts=[qq], n_results=RETRIEVE_K * 2)
             widened += pack(r)
-        # simple dedupe by text
         seen = set()
         wf_hits += [h for h in widened if not (h["text"] in seen or seen.add(h["text"]))]
 
@@ -103,10 +110,31 @@ def retrieve(q: str):
 
     # 3) enforce policy
     if (len(wf_hits) + len(doc_hits)) == 0 and REQUIRE_CONTEXT:
-        # hard stop – let the UI show the message rather than hallucinate
         raise HTTPException(status_code=422, detail="No matching context found. Refine your request or reindex new files.")
 
     return wf_hits, doc_hits
+
+@langwatch.span(type="rag", name="retrieval", capture_input=True, capture_output=False)
+def retrieve(q: str):
+    wf_hits, doc_hits = _inner_retrieve(q)  # move your current body to a helper if you prefer
+
+    # Attach contexts (trim if large)
+    rag_contexts = []
+    for i, item in enumerate((wf_hits[:6] + doc_hits[:6])):
+        rag_contexts.append(
+            RAGChunk(
+                document_id=(item.get("source") or f"wfdoc-{i}"),
+                content=item.get("text", ""),
+            )
+        )
+
+    langwatch.get_current_span().update(
+        contexts=rag_contexts,
+        retrieval_strategy="chroma_vector_search",
+        k=RETRIEVE_K,
+    )
+    return wf_hits, doc_hits
+
 
 
 def pack_context(wf_chunks: List[Dict], doc_chunks: List[Dict], budget_tokens: int = 4000) -> str:
@@ -165,6 +193,7 @@ def extract_json(text: str) -> str:
 # ---------------------------
 # LLM call (OpenAI / Claude / Gemini)
 # ---------------------------
+@langwatch.span(type="llm", name="completion")
 def llm_complete(prompt: str) -> str:
     provider = os.getenv("PROVIDER", "openai").lower()
 
@@ -172,18 +201,28 @@ def llm_complete(prompt: str) -> str:
         from openai import OpenAI
         oai = OpenAI(
             api_key=os.getenv("OPENAI_API_KEY"),
-            base_url=os.getenv("OPENAI_BASE_URL")  # works with Ollama/LM Studio
+            base_url=os.getenv("OPENAI_BASE_URL"),
         )
         model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
-        r = oai.chat.completions.create(
-            model=model,
-            temperature=0.2,
-            messages=[
-                {"role": "system", "content": "You are an n8n workflow generator. Return ONLY a single valid JSON object."},
-                {"role": "user", "content": prompt},
-            ],
+        messages = [
+            {"role": "system", "content": "You are an n8n workflow generator. Return ONLY a single valid JSON object."},
+            {"role": "user", "content": prompt},
+        ]
+
+        r = oai.chat.completions.create(model=model, temperature=0.2, messages=messages)
+        text = r.choices[0].message.content or ""
+
+        # Attach model, input/output, token metrics (if present)
+        langwatch.get_current_span().update(
+            model=f"openai/{model}",
+            input=messages,
+            output=_truncate(text, 6000),
+            metrics={
+                "prompt_tokens": getattr(r, "usage", None) and r.usage.prompt_tokens or None,
+                "completion_tokens": getattr(r, "usage", None) and r.usage.completion_tokens or None,
+            },
         )
-        return r.choices[0].message.content
+        return text
 
     elif provider == "anthropic":
         import anthropic
@@ -199,7 +238,19 @@ def llm_complete(prompt: str) -> str:
             system="You are an n8n workflow generator. Return ONLY a single valid JSON object.",
             messages=[{"role": "user", "content": prompt}],
         )
-        return msg.content[0].text
+        text = msg.content[0].text if msg.content else ""
+        langwatch.get_current_span().update(
+            model=f"anthropic/{model}",
+            input=[{"role":"system","content":"You are an n8n workflow generator. Return ONLY a single valid JSON object."},
+                {"role":"user","content":prompt}],
+            output=_truncate(text, 6000),
+            # Anthropic returns usage in msg.usage if enabled for your key; guard if absent
+            metrics={
+                "prompt_tokens": getattr(msg, "usage", None) and msg.usage.input_tokens or None,
+                "completion_tokens": getattr(msg, "usage", None) and msg.usage.output_tokens or None,
+            },
+        )
+        return text
 
     elif provider == "gemini":
         import google.generativeai as genai
@@ -210,10 +261,13 @@ def llm_complete(prompt: str) -> str:
         model_name = os.getenv("GEMINI_MODEL", "gemini-1.5-pro")
         model = genai.GenerativeModel(model_name)
         r = model.generate_content(prompt + "\n\nReturn ONLY a single JSON object.")
-        return r.text
-
-    else:
-        raise RuntimeError("Unknown PROVIDER. Use openai | anthropic | gemini.")
+        text = getattr(r, "text", "") or ""
+        langwatch.get_current_span().update(
+            model=f"gemini/{model_name}",
+            input=prompt,
+            output=_truncate(text, 6000),
+        )
+        return text   # <-- add this
 
 # ---------------------------
 # API models
@@ -243,7 +297,22 @@ def search(q: str = Query(..., description="query"),
     }
 
 @app.post("/generate")
+@langwatch.trace(name="generate_workflow", metadata={"service": "n8n-rag"})
 def generate(req: GenReq):
+    current = langwatch.get_current_trace()
+    current.update(
+        input=req.prompt,
+        metadata={
+            "retrieve_k": RETRIEVE_K,
+            "min_context_hits": MIN_CONTEXT_HITS,
+            "require_context": REQUIRE_CONTEXT,
+            "query_expansion": QUERY_EXPANSION,
+            "provider": os.getenv("PROVIDER", "openai"),
+            "openai_model": os.getenv("OPENAI_MODEL"),
+            "anthropic_model": os.getenv("ANTHROPIC_MODEL"),
+            "gemini_model": os.getenv("GEMINI_MODEL"),
+        },
+    )
     # 1) retrieve
     wf_ctx, doc_ctx = retrieve(req.prompt)
     context = pack_context(wf_ctx, doc_ctx, budget_tokens=4000)
@@ -256,19 +325,16 @@ def generate(req: GenReq):
     try:
         wf_json = json.loads(extract_json(out))
     except Exception as e:
+        current.update(output="error:invalid_json")
         return {"error": "Model did not return valid JSON", "details": str(e), "raw": out[:2000]}
 
     if not isinstance(wf_json, dict) or "nodes" not in wf_json or "connections" not in wf_json:
+        current.update(output="error:missing_fields")
         return {"error": "Generated JSON missing 'nodes' or 'connections'", "raw": wf_json}
 
-    # 4) n8n Starter: no REST publish
-    if req.publish:
-        return {
-            "workflow": wf_json,
-            "note": "n8n Starter has no REST API. Download this JSON and import it in n8n (Workflows → Import).",
-        }
-
+    current.update(output="workflow_json_ok")
     return {"workflow": wf_json}
+
 
 # ---------------------------
 # UI mount + UI-friendly endpoint
@@ -326,3 +392,4 @@ def _check_keys():
         raise RuntimeError("Missing ANTHROPIC_API_KEY.")
     if provider == "gemini" and not os.getenv("GOOGLE_API_KEY"):
         raise RuntimeError("Missing GOOGLE_API_KEY.")
+
