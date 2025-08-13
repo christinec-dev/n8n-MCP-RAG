@@ -43,11 +43,8 @@ This tool generates importable n8n workflows from plain English descriptions, us
 ## Requirements
 - Docker and Docker Compose
 - API key for one of the supported providers (e.g., OpenAI, Anthropic, etc.)
-<<<<<<< Updated upstream
 - (Optional) A Chroma Cloud account/token if you prefer cloud indexing.
-=======
 - (Optional) [LangWatch](https://langwatch.ai/) API key for RAG monitoring
->>>>>>> Stashed changes
 
 ## Configuration
 Create a `.env` file in the project root with your settings. Example configurations:
@@ -150,8 +147,7 @@ MIT
    docker compose up -d --build
    docker compose logs -f app
    ```
-<<<<<<< Updated upstream
+
 4. Open `http://localhost:8000/ui` and start generating workflows!
-=======
-4. Open `http://localhost:8000/ui` and start
->>>>>>> Stashed changes
+
+
