@@ -8,7 +8,7 @@
     :root{
       --bg:#0b0c10; --panel:#111318; --card:#171a21; --border:#242835;
       --text:#e8edf4; --muted:#9aa4b2; --accent:#6ea8fe; --accent-2:#8b5cf6;
-      --good:#22c55e; --shadow: 0 10px 30px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.03);
+      --good:#22c55e; --shadow: 0 10px 30px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.03); --status:#9b7edf;
       --radius:16px;
     }
     *{box-sizing:border-box}
@@ -31,7 +31,7 @@
     .grid{display:grid; gap:12px}
     .grid.cols-2{grid-template-columns: 1fr 1fr}
     @media (max-width:800px){ .grid.cols-2{grid-template-columns:1fr} }
-    label{font-size:12px; color:var(--muted); display:block; margin:0 0 6px 4px}
+    label{font-size:14px; color:var(--muted); display:block; margin:0 0 6px 4px; font-weight: 600;}
     .input, .select, textarea{
       width:100%; border-radius:12px; border:1px solid var(--border);
       background:#0f1218; color:var(--text); padding:12px 12px; outline:none;
@@ -54,14 +54,17 @@
       padding:8px 12px; border-radius:999px; font-size:12px; color:var(--muted)}
     .spinner{width:14px; height:14px; border:2px solid rgba(255,255,255,.25); border-top-color:#fff; border-radius:50%; animation:spin .8s linear infinite}
     @keyframes spin{to{transform:rotate(360deg)}}
-    .status{font-size:12px; color:var(--muted); margin:6px 0 0 2px}
+    .status{font-size:12px; color:var(--status); margin:6px 0 0 2px}
   </style>
 </head>
 <body>
   <div class="container">
     <div class="card">
-      <h1>n8n Workflow Builder (RAG)</h1>
-      <p class="lead">Describe what you want; we’ll retrieve examples from your corpus and generate importable n8n JSON.</p>
+      <h1>n8n Workflow Builder</h1>
+        <p class="lead">Describe what you want; we’ll retrieve examples from our corpus and generate importable n8n JSON.
+        <br>
+        <small class="status"><b style="font-weight: bold;">Tip:</b> use a preset, then tweak the prompt to describe your workflow.</small>
+      </p>
 
       <!-- Provider + API key -->
       <div class="grid cols-2" style="margin-bottom:10px">
@@ -77,16 +80,12 @@
           <label for="model">Model</label>
           <select id="model" class="select" aria-label="Model"></select>
         </div>
-        <div style="display:flex; align-items:center; gap:10px; margin-top:24px;">
-          <input type="checkbox" id="preferLatest" />
-          <label for="preferLatest" style="margin:0;">Prefer latest docs (stricter)</label>
-        </div>
       </div>
 
       <!-- Presets -->
       <div class="grid" style="margin-bottom:10px">
         <div>
-          <label for="presets">Prompt presets</label>
+          <label for="presets">Prompt Presets (Optional)</label>
           <select id="presets" class="select" aria-label="Prompt presets">
             <option value="">— Choose a preset —</option>
             <option>Webhook → fetch Airtable records → transform with JS → post to Slack</option>
@@ -101,17 +100,20 @@
       <!-- Prompt -->
       <div class="grid" style="margin-bottom:12px">
         <div>
-          <label for="prompt">Describe the workflow</label>
+          <label for="prompt">Workflow Prompt</label>
           <textarea id="prompt">Pick a random Wikipedia page, summarize it with an LLM, and post to Slack.</textarea>
         </div>
       </div>
 
+
       <!-- Actions -->
       <div class="toolbar" style="margin-bottom:14px">
         <button id="gen" class="btn btn-primary">Generate</button>
+        <button id="refine" class="btn">Refine Prompt</button>
         <button id="download" class="btn" disabled>Download .json</button>
         <button id="copy" class="btn" disabled>Copy JSON</button>
       </div>
+
 
       <!-- Output -->
       <label for="out">Result</label>
@@ -122,7 +124,6 @@
           <span class="spinner" id="spin" style="display:none"></span>
           <span id="status">Ready.</span>
         </div>
-        <small class="status">Tip: use a preset, then tweak the description.</small>
       </div>
     </div>
   </div>
@@ -173,7 +174,33 @@ document.getElementById('presets').addEventListener('change', (e) => {
   if (!e.target.value) return;
   document.getElementById('prompt').value = e.target.value;
 });
+
 document.addEventListener('DOMContentLoaded', initModels);
+document.getElementById('refine').onclick = async () => {
+  const btn = document.getElementById('refine');
+  btn.disabled = true; btn.classList.add('muted'); btn.textContent = 'Refining…';
+  setStatus('Refining prompt…', true);
+  try {
+    const prompt = document.getElementById('prompt').value;
+    const res = await fetch('/refine_prompt', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt })
+    });
+    if (!res.ok) throw new Error('Failed to refine prompt');
+    const data = await res.json();
+    if (data.refined) {
+      document.getElementById('prompt').value = data.refined;
+      setStatus('Prompt refined.', false);
+    } else {
+      setStatus('No refinement returned.', false);
+    }
+  } catch (e) {
+    setStatus('Refine failed.', false);
+  } finally {
+    btn.disabled = false; btn.classList.remove('muted'); btn.textContent = 'Refine Prompt';
+  }
+};
 
 function setStatus(msg, spinning=false) {
   document.getElementById('status').textContent = msg || '';
@@ -194,7 +221,7 @@ async function call(path, body, signal) {
       "Content-Type": "application/json",
       "X-Provider": document.getElementById('provider').value,
       "X-Model":    document.getElementById('model').value,
-      "X-Prefer-Latest": document.getElementById('preferLatest').checked ? "true" : "false",
+  // "X-Prefer-Latest": document.getElementById('preferLatest')?.checked ? "true" : "false",
       "X-Request-Id": String(Date.now())
     },
     body: JSON.stringify(body),

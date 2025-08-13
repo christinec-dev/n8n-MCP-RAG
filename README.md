@@ -2,7 +2,14 @@
 
 This tool generates importable n8n workflows from plain English descriptions, using Retrieval-Augmented Generation (RAG) to reduce hallucinations and match your style. It supports OpenAI, Anthropic, Google Gemini, and Ollama/LM Studio via OpenAI-compatible endpoints.
 
+
 **Now with [LangWatch](https://langwatch.ai/) integration for monitoring RAG performance!**
+
+**✨ New Features (2025):**
+- **Prompt Refinement Button:** Instantly rewrite and clarify your workflow prompt using AI best practices—just click "Refine Prompt" in the UI.
+- **Flexible Prompt Input:** Enter either plain English or structured JSON (with fields like `goal`, `triggers`, `integrations`, etc.) for more control.
+- **Automatic Prompt Rewriting:** Short or ambiguous prompts are automatically expanded by the AI for better workflow generation.
+- **Distributed Caching:** Fast repeated generations and retrievals, even across multiple servers, using Redis (or in-memory fallback).
 
 ## Key Features
 - **RAG Implementation**: Retrieves relevant chunks from indexed docs/workflows before generating.
@@ -81,7 +88,7 @@ LANGWATCH_API_KEY=your-langwatch-api-key
    ```
    The app runs on `http://localhost:8000` by default.
 
-2. Access the UI at `http://localhost:8000/ui`.
+2. Access the UI (the actual app) at `http://localhost:8000/ui`.
 
 ### Indexing Your Data
 - **One-Time Local Indexing**:
@@ -95,23 +102,34 @@ LANGWATCH_API_KEY=your-langwatch-api-key
   curl -X POST "http://localhost:8000/reindex" -H "X-Admin-Token: your-admin-token"
   ```
 
+
 ## Using the Application
-- **UI Interaction**: Describe your workflow in plain English, select a provider and model, and generate the workflow JSON.
+- **UI Interaction**:
+  - Describe your workflow in plain English, or use structured JSON for advanced control.
+  - Use the **Refine Prompt** button to rewrite your prompt for clarity and best practices before generating.
+  - Select a provider and model, then generate the workflow JSON.
+- **Prompt Flexibility**:
+  - Supports both freeform text and structured JSON input (e.g., `{ "goal": "...", "triggers": ["..."], "integrations": ["..."] }`).
+  - Short or vague prompts are automatically rewritten by the AI for better results.
 - **Endpoints**:
   - `GET /health`: Check server status.
   - `GET /search?q=...`: Retrieve context snippets (for debugging).
   - `POST /generate`: Submit a prompt and get the generated workflow JSON.
   - `POST /ui_generate`: Same as `/generate` but accepts provider/model/API key headers.
+  - `POST /refine_prompt`: Refine/rewrite a prompt using the same AI logic as the UI button.
 
 ## LangWatch Monitoring
 - When `LANGWATCH_API_KEY` is set, all RAG requests and responses are automatically logged to LangWatch.
 - Use the [LangWatch dashboard](https://app.langwatch.ai/) to monitor, analyze, and improve your RAG pipeline.
 
+
 ## Troubleshooting
+- **Prompt Not Improving?**: Use the Refine Prompt button to rewrite your input, or try structured JSON for more control.
 - **Model Errors**: Use a stronger model (e.g., `gpt-4o` or `claude-3-5-sonnet`) or clarify your prompt.
 - **Indexing Issues**: Ensure your Chroma token and settings are correct. Stop the container and rebuild if needed.
 - **Docker Problems**: Verify Docker is running and network settings are correct.
 - **LangWatch Issues**: Check your `LANGWATCH_API_KEY` and network connectivity.
+- **Cache Not Working?**: Make sure Redis is running and `REDIS_URL` is set, or fallback to in-memory cache.
 
 ## Security Notes
 - API keys are sent per request via headers and not stored on the server.

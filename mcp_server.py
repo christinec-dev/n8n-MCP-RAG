@@ -1,5 +1,12 @@
+# ---------------------------
+# Prompt refinement endpoint (must be after app = FastAPI(...))
+# ---------------------------
+from fastapi import Body
+
 # mcp_server.py
 import re
+import functools
+import hashlib
 import json
 import langwatch
 import os, subprocess, sys
@@ -15,6 +22,20 @@ ALLOW_UI_KEYS = os.getenv("ALLOW_UI_KEYS", "false").lower() in ("1","true","yes"
 # FastAPI app
 # ---------------------------
 app = FastAPI(title="n8n RAG Server")
+
+# ---------------------------
+# Prompt refinement endpoint (must be after app = FastAPI(...))
+# ---------------------------
+from fastapi import Body
+
+@app.post("/refine_prompt")
+def refine_prompt(prompt: str = Body(..., embed=True)):
+    """Refine/rewrite a prompt using the LLM-based rewrite_prompt function."""
+    try:
+        refined = rewrite_prompt(prompt)
+        return {"refined": refined}
+    except Exception as e:
+        return {"error": str(e)}
 MIN_CONTEXT_HITS = int(os.getenv("MIN_CONTEXT_HITS", "2"))
 REQUIRE_CONTEXT  = os.getenv("REQUIRE_CONTEXT","false").lower() in ("1","true","yes")
 QUERY_EXPANSION  = os.getenv("QUERY_EXPANSION","true").lower() in ("1","true","yes")
@@ -79,8 +100,31 @@ def tcount(s: str) -> int:
 # ---------------------------
 # Retrieval & prompt building
 # ---------------------------
+
+# --- Hybrid search: vector + keyword ---
+def keyword_search(collection, query, n_results=RETRIEVE_K):
+    # Try to match query as substring in text or source metadata
+    try:
+        # ChromaDB 0.4.x/0.5.x: use where filter for metadata, fallback to text search
+        # This is a simple filter; for more advanced, use external search or re-rank
+        res = collection.query(
+            query_texts=[query],
+            n_results=n_results,
+            where={"$or": [
+                {"source": {"$contains": query}},
+                {"text": {"$contains": query}}
+            ]}
+        )
+        docs = res.get("documents", [[]])[0]
+        metas = res.get("metadatas", [[]])[0]
+        return [{"source": (m or {}).get("source"), "text": t} for m, t in zip(metas, docs)]
+    except Exception:
+        # fallback: return empty
+        return []
+
+@functools.lru_cache(maxsize=128)
 def _inner_retrieve(q: str):
-    # 1) first pass
+    # 1) vector search
     w1 = WF.query(query_texts=[q], n_results=RETRIEVE_K)
     d1 = DOCS.query(query_texts=[q], n_results=RETRIEVE_K)
 
@@ -92,23 +136,39 @@ def _inner_retrieve(q: str):
     wf_hits = pack(w1)
     doc_hits = pack(d1)
 
-    # 2) widen if too few hits
+    # 2) keyword search (hybrid)
+    wf_kw = keyword_search(WF, q, n_results=RETRIEVE_K)
+    doc_kw = keyword_search(DOCS, q, n_results=RETRIEVE_K)
+
+    # 3) merge and deduplicate (by text)
+    def dedup(items):
+        seen = set()
+        out = []
+        for h in items:
+            t = h["text"]
+            if t and t not in seen:
+                seen.add(t)
+                out.append(h)
+        return out
+
+    wf_hits = dedup(wf_hits + wf_kw)
+    doc_hits = dedup(doc_hits + doc_kw)
+
+    # 4) widen if too few hits (vector expansion)
     if (len(wf_hits) + len(doc_hits)) < MIN_CONTEXT_HITS:
         widened = []
         for qq in expand_queries(q):
             r = WF.query(query_texts=[qq], n_results=RETRIEVE_K * 2)
             widened += pack(r)
-        seen = set()
-        wf_hits += [h for h in widened if not (h["text"] in seen or seen.add(h["text"]))]
+        wf_hits = dedup(wf_hits + widened)
 
         widened = []
         for qq in expand_queries(q):
             r = DOCS.query(query_texts=[qq], n_results=RETRIEVE_K * 2)
             widened += pack(r)
-        seen = set()
-        doc_hits += [h for h in widened if not (h["text"] in seen or seen.add(h["text"]))]
+        doc_hits = dedup(doc_hits + widened)
 
-    # 3) enforce policy
+    # 5) enforce policy
     if (len(wf_hits) + len(doc_hits)) == 0 and REQUIRE_CONTEXT:
         raise HTTPException(status_code=422, detail="No matching context found. Refine your request or reindex new files.")
 
@@ -157,8 +217,47 @@ def pack_context(wf_chunks: List[Dict], doc_chunks: List[Dict], budget_tokens: i
             parts.append(chunk); used += c
     return "".join(parts)
 
-def build_prompt(goal: str, context: str) -> str:
-    return f"""
+
+# --- Flexible prompt builder ---
+def build_prompt_flexible(prompt_input, context: str) -> str:
+    # If prompt_input is a dict, use structured fields; else treat as plain text goal
+    if isinstance(prompt_input, dict):
+        goal = prompt_input.get("goal") or prompt_input.get("description") or ""
+        triggers = prompt_input.get("triggers")
+        integrations = prompt_input.get("integrations")
+        steps = prompt_input.get("steps")
+        constraints = prompt_input.get("constraints")
+        extras = []
+        if triggers:
+            extras.append(f"TRIGGERS: {triggers}")
+        if integrations:
+            extras.append(f"INTEGRATIONS: {integrations}")
+        if steps:
+            extras.append(f"STEPS: {steps}")
+        if constraints:
+            extras.append(f"CONSTRAINTS: {constraints}")
+        extras_str = "\n".join(extras)
+        return f"""
+Use the examples and docs below to produce a single **valid n8n workflow JSON** that satisfies the goal and requirements.
+
+CONTEXT:
+{context}
+
+REQUIREMENTS:
+- Output ONLY a single JSON object (no code fences, markdown, or commentary).
+- Must include \"nodes\" and \"connections\" (and anything else n8n needs).
+- Prefer official node names (e.g., HTTP Request, Slack, Airtable).
+- Use placeholders for credentials; do not embed secrets.
+- If you need clarification, include a single string field \"notes\" INSIDE the JSON with your question. Do NOT write anything outside the JSON.
+
+{extras_str}
+
+GOAL:
+{goal}
+""".strip()
+    else:
+        # fallback: treat as plain text goal
+        return f"""
 Use the examples and docs below to produce a single **valid n8n workflow JSON** that satisfies the goal.
 
 CONTEXT:
@@ -166,13 +265,13 @@ CONTEXT:
 
 REQUIREMENTS:
 - Output ONLY a single JSON object (no code fences, markdown, or commentary).
-- Must include "nodes" and "connections" (and anything else n8n needs).
+- Must include \"nodes\" and \"connections\" (and anything else n8n needs).
 - Prefer official node names (e.g., HTTP Request, Slack, Airtable).
 - Use placeholders for credentials; do not embed secrets.
-- If you need clarification, include a single string field "notes" INSIDE the JSON with your question. Do NOT write anything outside the JSON.
+- If you need clarification, include a single string field \"notes\" INSIDE the JSON with your question. Do NOT write anything outside the JSON.
 
 GOAL:
-{goal}
+{prompt_input}
 """.strip()
 
 
@@ -193,8 +292,17 @@ def extract_json(text: str) -> str:
 # ---------------------------
 # LLM call (OpenAI / Claude / Gemini)
 # ---------------------------
+
+# --- LLM output cache ---
+_llm_cache = {}
+
 @langwatch.span(type="llm", name="completion")
 def llm_complete(prompt: str) -> str:
+    # Use a hash of the prompt as the cache key
+    key = hashlib.sha256(prompt.encode("utf-8")).hexdigest()
+    if key in _llm_cache:
+        return _llm_cache[key]
+
     provider = os.getenv("PROVIDER", "openai").lower()
 
     if provider == "openai":
@@ -212,7 +320,6 @@ def llm_complete(prompt: str) -> str:
         r = oai.chat.completions.create(model=model, temperature=0.2, messages=messages)
         text = r.choices[0].message.content or ""
 
-        # Attach model, input/output, token metrics (if present)
         langwatch.get_current_span().update(
             model=f"openai/{model}",
             input=messages,
@@ -222,6 +329,7 @@ def llm_complete(prompt: str) -> str:
                 "completion_tokens": getattr(r, "usage", None) and r.usage.completion_tokens or None,
             },
         )
+        _llm_cache[key] = text
         return text
 
     elif provider == "anthropic":
@@ -244,12 +352,12 @@ def llm_complete(prompt: str) -> str:
             input=[{"role":"system","content":"You are an n8n workflow generator. Return ONLY a single valid JSON object."},
                 {"role":"user","content":prompt}],
             output=_truncate(text, 6000),
-            # Anthropic returns usage in msg.usage if enabled for your key; guard if absent
             metrics={
                 "prompt_tokens": getattr(msg, "usage", None) and msg.usage.input_tokens or None,
                 "completion_tokens": getattr(msg, "usage", None) and msg.usage.output_tokens or None,
             },
         )
+        _llm_cache[key] = text
         return text
 
     elif provider == "gemini":
@@ -267,7 +375,11 @@ def llm_complete(prompt: str) -> str:
             input=prompt,
             output=_truncate(text, 6000),
         )
-        return text   # <-- add this
+        _llm_cache[key] = text
+        return text
+
+    _llm_cache[key] = ""
+    return ""
 
 # ---------------------------
 # API models
@@ -298,10 +410,37 @@ def search(q: str = Query(..., description="query"),
 
 @app.post("/generate")
 @langwatch.trace(name="generate_workflow", metadata={"service": "n8n-rag"})
+
 def generate(req: GenReq):
     current = langwatch.get_current_trace()
+    # Try to parse prompt as JSON for structured input, else fallback to plain text
+    prompt_input = req.prompt
+    parsed = None
+    if isinstance(prompt_input, str):
+        try:
+            parsed = json.loads(prompt_input)
+        except Exception:
+            parsed = prompt_input
+    else:
+        parsed = prompt_input
+
+    # --- Prompt rewriting step for plain text or ambiguous input ---
+    rewritten = None
+    if isinstance(parsed, dict):
+        retrieval_query = parsed.get("goal") or parsed.get("description") or ""
+        # If goal/description is short, rewrite it
+        if retrieval_query and len(retrieval_query.split()) < 8:
+            retrieval_query = rewrite_prompt(retrieval_query)
+            parsed["goal"] = retrieval_query
+    else:
+        # If plain text and short, rewrite
+        retrieval_query = str(parsed)
+        if retrieval_query and len(retrieval_query.split()) < 8:
+            retrieval_query = rewrite_prompt(retrieval_query)
+            parsed = retrieval_query
+
     current.update(
-        input=req.prompt,
+        input=prompt_input,
         metadata={
             "retrieve_k": RETRIEVE_K,
             "min_context_hits": MIN_CONTEXT_HITS,
@@ -314,11 +453,11 @@ def generate(req: GenReq):
         },
     )
     # 1) retrieve
-    wf_ctx, doc_ctx = retrieve(req.prompt)
+    wf_ctx, doc_ctx = retrieve(retrieval_query)
     context = pack_context(wf_ctx, doc_ctx, budget_tokens=4000)
 
     # 2) prompt + call model
-    prompt = build_prompt(req.prompt, context)
+    prompt = build_prompt_flexible(parsed, context)
     out = llm_complete(prompt)
 
     # 3) parse / validate
@@ -393,3 +532,51 @@ def _check_keys():
     if provider == "gemini" and not os.getenv("GOOGLE_API_KEY"):
         raise RuntimeError("Missing GOOGLE_API_KEY.")
 
+# --- Prompt rewriting/expansion using LLM ---
+def rewrite_prompt(raw_prompt: str) -> str:
+    """
+    Use the LLM to clarify and expand short or ambiguous prompts into actionable workflow instructions.
+    """
+    system_msg = (
+        "You are an expert workflow designer. Rewrite the user's request as a clear, actionable workflow goal for an automation system. "
+        "Be specific about triggers, steps, and outputs if possible. Do not add commentary."
+    )
+    prompt = f"USER REQUEST: {raw_prompt}\n\nRewrite as a clear workflow goal:"
+    provider = os.getenv("PROVIDER", "openai").lower()
+    # Use the same LLM as for generation, but with a different system prompt
+    if provider == "openai":
+        from openai import OpenAI
+        oai = OpenAI(
+            api_key=os.getenv("OPENAI_API_KEY"),
+            base_url=os.getenv("OPENAI_BASE_URL"),
+        )
+        model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        messages = [
+            {"role": "system", "content": system_msg},
+            {"role": "user", "content": prompt},
+        ]
+        r = oai.chat.completions.create(model=model, temperature=0.2, messages=messages)
+        return r.choices[0].message.content.strip()
+    elif provider == "anthropic":
+        import anthropic
+        api_key = os.getenv("ANTHROPIC_API_KEY")
+        client_a = anthropic.Anthropic(api_key=api_key)
+        model = os.getenv("ANTHROPIC_MODEL", "claude-3-5-sonnet-20240620")
+        msg = client_a.messages.create(
+            model=model,
+            temperature=0.2,
+            max_tokens=512,
+            system=system_msg,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return msg.content[0].text.strip() if msg.content else raw_prompt
+    elif provider == "gemini":
+        import google.generativeai as genai
+        api_key = os.getenv("GOOGLE_API_KEY")
+        genai.configure(api_key=api_key)
+        model_name = os.getenv("GEMINI_MODEL", "gemini-1.5-pro")
+        model = genai.GenerativeModel(model_name)
+        r = model.generate_content(prompt + "\n\nRewrite as a clear workflow goal.")
+        return getattr(r, "text", raw_prompt).strip()
+    else:
+        return raw_prompt
