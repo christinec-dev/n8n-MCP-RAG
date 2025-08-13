@@ -7,6 +7,6 @@ openai
 anthropic
 google-generativeai
 requests
-torch>=2.1.0
-transformers>=4.41.0
+torch
+transformers
 langwatch

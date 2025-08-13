@@ -2,7 +2,6 @@
 
 This tool generates importable n8n workflows from plain English descriptions, using Retrieval-Augmented Generation (RAG) to reduce hallucinations and match your style. It supports OpenAI, Anthropic, Google Gemini, and Ollama/LM Studio via OpenAI-compatible endpoints.
 
-
 **Now with [LangWatch](https://langwatch.ai/) integration for monitoring RAG performance!**
 
 **✨ New Features (2025):**
